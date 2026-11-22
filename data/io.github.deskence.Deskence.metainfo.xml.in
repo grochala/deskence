@@ -38,6 +38,11 @@
     <id>io.github.bettergnome.Desktop</id>
   </provides>
   <releases>
+    <release version="0.11.2" date="2026-11-22">
+      <description>
+        <p>Optional diagnostics for reports of a desktop and windows that stop taking clicks.</p>
+      </description>
+    </release>
     <release version="0.11.1" date="2026-11-22">
       <description>
         <p>Dock: dragging files onto the dock always ends cleanly, also when something fails during the drop.</p>
