@@ -1,3 +1,12 @@
+deskence (0.11.3) unstable; urgency=medium
+
+  * Start on the desktop: the session no longer stays without input, apart
+    from the dock, when GNOME's animations are off (for example in virtual
+    machines without 3D acceleration).
+  * Input diagnostics notice clicks over windows reaching the Shell.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sun, 22 Nov 2026 21:55:15 +0100
+
 deskence (0.11.2) unstable; urgency=medium
 
   * Dock: optional input diagnostics (DESKENCE_DEBUG=input) for a desktop

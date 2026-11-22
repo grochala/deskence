@@ -1,5 +1,5 @@
 Name:           deskence
-Version:        0.11.2
+Version:        0.11.3
 Release:        1%{?dist}
 Summary:        Dock, desktop icons and tray for GNOME
 
@@ -91,6 +91,12 @@ glib-compile-schemas --strict --dry-run %{buildroot}%{_datadir}/glib-2.0/schemas
 %config(noreplace) %{_sysconfdir}/xdg/autostart/deskence-migration.desktop
 
 %changelog
+* Sun Nov 22 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.11.3-1
+- Start on the desktop: the session no longer stays without input, apart
+  from the dock, when GNOME's animations are off (for example in virtual
+  machines without 3D acceleration)
+- Input diagnostics notice clicks over windows reaching the Shell
+
 * Sun Nov 22 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.11.2-1
 - Dock: optional input diagnostics (DESKENCE_DEBUG=input) for a desktop
   and windows that stop taking clicks

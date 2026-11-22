@@ -38,6 +38,11 @@
     <id>io.github.bettergnome.Desktop</id>
   </provides>
   <releases>
+    <release version="0.11.3" date="2026-11-22">
+      <description>
+        <p>Start on the desktop: after logging in, the desktop, the top bar and windows take clicks again when animations are off, for example in virtual machines without 3D acceleration; before, only the dock did until the overview was opened once.</p>
+      </description>
+    </release>
     <release version="0.11.2" date="2026-11-22">
       <description>
         <p>Optional diagnostics for reports of a desktop and windows that stop taking clicks.</p>

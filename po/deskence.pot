@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-22 20:36+0000\n"
+"POT-Creation-Date: 2026-11-22 20:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,42 +85,50 @@ msgstr ""
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:43
 msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
 "Optional diagnostics for reports of a desktop and windows that stop taking "
 "clicks."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
 msgid ""
 "Dock: dragging files onto the dock always ends cleanly, also when something "
 "fails during the drop."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
 msgid ""
 "Dock: drop files on an application to open them in it, or on a folder to "
 "copy or move them there; hold a file over a folder to open it and drop into "
 "one of its subfolders."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+#: data/io.github.deskence.Deskence.metainfo.xml.in:63
 msgid ""
 "Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
 "one place with checks for clashes, and copy or save a report for bug reports."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+#: data/io.github.deskence.Deskence.metainfo.xml.in:64
 msgid ""
 "Presets: undoing an applied preset restores only what it changed and keeps "
 "settings you changed afterwards."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
 msgid ""
 "Dock: unread counters and the progress of operations on application icons, "
 "for applications that report them."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
 msgid ""
 "Command line: check the state of each feature, turn features off and on, "
 "apply, import and export presets, restore defaults and collect diagnostics "
@@ -128,130 +136,130 @@ msgid ""
 "not work. See man deskence."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:66
+#: data/io.github.deskence.Deskence.metainfo.xml.in:71
 msgid ""
 "Restoring default settings no longer deletes a clipboard history that is "
 "kept after logging out."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:71
+#: data/io.github.deskence.Deskence.metainfo.xml.in:76
 msgid ""
 "Applications view: your own color and transparency for the highlight under "
 "the pointer on applications and application folders; hovering a folder no "
 "longer draws an outline."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:72
+#: data/io.github.deskence.Deskence.metainfo.xml.in:77
 msgid ""
 "Folders in the dock: the panel takes at most half of the screen height and "
 "scrolls through the whole folder, also with the keyboard, and returns to the "
 "earlier position after a subfolder."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:73
+#: data/io.github.deskence.Deskence.metainfo.xml.in:78
 msgid ""
 "Settings: clearer descriptions, better Polish wording and fewer clashing "
 "keyboard shortcuts."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:78
+#: data/io.github.deskence.Deskence.metainfo.xml.in:83
 msgid ""
 "Dock: a dock along the whole edge matches the top bar in the activities "
 "overview and the applications view; a short dock keeps its own look."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:79
+#: data/io.github.deskence.Deskence.metainfo.xml.in:84
 msgid ""
 "Applications view: folder tiles with your own color or transparency now "
 "clearly show hover, press, focus and selection."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:84
+#: data/io.github.deskence.Deskence.metainfo.xml.in:89
 msgid ""
 "Applications view: your own color and transparency for folder tiles such as "
 "“Utilities”."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+#: data/io.github.deskence.Deskence.metainfo.xml.in:90
 msgid ""
 "General: optionally start on the desktop instead of the activities overview "
 "after logging in."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+#: data/io.github.deskence.Deskence.metainfo.xml.in:91
 msgid ""
 "Dock: it now blends into the activities overview instead of forming a "
 "separate band."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:91
+#: data/io.github.deskence.Deskence.metainfo.xml.in:96
 msgid ""
 "Project homepage and bug tracker links, English documentation. No changes to "
 "the application."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:96
+#: data/io.github.deskence.Deskence.metainfo.xml.in:101
 msgid ""
 "Settings: a General page with presets, exporting and importing settings and "
 "restoring defaults; an Applications View page with alphabetical sorting; "
 "calmer previews."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:97
+#: data/io.github.deskence.Deskence.metainfo.xml.in:102
 msgid ""
 "Dock: folders that show their contents, closing and peeking at windows from "
 "their previews, Always on Top in the preview menu."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+#: data/io.github.deskence.Deskence.metainfo.xml.in:103
 msgid ""
 "New: clipboard history, Keep Awake in the quick settings, an Always on Top "
 "shortcut."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:103
+#: data/io.github.deskence.Deskence.metainfo.xml.in:108
 msgid ""
 "Better GNOME Desktop is now called Deskence. Settings, enabled features, "
 "pinned applications and desktop icon positions are taken over."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:104
+#: data/io.github.deskence.Deskence.metainfo.xml.in:109
 msgid ""
 "Dock: previews of the windows of an application when the pointer rests on "
 "it, no extra space next to the applications button when icons are magnified, "
 "running indicators under the icons of a bottom dock."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+#: data/io.github.deskence.Deskence.metainfo.xml.in:110
 msgid ""
 "Settings: larger, clearer previews of the dock and the desktop icons, page "
 "icons, an “About” menu item."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:110
+#: data/io.github.deskence.Deskence.metainfo.xml.in:115
 msgid "Better GNOME Desktop is now called Deskence."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:115
+#: data/io.github.deskence.Deskence.metainfo.xml.in:120
 msgid ""
 "Dock: sharp magnified icons, no tiles under icons with a custom background, "
 "monochrome distribution logo, the application list kept at the start of a "
 "dock along the whole edge, running indicators on the inner side."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:116
+#: data/io.github.deskence.Deskence.metainfo.xml.in:121
 msgid ""
 "Applications view: one continuous closing transition, optional custom "
 "background color."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:117
+#: data/io.github.deskence.Deskence.metainfo.xml.in:122
 msgid ""
 "Desktop: menus open at the clicked point, also beside the dock; the icon "
 "grid starts at the chosen corner with small margins."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:122
+#: data/io.github.deskence.Deskence.metainfo.xml.in:127
 msgid ""
 "Dock: applications button at either end with a choice of icon, magnified "
 "icons, scrolling when the applications do not fit, custom background color "
@@ -259,20 +267,20 @@ msgid ""
 "background for the applications view."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+#: data/io.github.deskence.Deskence.metainfo.xml.in:128
 msgid ""
 "Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
 "the whole desktop beside the dock usable, icon positions that do not move "
 "with the dock."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+#: data/io.github.deskence.Deskence.metainfo.xml.in:129
 msgid ""
 "Fixes: smooth closing of the applications view, immediate reordering of dock "
 "icons, no frame while dragging desktop icons, one desktop menu everywhere."
 msgstr ""
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:129
+#: data/io.github.deskence.Deskence.metainfo.xml.in:134
 msgid "First release."
 msgstr ""
 
