@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-22 20:55+0000\n"
+"POT-Creation-Date: 2026-11-22 21:51+0000\n"
 "PO-Revision-Date: 2026-11-21 20:00+0100\n"
 "Last-Translator: Rafał Grochala <rafal.grochala@pixmedia.pl>\n"
 "Language-Team: Polish\n"
@@ -91,6 +91,26 @@ msgstr "Działa w bieżącej sesji GNOME i zachowuje standardowy wygląd GNOME."
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:43
 msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Dock: przeciągaj pliki i foldery z panelu folderu na inny folder w docku lub "
+"na pulpit, aby je przenieść lub skopiować."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:44
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Dock: aplikacje otwierają upuszczone pliki tylko tych typów, które "
+"deklarują; w przeciwnym razie dock wyjaśnia dlaczego."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:45
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr "Dock: znacznik pod folderami pasuje do kropek aplikacji."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:50
+msgid ""
 "Start on the desktop: after logging in, the desktop, the top bar and windows "
 "take clicks again when animations are off, for example in virtual machines "
 "without 3D acceleration; before, only the dock did until the overview was "
@@ -101,7 +121,7 @@ msgstr ""
 "maszynach wirtualnych bez akceleracji 3D; wcześniej reagował tylko dock, "
 "dopóki raz nie otwarto podglądu aktywności."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+#: data/io.github.deskence.Deskence.metainfo.xml.in:55
 msgid ""
 "Optional diagnostics for reports of a desktop and windows that stop taking "
 "clicks."
@@ -109,7 +129,7 @@ msgstr ""
 "Opcjonalna diagnostyka do zgłoszeń, gdy pulpit i okna przestają reagować na "
 "kliknięcia."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
 msgid ""
 "Dock: dragging files onto the dock always ends cleanly, also when something "
 "fails during the drop."
@@ -117,7 +137,7 @@ msgstr ""
 "Dock: przeciąganie plików na dock zawsze kończy się poprawnie, także gdy coś "
 "zawiedzie podczas upuszczania."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
 msgid ""
 "Dock: drop files on an application to open them in it, or on a folder to "
 "copy or move them there; hold a file over a folder to open it and drop into "
@@ -127,7 +147,7 @@ msgstr ""
 "je tam skopiować lub przenieść; przytrzymaj plik nad folderem, aby go "
 "otworzyć i upuścić do jednego z jego podfolderów."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:63
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
 msgid ""
 "Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
 "one place with checks for clashes, and copy or save a report for bug reports."
@@ -136,7 +156,7 @@ msgstr ""
 "klawiszowe w jednym miejscu ze sprawdzaniem konfliktów oraz kopiowanie lub "
 "zapisywanie raportu do zgłoszenia błędu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:64
+#: data/io.github.deskence.Deskence.metainfo.xml.in:71
 msgid ""
 "Presets: undoing an applied preset restores only what it changed and keeps "
 "settings you changed afterwards."
@@ -144,7 +164,7 @@ msgstr ""
 "Presety: cofnięcie zastosowanego presetu przywraca tylko to, co zmienił, i "
 "zachowuje ustawienia zmienione później."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+#: data/io.github.deskence.Deskence.metainfo.xml.in:72
 msgid ""
 "Dock: unread counters and the progress of operations on application icons, "
 "for applications that report them."
@@ -152,7 +172,7 @@ msgstr ""
 "Dock: liczniki nieprzeczytanych wiadomości i postęp operacji na ikonach "
 "aplikacji, które je zgłaszają."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+#: data/io.github.deskence.Deskence.metainfo.xml.in:77
 msgid ""
 "Command line: check the state of each feature, turn features off and on, "
 "apply, import and export presets, restore defaults and collect diagnostics "
@@ -164,7 +184,7 @@ msgstr ""
 "przywracać ustawienia domyślne i zbierać dane diagnostyczne – także z "
 "konsoli tekstowej, gdy pulpit nie działa. Zobacz man deskence."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:71
+#: data/io.github.deskence.Deskence.metainfo.xml.in:78
 msgid ""
 "Restoring default settings no longer deletes a clipboard history that is "
 "kept after logging out."
@@ -172,7 +192,7 @@ msgstr ""
 "Przywracanie ustawień domyślnych nie usuwa już historii schowka zachowywanej "
 "po wylogowaniu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:76
+#: data/io.github.deskence.Deskence.metainfo.xml.in:83
 msgid ""
 "Applications view: your own color and transparency for the highlight under "
 "the pointer on applications and application folders; hovering a folder no "
@@ -182,7 +202,7 @@ msgstr ""
 "na aplikacje i foldery aplikacji; najechanie na folder nie rysuje już "
 "obwódki."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:77
+#: data/io.github.deskence.Deskence.metainfo.xml.in:84
 msgid ""
 "Folders in the dock: the panel takes at most half of the screen height and "
 "scrolls through the whole folder, also with the keyboard, and returns to the "
@@ -192,7 +212,7 @@ msgstr ""
 "przewinąć cały folder, także klawiaturą, i po wyjściu z podfolderu wraca do "
 "poprzedniego miejsca."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:78
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
 msgid ""
 "Settings: clearer descriptions, better Polish wording and fewer clashing "
 "keyboard shortcuts."
@@ -200,7 +220,7 @@ msgstr ""
 "Ustawienia: jaśniejsze opisy, poprawione polskie teksty i mniej "
 "powtarzających się skrótów klawiaturowych."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:83
+#: data/io.github.deskence.Deskence.metainfo.xml.in:90
 msgid ""
 "Dock: a dock along the whole edge matches the top bar in the activities "
 "overview and the applications view; a short dock keeps its own look."
@@ -208,7 +228,7 @@ msgstr ""
 "Dock: dock na całą krawędź w podglądzie aktywności i widoku aplikacji ma "
 "wygląd górnego panelu; krótki dock zachowuje swój wygląd."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:84
+#: data/io.github.deskence.Deskence.metainfo.xml.in:91
 msgid ""
 "Applications view: folder tiles with your own color or transparency now "
 "clearly show hover, press, focus and selection."
@@ -216,7 +236,7 @@ msgstr ""
 "Widok aplikacji: kafelki folderów z własnym kolorem lub przezroczystością "
 "wyraźnie pokazują najechanie, wciśnięcie, fokus i zaznaczenie."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:89
+#: data/io.github.deskence.Deskence.metainfo.xml.in:96
 msgid ""
 "Applications view: your own color and transparency for folder tiles such as "
 "“Utilities”."
@@ -224,7 +244,7 @@ msgstr ""
 "Widok aplikacji: własny kolor i przezroczystość kafelków folderów, takich "
 "jak „Narzędzia”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:90
+#: data/io.github.deskence.Deskence.metainfo.xml.in:97
 msgid ""
 "General: optionally start on the desktop instead of the activities overview "
 "after logging in."
@@ -232,14 +252,14 @@ msgstr ""
 "Ogólne: opcjonalnie po zalogowaniu zaczynaj na pulpicie zamiast w podglądzie "
 "aktywności."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:91
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
 msgid ""
 "Dock: it now blends into the activities overview instead of forming a "
 "separate band."
 msgstr ""
 "Dock: w podglądzie aktywności stapia się z tłem zamiast tworzyć osobny pas."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:96
+#: data/io.github.deskence.Deskence.metainfo.xml.in:103
 msgid ""
 "Project homepage and bug tracker links, English documentation. No changes to "
 "the application."
@@ -247,7 +267,7 @@ msgstr ""
 "Odnośniki do strony projektu i zgłaszania błędów, dokumentacja po angielsku. "
 "Bez zmian w aplikacji."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:101
+#: data/io.github.deskence.Deskence.metainfo.xml.in:108
 msgid ""
 "Settings: a General page with presets, exporting and importing settings and "
 "restoring defaults; an Applications View page with alphabetical sorting; "
@@ -257,7 +277,7 @@ msgstr ""
 "przywracaniem domyślnych; strona „Widok aplikacji” z sortowaniem "
 "alfabetycznym; spokojniejsze podglądy."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:102
+#: data/io.github.deskence.Deskence.metainfo.xml.in:109
 msgid ""
 "Dock: folders that show their contents, closing and peeking at windows from "
 "their previews, Always on Top in the preview menu."
@@ -265,7 +285,7 @@ msgstr ""
 "Dock: foldery pokazujące swoją zawartość, zamykanie i podejrzenie okien z "
 "ich podglądów, „Zawsze na wierzchu” w menu podglądu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:103
+#: data/io.github.deskence.Deskence.metainfo.xml.in:110
 msgid ""
 "New: clipboard history, Keep Awake in the quick settings, an Always on Top "
 "shortcut."
@@ -273,7 +293,7 @@ msgstr ""
 "Nowe: historia schowka, „Nie usypiaj” w szybkich ustawieniach, skrót „Zawsze "
 "na wierzchu”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:108
+#: data/io.github.deskence.Deskence.metainfo.xml.in:115
 msgid ""
 "Better GNOME Desktop is now called Deskence. Settings, enabled features, "
 "pinned applications and desktop icon positions are taken over."
@@ -281,7 +301,7 @@ msgstr ""
 "Better GNOME Desktop nazywa się teraz Deskence. Ustawienia, włączone "
 "funkcje, przypięte aplikacje i położenia ikon pulpitu zostają przeniesione."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:109
+#: data/io.github.deskence.Deskence.metainfo.xml.in:116
 msgid ""
 "Dock: previews of the windows of an application when the pointer rests on "
 "it, no extra space next to the applications button when icons are magnified, "
@@ -291,7 +311,7 @@ msgstr ""
 "dodatkowego odstępu obok przycisku aplikacji przy powiększaniu ikon, "
 "wskaźniki uruchomienia pod ikonami docka na dole ekranu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:110
+#: data/io.github.deskence.Deskence.metainfo.xml.in:117
 msgid ""
 "Settings: larger, clearer previews of the dock and the desktop icons, page "
 "icons, an “About” menu item."
@@ -299,11 +319,11 @@ msgstr ""
 "Ustawienia: większe i czytelniejsze podglądy docka oraz ikon pulpitu, ikony "
 "stron, pozycja menu „O programie”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:115
+#: data/io.github.deskence.Deskence.metainfo.xml.in:122
 msgid "Better GNOME Desktop is now called Deskence."
 msgstr "Better GNOME Desktop nazywa się teraz Deskence."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:120
+#: data/io.github.deskence.Deskence.metainfo.xml.in:127
 msgid ""
 "Dock: sharp magnified icons, no tiles under icons with a custom background, "
 "monochrome distribution logo, the application list kept at the start of a "
@@ -313,7 +333,7 @@ msgstr ""
 "jednobarwne logo dystrybucji, lista aplikacji na początku docka na całą "
 "krawędź, wskaźniki uruchomienia po wewnętrznej stronie."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:121
+#: data/io.github.deskence.Deskence.metainfo.xml.in:128
 msgid ""
 "Applications view: one continuous closing transition, optional custom "
 "background color."
@@ -321,7 +341,7 @@ msgstr ""
 "Widok aplikacji: jedno płynne przejście przy zamykaniu, opcjonalny własny "
 "kolor tła."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:122
+#: data/io.github.deskence.Deskence.metainfo.xml.in:129
 msgid ""
 "Desktop: menus open at the clicked point, also beside the dock; the icon "
 "grid starts at the chosen corner with small margins."
@@ -329,7 +349,7 @@ msgstr ""
 "Pulpit: menu otwierają się w klikniętym miejscu, także obok docka; siatka "
 "ikon zaczyna się w wybranym rogu z niewielkimi marginesami."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:127
+#: data/io.github.deskence.Deskence.metainfo.xml.in:134
 msgid ""
 "Dock: applications button at either end with a choice of icon, magnified "
 "icons, scrolling when the applications do not fit, custom background color "
@@ -341,7 +361,7 @@ msgstr ""
 "przezroczystość tła, ustawienia w menu przycisku aplikacji, przezroczyste "
 "tło widoku aplikacji."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:128
+#: data/io.github.deskence.Deskence.metainfo.xml.in:135
 msgid ""
 "Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
 "the whole desktop beside the dock usable, icon positions that do not move "
@@ -351,7 +371,7 @@ msgstr ""
 "„Uporządkuj do siatki”, cały pulpit obok docka do wykorzystania, położenia "
 "ikon niezależne od docka."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:129
+#: data/io.github.deskence.Deskence.metainfo.xml.in:136
 msgid ""
 "Fixes: smooth closing of the applications view, immediate reordering of dock "
 "icons, no frame while dragging desktop icons, one desktop menu everywhere."
@@ -360,7 +380,7 @@ msgstr ""
 "kolejności ikon docka, brak ramki przy przeciąganiu ikon pulpitu, jedno menu "
 "pulpitu wszędzie."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:134
+#: data/io.github.deskence.Deskence.metainfo.xml.in:141
 msgid "First release."
 msgstr "Pierwsze wydanie."
 
@@ -1396,7 +1416,7 @@ msgstr "Przesuń w górę"
 msgid "Move Down"
 msgstr "Przesuń w dół"
 
-#: src/deskence/pages.py:487 extensions/dock/stacks.js:336
+#: src/deskence/pages.py:487 extensions/dock/stacks.js:376
 msgid "Remove From Dock"
 msgstr "Usuń z docka"
 
@@ -1744,7 +1764,7 @@ msgstr "Spróbuj innych słów, na przykład nazwy funkcji."
 msgid "_Log Out…"
 msgstr "_Wyloguj…"
 
-#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:506
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
 #: src/deskence/presets.py:147
 msgid "Dock"
 msgstr "Dock"
@@ -2012,8 +2032,8 @@ msgstr "Pokaż ikony _na pulpicie"
 msgid "Desktop Folder"
 msgstr "Folder pulpitu"
 
-#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:329
-#: extensions/dock/stacks.js:512 extensions/dock/stacks.js:516
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:369
+#: extensions/dock/stacks.js:555 extensions/dock/stacks.js:559
 msgid "Open in Files"
 msgstr "Otwórz w Plikach"
 
@@ -2301,7 +2321,7 @@ msgstr "Nie można zezwolić na uruchamianie „{}”"
 msgid "Cannot open Settings"
 msgstr "Nie można otworzyć Ustawień"
 
-#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:77
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
 msgid "Cannot open Deskence"
 msgstr "Nie można otworzyć Deskence"
 
@@ -2473,22 +2493,23 @@ msgstr "Kosz"
 
 #: desktop-icons/deskence_desktop/window.py:193
 #: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
 msgid "Desktop"
 msgstr "Pulpit"
 
 #. Whatever the image, the icon is a square of the dock icon size, so
 #. the button keeps its size and the dock its alignment. Like the
 #. other icons it is rendered for its magnified size.
-#: extensions/dock/dock.js:251 extensions/dock/dock.js:261
-#: extensions/dock/dock.js:490
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
 msgid "Show Apps"
 msgstr "Pokaż aplikacje"
 
-#: extensions/dock/dock.js:283
+#: extensions/dock/dock.js:286
 msgid "Dock Settings"
 msgstr "Ustawienia docka"
 
-#: extensions/dock/locations.js:27 extensions/dock/stacks.js:103
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:108
 msgid "Could not open location"
 msgstr "Nie można otworzyć położenia"
 
@@ -2538,7 +2559,7 @@ msgid "All Presets"
 msgstr "Wszystkie presety"
 
 #: src/deskence/general.py:41 src/deskence/general.py:233
-#: extensions/dock/stacks.js:449
+#: extensions/dock/stacks.js:492
 msgid "Name"
 msgstr "Nazwa"
 
@@ -4055,62 +4076,62 @@ msgstr "_Wstrzymaj zapamiętywanie"
 msgid "New items are not added until this is turned off"
 msgstr "Nowe pozycje nie są dodawane, dopóki to jest włączone"
 
-#: extensions/dock/stacks.js:260 extensions/dock/stacks.js:421
+#: extensions/dock/stacks.js:290 extensions/dock/stacks.js:464
 #, javascript-format
 msgid "Folder %s"
 msgstr "Folder %s"
 
-#: extensions/dock/stacks.js:431
+#: extensions/dock/stacks.js:474
 msgid "Back"
 msgstr "Wstecz"
 
-#: extensions/dock/stacks.js:449
+#: extensions/dock/stacks.js:492
 msgid "Date"
 msgstr "Data"
 
-#: extensions/dock/stacks.js:450
+#: extensions/dock/stacks.js:493
 msgid "Type"
 msgstr "Typ"
 
-#: extensions/dock/stacks.js:456
+#: extensions/dock/stacks.js:499
 #, javascript-format
 msgid "Sort by %s"
 msgstr "Sortuj: %s"
 
-#: extensions/dock/stacks.js:678
+#: extensions/dock/stacks.js:721
 msgid "Show as Grid"
 msgstr "Pokaż jako siatkę"
 
-#: extensions/dock/stacks.js:678
+#: extensions/dock/stacks.js:721
 msgid "Show as List"
 msgstr "Pokaż jako listę"
 
-#: extensions/dock/stacks.js:704
+#: extensions/dock/stacks.js:747
 msgid "This standard folder is not set up."
 msgstr "Ten folder standardowy nie jest skonfigurowany."
 
-#: extensions/dock/stacks.js:708
+#: extensions/dock/stacks.js:751
 msgid "Loading…"
 msgstr "Wczytywanie…"
 
-#: extensions/dock/stacks.js:773
+#: extensions/dock/stacks.js:816
 msgid "This folder does not exist anymore."
 msgstr "Ten folder już nie istnieje."
 
-#: extensions/dock/stacks.js:775
+#: extensions/dock/stacks.js:818
 msgid "You do not have permission to open this folder."
 msgstr "Nie masz uprawnień do otwarcia tego folderu."
 
-#: extensions/dock/stacks.js:777
+#: extensions/dock/stacks.js:820
 #, javascript-format
 msgid "This folder cannot be opened: %s"
 msgstr "Nie można otworzyć tego folderu: %s"
 
-#: extensions/dock/stacks.js:841
+#: extensions/dock/stacks.js:888
 msgid "This folder is empty."
 msgstr "Ten folder jest pusty."
 
-#: extensions/dock/stacks.js:843
+#: extensions/dock/stacks.js:890
 #, javascript-format
 msgid ""
 "This folder has more than %d items; only the first ones are shown. Open it "
@@ -4119,81 +4140,107 @@ msgstr ""
 "Ten folder zawiera ponad %d elementów; wyświetlane są tylko pierwsze z nich. "
 "Otwórz go w Plikach, aby zobaczyć wszystkie."
 
-#: extensions/dock/stacks.js:1002
+#: extensions/dock/stacks.js:1085
 msgid "Folder"
 msgstr "Folder"
 
-#: extensions/dock/stacks.js:1077
+#: extensions/dock/stacks.js:1160
 #, javascript-format
 msgid "Could not open “%s”"
 msgstr "Nie można otworzyć „%s”"
 
-#: extensions/dock/fileDrop.js:387
-#, javascript-format
-msgid "%s cannot open files"
-msgstr "Aplikacja %s nie otwiera plików"
-
-#: extensions/dock/fileDrop.js:388
-#, javascript-format
-msgid "Open with %s"
-msgstr "Otwórz za pomocą: %s"
-
-#: extensions/dock/fileDrop.js:417
+#: extensions/dock/fileDrop.js:135
 #, javascript-format
 msgid "%s is not available"
 msgstr "Folder %s jest niedostępny"
 
-#: extensions/dock/fileDrop.js:419
+#: extensions/dock/fileDrop.js:137
 #, javascript-format
 msgid "%s is read-only"
 msgstr "Folder %s jest tylko do odczytu"
 
-#: extensions/dock/fileDrop.js:421
+#: extensions/dock/fileDrop.js:139
 msgid "A folder cannot be put into itself"
 msgstr "Nie można umieścić folderu w nim samym"
 
-#: extensions/dock/fileDrop.js:423
+#: extensions/dock/fileDrop.js:141
 #, javascript-format
 msgid "Already in %s"
 msgstr "Pliki są już w folderze %s"
 
-#: extensions/dock/fileDrop.js:425
+#: extensions/dock/fileDrop.js:143
 msgid "Only files can be put into a folder"
 msgstr "Do folderu można umieścić tylko pliki"
 
-#: extensions/dock/fileDrop.js:430
+#: extensions/dock/fileDrop.js:148
 #, javascript-format
 msgid "Move to %s"
 msgstr "Przenieś do folderu %s"
 
-#: extensions/dock/fileDrop.js:431
+#: extensions/dock/fileDrop.js:149
 #, javascript-format
 msgid "Copy to %s"
 msgstr "Skopiuj do folderu %s"
 
-#: extensions/dock/fileDrop.js:432
+#: extensions/dock/fileDrop.js:150
 #, javascript-format
 msgid "Move or copy to %s"
 msgstr "Przenieś lub skopiuj do folderu %s"
 
-#: extensions/dock/fileDrop.js:537
-#, javascript-format
-msgid "Cannot open the files in %s"
-msgstr "Nie można otworzyć plików za pomocą: %s"
-
-#: extensions/dock/fileDrop.js:554
+#: extensions/dock/fileDrop.js:168
 #, javascript-format
 msgid "Cannot move the files to %s"
 msgstr "Nie można przenieść plików do folderu %s"
 
-#: extensions/dock/fileDrop.js:554
+#: extensions/dock/fileDrop.js:168
 #, javascript-format
 msgid "Cannot copy the files to %s"
 msgstr "Nie można skopiować plików do folderu %s"
 
-#: extensions/dock/fileDrop.js:557
+#: extensions/dock/fileDrop.js:171
 msgid "Copying and moving files from the dock needs the Files application."
 msgstr "Kopiowanie i przenoszenie plików z docka wymaga aplikacji Pliki."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Nie można otworzyć plików za pomocą: %s"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Otwórz za pomocą: %s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "Aplikacja %s nie otwiera plików"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Nie można potwierdzić, że aplikacja %s obsługuje te pliki"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "%d plik jest już niedostępny"
+msgstr[1] "%d pliki są już niedostępne"
+msgstr[2] "%d plików jest już niedostępnych"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "Aplikacja %s nie obsługuje tego typu pliku"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "Aplikacja %s nie obsługuje %d z tych plików"
+msgstr[1] "Aplikacja %s nie obsługuje %d z tych plików"
+msgstr[2] "Aplikacja %s nie obsługuje %d z tych plików"
 
 #: extensions/dock/appIcon.js:95
 #, javascript-format

@@ -1,3 +1,12 @@
+deskence (0.12.0) unstable; urgency=medium
+
+  * Dock: files and folders can be dragged from a folder panel onto another
+    folder in the dock or onto the desktop.
+  * Dock: applications take dropped files only of types they declare.
+  * Dock: a clearer folder marker, matching the application dots.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sun, 22 Nov 2026 22:51:41 +0100
+
 deskence (0.11.3) unstable; urgency=medium
 
   * Start on the desktop: the session no longer stays without input, apart

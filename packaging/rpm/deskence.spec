@@ -1,5 +1,5 @@
 Name:           deskence
-Version:        0.11.3
+Version:        0.12.0
 Release:        1%{?dist}
 Summary:        Dock, desktop icons and tray for GNOME
 
@@ -91,6 +91,12 @@ glib-compile-schemas --strict --dry-run %{buildroot}%{_datadir}/glib-2.0/schemas
 %config(noreplace) %{_sysconfdir}/xdg/autostart/deskence-migration.desktop
 
 %changelog
+* Sun Nov 22 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.12.0-1
+- Dock: files and folders can be dragged from a folder panel onto another
+  folder in the dock or onto the desktop
+- Dock: applications take dropped files only of types they declare
+- Dock: a clearer folder marker, matching the application dots
+
 * Sun Nov 22 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.11.3-1
 - Start on the desktop: the session no longer stays without input, apart
   from the dock, when GNOME's animations are off (for example in virtual
