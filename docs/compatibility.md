@@ -46,6 +46,7 @@ Differences the code handles:
 | Command line (`deskence status` ...) | tested | not tested | not declared |
 | Settings search, shortcuts panel, preset undo, diagnostics (0.10.0) | tested | not tested | – |
 | Dock counters and progress (LauncherEntry) | tested with a synthetic sender | not tested | not declared |
+| Start on the desktop with animations off (fixed in 0.11.3) | tested (`startup-input.sh`) | tested headless in a container | not declared |
 | Files dropped on dock applications and folders (0.11.0) | tested with a GTK 4 test source | tested headless in a container | not declared |
 
 "Tested" means the checks in an isolated headless Wayland session listed

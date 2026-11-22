@@ -181,6 +181,18 @@ headless Wayland session.
   processes to the start value with no JavaScript errors in the log.
 - Polish and English interface.
 
+**Input after login (0.11.3)**: `tests/integration/startup-input.sh`
+restarts GNOME Shell of an isolated session with the dock (and the desktop
+icons) enabled, as at login, and checks that GNOME finished its startup
+(no input blocker left) and that a click on the top bar reaches it, for
+animations on and off and "Start on the desktop" on and off. On GNOME
+Shell 51.1 the version before the fix failed every start with animations
+off and the option on (6 of 6, and 3 of 3 by hand: only the dock took
+clicks; opening the applications view brought input back); with the fix
+6 of 6 and the whole matrix twice passed. On GNOME Shell 48.7 (container)
+the old version did not fail in 3 starts and the fixed one passed the
+matrix and 4 more starts of that combination.
+
 **Files dropped on the dock (0.11.0)**, GNOME Shell 51.1 headless with a
 small GTK 4 window as the drag source (a `Gdk.FileList`, as Files offers
 it), driven with the virtual pointer and keyboard:
@@ -283,7 +295,9 @@ resets: put `DESKENCE_DEBUG=input` (or `DESKENCE_DEBUG=input,dnd`) into
 problem shows, open and close the applications view once, then save
 `journalctl --user -b | grep 'Deskence input'`. The dock logs a few
 snapshots per session (enabled, startup complete and 3 s later, the first
-two times the overview is shown and hidden): which actor a click would
+two times the overview is shown and hidden, and, checked every 2 s at most
+20 times, whenever clicks over the windows start or stop reaching a Shell
+actor while the overview is closed): which actor a click would
 reach at points of every monitor, the Shell's grabs, modal count and action
 mode, the overview's and the layout's state, and the windows' application
 ids, types, layers and geometry, without window titles.

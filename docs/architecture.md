@@ -308,12 +308,21 @@ background.
     animation has not chosen yet, `Main.sessionMode.hasOverview` is false
     until `startup-complete` and the animation brings up the desktop
     instead of the overview. If it is already opening the overview (the
-    usual case in testing), the overview is hidden at once through the path
-    GNOME has for that (`Overview.runStartupAnimation`): the animation starts
-    from the full-size workspace with transparent controls, and the search
-    entry, the only control laid out in that state, is kept transparent
-    until the overview is hidden. Nothing is simulated and there is no
-    timeout. Outside the startup the module does nothing, so enabling or
+    usual case in testing), the overview is hidden through the path GNOME
+    has for that (`Overview.runStartupAnimation`), as soon as the overview
+    controls got their first allocation: the animation waits for it
+    (`ensureAllocation()`), a hidden overview is never allocated, and an
+    unfinished startup keeps GNOME's full-screen input blocker
+    (`layout.js _coverPane`) above the top bar, the desktop and the windows
+    (only the dock lies above it). Hiding at once did exactly that whenever
+    the hide finished before the allocation, for example always with
+    animations off (as GNOME Shell turns them off without hardware
+    acceleration), until the overview was opened once.
+    `tests/integration/startup-input.sh` checks real starts for this. Until
+    the allocation the overview shows the full-size workspace with
+    transparent controls, and the search entry, the only control laid out
+    in that state, is kept transparent until the overview is hidden.
+    Nothing is simulated and there is no timeout. Outside the startup the module does nothing, so enabling or
     reloading the dock, or unlocking the screen, never closes an overview.
     It lives in the dock extension because there is no always-running
     component; the General page says so while the dock is off.
