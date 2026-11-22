@@ -38,6 +38,11 @@
     <id>io.github.bettergnome.Desktop</id>
   </provides>
   <releases>
+    <release version="0.11.0" date="2026-11-22">
+      <description>
+        <p>Dock: drop files on an application to open them in it, or on a folder to copy or move them there; hold a file over a folder to open it and drop into one of its subfolders.</p>
+      </description>
+    </release>
     <release version="0.10.0" date="2026-11-22">
       <description>
         <p>Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in one place with checks for clashes, and copy or save a report for bug reports.</p>

@@ -1,3 +1,11 @@
+deskence (0.11.0) unstable; urgency=medium
+
+  * Dock: files dropped on an application open in it; files dropped on a
+    folder stack, or on a subfolder in its panel, are copied or moved there
+    through Files.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sun, 22 Nov 2026 20:59:23 +0100
+
 deskence (0.10.0) unstable; urgency=medium
 
   * Settings search, a keyboard shortcuts panel with clash checks and a

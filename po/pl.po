@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-22 19:54+0000\n"
+"POT-Creation-Date: 2026-11-22 19:59+0000\n"
 "PO-Revision-Date: 2026-11-21 20:00+0100\n"
 "Last-Translator: Rafał Grochala <rafal.grochala@pixmedia.pl>\n"
 "Language-Team: Polish\n"
@@ -91,6 +91,16 @@ msgstr "Działa w bieżącej sesji GNOME i zachowuje standardowy wygląd GNOME."
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:43
 msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Dock: upuść pliki na aplikację, aby je w niej otworzyć, albo na folder, aby "
+"je tam skopiować lub przenieść; przytrzymaj plik nad folderem, aby go "
+"otworzyć i upuścić do jednego z jego podfolderów."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
 "Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
 "one place with checks for clashes, and copy or save a report for bug reports."
 msgstr ""
@@ -98,7 +108,7 @@ msgstr ""
 "klawiszowe w jednym miejscu ze sprawdzaniem konfliktów oraz kopiowanie lub "
 "zapisywanie raportu do zgłoszenia błędu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:44
+#: data/io.github.deskence.Deskence.metainfo.xml.in:49
 msgid ""
 "Presets: undoing an applied preset restores only what it changed and keeps "
 "settings you changed afterwards."
@@ -106,7 +116,7 @@ msgstr ""
 "Presety: cofnięcie zastosowanego presetu przywraca tylko to, co zmienił, i "
 "zachowuje ustawienia zmienione później."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:45
+#: data/io.github.deskence.Deskence.metainfo.xml.in:50
 msgid ""
 "Dock: unread counters and the progress of operations on application icons, "
 "for applications that report them."
@@ -114,7 +124,7 @@ msgstr ""
 "Dock: liczniki nieprzeczytanych wiadomości i postęp operacji na ikonach "
 "aplikacji, które je zgłaszają."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:50
+#: data/io.github.deskence.Deskence.metainfo.xml.in:55
 msgid ""
 "Command line: check the state of each feature, turn features off and on, "
 "apply, import and export presets, restore defaults and collect diagnostics "
@@ -126,7 +136,7 @@ msgstr ""
 "przywracać ustawienia domyślne i zbierać dane diagnostyczne – także z "
 "konsoli tekstowej, gdy pulpit nie działa. Zobacz man deskence."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:51
+#: data/io.github.deskence.Deskence.metainfo.xml.in:56
 msgid ""
 "Restoring default settings no longer deletes a clipboard history that is "
 "kept after logging out."
@@ -134,7 +144,7 @@ msgstr ""
 "Przywracanie ustawień domyślnych nie usuwa już historii schowka zachowywanej "
 "po wylogowaniu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:56
+#: data/io.github.deskence.Deskence.metainfo.xml.in:61
 msgid ""
 "Applications view: your own color and transparency for the highlight under "
 "the pointer on applications and application folders; hovering a folder no "
@@ -144,7 +154,7 @@ msgstr ""
 "na aplikacje i foldery aplikacji; najechanie na folder nie rysuje już "
 "obwódki."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:57
+#: data/io.github.deskence.Deskence.metainfo.xml.in:62
 msgid ""
 "Folders in the dock: the panel takes at most half of the screen height and "
 "scrolls through the whole folder, also with the keyboard, and returns to the "
@@ -154,7 +164,7 @@ msgstr ""
 "przewinąć cały folder, także klawiaturą, i po wyjściu z podfolderu wraca do "
 "poprzedniego miejsca."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+#: data/io.github.deskence.Deskence.metainfo.xml.in:63
 msgid ""
 "Settings: clearer descriptions, better Polish wording and fewer clashing "
 "keyboard shortcuts."
@@ -162,7 +172,7 @@ msgstr ""
 "Ustawienia: jaśniejsze opisy, poprawione polskie teksty i mniej "
 "powtarzających się skrótów klawiaturowych."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:63
+#: data/io.github.deskence.Deskence.metainfo.xml.in:68
 msgid ""
 "Dock: a dock along the whole edge matches the top bar in the activities "
 "overview and the applications view; a short dock keeps its own look."
@@ -170,7 +180,7 @@ msgstr ""
 "Dock: dock na całą krawędź w podglądzie aktywności i widoku aplikacji ma "
 "wygląd górnego panelu; krótki dock zachowuje swój wygląd."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:64
+#: data/io.github.deskence.Deskence.metainfo.xml.in:69
 msgid ""
 "Applications view: folder tiles with your own color or transparency now "
 "clearly show hover, press, focus and selection."
@@ -178,7 +188,7 @@ msgstr ""
 "Widok aplikacji: kafelki folderów z własnym kolorem lub przezroczystością "
 "wyraźnie pokazują najechanie, wciśnięcie, fokus i zaznaczenie."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:69
+#: data/io.github.deskence.Deskence.metainfo.xml.in:74
 msgid ""
 "Applications view: your own color and transparency for folder tiles such as "
 "“Utilities”."
@@ -186,7 +196,7 @@ msgstr ""
 "Widok aplikacji: własny kolor i przezroczystość kafelków folderów, takich "
 "jak „Narzędzia”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
 msgid ""
 "General: optionally start on the desktop instead of the activities overview "
 "after logging in."
@@ -194,14 +204,14 @@ msgstr ""
 "Ogólne: opcjonalnie po zalogowaniu zaczynaj na pulpicie zamiast w podglądzie "
 "aktywności."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:71
+#: data/io.github.deskence.Deskence.metainfo.xml.in:76
 msgid ""
 "Dock: it now blends into the activities overview instead of forming a "
 "separate band."
 msgstr ""
 "Dock: w podglądzie aktywności stapia się z tłem zamiast tworzyć osobny pas."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:76
+#: data/io.github.deskence.Deskence.metainfo.xml.in:81
 msgid ""
 "Project homepage and bug tracker links, English documentation. No changes to "
 "the application."
@@ -209,7 +219,7 @@ msgstr ""
 "Odnośniki do strony projektu i zgłaszania błędów, dokumentacja po angielsku. "
 "Bez zmian w aplikacji."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:81
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
 msgid ""
 "Settings: a General page with presets, exporting and importing settings and "
 "restoring defaults; an Applications View page with alphabetical sorting; "
@@ -219,7 +229,7 @@ msgstr ""
 "przywracaniem domyślnych; strona „Widok aplikacji” z sortowaniem "
 "alfabetycznym; spokojniejsze podglądy."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:82
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
 msgid ""
 "Dock: folders that show their contents, closing and peeking at windows from "
 "their previews, Always on Top in the preview menu."
@@ -227,7 +237,7 @@ msgstr ""
 "Dock: foldery pokazujące swoją zawartość, zamykanie i podejrzenie okien z "
 "ich podglądów, „Zawsze na wierzchu” w menu podglądu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:83
+#: data/io.github.deskence.Deskence.metainfo.xml.in:88
 msgid ""
 "New: clipboard history, Keep Awake in the quick settings, an Always on Top "
 "shortcut."
@@ -235,7 +245,7 @@ msgstr ""
 "Nowe: historia schowka, „Nie usypiaj” w szybkich ustawieniach, skrót „Zawsze "
 "na wierzchu”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:88
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
 msgid ""
 "Better GNOME Desktop is now called Deskence. Settings, enabled features, "
 "pinned applications and desktop icon positions are taken over."
@@ -243,7 +253,7 @@ msgstr ""
 "Better GNOME Desktop nazywa się teraz Deskence. Ustawienia, włączone "
 "funkcje, przypięte aplikacje i położenia ikon pulpitu zostają przeniesione."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:89
+#: data/io.github.deskence.Deskence.metainfo.xml.in:94
 msgid ""
 "Dock: previews of the windows of an application when the pointer rests on "
 "it, no extra space next to the applications button when icons are magnified, "
@@ -253,7 +263,7 @@ msgstr ""
 "dodatkowego odstępu obok przycisku aplikacji przy powiększaniu ikon, "
 "wskaźniki uruchomienia pod ikonami docka na dole ekranu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:90
+#: data/io.github.deskence.Deskence.metainfo.xml.in:95
 msgid ""
 "Settings: larger, clearer previews of the dock and the desktop icons, page "
 "icons, an “About” menu item."
@@ -261,11 +271,11 @@ msgstr ""
 "Ustawienia: większe i czytelniejsze podglądy docka oraz ikon pulpitu, ikony "
 "stron, pozycja menu „O programie”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:95
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
 msgid "Better GNOME Desktop is now called Deskence."
 msgstr "Better GNOME Desktop nazywa się teraz Deskence."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
 msgid ""
 "Dock: sharp magnified icons, no tiles under icons with a custom background, "
 "monochrome distribution logo, the application list kept at the start of a "
@@ -275,7 +285,7 @@ msgstr ""
 "jednobarwne logo dystrybucji, lista aplikacji na początku docka na całą "
 "krawędź, wskaźniki uruchomienia po wewnętrznej stronie."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:101
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
 msgid ""
 "Applications view: one continuous closing transition, optional custom "
 "background color."
@@ -283,7 +293,7 @@ msgstr ""
 "Widok aplikacji: jedno płynne przejście przy zamykaniu, opcjonalny własny "
 "kolor tła."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:102
+#: data/io.github.deskence.Deskence.metainfo.xml.in:107
 msgid ""
 "Desktop: menus open at the clicked point, also beside the dock; the icon "
 "grid starts at the chosen corner with small margins."
@@ -291,7 +301,7 @@ msgstr ""
 "Pulpit: menu otwierają się w klikniętym miejscu, także obok docka; siatka "
 "ikon zaczyna się w wybranym rogu z niewielkimi marginesami."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:107
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
 msgid ""
 "Dock: applications button at either end with a choice of icon, magnified "
 "icons, scrolling when the applications do not fit, custom background color "
@@ -303,7 +313,7 @@ msgstr ""
 "przezroczystość tła, ustawienia w menu przycisku aplikacji, przezroczyste "
 "tło widoku aplikacji."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:108
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
 msgid ""
 "Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
 "the whole desktop beside the dock usable, icon positions that do not move "
@@ -313,7 +323,7 @@ msgstr ""
 "„Uporządkuj do siatki”, cały pulpit obok docka do wykorzystania, położenia "
 "ikon niezależne od docka."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:109
+#: data/io.github.deskence.Deskence.metainfo.xml.in:114
 msgid ""
 "Fixes: smooth closing of the applications view, immediate reordering of dock "
 "icons, no frame while dragging desktop icons, one desktop menu everywhere."
@@ -322,7 +332,7 @@ msgstr ""
 "kolejności ikon docka, brak ramki przy przeciąganiu ikon pulpitu, jedno menu "
 "pulpitu wszędzie."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:114
+#: data/io.github.deskence.Deskence.metainfo.xml.in:119
 msgid "First release."
 msgstr "Pierwsze wydanie."
 
@@ -4090,70 +4100,70 @@ msgstr "Folder"
 msgid "Could not open “%s”"
 msgstr "Nie można otworzyć „%s”"
 
-#: extensions/dock/fileDrop.js:362
+#: extensions/dock/fileDrop.js:359
 #, javascript-format
 msgid "%s cannot open files"
 msgstr "Aplikacja %s nie otwiera plików"
 
-#: extensions/dock/fileDrop.js:363
+#: extensions/dock/fileDrop.js:360
 #, javascript-format
 msgid "Open with %s"
 msgstr "Otwórz za pomocą: %s"
 
-#: extensions/dock/fileDrop.js:392
+#: extensions/dock/fileDrop.js:389
 #, javascript-format
 msgid "%s is not available"
 msgstr "Folder %s jest niedostępny"
 
-#: extensions/dock/fileDrop.js:394
+#: extensions/dock/fileDrop.js:391
 #, javascript-format
 msgid "%s is read-only"
 msgstr "Folder %s jest tylko do odczytu"
 
-#: extensions/dock/fileDrop.js:396
+#: extensions/dock/fileDrop.js:393
 msgid "A folder cannot be put into itself"
 msgstr "Nie można umieścić folderu w nim samym"
 
-#: extensions/dock/fileDrop.js:398
+#: extensions/dock/fileDrop.js:395
 #, javascript-format
 msgid "Already in %s"
 msgstr "Pliki są już w folderze %s"
 
-#: extensions/dock/fileDrop.js:400
+#: extensions/dock/fileDrop.js:397
 msgid "Only files can be put into a folder"
 msgstr "Do folderu można umieścić tylko pliki"
 
-#: extensions/dock/fileDrop.js:405
+#: extensions/dock/fileDrop.js:402
 #, javascript-format
 msgid "Move to %s"
 msgstr "Przenieś do folderu %s"
 
-#: extensions/dock/fileDrop.js:406
+#: extensions/dock/fileDrop.js:403
 #, javascript-format
 msgid "Copy to %s"
 msgstr "Skopiuj do folderu %s"
 
-#: extensions/dock/fileDrop.js:407
+#: extensions/dock/fileDrop.js:404
 #, javascript-format
 msgid "Move or copy to %s"
 msgstr "Przenieś lub skopiuj do folderu %s"
 
-#: extensions/dock/fileDrop.js:507
+#: extensions/dock/fileDrop.js:504
 #, javascript-format
 msgid "Cannot open the files in %s"
 msgstr "Nie można otworzyć plików za pomocą: %s"
 
-#: extensions/dock/fileDrop.js:523
+#: extensions/dock/fileDrop.js:520
 #, javascript-format
 msgid "Cannot move the files to %s"
 msgstr "Nie można przenieść plików do folderu %s"
 
-#: extensions/dock/fileDrop.js:523
+#: extensions/dock/fileDrop.js:520
 #, javascript-format
 msgid "Cannot copy the files to %s"
 msgstr "Nie można skopiować plików do folderu %s"
 
-#: extensions/dock/fileDrop.js:526
+#: extensions/dock/fileDrop.js:523
 msgid "Copying and moving files from the dock needs the Files application."
 msgstr "Kopiowanie i przenoszenie plików z docka wymaga aplikacji Pliki."
 

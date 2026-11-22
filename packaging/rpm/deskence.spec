@@ -1,5 +1,5 @@
 Name:           deskence
-Version:        0.10.0
+Version:        0.11.0
 Release:        1%{?dist}
 Summary:        Dock, desktop icons and tray for GNOME
 
@@ -91,6 +91,11 @@ glib-compile-schemas --strict --dry-run %{buildroot}%{_datadir}/glib-2.0/schemas
 %config(noreplace) %{_sysconfdir}/xdg/autostart/deskence-migration.desktop
 
 %changelog
+* Sun Nov 22 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.11.0-1
+- Dock: files dropped on an application open in it; files dropped on a
+  folder stack, or on a subfolder in its panel, are copied or moved there
+  through Files
+
 * Sun Nov 22 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.10.0-1
 - Settings search, a keyboard shortcuts panel with clash checks and a
   report for bug reports in the settings window
