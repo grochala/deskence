@@ -48,7 +48,7 @@ import * as DND from 'resource:///org/gnome/shell/ui/dnd.js';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import {gettext as _} from 'resource:///org/gnome/shell/extensions/extension.js';
 
-import {COLLAPSE_DELAY, EXPAND_DELAY, MAX_URI_LIST_BYTES, URI_LIST, appAccepts, isDropEnd,
+import {COLLAPSE_DELAY, Cleanup, EXPAND_DELAY, MAX_URI_LIST_BYTES, URI_LIST, appAccepts, isDropEnd,
     isFileUri, offersFiles, parentUri, parseUriList, planKind, planTransfer} from './dropLogic.js';
 
 const NAUTILUS_NAME = 'org.gnome.Nautilus';
@@ -67,6 +67,25 @@ const FOLDER_ATTRIBUTES = 'standard::type,access::can-write,id::filesystem';
 function isMissingService(error) {
     return Gio.DBusError.is_remote_error(error) &&
         MISSING_SERVICE_ERRORS.includes(Gio.DBusError.get_remote_error(error));
+}
+
+// Optional diagnostics: DESKENCE_DEBUG=dnd in GNOME Shell's environment
+// (for example ~/.config/environment.d/deskence-debug.conf, then log in
+// again) logs the state changes of file drags: begin, the kind of target,
+// the panel, the end, the reset, with the Shell's grabs. Never file names,
+// paths, drag data or pointer motion.
+const DEBUG = (GLib.getenv('DESKENCE_DEBUG') ?? '').split(/[\s,]+/).includes('dnd');
+
+function debug(message) {
+    if (DEBUG)
+        console.log(`Deskence dnd: ${message}`);
+}
+
+// Who holds the input in the Shell, for the diagnostics.
+function inputState(manager) {
+    const grab = global.stage.get_grab_actor();
+    return `modal ${Main.modalCount}, grab ${grab ? GObject.type_name_from_instance(grab) : 'none'}, ` +
+        `panel ${manager?.stackPanel.isOpen ? (manager.stackPanel.isOpenForDrag ? 'drag' : 'open') : 'closed'}`;
 }
 
 function modifiersOf(mask) {
@@ -125,6 +144,7 @@ export class FileDrop {
         Main.xdndHandler.connectObject(
             'drag-begin', () => this._begin(),
             'drag-end', () => this._end(), this);
+        debug(`enabled: ${inputState(null)}`);
     }
 
     // --- The drag ---------------------------------------------------------
@@ -132,8 +152,11 @@ export class FileDrop {
     _begin() {
         this._reset();
         const types = global.display.get_selection().get_mimetypes(Meta.SelectionType.SELECTION_DND);
-        if (!offersFiles(types))
+        if (!offersFiles(types)) {
+            debug(`begin: not files (${types.length} types), ignored`);
             return;
+        }
+        debug(`begin: files; ${inputState(this._manager)}`);
         this._active = true;
         this._cancellable = new Gio.Cancellable();
         this._monitor = {dragMotion: event => this._onMotion(event)};
@@ -174,6 +197,7 @@ export class FileDrop {
             } else {
                 this._collapseId ||= GLib.timeout_add(GLib.PRIORITY_DEFAULT, COLLAPSE_DELAY, () => {
                     this._collapseId = 0;
+                    debug('panel closed: pointer left');
                     if (this._target?.kind === 'folder')
                         this._setTarget(null);
                     this._manager.stackPanel.close();
@@ -211,6 +235,8 @@ export class FileDrop {
         }
         this._clearHighlight();
         this._clearTimeout('_expandId');
+        if (target?.kind !== this._target?.kind)
+            debug(`target: ${target?.kind ?? 'none'}`);
         this._target = target;
         if (!target) {
             this._stopModifiers();
@@ -238,6 +264,7 @@ export class FileDrop {
                 this._expandId = 0;
                 if (this._target === target && target.icon.get_stage()) {
                     this._clearHighlight();
+                    debug('panel opened for the drag');
                     panel.openForDrag(target.icon, target.dock);
                     this._refresh();
                 }
@@ -291,6 +318,7 @@ export class FileDrop {
             if (cancellable !== this._cancellable)
                 return;
             this._uris = uris;
+            debug(`read ${uris.length} URIs`);
             // The source folders' file systems decide between copy and move.
             for (const parent of new Set(uris.map(parentUri).filter(Boolean)))
                 this._folderInfo(Gio.File.new_for_uri(parent));
@@ -418,50 +446,54 @@ export class FileDrop {
 
     // --- The end -----------------------------------------------------------
 
+    // The drag ended: a drop or a cancel. Whatever happens while working
+    // out the drop, the drag handling is reset; the drop itself runs after.
     _end() {
         if (!this._active)
             return;
+        let drop = null;
+        try {
+            drop = this._dropAtEnd();
+        } catch (e) {
+            logError(e, 'Deskence dock: cannot finish the drag');
+        } finally {
+            this._reset(drop === null);
+        }
+        if (!drop)
+            return;
+        const {cancellable} = drop;
+        this._drops.add(cancellable);
+        this._drop(drop)
+            .catch(e => logError(e, 'Deskence dock: drop failed'))
+            .finally(() => this._drops?.delete(cancellable));
+    }
+
+    // What the end of the drag drops where, or null for a cancel or a drop
+    // the target refuses (mutter then lets the drag image slide back, as
+    // after every drop on the Shell).
+    _dropAtEnd() {
         const event = Clutter.get_current_event();
-        const drop = isDropEnd(event?.type() ?? null,
-            [Clutter.EventType.BUTTON_RELEASE, Clutter.EventType.TOUCH_END]);
-        let target = null;
-        let modifiers = this._modifiers;
-        let time = global.get_current_time();
-        if (drop) {
-            const [x, y] = event.get_coords();
-            target = this._targetAt(global.stage.get_actor_at_pos(Clutter.PickMode.REACTIVE, x, y));
-            modifiers = modifiersOf(event.get_state());
-            time = event.get_time();
+        const type = event?.type() ?? null;
+        const isDrop = isDropEnd(type, [Clutter.EventType.BUTTON_RELEASE, Clutter.EventType.TOUCH_END]);
+        if (!isDrop || !this._urisPromise) {
+            debug(`end: cancel (event ${type})`);
+            return null;
         }
-        // A drop the target refuses is a failed drop: the drag image
-        // slides back to where it came from. Otherwise it just goes away.
-        if (target && this._urisPromise && this._verdict(target, modifiers)[0] === false)
-            target = null;
-        const urisPromise = this._urisPromise;
-        const cancellable = this._cancellable;
-        const infos = this._infos;
-        if (target && urisPromise)
-            this._hideDragImage();
-        this._reset(false);
-        if (target && urisPromise) {
-            this._drops.add(cancellable);
-            this._drop(target, urisPromise, infos, modifiers, time, cancellable)
-                .catch(e => logError(e, 'Deskence dock: drop failed'))
-                .finally(() => this._drops?.delete(cancellable));
-        } else {
-            cancellable?.cancel();
+        const [x, y] = event.get_coords();
+        const target = this._targetAt(global.stage.get_actor_at_pos(Clutter.PickMode.REACTIVE, x, y));
+        const modifiers = modifiersOf(event.get_state());
+        if (!target || this._verdict(target, modifiers)[0] === false) {
+            debug(`end: drop refused (${target?.kind ?? 'no target'})`);
+            return null;
         }
+        debug(`end: drop on ${target.kind}`);
+        return {
+            target, modifiers, time: event.get_time(),
+            urisPromise: this._urisPromise, infos: this._infos, cancellable: this._cancellable,
+        };
     }
 
-    _hideDragImage() {
-        const group = global.compositor?.get_feedback_group?.();
-        for (const child of group?.get_children() ?? []) {
-            if (GObject.type_name_from_instance(child) === 'MetaDnDActor')
-                child.hide();
-        }
-    }
-
-    async _drop(target, urisPromise, infos, modifiers, time, cancellable) {
+    async _drop({target, urisPromise, infos, modifiers, time, cancellable}) {
         const uris = await urisPromise;
         if (cancellable.is_cancelled() || !uris.length)
             return;
@@ -501,6 +533,7 @@ export class FileDrop {
             try {
                 info.launch_uris_finish(res);
             } catch (e) {
+                debug(`launch failed: ${e.code ?? ''}`);
                 Main.notifyError(_('Cannot open the files in %s').replace('%s', app.get_name()),
                     e.message);
             }
@@ -517,6 +550,7 @@ export class FileDrop {
                 try {
                     bus.call_finish(res);
                 } catch (e) {
+                    debug(`${method} failed: ${e.domain ? GLib.quark_to_string(e.domain) : ''} ${e.code ?? ''}`);
                     const title = move ? _('Cannot move the files to %s') : _('Cannot copy the files to %s');
                     Main.notifyError(title.replace('%s', target.name ?? displayName(folder)),
                         isMissingService(e)
@@ -532,28 +566,37 @@ export class FileDrop {
 
     // --- Cleaning up -------------------------------------------------------
 
-    // Ends the drag handling. cancelReads: also cancels what is being read
-    // (not when a drop still needs it).
+    // Ends the drag handling: highlights, timers, the drag monitor, the
+    // panel opened for the drag and the dock's drag state. Every step runs
+    // even if another one fails, and calling it again changes nothing.
+    // cancelReads: also cancels what is being read (not when a drop still
+    // needs it).
     _reset(cancelReads = true) {
-        this._clearHighlight();
+        const wasActive = this._active;
+        this._active = false;
+        const cleanup = new Cleanup();
+        if (wasActive)
+            cleanup.add('dock', () => this._manager.fileDragEnd());
+        const cancellable = this._cancellable;
+        if (cancelReads && cancellable)
+            cleanup.add('reads', () => cancellable.cancel());
+        const monitor = this._monitor;
+        if (monitor)
+            cleanup.add('drag monitor', () => DND.removeDragMonitor(monitor));
+        for (const name of ['_expandId', '_collapseId', '_modifierId'])
+            cleanup.add(name, () => this._clearTimeout(name));
+        cleanup.add('highlight', () => this._clearHighlight());
+        cleanup.run((name, e) => logError(e, `Deskence dock: cleaning up ${name}`));
+        this._monitor = null;
         this._target = null;
         this._lastPoint = null;
-        for (const name of ['_expandId', '_collapseId', '_modifierId'])
-            this._clearTimeout(name);
-        if (this._monitor)
-            DND.removeDragMonitor(this._monitor);
-        this._monitor = null;
-        if (cancelReads)
-            this._cancellable?.cancel();
         this._cancellable = null;
         this._uris = null;
         this._urisPromise = null;
         this._infos = new Map();
         this._infoValues = new Map();
-        const wasActive = this._active;
-        this._active = false;
         if (wasActive)
-            this._manager.fileDragEnd();
+            debug(`reset: ${inputState(this._manager)}`);
     }
 
     // The docks are rebuilt during a drag: forget the targets.
@@ -568,5 +611,6 @@ export class FileDrop {
         this._drops = null;
         Main.xdndHandler.disconnectObject(this);
         this._manager = null;
+        debug(`disabled: ${inputState(null)}`);
     }
 }

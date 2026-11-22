@@ -431,10 +431,21 @@ background.
       700 ms after the pointer left the icon and the panel, and when the
       drag ends.
     - The icons keep their normal size during the drag, as during GNOME
-      Shell drags, so targets do not move under the pointer. A refused drop
-      lets the drag image slide back; an accepted one hides it.
-    - Disabling the dock removes the drag monitor, timers, highlights and a
-      panel opened for the drag, and cancels pending reads and drops.
+      Shell drags, so targets do not move under the pointer. Mutter treats
+      every drop on the Shell as a failed drop and lets the drag image slide
+      back; Deskence does not touch mutter's drag image.
+    - Ending the drag in any way (drop, refused drop, Escape, a vanished
+      source, an error while working out the drop, disabling the dock)
+      runs one reset (`dropLogic.js Cleanup`): the drag monitor, timers,
+      highlights, the panel opened for the drag and the docks' drag state
+      are each released even if another step fails, and running it again
+      changes nothing. Pending reads are cancelled unless a drop needs
+      them; disabling the dock cancels pending drops too. Deskence never
+      takes a grab during a file drag; the drag itself is mutter's.
+    - Diagnostics: with `DESKENCE_DEBUG=dnd` in GNOME Shell's environment
+      the dock logs the state changes of file drags (begin, kind of target,
+      the panel, drop or cancel, reset) with the Shell's modal count and
+      grab actor; never file names, paths, drag data or pointer motion.
 
 ## Other facts used by the design
 

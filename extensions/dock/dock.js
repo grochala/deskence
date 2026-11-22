@@ -30,6 +30,7 @@ import {logoSilhouette} from './logo.js';
 import {Magnifier} from './magnifier.js';
 import {OverviewBackdrop} from './overviewBackdrop.js';
 import {AppGridTiles} from './appFolders.js';
+import {Cleanup} from './dropLogic.js';
 import {FileDrop} from './fileDrop.js';
 import {LauncherEntries} from './launcherEntry.js';
 import {StackIcon, StackPanel, StacksModel} from './stacks.js';
@@ -2056,10 +2057,13 @@ export class DockManager {
         });
     }
 
+    // Every dock and the panel are cleaned up, also when one of them fails.
     fileDragEnd() {
         this.fileDragInProgress = false;
-        this.stackPanel.closeForDrag();
-        this._docks.forEach(d => d.endFileDrag());
+        const cleanup = new Cleanup();
+        cleanup.add('panel', () => this.stackPanel.closeForDrag());
+        this._docks.forEach(d => cleanup.add('dock', () => d.endFileDrag()));
+        cleanup.run((name, e) => logError(e, `Deskence dock: ending the file drag (${name})`));
     }
 
     _onDragEnd() {

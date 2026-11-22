@@ -2,7 +2,7 @@
 // Run with: gjs -m tests/unit/test_drop.js
 import System from 'system';
 
-import {appAccepts, edgeScrollStep, isDropEnd, isFileUri, isWithin, offersFiles, parentUri, parseUriList,
+import {Cleanup, appAccepts, edgeScrollStep, isDropEnd, isFileUri, isWithin, offersFiles, parentUri, parseUriList,
     planKind, planTransfer, transferAction}
     from '../../extensions/dock/dropLogic.js';
 
@@ -126,6 +126,34 @@ const RELEASE = 7, KEY = 3;
 check('release drops', isDropEnd(RELEASE, [RELEASE]));
 check('Escape cancels', !isDropEnd(KEY, [RELEASE]));
 check('unknown ending cancels', !isDropEnd(null, [RELEASE]) && !isDropEnd(undefined, [RELEASE]));
+
+// --- Cleaning up an interaction ---------------------------------------------
+
+{
+    const order = [];
+    const cleanup = new Cleanup();
+    cleanup.add('monitor', () => order.push('monitor'));
+    cleanup.add('timer', () => {
+        throw new Error('gone');
+    });
+    cleanup.add('panel', () => order.push('panel'));
+    const errors = [];
+    const failed = cleanup.run((name, e) => errors.push(`${name}:${e.message}`));
+    check('every step runs, newest first, despite a failing one',
+        same(order, ['panel', 'monitor']) && same(failed, ['timer']) && same(errors, ['timer:gone']));
+    check('running again does nothing', same(cleanup.run(), []) && order.length === 2 &&
+        cleanup.pending === 0);
+    cleanup.add('later', () => order.push('later'));
+    cleanup.run();
+    check('steps added later run once', same(order, ['panel', 'monitor', 'later']) &&
+        same(cleanup.run(), []));
+    const nested = new Cleanup();
+    nested.add('outer', () => nested.run());
+    nested.add('inner', () => order.push('inner'));
+    nested.run();
+    check('a step running the cleanup again does not repeat steps',
+        order.filter(o => o === 'inner').length === 1);
+}
 
 if (failures) {
     printerr(`${failures} failed`);

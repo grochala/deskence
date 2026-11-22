@@ -184,3 +184,36 @@ export function edgeScrollStep(pos, length, zone, maxStep) {
 export function isDropEnd(eventType, releaseTypes) {
     return eventType !== null && eventType !== undefined && releaseTypes.includes(eventType);
 }
+
+// Steps that undo what an interaction set up. run() calls every step once,
+// newest first, even when one of them throws (the errors go to onError),
+// so one failure never leaves the rest in place; calling it again only
+// runs steps added since.
+export class Cleanup {
+    constructor() {
+        this._steps = [];
+    }
+
+    get pending() {
+        return this._steps.length;
+    }
+
+    add(name, step) {
+        this._steps.push({name, step});
+    }
+
+    run(onError = null) {
+        const steps = this._steps.reverse();
+        this._steps = [];
+        const failed = [];
+        for (const {name, step} of steps) {
+            try {
+                step();
+            } catch (e) {
+                failed.push(name);
+                onError?.(name, e);
+            }
+        }
+        return failed;
+    }
+}

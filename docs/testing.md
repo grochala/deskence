@@ -210,6 +210,19 @@ it), driven with the virtual pointer and keyboard:
   bus shared for logind): refused application, opening a file with Files
   (`%U`), the panel during a drag, a move into a subfolder.
 
+0.11.1, the same session with the desktop icons enabled, after real
+GNOME Shell starts with both extensions enabled (with and without "Start
+on the desktop", four starts): clicking the empty desktop and an icon,
+rubber band selection and moving a window by its title bar were checked
+after each start and after every drag (drop on an application and a
+folder, a refused drop, Escape before and after the panel opened, leaving
+the panel and the dock, a desktop icon dragged into a folder, disabling
+the dock and the desktop icons during a drag and enabling them again):
+GNOME Shell held no modal grab and no grab actor afterwards. An exception
+injected into the end of a drag still left no drag state behind. The
+blocked input reported once on a test system was not reproduced; its cause
+is not known.
+
 Not verified: name conflicts (Nautilus 51.1 crashed in the isolated session
 when building its conflict dialog, `nautilus_image_set_fallback`, also when
 called directly with `gdbus`, so the dialog was not seen), Files itself as
@@ -245,6 +258,32 @@ GNOME 48 beyond a smoke test, real scaling, screen readers, pasting in
 terminals and X11 applications, Keep Awake with real gnome-session and
 logind, the desktop helper in legacy mode (`legacy.py`), the settings
 application on libadwaita 1.7.
+
+## When the desktop or windows stop taking clicks
+
+To get control back without losing settings, from a text console
+(Ctrl+Alt+F3, log in as the same user) or a terminal:
+
+    deskence status                       # what is enabled and running
+    deskence diagnostics > ~/deskence-report.txt
+    journalctl --user -b -o short-precise | grep -iE 'deskence|JS ERROR' > ~/deskence-log.txt
+    deskence disable dock desktop-icons   # or: deskence disable --all
+
+`disable` keeps every setting; if GNOME Shell does not answer, the change is
+saved for the next login (exit status 4). Then log in again (or return with
+Ctrl+Alt+F2) and enable the features one at a time
+(`deskence enable desktop-icons`, then `deskence enable dock`) to find the
+one involved. If `deskence` itself cannot run,
+`gsettings set org.gnome.shell disable-user-extensions true` turns off every
+extension for the next login (`false` restores them). Neither deletes data.
+
+To see what file drags do, put `DESKENCE_DEBUG=dnd` into
+`~/.config/environment.d/deskence-debug.conf` and log in again; the dock
+logs each drag's state changes (begin, kind of target, the panel, drop or
+cancel, reset) with the Shell's modal count and grab, never file names or
+pointer motion: `journalctl --user -b | grep 'Deskence dnd'`. A line
+`reset: ... grab none` after every drag means Deskence released everything;
+`grab ClutterInputOnlyActor` while a drag runs is mutter's own drag.
 
 ## Checklist for virtual machines
 
