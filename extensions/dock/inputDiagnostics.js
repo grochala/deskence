@@ -6,10 +6,12 @@
 // ~/.config/environment.d/deskence-debug.conf, then log in again).
 //
 // A few snapshots per session, never on pointer motion: when the dock is
-// enabled, when the startup animation completes and 3 s later, and the
-// first times the overview is shown and hidden again (opening and closing
-// the overview was seen to bring input back, so the two snapshots around
-// it show what it reset). Each one lists the actor a click would reach at
+// enabled, when the startup animation completes and 3 s later, the first
+// times the overview is shown and hidden again (opening and closing the
+// overview was seen to bring input back), and whenever, with the overview
+// closed, a click at one of the probed points would reach a Shell actor
+// instead of a window or the background, and when that ends. The probe
+// runs every 2 s, only reads, and logs at most MAX_PROBE_SNAPSHOTS times. Each one lists the actor a click would reach at
 // a few points of every monitor, the Shell's grabs and modal count, the
 // overview's and the layout's state, and the windows' types, layers and
 // geometry. No window titles, file names or text are logged.
@@ -24,6 +26,8 @@ import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 const ENABLED = (GLib.getenv('DESKENCE_DEBUG') ?? '').split(/[\s,]+/).includes('input');
 const LATER_DELAY = 3000;
 const MAX_OVERVIEW_SNAPSHOTS = 2;
+const PROBE_INTERVAL = 2000;
+const MAX_PROBE_SNAPSHOTS = 20;
 const DESKTOP_TITLE_TAG = '@deskence-desktop:';
 
 function describeActor(actor) {
@@ -45,16 +49,40 @@ function describeActor(actor) {
     return parts.join(' < ');
 }
 
+function probePoints() {
+    const points = [];
+    for (const monitor of Main.layoutManager.monitors) {
+        for (const [fx, fy] of [[0.5, 0.5], [0.25, 0.25], [0.75, 0.25], [0.25, 0.75], [0.75, 0.75]])
+            points.push([Math.round(monitor.x + monitor.width * fx), Math.round(monitor.y + monitor.height * fy)]);
+    }
+    return points;
+}
+
+function pick([x, y]) {
+    return global.stage.get_actor_at_pos(Clutter.PickMode.REACTIVE, x, y);
+}
+
+// Probed points where a click would reach neither a window nor the
+// background: the description of what is there, or an empty list.
+export function blockedPoints() {
+    if (Main.overview.visible)
+        return [];
+    const blocked = [];
+    for (const point of probePoints()) {
+        const actor = pick(point);
+        // The stage itself: nothing there takes the click (no window yet).
+        if (!actor || actor === global.stage || global.window_group.contains(actor) ||
+            Main.layoutManager._backgroundGroup?.contains(actor))
+            continue;
+        blocked.push(`${point.join(',')}: ${describeActor(actor)}`);
+    }
+    return blocked;
+}
+
 function snapshot() {
     const picks = {};
-    for (const monitor of Main.layoutManager.monitors) {
-        for (const [fx, fy] of [[0.5, 0.5], [0.25, 0.25], [0.75, 0.25]]) {
-            const x = Math.round(monitor.x + monitor.width * fx);
-            const y = Math.round(monitor.y + monitor.height * fy);
-            picks[`${x},${y}`] = describeActor(
-                global.stage.get_actor_at_pos(Clutter.PickMode.REACTIVE, x, y));
-        }
-    }
+    for (const point of probePoints())
+        picks[point.join(',')] = describeActor(pick(point));
     const overview = Main.overview;
     const layout = Main.layoutManager;
     const grab = global.stage.get_grab_actor();
@@ -91,10 +119,17 @@ function snapshot() {
 export class InputDiagnostics {
     constructor() {
         this._laterId = 0;
+        this._probeId = 0;
         this._shows = 0;
         this._hides = 0;
+        this._probes = 0;
+        this._blocked = '';
         if (!ENABLED)
             return;
+        this._probeId = GLib.timeout_add(GLib.PRIORITY_LOW, PROBE_INTERVAL, () => {
+            this._probe();
+            return GLib.SOURCE_CONTINUE;
+        });
         this._log('dock enabled');
         if (Main.layoutManager._startingUp) {
             Main.layoutManager.connectObject('startup-complete', () => {
@@ -117,6 +152,21 @@ export class InputDiagnostics {
             }, this);
     }
 
+    _probe() {
+        let blocked;
+        try {
+            blocked = blockedPoints().join(' | ');
+        } catch (e) {
+            blocked = `probe failed: ${e.message}`;
+        }
+        if (blocked === this._blocked || this._probes >= MAX_PROBE_SNAPSHOTS)
+            return;
+        this._blocked = blocked;
+        this._probes++;
+        this._log(blocked ? `clicks over windows reach the Shell: ${blocked}`
+            : 'clicks over windows reach windows again');
+    }
+
     _log(reason) {
         try {
             console.log(`Deskence input (${reason}): ${JSON.stringify(snapshot())}`);
@@ -126,9 +176,11 @@ export class InputDiagnostics {
     }
 
     destroy() {
-        if (this._laterId)
-            GLib.source_remove(this._laterId);
-        this._laterId = 0;
+        for (const name of ['_laterId', '_probeId']) {
+            if (this[name])
+                GLib.source_remove(this[name]);
+            this[name] = 0;
+        }
         Main.layoutManager.disconnectObject(this);
         Main.overview.disconnectObject(this);
     }
