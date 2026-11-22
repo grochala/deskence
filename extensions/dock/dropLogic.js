@@ -217,3 +217,57 @@ export class Cleanup {
         return failed;
     }
 }
+
+// --- What an application opens ------------------------------------------
+
+// The content type of a URI that is not a file: the scheme handler type
+// applications declare (x-scheme-handler/https for a web browser).
+export function schemeType(uri) {
+    const colon = uri.indexOf(':');
+    return colon > 0 ? `x-scheme-handler/${uri.slice(0, colon).toLowerCase()}` : null;
+}
+
+// Whether an application that declares the MimeType list declared opens
+// a file of content type type: the same type, a type it is a kind of
+// (isA, Gio.content_type_is_a: subclasses and aliases of shared-mime-info,
+// so text/x-python is a text/plain) or a "major/*" pattern.
+export function typeDeclared(type, declared, isA) {
+    if (!type)
+        return false;
+    for (const pattern of declared) {
+        if (pattern.endsWith('/*') && type.startsWith(pattern.slice(0, -1)))
+            return true;
+        if (type === pattern || isA(type, pattern))
+            return true;
+    }
+    return false;
+}
+
+// Whether an application takes all dropped items, from their content types:
+//   'ok'           it declares every type (or the user associated it)
+//   'pending'      a type is still being read
+//   'no-files'     its desktop entry takes no files or URIs at all
+//   'missing'      an item could not be read (deleted, unmounted)
+//   'unknown'      it declares no types: whether it opens them is unknown
+//   'unsupported'  it does not declare count of the total types
+// app: {accepts ('uris', 'files' or null, see appAccepts()), declared
+// (its MimeType list), associated(type) (the user chose it for the type,
+// optional)}; types: one per item, a content type, null while being read
+// or false when it could not be read. All items or none: one item it does
+// not take refuses the whole drop.
+export function appVerdict(app, types, isA) {
+    if (!app || !app.accepts || !types.length)
+        return {status: 'no-files'};
+    const missing = types.filter(t => t === false).length;
+    if (missing)
+        return {status: 'missing', count: missing, total: types.length};
+    if (types.some(t => t === null))
+        return {status: 'pending'};
+    const takes = type => typeDeclared(type, app.declared, isA) || Boolean(app.associated?.(type));
+    const refused = types.filter(type => !takes(type)).length;
+    if (!refused)
+        return {status: 'ok'};
+    if (!app.declared.length)
+        return {status: 'unknown'};
+    return {status: 'unsupported', count: refused, total: types.length};
+}

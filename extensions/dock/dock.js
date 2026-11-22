@@ -33,6 +33,7 @@ import {AppGridTiles} from './appFolders.js';
 import {Cleanup} from './dropLogic.js';
 import {FileDrop} from './fileDrop.js';
 import {LauncherEntries} from './launcherEntry.js';
+import {StackDrag} from './stackDrag.js';
 import {StackIcon, StackPanel, StacksModel} from './stacks.js';
 import {WindowPreviews} from './windowPreviews.js';
 
@@ -161,7 +162,9 @@ const DockItem = GObject.registerClass({
             return;
         if (!this.label) {
             this.label = new St.Label({style_class: 'dash-label'});
-            Main.layoutManager.addChrome(this.label);
+            // Above a folder panel, which lies over the labels' place while
+            // an item of it is dragged onto the dock.
+            Main.layoutManager.addTopChrome(this.label);
         }
         const label = this.label;
         label.text = text;
@@ -1678,6 +1681,7 @@ export class DockManager {
         this.stacks = new StacksModel(settings);
         this.stacks.connectObject('changed', () => this._queueRedisplay(), this);
         this.stackPanel = new StackPanel(this);
+        this.stackDrag = new StackDrag(this);
         // Counters and progress reported by applications.
         this.launcher = new LauncherEntries();
         this.launcher.connectObject('changed', (_l, appId) =>
@@ -2125,6 +2129,7 @@ export class DockManager {
         this.fileDrop.destroy();
         this.fileDrop = null;
         this.stackPanel.destroy();
+        this.stackDrag.destroy();
         this.launcher.destroy();
         this._docks.forEach(d => d.destroy());
         this._docks = [];

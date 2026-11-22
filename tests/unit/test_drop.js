@@ -1,8 +1,9 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Run with: gjs -m tests/unit/test_drop.js
+import Gio from 'gi://Gio';
 import System from 'system';
 
-import {Cleanup, appAccepts, edgeScrollStep, isDropEnd, isFileUri, isWithin, offersFiles, parentUri, parseUriList,
+import {Cleanup, appAccepts, appVerdict, schemeType, typeDeclared, edgeScrollStep, isDropEnd, isFileUri, isWithin, offersFiles, parentUri, parseUriList,
     planKind, planTransfer, transferAction}
     from '../../extensions/dock/dropLogic.js';
 
@@ -108,6 +109,56 @@ check('no field code takes nothing', appAccepts({supportsUris: false, supportsFi
     local) === null);
 check('no application or no files', appAccepts(null, local) === null &&
     appAccepts({supportsUris: true}, []) === null);
+
+// --- Content types an application declares --------------------------------
+
+// A stand-in for Gio.content_type_is_a with a few known relations.
+const parents = {'text/x-python': ['text/plain'], 'application/x-shellscript': ['text/plain'],
+    'image/png': [], 'text/calendar': ['text/plain']};
+const fakeIsA = (type, parent) => (parents[type] ?? []).includes(parent);
+
+check('exact type', typeDeclared('image/png', ['image/png'], fakeIsA));
+check('a kind of a declared type', typeDeclared('text/x-python', ['text/plain'], fakeIsA));
+check('major wildcard', typeDeclared('image/webp', ['image/*'], fakeIsA) &&
+    !typeDeclared('video/mp4', ['image/*'], fakeIsA));
+check('not by the name: a different type', !typeDeclared('image/png', ['text/calendar'], fakeIsA));
+check('no type', !typeDeclared(null, ['image/png'], fakeIsA));
+check('scheme handler types', schemeType('https://x/y') === 'x-scheme-handler/https' &&
+    schemeType('MAILTO:a@b') === 'x-scheme-handler/mailto' && schemeType('nothing') === null);
+
+const calendar = {accepts: 'uris', declared: ['text/calendar']};
+const viewer = {accepts: 'files', declared: ['image/png', 'image/jpeg']};
+check('calendar refuses an image', same(appVerdict(calendar, ['image/png'], fakeIsA),
+    {status: 'unsupported', count: 1, total: 1}));
+check('viewer takes images', appVerdict(viewer, ['image/png', 'image/jpeg'], fakeIsA).status === 'ok');
+check('one unsupported file refuses the whole set', same(
+    appVerdict(viewer, ['image/png', 'text/calendar', 'image/jpeg'], fakeIsA),
+    {status: 'unsupported', count: 1, total: 3}));
+check('still reading', appVerdict(viewer, ['image/png', null], fakeIsA).status === 'pending');
+check('a file that went away refuses the set', same(appVerdict(viewer, ['image/png', false], fakeIsA),
+    {status: 'missing', count: 1, total: 2}));
+check('no declared types: support cannot be confirmed',
+    appVerdict({accepts: 'files', declared: []}, ['image/png'], fakeIsA).status === 'unknown');
+check('the user\'s association counts', appVerdict({accepts: 'files', declared: [],
+    associated: t => t === 'image/png'}, ['image/png'], fakeIsA).status === 'ok');
+check('no field code: no files', appVerdict({accepts: null, declared: ['image/png']}, ['image/png'],
+    fakeIsA).status === 'no-files' && appVerdict(null, ['image/png'], fakeIsA).status === 'no-files');
+
+// The real shared-mime-info database through GIO.
+const isA = (a, b) => Gio.content_type_is_a(a, b);
+const known = Gio.content_type_get_mime_type('text/x-python') !== null &&
+    Gio.content_type_is_a('text/x-python', 'text/plain');
+if (known) {
+    check('GIO: Python source is plain text', typeDeclared('text/x-python', ['text/plain'], isA));
+    check('GIO: a PNG image is not a calendar', !typeDeclared('image/png', ['text/calendar'], isA));
+    check('GIO: folders', typeDeclared('inode/directory', ['inode/directory'], isA) &&
+        !typeDeclared('inode/directory', ['text/plain'], isA));
+    const [guessed] = Gio.content_type_guess('photo.png', null);
+    check('GIO: a type from the name only when nothing better is known',
+        typeDeclared(guessed, ['image/png'], isA));
+} else {
+    print('skipped: no shared-mime-info database');
+}
 
 // --- Scrolling and the end of a drag ---------------------------------------
 

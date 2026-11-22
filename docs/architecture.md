@@ -418,10 +418,21 @@ background.
 
     - Applications: `Gio.DesktopAppInfo.launch_uris_async()` with the
       Shell's launch context, the same for running and stopped
-      applications. The desktop entry decides: `%u`/`%U` take any URI,
-      `%f`/`%F` local files, anything else is refused while hovering (the
-      icon dims and the label says so). Declared MIME types are not checked;
-      the application decides what it can read.
+      applications. The desktop entry must take files (`%u`/`%U` any URI,
+      `%f`/`%F` local files) and declare the content type of every dropped
+      item (`appTypes.js`, `dropLogic.js appVerdict`): the type GIO gives
+      the file (`standard::content-type`, read asynchronously: the name
+      where it is unambiguous, otherwise the contents, as in Files) must be
+      in the entry's `MimeType` list, a kind of a listed type
+      (`Gio.content_type_is_a`: subclasses and aliases) or match a
+      `major/*` pattern, or the user associated the application with it
+      (`Gio.AppInfo.get_all_for_type`; no association is changed). One item
+      that does not fit refuses the whole drop. An entry without a
+      `MimeType` list cannot confirm anything and is refused; an item that
+      cannot be read (deleted, unmounted) refuses the drop. While hovering
+      the icon dims and the label says why; a refused drop also shows a
+      notification. A drop made while types are still being read waits for
+      them. Launch errors are reported as before.
     - Folders: Files' `FileOperations2` `CopyURIs`/`MoveURIs`, like the
       desktop (decision 6), so progress, name conflicts, permissions, errors
       and undo are those of Files. There is no fallback in the Shell: without
@@ -455,6 +466,30 @@ background.
       the dock logs the state changes of file drags (begin, kind of target,
       the panel, drop or cancel, reset) with the Shell's modal count and
       grab actor; never file names, paths, drag data or pointer motion.
+
+31. **Dragging out of a folder panel** (`stackDrag.js`). Items of a
+    folder panel are GNOME Shell draggables. Mutter offers GNOME Shell no
+    way to start a Wayland drag, so they can only be dropped on Shell
+    actors: another folder in the dock (`StackIcon` is a drop target) or
+    the Deskence desktop, whose window actors get a drop delegate while
+    such a drag lasts. Windows of other applications, such as Files,
+    cannot take them. A drop is accepted only through `acceptDrop`, after
+    which GNOME Shell ends the drag itself; a `dragDrop` monitor returning
+    success would leave its modal grab in place. The plan, the transfer
+    through Files and the texts are those of files dropped from
+    applications (decision 30). Dropped files go to the first free cells
+    of the desktop. While an item is dragged the panel is not rebuilt (a
+    refresh waits for the end), and the panel's own grab stays; Escape
+    cancels the drag first. Closing the panel or disabling the dock during
+    a drag ends it the same way (Draggable drops the handlers of a destroyed
+    item without calling them).
+
+32. **Folder marker in the dock.** A solid triangle drawn with Cairo
+    (`stacks.js drawMarker`), as thick as the application dots at its
+    base, as wide as the dot of a focused application, in the color of the
+    dots of an unfocused one and where the dots are; it points where the
+    panel opens. Being drawn in the item, it scales with magnification and
+    the monitor scale without changing the item size.
 
 ## Other facts used by the design
 

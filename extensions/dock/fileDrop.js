@@ -16,9 +16,11 @@
 // ends it otherwise, and nothing happens).
 //
 // - Applications: Gio.DesktopAppInfo.launch_uris_async() with the Shell's
-//   launch context, the same for running and stopped applications; the
-//   desktop entry decides (%u/%U any URIs, %f/%F local files, neither: the
-//   drop is refused). No command line is built from file names.
+//   launch context, the same for running and stopped applications. They
+//   take only files whose content types (read by GIO, appTypes.js) their
+//   desktop entry declares, all of the dropped ones or none; otherwise the
+//   icon dims, the label says why and a drop shows a message. No command
+//   line is built from file names.
 // - Folders: Files (org.gnome.Nautilus.FileOperations2 CopyURIs/MoveURIs),
 //   like the desktop (desktop-icons/deskence_desktop/fileops.py): progress,
 //   name conflicts, permissions, errors and undo are those of Files. Without
@@ -48,7 +50,8 @@ import * as DND from 'resource:///org/gnome/shell/ui/dnd.js';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import {gettext as _} from 'resource:///org/gnome/shell/extensions/extension.js';
 
-import {COLLAPSE_DELAY, Cleanup, EXPAND_DELAY, MAX_URI_LIST_BYTES, URI_LIST, appAccepts, isDropEnd,
+import {readType, verdictFor, verdictText} from './appTypes.js';
+import {COLLAPSE_DELAY, Cleanup, EXPAND_DELAY, MAX_URI_LIST_BYTES, URI_LIST, isDropEnd,
     isFileUri, offersFiles, parentUri, parseUriList, planKind, planTransfer} from './dropLogic.js';
 
 const NAUTILUS_NAME = 'org.gnome.Nautilus';
@@ -96,7 +99,7 @@ function modifiersOf(mask) {
 }
 
 // {available, writable, filesystem} of a folder, read asynchronously.
-function queryFolder(file, cancellable) {
+export function queryFolder(file, cancellable) {
     return new Promise(resolve => {
         file.query_info_async(FOLDER_ATTRIBUTES, Gio.FileQueryInfoFlags.NONE,
             GLib.PRIORITY_DEFAULT, cancellable, (_f, res) => {
@@ -121,6 +124,58 @@ function displayName(file) {
     return GLib.filename_display_basename(file.get_path() ?? file.get_uri());
 }
 
+// The text telling what a planned transfer into the folder named name does.
+export function planText(plan, name) {
+    if (!plan)
+        return name;
+    switch (plan.refused) {
+    case undefined:
+        break;
+    case 'unavailable':
+        return _('%s is not available').replace('%s', name);
+    case 'read-only':
+        return _('%s is read-only').replace('%s', name);
+    case 'into-itself':
+        return _('A folder cannot be put into itself');
+    case 'already-there':
+        return _('Already in %s').replace('%s', name);
+    case 'not-files':
+        return _('Only files can be put into a folder');
+    default:
+        return name;
+    }
+    return {
+        move: _('Move to %s'),
+        copy: _('Copy to %s'),
+        mixed: _('Move or copy to %s'),
+    }[planKind(plan)].replace('%s', name);
+}
+
+
+// Copies or moves uris into folder through Files (FileOperations2), which
+// shows progress, asks about name conflicts, reports errors and keeps undo.
+// name: the folder's name for messages; done() runs when Files answered.
+export function transferFiles(method, uris, folder, name, done = null) {
+    const move = method === 'MoveURIs';
+    const platformData = {'window-position': new GLib.Variant('s', 'center')};
+    Gio.DBus.session.call(NAUTILUS_NAME, NAUTILUS_PATH, NAUTILUS_IFACE, method,
+        new GLib.Variant('(assa{sv})', [uris, folder.get_uri(), platformData]),
+        null, Gio.DBusCallFlags.NONE, GLib.MAXINT32, null, (bus, res) => {
+            try {
+                bus.call_finish(res);
+            } catch (e) {
+                debug(`${method} failed: ${e.domain ? GLib.quark_to_string(e.domain) : ''} ${e.code ?? ''}`);
+                const title = move ? _('Cannot move the files to %s') : _('Cannot copy the files to %s');
+                Main.notifyError(title.replace('%s', name ?? displayName(folder)),
+                    isMissingService(e)
+                        ? _('Copying and moving files from the dock needs the Files application.')
+                        : e.message);
+            }
+            done?.();
+        });
+}
+
+
 export class FileDrop {
     constructor(manager) {
         this._manager = manager;
@@ -133,6 +188,10 @@ export class FileDrop {
         // settled values are in _infoValues.
         this._infos = new Map();
         this._infoValues = new Map();
+        // URI -> content type (false: unreadable), read once an
+        // application is a target.
+        this._types = new Map();
+        this._typesPromise = null;
         this._target = null;
         this._lastPoint = null;
         // Drops waiting for what they need (cancelled on disable).
@@ -243,6 +302,8 @@ export class FileDrop {
             return;
         }
         this._readUris();
+        if (target.kind === 'app')
+            this._readTypes();
         const folder = this._folderOf(target);
         if (folder) {
             this._folderInfo(folder);
@@ -326,6 +387,21 @@ export class FileDrop {
         });
     }
 
+    // The content types of the dragged items, for applications.
+    _readTypes() {
+        if (this._typesPromise || !this._urisPromise)
+            return;
+        const cancellable = this._cancellable;
+        const types = this._types;
+        this._typesPromise = this._urisPromise.then(uris => Promise.all(uris.map(uri =>
+            readType(uri, cancellable).then(type => {
+                types.set(uri, type);
+                if (cancellable === this._cancellable)
+                    this._refresh();
+                return type;
+            }))));
+    }
+
     _folderInfo(file) {
         const uri = file.get_uri();
         let promise = this._infos.get(uri);
@@ -366,12 +442,8 @@ export class FileDrop {
         return planTransfer(sources, {uri: folder.get_uri(), ...info}, modifiers);
     }
 
-    _appAccepts(app, uris) {
-        const info = app.get_app_info();
-        return appAccepts(info ? {
-            supportsUris: info.supports_uris(),
-            supportsFiles: info.supports_files(),
-        } : null, uris.map(uri => ({uri, hasPath: uri.startsWith('file:')})));
+    _appVerdict(app, uris = this._uris, types = this._types) {
+        return verdictFor(app, uris, uris.map(uri => types.has(uri) ? types.get(uri) : null));
     }
 
     // --- Showing the target ------------------------------------------------
@@ -381,14 +453,14 @@ export class FileDrop {
     _verdict(target, modifiers) {
         if (target.kind === 'app') {
             const name = target.icon.app.get_name();
-            const accepted = this._uris === null ? null
-                : this._appAccepts(target.icon.app, this._uris) !== null;
-            return [accepted, accepted === false
-                ? _('%s cannot open files').replace('%s', name)
-                : _('Open with %s').replace('%s', name)];
+            if (this._uris === null)
+                return [null, verdictText({status: 'pending'}, name)];
+            const verdict = this._appVerdict(target.icon.app);
+            const accepted = {ok: true, pending: null}[verdict.status] ?? false;
+            return [accepted, verdictText(verdict, name)];
         }
         const plan = this._plan(this._folderOf(target), this._uris, modifiers);
-        return [plan ? !plan.refused : null, this._planText(plan, target.name)];
+        return [plan ? !plan.refused : null, planText(plan, target.name)];
     }
 
     _refresh() {
@@ -405,32 +477,6 @@ export class FileDrop {
         }
         if (inPanel)
             panel.setDropHint(text, accepted !== false);
-    }
-
-    _planText(plan, name) {
-        if (!plan)
-            return name;
-        switch (plan.refused) {
-        case undefined:
-            break;
-        case 'unavailable':
-            return _('%s is not available').replace('%s', name);
-        case 'read-only':
-            return _('%s is read-only').replace('%s', name);
-        case 'into-itself':
-            return _('A folder cannot be put into itself');
-        case 'already-there':
-            return _('Already in %s').replace('%s', name);
-        case 'not-files':
-            return _('Only files can be put into a folder');
-        default:
-            return name;
-        }
-        return {
-            move: _('Move to %s'),
-            copy: _('Copy to %s'),
-            mixed: _('Move or copy to %s'),
-        }[planKind(plan)].replace('%s', name);
     }
 
     _clearHighlight() {
@@ -482,23 +528,40 @@ export class FileDrop {
         const [x, y] = event.get_coords();
         const target = this._targetAt(global.stage.get_actor_at_pos(Clutter.PickMode.REACTIVE, x, y));
         const modifiers = modifiersOf(event.get_state());
-        if (!target || this._verdict(target, modifiers)[0] === false) {
+        const [accepted, text] = target ? this._verdict(target, modifiers) : [false, null];
+        if (accepted === false) {
             debug(`end: drop refused (${target?.kind ?? 'no target'})`);
+            // A refused application says why: the label was easy to miss.
+            if (target?.kind === 'app')
+                Main.notify(text, '');
             return null;
         }
         debug(`end: drop on ${target.kind}`);
+        if (target.kind === 'app')
+            this._readTypes();
         return {
             target, modifiers, time: event.get_time(),
-            urisPromise: this._urisPromise, infos: this._infos, cancellable: this._cancellable,
+            urisPromise: this._urisPromise, typesPromise: this._typesPromise,
+            infos: this._infos, cancellable: this._cancellable,
         };
     }
 
-    async _drop({target, urisPromise, infos, modifiers, time, cancellable}) {
+    async _drop({target, urisPromise, typesPromise, infos, modifiers, time, cancellable}) {
         const uris = await urisPromise;
         if (cancellable.is_cancelled() || !uris.length)
             return;
         if (target.kind === 'app') {
-            this._open(target.icon, uris, time);
+            // Decided on the types of all items, also those still being
+            // read when the drop happened.
+            const types = await typesPromise;
+            if (cancellable.is_cancelled() || !this._manager)
+                return;
+            const app = target.icon.app;
+            const verdict = verdictFor(app, uris, types);
+            if (verdict.status === 'ok')
+                this._open(target.icon, uris, time);
+            else
+                Main.notify(verdictText(verdict, app.get_name()), '');
             return;
         }
         // Everything the plan needs, including what was still being read.
@@ -517,16 +580,22 @@ export class FileDrop {
         const plan = this._plan(folder, uris, modifiers, values);
         if (!plan || plan.refused)
             return;
+        // Whether the folder is still there (the panel and the desktop
+        // follow their folders by themselves).
+        const done = () => {
+            if (target.kind === 'stack' && target.icon.get_stage())
+                target.icon.update(target.icon.item);
+        };
         if (plan.move.length)
-            this._transfer('MoveURIs', plan.move, folder, target);
+            transferFiles('MoveURIs', plan.move, folder, target.name, done);
         if (plan.copy.length)
-            this._transfer('CopyURIs', plan.copy, folder, target);
+            transferFiles('CopyURIs', plan.copy, folder, target.name, done);
     }
 
     _open(icon, uris, time) {
         const app = icon.app;
         const info = app.get_app_info();
-        if (!info || this._appAccepts(app, uris) === null)
+        if (!info)
             return;
         icon.animateLaunch?.();
         info.launch_uris_async(uris, global.create_app_launch_context(time, -1), null, (_i, res) => {
@@ -539,29 +608,6 @@ export class FileDrop {
             }
         });
         Main.overview.hide();
-    }
-
-    _transfer(method, uris, folder, target) {
-        const move = method === 'MoveURIs';
-        const platformData = {'window-position': new GLib.Variant('s', 'center')};
-        Gio.DBus.session.call(NAUTILUS_NAME, NAUTILUS_PATH, NAUTILUS_IFACE, method,
-            new GLib.Variant('(assa{sv})', [uris, folder.get_uri(), platformData]),
-            null, Gio.DBusCallFlags.NONE, GLib.MAXINT32, null, (bus, res) => {
-                try {
-                    bus.call_finish(res);
-                } catch (e) {
-                    debug(`${method} failed: ${e.domain ? GLib.quark_to_string(e.domain) : ''} ${e.code ?? ''}`);
-                    const title = move ? _('Cannot move the files to %s') : _('Cannot copy the files to %s');
-                    Main.notifyError(title.replace('%s', target.name ?? displayName(folder)),
-                        isMissingService(e)
-                            ? _('Copying and moving files from the dock needs the Files application.')
-                            : e.message);
-                }
-                // Whether the folder is still there (the panel and the
-                // desktop follow their folders by themselves).
-                if (target.kind === 'stack' && target.icon.get_stage())
-                    target.icon.update(target.icon.item);
-            });
     }
 
     // --- Cleaning up -------------------------------------------------------
@@ -595,6 +641,10 @@ export class FileDrop {
         this._urisPromise = null;
         this._infos = new Map();
         this._infoValues = new Map();
+        // URI -> content type (false: unreadable), read once an
+        // application is a target.
+        this._types = new Map();
+        this._typesPromise = null;
         if (wasActive)
             debug(`reset: ${inputState(this._manager)}`);
     }

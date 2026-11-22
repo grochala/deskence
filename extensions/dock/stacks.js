@@ -32,6 +32,10 @@
 // Escape closes it. The dock stays shown and stops magnifying while it is
 // open (Dock.setMenuOpen).
 //
+// Its files and folders can be dragged onto another folder in the dock or
+// onto the desktop (stackDrag.js); while one is dragged the contents are
+// not rebuilt, so the drag keeps its item.
+//
 // Files dragged onto the folder open the panel without a grab, which would
 // take the pointer from the drag (fileDrop.js). It then shows what a drop
 // does instead of the sorting buttons, highlights the subfolder a drop
@@ -46,6 +50,7 @@ import Pango from 'gi://Pango';
 import Shell from 'gi://Shell';
 import St from 'gi://St';
 
+import * as DND from 'resource:///org/gnome/shell/ui/dnd.js';
 import * as GrabHelper from 'resource:///org/gnome/shell/ui/grabHelper.js';
 import * as IconGrid from 'resource:///org/gnome/shell/ui/iconGrid.js';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
@@ -178,6 +183,30 @@ export class StacksModel extends EventEmitter {
     }
 }
 
+// A triangle filling the area, its tip towards the inside of the screen,
+// with rounded corners so it matches the round dots.
+function drawMarker(area, side) {
+    const cr = area.get_context();
+    const [width, height] = area.get_surface_size();
+    const color = area.get_theme_node().get_foreground_color();
+    const round = Math.min(width, height) / 4;
+    const points = {
+        bottom: [[round, height - round], [width / 2, round], [width - round, height - round]],
+        left: [[round, round], [width - round, height / 2], [round, height - round]],
+        right: [[width - round, round], [round, height / 2], [width - round, height - round]],
+    }[side];
+    cr.setSourceRGBA(color.red / 255, color.green / 255, color.blue / 255, color.alpha / 255);
+    cr.setLineJoin(1); // Cairo.LineJoin.ROUND
+    cr.setLineWidth(2 * round);
+    cr.moveTo(...points[0]);
+    cr.lineTo(...points[1]);
+    cr.lineTo(...points[2]);
+    cr.closePath();
+    cr.strokePreserve();
+    cr.fill();
+    cr.$dispose();
+}
+
 // The dock item of a folder: its icon, dimmed while the folder is not
 // available, and a small arrow telling it opens a panel (applications have
 // window dots there instead).
@@ -196,6 +225,8 @@ export const StackIcon = GObject.registerClass({
         this._dock = dock;
         this._gicon = null;
         this._available = true;
+        // A drop target for items dragged out of a folder panel.
+        this._delegate = this;
         this._cancellable = null;
         this.icon = new IconGrid.BaseIcon(item.name, {
             setSizeManually: true,
@@ -211,16 +242,15 @@ export const StackIcon = GObject.registerClass({
         });
         const layout = new St.Widget({layout_manager: new Clutter.BinLayout()});
         layout.add_child(this.icon);
-        this._marker = new St.Icon({
-            style_class: 'deskence-dock-stack-marker',
-            icon_name: {
-                bottom: 'pan-up-symbolic',
-                left: 'pan-end-symbolic',
-                right: 'pan-start-symbolic',
-            }[dock.position],
+        // Where running applications have their dots: a small solid
+        // triangle as thick as a dot (stylesheet.css), pointing into the
+        // screen where the panel opens, in the color of the dots.
+        this._marker = new St.DrawingArea({
+            style_class: `deskence-dock-stack-marker deskence-dock-stack-marker-${dock.position}`,
             x_expand: true,
             y_expand: true,
         });
+        this._marker.connect('repaint', area => drawMarker(area, dock.position));
         this._alignMarker();
         layout.add_child(this._marker);
         this.set_child(layout);
@@ -311,6 +341,16 @@ export const StackIcon = GObject.registerClass({
         this.icon.update();
     }
 
+    // Items dragged out of a folder panel (stackDrag.js); other drags go
+    // on to the dock.
+    handleDragOver(source) {
+        return this._dock.manager.stackDrag.overStack(source, this, this._dock);
+    }
+
+    acceptDrop(source) {
+        return this._dock.manager.stackDrag.dropOnStack(source, this);
+    }
+
     vfunc_clicked(button) {
         if (button === Clutter.BUTTON_SECONDARY) {
             this.popupMenu();
@@ -377,6 +417,9 @@ export class StackPanel {
         this._dragScrollId = 0;
         this._dropButton = null;
         this._hint = null;
+        // An item being dragged out, and a refresh waiting for its end.
+        this._itemDrag = false;
+        this._reloadWanted = false;
     }
 
     get isOpen() {
@@ -787,6 +830,10 @@ export class StackPanel {
             return;
         this._reloadId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, RELOAD_DELAY, () => {
             this._reloadId = 0;
+            if (this._itemDrag) {
+                this._reloadWanted = true;
+                return GLib.SOURCE_REMOVE;
+            }
             if (this._panel) {
                 this._saveView();
                 this._load();
@@ -938,6 +985,7 @@ export class StackPanel {
         button._stackName = item.name;
         button._stackItem = item;
         button.connect('clicked', () => this._activate(item));
+        this._makeDraggable(button, item);
         // The focus follows the pointer when it moves, like in menus; not
         // when the contents scroll under a resting pointer, which would
         // take the focus away from the keyboard.
@@ -962,16 +1010,50 @@ export class StackPanel {
         return button;
     }
 
+    // The item can be dragged onto another folder or the desktop
+    // (stackDrag.js); starting to drag changes nothing.
+    _makeDraggable(button, item) {
+        const file = this._current.get_child(item.info.get_name());
+        button._delegate = {
+            stackFile: file,
+            getDragActor: () => new St.Icon({
+                gicon: this._gicon(item),
+                fallback_icon_name: item.isDir ? 'folder' : 'text-x-generic',
+                icon_size: GRID_ICON,
+            }),
+            getDragActorSource: () => button._stackIcon ?? button,
+        };
+        const draggable = DND.makeDraggable(button);
+        draggable.connect('drag-begin', () => {
+            this._itemDrag = true;
+            this._hideTooltip();
+            this._manager.stackDrag.begin(button._delegate);
+        });
+        draggable.connect('drag-end', () => this._endItemDrag());
+    }
+
+    _endItemDrag() {
+        if (!this._itemDrag)
+            return;
+        this._itemDrag = false;
+        this._manager.stackDrag.end();
+        if (this._reloadWanted) {
+            this._reloadWanted = false;
+            this._queueReload();
+        }
+    }
+
     _gridItem(item) {
         const button = this._button(item, 'deskence-stack-item');
         const box = new St.BoxLayout({style_class: 'deskence-stack-item-box', width: ITEM_WIDTH});
         setVertical(box, true);
-        box.add_child(new St.Icon({
+        button._stackIcon = new St.Icon({
             gicon: this._gicon(item),
             fallback_icon_name: item.isDir ? 'folder' : 'text-x-generic',
             icon_size: GRID_ICON,
             x_align: Clutter.ActorAlign.CENTER,
-        }));
+        });
+        box.add_child(button._stackIcon);
         const label = new St.Label({
             text: item.name,
             style_class: 'deskence-stack-item-label',
@@ -987,12 +1069,13 @@ export class StackPanel {
     _listItem(item) {
         const button = this._button(item, 'deskence-stack-row');
         const box = new St.BoxLayout({style_class: 'deskence-stack-row-box', x_expand: true});
-        box.add_child(new St.Icon({
+        button._stackIcon = new St.Icon({
             gicon: this._gicon(item),
             fallback_icon_name: item.isDir ? 'folder' : 'text-x-generic',
             icon_size: LIST_ICON,
             y_align: Clutter.ActorAlign.CENTER,
-        }));
+        });
+        box.add_child(button._stackIcon);
         const text = new St.BoxLayout({x_expand: true});
         setVertical(text, true);
         const name = new St.Label({text: item.name, style_class: 'deskence-stack-row-name'});
@@ -1256,6 +1339,10 @@ export class StackPanel {
         if (this._dragScrollId)
             GLib.source_remove(this._dragScrollId);
         this._dragScrollId = 0;
+        // GNOME Shell cancels the drag of a destroyed item without telling
+        // its handlers (Draggable disconnects them), so end it here.
+        this._endItemDrag();
+        this._reloadWanted = false;
         this._dragPoint = null;
         this._dropButton = null;
         this._forDrag = false;

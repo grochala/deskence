@@ -99,12 +99,21 @@ daily on hardware; Debian 13 has not been run in a real session.
 - Shortcut clashes are found among Deskence's shortcuts and GNOME's
   keybinding settings only; shortcuts of other applications, extensions or
   keyboard layouts cannot be read.
+- Files and folders cannot be dragged from a folder panel into windows of
+  other applications such as Files: GNOME Shell cannot start a drag that
+  applications receive. They can be dropped on another folder in the dock
+  and on the Deskence desktop, where they go to the first free cells.
+- Applications take dropped files only when their desktop entry lists the
+  files' content types; applications without a `MimeType` list are
+  refused, even when they would open the file. The content type is GIO's:
+  by name where the name is unambiguous, otherwise by contents, as in
+  Files, so a file with a misleading extension is judged by its name.
 - Files dropped on the dock: only drags that offer `text/uri-list` are
   recognized (GTK, Qt and the desktop do). Copying and moving into folders
   needs Files (Nautilus); there is no fallback in the Shell. Whether an
   application takes files is read from its desktop entry (`%u`, `%U`, `%f`,
-  `%F`), not from the formats it declares, so an application may still
-  refuse a file it opened. The wheel does not scroll a folder panel during a
+  `%F`) and its `MimeType` list; an application may still fail to open a
+  file it declares, which is reported. The wheel does not scroll a folder panel during a
   drag (the drag holds the pointer); resting near an end does. Drags from
   X11 applications and touch drags have not been tested. After a drop the
   source application sees a cancelled drag, since the file went to the

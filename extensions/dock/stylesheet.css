@@ -298,20 +298,30 @@
 }
 
 /*
- * Folders in the dock. The arrow under a folder (on the inner side in a
+ * Folders in the dock. The triangle under a folder (on the inner side in a
  * side dock) tells it opens a panel; applications have window dots there.
- * An unavailable folder is dimmed (stacks.js).
+ * As wide as the dots of a focused application and, tapering, a little
+ * thicker than a dot at its base, in the same place and the same
+ * color as dots of an application without focus (drawn in stacks.js from
+ * the color here). An unavailable folder is dimmed (stacks.js).
  */
-#dash.deskence-dock .deskence-dock-stack-marker {
-  icon-size: 8px;
+#dash.deskence-dock .deskence-dock-stack-marker-bottom {
+  width: 10px;
+  height: 6px;
+}
+
+#dash.deskence-dock .deskence-dock-stack-marker-left,
+#dash.deskence-dock .deskence-dock-stack-marker-right {
+  width: 6px;
+  height: 10px;
 }
 
 #dash.deskence-dock-ink-light .deskence-dock-stack-marker {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 #dash.deskence-dock-ink-dark .deskence-dock-stack-marker {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* The contents panel: GNOME Shell menu classes, sizes only. */

@@ -181,6 +181,35 @@ headless Wayland session.
   processes to the start value with no JavaScript errors in the log.
 - Polish and English interface.
 
+**0.12.0**, GNOME Shell 51.1 headless:
+
+- Folder marker: bottom, left and right dock, a dark and a light dock
+  (light and dark ink), 100 % and 200 % scale with magnification.
+- Dragging out of a folder panel: a file onto another folder (moved), with
+  Ctrl (copied), onto a read-only folder (refused, the label above the
+  panel), a folder onto a folder stack showing that folder (refused), a
+  folder with contents onto another folder (moved), a file onto the
+  desktop (moved into the desktop folder), Escape (nothing changed, the
+  panel stays); bottom, left and right dock; the panel refreshed after each
+  move; afterwards GNOME Shell held only the panel's grab, none once the
+  panel was closed, and clicks on the desktop, icon selection and moving
+  a window worked. Disabling the dock during such a drag left no grab and
+  no delegate on the desktop window.
+- Files dropped on applications (GTK 4 test source): text on Text Editor
+  (opened), a PNG on Calendar (refused with a notification, not started),
+  text and PNG together on Text Editor (refused as a whole), a PNG without
+  an extension on Image Viewer (recognized by its contents, opened), text
+  on an application without `MimeType` (cannot be confirmed), a file
+  deleted before the drop (no longer available).
+- Pinning from the applications view across a folder icon and reordering
+  still work; files from applications still go into folders;
+  `startup-input.sh` passes.
+
+Not verified: dragging to Files (not possible from GNOME Shell, see
+architecture decision 31), name conflicts (Files crashes in the isolated
+session when building its conflict dialog), GNOME 48 for 0.12.0, a real
+login session.
+
 **Input after login (0.11.3)**: `tests/integration/startup-input.sh`
 restarts GNOME Shell of an isolated session with the dock (and the desktop
 icons) enabled, as at login, and checks that GNOME finished its startup
