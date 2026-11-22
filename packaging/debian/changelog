@@ -1,3 +1,10 @@
+deskence (0.13.0) unstable; urgency=medium
+
+  * Dock: items of a folder panel can be copied or cut to the clipboard and
+    pasted in Files or on the desktop.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sun, 22 Nov 2026 23:59:54 +0100
+
 deskence (0.12.0) unstable; urgency=medium
 
   * Dock: files and folders can be dragged from a folder panel onto another

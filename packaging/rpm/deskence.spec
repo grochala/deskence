@@ -1,5 +1,5 @@
 Name:           deskence
-Version:        0.12.0
+Version:        0.13.0
 Release:        1%{?dist}
 Summary:        Dock, desktop icons and tray for GNOME
 
@@ -91,6 +91,10 @@ glib-compile-schemas --strict --dry-run %{buildroot}%{_datadir}/glib-2.0/schemas
 %config(noreplace) %{_sysconfdir}/xdg/autostart/deskence-migration.desktop
 
 %changelog
+* Sun Nov 22 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.13.0-1
+- Dock: items of a folder panel can be copied or cut to the clipboard and
+  pasted in Files or on the desktop
+
 * Sun Nov 22 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.12.0-1
 - Dock: files and folders can be dragged from a folder panel onto another
   folder in the dock or onto the desktop
