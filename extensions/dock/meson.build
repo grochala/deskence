@@ -14,6 +14,7 @@ install_data(
   'appIcon.js',
   'dropLogic.js',
   'fileDrop.js',
+  'inputDiagnostics.js',
   'launcherEntry.js',
   'launcherLogic.js',
   'locations.js',

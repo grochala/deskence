@@ -277,6 +277,17 @@ one involved. If `deskence` itself cannot run,
 `gsettings set org.gnome.shell disable-user-extensions true` turns off every
 extension for the next login (`false` restores them). Neither deletes data.
 
+If opening and closing the overview brings input back, collect what it
+resets: put `DESKENCE_DEBUG=input` (or `DESKENCE_DEBUG=input,dnd`) into
+`~/.config/environment.d/deskence-debug.conf`, log in again, wait until the
+problem shows, open and close the applications view once, then save
+`journalctl --user -b | grep 'Deskence input'`. The dock logs a few
+snapshots per session (enabled, startup complete and 3 s later, the first
+two times the overview is shown and hidden): which actor a click would
+reach at points of every monitor, the Shell's grabs, modal count and action
+mode, the overview's and the layout's state, and the windows' application
+ids, types, layers and geometry, without window titles.
+
 To see what file drags do, put `DESKENCE_DEBUG=dnd` into
 `~/.config/environment.d/deskence-debug.conf` and log in again; the dock
 logs each drag's state changes (begin, kind of target, the panel, drop or
