@@ -25,6 +25,7 @@ There are three levels of testing, and they prove different things:
 | `unit-gjs-geometry` (`test_geometry.js`) | Dock magnification and its limits, window preview thumbnail sizes, desktop and menu geometry, applications view tile styles (folder background, hover highlight compositing, states, text color) |
 | `unit-gjs-order` (`test_order.js`, `LANG=pl_PL.UTF-8`) | Name sorting (case, numbers, Polish characters, stability), paging |
 | `unit-gjs-launcher` (`test_launcher.js`) | LauncherEntry: desktop ids, invalid values, counter text, merging senders without adding up, vanished senders |
+| `unit-gjs-drop` (`test_drop.js`) | Files dropped on the dock: URI lists (CRLF, comments, non-URIs, duplicates), folders within folders and parents (root, remote hosts), copy or move with Shift/Ctrl and file systems, refused drops (nothing, links, missing or read-only folder, a folder into itself or its subfolder, moving to the same folder), how applications take files (`%U`, `%F`, none), scrolling near the ends of a list, drop versus cancel |
 | `unit-gjs-stacks` (`test_stacks.js`) | Folder entries (no escaping the home directory), sorting, `.desktop` files, thumbnails, panel height limit, grid columns, loading more items |
 | `unit-gjs-clipboard` (`test_clipboard.js`) | Secret markers, format choice, deduplication, count/size/memory limits, pinning, safe file names, search |
 | `unit-gjs-keep-awake` (`test_keep_awake.js`) | Durations, "until a time" (today/tomorrow, clock changes, daylight saving time), rounding |
@@ -180,6 +181,42 @@ headless Wayland session.
   processes to the start value with no JavaScript errors in the log.
 - Polish and English interface.
 
+**Files dropped on the dock (0.11.0)**, GNOME Shell 51.1 headless with a
+small GTK 4 window as the drag source (a `Gdk.FileList`, as Files offers
+it), driven with the virtual pointer and keyboard:
+
+- Two files dropped on Text Editor open in it; Settings (no `%U`/`%F`)
+  is refused (dimmed, "cannot open files"), nothing starts.
+- A file dropped on Downloads moves (same file system) through Files; with
+  Ctrl held the label changes to copying while hovering; the drag source
+  always ends with a cancel and never deletes.
+- Hovering Downloads opens its panel without a grab; the edge scrolled
+  through 300 files to a subfolder at the end; a drop on the subfolder and
+  on the panel header (the folder itself) went there.
+- Refused: a read-only folder, Downloads into itself, a file already in
+  Downloads; Escape with the panel open closes it and changes nothing.
+- Dock on the left (full length, auto-hide): revealed by resting at the
+  screen edge, the panel opened beside it and stayed open while crossing
+  the gap, then closed with the dock after the pointer left.
+- Two monitors, dock on both, right side: a drop into the panel of the
+  second monitor's dock.
+- 200 % scale with magnification: icons magnify on hover, keep their size
+  during a file drag; a drop into the panel works.
+- Undo through Files' `Undo` returned the moved file.
+- Pinning from the applications view and reordering in the dock still work.
+- Disabling the dock during a drag with the panel open: no errors, no
+  actors left.
+- GNOME Shell 48.7 headless in a Debian 13 container (the host's system
+  bus shared for logind): refused application, opening a file with Files
+  (`%U`), the panel during a drag, a move into a subfolder.
+
+Not verified: name conflicts (Nautilus 51.1 crashed in the isolated session
+when building its conflict dialog, `nautilus_image_set_fallback`, also when
+called directly with `gdbus`, so the dialog was not seen), Files itself as
+the drag source, other file managers and applications as sources or
+targets, X11 (Xwayland) drag sources, touch drags, a disconnected drive
+while hovering, a real login session.
+
 **GNOME Shell 48.7 (Debian 13, container with systemd)**, versions up to
 0.5.0: the dock, desktop icons (mutter 48 path) and tray start; the window
 preview panel opens; enabling and disabling work without JavaScript errors.
@@ -231,6 +268,7 @@ item by item):
 - [ ] Orca: labels of the dock, desktop icons, settings switches, panels.
 - [ ] Keyboard: Ctrl+Alt+Tab to the dock, arrows on the desktop, Shift+F10.
 - [ ] Dragging files between Nautilus and the desktop and between monitors.
+- [ ] Files from Nautilus and the desktop onto dock applications (one and several files) and into folder stacks: copy, move, Ctrl/Shift, a name conflict, a read-only folder, a removed USB stick, Escape; dock bottom, left and right, auto-hide.
 - [ ] Without Nautilus: GIO fallback operations.
 - [ ] Long session: no growing leaks (`journalctl`, `top`).
 - [ ] Settings application on libadwaita 1.7 (Debian 13).

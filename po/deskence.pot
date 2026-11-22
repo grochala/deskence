@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-22 13:42+0000\n"
+"POT-Creation-Date: 2026-11-22 19:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1135,7 +1135,7 @@ msgstr ""
 msgid "Move Down"
 msgstr ""
 
-#: src/deskence/pages.py:487 extensions/dock/stacks.js:324
+#: src/deskence/pages.py:487 extensions/dock/stacks.js:336
 msgid "Remove From Dock"
 msgstr ""
 
@@ -1459,7 +1459,7 @@ msgstr ""
 msgid "_Log Out…"
 msgstr ""
 
-#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:480
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:505
 #: src/deskence/presets.py:147
 msgid "Dock"
 msgstr ""
@@ -1716,8 +1716,8 @@ msgstr ""
 msgid "Desktop Folder"
 msgstr ""
 
-#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:317
-#: extensions/dock/stacks.js:473 extensions/dock/stacks.js:477
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:329
+#: extensions/dock/stacks.js:512 extensions/dock/stacks.js:516
 msgid "Open in Files"
 msgstr ""
 
@@ -1988,7 +1988,7 @@ msgstr ""
 msgid "Cannot open Settings"
 msgstr ""
 
-#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:73
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:76
 msgid "Cannot open Deskence"
 msgstr ""
 
@@ -2166,16 +2166,16 @@ msgstr ""
 #. Whatever the image, the icon is a square of the dock icon size, so
 #. the button keeps its size and the dock its alignment. Like the
 #. other icons it is rendered for its magnified size.
-#: extensions/dock/dock.js:231 extensions/dock/dock.js:241
-#: extensions/dock/dock.js:464
+#: extensions/dock/dock.js:250 extensions/dock/dock.js:260
+#: extensions/dock/dock.js:489
 msgid "Show Apps"
 msgstr ""
 
-#: extensions/dock/dock.js:263
+#: extensions/dock/dock.js:282
 msgid "Dock Settings"
 msgstr ""
 
-#: extensions/dock/locations.js:27 extensions/dock/stacks.js:91
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:103
 msgid "Could not open location"
 msgstr ""
 
@@ -2225,7 +2225,7 @@ msgid "All Presets"
 msgstr ""
 
 #: src/deskence/general.py:41 src/deskence/general.py:233
-#: extensions/dock/stacks.js:419
+#: extensions/dock/stacks.js:449
 msgid "Name"
 msgstr ""
 
@@ -3661,75 +3661,142 @@ msgstr ""
 msgid "New items are not added until this is turned off"
 msgstr ""
 
-#: extensions/dock/stacks.js:248 extensions/dock/stacks.js:391
+#: extensions/dock/stacks.js:260 extensions/dock/stacks.js:421
 #, javascript-format
 msgid "Folder %s"
 msgstr ""
 
-#: extensions/dock/stacks.js:401
+#: extensions/dock/stacks.js:431
 msgid "Back"
 msgstr ""
 
-#: extensions/dock/stacks.js:419
+#: extensions/dock/stacks.js:449
 msgid "Date"
 msgstr ""
 
-#: extensions/dock/stacks.js:420
+#: extensions/dock/stacks.js:450
 msgid "Type"
 msgstr ""
 
-#: extensions/dock/stacks.js:426
+#: extensions/dock/stacks.js:456
 #, javascript-format
 msgid "Sort by %s"
 msgstr ""
 
-#: extensions/dock/stacks.js:552
+#: extensions/dock/stacks.js:678
 msgid "Show as Grid"
 msgstr ""
 
-#: extensions/dock/stacks.js:552
+#: extensions/dock/stacks.js:678
 msgid "Show as List"
 msgstr ""
 
-#: extensions/dock/stacks.js:578
+#: extensions/dock/stacks.js:704
 msgid "This standard folder is not set up."
 msgstr ""
 
-#: extensions/dock/stacks.js:582
+#: extensions/dock/stacks.js:708
 msgid "Loading…"
 msgstr ""
 
-#: extensions/dock/stacks.js:647
+#: extensions/dock/stacks.js:773
 msgid "This folder does not exist anymore."
 msgstr ""
 
-#: extensions/dock/stacks.js:649
+#: extensions/dock/stacks.js:775
 msgid "You do not have permission to open this folder."
 msgstr ""
 
-#: extensions/dock/stacks.js:651
+#: extensions/dock/stacks.js:777
 #, javascript-format
 msgid "This folder cannot be opened: %s"
 msgstr ""
 
-#: extensions/dock/stacks.js:713
+#: extensions/dock/stacks.js:841
 msgid "This folder is empty."
 msgstr ""
 
-#: extensions/dock/stacks.js:715
+#: extensions/dock/stacks.js:843
 #, javascript-format
 msgid ""
 "This folder has more than %d items; only the first ones are shown. Open it "
 "in Files to see all."
 msgstr ""
 
-#: extensions/dock/stacks.js:871
+#: extensions/dock/stacks.js:1002
 msgid "Folder"
 msgstr ""
 
-#: extensions/dock/stacks.js:946
+#: extensions/dock/stacks.js:1077
 #, javascript-format
 msgid "Could not open “%s”"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:362
+#, javascript-format
+msgid "%s cannot open files"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:363
+#, javascript-format
+msgid "Open with %s"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:392
+#, javascript-format
+msgid "%s is not available"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:394
+#, javascript-format
+msgid "%s is read-only"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:396
+msgid "A folder cannot be put into itself"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:398
+#, javascript-format
+msgid "Already in %s"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:400
+msgid "Only files can be put into a folder"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:405
+#, javascript-format
+msgid "Move to %s"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:406
+#, javascript-format
+msgid "Copy to %s"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:407
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:507
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:523
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:523
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr ""
+
+#: extensions/dock/fileDrop.js:526
+msgid "Copying and moving files from the dock needs the Files application."
 msgstr ""
 
 #: extensions/dock/appIcon.js:95

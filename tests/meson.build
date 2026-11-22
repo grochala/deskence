@@ -17,6 +17,8 @@ if gjs.found()
     args: ['-m', meson.current_source_dir() / 'unit' / 'test_launcher.js'])
   test('unit-gjs-stacks', gjs,
     args: ['-m', meson.current_source_dir() / 'unit' / 'test_stacks.js'])
+  test('unit-gjs-drop', gjs,
+    args: ['-m', meson.current_source_dir() / 'unit' / 'test_drop.js'])
   test('unit-gjs-order', gjs,
     args: ['-m', meson.current_source_dir() / 'unit' / 'test_order.js'],
     env: ['LANG=pl_PL.UTF-8'])

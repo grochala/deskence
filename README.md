@@ -33,6 +33,7 @@ feature can be turned on and off on its own.
       <h3>Folder stacks</h3>
       Click a folder in the dock to see its contents in a panel, sorted by
       name, date or type, as a grid or a list – and open any item directly.
+      Drop files on it to copy or move them there.
       <br><br>
     </td>
     <td width="50%" valign="top">
@@ -78,7 +79,9 @@ feature can be turned on and off on its own.
   the pointer rests on its dock icon; close a window or peek at it from its
   thumbnail.
 - **Folder stacks** – folders such as Downloads in the dock, with a panel
-  that shows their contents as a list or grid.
+  that shows their contents as a list or grid. Files dropped on a folder
+  (or on a subfolder in its panel) are copied or moved there through Files;
+  files dropped on an application open in it.
 - **Clipboard history** – text and images, search, pinned items, a keyboard
   shortcut and pasting into the window you came from. Kept in memory only,
   unless you choose to keep it after logging out; content marked as secret

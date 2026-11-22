@@ -108,6 +108,16 @@
   background-color: rgba(0, 0, 0, 0.16);
 }
 
+/* Files dragged onto the dock (fileDrop.js): the item a drop goes to has
+   the hover highlight; one that refuses the files is dimmed in code. */
+#dash.deskence-dock-ink-light .dash-item-container .overview-tile.deskence-drop-target .overview-icon {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+#dash.deskence-dock-ink-dark .dash-item-container .overview-tile.deskence-drop-target .overview-icon {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 #dash.deskence-dock-ink-light .dash-separator {
   background-color: rgba(255, 255, 255, 0.15);
 }
@@ -375,6 +385,21 @@
 
 .deskence-stack-row-details {
   font-size: 0.8em;
+  color: rgba(127, 127, 127, 1);
+}
+
+.deskence-stack-item.deskence-drop-target,
+.deskence-stack-row.deskence-drop-target {
+  background-color: rgba(127, 127, 127, 0.25);
+}
+
+/* What a drop does, in place of the sorting buttons during a drag. */
+.deskence-stack-drop-hint {
+  padding: 4px;
+  font-size: 0.9em;
+}
+
+.deskence-stack-drop-hint-refused {
   color: rgba(127, 127, 127, 1);
 }
 

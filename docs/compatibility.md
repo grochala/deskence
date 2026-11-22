@@ -46,6 +46,7 @@ Differences the code handles:
 | Command line (`deskence status` ...) | tested | not tested | not declared |
 | Settings search, shortcuts panel, preset undo, diagnostics (0.10.0) | tested | not tested | – |
 | Dock counters and progress (LauncherEntry) | tested with a synthetic sender | not tested | not declared |
+| Files dropped on dock applications and folders (0.11.0) | tested with a GTK 4 test source | tested headless in a container | not declared |
 
 "Tested" means the checks in an isolated headless Wayland session listed
 in [testing.md](testing.md). On Fedora 45 every release is also tested by
@@ -97,5 +98,15 @@ daily on hardware; Debian 13 has not been run in a real session.
 - Shortcut clashes are found among Deskence's shortcuts and GNOME's
   keybinding settings only; shortcuts of other applications, extensions or
   keyboard layouts cannot be read.
+- Files dropped on the dock: only drags that offer `text/uri-list` are
+  recognized (GTK, Qt and the desktop do). Copying and moving into folders
+  needs Files (Nautilus); there is no fallback in the Shell. Whether an
+  application takes files is read from its desktop entry (`%u`, `%U`, `%f`,
+  `%F`), not from the formats it declares, so an application may still
+  refuse a file it opened. The wheel does not scroll a folder panel during a
+  drag (the drag holds the pointer); resting near an end does. Drags from
+  X11 applications and touch drags have not been tested. After a drop the
+  source application sees a cancelled drag, since the file went to the
+  Shell rather than to a window.
 - There is no package repository; updates mean installing a newer package
   file.

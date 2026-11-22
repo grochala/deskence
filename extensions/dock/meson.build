@@ -12,6 +12,8 @@ install_data(
   'dock.js',
   'appFolders.js',
   'appIcon.js',
+  'dropLogic.js',
+  'fileDrop.js',
   'launcherEntry.js',
   'launcherLogic.js',
   'locations.js',

@@ -30,6 +30,7 @@ import {logoSilhouette} from './logo.js';
 import {Magnifier} from './magnifier.js';
 import {OverviewBackdrop} from './overviewBackdrop.js';
 import {AppGridTiles} from './appFolders.js';
+import {FileDrop} from './fileDrop.js';
 import {LauncherEntries} from './launcherEntry.js';
 import {StackIcon, StackPanel, StacksModel} from './stacks.js';
 import {WindowPreviews} from './windowPreviews.js';
@@ -38,6 +39,8 @@ const ANIMATION_TIME = 200;
 const AUTOHIDE_DELAY = 500;
 const REVEAL_DELAY = 150;
 const LABEL_DELAY = 300;
+// An application that cannot open dragged files is dimmed this far.
+const REFUSED_OPACITY = 120;
 // Wheel steps and edge scrolling while dragging, in logical pixels.
 const SCROLL_STEP = 48;
 const DRAG_SCROLL_STEP = 8;
@@ -90,6 +93,7 @@ const DockItem = GObject.registerClass({
         this.child = child;
         this.add_child(child);
         this._labelText = labelText;
+        this._dropText = null;
         this._labelTimeoutId = 0;
         this.label = null;
         child.connectObject('notify::hover', () => this._syncLabel(), this);
@@ -106,8 +110,21 @@ const DockItem = GObject.registerClass({
 
     setLabelText(text) {
         this._labelText = text;
-        if (this.label)
+        if (this.label && this._dropText === null)
             this.label.text = text;
+    }
+
+    // While files are dragged over the item: what a drop does, shown at
+    // once in place of the name; null takes it away.
+    setDropText(text) {
+        if (text === this._dropText)
+            return;
+        this._dropText = text;
+        this._clearTimeout();
+        if (text === null)
+            this.hideLabel();
+        else
+            this.showLabel();
     }
 
     _clearTimeout() {
@@ -138,13 +155,15 @@ const DockItem = GObject.registerClass({
     }
 
     showLabel() {
-        if (!this._labelText)
+        const text = this._dropText ?? this._labelText;
+        if (!text)
             return;
         if (!this.label) {
-            this.label = new St.Label({style_class: 'dash-label', text: this._labelText});
+            this.label = new St.Label({style_class: 'dash-label'});
             Main.layoutManager.addChrome(this.label);
         }
         const label = this.label;
+        label.text = text;
         label.opacity = 0;
         label.show();
 
@@ -391,6 +410,12 @@ class Dock {
         this._scrollOffset = 0;
         this._overflow = 0;
         this._dragScrollId = 0;
+        // Files dragged from an application (fileDrop.js).
+        this._fileDragOver = false;
+        this._fileAtEdge = false;
+        this._fileRevealId = 0;
+        this._fileRepickId = 0;
+        this._dropItem = null;
 
         const vertical = this.vertical;
 
@@ -703,7 +728,8 @@ class Dock {
 
     // While dragging over an end of a scrolled list, keep scrolling.
     _updateDragScroll() {
-        const [ok, x, y] = this._viewport.transform_stage_point(...global.get_pointer());
+        const [px, py] = global.get_pointer();
+        const [ok, x, y] = this._viewport.transform_stage_point(px, py);
         const length = this._viewLength();
         const pos = this.vertical ? y : x;
         const zone = this.itemExtent() / 2;
@@ -720,12 +746,15 @@ class Dock {
         }
         this._dragScrollDirection = direction;
         this._dragScrollId ||= GLib.timeout_add(GLib.PRIORITY_DEFAULT, DRAG_SCROLL_INTERVAL, () => {
-            if (!this._placeholder) {
+            if (!this._placeholder && !this._fileDragOver) {
                 this._dragScrollId = 0;
                 return GLib.SOURCE_REMOVE;
             }
             this.scrollBy(this._dragScrollDirection * DRAG_SCROLL_STEP);
-            this._updateDropPosition();
+            if (this._placeholder)
+                this._updateDropPosition();
+            else
+                this.manager.fileDrop.repick();
             this._updateDragScroll();
             return this._dragScrollId ? GLib.SOURCE_CONTINUE : GLib.SOURCE_REMOVE;
         });
@@ -1219,6 +1248,7 @@ class Dock {
             this._menusOpen.size > 0 ||
             this.manager.previews.isOpenFor(this) ||
             this.manager.dragInProgress ||
+            this._fileDragOver ||
             this._dash.hover ||
             global.stage.key_focus && this._dash.contains(global.stage.key_focus);
     }
@@ -1422,7 +1452,8 @@ class Dock {
     // includes the list's scroll translation.
     _updateDropPosition() {
         const items = this._pinnedItems(this._dragId);
-        const [ok, bx, by] = this._box.transform_stage_point(...global.get_pointer());
+        const [px, py] = global.get_pointer();
+        const [ok, bx, by] = this._box.transform_stage_point(px, py);
         const pos = ok ? this._dropIndex(items, bx, by) : items.length;
         if (pos === this._placeholderPos && this._placeholder)
             return;
@@ -1488,6 +1519,123 @@ class Dock {
             this.clearPlaceholder();
     }
 
+    hideLabels() {
+        for (const item of this._allItems())
+            item.hideLabel();
+    }
+
+    // --- Files dragged from applications (fileDrop.js) -------------------
+    //
+    // These drags belong to a Wayland client: the dock's actors get no
+    // pointer events while they last, so hover, revealing and scrolling
+    // follow the positions the drag reports.
+
+    // The item under a dragged file that could take it, an application or
+    // a folder, or null.
+    fileDropTarget(actor) {
+        if (!actor || !this._dash.contains(actor))
+            return null;
+        for (const item of this._appItems.values()) {
+            if (item.contains(actor)) {
+                return {
+                    kind: 'app', key: `app:${this.monitorIndex}:${item.child.app.get_id()}`,
+                    dock: this, item, icon: item.child,
+                };
+            }
+        }
+        for (const item of this._stackItems.values()) {
+            if (item.contains(actor)) {
+                const stack = item.child.item;
+                return {
+                    kind: 'stack', key: `stack:${this.monitorIndex}:${stack.id}`,
+                    dock: this, item, icon: item.child, file: stack.file, name: stack.name,
+                };
+            }
+        }
+        return null;
+    }
+
+    // Marks item as the target of a file drag: highlighted like a hovered
+    // item when it takes the files, dimmed when it does not, with text
+    // telling what a drop does. null clears the mark.
+    setFileDropFeedback(item, accepted = true, text = null) {
+        const old = this._dropItem;
+        if (old && old !== item && old.get_stage()) {
+            old.child.remove_style_class_name('deskence-drop-target');
+            old.child.opacity = 255;
+            old.setDropText(null);
+        }
+        this._dropItem = item;
+        if (!item)
+            return;
+        if (accepted)
+            item.child.add_style_class_name('deskence-drop-target');
+        else
+            item.child.remove_style_class_name('deskence-drop-target');
+        item.child.opacity = accepted ? 255 : REFUSED_OPACITY;
+        item.setDropText(text);
+    }
+
+    // A file drag at stage point x, y over actor: the dock comes out when
+    // the pointer rests at its screen edge and stays while it is over it;
+    // a scrolled list scrolls at its ends.
+    fileDragAt(x, y, actor) {
+        const over = actor !== null && this._dash.contains(actor);
+        if (over !== this._fileDragOver) {
+            this._fileDragOver = over;
+            this._syncVisibility();
+        }
+        if (over)
+            this._updateDragScroll();
+        else if (!this._placeholder)
+            this._stopDragScroll();
+
+        this._fileAtEdge = actor !== null && actor === this._trigger;
+        if (!this._fileAtEdge) {
+            if (this._fileRevealId)
+                GLib.source_remove(this._fileRevealId);
+            this._fileRevealId = 0;
+            return;
+        }
+        this._fileRevealId ||= GLib.timeout_add(GLib.PRIORITY_DEFAULT, REVEAL_DELAY, () => {
+            this._fileRevealId = 0;
+            if (!this._fileAtEdge)
+                return GLib.SOURCE_REMOVE;
+            // The dock comes out under the resting pointer; the drag reports
+            // no position until it moves, so the target is found again once
+            // the dock is in place.
+            this._fileDragOver = true;
+            this.reveal();
+            this._syncVisibility();
+            if (this._fileRepickId)
+                GLib.source_remove(this._fileRepickId);
+            this._fileRepickId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, ANIMATION_TIME, () => {
+                this._fileRepickId = 0;
+                this.manager.fileDrop.repick();
+                return GLib.SOURCE_REMOVE;
+            });
+            return GLib.SOURCE_REMOVE;
+        });
+    }
+
+    _clearFileTimeouts() {
+        for (const name of ['_fileRevealId', '_fileRepickId']) {
+            if (this[name])
+                GLib.source_remove(this[name]);
+            this[name] = 0;
+        }
+    }
+
+    endFileDrag() {
+        this._fileDragOver = false;
+        this._fileAtEdge = false;
+        this._clearFileTimeouts();
+        if (!this._placeholder)
+            this._stopDragScroll();
+        this.setFileDropFeedback(null);
+        this._syncVisibility();
+    }
+
     destroy() {
         this.manager.previews.closeFor(this);
         this.manager.stackPanel.closeFor(this);
@@ -1499,6 +1647,7 @@ class Dock {
         if (this._revealTimeoutId)
             GLib.source_remove(this._revealTimeoutId);
         this._revealTimeoutId = 0;
+        this._clearFileTimeouts();
         Main.ctrlAltTabManager.removeGroup(this._dash);
         this.magnifier.destroy();
         this._holder.destroy();
@@ -1515,6 +1664,7 @@ export class DockManager {
         this._docks = [];
         this._redisplayId = 0;
         this.dragInProgress = false;
+        this.fileDragInProgress = false;
         this._runningOrder = [];
         this._iconCancellable = null;
         this._readSettings();
@@ -1573,7 +1723,12 @@ export class DockManager {
         this._overviewAdjustment?.connectObject('notify::value',
             () => this._docks.forEach(d => d.setOverviewProgress(this.overviewValue)), this);
         global.display.connectObject('workareas-changed', () => this._updateBackdrop(), this);
+        this.fileDrop = new FileDrop(this);
         this._rebuild();
+    }
+
+    get docks() {
+        return this._docks;
     }
 
     // --- Overview backdrop (see overviewBackdrop.js) --------------------
@@ -1809,6 +1964,7 @@ export class DockManager {
     }
 
     _rebuild() {
+        this.fileDrop?.cancel();
         this._docks.forEach(d => d.destroy());
         this._docks = [];
         if (Main.layoutManager.monitors.length === 0)
@@ -1889,6 +2045,23 @@ export class DockManager {
         this._docks.forEach(d => d.onOverviewChanged());
     }
 
+    // Files dragged from an application (fileDrop.js). The icons keep their
+    // size, as during GNOME Shell drags, so targets do not move.
+    fileDragBegin() {
+        this.fileDragInProgress = true;
+        this.previews.close();
+        this._docks.forEach(d => {
+            d.magnifier.relax();
+            d.hideLabels();
+        });
+    }
+
+    fileDragEnd() {
+        this.fileDragInProgress = false;
+        this.stackPanel.closeForDrag();
+        this._docks.forEach(d => d.endFileDrag());
+    }
+
     _onDragEnd() {
         this.dragInProgress = false;
         if (this._dragMonitor)
@@ -1945,6 +2118,8 @@ export class DockManager {
         this._dragMonitor = null;
 
         this.previews.close();
+        this.fileDrop.destroy();
+        this.fileDrop = null;
         this.stackPanel.destroy();
         this.launcher.destroy();
         this._docks.forEach(d => d.destroy());

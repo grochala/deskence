@@ -184,7 +184,8 @@ export class Magnifier {
         const type = event.type();
         if (type !== Clutter.EventType.MOTION && type !== Clutter.EventType.ENTER)
             return Clutter.EVENT_PROPAGATE;
-        if (this._frozen || this._dock.manager.dragInProgress || !this._dock.shown)
+        if (this._frozen || this._dock.manager.dragInProgress || this._dock.manager.fileDragInProgress ||
+            !this._dock.shown)
             return Clutter.EVENT_PROPAGATE;
         const [x, y] = event.get_coords();
         const zones = this._dock.magnifyZones();

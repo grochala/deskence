@@ -31,6 +31,12 @@
 // on the dock's monitor, and holds a grab like a menu: a click outside or
 // Escape closes it. The dock stays shown and stops magnifying while it is
 // open (Dock.setMenuOpen).
+//
+// Files dragged onto the folder open the panel without a grab, which would
+// take the pointer from the drag (fileDrop.js). It then shows what a drop
+// does instead of the sorting buttons, highlights the subfolder a drop
+// would go into, scrolls while the pointer rests near an end of the
+// contents and closes when the drag ends.
 
 import Clutter from 'gi://Clutter';
 import Gio from 'gi://Gio';
@@ -48,6 +54,7 @@ import {EventEmitter} from 'resource:///org/gnome/shell/misc/signals.js';
 import {gettext as _, ngettext} from 'resource:///org/gnome/shell/extensions/extension.js';
 
 import {setVertical} from './appIcon.js';
+import {edgeScrollStep} from './dropLogic.js';
 import {BATCH, CHUNK, MAX_SCANNED, canThumbnailDirectly, gridColumns, gridFit, isLauncher, needsMore, panelHeights, parseEntry, sortItems, sortModeFor, xdgIconName}
     from './stackLogic.js';
 
@@ -64,6 +71,11 @@ const GRID_ICON = 48;
 const LIST_ICON = 24;
 const ITEM_WIDTH = 96;
 const GRID_SPACING = 4;
+// Scrolling while a drag rests near an end of the contents: the depth of
+// the edge zones and the largest step per tick, in logical pixels.
+const DRAG_SCROLL_ZONE = 40;
+const DRAG_SCROLL_STEP = 12;
+const DRAG_SCROLL_INTERVAL = 16;
 
 function launchContext() {
     return global.create_app_launch_context(0, -1);
@@ -359,10 +371,28 @@ export class StackPanel {
         this._quietFocus = false;
         this._cell = ITEM_WIDTH;
         this._columns = 1;
+        // Opened for files dragged onto the folder (fileDrop.js).
+        this._forDrag = false;
+        this._dragPoint = null;
+        this._dragScrollId = 0;
+        this._dropButton = null;
+        this._hint = null;
     }
 
     get isOpen() {
         return this._panel !== null;
+    }
+
+    get isOpenForDrag() {
+        return this._panel !== null && this._forDrag;
+    }
+
+    get icon() {
+        return this._icon;
+    }
+
+    contains(actor) {
+        return Boolean(actor && this._panel?.contains(actor));
     }
 
     isOpenFor(dock) {
@@ -377,7 +407,7 @@ export class StackPanel {
         this.open(icon, dock);
     }
 
-    open(icon, dock) {
+    open(icon, dock, forDrag = false) {
         this.close();
         const item = icon.item;
         this._icon = icon;
@@ -445,6 +475,15 @@ export class StackPanel {
         tools.add_child(this._viewButton);
         this._panel.add_child(tools);
 
+        // What a drop does, in place of the tools while files are dragged.
+        this._hint = new St.Label({
+            style_class: 'deskence-stack-drop-hint',
+            text: item.name,
+            visible: false,
+        });
+        this._hint.clutter_text.ellipsize = Pango.EllipsizeMode.END;
+        this._panel.add_child(this._hint);
+
         this._status = new St.Label({style_class: 'deskence-stack-status', visible: false});
         this._status.clutter_text.line_wrap = true;
         this._panel.add_child(this._status);
@@ -492,11 +531,98 @@ export class StackPanel {
         Main.layoutManager.addTopChrome(this._tooltip);
         dock.setMenuOpen(icon, true);
         icon.add_style_pseudo_class('active');
-        this._grabHelper = new GrabHelper.GrabHelper(this._panel, {actionMode: Shell.ActionMode.POPUP});
-        const panel = this._panel;
-        this._grabHelper.grab({actor: panel, focus: open, onUngrab: () => this._onUngrab(panel)});
+        if (forDrag) {
+            this._forDrag = true;
+            tools.hide();
+            this._hint.show();
+        } else {
+            this._grabHelper = new GrabHelper.GrabHelper(this._panel, {actionMode: Shell.ActionMode.POPUP});
+            const panel = this._panel;
+            this._grabHelper.grab({actor: panel, focus: open, onUngrab: () => this._onUngrab(panel)});
+        }
         this._load();
         return true;
+    }
+
+    openForDrag(icon, dock) {
+        return this.open(icon, dock, true);
+    }
+
+    closeForDrag() {
+        if (this._forDrag)
+            this.close();
+    }
+
+    // --- Files dragged onto the folder (fileDrop.js) ------------------
+
+    // Where files dropped on actor go: a subfolder shown in the panel, or
+    // otherwise (the background, a file, the header) the folder of the
+    // stack: {file, name, button (the subfolder's item or null)}, or null
+    // outside the panel.
+    dropTargetAt(actor) {
+        if (!this.contains(actor))
+            return null;
+        const button = this._content.get_children().find(c => c.contains(actor));
+        const item = button?._stackItem;
+        if (item?.isDir && this._current)
+            return {file: this._current.get_child(item.info.get_name()), name: item.name, button};
+        return {file: this._trail[0]?.file ?? null, name: this._icon.item.name, button: null};
+    }
+
+    // Highlights the subfolder a drop goes into, like a hovered item; only
+    // when it takes the files.
+    setDropHighlight(button, accepted = true) {
+        if (this._dropButton && this._dropButton !== button)
+            this._dropButton.remove_style_class_name('deskence-drop-target');
+        this._dropButton = button;
+        if (button && accepted)
+            button.add_style_class_name('deskence-drop-target');
+        else
+            button?.remove_style_class_name('deskence-drop-target');
+    }
+
+    // What a drop does; null: the folder's name.
+    setDropHint(text, accepted = true) {
+        if (!this._hint)
+            return;
+        this._hint.text = text ?? this._icon.item.name;
+        if (accepted || text === null)
+            this._hint.remove_style_class_name('deskence-stack-drop-hint-refused');
+        else
+            this._hint.add_style_class_name('deskence-stack-drop-hint-refused');
+    }
+
+    // The drag is at stage point x, y: near an end of the contents they
+    // scroll, faster closer to the edge, until the pointer moves away.
+    dragScrollAt(x, y) {
+        this._dragPoint = [x, y];
+        if (this._dragScrollStep() === 0)
+            return;
+        this._dragScrollId ||= GLib.timeout_add(GLib.PRIORITY_DEFAULT, DRAG_SCROLL_INTERVAL, () => {
+            const step = this._dragScrollStep();
+            if (step === 0) {
+                this._dragScrollId = 0;
+                return GLib.SOURCE_REMOVE;
+            }
+            const adjustment = this._scroll.vadjustment;
+            const value = Math.clamp(adjustment.value + step, 0,
+                Math.max(0, adjustment.upper - adjustment.page_size));
+            if (value !== adjustment.value) {
+                adjustment.value = value;
+                // Other items are under the pointer now.
+                this._manager.fileDrop?.repick();
+            }
+            return GLib.SOURCE_CONTINUE;
+        });
+    }
+
+    _dragScrollStep() {
+        if (!this._panel || !this._dragPoint)
+            return 0;
+        const [ok, x, y] = this._scroll.transform_stage_point(...this._dragPoint);
+        if (!ok || x < 0 || x > this._scroll.width)
+            return 0;
+        return edgeScrollStep(y, this._scroll.height, DRAG_SCROLL_ZONE, DRAG_SCROLL_STEP);
     }
 
     // Width of a grid cell, from the style of an empty one.
@@ -683,6 +809,8 @@ export class StackPanel {
         this._hideTooltip();
         const focused = global.stage.key_focus;
         const hadFocus = focused && this._content.contains(focused);
+        // The items are made again: a highlighted one is found again below.
+        this._dropButton = null;
         this._content.destroy_all_children();
         // A grid with a fixed number of columns, not a flow layout: the
         // scroll range comes from the minimum height of the contents, and
@@ -732,6 +860,8 @@ export class StackPanel {
             this._restoreScroll(view.scroll);
         else
             this._scroll.vadjustment.value = 0;
+        if (this._forDrag)
+            this._manager.fileDrop?.repick(true);
     }
 
     // Builds the next count items (of the sorted ones) into the panel.
@@ -806,6 +936,7 @@ export class StackPanel {
             accessible_name: item.name,
         });
         button._stackName = item.name;
+        button._stackItem = item;
         button.connect('clicked', () => this._activate(item));
         // The focus follows the pointer when it moves, like in menus; not
         // when the contents scroll under a resting pointer, which would
@@ -1122,6 +1253,13 @@ export class StackPanel {
         }
         this._reloadId = 0;
         this._moreId = 0;
+        if (this._dragScrollId)
+            GLib.source_remove(this._dragScrollId);
+        this._dragScrollId = 0;
+        this._dragPoint = null;
+        this._dropButton = null;
+        this._forDrag = false;
+        this._hint = null;
         this._items = [];
         this._sorted = [];
         this._shown = 0;

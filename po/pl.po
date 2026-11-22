@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-22 13:42+0000\n"
+"POT-Creation-Date: 2026-11-22 19:54+0000\n"
 "PO-Revision-Date: 2026-11-21 20:00+0100\n"
 "Last-Translator: Rafał Grochala <rafal.grochala@pixmedia.pl>\n"
 "Language-Team: Polish\n"
@@ -1358,7 +1358,7 @@ msgstr "Przesuń w górę"
 msgid "Move Down"
 msgstr "Przesuń w dół"
 
-#: src/deskence/pages.py:487 extensions/dock/stacks.js:324
+#: src/deskence/pages.py:487 extensions/dock/stacks.js:336
 msgid "Remove From Dock"
 msgstr "Usuń z docka"
 
@@ -1706,7 +1706,7 @@ msgstr "Spróbuj innych słów, na przykład nazwy funkcji."
 msgid "_Log Out…"
 msgstr "_Wyloguj…"
 
-#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:480
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:505
 #: src/deskence/presets.py:147
 msgid "Dock"
 msgstr "Dock"
@@ -1974,8 +1974,8 @@ msgstr "Pokaż ikony _na pulpicie"
 msgid "Desktop Folder"
 msgstr "Folder pulpitu"
 
-#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:317
-#: extensions/dock/stacks.js:473 extensions/dock/stacks.js:477
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:329
+#: extensions/dock/stacks.js:512 extensions/dock/stacks.js:516
 msgid "Open in Files"
 msgstr "Otwórz w Plikach"
 
@@ -2263,7 +2263,7 @@ msgstr "Nie można zezwolić na uruchamianie „{}”"
 msgid "Cannot open Settings"
 msgstr "Nie można otworzyć Ustawień"
 
-#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:73
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:76
 msgid "Cannot open Deskence"
 msgstr "Nie można otworzyć Deskence"
 
@@ -2441,16 +2441,16 @@ msgstr "Pulpit"
 #. Whatever the image, the icon is a square of the dock icon size, so
 #. the button keeps its size and the dock its alignment. Like the
 #. other icons it is rendered for its magnified size.
-#: extensions/dock/dock.js:231 extensions/dock/dock.js:241
-#: extensions/dock/dock.js:464
+#: extensions/dock/dock.js:250 extensions/dock/dock.js:260
+#: extensions/dock/dock.js:489
 msgid "Show Apps"
 msgstr "Pokaż aplikacje"
 
-#: extensions/dock/dock.js:263
+#: extensions/dock/dock.js:282
 msgid "Dock Settings"
 msgstr "Ustawienia docka"
 
-#: extensions/dock/locations.js:27 extensions/dock/stacks.js:91
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:103
 msgid "Could not open location"
 msgstr "Nie można otworzyć położenia"
 
@@ -2500,7 +2500,7 @@ msgid "All Presets"
 msgstr "Wszystkie presety"
 
 #: src/deskence/general.py:41 src/deskence/general.py:233
-#: extensions/dock/stacks.js:419
+#: extensions/dock/stacks.js:449
 msgid "Name"
 msgstr "Nazwa"
 
@@ -4017,62 +4017,62 @@ msgstr "_Wstrzymaj zapamiętywanie"
 msgid "New items are not added until this is turned off"
 msgstr "Nowe pozycje nie są dodawane, dopóki to jest włączone"
 
-#: extensions/dock/stacks.js:248 extensions/dock/stacks.js:391
+#: extensions/dock/stacks.js:260 extensions/dock/stacks.js:421
 #, javascript-format
 msgid "Folder %s"
 msgstr "Folder %s"
 
-#: extensions/dock/stacks.js:401
+#: extensions/dock/stacks.js:431
 msgid "Back"
 msgstr "Wstecz"
 
-#: extensions/dock/stacks.js:419
+#: extensions/dock/stacks.js:449
 msgid "Date"
 msgstr "Data"
 
-#: extensions/dock/stacks.js:420
+#: extensions/dock/stacks.js:450
 msgid "Type"
 msgstr "Typ"
 
-#: extensions/dock/stacks.js:426
+#: extensions/dock/stacks.js:456
 #, javascript-format
 msgid "Sort by %s"
 msgstr "Sortuj: %s"
 
-#: extensions/dock/stacks.js:552
+#: extensions/dock/stacks.js:678
 msgid "Show as Grid"
 msgstr "Pokaż jako siatkę"
 
-#: extensions/dock/stacks.js:552
+#: extensions/dock/stacks.js:678
 msgid "Show as List"
 msgstr "Pokaż jako listę"
 
-#: extensions/dock/stacks.js:578
+#: extensions/dock/stacks.js:704
 msgid "This standard folder is not set up."
 msgstr "Ten folder standardowy nie jest skonfigurowany."
 
-#: extensions/dock/stacks.js:582
+#: extensions/dock/stacks.js:708
 msgid "Loading…"
 msgstr "Wczytywanie…"
 
-#: extensions/dock/stacks.js:647
+#: extensions/dock/stacks.js:773
 msgid "This folder does not exist anymore."
 msgstr "Ten folder już nie istnieje."
 
-#: extensions/dock/stacks.js:649
+#: extensions/dock/stacks.js:775
 msgid "You do not have permission to open this folder."
 msgstr "Nie masz uprawnień do otwarcia tego folderu."
 
-#: extensions/dock/stacks.js:651
+#: extensions/dock/stacks.js:777
 #, javascript-format
 msgid "This folder cannot be opened: %s"
 msgstr "Nie można otworzyć tego folderu: %s"
 
-#: extensions/dock/stacks.js:713
+#: extensions/dock/stacks.js:841
 msgid "This folder is empty."
 msgstr "Ten folder jest pusty."
 
-#: extensions/dock/stacks.js:715
+#: extensions/dock/stacks.js:843
 #, javascript-format
 msgid ""
 "This folder has more than %d items; only the first ones are shown. Open it "
@@ -4081,14 +4081,81 @@ msgstr ""
 "Ten folder zawiera ponad %d elementów; wyświetlane są tylko pierwsze z nich. "
 "Otwórz go w Plikach, aby zobaczyć wszystkie."
 
-#: extensions/dock/stacks.js:871
+#: extensions/dock/stacks.js:1002
 msgid "Folder"
 msgstr "Folder"
 
-#: extensions/dock/stacks.js:946
+#: extensions/dock/stacks.js:1077
 #, javascript-format
 msgid "Could not open “%s”"
 msgstr "Nie można otworzyć „%s”"
+
+#: extensions/dock/fileDrop.js:362
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "Aplikacja %s nie otwiera plików"
+
+#: extensions/dock/fileDrop.js:363
+#, javascript-format
+msgid "Open with %s"
+msgstr "Otwórz za pomocą: %s"
+
+#: extensions/dock/fileDrop.js:392
+#, javascript-format
+msgid "%s is not available"
+msgstr "Folder %s jest niedostępny"
+
+#: extensions/dock/fileDrop.js:394
+#, javascript-format
+msgid "%s is read-only"
+msgstr "Folder %s jest tylko do odczytu"
+
+#: extensions/dock/fileDrop.js:396
+msgid "A folder cannot be put into itself"
+msgstr "Nie można umieścić folderu w nim samym"
+
+#: extensions/dock/fileDrop.js:398
+#, javascript-format
+msgid "Already in %s"
+msgstr "Pliki są już w folderze %s"
+
+#: extensions/dock/fileDrop.js:400
+msgid "Only files can be put into a folder"
+msgstr "Do folderu można umieścić tylko pliki"
+
+#: extensions/dock/fileDrop.js:405
+#, javascript-format
+msgid "Move to %s"
+msgstr "Przenieś do folderu %s"
+
+#: extensions/dock/fileDrop.js:406
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Skopiuj do folderu %s"
+
+#: extensions/dock/fileDrop.js:407
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Przenieś lub skopiuj do folderu %s"
+
+#: extensions/dock/fileDrop.js:507
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Nie można otworzyć plików za pomocą: %s"
+
+#: extensions/dock/fileDrop.js:523
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "Nie można przenieść plików do folderu %s"
+
+#: extensions/dock/fileDrop.js:523
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "Nie można skopiować plików do folderu %s"
+
+#: extensions/dock/fileDrop.js:526
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr "Kopiowanie i przenoszenie plików z docka wymaga aplikacji Pliki."
 
 #: extensions/dock/appIcon.js:95
 #, javascript-format

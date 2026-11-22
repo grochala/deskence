@@ -30,6 +30,7 @@ src/deskence/ui/general-page.ui
 src/deskence/ui/app-grid-page.ui
 src/deskence/ui/clipboard-page.ui
 extensions/dock/stacks.js
+extensions/dock/fileDrop.js
 extensions/dock/appIcon.js
 extensions/app-grid/sorter.js
 extensions/clipboard/extension.js

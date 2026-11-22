@@ -390,6 +390,52 @@ background.
     magnification). Applications do not repeat their state, so values sent
     before the dock started listening appear with the next update.
 
+30. **Files dropped on the dock** (`fileDrop.js`, `dropLogic.js`). Files
+    dragged from Files, the desktop or other applications open in an
+    application dropped on, or are copied or moved into a folder (stack).
+    They come from Wayland clients, which GNOME Shell only sees through
+    mutter (`Main.xdndHandler`): positions and the end of the drag. Over a
+    Shell actor there is no Wayland surface to drop on, so mutter cancels the
+    drag at its source and the application never moves or deletes anything
+    because of it. What is dragged is read during the drag from the DND
+    selection (`Meta.Selection`, `SELECTION_DND`, `text/uri-list`); mutter
+    clears it before the drag ends. A drop is the drag ending with a button
+    release (`Clutter.get_current_event()`); Escape or a vanished source end
+    it otherwise and nothing happens. The drag holds an input-only grab, so
+    the dock's actors get no pointer events while it lasts: hover, revealing
+    at the screen edge, scrolling and the highlight follow the reported
+    positions, and the wheel cannot scroll. Pinning and reordering use GNOME
+    Shell's own DND and never pass here.
+
+    - Applications: `Gio.DesktopAppInfo.launch_uris_async()` with the
+      Shell's launch context, the same for running and stopped
+      applications. The desktop entry decides: `%u`/`%U` take any URI,
+      `%f`/`%F` local files, anything else is refused while hovering (the
+      icon dims and the label says so). Declared MIME types are not checked;
+      the application decides what it can read.
+    - Folders: Files' `FileOperations2` `CopyURIs`/`MoveURIs`, like the
+      desktop (decision 6), so progress, name conflicts, permissions, errors
+      and undo are those of Files. There is no fallback in the Shell: without
+      Files a message says so. Shift moves, Ctrl copies (mutter's order);
+      otherwise files move within a file system and are copied across file
+      systems (`id::filesystem` of the folders, read asynchronously). Refused
+      while hovering: a missing or unmounted folder, a read-only one, a
+      folder into itself or its subfolder, files already in the folder
+      (moving), web links. The label tells what a drop does.
+    - Hovering a folder for 600 ms opens its panel without a grab: a Shell
+      grab would take the pointer from the drag (mutter passes events to the
+      Wayland drag only while the Shell holds none). The panel shows what a
+      drop does instead of the sorting buttons, its subfolders are targets,
+      its files are not (dropping there means the folder itself), and it
+      scrolls while the pointer rests near an end of the contents. It closes
+      700 ms after the pointer left the icon and the panel, and when the
+      drag ends.
+    - The icons keep their normal size during the drag, as during GNOME
+      Shell drags, so targets do not move under the pointer. A refused drop
+      lets the drag image slide back; an accepted one hides it.
+    - Disabling the dock removes the drag monitor, timers, highlights and a
+      panel opened for the drag, and cancels pending reads and drops.
+
 ## Other facts used by the design
 
 - GNOME Shell scans extension directories only in `_loadExtensions()` at
