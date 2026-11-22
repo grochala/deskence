@@ -1,0 +1,13 @@
+/* Keep Awake menu: sizes only, colors from the GNOME Shell theme. */
+.deskence-keep-awake-adjust {
+  padding: 4px;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 99px;
+  margin-left: 4px;
+}
+
+.deskence-keep-awake-hint {
+  font-size: 0.85em;
+  color: rgba(127, 127, 127, 1);
+}

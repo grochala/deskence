@@ -1,0 +1,8 @@
+{
+  "uuid": "@UUID_APP_GRID@",
+  "name": "Deskence Applications View",
+  "description": "Alphabetical order of the applications view of Deskence. It is configured in the Deskence application.",
+  "shell-version": [@SHELL_VERSIONS@],
+  "version-name": "@VERSION@",
+  "gettext-domain": "@GETTEXT_PACKAGE@"
+}

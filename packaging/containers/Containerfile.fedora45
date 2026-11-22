@@ -1,0 +1,2 @@
+FROM registry.fedoraproject.org/fedora:45
+RUN dnf -y install meson ninja-build gettext glib2-devel desktop-file-utils libappstream-glib appstream rpm-build rpmlint python3-gobject gtk4 libadwaita gjs python3-pytest && dnf clean all

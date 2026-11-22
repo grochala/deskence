@@ -1,0 +1,9 @@
+{
+  "uuid": "@UUID_TRAY@",
+  "name": "Deskence Application Icons",
+  "description": "Application icons in the top bar (StatusNotifierItem), part of Deskence. It is configured in the Deskence application.",
+  "shell-version": [@SHELL_VERSIONS@],
+  "session-modes": ["user", "unlock-dialog"],
+  "version-name": "@VERSION@",
+  "gettext-domain": "@GETTEXT_PACKAGE@"
+}

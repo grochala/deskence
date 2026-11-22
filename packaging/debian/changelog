@@ -1,0 +1,117 @@
+deskence (0.10.0) unstable; urgency=medium
+
+  * Settings search, a keyboard shortcuts panel with clash checks and a
+    report for bug reports in the settings window.
+  * Undoing a preset restores only what it changed, keeping later changes.
+  * Dock: counters and progress reported by applications (LauncherEntry).
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sun, 22 Nov 2026 14:42:08 +0100
+
+deskence (0.9.0) unstable; urgency=medium
+
+  * Command line for status, features, presets, defaults and diagnostics,
+    usable from a text console; manual page deskence(1).
+  * Restoring defaults keeps a clipboard history that is kept after
+    logging out.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sun, 22 Nov 2026 12:09:57 +0100
+
+deskence (0.8.0) unstable; urgency=medium
+
+  * Applications view: custom color and transparency of the hover
+    highlight; hovering a folder no longer draws an outline.
+  * Folders in the dock: the panel takes at most half of the screen height
+    and scrolls through the whole folder, also with the keyboard.
+  * Settings: clearer descriptions, Polish wording, keyboard mnemonics.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sun, 22 Nov 2026 11:36:39 +0100
+
+deskence (0.7.1) unstable; urgency=medium
+
+  * Dock: a dock along the whole edge matches the top bar in the
+    activities overview and the applications view; a short dock keeps its
+    own look.
+  * Applications view: clearly visible hover, press, focus and selection
+    on folder tiles with a custom color or transparency.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sun, 22 Nov 2026 00:33:13 +0100
+
+deskence (0.7.0) unstable; urgency=medium
+
+  * Applications view: custom color and transparency of folder tiles.
+  * General: optionally start the session on the desktop instead of the
+    activities overview.
+  * Dock: no separate background band in the activities overview.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sat, 21 Nov 2026 23:47:50 +0100
+
+deskence (0.6.1) unstable; urgency=medium
+
+  * Project homepage and bug tracker in the package metadata.
+  * Source tarball no longer includes earlier build output.
+  * Documentation in English; no changes to the application.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sat, 21 Nov 2026 22:24:32 +0100
+
+deskence (0.6.0) unstable; urgency=medium
+
+  * Settings: General page with presets, export and import (JSON or an
+    archive with images), restoring defaults; Applications View page with
+    alphabetical sorting; neutral previews.
+  * Dock: folders with a contents panel; closing and peeking at windows
+    from their previews; Always on Top in the preview menu.
+  * New features: clipboard history, Keep Awake in the quick settings,
+    Always on Top shortcut.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sat, 21 Nov 2026 18:00:00 +0100
+
+deskence (0.5.0) unstable; urgency=medium
+
+  * Renamed the remaining identifiers to Deskence: application ID,
+    settings schema, extension UUIDs and data folders. Settings, enabled
+    features, favorites and icon positions of better-gnome-desktop are
+    taken over at the next login.
+  * Dock: window previews on hover; no extra space next to the
+    applications button with magnification.
+  * Settings: larger, clearer dock and desktop icon previews.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sat, 21 Nov 2026 17:30:00 +0100
+
+deskence (0.4.0) unstable; urgency=medium
+
+  * Renamed from better-gnome-desktop to Deskence: package and command
+    deskence; better-gnome-desktop is a transitional package and the old
+    command a symlink.
+  * Dock: running indicators under the icons of a bottom dock.
+  * Settings: page icons, "About" menu item.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sat, 21 Nov 2026 20:00:00 +0100
+
+better-gnome-desktop (0.3.0) unstable; urgency=medium
+
+  * Dock: sharp magnified icons, no tiles under icons with a custom
+    background, monochrome distribution logo, list kept at the start of a
+    full-edge dock, running indicators on the inner side.
+  * One continuous closing transition of the applications view.
+  * Desktop menus open at the clicked point, also beside the dock.
+  * Desktop grid anchored at the chosen corner with small margins.
+  * Optional custom background color of the applications view.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sat, 21 Nov 2026 18:00:00 +0100
+
+better-gnome-desktop (0.2.0) unstable; urgency=medium
+
+  * Dock: applications button position and icon, magnification, scrolling,
+    background color and transparency, "Dock Settings" menu item.
+  * Desktop icons: free placement, Align to Grid, positions relative to the
+    monitor.
+  * Smooth closing of the applications view, optional transparent background.
+  * Immediate dock reordering; no drag frame; one desktop menu beside the dock.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Sat, 21 Nov 2026 12:00:00 +0100
+
+better-gnome-desktop (0.1.0) unstable; urgency=medium
+
+  * First release.
+
+ -- Better GNOME Desktop developers <maintainers@bettergnome.invalid>  Sat, 21 Nov 2026 00:30:00 +0100

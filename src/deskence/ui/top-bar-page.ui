@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="libadwaita" version="1.6"/>
+  <template class="DeskenceTopBarPage" parent="AdwPreferencesPage">
+    <property name="title" translatable="yes">Top Bar</property>
+    <property name="icon-name">deskence-top-bar-symbolic</property>
+    <property name="name">top-bar</property>
+    <child>
+      <object class="AdwPreferencesGroup" id="feature_group">
+        <property name="title" translatable="yes">Application Icons</property>
+        <property name="description" translatable="yes">Icons of applications running in the background, for example messengers and file synchronization.</property>
+        <child>
+          <object class="AdwSwitchRow" id="enable_row">
+            <property name="title" translatable="yes">Show _Application Icons</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="passive_row">
+            <property name="title" translatable="yes">Show _Inactive Icons</property>
+            <property name="subtitle" translatable="yes">Icons that applications mark as currently unimportant</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="awake_group">
+        <property name="title" translatable="yes">Keep Awake</property>
+        <property name="description" translatable="yes">A button in the quick settings that keeps the computer from suspending automatically, for a chosen time or until turned off. Suspending yourself still works.</property>
+        <child>
+          <object class="AdwSwitchRow" id="awake_row">
+            <property name="title" translatable="yes">Show _Keep Awake</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="screen_row">
+            <property name="title" translatable="yes">Also Keep the _Screen On</property>
+            <property name="subtitle" translatable="yes">While Keep Awake is on, the screen does not turn off or lock automatically</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSpinRow" id="duration_row">
+            <property name="title" translatable="yes">_Custom Duration</property>
+            <property name="subtitle" translatable="yes">Minutes</property>
+            <property name="use-underline">True</property>
+            <property name="adjustment">
+              <object class="GtkAdjustment" id="duration_adjustment">
+                <property name="lower">5</property>
+                <property name="upper">720</property>
+                <property name="step-increment">5</property>
+                <property name="page-increment">30</property>
+              </object>
+            </property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="description" translatable="yes">Applications using the StatusNotifierItem standard are supported. Old-style tray icons (XEmbed) are not.</property>
+        <child>
+          <object class="AdwButtonRow" id="reset_row">
+            <property name="title" translatable="yes">_Restore Default Settings…</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

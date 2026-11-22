@@ -1,0 +1,8 @@
+{
+  "uuid": "@UUID_KEEP_AWAKE@",
+  "name": "Deskence Keep Awake",
+  "description": "Keep the computer awake for a while, from the quick settings. It is configured in the Deskence application.",
+  "shell-version": [@SHELL_VERSIONS@],
+  "version-name": "@VERSION@",
+  "gettext-domain": "@GETTEXT_PACKAGE@"
+}

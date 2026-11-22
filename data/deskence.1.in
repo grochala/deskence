@@ -1,0 +1,369 @@
+.\" SPDX-License-Identifier: GPL-3.0-or-later
+.\" Manual page of Deskence. Kept by hand; @VERSION@ is filled in by Meson.
+.TH DESKENCE 1 "" "Deskence @VERSION@" "User Commands"
+.SH NAME
+deskence \- settings and recovery of the Deskence enhancements for GNOME
+.SH SYNOPSIS
+.B deskence
+.RB [ \-\-page
+.IR PAGE ]
+.br
+.B deskence status
+.RB [ \-\-json ]
+.br
+.B deskence enable
+.RI [ FEATURE ...]
+.RB [ \-\-all ]
+.RB [ \-\-json ]
+.br
+.B deskence disable
+.RI [ FEATURE ...]
+.RB [ \-\-all ]
+.RB [ \-\-json ]
+.br
+.B deskence preset
+.RB { list | apply | import | export | undo }
+.RI [ OPTIONS ]
+.br
+.B deskence reset
+.RI [ PART ...]
+.RB [ \-\-all ]
+.RB [ \-\-dry\-run ]
+.RB [ \-\-yes ]
+.RB [ \-\-json ]
+.br
+.B deskence diagnostics
+.RB [ \-\-json ]
+.br
+.B deskence
+.RB { \-\-help | \-\-version }
+.br
+.B deskence
+.I COMMAND
+.B \-\-help
+.SH DESCRIPTION
+Deskence adds a dock with folders, desktop icons, application icons in the
+top bar, a clipboard history and other features to GNOME. Each feature is a
+GNOME Shell extension that can be turned on and off on its own.
+.PP
+Without a command,
+.B deskence
+opens the settings window;
+.B \-\-page
+selects a page: general, dock, desktop-icons, app-grid, top-bar, windows or
+clipboard.
+.PP
+The commands below do the same without the window. They never load GTK and
+need no display, so they also work on a text console, for example when the
+desktop does not start properly. Every command concerns the user running it;
+Deskence refuses to run as root and never needs
+.BR sudo .
+.PP
+Settings are stored with GSettings (dconf). A change is
+.I saved
+when it is written there and
+.I applied
+when the running GNOME Shell confirmed it. Commands that change features say
+which of the two happened.
+.SH FEATURES
+.TP
+.B dock
+The dock, window previews and folders in the dock.
+.TP
+.B desktop-icons
+Icons of the desktop folder on the desktop.
+.TP
+.B tray
+Application icons in the top bar.
+.TP
+.B app-grid
+Alphabetical order of the applications view. It only runs while that order
+is chosen.
+.TP
+.B clipboard
+The clipboard history.
+.TP
+.B keep-awake
+The Keep Awake button in the quick settings.
+.SH COMMANDS
+.TP
+.B status
+For each feature: whether it is enabled in the saved settings, what it does
+in the running GNOME session (running, not running, error, starts after
+logging in again, unknown when GNOME Shell cannot be reached), conflicting
+extensions and a copy in the home folder that replaces the installed one.
+The saved setting alone does not mean that a feature runs.
+.TP
+.BR enable " " \fIFEATURE\fR... | \-\-all
+Turns features on. Through GNOME Shell when it runs (the change is applied
+at once), otherwise in the saved settings for the next login. Enabling an
+enabled feature changes nothing.
+.TP
+.BR disable " " \fIFEATURE\fR... | \-\-all
+Turns features off. Their settings are kept.
+.B \-\-all
+means all Deskence features; other extensions and the list of extensions
+they are in are never changed.
+.TP
+.B preset list
+The saved presets, with their names and IDs.
+.TP
+.BI "preset apply " NAME
+Applies a saved preset, given by name or ID. It shows what changes and asks
+before applying. The settings before it are saved and can be restored with
+.BR "preset undo" .
+.TP
+.BI "preset import " FILE
+Checks a preset file (a
+.I .json
+preset or a
+.I .deskence
+archive with images) and saves it among the presets. It is not applied
+unless
+.B \-\-apply
+is given. A saved preset of the same name is not replaced unless
+.B \-\-replace
+is given;
+.B \-\-name
+saves it under another name. Nothing in a preset is ever run, and presets
+never contain the clipboard history.
+.TP
+.BI "preset export " FILE
+Writes the current settings to a file. An existing file is not replaced
+unless
+.B \-\-force
+is given.
+.B \-\-pinned
+includes the pinned applications,
+.B \-\-stacks
+the folders in the dock and
+.B \-\-images
+a custom applications button image (the file is then an archive).
+.TP
+.B preset undo
+Undoes the last applied preset: the settings and features it changed return
+to their values from before it. A setting changed after the preset was
+applied is listed and left as it is, unless
+.B \-\-include\-changed
+is given. Settings that make one option, such as a custom color and the
+color, are undone together. Applying another preset replaces what can be
+undone.
+.TP
+.BR reset " " \fIPART\fR... | \-\-all
+Restores default settings. A part is one of dock, desktop-icons, tray,
+app-grid, clipboard, keep-awake or windows (the title bar buttons, a GNOME
+setting), the same as "Restore Default Settings" on the pages of the
+settings window.
+.B \-\-all
+restores every Deskence setting, like "Restore Default Deskence Settings":
+the folders in the dock are removed from it, the applications view returns
+to your own order and the
+.B app-grid
+feature is turned off; the other features stay as they are. The command
+lists what changes and asks before restoring. It never deletes files on the
+desktop, custom images, saved presets or the clipboard history, and never
+changes how the clipboard history is kept. Other settings in dconf are not
+touched.
+.TP
+.B diagnostics
+A report for bug reports, in Markdown for a GitHub issue: versions of
+Deskence, GNOME Shell and the libraries, the distribution, the kind of
+session, monitors (resolution, refresh rate, scale), the saved and running
+state of each feature, conflicts and the names of settings that differ from
+their defaults; unknown values are shown as unavailable. The settings
+window shows, copies and saves the same report. It contains no clipboard contents, window titles, file names,
+setting values or private paths, and it is never sent anywhere.
+.SH OPTIONS
+.TP
+.B \-\-json
+Prints one JSON document on standard output and nothing else. It has the
+fields
+.B format
+("io.github.deskence.Deskence.cli", or
+"io.github.deskence.Deskence.diagnostics" for diagnostics),
+.B version
+(1) and
+.BR command ,
+and on failure
+.B error
+and
+.BR exit-status .
+With
+.B \-\-json
+no question is asked.
+.TP
+.B \-\-dry\-run
+Only shows what would change. No setting and no file is changed.
+.TP
+.BR \-y ", " \-\-yes
+Confirms the change without a question. Without a terminal (in a script, or
+with
+.BR \-\-json ),
+a change that needs confirming fails unless
+.B \-\-yes
+is given.
+.TP
+.BR \-h ", " \-\-help
+Shows the help of
+.B deskence
+or of a command.
+.TP
+.B \-\-version
+Shows the version.
+.SH EXIT STATUS
+.TP
+.B 0
+Done (or nothing to change).
+.TP
+.B 1
+Failed; nothing or not everything was changed. The message says what.
+.TP
+.B 2
+Invalid command line, for example an unknown feature.
+.TP
+.B 3
+The change needs confirming: it was declined, or there was no terminal and
+no
+.BR \-\-yes .
+.TP
+.B 4
+Saved, but the running GNOME session did not confirm the change (GNOME Shell
+is not running or did not answer). It applies after logging in again.
+.TP
+.B 130
+Interrupted.
+.SH EXAMPLES
+Show the state of all features:
+.PP
+.RS
+deskence status
+.RE
+.PP
+Turn the dock off and on again:
+.PP
+.RS
+deskence disable dock
+.br
+deskence enable dock
+.RE
+.PP
+Save the current settings including pinned applications to a file, and
+bring them back on another computer:
+.PP
+.RS
+deskence preset export ~/deskence.json \-\-pinned \-\-stacks
+.br
+deskence preset import ~/deskence.json \-\-apply
+.RE
+.PP
+See what restoring the dock defaults would change, then do it in a script:
+.PP
+.RS
+deskence reset dock \-\-dry\-run
+.br
+deskence reset dock \-\-yes
+.RE
+.SH TROUBLESHOOTING
+When the desktop does not work properly after logging in, switch to a text
+console (for example Ctrl+Alt+F3), log in as the same user and use the
+commands below. Logging in on the console gives the commands the same
+session bus as the desktop (through
+.IR $XDG_RUNTIME_DIR/bus ),
+so changes reach a running GNOME Shell. Do not set
+.B DISPLAY
+or
+.B DBUS_SESSION_BUS_ADDRESS
+by hand, and do not use
+.BR sudo .
+When no session bus is available (for example when the user is not logged
+in through systemd), the settings cannot be saved and the commands say so
+without changing anything.
+.TP
+1. Check the state
+.B deskence status
+shows which features are enabled and which run, fail or wait for a new
+login.
+.TP
+2. Turn off a feature that causes problems
+.B deskence disable dock
+(or another feature). Its settings are kept.
+.TP
+3. Turn off all of Deskence
+.B deskence disable \-\-all
+turns off every Deskence feature and nothing else. Closing the settings
+window does not turn anything off.
+.TP
+4. Restore default settings
+.B deskence reset dock \-\-dry\-run
+shows what changes;
+.B deskence reset dock \-\-yes
+or
+.B deskence reset \-\-all \-\-yes
+restores the defaults.
+.TP
+5. Go back to a preset
+.B deskence preset list
+and
+.BI "deskence preset apply " NAME
+apply a saved preset;
+.B deskence preset undo
+returns to the settings before the last applied preset.
+.TP
+6. Collect diagnostics
+.B deskence diagnostics > deskence-report.txt
+for a bug report. Read it before attaching it.
+.TP
+7. When logging in again is needed
+GNOME Shell finds installed extensions only when the session starts: after
+installing or updating Deskence, log out and in again. When a command
+reports exit status 4 (GNOME Shell was not running or did not answer), the
+change applies at the next login. With Wayland, GNOME Shell cannot be
+restarted without logging out; Deskence never restarts it or logs you out.
+.SH FILES
+.TP
+.I ~/.config/dconf/user
+The settings (dconf), under /io/github/deskence/deskence/ and, for the
+enabled features, org.gnome.shell enabled-extensions.
+.TP
+.I ~/.local/share/deskence/presets/
+Saved presets, one folder each.
+.TP
+.I ~/.local/state/deskence/before-import.json
+The settings before the last applied preset, for
+.BR "preset undo" .
+.TP
+.I ~/.local/share/deskence/
+Copies of custom applications button images; the clipboard history in
+.I clipboard/
+when it is kept after logging out.
+.TP
+.I /usr/share/gnome-shell/extensions/*@deskence.github.io/
+The installed features.
+.TP
+.I ~/.local/share/gnome-shell/extensions/*@deskence.github.io/
+A copy here replaces the installed feature;
+.B deskence status
+reports it.
+.TP
+.I /usr/share/glib-2.0/schemas/io.github.deskence.Deskence.gschema.xml
+The settings schema with all keys and their defaults.
+.PP
+The folders under
+.IR ~/.config ,
+.I ~/.local/share
+and
+.I ~/.local/state
+follow
+.BR XDG_CONFIG_HOME ,
+.B XDG_DATA_HOME
+and
+.B XDG_STATE_HOME
+when they are set.
+.SH BUGS
+Report bugs at https://github.com/grochala/deskence/issues and attach the
+output of
+.BR "deskence diagnostics" .
+.SH SEE ALSO
+.BR gnome-extensions (1),
+.BR gsettings (1),
+.BR dconf (1)

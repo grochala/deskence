@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="libadwaita" version="1.6"/>
+  <template class="DeskenceClipboardPage" parent="AdwPreferencesPage">
+    <property name="title" translatable="yes">Clipboard</property>
+    <property name="icon-name">edit-paste-symbolic</property>
+    <property name="name">clipboard</property>
+    <child>
+      <object class="AdwPreferencesGroup" id="feature_group">
+        <property name="description" translatable="yes">Copy and paste work as before. The history of copied texts and images opens with its own shortcut.</property>
+        <child>
+          <object class="AdwSwitchRow" id="enable_row">
+            <property name="title" translatable="yes">_Clipboard History</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="behavior_group">
+        <property name="title" translatable="yes">Behavior</property>
+        <child>
+          <object class="AdwSwitchRow" id="paste_row">
+            <property name="title" translatable="yes">_Paste the Chosen Item</property>
+            <property name="subtitle" translatable="yes">Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). When off, the item is only put on the clipboard.</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="plain_row">
+            <property name="title" translatable="yes">Always Paste Text _Without Formatting</property>
+            <property name="subtitle" translatable="yes">Older items are always plain text. Shift+Enter pastes plain text any time.</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="primary_row">
+            <property name="title" translatable="yes">Also Remember Selected _Text</property>
+            <property name="subtitle" translatable="yes">Text selected with the mouse, which the middle button pastes</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="storage_group">
+        <property name="title" translatable="yes">Storage</property>
+        <property name="description" translatable="yes">The history is kept in memory only and is gone after logging out. Pinned items stay when the history is cleared and do not count toward the limit. Content that applications mark as secret, such as from password managers, is not remembered; not every password can be recognized.</property>
+        <child>
+          <object class="AdwSpinRow" id="max_entries_row">
+            <property name="title" translatable="yes">_Items Remembered</property>
+            <property name="use-underline">True</property>
+            <property name="adjustment">
+              <object class="GtkAdjustment" id="max_entries_adjustment">
+                <property name="lower">10</property>
+                <property name="upper">200</property>
+                <property name="step-increment">10</property>
+                <property name="page-increment">50</property>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwComboRow" id="remember_row">
+            <property name="title" translatable="yes">_Keep After Logging Out</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Nothing</item>
+                  <item translatable="yes">Pinned Items</item>
+                  <item translatable="yes">Whole History</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="paused_row">
+            <property name="title" translatable="yes">P_ause Remembering</property>
+            <property name="subtitle" translatable="yes">New items are not added until this is turned off</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <child>
+          <object class="AdwButtonRow" id="reset_row">
+            <property name="title" translatable="yes">_Restore Default Settings…</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

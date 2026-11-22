@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="libadwaita" version="1.6"/>
+  <template class="DeskenceWindowsPage" parent="AdwPreferencesPage">
+    <property name="title" translatable="yes">Windows</property>
+    <property name="icon-name">deskence-windows-symbolic</property>
+    <property name="name">windows</property>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Title Bar Buttons</property>
+        <property name="description" translatable="yes">These are GNOME settings: they stay in effect when Deskence is removed. Applications that draw their own title bars, such as some browsers, may ignore them.</property>
+        <child>
+          <object class="AdwSwitchRow" id="minimize_row">
+            <property name="title" translatable="yes">_Minimize Button</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="maximize_row">
+            <property name="title" translatable="yes">M_aximize Button</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwComboRow" id="side_row">
+            <property name="title" translatable="yes">_Placement</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Right</item>
+                  <item translatable="yes">Left</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="above_group">
+        <property name="title" translatable="yes">Always on Top</property>
+        <property name="description" translatable="yes">Keeps a window above the others. It is also in the window menu (Alt+Space) and in the menu of a window preview in the dock, which shows a pin for such windows. It does not show the window on every workspace; that is a separate option of the window menu.</property>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <child>
+          <object class="AdwButtonRow" id="restore_previous_row">
+            <property name="title" translatable="yes">Restore Settings From _Before Changes…</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwButtonRow" id="reset_row">
+            <property name="title" translatable="yes">_Restore Default Settings…</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="libadwaita" version="1.6"/>
+  <template class="DeskenceAppGridPage" parent="AdwPreferencesPage">
+    <property name="title" translatable="yes">Applications View</property>
+    <property name="icon-name">view-app-grid-symbolic</property>
+    <property name="name">app-grid</property>
+    <child>
+      <object class="AdwPreferencesGroup" id="order_group">
+        <property name="title" translatable="yes">Order</property>
+        <property name="description" translatable="yes">How applications are arranged in the full-screen applications view.</property>
+        <child>
+          <object class="AdwComboRow" id="sort_row">
+            <property name="title" translatable="yes">_Order of Applications</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Custom Order</item>
+                  <item translatable="yes">Alphabetical</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="app_grid_group">
+        <property name="title" translatable="yes">Background</property>
+        <property name="description" translatable="yes">The background behind the applications. Icons, names and the search field do not change.</property>
+        <child>
+          <object class="AdwSwitchRow" id="app_grid_color_switch">
+            <property name="title" translatable="yes">Custom Background _Color</property>
+            <property name="subtitle" translatable="yes">When off, the color of the GNOME style is used</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="app_grid_color_row">
+            <property name="title" translatable="yes">Background Color</property>
+            <property name="activatable-widget">app_grid_color_button</property>
+            <child type="suffix">
+              <object class="GtkColorDialogButton" id="app_grid_color_button">
+                <property name="valign">center</property>
+                <property name="dialog">
+                  <object class="GtkColorDialog">
+                    <property name="with-alpha">False</property>
+                    <property name="modal">True</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="app_grid_custom_row">
+            <property name="title" translatable="yes">Custom Background _Transparency</property>
+            <property name="subtitle" translatable="yes">When off, the background is opaque, as in GNOME</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="app_grid_transparency_row">
+            <property name="title" translatable="yes">_Background Transparency</property>
+            <property name="use-underline">True</property>
+            <property name="activatable-widget">app_grid_transparency_scale</property>
+            <child type="suffix">
+              <object class="GtkScale" id="app_grid_transparency_scale">
+                <property name="hexpand">True</property>
+                <property name="width-request">200</property>
+                <property name="valign">center</property>
+                <property name="digits">0</property>
+                <property name="draw-value">True</property>
+                <property name="value-pos">right</property>
+                <property name="adjustment">
+                  <object class="GtkAdjustment" id="app_grid_transparency_adjustment">
+                    <property name="lower">0</property>
+                    <property name="upper">100</property>
+                    <property name="step-increment">5</property>
+                    <property name="page-increment">10</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="folder_group">
+        <property name="title" translatable="yes">Application Folders</property>
+        <property name="description" translatable="yes">Change the look of application groups, such as “Utilities”, in the applications view. Only the tile background changes.</property>
+        <child>
+          <object class="AdwSwitchRow" id="folder_color_switch">
+            <property name="title" translatable="yes">Custom Folder Co_lor</property>
+            <property name="subtitle" translatable="yes">When off, the color of the GNOME style is used</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="folder_color_row">
+            <property name="title" translatable="yes">Folder Color</property>
+            <property name="activatable-widget">folder_color_button</property>
+            <child type="suffix">
+              <object class="GtkColorDialogButton" id="folder_color_button">
+                <property name="valign">center</property>
+                <property name="dialog">
+                  <object class="GtkColorDialog">
+                    <property name="with-alpha">False</property>
+                    <property name="modal">True</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="folder_custom_row">
+            <property name="title" translatable="yes">Custom Folder Trans_parency</property>
+            <property name="subtitle" translatable="yes">When off, the transparency of the GNOME style is used</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="folder_transparency_row">
+            <property name="title" translatable="yes">Folder Tr_ansparency</property>
+            <property name="use-underline">True</property>
+            <property name="activatable-widget">folder_transparency_scale</property>
+            <child type="suffix">
+              <object class="GtkScale" id="folder_transparency_scale">
+                <property name="hexpand">True</property>
+                <property name="width-request">200</property>
+                <property name="valign">center</property>
+                <property name="digits">0</property>
+                <property name="draw-value">True</property>
+                <property name="value-pos">right</property>
+                <property name="adjustment">
+                  <object class="GtkAdjustment" id="folder_transparency_adjustment">
+                    <property name="lower">0</property>
+                    <property name="upper">100</property>
+                    <property name="step-increment">5</property>
+                    <property name="page-increment">10</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="hover_group">
+        <property name="title" translatable="yes">Hover Highlight</property>
+        <property name="description" translatable="yes">Choose the background that appears under the pointer on an application or an application folder, also inside an open folder.</property>
+        <child>
+          <object class="AdwSwitchRow" id="hover_color_switch">
+            <property name="title" translatable="yes">Custom _Highlight Color</property>
+            <property name="subtitle" translatable="yes">When off, the color of the GNOME style is used</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="hover_color_row">
+            <property name="title" translatable="yes">Highlight Color</property>
+            <property name="activatable-widget">hover_color_button</property>
+            <child type="suffix">
+              <object class="GtkColorDialogButton" id="hover_color_button">
+                <property name="valign">center</property>
+                <property name="dialog">
+                  <object class="GtkColorDialog">
+                    <property name="with-alpha">False</property>
+                    <property name="modal">True</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="hover_custom_row">
+            <property name="title" translatable="yes">Custom Highlight Transparenc_y</property>
+            <property name="subtitle" translatable="yes">When off, the transparency of the GNOME style is used</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="hover_transparency_row">
+            <property name="title" translatable="yes">Highlight Transparency</property>
+            <property name="activatable-widget">hover_transparency_scale</property>
+            <child type="suffix">
+              <object class="GtkScale" id="hover_transparency_scale">
+                <property name="hexpand">True</property>
+                <property name="width-request">200</property>
+                <property name="valign">center</property>
+                <property name="digits">0</property>
+                <property name="draw-value">True</property>
+                <property name="value-pos">right</property>
+                <property name="adjustment">
+                  <object class="GtkAdjustment" id="hover_transparency_adjustment">
+                    <property name="lower">0</property>
+                    <property name="upper">100</property>
+                    <property name="step-increment">5</property>
+                    <property name="page-increment">10</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <child>
+          <object class="AdwButtonRow" id="reset_row">
+            <property name="title" translatable="yes">_Restore Default Settings…</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

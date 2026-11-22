@@ -1,0 +1,6 @@
+subdir('dock')
+subdir('desktop')
+subdir('tray')
+subdir('app-grid')
+subdir('clipboard')
+subdir('keep-awake')

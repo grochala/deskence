@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/io/github/deskence/Deskence/ui">
+    <file preprocess="xml-stripblanks">window.ui</file>
+    <file preprocess="xml-stripblanks">general-page.ui</file>
+    <file preprocess="xml-stripblanks">dock-page.ui</file>
+    <file preprocess="xml-stripblanks">desktop-icons-page.ui</file>
+    <file preprocess="xml-stripblanks">app-grid-page.ui</file>
+    <file preprocess="xml-stripblanks">top-bar-page.ui</file>
+    <file preprocess="xml-stripblanks">windows-page.ui</file>
+    <file preprocess="xml-stripblanks">clipboard-page.ui</file>
+  </gresource>
+  <!-- Page icons in the sidebar. Adwaita has no symbolic icon for a dock, a
+       desktop with icons or a top bar, so the four pages share our own set
+       in the Adwaita symbolic style. -->
+  <gresource prefix="/io/github/deskence/Deskence">
+    <file preprocess="xml-stripblanks">icons/scalable/actions/deskence-dock-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/deskence-desktop-icons-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/deskence-top-bar-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/actions/deskence-windows-symbolic.svg</file>
+  </gresource>
+</gresources>

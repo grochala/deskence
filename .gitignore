@@ -1,0 +1,28 @@
+# Build and packaging output
+/_build*/
+/build/
+/dist/
+*.rpm
+*.deb
+*.tar.xz
+meson-logs/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Logs and test output
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+.claude/settings.local.json
+
+# Local user data: exported presets and copies of settings or clipboard data
+*.deskence

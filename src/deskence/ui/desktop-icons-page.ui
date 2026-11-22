@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="libadwaita" version="1.6"/>
+  <template class="DeskenceDesktopIconsPage" parent="AdwPreferencesPage">
+    <property name="title" translatable="yes">Desktop Icons</property>
+    <property name="icon-name">deskence-desktop-icons-symbolic</property>
+    <property name="name">desktop-icons</property>
+    <child>
+      <object class="AdwPreferencesGroup" id="feature_group">
+        <property name="description" translatable="yes">Show the files and folders of your desktop folder as icons on the desktop.</property>
+        <child>
+          <object class="AdwSwitchRow" id="enable_row">
+            <property name="title" translatable="yes">Show _Icons on the Desktop</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="folder_row">
+            <property name="title" translatable="yes">Desktop Folder</property>
+            <property name="subtitle-selectable">True</property>
+            <style>
+              <class name="property"/>
+            </style>
+            <child type="suffix">
+              <object class="GtkButton" id="open_folder_button">
+                <property name="icon-name">folder-open-symbolic</property>
+                <property name="valign">center</property>
+                <property name="tooltip-text" translatable="yes">Open in Files</property>
+                <style>
+                  <class name="flat"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="preview_group">
+        <child>
+          <object class="DeskenceIconsPreview" id="preview">
+            <property name="height-request">240</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="layout_group">
+        <property name="title" translatable="yes">Icons</property>
+        <child>
+          <object class="AdwComboRow" id="size_row">
+            <property name="title" translatable="yes">_Size</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Small</item>
+                  <item translatable="yes">Medium</item>
+                  <item translatable="yes">Large</item>
+                  <item translatable="yes">Extra Large</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwComboRow" id="corner_row">
+            <property name="title" translatable="yes">_Place New Icons From</property>
+            <property name="subtitle" translatable="yes">Icons you moved keep their place</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Top Left</item>
+                  <item translatable="yes">Top Right</item>
+                  <item translatable="yes">Bottom Left</item>
+                  <item translatable="yes">Bottom Right</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwComboRow" id="placement_row">
+            <property name="title" translatable="yes">Icon _Arrangement</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Free</item>
+                  <item translatable="yes">Snap to Grid</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwComboRow" id="click_row">
+            <property name="title" translatable="yes">_Open Items With</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Double Click</item>
+                  <item translatable="yes">Single Click</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="items_group">
+        <property name="title" translatable="yes">Also Show</property>
+        <child>
+          <object class="AdwSwitchRow" id="home_row">
+            <property name="title" translatable="yes">_Home Folder</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="trash_row">
+            <property name="title" translatable="yes">_Trash</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="mounts_row">
+            <property name="title" translatable="yes">Drives and _USB Sticks</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="description" translatable="yes">Hidden files are not shown. Disabling desktop icons never moves or deletes your files.</property>
+        <child>
+          <object class="AdwButtonRow" id="reset_row">
+            <property name="title" translatable="yes">_Restore Default Settings…</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

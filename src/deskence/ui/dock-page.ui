@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="libadwaita" version="1.6"/>
+  <template class="DeskenceDockPage" parent="AdwPreferencesPage">
+    <property name="title" translatable="yes">Dock</property>
+    <property name="icon-name">deskence-dock-symbolic</property>
+    <property name="name">dock</property>
+    <child>
+      <object class="AdwPreferencesGroup" id="feature_group">
+        <property name="description" translatable="yes">Adjust the position, look and behavior of the application bar at the edge of the screen. Pinned applications are the same as in the activities overview.</property>
+        <child>
+          <object class="AdwSwitchRow" id="enable_row">
+            <property name="title" translatable="yes">Show _Dock</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="preview_group">
+        <child>
+          <object class="DeskenceDockPreview" id="preview">
+            <property name="height-request">240</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="appearance_group">
+        <property name="title" translatable="yes">Appearance</property>
+        <child>
+          <object class="AdwComboRow" id="position_row">
+            <property name="title" translatable="yes">_Position</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Left</item>
+                  <item translatable="yes">Bottom</item>
+                  <item translatable="yes">Right</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwComboRow" id="length_row">
+            <property name="title" translatable="yes">_Length</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Fit to Icons</item>
+                  <item translatable="yes">Whole Edge</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="icon_size_row">
+            <property name="title" translatable="yes">_Icon Size</property>
+            <property name="use-underline">True</property>
+            <property name="activatable-widget">icon_size_scale</property>
+            <child type="suffix">
+              <object class="GtkScale" id="icon_size_scale">
+                <property name="hexpand">True</property>
+                <property name="width-request">200</property>
+                <property name="valign">center</property>
+                <property name="digits">0</property>
+                <property name="draw-value">True</property>
+                <property name="value-pos">right</property>
+                <property name="adjustment">
+                  <object class="GtkAdjustment" id="icon_size_adjustment">
+                    <property name="lower">24</property>
+                    <property name="upper">64</property>
+                    <property name="step-increment">4</property>
+                    <property name="page-increment">8</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="background_color_switch">
+            <property name="title" translatable="yes">Custom Background _Color</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="background_color_row">
+            <property name="title" translatable="yes">Background Color</property>
+            <property name="activatable-widget">background_color_button</property>
+            <child type="suffix">
+              <object class="GtkColorDialogButton" id="background_color_button">
+                <property name="valign">center</property>
+                <property name="dialog">
+                  <object class="GtkColorDialog">
+                    <property name="with-alpha">False</property>
+                    <property name="modal">True</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="background_transparency_switch">
+            <property name="title" translatable="yes">Custom _Background Transparency</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="background_transparency_row">
+            <property name="title" translatable="yes">Background Transparency</property>
+            <property name="activatable-widget">background_transparency_scale</property>
+            <child type="suffix">
+              <object class="GtkScale" id="background_transparency_scale">
+                <property name="hexpand">True</property>
+                <property name="width-request">200</property>
+                <property name="valign">center</property>
+                <property name="digits">0</property>
+                <property name="draw-value">True</property>
+                <property name="value-pos">right</property>
+                <property name="adjustment">
+                  <object class="GtkAdjustment" id="background_transparency_adjustment">
+                    <property name="lower">0</property>
+                    <property name="upper">100</property>
+                    <property name="step-increment">5</property>
+                    <property name="page-increment">10</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="magnify_row">
+            <property name="title" translatable="yes">_Magnify Icons Under the Pointer</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="magnify_strength_row">
+            <property name="title" translatable="yes">Magnification _Strength</property>
+            <property name="use-underline">True</property>
+            <property name="activatable-widget">magnify_strength_scale</property>
+            <child type="suffix">
+              <object class="GtkScale" id="magnify_strength_scale">
+                <property name="hexpand">True</property>
+                <property name="width-request">200</property>
+                <property name="valign">center</property>
+                <property name="digits">1</property>
+                <property name="draw-value">False</property>
+                <property name="adjustment">
+                  <object class="GtkAdjustment" id="magnify_strength_adjustment">
+                    <property name="lower">1.1</property>
+                    <property name="upper">2.0</property>
+                    <property name="step-increment">0.1</property>
+                    <property name="page-increment">0.3</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="behavior_group">
+        <property name="title" translatable="yes">Behavior</property>
+        <child>
+          <object class="AdwComboRow" id="hide_row">
+            <property name="title" translatable="yes">_Hide</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Never</item>
+                  <item translatable="yes">When Windows Overlap</item>
+                  <item translatable="yes">When Not in Use</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwComboRow" id="monitor_mode_row">
+            <property name="title" translatable="yes">_Monitor</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Primary</item>
+                  <item translatable="yes">Selected</item>
+                  <item translatable="yes">All</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwComboRow" id="monitor_row">
+            <property name="title" translatable="yes">_Selected Monitor</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwComboRow" id="click_row">
+            <property name="title" translatable="yes">_Clicking a Running Application</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">Focus, Then Switch Windows</item>
+                  <item translatable="yes">Minimize or Switch Windows</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="isolate_row">
+            <property name="title" translatable="yes">Only Show Applications of the Current _Workspace</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="previews_row">
+            <property name="title" translatable="yes">Show Window _Previews on Hover</property>
+            <property name="subtitle" translatable="yes">Pause on a running application to see its windows and choose one</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="peek_row">
+            <property name="title" translatable="yes">P_eek at Windows</property>
+            <property name="subtitle" translatable="yes">Rest on a preview to see its window over the others, without switching to it</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="app_info_group">
+        <property name="title" translatable="yes">Information From Applications</property>
+        <property name="description" translatable="yes">Applications can show a counter or the progress of an operation on their icon, for example unread messages or a download. Only what an application reports is shown.</property>
+        <child>
+          <object class="AdwSwitchRow" id="counts_row">
+            <property name="title" translatable="yes">Show Application Counters</property>
+            <property name="subtitle" translatable="yes">A number on the icon, such as unread messages</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="progress_row">
+            <property name="title" translatable="yes">Show Progress of Operations</property>
+            <property name="subtitle" translatable="yes">A bar on the icon while a download or copy runs</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="items_group">
+        <property name="title" translatable="yes">Items</property>
+        <property name="description" translatable="yes">What the dock shows besides applications.</property>
+        <child>
+          <object class="AdwSwitchRow" id="trash_row">
+            <property name="title" translatable="yes">_Trash</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="mounts_row">
+            <property name="title" translatable="yes">Drives and _USB Sticks</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="network_row">
+            <property name="title" translatable="yes">_Network Locations</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwSwitchRow" id="apps_button_row">
+            <property name="title" translatable="yes">_Applications Button</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwComboRow" id="apps_position_row">
+            <property name="title" translatable="yes">Applications Button P_osition</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList" id="apps_position_model">
+                <items>
+                  <item translatable="yes">Start of the Dock</item>
+                  <item translatable="yes">End of the Dock</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwComboRow" id="apps_icon_row">
+            <property name="title" translatable="yes">Applications Button _Icon</property>
+            <property name="use-underline">True</property>
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item translatable="yes">GNOME Default</item>
+                  <item translatable="yes">Distribution Logo</item>
+                  <item translatable="yes">Custom Image</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="custom_icon_row">
+            <property name="title" translatable="yes">Custom Image</property>
+            <child type="prefix">
+              <object class="GtkImage" id="custom_icon_image">
+                <property name="pixel-size">32</property>
+                <property name="accessible-role">presentation</property>
+              </object>
+            </child>
+            <child type="suffix">
+              <object class="GtkButton" id="custom_icon_button">
+                <property name="label" translatable="yes">_Choose…</property>
+                <property name="use-underline">True</property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="stacks_group">
+        <property name="title" translatable="yes">Folders in the Dock</property>
+        <property name="description" translatable="yes">Pin folders to browse their contents straight from the dock. Removing a folder from the dock does not change the folder or its files.</property>
+        <property name="header-suffix">
+          <object class="GtkMenuButton" id="add_stack_button">
+            <property name="icon-name">list-add-symbolic</property>
+            <property name="tooltip-text" translatable="yes">Add Folder</property>
+            <property name="valign">center</property>
+            <style>
+              <class name="flat"/>
+            </style>
+          </object>
+        </property>
+        <child>
+          <object class="AdwSwitchRow" id="show_stacks_row">
+            <property name="title" translatable="yes">Show _Folders in the Dock</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <child>
+          <object class="AdwButtonRow" id="reset_row">
+            <property name="title" translatable="yes">_Restore Default Settings…</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

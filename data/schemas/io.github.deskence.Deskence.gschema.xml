@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Settings of Deskence.
+
+  Up to 0.3.0 the project was called Better GNOME Desktop and these settings
+  lived under the schema io.github.bettergnome.Desktop
+  (/io/github/bettergnome/desktop/). The build generates a copy of this file
+  with the former ID and path for the migration only (make-legacy-schema.py);
+  it is never installed among the system schemas.
+
+  The settings application is the only writer of the per-feature keys; the
+  GNOME Shell extensions and the desktop icons helper only read them and react
+  to "changed" signals. Whether a feature is shown at all is not stored here:
+  it is the enabled state of the corresponding GNOME Shell extension.
+-->
+<schemalist gettext-domain="deskence">
+
+  <enum id="io.github.deskence.Deskence.DockPosition">
+    <value nick="left" value="0"/>
+    <value nick="bottom" value="1"/>
+    <value nick="right" value="2"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.DockLength">
+    <value nick="fit" value="0"/>
+    <value nick="full" value="1"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.DockHideMode">
+    <value nick="never" value="0"/>
+    <value nick="intellihide" value="1"/>
+    <value nick="autohide" value="2"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.DockMonitorMode">
+    <value nick="primary" value="0"/>
+    <value nick="selected" value="1"/>
+    <value nick="all" value="2"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.DockClickAction">
+    <value nick="focus-or-cycle" value="0"/>
+    <value nick="minimize-or-cycle" value="1"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.DockEnd">
+    <value nick="start" value="0"/>
+    <value nick="end" value="1"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.AppsButtonIcon">
+    <value nick="default" value="0"/>
+    <value nick="distribution" value="1"/>
+    <value nick="custom" value="2"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.IconPlacement">
+    <value nick="free" value="0"/>
+    <value nick="grid" value="1"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.IconSize">
+    <value nick="small" value="0"/>
+    <value nick="medium" value="1"/>
+    <value nick="large" value="2"/>
+    <value nick="huge" value="3"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.Corner">
+    <value nick="top-left" value="0"/>
+    <value nick="top-right" value="1"/>
+    <value nick="bottom-left" value="2"/>
+    <value nick="bottom-right" value="3"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.SortOrder">
+    <value nick="name" value="0"/>
+    <value nick="modified" value="1"/>
+    <value nick="size" value="2"/>
+    <value nick="type" value="3"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.ClickMode">
+    <value nick="double" value="0"/>
+    <value nick="single" value="1"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.StackView">
+    <value nick="grid" value="0"/>
+    <value nick="list" value="1"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.AppGridSort">
+    <value nick="custom" value="0"/>
+    <value nick="alphabetical" value="1"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.ClipboardRemember">
+    <value nick="nothing" value="0"/>
+    <value nick="pinned" value="1"/>
+    <value nick="all" value="2"/>
+  </enum>
+
+  <enum id="io.github.deskence.Deskence.KeepAwakeChoice">
+    <value nick="indefinite" value="0"/>
+    <value nick="15" value="1"/>
+    <value nick="30" value="2"/>
+    <value nick="60" value="3"/>
+    <value nick="custom" value="4"/>
+    <value nick="until" value="5"/>
+  </enum>
+
+  <schema id="io.github.deskence.Deskence" path="/io/github/deskence/deskence/">
+    <key name="settings-version" type="u">
+      <default>0</default>
+      <summary>Settings layout version</summary>
+      <description>Used by the settings application to migrate stored values between releases. 0 means the settings were never migrated.</description>
+    </key>
+    <key name="legacy-settings-migrated" type="b">
+      <default>false</default>
+      <summary>Settings of Better GNOME Desktop were taken over</summary>
+      <description>Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were copied here. Values already set here are never overwritten; the former settings are kept.</description>
+    </key>
+    <key name="show-desktop-at-login" type="b">
+      <default>false</default>
+      <summary>Show the desktop after logging in</summary>
+      <description>When true, a new session starts on the desktop instead of the activities overview. Only the start of the session is affected: opening the overview later, unlocking the screen or turning features on and off never closes it. Applied by the dock extension.</description>
+    </key>
+    <child name="dock" schema="io.github.deskence.Deskence.Dock"/>
+    <child name="desktop-icons" schema="io.github.deskence.Deskence.DesktopIcons"/>
+    <child name="tray" schema="io.github.deskence.Deskence.Tray"/>
+    <child name="windows" schema="io.github.deskence.Deskence.Windows"/>
+    <child name="app-grid" schema="io.github.deskence.Deskence.AppGrid"/>
+    <child name="clipboard" schema="io.github.deskence.Deskence.Clipboard"/>
+    <child name="keep-awake" schema="io.github.deskence.Deskence.KeepAwake"/>
+  </schema>
+
+  <schema id="io.github.deskence.Deskence.Dock" path="/io/github/deskence/deskence/dock/">
+    <key name="position" enum="io.github.deskence.Deskence.DockPosition">
+      <default>'bottom'</default>
+      <summary>Screen edge of the dock</summary>
+      <description>"left", "bottom" or "right".</description>
+    </key>
+    <key name="length" enum="io.github.deskence.Deskence.DockLength">
+      <default>'fit'</default>
+      <summary>Dock length</summary>
+      <description>"fit": only as long as the icons need. "full": the whole screen edge.</description>
+    </key>
+    <key name="icon-size" type="i">
+      <range min="24" max="64"/>
+      <default>48</default>
+      <summary>Icon size in logical pixels</summary>
+      <description>Scaled by the monitor scale and the text scaling factor of the shell theme like other GNOME Shell icons.</description>
+    </key>
+    <key name="hide-mode" enum="io.github.deskence.Deskence.DockHideMode">
+      <default>'never'</default>
+      <summary>When the dock hides</summary>
+      <description>"never": always visible and windows are kept out of its area. "intellihide": hidden while a window on the same monitor overlaps it. "autohide": hidden until the pointer reaches the screen edge.</description>
+    </key>
+    <key name="monitor-mode" enum="io.github.deskence.Deskence.DockMonitorMode">
+      <default>'primary'</default>
+      <summary>On which monitors the dock is shown</summary>
+      <description>"primary", "selected" (see selected-monitor) or "all".</description>
+    </key>
+    <key name="selected-monitor" type="s">
+      <default>''</default>
+      <summary>Connector of the selected monitor</summary>
+      <description>Connector name such as "DP-1". Used when monitor-mode is "selected"; falls back to the primary monitor while that monitor is not connected.</description>
+    </key>
+    <key name="show-trash" type="b">
+      <default>true</default>
+      <summary>Show the trash</summary>
+    </key>
+    <key name="show-mounts" type="b">
+      <default>true</default>
+      <summary>Show removable drives</summary>
+    </key>
+    <key name="show-network-mounts" type="b">
+      <default>false</default>
+      <summary>Show network locations</summary>
+    </key>
+    <key name="show-apps-button" type="b">
+      <default>true</default>
+      <summary>Show the applications button</summary>
+    </key>
+    <key name="apps-button-position" enum="io.github.deskence.Deskence.DockEnd">
+      <default>'end'</default>
+      <summary>Where the applications button is</summary>
+      <description>"start": first item of the dock (left in a horizontal dock, top in a vertical one). "end": last item (right or bottom).</description>
+    </key>
+    <key name="apps-button-icon" enum="io.github.deskence.Deskence.AppsButtonIcon">
+      <default>'default'</default>
+      <summary>Icon of the applications button</summary>
+      <description>"default": the GNOME applications icon. "distribution": the logo of the installed distribution, from the icons installed on the system; the default icon when there is none. "custom": the image in apps-button-custom-icon.</description>
+    </key>
+    <key name="apps-button-custom-icon" type="s">
+      <default>''</default>
+      <summary>Custom icon of the applications button</summary>
+      <description>Path of a copy of the chosen image, kept in the user data folder of Deskence so it keeps working when the original file is moved or deleted. The default icon is used when the file cannot be loaded.</description>
+    </key>
+    <key name="magnify" type="b">
+      <default>false</default>
+      <summary>Magnify icons under the pointer</summary>
+      <description>Icons near the pointer grow smoothly while it moves over the dock. Not shown while animations are turned off in GNOME.</description>
+    </key>
+    <key name="magnify-strength" type="d">
+      <range min="1.1" max="2.0"/>
+      <default>1.5</default>
+      <summary>Magnification strength</summary>
+      <description>Size of the icon under the pointer relative to its normal size.</description>
+    </key>
+    <key name="background-custom-color" type="b">
+      <default>false</default>
+      <summary>Custom dock background color</summary>
+      <description>When false, the dock background has the color of the current GNOME style.</description>
+    </key>
+    <key name="background-color" type="s">
+      <default>'#241f31'</default>
+      <summary>Dock background color</summary>
+      <description>Color as "#rrggbb", used when background-custom-color is true. It has no transparency of its own: that is background-transparency.</description>
+    </key>
+    <key name="background-custom-transparency" type="b">
+      <default>false</default>
+      <summary>Custom dock background transparency</summary>
+      <description>When false, the dock background is as transparent as the current GNOME style makes it.</description>
+    </key>
+    <key name="background-transparency" type="i">
+      <range min="0" max="100"/>
+      <default>20</default>
+      <summary>Dock background transparency</summary>
+      <description>0: opaque. 100: fully transparent. Only the background; icons, indicators, labels and menus keep their own visibility. Used when background-custom-transparency is true.</description>
+    </key>
+    <key name="app-grid-custom-transparency" type="b">
+      <default>false</default>
+      <summary>Custom background transparency of the applications view</summary>
+      <description>When false, the full-screen applications view opened from the dock has the standard GNOME background.</description>
+    </key>
+    <key name="app-grid-custom-color" type="b">
+      <default>false</default>
+      <summary>Custom background color of the applications view</summary>
+      <description>When false, the full-screen applications view opened from the dock has the color of the standard GNOME background. Independent of the dock background.</description>
+    </key>
+    <key name="app-grid-color" type="s">
+      <default>'#241f31'</default>
+      <summary>Background color of the applications view</summary>
+      <description>Color as "#rrggbb", used when app-grid-custom-color is true. It has no transparency of its own: that is app-grid-transparency (or opaque when app-grid-custom-transparency is false).</description>
+    </key>
+    <key name="app-grid-transparency" type="i">
+      <range min="0" max="100"/>
+      <default>30</default>
+      <summary>Background transparency of the applications view</summary>
+      <description>0: opaque background (standard or custom color). 100: fully transparent, only the wallpaper is visible behind the applications. Only the background changes; icons, names and the search entry stay fully visible. Used when app-grid-custom-transparency is true.</description>
+    </key>
+    <key name="app-grid-folder-custom-color" type="b">
+      <default>false</default>
+      <summary>Custom background color of application folders</summary>
+      <description>When false, the folder tiles in the applications view (such as "Utilities") have the color of the current GNOME style. Only the tile background changes; the application thumbnails and the folder name stay as they are, and the panel of an open folder is not affected.</description>
+    </key>
+    <key name="app-grid-folder-color" type="s">
+      <default>'#3d3846'</default>
+      <summary>Background color of application folders</summary>
+      <description>Color as "#rrggbb", used when app-grid-folder-custom-color is true. It has no transparency of its own: that is app-grid-folder-transparency (or the alpha of the GNOME style when app-grid-folder-custom-transparency is false).</description>
+    </key>
+    <key name="app-grid-folder-custom-transparency" type="b">
+      <default>false</default>
+      <summary>Custom background transparency of application folders</summary>
+      <description>When false, the folder tiles in the applications view are as opaque as the current GNOME style makes them.</description>
+    </key>
+    <key name="app-grid-folder-transparency" type="i">
+      <range min="0" max="100"/>
+      <default>50</default>
+      <summary>Background transparency of application folders</summary>
+      <description>0: opaque tile background. 100: fully transparent; the folder is recognized by its application thumbnails and name. Hover, selection and keyboard focus stay visible. Used when app-grid-folder-custom-transparency is true.</description>
+    </key>
+    <key name="app-grid-hover-custom-color" type="b">
+      <default>false</default>
+      <summary>Custom hover highlight color in the applications view</summary>
+      <description>When false, the highlight shown under the pointer on applications, application folders and applications inside an open folder has the color of the current GNOME style. The dock, the desktop and folder stacks are not affected.</description>
+    </key>
+    <key name="app-grid-hover-color" type="s">
+      <default>'#5e5c64'</default>
+      <summary>Hover highlight color in the applications view</summary>
+      <description>Color as "#rrggbb", used when app-grid-hover-custom-color is true. It has no transparency of its own: that is app-grid-hover-transparency (or the alpha of the GNOME style when app-grid-hover-custom-transparency is false).</description>
+    </key>
+    <key name="app-grid-hover-custom-transparency" type="b">
+      <default>false</default>
+      <summary>Custom hover highlight transparency in the applications view</summary>
+      <description>When false, the hover highlight is as opaque as the current GNOME style makes it.</description>
+    </key>
+    <key name="app-grid-hover-transparency" type="i">
+      <range min="0" max="100"/>
+      <default>50</default>
+      <summary>Hover highlight transparency in the applications view</summary>
+      <description>0: opaque highlight. 100: fully transparent; a folder then looks the same under the pointer as at rest. Only the highlight changes; icons and names stay fully visible, and keyboard focus stays marked. Used when app-grid-hover-custom-transparency is true.</description>
+    </key>
+    <key name="click-action" enum="io.github.deskence.Deskence.DockClickAction">
+      <default>'focus-or-cycle'</default>
+      <summary>Clicking a running application</summary>
+      <description>"focus-or-cycle": focus the most recently used window; when the application is already focused, switch to its next window. "minimize-or-cycle": like focus-or-cycle, but an application with a single focused window is minimized.</description>
+    </key>
+    <key name="isolate-workspaces" type="b">
+      <default>false</default>
+      <summary>Only show applications of the current workspace</summary>
+      <description>When true, running (non-pinned) applications are listed only when they have a window on the active workspace, and clicking cycles only through those windows.</description>
+    </key>
+    <key name="show-app-counts" type="b">
+      <default>true</default>
+      <summary>Show counters of applications</summary>
+      <description>When true, an application that reports a counter (for example unread messages, through the LauncherEntry D-Bus API) shows it on its dock icon. Applications that report nothing show nothing.</description>
+    </key>
+    <key name="show-app-progress" type="b">
+      <default>true</default>
+      <summary>Show progress of applications</summary>
+      <description>When true, an application that reports the progress of an operation (for example a download, through the LauncherEntry D-Bus API) shows it as a bar on its dock icon.</description>
+    </key>
+    <key name="window-previews" type="b">
+      <default>true</default>
+      <summary>Show window previews on hover</summary>
+      <description>When the pointer rests on a running application, show its windows (the ones the dock counts, see isolate-workspaces) with their titles; clicking one activates that window.</description>
+    </key>
+    <key name="window-peek" type="b">
+      <default>true</default>
+      <summary>Peek at a window from its preview</summary>
+      <description>While the pointer rests on a window preview, that window is shown over the dimmed others for a moment. Nothing is focused, raised, restored or moved; leaving the preview or pressing Escape ends it.</description>
+    </key>
+    <key name="folder-stacks" type="as">
+      <default>[]</default>
+      <summary>Folders in the dock</summary>
+      <description>Folders shown in the dock, in order. Each entry is "xdg:NAME" for a standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ prefix, for example "xdg:DOWNLOAD"), "home:RELATIVE/PATH" for a folder in the home folder, or a "file://" URI for any other folder. Removing an entry never touches the folder.</description>
+    </key>
+    <key name="show-folder-stacks" type="b">
+      <default>true</default>
+      <summary>Show folders in the dock</summary>
+      <description>When false, the folders in folder-stacks are kept but not shown.</description>
+    </key>
+    <key name="folder-stack-view" enum="io.github.deskence.Deskence.StackView">
+      <default>'grid'</default>
+      <summary>How folder contents are shown</summary>
+      <description>"grid": large icons. "list": smaller icons with size and date. Changed from the folder panel.</description>
+    </key>
+    <key name="folder-stack-sorting" type="a{ss}">
+      <default>{}</default>
+      <summary>Sort order of each folder</summary>
+      <description>Maps an entry of folder-stacks to "name", "modified" (newest first) or "type". A folder without an entry is sorted by name, except Downloads (xdg:DOWNLOAD), which shows the newest files first. Changed from the folder panel.</description>
+    </key>
+  </schema>
+
+  <schema id="io.github.deskence.Deskence.DesktopIcons" path="/io/github/deskence/deskence/desktop-icons/">
+    <key name="icon-size" enum="io.github.deskence.Deskence.IconSize">
+      <default>'medium'</default>
+      <summary>Desktop icon size</summary>
+      <description>"small" (48 px), "medium" (64 px), "large" (96 px) or "huge" (128 px).</description>
+    </key>
+    <key name="start-corner" enum="io.github.deskence.Deskence.Corner">
+      <default>'top-left'</default>
+      <summary>Corner where new icons are placed</summary>
+    </key>
+    <key name="show-home" type="b">
+      <default>true</default>
+      <summary>Show the home folder</summary>
+    </key>
+    <key name="show-trash" type="b">
+      <default>true</default>
+      <summary>Show the trash</summary>
+    </key>
+    <key name="show-mounts" type="b">
+      <default>true</default>
+      <summary>Show drives and USB sticks</summary>
+    </key>
+    <key name="icon-placement" enum="io.github.deskence.Deskence.IconPlacement">
+      <default>'grid'</default>
+      <summary>How moved icons are placed</summary>
+      <description>"free": icons stay exactly where they are dropped. "grid": dropped icons snap to the grid. Changing this does not move existing icons; "Align to Grid" in the desktop menu does.</description>
+    </key>
+    <key name="click-mode" enum="io.github.deskence.Deskence.ClickMode">
+      <default>'double'</default>
+      <summary>Open items with a single or double click</summary>
+    </key>
+    <key name="sort-order" enum="io.github.deskence.Deskence.SortOrder">
+      <default>'name'</default>
+      <summary>Order used by "Arrange Icons"</summary>
+      <description>Changed from the desktop menu "Sort By".</description>
+    </key>
+  </schema>
+
+  <schema id="io.github.deskence.Deskence.Tray" path="/io/github/deskence/deskence/tray/">
+    <key name="show-passive" type="b">
+      <default>false</default>
+      <summary>Show passive application icons</summary>
+      <description>StatusNotifierItem defines a "Passive" status for icons an application considers unimportant. They are hidden unless this is true.</description>
+    </key>
+  </schema>
+
+  <schema id="io.github.deskence.Deskence.Windows" path="/io/github/deskence/deskence/windows/">
+    <key name="original-button-layout" type="s">
+      <default>''</default>
+      <summary>Button layout before the first change</summary>
+      <description>Value of org.gnome.desktop.wm.preferences button-layout saved before Deskence changed it for the first time. Empty when nothing was changed.</description>
+    </key>
+    <key name="last-written-button-layout" type="s">
+      <default>''</default>
+      <summary>Button layout last written by Deskence</summary>
+      <description>Used to tell whether the user changed the layout elsewhere afterwards; the original value is only offered for restoring while the current value still equals this one.</description>
+    </key>
+  </schema>
+
+  <schema id="io.github.deskence.Deskence.AppGrid" path="/io/github/deskence/deskence/app-grid/">
+    <key name="sort-mode" enum="io.github.deskence.Deskence.AppGridSort">
+      <default>'custom'</default>
+      <summary>Order of the applications view</summary>
+      <description>"custom": the arrangement made by the user (GNOME's own app-picker-layout and folder lists). "alphabetical": applications and folders by display name in the user's language, and the applications inside each folder too; rearranging by dragging is turned off. Kept up to date by the app-grid extension.</description>
+    </key>
+    <key name="manual-layout" type="s">
+      <default>''</default>
+      <summary>Arrangement saved before sorting alphabetically</summary>
+      <description>JSON written when sort-mode changes to "alphabetical": the previous org.gnome.shell app-picker-layout (GVariant text) and the application list of each folder. It is restored when sort-mode goes back to "custom". Internal; not part of presets.</description>
+    </key>
+  </schema>
+
+  <schema id="io.github.deskence.Deskence.Clipboard" path="/io/github/deskence/deskence/clipboard/">
+    <key name="shortcut" type="as">
+      <default><![CDATA[['<Shift><Super>v']]]></default>
+      <summary>Shortcut that opens the clipboard history</summary>
+    </key>
+    <key name="max-entries" type="i">
+      <range min="10" max="200"/>
+      <default>50</default>
+      <summary>Largest number of remembered items</summary>
+      <description>Pinned items do not count. The oldest items are forgotten first.</description>
+    </key>
+    <key name="remember" enum="io.github.deskence.Deskence.ClipboardRemember">
+      <default>'nothing'</default>
+      <summary>What is kept after logging out</summary>
+      <description>"nothing": the history is only kept in memory and is gone after logging out. "pinned": pinned items are saved in the user data folder. "all": the whole history is saved there.</description>
+    </key>
+    <key name="paused" type="b">
+      <default>false</default>
+      <summary>Do not remember new items</summary>
+      <description>Temporary state changed from the history panel; not part of presets.</description>
+    </key>
+    <key name="include-primary" type="b">
+      <default>false</default>
+      <summary>Also remember selected text</summary>
+      <description>Text selected with the mouse (the primary selection, pasted with the middle button) is added to the history too.</description>
+    </key>
+    <key name="paste-plain-text" type="b">
+      <default>false</default>
+      <summary>Always paste text without formatting</summary>
+      <description>The history keeps text without formatting; only the newest item, while the application it was copied from still provides it, can be pasted with its formatting. When true, that item is pasted as plain text too. Shift+Enter in the history pastes plain text either way.</description>
+    </key>
+    <key name="paste-on-select" type="b">
+      <default>true</default>
+      <summary>Paste the chosen item at once</summary>
+      <description>When true, choosing an item closes the panel and pastes it into the window that was focused, with Ctrl+V. When false, the item is only put on the clipboard.</description>
+    </key>
+  </schema>
+
+  <schema id="io.github.deskence.Deskence.KeepAwake" path="/io/github/deskence/deskence/keep-awake/">
+    <key name="keep-screen-on" type="b">
+      <default>false</default>
+      <summary>Also keep the screen on</summary>
+      <description>When false, keeping the computer awake only prevents automatic suspend: the screen still turns off and locks as usual. When true, the screen also stays on and does not lock automatically.</description>
+    </key>
+    <key name="last-choice" enum="io.github.deskence.Deskence.KeepAwakeChoice">
+      <default>'indefinite'</default>
+      <summary>Duration used by the quick settings button</summary>
+      <description>The duration chosen last; clicking the button uses it again.</description>
+    </key>
+    <key name="custom-duration" type="i">
+      <range min="5" max="720"/>
+      <default>90</default>
+      <summary>Custom duration in minutes</summary>
+    </key>
+    <key name="until-time" type="i">
+      <range min="0" max="1439"/>
+      <default>1020</default>
+      <summary>End time in minutes after midnight</summary>
+      <description>Used by "until a time": the next occurrence of this local time.</description>
+    </key>
+  </schema>
+
+</schemalist>

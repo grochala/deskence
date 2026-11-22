@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Deskence
+GenericName=Desktop Settings
+Comment=Dock, desktop icons, application icons in the top bar and window buttons
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+Keywords=dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;
+Exec=deskence
+Icon=@APP_ID@
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;Settings;DesktopSettings;
+StartupNotify=true
+DBusActivatable=true

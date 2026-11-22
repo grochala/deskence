@@ -1,0 +1,8 @@
+{
+  "uuid": "@UUID_DOCK@",
+  "name": "Deskence Dock",
+  "description": "The dock of Deskence. It is configured in the Deskence application.",
+  "shell-version": [@SHELL_VERSIONS@],
+  "version-name": "@VERSION@",
+  "gettext-domain": "@GETTEXT_PACKAGE@"
+}

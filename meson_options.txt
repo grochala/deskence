@@ -1,0 +1,8 @@
+option('shell_versions',
+  type: 'array',
+  value: ['48', '51'],
+  description: 'GNOME Shell versions declared in the extension metadata. Only list versions that were tested.')
+option('tests',
+  type: 'boolean',
+  value: true,
+  description: 'Register unit tests')

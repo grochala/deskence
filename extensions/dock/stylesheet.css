@@ -1,0 +1,418 @@
+/*
+ * Geometry adjustments for the Deskence dock only. Colors come from the
+ * GNOME Shell theme (#dash rules); every selector here is scoped to
+ * .deskence-dock so nothing else in the shell is affected.
+ */
+
+#dash.deskence-dock {
+  padding: 0;
+}
+
+#dash.deskence-dock .dash-background {
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+
+#dash.deskence-dock-fit.deskence-dock-bottom { padding-bottom: 6px; }
+#dash.deskence-dock-fit.deskence-dock-left { padding-left: 6px; }
+#dash.deskence-dock-fit.deskence-dock-right { padding-right: 6px; }
+
+#dash.deskence-dock-full .dash-background {
+  border-radius: 0;
+}
+
+#dash.deskence-dock .deskence-dock-box {
+  padding: 6px;
+}
+
+#dash.deskence-dock .dash-item-container .overview-tile,
+#dash.deskence-dock .dash-item-container .show-apps {
+  margin: 2px;
+  padding: 0;
+}
+
+#dash.deskence-dock .dash-separator {
+  margin: 0 4px;
+}
+
+#dash.deskence-dock .deskence-dock-separator-vertical {
+  width: auto;
+  height: 1px;
+  margin: 4px 0;
+}
+
+/*
+ * Items have no tile of their own: the background belongs to the dock. The
+ * GNOME theme paints every item in the dash color, which shows as extra
+ * tiles once the dock color or transparency is changed. Highlights for
+ * hover, keyboard focus, press and an open applications view are a light
+ * or dark veil over the dock ("ink", chosen in dock.js for the dock's
+ * background), so they suit any dock color. The focus ring of the theme is
+ * kept.
+ */
+#dash.deskence-dock .dash-item-container .overview-tile .overview-icon,
+#dash.deskence-dock .dash-item-container .show-apps .overview-icon,
+#dash.deskence-dock .dash-item-container .overview-tile:checked .overview-icon,
+#dash.deskence-dock .dash-item-container .overview-tile:focus .overview-icon,
+#dash.deskence-dock .dash-item-container .show-apps:focus .overview-icon {
+  background-color: transparent;
+}
+
+#dash.deskence-dock-ink-light .dash-item-container .overview-tile .overview-icon,
+#dash.deskence-dock-ink-light .dash-item-container .show-apps .overview-icon {
+  color: #ffffff;
+}
+
+#dash.deskence-dock-ink-dark .dash-item-container .overview-tile .overview-icon,
+#dash.deskence-dock-ink-dark .dash-item-container .show-apps .overview-icon {
+  color: #1e1e20;
+}
+
+/* On a see-through dock the wallpaper decides the contrast: light ink with
+   a shadow, as GNOME draws labels over the wallpaper. */
+#dash.deskence-dock-see-through .dash-item-container .show-apps .show-apps-icon,
+#dash.deskence-dock-see-through .dash-item-container .overview-tile .overview-icon StIcon {
+  icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+#dash.deskence-dock-ink-light .dash-item-container .overview-tile:hover .overview-icon,
+#dash.deskence-dock-ink-light .dash-item-container .show-apps:hover .overview-icon,
+#dash.deskence-dock-ink-light .dash-item-container .show-apps:checked .overview-icon {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+#dash.deskence-dock-ink-light .dash-item-container .overview-tile:focus .overview-icon,
+#dash.deskence-dock-ink-light .dash-item-container .show-apps:focus .overview-icon {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+#dash.deskence-dock-ink-light .dash-item-container .overview-tile:active .overview-icon,
+#dash.deskence-dock-ink-light .dash-item-container .show-apps:active .overview-icon {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#dash.deskence-dock-ink-dark .dash-item-container .overview-tile:hover .overview-icon,
+#dash.deskence-dock-ink-dark .dash-item-container .show-apps:hover .overview-icon,
+#dash.deskence-dock-ink-dark .dash-item-container .show-apps:checked .overview-icon {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#dash.deskence-dock-ink-dark .dash-item-container .overview-tile:focus .overview-icon,
+#dash.deskence-dock-ink-dark .dash-item-container .show-apps:focus .overview-icon {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+#dash.deskence-dock-ink-dark .dash-item-container .overview-tile:active .overview-icon,
+#dash.deskence-dock-ink-dark .dash-item-container .show-apps:active .overview-icon {
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+#dash.deskence-dock-ink-light .dash-separator {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+#dash.deskence-dock-ink-dark .dash-separator {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/*
+ * Window indicators: under the icon in a bottom dock, on the side facing
+ * the inside of the screen in a side dock (appIcon.js). Running: small dots; the focused application: the
+ * same dots, solid and drawn out along the dock.
+ */
+#dash.deskence-dock .deskence-dock-dots {
+  spacing: 3px;
+}
+
+#dash.deskence-dock .deskence-dock-dots .app-grid-running-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+#dash.deskence-dock-ink-light .deskence-dock-dots .app-grid-running-dot {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#dash.deskence-dock-ink-dark .deskence-dock-dots .app-grid-running-dot {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#dash.deskence-dock-ink-light .deskence-dock-dots-active .app-grid-running-dot {
+  background-color: #ffffff;
+}
+
+#dash.deskence-dock-ink-dark .deskence-dock-dots-active .app-grid-running-dot {
+  background-color: #1e1e20;
+}
+
+#dash.deskence-dock-see-through .deskence-dock-dots .app-grid-running-dot {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+
+#dash.deskence-dock-bottom .deskence-dock-dots-active .app-grid-running-dot {
+  width: 10px;
+}
+
+#dash.deskence-dock-left .deskence-dock-dots-active .app-grid-running-dot,
+#dash.deskence-dock-right .deskence-dock-dots-active .app-grid-running-dot {
+  height: 10px;
+}
+
+/* Application grid with a see-through background, see overviewBackdrop.js. */
+.deskence-app-grid-see-through .overview-tile,
+.deskence-app-grid-see-through .app-folder {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+/* Application grid on a light custom color, see overviewBackdrop.js. */
+.deskence-app-grid-ink-dark .overview-tile,
+.deskence-app-grid-ink-dark .app-folder,
+.deskence-app-grid-ink-dark .page-navigation-arrow {
+  color: #1e1e20;
+}
+
+.deskence-app-grid-ink-dark .app-folder {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.deskence-app-grid-ink-dark .overview-tile:hover,
+.deskence-app-grid-ink-dark .overview-tile:focus,
+.deskence-app-grid-ink-dark .app-folder:hover,
+.deskence-app-grid-ink-dark .page-navigation-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.deskence-app-grid-ink-dark .page-indicator .page-indicator-icon,
+.deskence-app-grid-ink-dark .app-grid-running-dot {
+  background-color: #1e1e20;
+}
+
+/*
+ * Window previews (windowPreviews.js). The panel and the previews use the
+ * popup menu classes of the GNOME Shell theme (.popup-menu-content,
+ * .popup-menu-item), so colors, hover and keyboard focus follow the theme
+ * in light, dark and high contrast styles; only sizes are set here. The
+ * outer actor is transparent: its padding towards the dock (set in code)
+ * only keeps the pointer inside the panel while it crosses the gap.
+ */
+.deskence-window-previews {
+  padding: 0;
+}
+
+.deskence-window-previews-content {
+  padding: 6px;
+  spacing: 0;
+}
+
+.deskence-window-previews-header {
+  font-weight: bold;
+  padding: 4px 10px 6px 10px;
+}
+
+.deskence-window-previews-list {
+  spacing: 4px;
+}
+
+.deskence-window-preview {
+  padding: 8px;
+}
+
+.deskence-window-preview-box {
+  spacing: 6px;
+}
+
+.deskence-window-preview-thumbnail {
+  border-radius: 6px;
+}
+
+.deskence-window-preview-fallback {
+  background-color: rgba(127, 127, 127, 0.15);
+}
+
+.deskence-window-preview-title {
+  font-size: 0.9em;
+}
+
+.deskence-window-preview-title-row {
+  spacing: 4px;
+}
+
+.deskence-window-preview-pin {
+  icon-size: 12px;
+}
+
+/* Close button in the corner of a preview: the round window button of
+   the theme's palette, large enough to hit, visible on hover and focus. */
+.deskence-window-preview-close {
+  margin: 4px;
+  padding: 4px;
+  border-radius: 99px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+}
+
+.deskence-window-preview-close StIcon {
+  icon-size: 16px;
+}
+
+.deskence-window-preview-close:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.deskence-window-preview-close:active {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.deskence-window-preview-close:focus {
+  box-shadow: inset 0 0 0 2px -st-accent-color;
+}
+
+/* Peeking at a window: the veil dims the other windows (not the top
+   bar, the dock or the panel); an enlarged window sits on a card. */
+.deskence-window-peek-veil {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.deskence-window-peek-card {
+  padding: 16px;
+  spacing: 12px;
+  border-radius: 12px;
+  background-color: rgba(30, 30, 30, 0.9);
+  color: #ffffff;
+}
+
+.deskence-window-peek-title {
+  font-weight: bold;
+}
+
+/*
+ * Folders in the dock. The arrow under a folder (on the inner side in a
+ * side dock) tells it opens a panel; applications have window dots there.
+ * An unavailable folder is dimmed (stacks.js).
+ */
+#dash.deskence-dock .deskence-dock-stack-marker {
+  icon-size: 8px;
+}
+
+#dash.deskence-dock-ink-light .deskence-dock-stack-marker {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#dash.deskence-dock-ink-dark .deskence-dock-stack-marker {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* The contents panel: GNOME Shell menu classes, sizes only. */
+.deskence-stack-panel {
+  padding: 8px;
+  spacing: 6px;
+}
+
+.deskence-stack-header,
+.deskence-stack-tools {
+  spacing: 6px;
+}
+
+.deskence-stack-title {
+  font-weight: bold;
+  padding: 0 4px;
+}
+
+.deskence-stack-header-button,
+.deskence-stack-sort {
+  padding: 4px 10px;
+  border-radius: 99px;
+  font-size: 0.9em;
+  background-color: transparent;
+}
+
+.deskence-stack-header-button {
+  padding: 6px;
+}
+
+.deskence-stack-header-button:hover,
+.deskence-stack-sort:hover,
+.deskence-stack-header-button:focus,
+.deskence-stack-sort:focus {
+  background-color: rgba(127, 127, 127, 0.25);
+}
+
+/* The chosen order: the accent marks the choice. */
+.deskence-stack-sort:checked {
+  background-color: -st-accent-color;
+  color: -st-accent-fg-color;
+}
+
+.deskence-stack-status {
+  padding: 8px 4px;
+  color: rgba(127, 127, 127, 1);
+  font-size: 0.9em;
+}
+
+.deskence-stack-item {
+  padding: 8px 4px;
+  border-radius: 8px;
+}
+
+.deskence-stack-item-box {
+  spacing: 4px;
+}
+
+.deskence-stack-item-label {
+  font-size: 0.85em;
+}
+
+.deskence-stack-row {
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.deskence-stack-row-box {
+  spacing: 10px;
+}
+
+.deskence-stack-row-details {
+  font-size: 0.8em;
+  color: rgba(127, 127, 127, 1);
+}
+
+.deskence-stack-open {
+  border-radius: 8px;
+}
+
+.deskence-stack-open-box {
+  spacing: 10px;
+}
+
+/*
+ * What applications report on their dock icon (appIcon.js,
+ * launcherEntry.js): a counter at the corner, in red with white digits like
+ * GNOME's notification counters, readable on light and dark docks, and
+ * progress as a bar along the lower edge of the icon, in the accent color
+ * on a dark track. The window dots stay below it, outside the icon.
+ */
+#dash.deskence-dock .deskence-dock-badge {
+  background-color: #e01b24;
+  color: #ffffff;
+  font-size: 0.75em;
+  font-weight: bold;
+  border-radius: 99px;
+  padding: 1px 5px;
+  min-width: 9px;
+  margin: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+#dash.deskence-dock .deskence-dock-progress {
+  height: 5px;
+  margin: 0 8px 6px 8px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+#dash.deskence-dock .deskence-dock-progress-fill {
+  border-radius: 3px;
+  background-color: -st-accent-color;
+}

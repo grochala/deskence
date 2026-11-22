@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Deskence
+Comment=Takes over the settings of Better GNOME Desktop
+Exec=@BINDIR@/deskence --migrate
+NoDisplay=true
+OnlyShowIn=GNOME;
+X-GNOME-Autostart-Phase=Applications
+X-GNOME-AutoRestart=false

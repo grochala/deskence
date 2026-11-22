@@ -1,0 +1,9 @@
+{
+  "uuid": "@UUID_CLIPBOARD@",
+  "name": "Deskence Clipboard History",
+  "description": "Clipboard history of Deskence. It is configured in the Deskence application.",
+  "shell-version": [@SHELL_VERSIONS@],
+  "session-modes": ["user", "unlock-dialog"],
+  "version-name": "@VERSION@",
+  "gettext-domain": "@GETTEXT_PACKAGE@"
+}

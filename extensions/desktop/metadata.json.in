@@ -1,0 +1,10 @@
+{
+  "uuid": "@UUID_DESKTOP@",
+  "name": "Deskence Desktop Icons",
+  "description": "Files and folders on the desktop, part of Deskence. It is configured in the Deskence application.",
+  "shell-version": [@SHELL_VERSIONS@],
+  "session-modes": ["user", "unlock-dialog"],
+  "version-name": "@VERSION@",
+  "gettext-domain": "@GETTEXT_PACKAGE@",
+  "helper-path": "@LIBEXECDIR@/@HELPER_NAME@"
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="libadwaita" version="1.6"/>
+  <template class="DeskenceGeneralPage" parent="AdwPreferencesPage">
+    <property name="title" translatable="yes">General</property>
+    <property name="icon-name">emblem-system-symbolic</property>
+    <property name="name">general</property>
+    <child>
+      <object class="AdwPreferencesGroup" id="startup_group">
+        <property name="title" translatable="yes">Session Start</property>
+        <child>
+          <object class="AdwSwitchRow" id="desktop_at_login_row">
+            <property name="title" translatable="yes">Show the _Desktop After Logging In</property>
+            <property name="subtitle" translatable="yes">Start on the desktop instead of the activities overview</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup" id="presets_group">
+        <property name="title" translatable="yes">Presets</property>
+        <property name="description" translatable="yes">Save the current settings to return to them later.</property>
+        <child>
+          <object class="AdwActionRow" id="no_presets_row">
+            <property name="title" translatable="yes">No saved presets</property>
+            <style>
+              <class name="dim-label"/>
+            </style>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <child>
+          <object class="AdwButtonRow" id="save_row">
+            <property name="title" translatable="yes">_Save Current Settings…</property>
+            <property name="use-underline">True</property>
+            <property name="start-icon-name">list-add-symbolic</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Moving Settings</property>
+        <property name="description" translatable="yes">Move settings to another computer or keep them for a reinstall. Before importing, you see what changes.</property>
+        <child>
+          <object class="AdwButtonRow" id="export_row">
+            <property name="title" translatable="yes">_Export to File…</property>
+            <property name="use-underline">True</property>
+            <property name="start-icon-name">document-save-symbolic</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwButtonRow" id="import_row">
+            <property name="title" translatable="yes">_Import From File…</property>
+            <property name="use-underline">True</property>
+            <property name="start-icon-name">document-open-symbolic</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwButtonRow" id="undo_row">
+            <property name="title" translatable="yes">_Undo Last Applied Preset…</property>
+            <property name="use-underline">True</property>
+            <property name="start-icon-name">edit-undo-symbolic</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Keyboard Shortcuts</property>
+        <child>
+          <object class="AdwActionRow" id="shortcuts_row">
+            <property name="title" translatable="yes">_Keyboard Shortcuts</property>
+            <property name="subtitle" translatable="yes">See and change all shortcuts of Deskence in one place</property>
+            <property name="use-underline">True</property>
+            <property name="activatable">True</property>
+            <child type="suffix">
+              <object class="GtkImage">
+                <property name="icon-name">go-next-symbolic</property>
+                <property name="accessible-role">presentation</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Information for Bug Reports</property>
+        <property name="description" translatable="yes">Versions, the kind of session, monitors and the state of each feature, to paste into a bug report. Nothing private is included, and nothing is sent anywhere.</property>
+        <child>
+          <object class="AdwButtonRow" id="report_show_row">
+            <property name="title" translatable="yes">S_how Report…</property>
+            <property name="use-underline">True</property>
+            <property name="start-icon-name">document-properties-symbolic</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwButtonRow" id="report_copy_row">
+            <property name="title" translatable="yes">_Copy Diagnostics</property>
+            <property name="use-underline">True</property>
+            <property name="start-icon-name">edit-copy-symbolic</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwButtonRow" id="report_save_row">
+            <property name="title" translatable="yes">Save Report to _File…</property>
+            <property name="use-underline">True</property>
+            <property name="start-icon-name">document-save-symbolic</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <child>
+          <object class="AdwButtonRow" id="reset_row">
+            <property name="title" translatable="yes">_Restore Default Deskence Settings…</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

@@ -1,0 +1,54 @@
+#!@PYTHON@
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+import gettext
+import locale
+import sys
+
+sys.path.insert(1, "@PKGDATADIR@")
+
+try:
+    locale.setlocale(locale.LC_ALL, "")
+    # GtkBuilder translates .ui files through the C library.
+    locale.bindtextdomain("@GETTEXT_PACKAGE@", "@LOCALEDIR@")
+    locale.textdomain("@GETTEXT_PACKAGE@")
+except (locale.Error, AttributeError):
+    pass
+gettext.bindtextdomain("@GETTEXT_PACKAGE@", "@LOCALEDIR@")
+gettext.textdomain("@GETTEXT_PACKAGE@")
+
+import os  # noqa: E402
+
+# The command line (deskence status, enable, ...) never loads GTK, so it
+# also works without a display, for example on a text console.
+from deskence import cli  # noqa: E402
+
+# Everything concerns the user running it; settings of root are not what
+# anybody wants to change, and graphical applications do not run as root.
+if os.geteuid() == 0:
+    print(cli.root_message(), file=sys.stderr)
+    sys.exit(1)
+
+if cli.handles(sys.argv[1:]):
+    sys.exit(cli.main(sys.argv[1:], "@VERSION@", "@PKGDATADIR@"))
+
+# At login (autostart entry): take over the settings of Better GNOME Desktop
+# and of older releases, then exit. Quick and silent when there is nothing
+# to do.
+if sys.argv[1:] == ["--migrate"]:
+    from deskence import rename  # noqa: E402
+    sys.exit(0 if rename.run("@PKGDATADIR@/legacy-schemas") else 1)
+
+import gi  # noqa: E402
+
+gi.require_version("Gdk", "4.0")
+gi.require_version("Gtk", "4.0")
+gi.require_version("Adw", "1")
+
+from gi.repository import Gio  # noqa: E402
+
+Gio.Resource.load("@PKGDATADIR@/deskence.gresource")._register()
+
+from deskence.application import Application  # noqa: E402
+
+sys.exit(Application("@VERSION@", "@PKGDATADIR@").run(sys.argv))

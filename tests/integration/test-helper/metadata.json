@@ -1,0 +1,7 @@
+{
+  "uuid": "deskence-test-helper@local",
+  "name": "Deskence test helper",
+  "description": "Test-only: enables unsafe mode so the integration harness can use Eval and Screenshot. Never shipped.",
+  "shell-version": ["48", "49", "50", "51"],
+  "session-modes": ["user", "unlock-dialog"]
+}

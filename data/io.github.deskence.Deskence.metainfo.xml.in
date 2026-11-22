@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.deskence.Deskence</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name translate="no">Deskence</name>
+  <summary>Dock, desktop icons and tray for GNOME</summary>
+  <description>
+    <p>Deskence adds a few conveniences to the standard GNOME desktop and lets you configure them in one place.</p>
+    <ul>
+      <li>A dock with pinned and running applications, folders, drives and the trash, and previews of windows</li>
+      <li>Files and folders on the desktop</li>
+      <li>Application icons in the top bar, for example from messengers and file synchronization</li>
+      <li>A clipboard history and Keep Awake in the quick settings</li>
+      <li>Alphabetical order of the applications view</li>
+      <li>Minimize and maximize buttons in window title bars</li>
+      <li>Presets to save settings and move them to another computer</li>
+    </ul>
+    <p>It works in your existing GNOME session and keeps the standard GNOME look.</p>
+  </description>
+  <url type="homepage">https://github.com/grochala/deskence</url>
+  <url type="bugtracker">https://github.com/grochala/deskence/issues</url>
+  <launchable type="desktop-id">io.github.deskence.Deskence.desktop</launchable>
+  <developer id="io.github.deskence">
+    <name translate="no">Rafał Grochala</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+  <provides>
+    <binary>deskence</binary>
+    <!-- The former name, Better GNOME Desktop (0.3.0 and older). -->
+    <id>io.github.bettergnome.Desktop</id>
+  </provides>
+  <releases>
+    <release version="0.10.0" date="2026-11-22">
+      <description>
+        <p>Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in one place with checks for clashes, and copy or save a report for bug reports.</p>
+        <p>Presets: undoing an applied preset restores only what it changed and keeps settings you changed afterwards.</p>
+        <p>Dock: unread counters and the progress of operations on application icons, for applications that report them.</p>
+      </description>
+    </release>
+    <release version="0.9.0" date="2026-11-22">
+      <description>
+        <p>Command line: check the state of each feature, turn features off and on, apply, import and export presets, restore defaults and collect diagnostics with the deskence command, also from a text console when the desktop does not work. See man deskence.</p>
+        <p>Restoring default settings no longer deletes a clipboard history that is kept after logging out.</p>
+      </description>
+    </release>
+    <release version="0.8.0" date="2026-11-22">
+      <description>
+        <p>Applications view: your own color and transparency for the highlight under the pointer on applications and application folders; hovering a folder no longer draws an outline.</p>
+        <p>Folders in the dock: the panel takes at most half of the screen height and scrolls through the whole folder, also with the keyboard, and returns to the earlier position after a subfolder.</p>
+        <p>Settings: clearer descriptions, better Polish wording and fewer clashing keyboard shortcuts.</p>
+      </description>
+    </release>
+    <release version="0.7.1" date="2026-11-22">
+      <description>
+        <p>Dock: a dock along the whole edge matches the top bar in the activities overview and the applications view; a short dock keeps its own look.</p>
+        <p>Applications view: folder tiles with your own color or transparency now clearly show hover, press, focus and selection.</p>
+      </description>
+    </release>
+    <release version="0.7.0" date="2026-11-21">
+      <description>
+        <p>Applications view: your own color and transparency for folder tiles such as “Utilities”.</p>
+        <p>General: optionally start on the desktop instead of the activities overview after logging in.</p>
+        <p>Dock: it now blends into the activities overview instead of forming a separate band.</p>
+      </description>
+    </release>
+    <release version="0.6.1" date="2026-11-21">
+      <description>
+        <p>Project homepage and bug tracker links, English documentation. No changes to the application.</p>
+      </description>
+    </release>
+    <release version="0.6.0" date="2026-11-21">
+      <description>
+        <p>Settings: a General page with presets, exporting and importing settings and restoring defaults; an Applications View page with alphabetical sorting; calmer previews.</p>
+        <p>Dock: folders that show their contents, closing and peeking at windows from their previews, Always on Top in the preview menu.</p>
+        <p>New: clipboard history, Keep Awake in the quick settings, an Always on Top shortcut.</p>
+      </description>
+    </release>
+    <release version="0.5.0" date="2026-11-21">
+      <description>
+        <p>Better GNOME Desktop is now called Deskence. Settings, enabled features, pinned applications and desktop icon positions are taken over.</p>
+        <p>Dock: previews of the windows of an application when the pointer rests on it, no extra space next to the applications button when icons are magnified, running indicators under the icons of a bottom dock.</p>
+        <p>Settings: larger, clearer previews of the dock and the desktop icons, page icons, an “About” menu item.</p>
+      </description>
+    </release>
+    <release version="0.4.0" date="2026-11-21">
+      <description>
+        <p>Better GNOME Desktop is now called Deskence.</p>
+      </description>
+    </release>
+    <release version="0.3.0" date="2026-11-21">
+      <description>
+        <p>Dock: sharp magnified icons, no tiles under icons with a custom background, monochrome distribution logo, the application list kept at the start of a dock along the whole edge, running indicators on the inner side.</p>
+        <p>Applications view: one continuous closing transition, optional custom background color.</p>
+        <p>Desktop: menus open at the clicked point, also beside the dock; the icon grid starts at the chosen corner with small margins.</p>
+      </description>
+    </release>
+    <release version="0.2.0" date="2026-11-21">
+      <description>
+        <p>Dock: applications button at either end with a choice of icon, magnified icons, scrolling when the applications do not fit, custom background color and transparency, settings in the applications button menu, transparent background for the applications view.</p>
+        <p>Desktop icons: free placement or snapping to the grid, "Align to Grid", the whole desktop beside the dock usable, icon positions that do not move with the dock.</p>
+        <p>Fixes: smooth closing of the applications view, immediate reordering of dock icons, no frame while dragging desktop icons, one desktop menu everywhere.</p>
+      </description>
+    </release>
+    <release version="0.1.0" date="2026-11-20">
+      <description>
+        <p>First release.</p>
+      </description>
+    </release>
+  </releases>
+</component>
