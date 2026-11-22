@@ -33,8 +33,13 @@
 // open (Dock.setMenuOpen).
 //
 // Its files and folders can be dragged onto another folder in the dock or
-// onto the desktop (stackDrag.js); while one is dragged the contents are
-// not rebuilt, so the drag keeps its item.
+// onto the desktop (stackDrag.js); while one is dragged, or its menu is
+// open, the contents are not rebuilt, so the drag or menu keeps its item.
+// Applications such as Files cannot take a drag from GNOME Shell, so an
+// item can also be copied or cut to the clipboard (its menu: right click,
+// the Menu key, Shift+F10; or Ctrl+C, Ctrl+X) and pasted there. Nothing is
+// changed on the disk until it is pasted; pasting is the work of Files or
+// the desktop.
 //
 // Files dragged onto the folder open the panel without a grab, which would
 // take the pointer from the drag (fileDrop.js). It then shows what a drop
@@ -60,7 +65,7 @@ import {gettext as _, ngettext} from 'resource:///org/gnome/shell/extensions/ext
 
 import {setVertical} from './appIcon.js';
 import {edgeScrollStep} from './dropLogic.js';
-import {BATCH, CHUNK, MAX_SCANNED, canThumbnailDirectly, gridColumns, gridFit, isLauncher, needsMore, panelHeights, parseEntry, sortItems, sortModeFor, xdgIconName}
+import {BATCH, CHUNK, COPIED_FILES, MAX_SCANNED, canThumbnailDirectly, copiedFiles, gridColumns, gridFit, isLauncher, needsMore, panelHeights, parseEntry, sortItems, sortModeFor, xdgIconName}
     from './stackLogic.js';
 
 const ATTRIBUTES = [
@@ -420,6 +425,9 @@ export class StackPanel {
         // An item being dragged out, and a refresh waiting for its end.
         this._itemDrag = false;
         this._reloadWanted = false;
+        // The menu of an item (copy, cut).
+        this._itemMenu = null;
+        this._itemMenuManager = null;
     }
 
     get isOpen() {
@@ -830,7 +838,8 @@ export class StackPanel {
             return;
         this._reloadId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, RELOAD_DELAY, () => {
             this._reloadId = 0;
-            if (this._itemDrag) {
+            // Not under a drag or an item's menu: they keep their item.
+            if (this._itemDrag || this._itemMenu) {
                 this._reloadWanted = true;
                 return GLib.SOURCE_REMOVE;
             }
@@ -986,6 +995,13 @@ export class StackPanel {
         button._stackItem = item;
         button.connect('clicked', () => this._activate(item));
         this._makeDraggable(button, item);
+        button.connect('button-press-event', (_b, event) => {
+            if (event.get_button() !== Clutter.BUTTON_SECONDARY)
+                return Clutter.EVENT_PROPAGATE;
+            this._openItemMenu(button);
+            return Clutter.EVENT_STOP;
+        });
+        button.connect('popup-menu', () => this._openItemMenu(button));
         // The focus follows the pointer when it moves, like in menus; not
         // when the contents scroll under a resting pointer, which would
         // take the focus away from the keyboard.
@@ -1171,6 +1187,16 @@ export class StackPanel {
 
     _onKeyPress(event) {
         const key = event.get_key_symbol();
+        if (event.get_state() & Clutter.ModifierType.CONTROL_MASK) {
+            const cut = [Clutter.KEY_x, Clutter.KEY_X].includes(key);
+            const focus = global.stage.key_focus;
+            const button = focus && this._content.contains(focus)
+                ? this._content.get_children().find(c => c.contains(focus)) : null;
+            if (button && (cut || [Clutter.KEY_c, Clutter.KEY_C].includes(key))) {
+                this._toClipboard(button, cut);
+                return Clutter.EVENT_STOP;
+            }
+        }
         if (key === Clutter.KEY_BackSpace ||
             (key === Clutter.KEY_Left && (event.get_state() & Clutter.ModifierType.MOD1_MASK))) {
             this._goBack();
@@ -1189,6 +1215,62 @@ export class StackPanel {
         const focus = global.stage.key_focus;
         this._panel.navigate_focus(this._panel.contains(focus) ? focus : null, direction, false);
         return Clutter.EVENT_STOP;
+    }
+
+    // --- The clipboard --------------------------------------------------
+
+    // Copy and Cut for the item of button. The menu holds its own grab
+    // above the panel's: a click outside it or Escape closes only the
+    // menu.
+    _openItemMenu(button) {
+        if (!this._grabHelper || this._itemDrag || !button._delegate?.stackFile)
+            return;
+        this._closeItemMenu();
+        this._hideTooltip();
+        const menu = new PopupMenu.PopupMenu(button, 0.5, St.Side.TOP);
+        menu.addAction(_('Copy'), () => this._toClipboard(button, false), 'edit-copy-symbolic');
+        menu.addAction(_('Cut'), () => this._toClipboard(button, true), 'edit-cut-symbolic');
+        Main.layoutManager.addTopChrome(menu.actor);
+        this._itemMenuManager ??= new PopupMenu.PopupMenuManager(this._panel);
+        this._itemMenuManager.addMenu(menu);
+        menu.connect('open-state-changed', (_m, open) => {
+            if (open)
+                return;
+            if (button.get_stage())
+                button.grab_key_focus();
+            // Not while the menu emits its signal.
+            GLib.idle_add(GLib.PRIORITY_DEFAULT, () => {
+                if (this._itemMenu === menu)
+                    this._closeItemMenu();
+                return GLib.SOURCE_REMOVE;
+            });
+        });
+        this._itemMenu = menu;
+        menu.open();
+        menu.actor.navigate_focus(null, St.DirectionType.TAB_FORWARD, false);
+    }
+
+    _closeItemMenu() {
+        const menu = this._itemMenu;
+        if (!menu)
+            return;
+        this._itemMenu = null;
+        // Destroying it releases its grab (PopupMenuManager).
+        menu.destroy();
+        if (this._reloadWanted && this._panel && !this._itemDrag) {
+            this._reloadWanted = false;
+            this._queueReload();
+        }
+    }
+
+    // The item as copied or cut files for Files or the desktop to paste.
+    _toClipboard(button, cut) {
+        const file = button._delegate?.stackFile;
+        if (!file)
+            return;
+        const text = copiedFiles([file.get_uri()], cut);
+        St.Clipboard.get_default().set_content(St.ClipboardType.CLIPBOARD, COPIED_FILES,
+            new GLib.Bytes(new TextEncoder().encode(text)));
     }
 
     // Shows the whole item, scrolling as little as needed.
@@ -1307,6 +1389,7 @@ export class StackPanel {
             return;
         this._grabHelper = null;
         panel.hide();
+        this._closeItemMenu();
         this._hideTooltip();
         GLib.idle_add(GLib.PRIORITY_DEFAULT, () => {
             if (this._panel === panel)
@@ -1322,6 +1405,10 @@ export class StackPanel {
         const icon = this._icon;
         const dock = this._dock;
         this._cancelRestore();
+        // First: closing it gives the hover back to its item, which would
+        // queue a tooltip.
+        this._closeItemMenu();
+        this._itemMenuManager = null;
         this._hideTooltip();
         this._panel = null;
         this._icon = null;

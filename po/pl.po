@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-22 21:51+0000\n"
+"POT-Creation-Date: 2026-11-22 22:54+0000\n"
 "PO-Revision-Date: 2026-11-21 20:00+0100\n"
 "Last-Translator: Rafał Grochala <rafal.grochala@pixmedia.pl>\n"
 "Language-Team: Polish\n"
@@ -1416,7 +1416,7 @@ msgstr "Przesuń w górę"
 msgid "Move Down"
 msgstr "Przesuń w dół"
 
-#: src/deskence/pages.py:487 extensions/dock/stacks.js:376
+#: src/deskence/pages.py:487 extensions/dock/stacks.js:380
 msgid "Remove From Dock"
 msgstr "Usuń z docka"
 
@@ -2032,8 +2032,8 @@ msgstr "Pokaż ikony _na pulpicie"
 msgid "Desktop Folder"
 msgstr "Folder pulpitu"
 
-#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:369
-#: extensions/dock/stacks.js:555 extensions/dock/stacks.js:559
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:373
+#: extensions/dock/stacks.js:562 extensions/dock/stacks.js:566
 msgid "Open in Files"
 msgstr "Otwórz w Plikach"
 
@@ -2509,7 +2509,7 @@ msgstr "Pokaż aplikacje"
 msgid "Dock Settings"
 msgstr "Ustawienia docka"
 
-#: extensions/dock/locations.js:27 extensions/dock/stacks.js:108
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:112
 msgid "Could not open location"
 msgstr "Nie można otworzyć położenia"
 
@@ -2559,7 +2559,7 @@ msgid "All Presets"
 msgstr "Wszystkie presety"
 
 #: src/deskence/general.py:41 src/deskence/general.py:233
-#: extensions/dock/stacks.js:492
+#: extensions/dock/stacks.js:499
 msgid "Name"
 msgstr "Nazwa"
 
@@ -4076,62 +4076,62 @@ msgstr "_Wstrzymaj zapamiętywanie"
 msgid "New items are not added until this is turned off"
 msgstr "Nowe pozycje nie są dodawane, dopóki to jest włączone"
 
-#: extensions/dock/stacks.js:290 extensions/dock/stacks.js:464
+#: extensions/dock/stacks.js:294 extensions/dock/stacks.js:471
 #, javascript-format
 msgid "Folder %s"
 msgstr "Folder %s"
 
-#: extensions/dock/stacks.js:474
+#: extensions/dock/stacks.js:481
 msgid "Back"
 msgstr "Wstecz"
 
-#: extensions/dock/stacks.js:492
+#: extensions/dock/stacks.js:499
 msgid "Date"
 msgstr "Data"
 
-#: extensions/dock/stacks.js:493
+#: extensions/dock/stacks.js:500
 msgid "Type"
 msgstr "Typ"
 
-#: extensions/dock/stacks.js:499
+#: extensions/dock/stacks.js:506
 #, javascript-format
 msgid "Sort by %s"
 msgstr "Sortuj: %s"
 
-#: extensions/dock/stacks.js:721
+#: extensions/dock/stacks.js:728
 msgid "Show as Grid"
 msgstr "Pokaż jako siatkę"
 
-#: extensions/dock/stacks.js:721
+#: extensions/dock/stacks.js:728
 msgid "Show as List"
 msgstr "Pokaż jako listę"
 
-#: extensions/dock/stacks.js:747
+#: extensions/dock/stacks.js:754
 msgid "This standard folder is not set up."
 msgstr "Ten folder standardowy nie jest skonfigurowany."
 
-#: extensions/dock/stacks.js:751
+#: extensions/dock/stacks.js:758
 msgid "Loading…"
 msgstr "Wczytywanie…"
 
-#: extensions/dock/stacks.js:816
+#: extensions/dock/stacks.js:823
 msgid "This folder does not exist anymore."
 msgstr "Ten folder już nie istnieje."
 
-#: extensions/dock/stacks.js:818
+#: extensions/dock/stacks.js:825
 msgid "You do not have permission to open this folder."
 msgstr "Nie masz uprawnień do otwarcia tego folderu."
 
-#: extensions/dock/stacks.js:820
+#: extensions/dock/stacks.js:827
 #, javascript-format
 msgid "This folder cannot be opened: %s"
 msgstr "Nie można otworzyć tego folderu: %s"
 
-#: extensions/dock/stacks.js:888
+#: extensions/dock/stacks.js:895
 msgid "This folder is empty."
 msgstr "Ten folder jest pusty."
 
-#: extensions/dock/stacks.js:890
+#: extensions/dock/stacks.js:897
 #, javascript-format
 msgid ""
 "This folder has more than %d items; only the first ones are shown. Open it "
@@ -4140,14 +4140,22 @@ msgstr ""
 "Ten folder zawiera ponad %d elementów; wyświetlane są tylko pierwsze z nich. "
 "Otwórz go w Plikach, aby zobaczyć wszystkie."
 
-#: extensions/dock/stacks.js:1085
+#: extensions/dock/stacks.js:1099
 msgid "Folder"
 msgstr "Folder"
 
-#: extensions/dock/stacks.js:1160
+#: extensions/dock/stacks.js:1174
 #, javascript-format
 msgid "Could not open “%s”"
 msgstr "Nie można otworzyć „%s”"
+
+#: extensions/dock/stacks.js:1229
+msgid "Copy"
+msgstr "Kopiuj"
+
+#: extensions/dock/stacks.js:1230
+msgid "Cut"
+msgstr "Wytnij"
 
 #: extensions/dock/fileDrop.js:135
 #, javascript-format

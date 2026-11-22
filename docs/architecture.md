@@ -484,6 +484,16 @@ background.
     a drag ends it the same way (Draggable drops the handlers of a destroyed
     item without calling them).
 
+    For Files and other applications, an item can be copied or cut to the
+    clipboard instead (its menu, Ctrl+C, Ctrl+X) as
+    `x-special/gnome-copied-files`, the format Files and the Deskence
+    desktop paste. `St.Clipboard` offers a single type, so
+    `text/uri-list` is not offered. The menu holds its own grab above the
+    panel's (`PopupMenuManager`): Escape or a click outside closes only the
+    menu, and the panel is not rebuilt while it is open. Nothing changes on
+    the disk until the files are pasted; after a paste of cut files, Files
+    clears the clipboard.
+
 32. **Folder marker in the dock.** A solid triangle drawn with Cairo
     (`stacks.js drawMarker`), as thick as the application dots at its
     base, as wide as the dot of a focused application, in the color of the

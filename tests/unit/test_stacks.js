@@ -2,7 +2,8 @@
 // Run with: gjs -m tests/unit/test_stacks.js
 import System from 'system';
 
-import {MAX_COLUMNS, MIN_COLUMNS, canThumbnailDirectly, columnsThatFit, gridColumns, gridFit,
+import {COPIED_FILES, MAX_COLUMNS, MIN_COLUMNS, canThumbnailDirectly, columnsThatFit, copiedFiles,
+    gridColumns, gridFit,
     isLauncher,
     moveEntry, needsMore, panelHeights, parseEntry, sortItems, sortModeFor}
     from '../../extensions/dock/stackLogic.js';
@@ -95,6 +96,11 @@ check('no more items far from the end', !needsMore({value: 0, pageSize: 300, upp
     shown: 120, total: 400}));
 check('no more items when all shown', !needsMore({value: 1700, pageSize: 300, upper: 2000,
     shown: 400, total: 400}));
+
+check('clipboard format of Files', COPIED_FILES === 'x-special/gnome-copied-files');
+check('copied files', copiedFiles(['file:///a/b%20c', 'file:///d'], false) ===
+    'copy\nfile:///a/b%20c\nfile:///d');
+check('cut file', copiedFiles(['file:///a'], true) === 'cut\nfile:///a');
 
 if (failures) {
     printerr(`${failures} failed`);

@@ -205,6 +205,18 @@ headless Wayland session.
   still work; files from applications still go into folders;
   `startup-input.sh` passes.
 
+**0.13.0**, GNOME Shell 51.1 headless, with Files 51.1:
+
+- Copy and Cut in a folder panel: the item menu (right click, Shift+F10,
+  arrows and Enter), Ctrl+C and Ctrl+X on the focused item. A copied file
+  pasted in Files with Ctrl+V (copied, the original kept), a cut folder
+  with contents pasted in Files (moved), a cut file and a copied file
+  pasted on the desktop. Escape or a click in the panel closes only the
+  menu (the panel keeps its grab), a change in the folder while the menu
+  is open refreshes the panel once the menu closes, disabling the dock
+  with the menu open leaves no grab, menu or error; clicks on the desktop
+  and its icons work afterwards.
+
 Not verified: dragging to Files (not possible from GNOME Shell, see
 architecture decision 31), name conflicts (Files crashes in the isolated
 session when building its conflict dialog), GNOME 48 for 0.12.0, a real

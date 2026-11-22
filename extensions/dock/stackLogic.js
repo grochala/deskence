@@ -179,3 +179,12 @@ export function panelHeights({workHeight, room, chrome, content}) {
 export function needsMore({value, pageSize, upper, shown, total}) {
     return shown < total && value + 2 * pageSize >= upper;
 }
+
+// Files copied or cut to the clipboard, the way GNOME applications (Files,
+// the Deskence desktop) exchange them as "x-special/gnome-copied-files":
+// the operation on the first line, then one URI per line.
+export const COPIED_FILES = 'x-special/gnome-copied-files';
+
+export function copiedFiles(uris, cut) {
+    return [cut ? 'cut' : 'copy', ...uris].join('\n');
+}

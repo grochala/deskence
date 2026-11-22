@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-22 21:51+0000\n"
+"POT-Creation-Date: 2026-11-22 22:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1178,7 +1178,7 @@ msgstr ""
 msgid "Move Down"
 msgstr ""
 
-#: src/deskence/pages.py:487 extensions/dock/stacks.js:376
+#: src/deskence/pages.py:487 extensions/dock/stacks.js:380
 msgid "Remove From Dock"
 msgstr ""
 
@@ -1759,8 +1759,8 @@ msgstr ""
 msgid "Desktop Folder"
 msgstr ""
 
-#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:369
-#: extensions/dock/stacks.js:555 extensions/dock/stacks.js:559
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:373
+#: extensions/dock/stacks.js:562 extensions/dock/stacks.js:566
 msgid "Open in Files"
 msgstr ""
 
@@ -2219,7 +2219,7 @@ msgstr ""
 msgid "Dock Settings"
 msgstr ""
 
-#: extensions/dock/locations.js:27 extensions/dock/stacks.js:108
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:112
 msgid "Could not open location"
 msgstr ""
 
@@ -2269,7 +2269,7 @@ msgid "All Presets"
 msgstr ""
 
 #: src/deskence/general.py:41 src/deskence/general.py:233
-#: extensions/dock/stacks.js:492
+#: extensions/dock/stacks.js:499
 msgid "Name"
 msgstr ""
 
@@ -3705,75 +3705,83 @@ msgstr ""
 msgid "New items are not added until this is turned off"
 msgstr ""
 
-#: extensions/dock/stacks.js:290 extensions/dock/stacks.js:464
+#: extensions/dock/stacks.js:294 extensions/dock/stacks.js:471
 #, javascript-format
 msgid "Folder %s"
 msgstr ""
 
-#: extensions/dock/stacks.js:474
+#: extensions/dock/stacks.js:481
 msgid "Back"
 msgstr ""
 
-#: extensions/dock/stacks.js:492
+#: extensions/dock/stacks.js:499
 msgid "Date"
 msgstr ""
 
-#: extensions/dock/stacks.js:493
+#: extensions/dock/stacks.js:500
 msgid "Type"
 msgstr ""
 
-#: extensions/dock/stacks.js:499
+#: extensions/dock/stacks.js:506
 #, javascript-format
 msgid "Sort by %s"
 msgstr ""
 
-#: extensions/dock/stacks.js:721
+#: extensions/dock/stacks.js:728
 msgid "Show as Grid"
 msgstr ""
 
-#: extensions/dock/stacks.js:721
+#: extensions/dock/stacks.js:728
 msgid "Show as List"
 msgstr ""
 
-#: extensions/dock/stacks.js:747
+#: extensions/dock/stacks.js:754
 msgid "This standard folder is not set up."
 msgstr ""
 
-#: extensions/dock/stacks.js:751
+#: extensions/dock/stacks.js:758
 msgid "Loading…"
 msgstr ""
 
-#: extensions/dock/stacks.js:816
+#: extensions/dock/stacks.js:823
 msgid "This folder does not exist anymore."
 msgstr ""
 
-#: extensions/dock/stacks.js:818
+#: extensions/dock/stacks.js:825
 msgid "You do not have permission to open this folder."
 msgstr ""
 
-#: extensions/dock/stacks.js:820
+#: extensions/dock/stacks.js:827
 #, javascript-format
 msgid "This folder cannot be opened: %s"
 msgstr ""
 
-#: extensions/dock/stacks.js:888
+#: extensions/dock/stacks.js:895
 msgid "This folder is empty."
 msgstr ""
 
-#: extensions/dock/stacks.js:890
+#: extensions/dock/stacks.js:897
 #, javascript-format
 msgid ""
 "This folder has more than %d items; only the first ones are shown. Open it "
 "in Files to see all."
 msgstr ""
 
-#: extensions/dock/stacks.js:1085
+#: extensions/dock/stacks.js:1099
 msgid "Folder"
 msgstr ""
 
-#: extensions/dock/stacks.js:1160
+#: extensions/dock/stacks.js:1174
 #, javascript-format
 msgid "Could not open “%s”"
+msgstr ""
+
+#: extensions/dock/stacks.js:1229
+msgid "Copy"
+msgstr ""
+
+#: extensions/dock/stacks.js:1230
+msgid "Cut"
 msgstr ""
 
 #: extensions/dock/fileDrop.js:135

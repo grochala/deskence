@@ -81,7 +81,9 @@ feature can be turned on and off on its own.
 - **Folder stacks** – folders such as Downloads in the dock, with a panel
   that shows their contents as a list or grid. Files dropped on a folder
   (or on a subfolder in its panel) are copied or moved there through Files;
-  files dropped on an application open in it.
+  files dropped on an application open in it when it declares their type.
+  Items of the panel can be dragged onto another folder or the desktop, or
+  copied and cut to paste them in Files.
 - **Clipboard history** – text and images, search, pinned items, a keyboard
   shortcut and pasting into the window you came from. Kept in memory only,
   unless you choose to keep it after logging out; content marked as secret
