@@ -1,3 +1,11 @@
+deskence (0.15.0) unstable; urgency=medium
+
+  * Translations into 27 more languages: all official languages of the
+    European Union, Korean, Simplified and Traditional Chinese, Serbian and
+    Filipino; the language list names the language of the system.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Mon, 23 Nov 2026 12:23:04 +0100
+
 deskence (0.14.0) unstable; urgency=medium
 
   * Settings: the language of the settings window and the deskence command

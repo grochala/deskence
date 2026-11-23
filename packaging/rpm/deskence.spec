@@ -1,5 +1,5 @@
 Name:           deskence
-Version:        0.14.0
+Version:        0.15.0
 Release:        1%{?dist}
 Summary:        Dock, desktop icons and tray for GNOME
 
@@ -91,6 +91,11 @@ glib-compile-schemas --strict --dry-run %{buildroot}%{_datadir}/glib-2.0/schemas
 %config(noreplace) %{_sysconfdir}/xdg/autostart/deskence-migration.desktop
 
 %changelog
+* Mon Nov 23 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.15.0-1
+- Translations into 27 more languages: all official languages of the
+  European Union, Korean, Simplified and Traditional Chinese, Serbian
+  and Filipino; the language list names the language of the system
+
 * Mon Nov 23 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.14.0-1
 - Settings: the language of the settings window and the deskence command
   can be chosen independently of the system
