@@ -38,6 +38,11 @@
     <id>io.github.bettergnome.Desktop</id>
   </provides>
   <releases>
+    <release version="0.14.0" date="2026-11-23">
+      <description>
+        <p>Settings: choose the language of the settings window and the deskence command on the General page, independently of the system.</p>
+      </description>
+    </release>
     <release version="0.13.0" date="2026-11-22">
       <description>
         <p>Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, Ctrl+X) and paste them in Files or on the desktop.</p>
