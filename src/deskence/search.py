@@ -60,11 +60,14 @@ def keywords():
         "general:shortcuts_row": _("keyboard, hotkeys, keys, shortcuts"),
         "general:report_show_row": _("bug, diagnostics, report, problem"),
         "general:export_row": _("backup, presets, transfer"),
+        # Also in English, to find the way back from a language one cannot
+        # read.
+        "general:language_row": _("language, translation") + ", language, English",
     }
 
 
 # Rows that are not settings.
-EXCLUDED = {"general:no_presets_row"}
+EXCLUDED = {"general:no_presets_row", "general:language_restart_row"}
 
 
 @dataclass

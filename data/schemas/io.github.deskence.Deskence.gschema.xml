@@ -126,6 +126,11 @@
       <summary>Show the desktop after logging in</summary>
       <description>When true, a new session starts on the desktop instead of the activities overview. Only the start of the session is affected: opening the overview later, unlocking the screen or turning features on and off never closes it. Applied by the dock extension.</description>
     </key>
+    <key name="language" type="s">
+      <default>''</default>
+      <summary>Language of the Deskence application</summary>
+      <description>The language of the settings window and of the deskence command: the code of a translation installed with Deskence (for example "pl"), "en" for English, or empty to follow the system. A code without an installed translation means English. The GNOME Shell extensions and the desktop icons always follow the language of GNOME Shell. Applied when the application starts.</description>
+    </key>
     <child name="dock" schema="io.github.deskence.Deskence.Dock"/>
     <child name="desktop-icons" schema="io.github.deskence.Deskence.DesktopIcons"/>
     <child name="tray" schema="io.github.deskence.Deskence.Tray"/>

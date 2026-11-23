@@ -205,6 +205,27 @@ headless Wayland session.
   still work; files from applications still go into folders;
   `startup-input.sh` passes.
 
+**Application language** (after 0.13.0), GNOME Shell 51.1 headless, the
+settings window started with `LANG` set:
+
+- First start with the setting empty: Polish under `pl_PL.UTF-8`, English
+  under `en_US.UTF-8`; "Same as the System" selected.
+- The list shows "Same as the System", English and Polski (the names in
+  their own language). Choosing English on a Polish system and Polski on
+  an English system saved `en` / `pl`, showed the restart row, and the
+  Restart button restarted the window in the chosen language; closing and
+  starting the window again kept it. The command line (`deskence --help`)
+  followed the same choice.
+- Back to "Same as the System": the user value was removed from dconf and
+  the window was in the system language after the restart.
+- A saved `de` (no translation) and `../../etc`: the window started in
+  English with English selected. Polski under `LANG=C`: Polish.
+- `deskence reset --all` with the window open reset the language and the
+  window offered the restart; a preset with `"language": "de"` applied
+  everything else and reported the language as skipped.
+- Unit tests: the list of installed translations, native names, the
+  fallbacks, the environment of child programs, presets.
+
 **0.13.0**, GNOME Shell 51.1 headless, with Files 51.1:
 
 - Copy and Cut in a folder panel: the item menu (right click, Shift+F10,

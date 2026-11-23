@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-22 22:59+0000\n"
+"POT-Creation-Date: 2026-11-23 01:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -339,205 +339,219 @@ msgid ""
 "Applied by the dock extension."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:141
-msgid "Screen edge of the dock"
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:142
-msgid "\"left\", \"bottom\" or \"right\"."
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
 msgstr ""
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:146
-msgid "Dock length"
+msgid "Screen edge of the dock"
 msgstr ""
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr ""
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr ""
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
 msgid ""
 "\"fit\": only as long as the icons need. \"full\": the whole screen edge."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
 msgid "Icon size in logical pixels"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:153
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
 msgid ""
 "Scaled by the monitor scale and the text scaling factor of the shell theme "
 "like other GNOME Shell icons."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
 msgid "When the dock hides"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
 msgid ""
 "\"never\": always visible and windows are kept out of its area. "
 "\"intellihide\": hidden while a window on the same monitor overlaps it. "
 "\"autohide\": hidden until the pointer reaches the screen edge."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
 msgid "On which monitors the dock is shown"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
 msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
 msgid "Connector of the selected monitor"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
 msgid ""
 "Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
 "falls back to the primary monitor while that monitor is not connected."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:364
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
 msgid "Show the trash"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:176
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
 msgid "Show removable drives"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:180
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
 msgid "Show network locations"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:184
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
 msgid "Show the applications button"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:188
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
 msgid "Where the applications button is"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
 msgid ""
 "\"start\": first item of the dock (left in a horizontal dock, top in a "
 "vertical one). \"end\": last item (right or bottom)."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
 msgid "Icon of the applications button"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
 msgid ""
 "\"default\": the GNOME applications icon. \"distribution\": the logo of the "
 "installed distribution, from the icons installed on the system; the default "
 "icon when there is none. \"custom\": the image in apps-button-custom-icon."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
 msgid "Custom icon of the applications button"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
 msgid ""
 "Path of a copy of the chosen image, kept in the user data folder of Deskence "
 "so it keeps working when the original file is moved or deleted. The default "
 "icon is used when the file cannot be loaded."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
 msgid "Magnify icons under the pointer"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
 msgid ""
 "Icons near the pointer grow smoothly while it moves over the dock. Not shown "
 "while animations are turned off in GNOME."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
 msgid "Magnification strength"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:210
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
 msgid "Size of the icon under the pointer relative to its normal size."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
 msgid "Custom dock background color"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
 msgid ""
 "When false, the dock background has the color of the current GNOME style."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
 msgid "Dock background color"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
 msgid ""
 "Color as \"#rrggbb\", used when background-custom-color is true. It has no "
 "transparency of its own: that is background-transparency."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
 msgid "Custom dock background transparency"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
 msgid ""
 "When false, the dock background is as transparent as the current GNOME style "
 "makes it."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
 msgid "Dock background transparency"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:231
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
 msgid ""
 "0: opaque. 100: fully transparent. Only the background; icons, indicators, "
 "labels and menus keep their own visibility. Used when background-custom-"
 "transparency is true."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
-msgid "Custom background transparency of the applications view"
-msgstr ""
-
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
-msgid ""
-"When false, the full-screen applications view opened from the dock has the "
-"standard GNOME background."
-msgstr ""
-
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:240
-msgid "Custom background color of the applications view"
+msgid "Custom background transparency of the applications view"
 msgstr ""
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:241
 msgid ""
 "When false, the full-screen applications view opened from the dock has the "
-"color of the standard GNOME background. Independent of the dock background."
+"standard GNOME background."
 msgstr ""
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:245
-msgid "Background color of the applications view"
+msgid "Custom background color of the applications view"
 msgstr ""
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr ""
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
 msgid ""
 "Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
 "transparency of its own: that is app-grid-transparency (or opaque when app-"
 "grid-custom-transparency is false)."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
 msgid "Background transparency of the applications view"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:252
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
 msgid ""
 "0: opaque background (standard or custom color). 100: fully transparent, "
 "only the wallpaper is visible behind the applications. Only the background "
@@ -545,11 +559,11 @@ msgid ""
 "grid-custom-transparency is true."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
 msgid "Custom background color of application folders"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
 msgid ""
 "When false, the folder tiles in the applications view (such as "
 "\"Utilities\") have the color of the current GNOME style. Only the tile "
@@ -557,43 +571,43 @@ msgid ""
 "they are, and the panel of an open folder is not affected."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
 msgid "Background color of application folders"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
 msgid ""
 "Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
 "no transparency of its own: that is app-grid-folder-transparency (or the "
 "alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
 msgid "Custom background transparency of application folders"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
 msgid ""
 "When false, the folder tiles in the applications view are as opaque as the "
 "current GNOME style makes them."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
 msgid "Background transparency of application folders"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:273
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
 msgid ""
 "0: opaque tile background. 100: fully transparent; the folder is recognized "
 "by its application thumbnails and name. Hover, selection and keyboard focus "
 "stay visible. Used when app-grid-folder-custom-transparency is true."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
 msgid "Custom hover highlight color in the applications view"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
 msgid ""
 "When false, the highlight shown under the pointer on applications, "
 "application folders and applications inside an open folder has the color of "
@@ -601,32 +615,32 @@ msgid ""
 "affected."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
 msgid "Hover highlight color in the applications view"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
 msgid ""
 "Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
 "no transparency of its own: that is app-grid-hover-transparency (or the "
 "alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
 msgid "Custom hover highlight transparency in the applications view"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
 msgid ""
 "When false, the hover highlight is as opaque as the current GNOME style "
 "makes it."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
 msgid "Hover highlight transparency in the applications view"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:294
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
 msgid ""
 "0: opaque highlight. 100: fully transparent; a folder then looks the same "
 "under the pointer as at rest. Only the highlight changes; icons and names "
@@ -634,11 +648,11 @@ msgid ""
 "hover-custom-transparency is true."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
 msgid "Clicking a running application"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
 msgid ""
 "\"focus-or-cycle\": focus the most recently used window; when the "
 "application is already focused, switch to its next window. \"minimize-or-"
@@ -646,66 +660,66 @@ msgid ""
 "window is minimized."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
 msgid "Only show applications of the current workspace"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
 msgid ""
 "When true, running (non-pinned) applications are listed only when they have "
 "a window on the active workspace, and clicking cycles only through those "
 "windows."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
 msgid "Show counters of applications"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
 msgid ""
 "When true, an application that reports a counter (for example unread "
 "messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
 "Applications that report nothing show nothing."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
 msgid "Show progress of applications"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
 msgid ""
 "When true, an application that reports the progress of an operation (for "
 "example a download, through the LauncherEntry D-Bus API) shows it as a bar "
 "on its dock icon."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
 msgid "Show window previews on hover"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
 msgid ""
 "When the pointer rests on a running application, show its windows (the ones "
 "the dock counts, see isolate-workspaces) with their titles; clicking one "
 "activates that window."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
 msgid "Peek at a window from its preview"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
 msgid ""
 "While the pointer rests on a window preview, that window is shown over the "
 "dimmed others for a moment. Nothing is focused, raised, restored or moved; "
 "leaving the preview or pressing Escape ends it."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
 msgid "Folders in the dock"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
 msgid ""
 "Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
 "standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
@@ -714,29 +728,29 @@ msgid ""
 "entry never touches the folder."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
 msgid "Show folders in the dock"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
 msgid "When false, the folders in folder-stacks are kept but not shown."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
 msgid "How folder contents are shown"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
 msgid ""
 "\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
 "from the folder panel."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
 msgid "Sort order of each folder"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
 msgid ""
 "Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
 "\"type\". A folder without an entry is sorted by name, except Downloads "
@@ -744,87 +758,87 @@ msgid ""
 "panel."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:351
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
 msgid "Desktop icon size"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:352
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
 msgid ""
 "\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
 "px)."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
 msgid "Corner where new icons are placed"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:360
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
 msgid "Show the home folder"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:368
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
 msgid "Show drives and USB sticks"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:372
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
 msgid "How moved icons are placed"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
 msgid ""
 "\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
 "snap to the grid. Changing this does not move existing icons; \"Align to "
 "Grid\" in the desktop menu does."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
 msgid "Open items with a single or double click"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:381
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
 msgid "Order used by \"Arrange Icons\""
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
 msgid "Changed from the desktop menu \"Sort By\"."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:389
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
 msgid "Show passive application icons"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:390
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
 msgid ""
 "StatusNotifierItem defines a \"Passive\" status for icons an application "
 "considers unimportant. They are hidden unless this is true."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:397
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
 msgid "Button layout before the first change"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:398
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
 msgid ""
 "Value of org.gnome.desktop.wm.preferences button-layout saved before "
 "Deskence changed it for the first time. Empty when nothing was changed."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
 msgid "Button layout last written by Deskence"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
 msgid ""
 "Used to tell whether the user changed the layout elsewhere afterwards; the "
 "original value is only offered for restoring while the current value still "
 "equals this one."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:410
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
 msgid "Order of the applications view"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:411
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
 msgid ""
 "\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
 "and folder lists). \"alphabetical\": applications and folders by display "
@@ -833,11 +847,11 @@ msgid ""
 "extension."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
 msgid "Arrangement saved before sorting alphabetically"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
 msgid ""
 "JSON written when sort-mode changes to \"alphabetical\": the previous "
 "org.gnome.shell app-picker-layout (GVariant text) and the application list "
@@ -845,52 +859,52 @@ msgid ""
 "Internal; not part of presets."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:423
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
 msgid "Shortcut that opens the clipboard history"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
 msgid "Largest number of remembered items"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:429
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
 msgid "Pinned items do not count. The oldest items are forgotten first."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
 msgid "What is kept after logging out"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
 msgid ""
 "\"nothing\": the history is only kept in memory and is gone after logging "
 "out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
 "the whole history is saved there."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
 msgid "Do not remember new items"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
 msgid "Temporary state changed from the history panel; not part of presets."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
 msgid "Also remember selected text"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
 msgid ""
 "Text selected with the mouse (the primary selection, pasted with the middle "
 "button) is added to the history too."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
 msgid "Always paste text without formatting"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
 msgid ""
 "The history keeps text without formatting; only the newest item, while the "
 "application it was copied from still provides it, can be pasted with its "
@@ -898,45 +912,45 @@ msgid ""
 "the history pastes plain text either way."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
 msgid "Paste the chosen item at once"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
 msgid ""
 "When true, choosing an item closes the panel and pastes it into the window "
 "that was focused, with Ctrl+V. When false, the item is only put on the "
 "clipboard."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:461
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
 msgid "Also keep the screen on"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:462
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
 msgid ""
 "When false, keeping the computer awake only prevents automatic suspend: the "
 "screen still turns off and locks as usual. When true, the screen also stays "
 "on and does not lock automatically."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
 msgid "Duration used by the quick settings button"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
 msgid "The duration chosen last; clicking the button uses it again."
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
 msgid "Custom duration in minutes"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
 msgid "End time in minutes after midnight"
 msgstr ""
 
-#: data/schemas/io.github.deskence.Deskence.gschema.xml:478
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
 msgid "Used by \"until a time\": the next occurrence of this local time."
 msgstr ""
 
@@ -950,464 +964,464 @@ msgstr ""
 msgid "PAGE"
 msgstr ""
 
-#: src/deskence/application.py:176
+#: src/deskence/application.py:193
 msgid ""
 "A dock with folders, desktop icons, application icons in the top bar, a "
 "clipboard history and window settings for GNOME."
 msgstr ""
 
-#: src/deskence/pages.py:97
+#: src/deskence/pages.py:98
 msgid "Opaque"
 msgstr ""
 
-#: src/deskence/pages.py:97
+#: src/deskence/pages.py:98
 msgid "Transparent"
 msgstr ""
 
-#: src/deskence/pages.py:104 desktop-icons/deskence_desktop/app.py:539
-#: src/deskence/general.py:206 src/deskence/general.py:237
-#: src/deskence/general.py:280 src/deskence/general.py:390
-#: src/deskence/general.py:465 src/deskence/shortcuts.py:89
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:248 src/deskence/general.py:279
+#: src/deskence/general.py:322 src/deskence/general.py:432
+#: src/deskence/general.py:507 src/deskence/shortcuts.py:89
 msgid "_Cancel"
 msgstr ""
 
-#: src/deskence/pages.py:185
+#: src/deskence/pages.py:200
 msgid "Not installed. Reinstall the deskence package."
 msgstr ""
 
-#: src/deskence/pages.py:189
+#: src/deskence/pages.py:204
 msgid "Starts after you log out and log in again"
 msgstr ""
 
-#: src/deskence/pages.py:190
+#: src/deskence/pages.py:205
 msgid "Updated; the new version starts after you log in again"
 msgstr ""
 
-#: src/deskence/pages.py:191
+#: src/deskence/pages.py:206
 msgid "GNOME Shell is not running; applies in the next GNOME session"
 msgstr ""
 
-#: src/deskence/pages.py:192
+#: src/deskence/pages.py:207
 msgid "Not running"
 msgstr ""
 
-#: src/deskence/pages.py:215
+#: src/deskence/pages.py:230
 msgid "The feature stopped because of an error"
 msgstr ""
 
-#: src/deskence/pages.py:217
+#: src/deskence/pages.py:232
 msgid "This GNOME version is not supported"
 msgstr ""
 
-#: src/deskence/pages.py:218
+#: src/deskence/pages.py:233
 #, python-brace-format
 msgid "The installed version does not support GNOME {}."
 msgstr ""
 
-#: src/deskence/pages.py:221 src/deskence/cli.py:175
+#: src/deskence/pages.py:236 src/deskence/cli.py:175
 msgid "GNOME extensions are turned off"
 msgstr ""
 
-#: src/deskence/pages.py:222
+#: src/deskence/pages.py:237
 msgid "Deskence needs them to show its features."
 msgstr ""
 
-#: src/deskence/pages.py:223
+#: src/deskence/pages.py:238
 msgid "_Turn On…"
 msgstr ""
 
-#: src/deskence/pages.py:225
+#: src/deskence/pages.py:240
 msgid "Another copy is used instead"
 msgstr ""
 
-#: src/deskence/pages.py:226
+#: src/deskence/pages.py:241
 #, python-brace-format
 msgid "A copy in your home folder replaces the installed one: {}"
 msgstr ""
 
-#: src/deskence/pages.py:228
+#: src/deskence/pages.py:243
 msgid "_Show"
 msgstr ""
 
-#: src/deskence/pages.py:232
+#: src/deskence/pages.py:247
 msgid "Turn On GNOME Extensions?"
 msgstr ""
 
-#: src/deskence/pages.py:233
+#: src/deskence/pages.py:248
 msgid ""
 "This also turns on other extensions you enabled in the Extensions "
 "application."
 msgstr ""
 
-#: src/deskence/pages.py:234
+#: src/deskence/pages.py:249
 msgid "_Turn On"
 msgstr ""
 
-#: src/deskence/pages.py:238
+#: src/deskence/pages.py:253
 msgid "a dock"
 msgstr ""
 
-#: src/deskence/pages.py:239
+#: src/deskence/pages.py:254
 msgid "desktop icons"
 msgstr ""
 
-#: src/deskence/pages.py:240
+#: src/deskence/pages.py:255
 msgid "application icons in the top bar"
 msgstr ""
 
-#: src/deskence/pages.py:241
+#: src/deskence/pages.py:256
 msgid "sorting of the applications view"
 msgstr ""
 
-#: src/deskence/pages.py:242
+#: src/deskence/pages.py:257
 msgid "a clipboard history"
 msgstr ""
 
-#: src/deskence/pages.py:243
+#: src/deskence/pages.py:258
 msgid "keeping the computer awake"
 msgstr ""
 
-#: src/deskence/pages.py:246
+#: src/deskence/pages.py:261
 #, python-brace-format
 msgid "Also provides {}. Using both at once causes problems."
 msgstr ""
 
-#: src/deskence/pages.py:248
+#: src/deskence/pages.py:263
 #, python-brace-format
 msgid "May also provide {}."
 msgstr ""
 
-#: src/deskence/pages.py:252
+#: src/deskence/pages.py:267
 #, python-brace-format
 msgid "Disable “{}”?"
 msgstr ""
 
-#: src/deskence/pages.py:253
+#: src/deskence/pages.py:268
 msgid ""
 "The extension stays installed and its settings are kept. You can turn it on "
 "again in the Extensions application."
 msgstr ""
 
-#: src/deskence/pages.py:255 src/deskence/shortcuts.py:90
+#: src/deskence/pages.py:270 src/deskence/shortcuts.py:90
 msgid "_Disable"
 msgstr ""
 
-#: src/deskence/pages.py:256
+#: src/deskence/pages.py:271
 msgid "_Disable…"
 msgstr ""
 
-#: src/deskence/pages.py:336
+#: src/deskence/pages.py:351
 msgid "Subtle"
 msgstr ""
 
-#: src/deskence/pages.py:337
+#: src/deskence/pages.py:352
 msgid "Strong"
 msgstr ""
 
-#: src/deskence/pages.py:339
+#: src/deskence/pages.py:354
 msgid "Magnification Strength"
 msgstr ""
 
-#: src/deskence/pages.py:353 src/deskence/pages.py:787
+#: src/deskence/pages.py:368 src/deskence/pages.py:802
 #: src/deskence/ui/dock-page.ui:117
 msgid "Background Transparency"
 msgstr ""
 
-#: src/deskence/pages.py:367
+#: src/deskence/pages.py:382
 msgid "Icon Size"
 msgstr ""
 
-#: src/deskence/pages.py:377
+#: src/deskence/pages.py:392
 msgid "The dock is always visible and windows do not cover it"
 msgstr ""
 
-#: src/deskence/pages.py:378
+#: src/deskence/pages.py:393
 msgid "Hides while a window overlaps it"
 msgstr ""
 
-#: src/deskence/pages.py:379
+#: src/deskence/pages.py:394
 msgid "Appears when you move the pointer to the screen edge"
 msgstr ""
 
-#: src/deskence/pages.py:382
+#: src/deskence/pages.py:397
 msgid "A second click switches to the next window of the application"
 msgstr ""
 
-#: src/deskence/pages.py:383
+#: src/deskence/pages.py:398
 msgid "Clicking an application with one focused window minimizes it"
 msgstr ""
 
-#: src/deskence/pages.py:396
+#: src/deskence/pages.py:411
 msgid "Restore Default Dock Settings?"
 msgstr ""
 
-#: src/deskence/pages.py:397
+#: src/deskence/pages.py:412
 msgid ""
 "Position, size, colors, hiding, monitor, click behavior and shown items "
 "return to their defaults. Pinned applications, folders in the dock, the "
 "applications view and whether the dock is shown do not change."
 msgstr ""
 
-#: src/deskence/pages.py:400 src/deskence/pages.py:708
-#: src/deskence/pages.py:819 src/deskence/pages.py:906
-#: src/deskence/pages.py:951 src/deskence/pages.py:988
-#: src/deskence/pages.py:1029 src/deskence/general.py:96
+#: src/deskence/pages.py:415 src/deskence/pages.py:723
+#: src/deskence/pages.py:834 src/deskence/pages.py:921
+#: src/deskence/pages.py:966 src/deskence/pages.py:1003
+#: src/deskence/pages.py:1044 src/deskence/general.py:100
 msgid "_Restore"
 msgstr ""
 
-#: src/deskence/pages.py:411
+#: src/deskence/pages.py:426
 msgid "Not shown while animations are turned off in Accessibility settings"
 msgstr ""
 
-#: src/deskence/pages.py:431 src/deskence/ui/dock-page.ui:348
+#: src/deskence/pages.py:446 src/deskence/ui/dock-page.ui:348
 msgid "Add Folder"
 msgstr ""
 
-#: src/deskence/pages.py:445
+#: src/deskence/pages.py:460
 msgid "Other Folder…"
 msgstr ""
 
-#: src/deskence/pages.py:457
+#: src/deskence/pages.py:472
 msgid "Not set up on this computer"
 msgstr ""
 
-#: src/deskence/pages.py:461
+#: src/deskence/pages.py:476
 #, python-brace-format
 msgid "{} (missing)"
 msgstr ""
 
-#: src/deskence/pages.py:479
+#: src/deskence/pages.py:494
 msgid "Move Up"
 msgstr ""
 
-#: src/deskence/pages.py:480
+#: src/deskence/pages.py:495
 msgid "Move Down"
 msgstr ""
 
-#: src/deskence/pages.py:487 extensions/dock/stacks.js:381
+#: src/deskence/pages.py:502 extensions/dock/stacks.js:381
 msgid "Remove From Dock"
 msgstr ""
 
-#: src/deskence/pages.py:521
+#: src/deskence/pages.py:536
 msgid "Add Folder to the Dock"
 msgstr ""
 
-#: src/deskence/pages.py:530
+#: src/deskence/pages.py:545
 msgid "Cannot Add This Folder"
 msgstr ""
 
-#: src/deskence/pages.py:531
+#: src/deskence/pages.py:546
 msgid "Only local folders can be added."
 msgstr ""
 
-#: src/deskence/pages.py:532 src/deskence/pages.py:611
-#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:137
-#: src/deskence/general.py:369 src/deskence/shortcuts.py:147
+#: src/deskence/pages.py:547 src/deskence/pages.py:626
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:179
+#: src/deskence/general.py:411 src/deskence/shortcuts.py:147
 msgid "_Close"
 msgstr ""
 
-#: src/deskence/pages.py:544 src/deskence/ui/dock-page.ui:299
+#: src/deskence/pages.py:559 src/deskence/ui/dock-page.ui:299
 msgid "Start of the Dock"
 msgstr ""
 
-#: src/deskence/pages.py:544 src/deskence/ui/dock-page.ui:300
+#: src/deskence/pages.py:559 src/deskence/ui/dock-page.ui:300
 msgid "End of the Dock"
 msgstr ""
 
-#: src/deskence/pages.py:546
+#: src/deskence/pages.py:561
 msgid "At the Top"
 msgstr ""
 
-#: src/deskence/pages.py:546
+#: src/deskence/pages.py:561
 msgid "At the Bottom"
 msgstr ""
 
-#: src/deskence/pages.py:548
+#: src/deskence/pages.py:563
 msgid "On the Left"
 msgstr ""
 
-#: src/deskence/pages.py:548
+#: src/deskence/pages.py:563
 msgid "On the Right"
 msgstr ""
 
-#: src/deskence/pages.py:562
+#: src/deskence/pages.py:577
 msgid "No logo is installed; the default icon is used"
 msgstr ""
 
-#: src/deskence/pages.py:574
+#: src/deskence/pages.py:589
 msgid "No image chosen; the default icon is used"
 msgstr ""
 
-#: src/deskence/pages.py:575
+#: src/deskence/pages.py:590
 msgid "The image is missing; the default icon is used"
 msgstr ""
 
-#: src/deskence/pages.py:578
+#: src/deskence/pages.py:593
 msgid "Images"
 msgstr ""
 
-#: src/deskence/pages.py:583
+#: src/deskence/pages.py:598
 msgid "Choose an Icon"
 msgstr ""
 
-#: src/deskence/pages.py:593 src/deskence/general.py:311
-#: src/deskence/general.py:336
+#: src/deskence/pages.py:608 src/deskence/general.py:353
+#: src/deskence/general.py:378
 msgid "Only local files can be used."
 msgstr ""
 
-#: src/deskence/pages.py:598
+#: src/deskence/pages.py:613
 msgid ""
 "The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
 "at most 4 MB."
 msgstr ""
 
-#: src/deskence/pages.py:610
+#: src/deskence/pages.py:625
 msgid "Cannot Use This Image"
 msgstr ""
 
-#: src/deskence/pages.py:632
+#: src/deskence/pages.py:647
 #, python-brace-format
 msgid "{} (disconnected)"
 msgstr ""
 
-#: src/deskence/pages.py:701
+#: src/deskence/pages.py:716
 msgid "No desktop folder is set up"
 msgstr ""
 
-#: src/deskence/pages.py:705
+#: src/deskence/pages.py:720
 msgid "Restore Default Desktop Icon Settings?"
 msgstr ""
 
-#: src/deskence/pages.py:706
+#: src/deskence/pages.py:721
 msgid ""
 "Size, placement, click behavior and shown items return to their defaults. "
 "Your files and the positions of icons do not change."
 msgstr ""
 
-#: src/deskence/pages.py:721
+#: src/deskence/pages.py:736
 msgid "Icons stay exactly where you drop them"
 msgstr ""
 
-#: src/deskence/pages.py:723
+#: src/deskence/pages.py:738
 msgid "Dropped icons snap to the grid"
 msgstr ""
 
-#: src/deskence/pages.py:800
+#: src/deskence/pages.py:815
 msgid "Folder Transparency"
 msgstr ""
 
-#: src/deskence/pages.py:813 src/deskence/ui/app-grid-page.ui:190
+#: src/deskence/pages.py:828 src/deskence/ui/app-grid-page.ui:190
 msgid "Highlight Transparency"
 msgstr ""
 
-#: src/deskence/pages.py:816
+#: src/deskence/pages.py:831
 msgid "Restore Default Applications View Settings?"
 msgstr ""
 
-#: src/deskence/pages.py:817
+#: src/deskence/pages.py:832
 msgid ""
 "The background, application folders and the hover highlight return to the "
 "GNOME look, and the applications return to your own order."
 msgstr ""
 
-#: src/deskence/pages.py:829
+#: src/deskence/pages.py:844
 msgid "By name, also inside folders. Dragging does not change the order."
 msgstr ""
 
-#: src/deskence/pages.py:831
+#: src/deskence/pages.py:846
 msgid ""
 "Arrange applications by dragging them. This arrangement returns when "
 "alphabetical order is turned off."
 msgstr ""
 
-#: src/deskence/pages.py:847 src/deskence/ui/app-grid-page.ui:32
+#: src/deskence/pages.py:862 src/deskence/ui/app-grid-page.ui:32
 msgid ""
 "The background behind the applications. Icons, names and the search field do "
 "not change."
 msgstr ""
 
-#: src/deskence/pages.py:850 src/deskence/pages.py:857
-#: src/deskence/pages.py:863 src/deskence/general.py:126
+#: src/deskence/pages.py:865 src/deskence/pages.py:872
+#: src/deskence/pages.py:878 src/deskence/general.py:130
 msgid "Available while the Deskence dock is turned on."
 msgstr ""
 
-#: src/deskence/pages.py:854 src/deskence/ui/app-grid-page.ui:94
+#: src/deskence/pages.py:869 src/deskence/ui/app-grid-page.ui:94
 msgid ""
 "Change the look of application groups, such as “Utilities”, in the "
 "applications view. Only the tile background changes."
 msgstr ""
 
-#: src/deskence/pages.py:860 src/deskence/ui/app-grid-page.ui:156
+#: src/deskence/pages.py:875 src/deskence/ui/app-grid-page.ui:156
 msgid ""
 "Choose the background that appears under the pointer on an application or an "
 "application folder, also inside an open folder."
 msgstr ""
 
 #. GNOME's own keybinding; Deskence only offers to set it.
-#: src/deskence/pages.py:890 src/deskence/pages.py:975
+#: src/deskence/pages.py:905 src/deskence/pages.py:990
 msgid "_Shortcut"
 msgstr ""
 
-#: src/deskence/pages.py:891
+#: src/deskence/pages.py:906
 msgid "Opens the history"
 msgstr ""
 
-#: src/deskence/pages.py:903
+#: src/deskence/pages.py:918
 msgid "Restore Default Clipboard Settings?"
 msgstr ""
 
-#: src/deskence/pages.py:904
+#: src/deskence/pages.py:919
 msgid ""
 "The shortcut and pasting return to their defaults. The history, how many "
 "items it keeps and whether it is kept after logging out do not change."
 msgstr ""
 
-#: src/deskence/pages.py:912
+#: src/deskence/pages.py:927
 msgid "Only in memory"
 msgstr ""
 
-#: src/deskence/pages.py:913
+#: src/deskence/pages.py:928
 #, python-brace-format
 msgid "Pinned items are saved in {}"
 msgstr ""
 
-#: src/deskence/pages.py:914
+#: src/deskence/pages.py:929
 #, python-brace-format
 msgid "The history is saved in {}"
 msgstr ""
 
-#: src/deskence/pages.py:948
+#: src/deskence/pages.py:963
 msgid "Restore Default Top Bar Settings?"
 msgstr ""
 
-#: src/deskence/pages.py:949
+#: src/deskence/pages.py:964
 msgid ""
 "Showing inactive icons and the Keep Awake options return to their defaults. "
 "Which features are shown does not change."
 msgstr ""
 
-#: src/deskence/pages.py:976
+#: src/deskence/pages.py:991
 msgid "Switches Always on Top for the focused window"
 msgstr ""
 
-#: src/deskence/pages.py:986
+#: src/deskence/pages.py:1001
 msgid "Restore Default Title Bar Buttons?"
 msgstr ""
 
-#: src/deskence/pages.py:987
+#: src/deskence/pages.py:1002
 msgid "The title bar buttons return to the GNOME default of this system."
 msgstr ""
 
-#: src/deskence/pages.py:1026
+#: src/deskence/pages.py:1041
 msgid "Restore Previous Title Bar Buttons?"
 msgstr ""
 
-#: src/deskence/pages.py:1027
+#: src/deskence/pages.py:1042
 msgid ""
 "The title bar buttons return to how they were before Deskence changed them."
 msgstr ""
 
-#: src/deskence/pages.py:1046
+#: src/deskence/pages.py:1061
 msgid "The buttons were changed elsewhere after Deskence changed them"
 msgstr ""
 
@@ -2071,7 +2085,7 @@ msgstr ""
 msgid "Rename File"
 msgstr ""
 
-#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:238
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:280
 msgid "_Rename"
 msgstr ""
 
@@ -2135,7 +2149,7 @@ msgstr ""
 msgid "Cu_t"
 msgstr ""
 
-#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:491
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:533
 msgid "_Copy"
 msgstr ""
 
@@ -2274,7 +2288,7 @@ msgstr ""
 msgid "All Presets"
 msgstr ""
 
-#: src/deskence/general.py:41 src/deskence/general.py:233
+#: src/deskence/general.py:41 src/deskence/general.py:275
 #: extensions/dock/stacks.js:500
 msgid "Name"
 msgstr ""
@@ -2291,11 +2305,11 @@ msgstr ""
 msgid "Saved in an archive together with the settings"
 msgstr ""
 
-#: src/deskence/general.py:91
+#: src/deskence/general.py:95
 msgid "Restore Default Deskence Settings?"
 msgstr ""
 
-#: src/deskence/general.py:92
+#: src/deskence/general.py:96
 msgid ""
 "All Deskence settings return to their defaults and the applications view "
 "returns to your own order. Folders in the dock are removed from it; the "
@@ -2303,245 +2317,249 @@ msgid ""
 "title bar buttons, saved presets and the clipboard history do not change."
 msgstr ""
 
-#: src/deskence/general.py:133 src/deskence/general.py:457
+#: src/deskence/general.py:139
+msgid "Same as the System"
+msgstr ""
+
+#: src/deskence/general.py:175 src/deskence/general.py:499
 msgid "_Undo"
 msgstr ""
 
-#: src/deskence/general.py:166
+#: src/deskence/general.py:208
 msgid "_Apply…"
 msgstr ""
 
-#: src/deskence/general.py:170
+#: src/deskence/general.py:212
 msgid "_Rename…"
 msgstr ""
 
-#: src/deskence/general.py:170 src/deskence/general.py:281
+#: src/deskence/general.py:212 src/deskence/general.py:323
 msgid "_Export…"
 msgstr ""
 
-#: src/deskence/general.py:171
+#: src/deskence/general.py:213
 msgid "_Delete…"
 msgstr ""
 
-#: src/deskence/general.py:174 extensions/keep-awake/extension.js:128
+#: src/deskence/general.py:216 extensions/keep-awake/extension.js:128
 msgid "More"
 msgstr ""
 
-#: src/deskence/general.py:192
+#: src/deskence/general.py:234
 msgid "pinned applications"
 msgstr ""
 
-#: src/deskence/general.py:194
+#: src/deskence/general.py:236
 msgid "folders in the dock"
 msgstr ""
 
-#: src/deskence/general.py:196
+#: src/deskence/general.py:238
 msgid "images"
 msgstr ""
 
-#: src/deskence/general.py:198
+#: src/deskence/general.py:240
 msgid "Settings"
 msgstr ""
 
-#: src/deskence/general.py:199
+#: src/deskence/general.py:241
 #, python-brace-format
 msgid "Settings with {}"
 msgstr ""
 
-#: src/deskence/general.py:202 src/deskence/general.py:220
+#: src/deskence/general.py:244 src/deskence/general.py:262
 msgid "My Settings"
 msgstr ""
 
-#: src/deskence/general.py:205
+#: src/deskence/general.py:247
 msgid "Save Current Settings"
 msgstr ""
 
-#: src/deskence/general.py:207
+#: src/deskence/general.py:249
 msgid "_Save"
 msgstr ""
 
-#: src/deskence/general.py:227
+#: src/deskence/general.py:269
 msgid "Cannot Save the Preset"
 msgstr ""
 
-#: src/deskence/general.py:230
+#: src/deskence/general.py:272
 #, python-brace-format
 msgid "Preset “{}” saved"
 msgstr ""
 
-#: src/deskence/general.py:236
+#: src/deskence/general.py:278
 msgid "Rename Preset"
 msgstr ""
 
-#: src/deskence/general.py:250
+#: src/deskence/general.py:292
 msgid "Cannot Rename the Preset"
 msgstr ""
 
-#: src/deskence/general.py:260
+#: src/deskence/general.py:302
 msgid "Cannot Delete the Preset"
 msgstr ""
 
-#: src/deskence/general.py:262
+#: src/deskence/general.py:304
 #, python-brace-format
 msgid "Delete Preset “{}”?"
 msgstr ""
 
-#: src/deskence/general.py:263
+#: src/deskence/general.py:305
 msgid "The current settings do not change."
 msgstr ""
 
-#: src/deskence/general.py:263
+#: src/deskence/general.py:305
 msgid "_Delete"
 msgstr ""
 
-#: src/deskence/general.py:276 src/deskence/general.py:300
+#: src/deskence/general.py:318 src/deskence/general.py:342
 msgid "Export Settings"
 msgstr ""
 
-#: src/deskence/general.py:277
+#: src/deskence/general.py:319
 msgid ""
 "Settings are saved as a readable JSON file. With images, the file is an "
 "archive with the settings and the images."
 msgstr ""
 
-#: src/deskence/general.py:290 src/deskence/general.py:293
+#: src/deskence/general.py:332 src/deskence/general.py:335
 #: src/deskence/cli.py:531
 msgid "Deskence Settings"
 msgstr ""
 
-#: src/deskence/general.py:311 src/deskence/general.py:318
+#: src/deskence/general.py:353 src/deskence/general.py:360
 msgid "Cannot Export"
 msgstr ""
 
-#: src/deskence/general.py:320
+#: src/deskence/general.py:362
 msgid "Settings exported"
 msgstr ""
 
-#: src/deskence/general.py:326
+#: src/deskence/general.py:368
 msgid "Import Settings"
 msgstr ""
 
-#: src/deskence/general.py:336 src/deskence/general.py:347
+#: src/deskence/general.py:378 src/deskence/general.py:389
 msgid "Cannot Import"
 msgstr ""
 
-#: src/deskence/general.py:365
+#: src/deskence/general.py:407
 msgid "Your settings already match this preset."
 msgstr ""
 
-#: src/deskence/general.py:368
+#: src/deskence/general.py:410
 msgid "Nothing to Change"
 msgstr ""
 
-#: src/deskence/general.py:375
+#: src/deskence/general.py:417
 #, python-brace-format
 msgid "{} setting changes in: {}."
 msgid_plural "{} settings change in: {}."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/deskence/general.py:388
+#: src/deskence/general.py:430
 #, python-brace-format
 msgid "Apply “{}”?"
 msgstr ""
 
-#: src/deskence/general.py:389
+#: src/deskence/general.py:431
 msgid "Apply Preset?"
 msgstr ""
 
-#: src/deskence/general.py:391
+#: src/deskence/general.py:433
 msgid "_Apply"
 msgstr ""
 
-#: src/deskence/general.py:413
+#: src/deskence/general.py:455
 #, python-brace-format
 msgid "These changes could not be put back: {}"
 msgstr ""
 
-#: src/deskence/general.py:414
+#: src/deskence/general.py:456
 msgid "Your previous settings were restored."
 msgstr ""
 
-#: src/deskence/general.py:415 src/deskence/general.py:419
+#: src/deskence/general.py:457 src/deskence/general.py:461
 msgid "The Preset Was Not Applied"
 msgstr ""
 
-#: src/deskence/general.py:420 src/deskence/cli.py:156
+#: src/deskence/general.py:462 src/deskence/cli.py:156
 msgid "Nothing was changed."
 msgstr ""
 
-#: src/deskence/general.py:423
+#: src/deskence/general.py:465
 msgid "Preset applied"
 msgstr ""
 
-#: src/deskence/general.py:433 src/deskence/general.py:443
+#: src/deskence/general.py:475 src/deskence/general.py:485
 msgid "Cannot Undo the Preset"
 msgstr ""
 
-#: src/deskence/general.py:433 src/deskence/cli.py:548
+#: src/deskence/general.py:475 src/deskence/cli.py:548
 msgid "There is no applied preset to undo."
 msgstr ""
 
-#: src/deskence/general.py:450
+#: src/deskence/general.py:492
 msgid "Previous settings restored"
 msgstr ""
 
-#: src/deskence/general.py:455
+#: src/deskence/general.py:497
 msgid "Undo Last Applied Preset?"
 msgstr ""
 
-#: src/deskence/general.py:456
+#: src/deskence/general.py:498
 msgid "The settings the preset changed return to their values from before it."
 msgstr ""
 
-#: src/deskence/general.py:462
+#: src/deskence/general.py:504
 msgid "Some Settings Changed Since"
 msgstr ""
 
-#: src/deskence/general.py:463
+#: src/deskence/general.py:505
 #, python-brace-format
 msgid ""
 "These settings were changed after the preset was applied: {}. Undo them too, "
 "or keep them as they are now?"
 msgstr ""
 
-#: src/deskence/general.py:466
+#: src/deskence/general.py:508
 msgid "_Keep Them"
 msgstr ""
 
-#: src/deskence/general.py:467
+#: src/deskence/general.py:509
 msgid "Undo _All"
 msgstr ""
 
-#: src/deskence/general.py:490
+#: src/deskence/general.py:532
 msgid "Report"
 msgstr ""
 
-#: src/deskence/general.py:493
+#: src/deskence/general.py:535
 msgid "_Save…"
 msgstr ""
 
-#: src/deskence/general.py:500 src/deskence/ui/general-page.ui:94
+#: src/deskence/general.py:542 src/deskence/ui/general-page.ui:122
 msgid "Information for Bug Reports"
 msgstr ""
 
-#: src/deskence/general.py:506
+#: src/deskence/general.py:548
 msgid "Diagnostics copied"
 msgstr ""
 
-#: src/deskence/general.py:510
+#: src/deskence/general.py:552
 msgid "Save Report"
 msgstr ""
 
-#: src/deskence/general.py:522
+#: src/deskence/general.py:564
 msgid "Cannot Save the Report"
 msgstr ""
 
-#: src/deskence/general.py:524
+#: src/deskence/general.py:566
 msgid "Report saved"
 msgstr ""
 
-#: src/deskence/general.py:533
+#: src/deskence/general.py:575
 msgid "Default settings restored"
 msgstr ""
 
@@ -2592,91 +2610,96 @@ msgstr ""
 msgid "The archive is damaged."
 msgstr ""
 
-#: src/deskence/presets.py:538
+#: src/deskence/presets.py:540
 msgid "The settings part of the preset is damaged."
 msgstr ""
 
-#: src/deskence/presets.py:541
+#: src/deskence/presets.py:543
 #, python-brace-format
 msgid "Unknown part “{}” was ignored."
 msgstr ""
 
-#: src/deskence/presets.py:546
+#: src/deskence/presets.py:548
 #, python-brace-format
 msgid "Unknown setting “{}” in {} was ignored."
 msgstr ""
 
-#: src/deskence/presets.py:562
+#: src/deskence/presets.py:565
 #, python-brace-format
 msgid ""
 "Monitor {} is not connected. The dock is shown on the primary monitor until "
 "it is."
 msgstr ""
 
-#: src/deskence/presets.py:570
+#: src/deskence/presets.py:573
 #, python-brace-format
 msgid "{} is not available on this computer."
 msgstr ""
 
-#: src/deskence/presets.py:574
+#: src/deskence/presets.py:577
 #, python-brace-format
 msgid "{} has an invalid value and was skipped."
 msgstr ""
 
-#: src/deskence/presets.py:577
+#: src/deskence/presets.py:580
 #, python-brace-format
 msgid "{} is locked by the administrator."
 msgstr ""
 
-#: src/deskence/presets.py:607
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr ""
+
+#: src/deskence/presets.py:623
 #, python-brace-format
 msgid "The shortcut {} for “{}” was not imported: {}"
 msgstr ""
 
-#: src/deskence/presets.py:616
+#: src/deskence/presets.py:632
 msgid "The list of features is damaged and was skipped."
 msgstr ""
 
-#: src/deskence/presets.py:620
+#: src/deskence/presets.py:636
 #, python-brace-format
 msgid "Unknown feature “{}” was ignored."
 msgstr ""
 
-#: src/deskence/presets.py:629
+#: src/deskence/presets.py:645
 msgid "Pinned applications are not available on this computer."
 msgstr ""
 
-#: src/deskence/presets.py:633
+#: src/deskence/presets.py:649
 msgid "The list of pinned applications is damaged and was skipped."
 msgstr ""
 
-#: src/deskence/presets.py:638
+#: src/deskence/presets.py:654
 #, python-brace-format
 msgid "Not installed: {}. They appear in the dock once installed."
 msgstr ""
 
-#: src/deskence/presets.py:648
+#: src/deskence/presets.py:664
 msgid "The list of folders in the dock is damaged and was skipped."
 msgstr ""
 
-#: src/deskence/presets.py:656
+#: src/deskence/presets.py:672
 #, python-brace-format
 msgid "Folder “{}” has an invalid entry and was skipped."
 msgstr ""
 
-#: src/deskence/presets.py:662
+#: src/deskence/presets.py:678
 #, python-brace-format
 msgid ""
 "The standard folder {} is not set up on this computer; it is shown as "
 "unavailable."
 msgstr ""
 
-#: src/deskence/presets.py:665
+#: src/deskence/presets.py:681
 #, python-brace-format
 msgid "Folder {} does not exist; it is shown as unavailable until it does."
 msgstr ""
 
-#: src/deskence/presets.py:695
+#: src/deskence/presets.py:711
 msgid ""
 "The preset uses a custom applications button image that is not included; the "
 "default icon is used."
@@ -3419,6 +3442,12 @@ msgstr ""
 msgid "backup, presets, transfer"
 msgstr ""
 
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:65
+msgid "language, translation"
+msgstr ""
+
 #: src/deskence/shortcuts.py:55
 msgid "Disabled"
 msgstr ""
@@ -3449,7 +3478,7 @@ msgstr ""
 msgid "Cannot Use This Shortcut"
 msgstr ""
 
-#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:75
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:103
 msgid "Keyboard Shortcuts"
 msgstr ""
 
@@ -3472,6 +3501,14 @@ msgstr ""
 msgid "Works while “{}” is turned on"
 msgstr ""
 
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:52
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr ""
+
 #: src/deskence/ui/general-page.ui:11
 msgid "Session Start"
 msgstr ""
@@ -3485,71 +3522,93 @@ msgid "Start on the desktop instead of the activities overview"
 msgstr ""
 
 #: src/deskence/ui/general-page.ui:23
-msgid "Presets"
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:24
-msgid "Save the current settings to return to them later."
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
 msgstr ""
 
 #: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr ""
+
+#: src/deskence/ui/general-page.ui:33
+msgid "The new language is used after a restart"
+msgstr ""
+
+#: src/deskence/ui/general-page.ui:37
+msgid "_Restart"
+msgstr ""
+
+#: src/deskence/ui/general-page.ui:51
+msgid "Presets"
+msgstr ""
+
+#: src/deskence/ui/general-page.ui:52
+msgid "Save the current settings to return to them later."
+msgstr ""
+
+#: src/deskence/ui/general-page.ui:55
 msgid "No saved presets"
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:39
+#: src/deskence/ui/general-page.ui:67
 msgid "_Save Current Settings…"
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:48
+#: src/deskence/ui/general-page.ui:76
 msgid "Moving Settings"
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:49
+#: src/deskence/ui/general-page.ui:77
 msgid ""
 "Move settings to another computer or keep them for a reinstall. Before "
 "importing, you see what changes."
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:52
+#: src/deskence/ui/general-page.ui:80
 msgid "_Export to File…"
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:59
+#: src/deskence/ui/general-page.ui:87
 msgid "_Import From File…"
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:66
+#: src/deskence/ui/general-page.ui:94
 msgid "_Undo Last Applied Preset…"
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:78
+#: src/deskence/ui/general-page.ui:106
 msgid "_Keyboard Shortcuts"
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:79
+#: src/deskence/ui/general-page.ui:107
 msgid "See and change all shortcuts of Deskence in one place"
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:95
+#: src/deskence/ui/general-page.ui:123
 msgid ""
 "Versions, the kind of session, monitors and the state of each feature, to "
 "paste into a bug report. Nothing private is included, and nothing is sent "
 "anywhere."
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:98
+#: src/deskence/ui/general-page.ui:126
 msgid "S_how Report…"
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:105
+#: src/deskence/ui/general-page.ui:133
 msgid "_Copy Diagnostics"
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:112
+#: src/deskence/ui/general-page.ui:140
 msgid "Save Report to _File…"
 msgstr ""
 
-#: src/deskence/ui/general-page.ui:123
+#: src/deskence/ui/general-page.ui:151
 msgid "_Restore Default Deskence Settings…"
 msgstr ""
 

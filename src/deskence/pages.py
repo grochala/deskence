@@ -2,11 +2,12 @@
 """The settings pages of the features."""
 
 import os
+import sys
 from gettext import gettext as _
 
 from gi.repository import Adw, Gdk, Gio, GLib, Gtk
 
-from . import appsicon, button_layout, control, features, presets
+from . import appsicon, button_layout, control, features, languages, presets
 from .appgrid import AppGrid
 from .previews import DockPreview, IconsPreview  # noqa: F401 (registers types)
 from .shell import FeatureStatus
@@ -123,8 +124,22 @@ def restore_defaults(shell, *scopes):
 
 
 def open_uri(widget, uri):
-    launcher = Gtk.UriLauncher.new(uri)
-    launcher.launch(widget.get_root(), None, None)
+    """Opens uri in its application, in the language the application was
+    started with, not the one chosen for Deskence (languages.py)."""
+    context = widget.get_display().get_app_launch_context()
+    for name, value in languages.original_environment().items():
+        if value is None:
+            context.unsetenv(name)
+        else:
+            context.setenv(name, value)
+
+    def done(_source, result):
+        try:
+            Gio.AppInfo.launch_default_for_uri_finish(result)
+        except GLib.Error as e:
+            print(f"deskence: cannot open {uri}: {e.message}", file=sys.stderr)
+
+    Gio.AppInfo.launch_default_for_uri_async(uri, context, None, done)
 
 
 class FeatureController:

@@ -608,3 +608,27 @@ def test_manual_layout_saved_and_restored(source):
         [{"x.desktop": 0, "Folder1": 1}, {"z.desktop": 0}]
     assert grid._folder("Folder1").get_strv("apps") == ["q.desktop", "p.desktop", "n.desktop"]
     assert grid.settings.get_string("manual-layout") == ""
+
+
+def test_language_in_presets(store, home):
+    store.set(presets.SCHEMA, "language", "pl")
+    preset, _ = presets.export_preset(store, "Język", {})
+    assert preset["modules"]["general"]["language"] == "pl"
+    store.reset(presets.SCHEMA, "language")
+    plan = presets.plan_import(roundtrip(preset), store, context(home, languages=["en", "pl"]))
+    assert [(c.name, c.new) for c in plan.changes if c.module == "general"] == [("language", "pl")]
+    # A language not installed here, or not a language at all, is skipped;
+    # the rest of the preset still applies.
+    for value in ("de", "../x"):
+        data = roundtrip({"format": presets.FORMAT_ID, "version": 1,
+                          "modules": {"general": {"language": value},
+                                      "dock": {"position": "left"}}})
+        plan = presets.plan_import(data, store, context(home, languages=["en", "pl"]))
+        assert [c.name for c in plan.changes] == ["position"]
+        assert any(value in s for s in plan.skipped)
+    # Back to the system language.
+    store.set(presets.SCHEMA, "language", "pl")
+    data = roundtrip({"format": presets.FORMAT_ID, "version": 1,
+                      "modules": {"general": {"language": ""}}})
+    plan = presets.plan_import(data, store, context(home, languages=["en", "pl"]))
+    assert [(c.name, c.new) for c in plan.changes] == [("language", "")]

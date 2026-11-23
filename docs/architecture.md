@@ -501,6 +501,23 @@ background.
     panel opens. Being drawn in the item, it scales with magnification and
     the monitor scale without changing the item size.
 
+33. **Language of the application** (`src/deskence/languages.py`). The
+    `language` key holds a translation code, `en` or empty for the
+    system's language. The launcher applies it before anything is
+    translated, only in its own process: `LANGUAGE` in its environment,
+    read by Python's gettext and the C library (GtkBuilder, GTK,
+    libadwaita); under the C locale also `LC_MESSAGES`, in the environment
+    because GTK sets the locale again when it starts. The list of languages
+    comes from the installed `deskence.mo` files and English; each
+    translation names its language (`LANGUAGE_NAME`). An invalid or
+    uninstalled code means English, and an import skips it. Changing the
+    language restarts the application in its process (`Application.restart`,
+    `execve` with the environment it was started with). Programs opened
+    from the window get that environment back (`pages.open_uri`). The
+    GNOME Shell extensions and the desktop icons keep the language of GNOME
+    Shell: GJS translates through the locale of the whole Shell process,
+    and a second translation mechanism is not worth it.
+
 ## Other facts used by the design
 
 - GNOME Shell scans extension directories only in `_loadExtensions()` at

@@ -17,7 +17,7 @@ from gettext import gettext as _
 
 from gi.repository import Adw, Gio, GLib, Gtk
 
-from . import rename
+from . import languages, rename
 from .shell import ShellExtensions
 
 APP_ID = rename.APP_ID
@@ -160,6 +160,23 @@ class Application(Adw.Application):
             self.activation_token = None
         self.window.present()
 
+    def restart(self, page=None):
+        """Starts the application again in this process, for a new
+        language: the texts of the window are translated when it is built."""
+        Gio.Settings.sync()
+        args = [sys.executable, sys.argv[0]] + (["--page", page] if page else [])
+        # The name is free for the new start once the connection is gone.
+        connection = self.get_dbus_connection()
+        if connection is not None:
+            try:
+                connection.flush_sync(None)
+                connection.close_sync(None)
+            except GLib.Error:
+                pass
+        sys.stdout.flush()
+        sys.stderr.flush()
+        os.execve(sys.executable, args, languages.child_environment())
+
     def _on_close(self, window):
         self.window = None
         return False
@@ -176,5 +193,9 @@ class Application(Adw.Application):
             comments=_("A dock with folders, desktop icons, application icons in the top bar, "
                        "a clipboard history and window settings for GNOME."),
         )
+        from .pages import open_uri
+
+        # Links open in the language the application was started with.
+        dialog.connect("activate-link", lambda _d, uri: open_uri(self.window, uri) or True)
         dialog.present(self.window)
 

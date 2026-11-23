@@ -19,6 +19,34 @@
       </object>
     </child>
     <child>
+      <object class="AdwPreferencesGroup">
+        <property name="description" translatable="yes">The dock, the desktop and the other features always use the language of the system.</property>
+        <child>
+          <object class="AdwComboRow" id="language_row">
+            <property name="title" translatable="yes">Application _Language</property>
+            <property name="subtitle" translatable="yes">Settings and the deskence command</property>
+            <property name="use-underline">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="language_restart_row">
+            <property name="title" translatable="yes">The new language is used after a restart</property>
+            <property name="visible">False</property>
+            <child type="suffix">
+              <object class="GtkButton" id="language_restart_button">
+                <property name="label" translatable="yes">_Restart</property>
+                <property name="use-underline">True</property>
+                <property name="valign">center</property>
+                <style>
+                  <class name="suggested-action"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
       <object class="AdwPreferencesGroup" id="presets_group">
         <property name="title" translatable="yes">Presets</property>
         <property name="description" translatable="yes">Save the current settings to return to them later.</property>

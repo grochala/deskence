@@ -9,7 +9,7 @@ from gettext import ngettext
 
 from gi.repository import Adw, Gdk, Gio, GLib, Gtk
 
-from . import appgrid, appsicon, control, diagnostics, presets
+from . import appgrid, appsicon, control, diagnostics, languages, presets
 from .shortcuts import ShortcutsDialog
 from .pages import FEATURE_UUIDS, UI, confirm
 
@@ -55,6 +55,9 @@ class GeneralPage(Adw.PreferencesPage):
 
     startup_group = Gtk.Template.Child()
     desktop_at_login_row = Gtk.Template.Child()
+    language_row = Gtk.Template.Child()
+    language_restart_row = Gtk.Template.Child()
+    language_restart_button = Gtk.Template.Child()
     presets_group = Gtk.Template.Child()
     no_presets_row = Gtk.Template.Child()
     save_row = Gtk.Template.Child()
@@ -78,6 +81,7 @@ class GeneralPage(Adw.PreferencesPage):
                            Gio.SettingsBindFlags.DEFAULT)
         shell.connect("changed", lambda *a: self._sync_startup())
         self._sync_startup()
+        self._setup_language()
         self.save_row.connect("activated", lambda r: self._ask_save())
         self.export_row.connect("activated", lambda r: self._ask_export())
         self.import_row.connect("activated", lambda r: self._choose_import())
@@ -124,6 +128,44 @@ class GeneralPage(Adw.PreferencesPage):
         self.startup_group.set_sensitive(dock)
         self.startup_group.set_description(
             None if dock else _("Available while the Deskence dock is turned on."))
+
+    # --- Language -------------------------------------------------------
+
+    def _setup_language(self):
+        # Every language in its own name, so that a wrong choice can be
+        # undone without reading it.
+        self._syncing_language = False
+        self._language_codes = [languages.SYSTEM] + languages.available()
+        names = [_("Same as the System")] + [languages.native_name(c)
+                                            for c in self._language_codes[1:]]
+        self.language_row.set_model(Gtk.StringList.new(names))
+        self._sync_language()
+        self.language_row.connect("notify::selected", lambda *a: self._language_chosen())
+        # Also restored defaults, imported presets and the command line.
+        self.settings.connect("changed::" + languages.KEY, lambda *a: self._sync_language())
+        self.language_restart_button.connect(
+            "clicked", lambda b: self.get_root().get_application().restart("general"))
+
+    def _sync_language(self):
+        value = self.settings.get_string(languages.KEY)
+        # A code without a translation here is shown as what it means:
+        # English.
+        shown = value if value in self._language_codes else languages.effective(value)
+        index = self._language_codes.index(shown or languages.SYSTEM)
+        if self.language_row.get_selected() != index:
+            self._syncing_language = True
+            self.language_row.set_selected(index)
+            self._syncing_language = False
+        self.language_restart_row.set_visible(languages.effective(value) != languages.active())
+
+    def _language_chosen(self):
+        if self._syncing_language:
+            return
+        code = self._language_codes[self.language_row.get_selected()]
+        if code == languages.SYSTEM:
+            self.settings.reset(languages.KEY)
+        elif self.settings.get_string(languages.KEY) != code:
+            self.settings.set_string(languages.KEY, code)
 
     # --- Helpers --------------------------------------------------------
 

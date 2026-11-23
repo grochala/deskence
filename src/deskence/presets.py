@@ -51,7 +51,7 @@ from gettext import gettext as _
 
 from gi.repository import Gio, GLib
 
-from . import keybindings
+from . import keybindings, languages
 from .features import UUIDS as FEATURES
 
 FORMAT_ID = "io.github.deskence.Deskence.preset"
@@ -94,7 +94,7 @@ def _entries(module, schema, keys, names=None):
 # The exported settings, by module. Anything not listed here is neither
 # exported nor imported.
 ENTRIES = (
-    _entries("general", SCHEMA, ("show-desktop-at-login",))
+    _entries("general", SCHEMA, ("show-desktop-at-login", "language"))
     + _entries("dock", DOCK, (
         "position", "length", "icon-size", "hide-mode", "monitor-mode", "selected-monitor",
         "show-trash", "show-mounts", "show-network-mounts", "show-apps-button",
@@ -502,6 +502,8 @@ class Context:
     connectors: list = field(default_factory=list)
     app_exists: object = lambda app_id: True
     features: dict = field(default_factory=dict)  # module -> currently enabled
+    # Languages of the application installed here; None: as found now.
+    languages: list = None
 
 
 @dataclass
@@ -549,6 +551,7 @@ def plan_import(data, store, context, assets=None):
             _plan_value(plan, store, entry, value)
 
     _check_shortcuts(plan, store)
+    _check_language(plan, context)
     _plan_features(plan, data.get("features"), context)
     if "pinned-apps" in data:
         _plan_pinned(plan, store, data["pinned-apps"], context)
@@ -579,6 +582,19 @@ def _plan_value(plan, store, entry, value):
     old = store.get(entry.schema, entry.key)
     if old != value:
         plan.changes.append(Change(entry.module, entry.name, entry.schema, entry.key, old, value))
+
+
+def _check_language(plan, context):
+    """A language without a translation installed here is left out; the
+    application would show English."""
+    change = next((c for c in plan.changes if (c.schema, c.key) == (SCHEMA, "language")), None)
+    if change is None or not change.new:
+        return
+    codes = context.languages if context.languages is not None else languages.available()
+    if languages.resolve(change.new, codes) != change.new:
+        plan.changes.remove(change)
+        plan.skipped.append(_("The language “{}” is not available on this computer and was "
+                              "skipped.").format(change.new))
 
 
 def _check_shortcuts(plan, store):

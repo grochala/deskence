@@ -17,6 +17,12 @@ except (locale.Error, AttributeError):
 gettext.bindtextdomain("@GETTEXT_PACKAGE@", "@LOCALEDIR@")
 gettext.textdomain("@GETTEXT_PACKAGE@")
 
+# The language chosen for Deskence, before anything is translated; only in
+# this process (see languages.py).
+from deskence import languages  # noqa: E402
+
+languages.apply("@LOCALEDIR@")
+
 import os  # noqa: E402
 
 # The command line (deskence status, enable, ...) never loads GTK, so it
