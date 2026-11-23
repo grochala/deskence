@@ -205,6 +205,37 @@ headless Wayland session.
   still work; files from applications still go into folders;
   `startup-input.sh` passes.
 
+**Desktop icons after a monitor comes back** (after 0.15.0), GNOME Shell
+51.1 headless, monitors 2560×1440 (primary) and 1920×1080, one of them
+removed and added again with `ApplyMonitorsConfig`, twice each: before, the
+window for the monitor that came back was made before GDK knew its
+connector, was titled without one and put on the primary monitor; there
+it took every click (the desktop menu on icons) and the rubber band
+selected nothing, or the icons moved to the other monitor. Now every
+window carries its connector after each change, the icons stay on the
+primary monitor, and the item menu (trash, file) and the rubber band
+work. Matches a report from a laptop with an external HDMI monitor; not
+yet confirmed in that real session.
+
+**Counters on dock icons with magnification** (after 0.15.0), GNOME Shell
+51.1 headless, counters sent with `launcher-entry.py` (3 and 128), strength
+2.0: before, a magnified counter was a blurry, wider-than-tall oval; now one
+digit is a circle (18 px at icon size 48, 24 px at 64) and "99+" a pill,
+both sharp at full magnification. Laying the counter out at the magnified
+size first made the icons wider, so the dock took the list for too long and
+clipped it while magnifying; the counter's holder now asks for no room, and
+the dock grows as without counters. Changing the icon size and turning
+magnification off and on resized the counter.
+
+**Window dots and folder marker** (after 0.15.0), same session, two Text
+Editor windows, Calculator focused, a folder in the dock, bottom and left
+dock: every dot is the same 4 px circle, gray, and the focused
+application's dot is white instead of a longer bar; the folder triangle is
+smaller (8×5 px), gray like the dots and has sharper edges than the
+rounded 10×6 px one before. Dots, triangle and counter stayed sharp at
+magnification 2.0 and the dock grew as before. At monitor scale 1 such
+small shapes are still a few antialiased pixels; scale 2 was not tried.
+
 **Translations (0.15.0)**, 28 catalogs:
 
 - `check-po` (in `meson test`): every catalog compiles with
