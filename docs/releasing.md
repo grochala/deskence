@@ -44,6 +44,11 @@ translations:
 
     meson compile -C _build deskence-pot deskence-update-po
 
+`meson test` then checks every catalog (`check-po`), and
+`meson compile -C _build deskence-po-status` lists the texts each
+translation still lacks; they are shown in English until translated (see
+[po/README.md](../po/README.md)).
+
 ## 2. Run the checks
 
     meson setup _build      # once

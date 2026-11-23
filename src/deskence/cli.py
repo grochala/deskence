@@ -148,9 +148,13 @@ def _confirm(args, out, question):
     if out.as_json or not sys.stdin.isatty():
         raise Failure(_("This change needs confirming. Run the command again with --yes "
                         "to confirm it without a question."), EXIT_CONFIRM)
+    # Translators: the answers to a yes/no question, "no" being the default;
+    # use the first letters of the translations of "y" and "yes" below.
     sys.stderr.write(f"{question} [{_('y/N')}] ")
     sys.stderr.flush()
     answer = sys.stdin.readline().strip().casefold()
+    # Translators: the short and the full answer "yes"; the English ones
+    # are accepted too.
     if answer in ("y", "yes", _("y").casefold(), _("yes").casefold()):
         return True
     out.note(_("Nothing was changed."))

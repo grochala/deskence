@@ -135,9 +135,10 @@ class GeneralPage(Adw.PreferencesPage):
         # Every language in its own name, so that a wrong choice can be
         # undone without reading it.
         self._syncing_language = False
-        self._language_codes = [languages.SYSTEM] + languages.available()
-        names = [_("Same as the System")] + [languages.native_name(c)
-                                            for c in self._language_codes[1:]]
+        self._language_codes = [languages.SYSTEM] + languages.by_name(languages.available())
+        system = languages.native_name(languages.system_language())
+        names = [_("Same as the System ({})").format(system)] + [
+            languages.native_name(c) for c in self._language_codes[1:]]
         self.language_row.set_model(Gtk.StringList.new(names))
         self._sync_language()
         self.language_row.connect("notify::selected", lambda *a: self._language_chosen())
@@ -231,6 +232,9 @@ class GeneralPage(Adw.PreferencesPage):
     def _describe(preset):
         parts = []
         if "pinned-apps" in preset.data:
+            # Translators: this, "folders in the dock" and "images" fill the
+            # {} of "Settings with {}", joined by commas; use the form that
+            # fits there.
             parts.append(_("pinned applications"))
         if "folder-stacks" in preset.data:
             parts.append(_("folders in the dock"))

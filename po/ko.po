@@ -1,0 +1,4420 @@
+# Korean translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "바탕 화면 설정"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr "독, 바탕 화면 아이콘, 상단 표시줄의 앱 아이콘과 창 단추"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"독;바탕 화면;아이콘;트레이;표시기;작업 표시줄;최소화;최대"
+"화;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "GNOME용 독, 바탕 화면 아이콘과 트레이"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Deskence는 표준 GNOME 바탕 화면에 몇 가지 편의 기능을 더하고 한곳에서 설정할 "
+"수 있게 해 줍니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"고정된 앱과 실행 중인 앱, 폴더, 드라이브, 휴지통, 창 미리 보기가 있는 독"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "바탕 화면의 파일과 폴더"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr "상단 표시줄의 앱 아이콘(예: 메신저, 파일 동기화)"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "클립보드 기록과 빠른 설정의 ‘잠자기 방지’"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "앱 보기의 가나다순 정렬"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr "창 제목 표시줄의 최소화·최대화 단추"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr "설정을 저장하고 다른 컴퓨터로 옮기는 프리셋"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr "기존 GNOME 세션에서 동작하며 표준 GNOME 모양을 그대로 유지합니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"이제 Deskence를 29개 언어로 사용할 수 있습니다. 유럽 연합의 모든 공용어와 한"
+"국어, 중국어 간체·번체, 세르비아어, 필리핀어를 지원합니다. 설정의 언어 목록"
+"에 시스템이 사용하는 언어가 표시됩니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"설정: 시스템과 별도로 일반 페이지에서 설정 창과 deskence 명령의 언어를 고를 "
+"수 있습니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"독: 폴더 패널에서 파일과 폴더를 복사하거나 잘라내고(오른쪽 클릭, Ctrl+C, "
+"Ctrl+X) 파일 앱이나 바탕 화면에 붙여 넣을 수 있습니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"독: 폴더 패널의 파일과 폴더를 독의 다른 폴더나 바탕 화면으로 끌어서 이동하거"
+"나 복사할 수 있습니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"독: 앱은 선언한 형식의 파일만 열며, 그렇지 않으면 독이 이유를 알려 줍니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr "독: 폴더 아래 표시가 앱의 점과 같은 모양이 되었습니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"바탕 화면에서 시작: 로그인 후 애니메이션이 꺼져 있을 때(예: 3D 가속이 없는 가"
+"상 머신) 바탕 화면, 상단 표시줄, 창이 다시 클릭에 반응합니다. 이전에는 현재 "
+"활동을 한 번 열기 전까지 독만 반응했습니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"바탕 화면과 창이 클릭에 반응하지 않는 문제를 보고하기 위한 선택적 진단 정보."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"독: 파일을 독에 끌어 놓는 작업은 놓는 도중 문제가 생겨도 항상 깔끔하게 끝납니"
+"다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"독: 파일을 앱에 놓으면 그 앱에서 열리고, 폴더에 놓으면 그곳으로 복사하거나 이"
+"동합니다. 파일을 폴더 위에 잠시 두면 폴더가 열려 하위 폴더에 놓을 수 있습니"
+"다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"설정: Ctrl+F로 모든 설정 검색, 충돌 검사와 함께 모든 키보드 바로 가기를 한곳"
+"에서 관리, 버그 보고용 보고서 복사 또는 저장."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"프리셋: 적용한 프리셋을 실행 취소하면 그 프리셋이 바꾼 것만 되돌리고 이후에 "
+"바꾼 설정은 유지합니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr "독: 이를 알리는 앱의 아이콘에 읽지 않은 항목 수와 작업 진행률 표시."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"명령줄: deskence 명령으로 각 기능의 상태 확인, 기능 끄기·켜기, 프리셋 적용·가"
+"져오기·내보내기, 기본 설정 복원, 진단 정보 수집이 가능하며, 바탕 화면이 동작"
+"하지 않을 때 텍스트 콘솔에서도 쓸 수 있습니다. man deskence를 참고하십시오."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"기본 설정을 복원해도 로그아웃 후에 보관되는 클립보드 기록을 더 이상 지우지 않"
+"습니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"앱 보기: 앱과 앱 폴더 위 포인터 강조 표시에 원하는 색과 투명도를 지정할 수 있"
+"으며, 폴더 위에 포인터를 올려도 더 이상 윤곽선을 그리지 않습니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"독의 폴더: 패널이 화면 높이의 절반 이하만 차지하고, 키보드로도 폴더 전체를 스"
+"크롤할 수 있으며, 하위 폴더에서 돌아오면 이전 위치로 돌아갑니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"설정: 더 명확한 설명, 더 나은 폴란드어 표현, 충돌하는 키보드 바로 가기 감소."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"독: 가장자리 전체를 차지하는 독은 현재 활동과 앱 보기에서 상단 표시줄과 어울"
+"리며, 짧은 독은 자체 모양을 유지합니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"앱 보기: 색이나 투명도를 지정한 폴더 타일이 이제 포인터 올림, 누름, 포커스, "
+"선택을 뚜렷하게 보여 줍니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"앱 보기: ‘유틸리티’ 같은 폴더 타일에 원하는 색과 투명도를 지정할 수 있습니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"일반: 로그인 후 현재 활동 대신 바탕 화면에서 시작하도록 선택할 수 있습니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr "독: 이제 별도의 띠를 만들지 않고 현재 활동에 자연스럽게 녹아듭니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"프로젝트 홈페이지와 버그 추적기 링크, 영어 문서. 앱 자체는 바뀌지 않았습니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"설정: 프리셋, 설정 내보내기·가져오기, 기본값 복원이 있는 일반 페이지와 가나다"
+"순 정렬이 있는 앱 보기 페이지, 더 차분한 미리 보기."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"독: 내용을 보여 주는 폴더, 미리 보기에서 창 닫기와 엿보기, 미리 보기 메뉴의 "
+"‘항상 위’."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"새 기능: 클립보드 기록, 빠른 설정의 ‘잠자기 방지’, ‘항상 위’ 바로 가기."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Better GNOME Desktop의 이름이 Deskence로 바뀌었습니다. 설정, 켠 기능, 고정한 "
+"앱, 바탕 화면 아이콘 위치는 그대로 옮겨집니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"독: 포인터를 앱 위에 두면 그 앱의 창 미리 보기 표시, 아이콘 확대 시 앱 단추 "
+"옆 여백 제거, 아래쪽 독 아이콘 밑의 실행 표시기."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"설정: 더 크고 선명한 독과 바탕 화면 아이콘 미리 보기, 페이지 아이콘, ‘정보’ "
+"메뉴 항목."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Better GNOME Desktop의 이름이 Deskence로 바뀌었습니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"독: 선명한 확대 아이콘, 사용자 지정 배경일 때 아이콘 아래 타일 제거, 단색 배"
+"포판 로고, 가장자리 전체를 차지하는 독의 시작 부분에 앱 목록, 안쪽의 실행 표"
+"시기."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"앱 보기: 닫을 때 하나로 이어지는 전환 효과, 선택적인 사용자 지정 배경색."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"바탕 화면: 메뉴가 클릭한 지점에서 열리며 독 옆에서도 마찬가지입니다. 아이콘 "
+"격자는 고른 모서리에서 작은 여백으로 시작합니다."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"독: 아이콘을 고를 수 있는 앱 단추(양쪽 끝 중 선택), 아이콘 확대, 앱이 다 들어"
+"가지 않을 때 스크롤, 사용자 지정 배경색과 투명도, 앱 단추 메뉴의 설정, 앱 보"
+"기의 투명 배경."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"바탕 화면 아이콘: 자유 배치 또는 격자 맞춤, ‘격자에 맞춤’, 독 옆 바탕 화면 전"
+"체 사용, 독과 함께 움직이지 않는 아이콘 위치."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"수정 사항: 앱 보기를 부드럽게 닫기, 독 아이콘 즉시 재정렬, 바탕 화면 아이콘"
+"을 끌 때 테두리 없음, 어디서나 같은 바탕 화면 메뉴."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "첫 출시."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "설정 구조 버전"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"설정 앱이 출시 버전 간에 저장된 값을 이전하는 데 사용합니다. 0은 설정을 한 번"
+"도 이전하지 않았다는 뜻입니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "Better GNOME Desktop의 설정을 가져왔음"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Better GNOME Desktop(0.3.0 이하)이 저장한 설정을 이곳으로 복사하면 설정됩니"
+"다. 이미 여기에 설정된 값은 절대 덮어쓰지 않으며, 이전 설정은 그대로 남습니"
+"다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "로그인 후 바탕 화면 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"참이면 새 세션이 현재 활동 대신 바탕 화면에서 시작합니다. 세션 시작에만 영향"
+"을 주며, 나중에 현재 활동을 열거나 화면 잠금을 풀거나 기능을 켜고 꺼도 닫히"
+"지 않습니다. 독 확장 기능이 적용합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Deskence 앱의 언어"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"설정 창과 deskence 명령의 언어: Deskence와 함께 설치된 번역의 코드(예: "
+"\"pl\"), 영어는 \"en\", 비워 두면 시스템을 따릅니다. 설치된 번역이 없는 코드"
+"는 영어를 뜻합니다. GNOME Shell 확장 기능과 바탕 화면 아이콘은 항상 GNOME "
+"Shell의 언어를 따릅니다. 앱을 시작할 때 적용됩니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "독의 화면 가장자리"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\"(왼쪽), \"bottom\"(아래쪽), \"right\"(오른쪽)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "독 길이"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr "\"fit\": 아이콘에 필요한 만큼만. \"full\": 화면 가장자리 전체."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "논리 픽셀 단위 아이콘 크기"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"다른 GNOME Shell 아이콘처럼 모니터 배율과 셸 테마의 글꼴 배율에 맞춰 조정됩니"
+"다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "독을 숨길 때"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": 항상 보이며 창이 독 영역을 침범하지 않습니다. \"intellihide\": 같"
+"은 모니터의 창이 독과 겹치는 동안 숨깁니다. \"autohide\": 포인터가 화면 가장"
+"자리에 닿을 때까지 숨깁니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "독을 표시할 모니터"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\"(기본), \"selected\"(선택, selected-monitor 참고), \"all\"(모두)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "선택한 모니터의 커넥터"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"\"DP-1\" 같은 커넥터 이름. monitor-mode가 \"selected\"일 때 사용하며, 그 모니"
+"터가 연결되지 않은 동안에는 기본 모니터를 사용합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "휴지통 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "이동식 드라이브 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "네트워크 위치 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "앱 단추 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "앱 단추 위치"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": 독의 첫 항목(가로 독에서는 왼쪽, 세로 독에서는 위쪽). \"end\": 마"
+"지막 항목(오른쪽 또는 아래쪽)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "앱 단추 아이콘"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": GNOME 앱 아이콘. \"distribution\": 시스템에 설치된 아이콘 중 설"
+"치된 배포판 로고이며, 없으면 기본 아이콘. \"custom\": apps-button-custom-icon"
+"의 이미지."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "앱 단추 사용자 지정 아이콘"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"고른 이미지 사본의 경로로, 원본 파일을 옮기거나 지워도 동작하도록 Deskence 사"
+"용자 데이터 폴더에 보관합니다. 파일을 불러올 수 없으면 기본 아이콘을 사용합니"
+"다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "포인터 아래 아이콘 확대"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"포인터가 독 위에서 움직이는 동안 근처 아이콘이 부드럽게 커집니다. GNOME에서 "
+"애니메이션을 끈 동안에는 보이지 않습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "확대 강도"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr "포인터 아래 아이콘의 크기(보통 크기 대비)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "독 사용자 지정 배경색"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr "거짓이면 독 배경은 현재 GNOME 스타일의 색입니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "독 배경색"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"\"#rrggbb\" 형식의 색으로, background-custom-color가 참일 때 사용합니다. 자"
+"체 투명도는 없으며 투명도는 background-transparency가 정합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "독 사용자 지정 배경 투명도"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr "거짓이면 독 배경은 현재 GNOME 스타일이 정한 만큼 투명합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "독 배경 투명도"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: 불투명. 100: 완전히 투명. 배경에만 적용되며 아이콘, 표시기, 레이블, 메뉴"
+"는 자체 가시성을 유지합니다. background-custom-transparency가 참일 때 사용합"
+"니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "앱 보기 사용자 지정 배경 투명도"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr "거짓이면 독에서 여는 전체 화면 앱 보기에 표준 GNOME 배경을 사용합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "앱 보기 사용자 지정 배경색"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"거짓이면 독에서 여는 전체 화면 앱 보기에 표준 GNOME 배경색을 사용합니다. 독 "
+"배경과는 별개입니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "앱 보기 배경색"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"\"#rrggbb\" 형식의 색으로, app-grid-custom-color가 참일 때 사용합니다. 자체 "
+"투명도는 없으며 투명도는 app-grid-transparency가 정합니다(app-grid-custom-"
+"transparency가 거짓이면 불투명)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "앱 보기 배경 투명도"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: 불투명한 배경(표준 색 또는 사용자 지정 색). 100: 완전히 투명하며 앱 뒤로 "
+"배경 그림만 보입니다. 배경만 바뀌고 아이콘, 이름, 검색 입력란은 그대로 보입니"
+"다. app-grid-custom-transparency가 참일 때 사용합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "앱 폴더 사용자 지정 배경색"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"거짓이면 앱 보기의 폴더 타일(예: \"유틸리티\")은 현재 GNOME 스타일의 색입니"
+"다. 타일 배경만 바뀌며 앱 미리 보기 그림과 폴더 이름은 그대로이고, 열린 폴더"
+"의 패널에는 영향이 없습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "앱 폴더 배경색"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"\"#rrggbb\" 형식의 색으로, app-grid-folder-custom-color가 참일 때 사용합니"
+"다. 자체 투명도는 없으며 투명도는 app-grid-folder-transparency가 정합니다"
+"(app-grid-folder-custom-transparency가 거짓이면 GNOME 스타일의 알파)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "앱 폴더 사용자 지정 배경 투명도"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"거짓이면 앱 보기의 폴더 타일은 현재 GNOME 스타일이 정한 만큼 불투명합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "앱 폴더 배경 투명도"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: 불투명한 타일 배경. 100: 완전히 투명하며 폴더는 앱 미리 보기 그림과 이름으"
+"로 알아볼 수 있습니다. 포인터 올림, 선택, 키보드 포커스는 계속 보입니다. app-"
+"grid-folder-custom-transparency가 참일 때 사용합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr "앱 보기 포인터 강조 표시 사용자 지정 색"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"거짓이면 앱, 앱 폴더, 열린 폴더 안의 앱 위 포인터 강조 표시는 현재 GNOME 스타"
+"일의 색입니다. 독, 바탕 화면, 폴더 스택에는 영향이 없습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "앱 보기 포인터 강조 표시 색"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"\"#rrggbb\" 형식의 색으로, app-grid-hover-custom-color가 참일 때 사용합니다. "
+"자체 투명도는 없으며 투명도는 app-grid-hover-transparency가 정합니다(app-"
+"grid-hover-custom-transparency가 거짓이면 GNOME 스타일의 알파)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr "앱 보기 포인터 강조 표시 사용자 지정 투명도"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"거짓이면 포인터 강조 표시는 현재 GNOME 스타일이 정한 만큼 불투명합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr "앱 보기 포인터 강조 표시 투명도"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: 불투명한 강조 표시. 100: 완전히 투명하며 폴더가 포인터 아래에서도 평소와 "
+"같아 보입니다. 강조 표시만 바뀌고 아이콘과 이름은 그대로 보이며 키보드 포커"
+"스 표시도 유지됩니다. app-grid-hover-custom-transparency가 참일 때 사용합니"
+"다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "실행 중인 앱 클릭"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": 가장 최근에 쓴 창에 포커스를 주고, 이미 앱에 포커스가 있"
+"으면 다음 창으로 전환합니다. \"minimize-or-cycle\": focus-or-cycle과 같지만 "
+"포커스를 받은 창이 하나뿐인 앱은 최소화합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "현재 작업 공간의 앱만 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"참이면 실행 중인(고정하지 않은) 앱은 활성 작업 공간에 창이 있을 때만 표시하"
+"며, 클릭하면 그 창들 사이에서만 전환합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "앱 카운터 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"참이면 카운터(예: LauncherEntry D-Bus API를 통한 읽지 않은 메시지 수)를 알리"
+"는 앱은 독 아이콘에 이를 표시합니다. 아무것도 알리지 않는 앱은 아무것도 표시"
+"하지 않습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "앱 진행률 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"참이면 작업 진행률(예: LauncherEntry D-Bus API를 통한 다운로드)을 알리는 앱"
+"은 독 아이콘에 막대로 표시합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "포인터를 올리면 창 미리 보기 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"실행 중인 앱 위에 포인터를 두면 그 앱의 창(독이 세는 창, isolate-workspaces "
+"참고)을 제목과 함께 보여 주며, 하나를 클릭하면 그 창을 활성화합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "미리 보기에서 창 엿보기"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"창 미리 보기 위에 포인터를 두는 동안 그 창을 어둡게 처리한 다른 창 위에 잠시 "
+"보여 줍니다. 포커스, 올리기, 복원, 이동은 일어나지 않으며 미리 보기를 벗어나"
+"거나 Escape를 누르면 끝납니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "독의 폴더"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"독에 표시하는 폴더(순서대로). 각 항목은 표준 폴더의 경우 \"xdg:이름\"(이름은 "
+"DIRECTORY_ 접두사를 뺀 GLib.UserDirectory 이름, 예: \"xdg:DOWNLOAD\"), 홈 폴"
+"더 안의 폴더는 \"home:상대/경로\", 그 밖의 폴더는 \"file://\" URI입니다. 항목"
+"을 지워도 폴더 자체는 건드리지 않습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "독에 폴더 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr "거짓이면 folder-stacks의 폴더는 유지하되 표시하지 않습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "폴더 내용 표시 방식"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": 큰 아이콘. \"list\": 크기와 날짜가 있는 작은 아이콘. 폴더 패널에서 "
+"바꿉니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "폴더별 정렬 순서"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"folder-stacks 항목에 \"name\", \"modified\"(최신 항목 먼저), \"type\" 중 하나"
+"를 지정합니다. 항목이 없는 폴더는 이름순으로 정렬하며, 다운로드(xdg:DOWNLOAD)"
+"는 최신 파일을 먼저 보여 줍니다. 폴더 패널에서 바꿉니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "바탕 화면 아이콘 크기"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr "\"small\"(48px), \"medium\"(64px), \"large\"(96px), \"huge\"(128px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "새 아이콘을 놓을 모서리"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "홈 폴더 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "드라이브와 USB 메모리 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "옮긴 아이콘 배치 방식"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": 아이콘을 놓은 자리에 그대로 둡니다. \"grid\": 놓은 아이콘을 격자에 "
+"맞춥니다. 바꿔도 기존 아이콘은 움직이지 않으며, 바탕 화면 메뉴의 \"격자에 맞"
+"춤\"이 그 일을 합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "한 번 또는 두 번 클릭으로 항목 열기"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "\"아이콘 정리\"가 쓰는 순서"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "바탕 화면 메뉴의 \"정렬 기준\"에서 바꿉니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "수동 상태 앱 아이콘 표시"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"StatusNotifierItem은 앱이 중요하지 않다고 보는 아이콘에 \"Passive\" 상태를 정"
+"의합니다. 이 값이 참이 아니면 숨깁니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "처음 바꾸기 전 단추 배치"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"Deskence가 처음 바꾸기 전에 저장한 org.gnome.desktop.wm.preferences button-"
+"layout 값. 아무것도 바꾸지 않았으면 비어 있습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "Deskence가 마지막으로 기록한 단추 배치"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"사용자가 이후에 다른 곳에서 배치를 바꿨는지 판단하는 데 씁니다. 현재 값이 이 "
+"값과 같은 동안에만 원래 값으로 복원하도록 제안합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "앱 보기 순서"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": 사용자가 만든 배치(GNOME 자체의 app-picker-layout과 폴더 목록). "
+"\"alphabetical\": 앱과 폴더를 사용자 언어의 표시 이름 순으로, 각 폴더 안의 앱"
+"도 마찬가지로 정렬하며, 끌어서 재배치하기는 꺼집니다. app-grid 확장 기능이 최"
+"신 상태로 유지합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "가나다순 정렬 전에 저장한 배치"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"sort-mode가 \"alphabetical\"로 바뀔 때 기록하는 JSON: 이전 org.gnome.shell "
+"app-picker-layout(GVariant 텍스트)과 각 폴더의 앱 목록. sort-mode가 "
+"\"custom\"으로 돌아가면 복원합니다. 내부용이며 프리셋에 포함되지 않습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "클립보드 기록을 여는 바로 가기"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "기억하는 항목의 최대 개수"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr "고정한 항목은 세지 않습니다. 가장 오래된 항목부터 잊습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "로그아웃 후 보관할 것"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": 기록을 메모리에만 두며 로그아웃하면 사라집니다. \"pinned\": 고정"
+"한 항목을 사용자 데이터 폴더에 저장합니다. \"all\": 기록 전체를 그곳에 저장합"
+"니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "새 항목 기억하지 않기"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr "기록 패널에서 바꾸는 임시 상태로, 프리셋에 포함되지 않습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "선택한 텍스트도 기억"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"마우스로 선택한 텍스트(가운데 단추로 붙여 넣는 기본 선택)도 기록에 추가합니"
+"다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "항상 서식 없이 텍스트 붙여 넣기"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"기록은 텍스트를 서식 없이 보관합니다. 가장 최근 항목만, 복사해 온 앱이 아직 "
+"제공하는 동안 서식과 함께 붙여 넣을 수 있습니다. 참이면 그 항목도 일반 텍스트"
+"로 붙여 넣습니다. 기록에서 Shift+Enter를 누르면 어느 경우든 일반 텍스트로 붙"
+"여 넣습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "고른 항목 바로 붙여 넣기"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"참이면 항목을 고를 때 패널을 닫고 포커스가 있던 창에 Ctrl+V로 붙여 넣습니다. "
+"거짓이면 항목을 클립보드에만 넣습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "화면도 켜 두기"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"거짓이면 컴퓨터를 깨어 있게 해도 자동 대기 모드만 막으며, 화면은 평소처럼 꺼"
+"지고 잠깁니다. 참이면 화면도 켜진 채로 자동으로 잠기지 않습니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "빠른 설정 단추가 쓰는 시간"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr "마지막으로 고른 시간으로, 단추를 클릭하면 다시 사용합니다."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "사용자 지정 시간(분)"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "종료 시각(자정 이후 분)"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr "\"특정 시각까지\"가 사용합니다: 이 지역 시각이 다음에 돌아오는 때."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"설정 페이지 열기: general, dock, desktop-icons, app-grid, top-bar, windows, "
+"clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "페이지"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"GNOME용 폴더가 있는 독, 바탕 화면 아이콘, 상단 표시줄의 앱 아이콘, 클립보드 "
+"기록, 창 설정."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "불투명"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "투명"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "취소(_C)"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "설치되어 있지 않습니다. deskence 패키지를 다시 설치하십시오."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "로그아웃 후 다시 로그인하면 시작됩니다"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "업데이트됨. 다시 로그인하면 새 버전이 시작됩니다"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "GNOME Shell이 실행 중이 아닙니다. 다음 GNOME 세션에 적용됩니다"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "실행 중 아님"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "오류로 기능이 멈췄습니다"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "이 GNOME 버전은 지원하지 않습니다"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "설치된 버전은 GNOME {}을(를) 지원하지 않습니다."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "GNOME 확장 기능이 꺼져 있습니다"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Deskence의 기능을 보여 주려면 확장 기능이 필요합니다."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "켜기(_T)…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "다른 사본을 대신 사용 중"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "홈 폴더에 있는 사본이 설치된 사본을 대신합니다: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "보기(_S)"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "GNOME 확장 기능을 켤까요?"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr "확장 앱에서 켜 둔 다른 확장 기능도 함께 켜집니다."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "켜기(_T)"
+
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "독"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "바탕 화면 아이콘"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "상단 표시줄의 앱 아이콘"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "앱 보기 정렬"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "클립보드 기록"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "컴퓨터 깨어 있게 하기"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr "이 확장 기능도 {} 기능을 제공합니다. 둘을 함께 쓰면 문제가 생깁니다."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "이 확장 기능도 {} 기능을 제공할 수 있습니다."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "‘{}’을(를) 끌까요?"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"확장 기능은 설치된 채로 남고 설정도 유지됩니다. 확장 앱에서 다시 켤 수 있습니"
+"다."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "끄기(_D)"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "끄기(_D)…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "약하게"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "강하게"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "확대 강도"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "배경 투명도"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "아이콘 크기"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "독이 항상 보이며 창이 가리지 않습니다"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "창이 겹치는 동안 숨습니다"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "포인터를 화면 가장자리로 옮기면 나타납니다"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "다시 클릭하면 앱의 다음 창으로 전환합니다"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr "포커스를 받은 창이 하나인 앱을 클릭하면 최소화합니다"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "독 설정을 기본값으로 복원할까요?"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"위치, 크기, 색, 숨기기, 모니터, 클릭 동작, 표시 항목이 기본값으로 돌아갑니"
+"다. 고정한 앱, 독의 폴더, 앱 보기, 독 표시 여부는 바뀌지 않습니다."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "복원(_R)"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr "접근성 설정에서 애니메이션을 끈 동안에는 보이지 않습니다"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "폴더 추가"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "다른 폴더…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "이 컴퓨터에 설정되어 있지 않음"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{}(없음)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "위로 이동"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "아래로 이동"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "독에서 제거"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "독에 폴더 추가"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "이 폴더를 추가할 수 없습니다"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "로컬 폴더만 추가할 수 있습니다."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "닫기(_C)"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "독의 시작"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "독의 끝"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "위쪽"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "아래쪽"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "왼쪽"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "오른쪽"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "설치된 로고가 없어 기본 아이콘을 사용합니다"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "고른 이미지가 없어 기본 아이콘을 사용합니다"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "이미지가 없어 기본 아이콘을 사용합니다"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "이미지"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "아이콘 선택"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "로컬 파일만 사용할 수 있습니다."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr "지원하는 형식(PNG, SVG, JPEG, WebP)의 4MB 이하 이미지가 아닙니다."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "이 이미지를 사용할 수 없습니다"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{}(연결 끊김)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "바탕 화면 폴더가 설정되어 있지 않습니다"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "바탕 화면 아이콘 설정을 기본값으로 복원할까요?"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"크기, 배치, 클릭 동작, 표시 항목이 기본값으로 돌아갑니다. 파일과 아이콘 위치"
+"는 바뀌지 않습니다."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "아이콘을 놓은 자리에 그대로 둡니다"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "놓은 아이콘을 격자에 맞춥니다"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "폴더 투명도"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "강조 표시 투명도"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "앱 보기 설정을 기본값으로 복원할까요?"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"배경, 앱 폴더, 포인터 강조 표시가 GNOME 모양으로 돌아가고 앱은 사용자가 정한 "
+"순서로 돌아갑니다."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr "이름순이며 폴더 안도 마찬가지입니다. 끌어도 순서가 바뀌지 않습니다."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr "앱을 끌어서 배치하십시오. 가나다순을 끄면 이 배치로 돌아옵니다."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr "앱 뒤의 배경입니다. 아이콘, 이름, 검색 입력란은 바뀌지 않습니다."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Deskence 독을 켠 동안 사용할 수 있습니다."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"앱 보기에서 ‘유틸리티’ 같은 앱 그룹의 모양을 바꿉니다. 타일 배경만 바뀝니다."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"앱이나 앱 폴더 위에 포인터를 올렸을 때 나타나는 배경을 고르십시오. 열린 폴더 "
+"안에서도 적용됩니다."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "바로 가기(_S)"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "기록을 엽니다"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "클립보드 설정을 기본값으로 복원할까요?"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"바로 가기와 붙여 넣기 설정이 기본값으로 돌아갑니다. 기록, 보관하는 항목 수, "
+"로그아웃 후 보관 여부는 바뀌지 않습니다."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "메모리에만"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "고정한 항목은 {}에 저장합니다"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "기록은 {}에 저장합니다"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "상단 표시줄 설정을 기본값으로 복원할까요?"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"비활성 아이콘 표시와 ‘잠자기 방지’ 옵션이 기본값으로 돌아갑니다. 표시할 기능"
+"은 바뀌지 않습니다."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "포커스를 받은 창의 ‘항상 위’를 켜고 끕니다"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "제목 표시줄 단추를 기본값으로 복원할까요?"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr "제목 표시줄 단추가 이 시스템의 GNOME 기본값으로 돌아갑니다."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "제목 표시줄 단추를 이전 상태로 복원할까요?"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr "제목 표시줄 단추가 Deskence가 바꾸기 전 상태로 돌아갑니다."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr "Deskence가 바꾼 뒤 다른 곳에서 단추를 바꿨습니다"
+
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "왼쪽"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "아래쪽"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "오른쪽"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "미리 보기: 화면 {} 가장자리의 독"
+
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "왼쪽 위"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "오른쪽 위"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "왼쪽 아래"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "오른쪽 아래"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "미리 보기: 새 아이콘을 {} 모서리부터 놓습니다"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "‘{}’을(를) 켜면 ‘{}’을(를) 바꿀 수 있습니다."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "‘{}’은(는) ‘{}’을(를) 켠 뒤에 사용할 수 있습니다."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "지금은 ‘{}’을(를) 사용할 수 없습니다."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr "업데이트를 설치했습니다. 사용하려면 로그아웃 후 다시 로그인하십시오."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr "켠 기능을 시작하려면 로그아웃 후 다시 로그인하십시오."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "정보(_A)"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "설정 검색"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "주 메뉴"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "설정 검색"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "설정 페이지"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "검색 결과"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "결과 없음"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "다른 단어(예: 기능 이름)로 검색해 보십시오."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "로그아웃(_L)…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "독"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"화면 가장자리에 있는 앱 막대의 위치, 모양, 동작을 조정합니다. 고정한 앱은 현"
+"재 활동의 앱과 같습니다."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "독 표시(_D)"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "모양"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "위치(_P)"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "왼쪽"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "아래쪽"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "오른쪽"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "길이(_L)"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "아이콘에 맞춤"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "가장자리 전체"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "아이콘 크기(_I)"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "사용자 지정 배경색(_C)"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "배경색"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "사용자 지정 배경 투명도(_B)"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "포인터 아래 아이콘 확대(_M)"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "확대 강도(_S)"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "동작"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "숨기기(_H)"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "안 함"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "창이 겹칠 때"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "사용하지 않을 때"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "모니터(_M)"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "기본"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "선택"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "모두"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "선택한 모니터(_S)"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "실행 중인 앱 클릭(_C)"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "포커스 후 창 전환"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "최소화 또는 창 전환"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "현재 작업 공간의 앱만 표시(_W)"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "포인터를 올리면 창 미리 보기 표시(_P)"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr "실행 중인 앱 위에 포인터를 잠시 두면 창을 보고 하나를 고를 수 있습니다"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "창 엿보기(_E)"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"미리 보기 위에 포인터를 잠시 두면 전환하지 않고 그 창을 다른 창 위에 보여 줍"
+"니다"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "앱이 알리는 정보"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"앱은 아이콘에 카운터나 작업 진행률(예: 읽지 않은 메시지, 다운로드)을 표시할 "
+"수 있습니다. 앱이 알리는 것만 표시합니다."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "앱 카운터 표시"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "아이콘 위의 숫자(예: 읽지 않은 메시지)"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "작업 진행률 표시"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "다운로드나 복사 중 아이콘 위에 나타나는 막대"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "항목"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "독이 앱 외에 표시하는 것."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "휴지통(_T)"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "드라이브와 USB 메모리(_U)"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "네트워크 위치(_N)"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "앱 단추(_A)"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "앱 단추 위치(_O)"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "앱 단추 아이콘(_I)"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "GNOME 기본값"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "배포판 로고"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "사용자 지정 이미지"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "선택(_C)…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "독의 폴더"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"폴더를 고정하면 독에서 바로 내용을 둘러볼 수 있습니다. 독에서 폴더를 제거해"
+"도 폴더와 그 안의 파일은 바뀌지 않습니다."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "독에 폴더 표시(_F)"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "기본 설정 복원(_R)…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "바탕 화면 아이콘"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr "바탕 화면 폴더의 파일과 폴더를 바탕 화면에 아이콘으로 표시합니다."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "바탕 화면에 아이콘 표시(_I)"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "바탕 화면 폴더"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "파일 앱에서 열기"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "아이콘"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "크기(_S)"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "작게"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "보통"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "크게"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "아주 크게"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "새 아이콘 배치 시작 위치(_P)"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "옮긴 아이콘은 제자리를 유지합니다"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "왼쪽 위"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "오른쪽 위"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "왼쪽 아래"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "오른쪽 아래"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "아이콘 배치(_A)"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "자유롭게"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "격자에 맞춤"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "항목 열기 방식(_O)"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "두 번 클릭"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "한 번 클릭"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "함께 표시"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "홈 폴더(_H)"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"숨김 파일은 표시하지 않습니다. 바탕 화면 아이콘을 꺼도 파일을 옮기거나 지우"
+"지 않습니다."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "상단 표시줄"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "앱 아이콘"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr "백그라운드에서 실행 중인 앱의 아이콘(예: 메신저, 파일 동기화)."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "앱 아이콘 표시(_A)"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "비활성 아이콘 표시(_I)"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "앱이 지금은 중요하지 않다고 표시한 아이콘"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "잠자기 방지"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"정한 시간 동안 또는 끌 때까지 컴퓨터가 자동으로 대기 모드에 들어가지 않게 하"
+"는 빠른 설정 단추입니다. 직접 대기 모드로 전환하는 것은 그대로 가능합니다."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "‘잠자기 방지’ 표시(_K)"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "화면도 켜 두기(_S)"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr "‘잠자기 방지’가 켜진 동안 화면이 자동으로 꺼지거나 잠기지 않습니다"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "사용자 지정 시간(_C)"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "분"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"StatusNotifierItem 표준을 쓰는 앱을 지원합니다. 옛 방식의 트레이 아이콘"
+"(XEmbed)은 지원하지 않습니다."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "창"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "제목 표시줄 단추"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"GNOME 설정이므로 Deskence를 제거해도 유지됩니다. 일부 브라우저처럼 제목 표시"
+"줄을 직접 그리는 앱은 이 설정을 무시할 수 있습니다."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "최소화 단추(_M)"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "최대화 단추(_A)"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "배치(_P)"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "항상 위"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"창을 다른 창 위에 둡니다. 창 메뉴(Alt+Space)와 독의 창 미리 보기 메뉴에도 있"
+"으며, 미리 보기에는 이런 창에 핀이 표시됩니다. 모든 작업 공간에 창을 표시하"
+"는 기능은 아니며, 그것은 창 메뉴의 별도 옵션입니다."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "바꾸기 전 설정 복원(_B)…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "이름을 비워 둘 수 없습니다."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "이름에 ‘/’를 넣을 수 없습니다."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "‘.’와 ‘..’는 올바른 이름이 아닙니다."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "같은 이름의 항목이 이미 있습니다."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "이름이 너무 깁니다."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "위치를 열 수 없습니다"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "‘{}’을(를) 열 수 없습니다"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "링크가 깨졌습니다: 가리키는 항목이 없습니다."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "실행기가 올바르지 않습니다."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "‘{}’을(를) 시작할 수 없습니다"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "신뢰하지 않는 실행기"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"‘{}’은(는) 신뢰함으로 표시되지 않았습니다. 이 파일의 출처를 아는 경우에만 실"
+"행을 허용하십시오."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "허용 후 실행(_A)"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "‘{}’의 실행을 허용할 수 없습니다"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "설정을 열 수 없습니다"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "Deskence를 열 수 없습니다"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "‘{}’을(를) 마운트 해제할 수 없습니다"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "‘.’로 시작하는 이름은 숨겨집니다."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "새 폴더"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "폴더 이름"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "만들기(_C)"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "폴더 이름 바꾸기"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "파일 이름 바꾸기"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "이름 바꾸기(_R)"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "새 폴더(_F)…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "붙여넣기(_P)"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "모두 선택(_A)"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "아이콘 정리(_R)"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "격자에 맞춤(_G)"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "이름(_N)"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "수정 시각(_M)"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "형식(_T)"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "정렬 기준(_S)"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "배경 바꾸기(_B)…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "바탕 화면 설정(_D)"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "열기(_O)"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "다른 앱으로 열기(_W)…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "실행 허용(_L)"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "잘라내기(_T)"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "복사(_C)"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "이름 바꾸기(_M)…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "휴지통으로 이동(_T)"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "휴지통 비우기(_E)…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "꺼내기(_E)"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "마운트 해제(_U)"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "속성(_P)"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "작업에 실패했습니다"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "휴지통을 비울 수 없습니다"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "휴지통을 비우려면 파일 앱이 필요합니다."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "속성을 표시할 수 없습니다"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "휴지통으로 이동할 수 없습니다"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "이름을 바꿀 수 없습니다"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "폴더를 만들 수 없습니다"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "파일을 이동할 수 없습니다"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "파일을 복사할 수 없습니다"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "홈"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "휴지통"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "바탕 화면"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "앱 표시"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "독 설정"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "위치를 열 수 없습니다"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "열기"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "휴지통 비우기…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "꺼내기"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "마운트 해제"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "드라이브를 꺼낼 수 없습니다"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "드라이브를 마운트 해제할 수 없습니다"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "%s의 창"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "창 닫기"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "프리셋(JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "이미지가 있는 프리셋"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "모든 프리셋"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "이름"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "고정한 앱"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "사용자 지정 이미지"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "설정과 함께 압축 파일에 저장됨"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "Deskence 설정을 기본값으로 복원할까요?"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"모든 Deskence 설정이 기본값으로, 앱 보기는 사용자가 정한 순서로 돌아갑니다. "
+"폴더는 독에서 제거되지만 폴더 자체는 건드리지 않습니다. 켠 기능, 고정한 앱, "
+"제목 표시줄 단추, 저장한 프리셋, 클립보드 기록은 바뀌지 않습니다."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "시스템과 같게({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "실행 취소(_U)"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "적용(_A)…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "이름 바꾸기(_R)…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "내보내기(_E)…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "삭제(_D)…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "더 보기"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "고정한 앱"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "독의 폴더"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "이미지"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "설정"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "설정 + {}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "내 설정"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "현재 설정 저장"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "저장(_S)"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "프리셋을 저장할 수 없습니다"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "‘{}’ 프리셋을 저장했습니다"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "프리셋 이름 바꾸기"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "프리셋 이름을 바꿀 수 없습니다"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "프리셋을 삭제할 수 없습니다"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "‘{}’ 프리셋을 삭제할까요?"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "현재 설정은 바뀌지 않습니다."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "삭제(_D)"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "설정 내보내기"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"설정은 읽을 수 있는 JSON 파일로 저장합니다. 이미지를 포함하면 설정과 이미지"
+"가 든 압축 파일이 됩니다."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Deskence 설정"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "내보낼 수 없습니다"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "설정을 내보냈습니다"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "설정 가져오기"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "가져올 수 없습니다"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "설정이 이미 이 프리셋과 같습니다."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "바꿀 것 없음"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "{}개 설정이 바뀝니다: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "‘{}’을(를) 적용할까요?"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "프리셋을 적용할까요?"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "적용(_A)"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "다음 변경 사항을 되돌리지 못했습니다: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "이전 설정을 복원했습니다."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "프리셋을 적용하지 않았습니다"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "바뀐 것이 없습니다."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "프리셋을 적용했습니다"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "프리셋을 실행 취소할 수 없습니다"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "실행 취소할 적용된 프리셋이 없습니다."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "이전 설정을 복원했습니다"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "마지막으로 적용한 프리셋을 실행 취소할까요?"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr "프리셋이 바꾼 설정이 적용 전 값으로 돌아갑니다."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "그 사이에 바뀐 설정이 있습니다"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"프리셋을 적용한 뒤 다음 설정이 바뀌었습니다: {}. 이것들도 되돌릴까요, 지금 상"
+"태로 둘까요?"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "그대로 두기(_K)"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "모두 실행 취소(_A)"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "보고서"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "저장(_S)…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "버그 보고용 정보"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "진단 정보를 복사했습니다"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "보고서 저장"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "보고서를 저장할 수 없습니다"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "보고서를 저장했습니다"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "기본 설정을 복원했습니다"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "기능"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "일반"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "앱 보기"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "클립보드"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "프리셋이라기에는 파일이 너무 큽니다."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "Deskence 프리셋 파일이 아닙니다."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "프리셋에 올바른 형식 버전이 없습니다."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"더 새로운 버전의 Deskence에서 만든 프리셋입니다. 사용하려면 Deskence를 업데이"
+"트하십시오."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "프리셋이라기에는 압축 파일이 너무 큽니다."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "압축 파일에 Deskence 프리셋이 없습니다."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "압축 파일이 손상되었습니다."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "프리셋의 설정 부분이 손상되었습니다."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "알 수 없는 부분 ‘{}’을(를) 무시했습니다."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "알 수 없는 설정 ‘{}’({})을(를) 무시했습니다."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"모니터 {}이(가) 연결되어 있지 않습니다. 연결될 때까지 독을 기본 모니터에 표시"
+"합니다."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "이 컴퓨터에서는 {}을(를) 사용할 수 없습니다."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "{}의 값이 올바르지 않아 건너뛰었습니다."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "관리자가 {}을(를) 잠갔습니다."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "이 컴퓨터에서는 ‘{}’ 언어를 사용할 수 없어 건너뛰었습니다."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "바로 가기 {}(‘{}’용)을(를) 가져오지 않았습니다: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "기능 목록이 손상되어 건너뛰었습니다."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "알 수 없는 기능 ‘{}’을(를) 무시했습니다."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr "이 컴퓨터에서는 고정한 앱을 사용할 수 없습니다."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "고정한 앱 목록이 손상되어 건너뛰었습니다."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr "설치되지 않음: {}. 설치하면 독에 나타납니다."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "독의 폴더 목록이 손상되어 건너뛰었습니다."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "‘{}’ 폴더의 항목이 올바르지 않아 건너뛰었습니다."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"이 컴퓨터에 표준 폴더 {}이(가) 설정되어 있지 않아 사용할 수 없음으로 표시합니"
+"다."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr "{} 폴더가 없어, 생길 때까지 사용할 수 없음으로 표시합니다."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"프리셋이 포함되지 않은 앱 단추 사용자 지정 이미지를 사용하므로 기본 아이콘을 "
+"사용합니다."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: Deskence를 root로 실행하지 말고 본인 사용자로 실행하십시오(sudo 없"
+"이)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"Deskence 설정 스키마가 설치되어 있지 않습니다. deskence 패키지를 다시 설치하"
+"십시오."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "바뀐 것이 없습니다: 설정을 저장할 수 없습니다."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"이 변경은 확인이 필요합니다. 묻지 않고 확인하려면 --yes를 붙여 명령을 다시 실"
+"행하십시오."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "y/N"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "y"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "예"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"저장했습니다. 현재 GNOME 세션에서 변경 사항을 확인하지 못했으니 다시 로그인해"
+"야 할 수 있습니다."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "실행 중"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "실행 중 아님"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "오류"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "지원하지 않는 GNOME 버전"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "다시 로그인하면 시작"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "업데이트됨, 다시 로그인하면 새 버전"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "설치되지 않음"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "알 수 없음(GNOME Shell에 연결할 수 없음)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: 실행 중인 세션의 상태를 보여 줍니다."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr "GNOME Shell에 연결할 수 없습니다: 저장된 설정만 알 수 있습니다."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr ""
+"GNOME 확장 기능이 꺼져 있습니다. 켜기 전까지는 어떤 기능도 동작하지 않습니다."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "기능"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "저장됨"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "이 세션"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "켜짐"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "꺼짐"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr "{}: 설치된 사본 대신 홈 폴더의 사본을 사용합니다: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr "{}: 저장된 설정이 세션과 다릅니다. 다시 로그인하면 적용됩니다."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr "{}: ‘{}’도 같은 기능을 제공합니다. 둘을 함께 쓰면 문제가 생깁니다."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: ‘{}’도 같은 기능을 제공할 수 있습니다."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "기능 이름과 --all 중 하나만 지정하십시오."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr "기능을 하나 이상 지정하거나 --all을 사용하십시오. 기능: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "알 수 없는 기능: {}. 기능: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "설정을 저장할 수 없습니다"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: 켬"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: 끔"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: 이미 켜져 있음"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: 이미 꺼져 있음"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: 저장된 설정에서 이미 켜져 있음"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: 저장된 설정에서 이미 꺼져 있음"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: 실패: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"GNOME 확장 기능이 꺼져 있습니다. 확장 기능을 켜면 켠 기능이 시작됩니다"
+"(gsettings set org.gnome.shell disable-user-extensions false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr ""
+"‘{}’(이)라는 저장된 프리셋이 없습니다. deskence preset list를 참고하십시오."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr ""
+"‘{}’(이)라는 저장된 프리셋이 여러 개 있습니다. 다음 ID 중 하나를 사용하십시"
+"오: {}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "기능 {}: 켜기"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "기능 {}: 끄기"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "독: 앱 단추 사용자 지정 이미지"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "경고: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "건너뜀: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "프리셋을 적용하지 않았습니다: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "다음 변경 사항을 되돌리지 못했습니다: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "이전 설정을 복원했습니다."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "프리셋을 적용하지 않았으며 바뀐 것이 없습니다. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"프리셋이 일부만 적용되었으며 다음 설정은 저장되지 않았습니다: {}. 실행 취소: "
+"deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "기능 {}: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "저장된 프리셋이 없습니다."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "이름"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ID"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "만든 시각"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "설정이 이미 ‘{}’ 프리셋과 같습니다."
+
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "‘{}’ 프리셋은 설정 {}개를 바꿉니다:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "바뀐 것이 없습니다(--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "프리셋을 적용할까요?"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr "‘{}’ 프리셋을 적용했습니다. 실행 취소: deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "{}을(를) 가져올 수 없습니다: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"‘{}’(이)라는 저장된 프리셋이 이미 있습니다. --name으로 다른 이름을 고르거나 "
+"--replace로 바꾸십시오."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr ""
+"‘{}’ 프리셋은 올바르며 저장할 수 있습니다. 바뀐 것은 없습니다(--dry-run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr "‘{}’ 프리셋을 {}(으)로 저장했습니다. 적용: deskence preset apply {}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "프리셋을 저장하고 적용할까요?"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"‘{}’ 프리셋을 {}(으)로 저장하고 적용했습니다. 실행 취소: deskence preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "{}은(는) 폴더입니다. 파일 이름을 지정하십시오."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "{}이(가) 이미 있습니다. 바꾸려면 --force를 사용하십시오."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "{}에 쓸 수 없습니다: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "설정을 {}(으)로 내보냈습니다(이미지가 든 압축 파일)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "설정을 {}(으)로 내보냈습니다."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr "사용 중인 사용자 지정 이미지가 없어 파일은 일반 JSON입니다."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr "설정이 마지막으로 가져오기 직전 상태로 돌아갑니다."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "프리셋이 바꾼 것 중 되돌릴 수 있는 것이 없습니다."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "‘{}’을(를) 실행 취소하면 다음을 복원합니다:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"프리셋 적용 후에 바뀌었으므로 그대로 둡니다(이것도 되돌리려면 --include-"
+"changed를 추가하십시오): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "프리셋을 실행 취소할까요?"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "프리셋을 일부만 실행 취소했습니다: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "이전 설정을 복원했습니다."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "복원할 항목과 --all 중 하나만 지정하십시오."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr "복원할 항목을 지정하거나 --all을 사용하십시오. 선택지: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "알 수 없는 선택: {}. 선택지: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "모두 이미 기본값입니다. 복원할 것이 없습니다."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "기본값으로 복원({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "Deskence 전체"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "앱 보기가 사용자가 정한 순서로 돌아갑니다."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "app-grid 기능(가나다순)을 끕니다."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"바뀌지 않는 것: 켠 다른 기능, 고정한 앱, 바탕 화면의 파일, 사용자 지정 이미"
+"지, 저장한 프리셋, 클립보드 기록."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "이 설정을 복원할까요?"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "일부 설정을 복원하지 못했습니다: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "기본 설정을 복원했습니다."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: 오류: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"명령줄에서 다루는 Deskence 설정. 명령 없이 실행하면 설정 창이 열립니다"
+"(deskence [--page 페이지])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"기능: {}. 종료 상태: 0 완료, 1 실패, 2 잘못된 명령줄, 3 확인되지 않음, 4 저장"
+"했으나 실행 중인 GNOME 세션에서 확인되지 않음. man deskence를 참고하십시오."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "명령"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "텍스트 대신 JSON 문서로 출력"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "각 기능의 저장된 상태와 실행 상태 표시"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "기능 켜기"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "기능 끄기(설정은 유지)"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "다음 중 하나: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "모든 Deskence 기능(다른 확장 기능은 제외)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "프리셋 목록 보기, 적용, 가져오기, 내보내기"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "프리셋은 {}에 저장합니다."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "동작"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "바뀔 내용만 표시"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "확인을 묻지 않음"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "저장한 프리셋 표시"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "저장한 프리셋 적용"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "저장한 프리셋의 이름 또는 ID"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr "프리셋 파일을 검사하고 프리셋 목록에 저장"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "파일"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr ".json 프리셋 또는 .deskence 압축 파일"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "이 이름으로 저장"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "같은 이름의 저장된 프리셋 바꾸기"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "바로 적용도 함"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "현재 설정을 파일로 기록"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "프리셋에 저장할 이름"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "고정한 앱 포함"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "독의 폴더 포함"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "사용자 지정 이미지 포함(압축 파일로 기록)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "기존 파일 바꾸기"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "마지막으로 적용한 프리셋 실행 취소"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr "프리셋 적용 후 바뀐 설정도 실행 취소"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "기본 설정 복원"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "부분"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "모든 Deskence 설정(app-grid 기능도 끔)"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "버그 보고용 보고서 표시(아무것도 보내지 않음)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"세션 버스를 사용할 수 없어 dconf가 설정을 저장할 수 없습니다. GNOME 세션의 터"
+"미널에서, 또는 같은 사용자로 텍스트 콘솔에 로그인한 뒤 명령을 실행하십시오."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr "설정이 메모리에만 보관되므로(GSETTINGS_BACKEND=memory) 사라집니다."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "클립보드 기록 표시"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "복사한 텍스트와 이미지의 기록을 엽니다"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr "포커스를 받은 창의 ‘항상 위’를 켜고 끕니다(GNOME 바로 가기)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "Deskence 설정 창에서"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "올바른 바로 가기가 아닙니다."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "보조 키만으로는 바로 가기가 될 수 없습니다."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr "Ctrl, Alt, Super와 함께 키를 누르거나 기능 키를 사용하십시오."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"앱이 직접 쓰는 종류의 바로 가기입니다. Super를 더하거나 Ctrl과 Alt를 함께 쓰"
+"십시오."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "사용자 지정 바로 가기"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "이미 사용 중: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "독, 작업 표시줄, 실행기, 패널, dock, taskbar, launcher"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "확대, 줌, 돋보기, zoom"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "자동 숨기기, 숨기기, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "스택, 폴더, 다운로드, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "미리 보기, 창, 썸네일, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "배지, 읽지 않음, 알림, 메시지, 카운터, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "다운로드, 진행률, 진행 막대, download"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "바탕 화면, 파일, 아이콘, desktop"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr "앱 격자, 앱, 프로그램, 실행기, 메뉴, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "정렬, 가나다순, 순서, 배치"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "폴더, 타일, 그룹"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "포인터 올림, 강조 표시, 포인터, hover"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "트레이, 표시기, 상태 아이콘, 알림 영역, tray"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "대기 모드, 절전, 카페인, caffeine, 방지, 깨어 있음"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "화면 보호기, 빈 화면, 잠금"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "제목 표시줄, 단추, 최소화, 최대화"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "복사, 붙여넣기, 클립보드, 기록, clipboard"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr "키보드, 키보드 바로 가기, 키, 단축키, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "버그, 진단, 보고서, 문제, bug"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "백업, 프리셋, 옮기기, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "언어, 번역, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "꺼짐"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "기본 바로 가기 복원"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "바로 가기 설정"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "‘{}’의 새 바로 가기를 누르십시오. Escape를 누르면 취소합니다."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "기본값 복원(_D)"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "기본 바로 가기가 이미 사용 중입니다: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "이 바로 가기를 사용할 수 없습니다"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "키보드 바로 가기"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "어디서나"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"다른 Deskence 바로 가기나 GNOME 자체 바로 가기와 충돌하면 거부합니다. 다른 앱"
+"과 확장 기능의 바로 가기는 검사할 수 없습니다."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "설정 창에서"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "‘{}’이(가) 켜진 동안 동작합니다"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "한국어"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "세션 시작"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "로그인 후 바탕 화면 표시(_D)"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "현재 활동 대신 바탕 화면에서 시작"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr "독, 바탕 화면, 그 밖의 기능은 항상 시스템 언어를 사용합니다."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "앱 언어(_L)"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "설정과 deskence 명령"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "새 언어는 다시 시작한 뒤에 사용합니다"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "다시 시작(_R)"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "프리셋"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr "현재 설정을 저장해 두면 나중에 되돌아올 수 있습니다."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "저장된 프리셋 없음"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "현재 설정 저장(_S)…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "설정 옮기기"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"설정을 다른 컴퓨터로 옮기거나 다시 설치할 때를 위해 보관하십시오. 가져오기 전"
+"에 무엇이 바뀌는지 볼 수 있습니다."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "파일로 내보내기(_E)…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "파일에서 가져오기(_I)…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "마지막으로 적용한 프리셋 실행 취소(_U)…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "키보드 바로 가기(_K)"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr "Deskence의 모든 바로 가기를 한곳에서 보고 바꿉니다"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"버그 보고서에 붙여 넣을 버전, 세션 종류, 모니터, 각 기능의 상태. 개인 정보는 "
+"포함하지 않으며 어디로도 보내지 않습니다."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "보고서 보기(_H)…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "진단 정보 복사(_C)"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "보고서를 파일로 저장(_F)…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "Deskence 기본 설정 복원(_R)…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "순서"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr "전체 화면 앱 보기에서 앱을 배치하는 방법."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "앱 순서(_O)"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "사용자 지정 순서"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "가나다순"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "배경"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "끄면 GNOME 스타일의 색을 사용합니다"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "사용자 지정 배경 투명도(_T)"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "끄면 GNOME처럼 배경이 불투명합니다"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "배경 투명도(_B)"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "앱 폴더"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "사용자 지정 폴더 색(_L)"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "폴더 색"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "사용자 지정 폴더 투명도(_P)"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "끄면 GNOME 스타일의 투명도를 사용합니다"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "폴더 투명도(_A)"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "포인터 강조 표시"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "사용자 지정 강조 표시 색(_H)"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "강조 표시 색"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "사용자 지정 강조 표시 투명도(_Y)"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"복사와 붙여 넣기는 전과 같이 동작합니다. 복사한 텍스트와 이미지의 기록은 전"
+"용 바로 가기로 엽니다."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "클립보드 기록(_C)"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "고른 항목 붙여 넣기(_P)"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Ctrl+V(터미널에서는 Ctrl+Shift+V)로 이전 창에 붙여 넣습니다. 끄면 항목을 클립"
+"보드에만 넣습니다."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "항상 서식 없이 텍스트 붙여 넣기(_W)"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"오래된 항목은 항상 일반 텍스트입니다. Shift+Enter를 누르면 언제든 일반 텍스트"
+"로 붙여 넣습니다."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "선택한 텍스트도 기억(_T)"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "마우스로 선택하여 가운데 단추로 붙여 넣는 텍스트"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "저장소"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"기록은 메모리에만 보관하며 로그아웃하면 사라집니다. 고정한 항목은 기록을 지워"
+"도 남으며 개수 제한에 포함되지 않습니다. 앱이 비밀로 표시한 내용(예: 암호 관"
+"리자)은 기억하지 않지만 모든 암호를 알아낼 수 있는 것은 아닙니다."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "기억할 항목 수(_I)"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "로그아웃 후 보관(_K)"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "없음"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "고정한 항목"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "기록 전체"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "기억 일시 중지(_A)"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "이 옵션을 끌 때까지 새 항목을 추가하지 않습니다"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "%s 폴더"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "뒤로"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "날짜"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "형식"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "정렬: %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "격자로 보기"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "목록으로 보기"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "이 표준 폴더가 설정되어 있지 않습니다."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "불러오는 중…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "이 폴더가 더 이상 없습니다."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "이 폴더를 열 권한이 없습니다."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "이 폴더를 열 수 없습니다: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "이 폴더는 비어 있습니다."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"이 폴더에 항목이 %d개보다 많아 앞부분만 보여 줍니다. 모두 보려면 파일 앱에서 "
+"여십시오."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "폴더"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "‘%s’을(를) 열 수 없습니다"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "복사"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "잘라내기"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "%s을(를) 사용할 수 없습니다"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "%s은(는) 읽기 전용입니다"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "폴더를 자기 자신 안에 넣을 수 없습니다"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "이미 %s에 있음"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "폴더에는 파일만 넣을 수 있습니다"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "%s(으)로 이동"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "%s(으)로 복사"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "%s(으)로 이동 또는 복사"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "파일을 %s(으)로 이동할 수 없습니다"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "파일을 %s(으)로 복사할 수 없습니다"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr "독에서 파일을 복사하고 이동하려면 파일 앱이 필요합니다."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "%s에서 파일을 열 수 없습니다"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "%s(으)로 열기"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "%s은(는) 파일을 열 수 없습니다"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "%s이(가) 이 파일을 여는지 확인할 수 없습니다"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "파일 중 %d개를 더 이상 사용할 수 없습니다"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "%s은(는) 이 형식의 파일을 열지 않습니다"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "%s은(는) 이 파일 중 %d개를 열지 않습니다"
+
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, 새 항목 %d개"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "앱이 가나다순으로 정렬되어 있습니다"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr "직접 배치하려면 Deskence에서 ‘사용자 지정 순서’를 고르십시오."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "붙여 넣을 준비 완료"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "방금"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d분 전"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d시간 전"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "클립보드 기록"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "기록 검색"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "기록 지우기"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: 붙여넣기 · Shift+Enter: 일반 텍스트로 붙여넣기 · Delete: 제거 · "
+"Ctrl+P: 고정"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "기억 다시 시작"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "기억 일시 중지"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "다시 클릭하면 지웁니다"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr "다시 클릭하면 고정한 항목을 뺀 모든 항목을 제거합니다."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "다시 시작할 때까지 새 항목을 기억하지 않습니다."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr "아직 복사한 것이 없습니다. 복사한 항목이 여기에 나타납니다."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "검색과 일치하는 항목이 없습니다."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "이미지, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "고정 해제"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "고정"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "제거"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "‘잠자기 방지’ 켜짐: 화면이 켜진 채로 유지됩니다"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "‘잠자기 방지’ 켜짐"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "간단히"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "자동 대기 모드 방지"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "끌 때까지"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d분"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d시간"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "화면 켜 두기"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "그러면 화면이 자동으로 꺼지거나 잠기지 않습니다"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "지금 끝내기"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "%s까지"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "끌 때까지"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "%d분 남음"

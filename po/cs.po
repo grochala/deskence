@@ -1,0 +1,4508 @@
+# Czech translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Czech\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "Nastavení plochy"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr "Dok, ikony na ploše, ikony aplikací na horní liště a tlačítka oken"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"dok;plocha;ikony;oznamovací oblast;indikátor;hlavní "
+"panel;minimalizovat;maximalizovat;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "Dok, ikony na ploše a oznamovací oblast pro GNOME"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Deskence přidává do standardní plochy GNOME několik vymožeností a umožňuje "
+"je nastavit na jednom místě."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"Dok s připnutými a spuštěnými aplikacemi, složkami, jednotkami a košem a s "
+"náhledy oken"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "Soubory a složky na ploše"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr ""
+"Ikony aplikací na horní liště, například komunikátorů a synchronizace souborů"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "Historie schránky a „Neuspávat“ v rychlém nastavení"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "Abecední řazení v zobrazení aplikací"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr "Tlačítka pro minimalizaci a maximalizaci v záhlavích oken"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr "Předvolby pro uložení nastavení a jejich přenesení na jiný počítač"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr ""
+"Funguje ve vašem stávajícím sezení GNOME a zachovává standardní vzhled GNOME."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"Deskence je nyní k dispozici ve 29 jazycích: ve všech úředních jazycích "
+"Evropské unie, v korejštině, ve zjednodušené a tradiční čínštině, v srbštině "
+"a ve filipínštině. Seznam jazyků v nastavení uvádí jazyk, který používá "
+"systém."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"Nastavení: jazyk okna nastavení a příkazu deskence lze zvolit na stránce "
+"Obecné nezávisle na systému."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"Dok: kopírujte nebo vyjměte soubory a složky v panelu složky (pravé "
+"tlačítko, Ctrl+C, Ctrl+X) a vložte je v aplikaci Soubory nebo na plochu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Dok: přetáhněte soubory a složky z panelu složky na jinou složku v doku nebo "
+"na plochu a přesuňte nebo zkopírujte je."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Dok: aplikace otevírají upuštěné soubory jen těch typů, které deklarují; "
+"jinak dok vysvětlí proč."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr "Dok: značka pod složkami odpovídá tečkám aplikací."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"Začít na ploše: po přihlášení plocha, horní lišta a okna znovu reagují na "
+"kliknutí, když jsou vypnuté animace, například ve virtuálních počítačích bez "
+"3D akcelerace; dříve reagoval jen dok, dokud se jednou neotevřel přehled."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"Volitelná diagnostika pro hlášení plochy a oken, které přestanou reagovat na "
+"kliknutí."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"Dok: přetahování souborů na dok vždy skončí čistě, i když se při upuštění "
+"něco nepovede."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Dok: upusťte soubory na aplikaci, aby se v ní otevřely, nebo na složku, aby "
+"se do ní zkopírovaly nebo přesunuly; podržte soubor nad složkou, aby se "
+"otevřela, a upusťte ho do některé z jejích podsložek."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"Nastavení: vyhledávání v každém nastavení pomocí Ctrl+F, správa všech "
+"klávesových zkratek na jednom místě s kontrolou kolizí a kopírování nebo "
+"uložení hlášení pro chybová hlášení."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"Předvolby: zrušení použité předvolby obnoví jen to, co změnila, a zachová "
+"nastavení, která jste změnili později."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr ""
+"Dok: počítadla nepřečtených a průběh operací na ikonách aplikací, které je "
+"hlásí."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"Příkazový řádek: kontrola stavu každé funkce, vypínání a zapínání funkcí, "
+"použití, import a export předvoleb, obnovení výchozího nastavení a sběr "
+"diagnostiky příkazem deskence, i z textové konzole, když plocha nefunguje. "
+"Viz man deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"Obnovení výchozího nastavení už nemaže historii schránky, která se uchovává "
+"po odhlášení."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"Zobrazení aplikací: vlastní barva a průhlednost zvýraznění pod ukazatelem na "
+"aplikacích a složkách aplikací; přejetí přes složku už nekreslí obrys."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"Složky v doku: panel zabírá nejvýše polovinu výšky obrazovky, umožňuje "
+"projít celou složku, i klávesnicí, a po podsložce se vrátí na předchozí "
+"místo."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"Nastavení: srozumitelnější popisy, lepší polské formulace a méně "
+"kolidujících klávesových zkratek."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"Dok: dok přes celý okraj ladí s horní lištou v přehledu činností a v "
+"zobrazení aplikací; krátký dok si zachovává vlastní vzhled."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"Zobrazení aplikací: dlaždice složek s vlastní barvou nebo průhledností nyní "
+"zřetelně ukazují přejetí, stisknutí, zaměření a výběr."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"Zobrazení aplikací: vlastní barva a průhlednost dlaždic složek, jako je "
+"„Nástroje“."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"Obecné: volitelně začínat po přihlášení na ploše místo v přehledu činností."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr "Dok: nyní splývá s přehledem činností místo samostatného pruhu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"Odkazy na stránku projektu a hlášení chyb, dokumentace v angličtině. Žádné "
+"změny v aplikaci."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"Nastavení: stránka Obecné s předvolbami, exportem a importem nastavení a "
+"obnovením výchozích hodnot; stránka Zobrazení aplikací s abecedním řazením; "
+"klidnější náhledy."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"Dok: složky zobrazující svůj obsah, zavírání oken a nahlížení do nich z "
+"jejich náhledů, „Vždy navrchu“ v nabídce náhledu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"Novinky: historie schránky, „Neuspávat“ v rychlém nastavení, klávesová "
+"zkratka pro „Vždy navrchu“."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Better GNOME Desktop se nyní jmenuje Deskence. Nastavení, zapnuté funkce, "
+"připnuté aplikace a umístění ikon na ploše se převezmou."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"Dok: náhledy oken aplikace, když na ní spočine ukazatel, žádné místo navíc "
+"vedle tlačítka aplikací při zvětšení ikon, indikátory běhu pod ikonami "
+"spodního doku."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"Nastavení: větší a přehlednější náhledy doku a ikon na ploše, ikony stránek, "
+"položka nabídky „O aplikaci“."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Better GNOME Desktop se nyní jmenuje Deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"Dok: ostré zvětšené ikony, žádné dlaždice pod ikonami s vlastním pozadím, "
+"jednobarevné logo distribuce, seznam aplikací na začátku doku přes celý "
+"okraj, indikátory běhu na vnitřní straně."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"Zobrazení aplikací: jeden plynulý přechod při zavírání, volitelná vlastní "
+"barva pozadí."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"Plocha: nabídky se otevírají v místě kliknutí, i vedle doku; mřížka ikon "
+"začíná ve zvoleném rohu s malými okraji."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"Dok: tlačítko aplikací na kterémkoli konci s volbou ikony, zvětšování ikon, "
+"posouvání, když se aplikace nevejdou, vlastní barva a průhlednost pozadí, "
+"nastavení v nabídce tlačítka aplikací, průhledné pozadí zobrazení aplikací."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"Ikony na ploše: volné umístění nebo přichytávání k mřížce, „Zarovnat do "
+"mřížky“, celá plocha vedle doku k dispozici, umístění ikon, která se "
+"neposouvají s dokem."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"Opravy: plynulé zavírání zobrazení aplikací, okamžité přeuspořádání ikon "
+"doku, žádný rámeček při přetahování ikon na ploše, všude stejná nabídka "
+"plochy."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "První vydání."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "Verze struktury nastavení"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"Používá ji aplikace nastavení k převodu uložených hodnot mezi vydáními. 0 "
+"znamená, že nastavení nebylo nikdy převedeno."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "Nastavení z Better GNOME Desktop bylo převzato"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Nastaví se, jakmile se sem zkopíruje nastavení uložené aplikací Better GNOME "
+"Desktop (0.3.0 a starší). Hodnoty, které zde již jsou nastavené, se nikdy "
+"nepřepíší; předchozí nastavení zůstane zachováno."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "Po přihlášení zobrazit plochu"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"Je-li zapnuto, nové sezení začne na ploše místo v přehledu činností. Týká se "
+"jen začátku sezení: pozdější otevření přehledu, odemknutí obrazovky ani "
+"zapínání a vypínání funkcí ho nikdy nezavře. Uplatňuje to rozšíření doku."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Jazyk aplikace Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"Jazyk okna nastavení a příkazu deskence: kód překladu nainstalovaného s "
+"Deskence (například \"pl\"), \"en\" pro angličtinu nebo prázdné pro řízení "
+"se systémem. Kód bez nainstalovaného překladu znamená angličtinu. Rozšíření "
+"GNOME Shell a ikony na ploše se vždy řídí jazykem GNOME Shell. Uplatní se "
+"při spuštění aplikace."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "Okraj obrazovky s dokem"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\" (vlevo), \"bottom\" (dole) nebo \"right\" (vpravo)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "Délka doku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr ""
+"\"fit\": jen tak dlouhý, jak potřebují ikony. \"full\": celý okraj obrazovky."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "Velikost ikon v logických pixelech"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"Škáluje se podle měřítka monitoru a faktoru škálování textu motivu shellu "
+"jako ostatní ikony GNOME Shell."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "Kdy se dok skrývá"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": vždy viditelný a okna se drží mimo jeho oblast. \"intellihide\": "
+"skrytý, dokud ho překrývá okno na stejném monitoru. \"autohide\": skrytý, "
+"dokud ukazatel nedosáhne okraje obrazovky."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "Na kterých monitorech se dok zobrazuje"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\" (hlavní), \"selected\" (vybraný, viz selected-monitor) nebo "
+"\"all\" (všechny)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "Konektor vybraného monitoru"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"Název konektoru, například \"DP-1\". Používá se, když má monitor-mode "
+"hodnotu \"selected\"; dokud tento monitor není připojen, použije se hlavní "
+"monitor."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "Zobrazovat koš"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "Zobrazovat výměnné jednotky"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "Zobrazovat síťová umístění"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "Zobrazovat tlačítko aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "Kde je tlačítko aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": první položka doku (vlevo ve vodorovném doku, nahoře ve svislém). "
+"\"end\": poslední položka (vpravo nebo dole)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "Ikona tlačítka aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": ikona aplikací GNOME. \"distribution\": logo nainstalované "
+"distribuce z ikon nainstalovaných v systému; výchozí ikona, pokud žádné "
+"není. \"custom\": obrázek z apps-button-custom-icon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "Vlastní ikona tlačítka aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"Cesta ke kopii zvoleného obrázku uložené v uživatelské datové složce "
+"Deskence, aby fungovala i po přesunutí nebo smazání původního souboru. Pokud "
+"soubor nelze načíst, použije se výchozí ikona."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "Zvětšovat ikony pod ukazatelem"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"Ikony poblíž ukazatele se plynule zvětšují, když se pohybuje nad dokem. "
+"Nezobrazuje se, když jsou v GNOME vypnuté animace."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "Síla zvětšení"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr "Velikost ikony pod ukazatelem vzhledem k její normální velikosti."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "Vlastní barva pozadí doku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr "Je-li vypnuto, má pozadí doku barvu aktuálního stylu GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "Barva pozadí doku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"Barva ve tvaru \"#rrggbb\", použije se, když je background-custom-color "
+"zapnuto. Nemá vlastní průhlednost: tu určuje background-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "Vlastní průhlednost pozadí doku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr ""
+"Je-li vypnuto, je pozadí doku tak průhledné, jak ho udělá aktuální styl "
+"GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "Průhlednost pozadí doku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: neprůhledné. 100: zcela průhledné. Jen pozadí; ikony, indikátory, popisky "
+"a nabídky si zachovají vlastní viditelnost. Použije se, když je background-"
+"custom-transparency zapnuto."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "Vlastní průhlednost pozadí zobrazení aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr ""
+"Je-li vypnuto, má celoobrazovkové zobrazení aplikací otevřené z doku "
+"standardní pozadí GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "Vlastní barva pozadí zobrazení aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"Je-li vypnuto, má celoobrazovkové zobrazení aplikací otevřené z doku barvu "
+"standardního pozadí GNOME. Nezávislé na pozadí doku."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "Barva pozadí zobrazení aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"Barva ve tvaru \"#rrggbb\", použije se, když je app-grid-custom-color "
+"zapnuto. Nemá vlastní průhlednost: tu určuje app-grid-transparency (nebo je "
+"neprůhledná, když je app-grid-custom-transparency vypnuto)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "Průhlednost pozadí zobrazení aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: neprůhledné pozadí (standardní nebo vlastní barva). 100: zcela průhledné, "
+"za aplikacemi je vidět jen tapeta. Mění se jen pozadí; ikony, názvy a "
+"vyhledávací pole zůstávají plně viditelné. Použije se, když je app-grid-"
+"custom-transparency zapnuto."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "Vlastní barva pozadí složek aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"Je-li vypnuto, mají dlaždice složek v zobrazení aplikací (jako \"Nástroje\") "
+"barvu aktuálního stylu GNOME. Mění se jen pozadí dlaždice; miniatury "
+"aplikací a název složky zůstávají beze změny a panel otevřené složky není "
+"ovlivněn."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "Barva pozadí složek aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"Barva ve tvaru \"#rrggbb\", použije se, když je app-grid-folder-custom-color "
+"zapnuto. Nemá vlastní průhlednost: tu určuje app-grid-folder-transparency "
+"(nebo alfa stylu GNOME, když je app-grid-folder-custom-transparency vypnuto)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "Vlastní průhlednost pozadí složek aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"Je-li vypnuto, jsou dlaždice složek v zobrazení aplikací tak neprůhledné, "
+"jak je udělá aktuální styl GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "Průhlednost pozadí složek aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: neprůhledné pozadí dlaždice. 100: zcela průhledné; složku poznáte podle "
+"miniatur aplikací a názvu. Přejetí, výběr a zaměření klávesnicí zůstávají "
+"viditelné. Použije se, když je app-grid-folder-custom-transparency zapnuto."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr "Vlastní barva zvýraznění při přejetí v zobrazení aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"Je-li vypnuto, má zvýraznění pod ukazatelem na aplikacích, složkách aplikací "
+"a aplikacích v otevřené složce barvu aktuálního stylu GNOME. Dok, plocha a "
+"zásobníky složek nejsou ovlivněny."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "Barva zvýraznění při přejetí v zobrazení aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"Barva ve tvaru \"#rrggbb\", použije se, když je app-grid-hover-custom-color "
+"zapnuto. Nemá vlastní průhlednost: tu určuje app-grid-hover-transparency "
+"(nebo alfa stylu GNOME, když je app-grid-hover-custom-transparency vypnuto)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr "Vlastní průhlednost zvýraznění při přejetí v zobrazení aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"Je-li vypnuto, je zvýraznění při přejetí tak neprůhledné, jak ho udělá "
+"aktuální styl GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr "Průhlednost zvýraznění při přejetí v zobrazení aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: neprůhledné zvýraznění. 100: zcela průhledné; složka pak vypadá pod "
+"ukazatelem stejně jako v klidu. Mění se jen zvýraznění; ikony a názvy "
+"zůstávají plně viditelné a zaměření klávesnicí zůstává vyznačené. Použije "
+"se, když je app-grid-hover-custom-transparency zapnuto."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "Kliknutí na spuštěnou aplikaci"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": zaměří naposledy použité okno; když už je aplikace "
+"zaměřená, přepne na její další okno. \"minimize-or-cycle\": jako focus-or-"
+"cycle, ale aplikace s jediným zaměřeným oknem se minimalizuje."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "Zobrazovat jen aplikace z aktuální pracovní plochy"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"Je-li zapnuto, zobrazují se spuštěné (nepřipnuté) aplikace jen tehdy, když "
+"mají okno na aktivní pracovní ploše, a kliknutí přepíná jen mezi těmito okny."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "Zobrazovat počítadla aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"Je-li zapnuto, aplikace, která hlásí počítadlo (například nepřečtené zprávy "
+"přes rozhraní D-Bus LauncherEntry), ho zobrazí na své ikoně v doku. "
+"Aplikace, které nic nehlásí, nic nezobrazují."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "Zobrazovat průběh aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"Je-li zapnuto, aplikace, která hlásí průběh operace (například stahování "
+"přes rozhraní D-Bus LauncherEntry), ho zobrazí jako pruh na své ikoně v doku."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "Zobrazovat náhledy oken při přejetí"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"Když ukazatel spočine na spuštěné aplikaci, zobrazí se její okna (ta, která "
+"dok počítá, viz isolate-workspaces) s názvy; kliknutí na některé z nich ho "
+"aktivuje."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "Nahlédnout do okna z jeho náhledu"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"Dokud ukazatel spočívá na náhledu okna, zobrazí se toto okno na chvíli nad "
+"ostatními, ztlumenými. Nic se nezaměří, nevyzdvihne, neobnoví ani nepřesune; "
+"opuštění náhledu nebo stisk Escape to ukončí."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "Složky v doku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"Složky zobrazené v doku, v pořadí. Každá položka je \"xdg:NÁZEV\" pro "
+"standardní složku (NÁZEV jako v GLib.UserDirectory bez předpony DIRECTORY_, "
+"například \"xdg:DOWNLOAD\"), \"home:RELATIVNÍ/CESTA\" pro složku v domovské "
+"složce nebo URI \"file://\" pro jakoukoli jinou složku. Odebrání položky se "
+"složky nikdy nedotkne."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "Zobrazovat složky v doku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr ""
+"Je-li vypnuto, složky ve folder-stacks zůstanou zachovány, ale nezobrazí se."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "Jak se zobrazuje obsah složek"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": velké ikony. \"list\": menší ikony s velikostí a datem. Mění se v "
+"panelu složky."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "Pořadí řazení každé složky"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"Přiřazuje položce folder-stacks hodnotu \"name\", \"modified\" (nejnovější "
+"první) nebo \"type\". Složka bez položky se řadí podle názvu, kromě "
+"Stažených (xdg:DOWNLOAD), které zobrazují nejnovější soubory první. Mění se "
+"v panelu složky."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "Velikost ikon na ploše"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) nebo \"huge\" (128 "
+"px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "Roh, do kterého se umisťují nové ikony"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "Zobrazovat domovskou složku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "Zobrazovat jednotky a flash disky USB"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "Jak se umisťují přesunuté ikony"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": ikony zůstanou přesně tam, kam je upustíte. \"grid\": upuštěné "
+"ikony se přichytí k mřížce. Změna nepřesune existující ikony; to dělá "
+"„Zarovnat do mřížky“ v nabídce plochy."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "Otevírat položky jedním nebo dvojitým kliknutím"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "Pořadí, které používá „Uspořádat ikony“"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "Mění se v nabídce plochy „Seřadit podle“."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "Zobrazovat pasivní ikony aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"StatusNotifierItem definuje stav \"Passive\" pro ikony, které aplikace "
+"považuje za nedůležité. Jsou skryté, pokud tato hodnota není zapnutá."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "Rozložení tlačítek před první změnou"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"Hodnota button-layout z org.gnome.desktop.wm.preferences uložená předtím, "
+"než ji Deskence poprvé změnil. Prázdná, pokud se nic nezměnilo."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "Rozložení tlačítek naposledy zapsané Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"Slouží ke zjištění, zda uživatel rozložení později změnil jinde; původní "
+"hodnota se nabízí k obnovení jen tehdy, když se aktuální hodnota stále rovná "
+"této."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "Pořadí zobrazení aplikací"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": uspořádání vytvořené uživatelem (vlastní app-picker-layout GNOME "
+"a seznamy složek). \"alphabetical\": aplikace a složky podle zobrazovaného "
+"názvu v jazyce uživatele, i aplikace uvnitř každé složky; přeuspořádání "
+"přetažením je vypnuté. Aktualizuje rozšíření app-grid."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "Uspořádání uložené před abecedním řazením"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"JSON zapsaný, když se sort-mode změní na \"alphabetical\": předchozí app-"
+"picker-layout z org.gnome.shell (text GVariant) a seznam aplikací každé "
+"složky. Obnoví se, když se sort-mode vrátí na \"custom\". Interní; není "
+"součástí předvoleb."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "Klávesová zkratka pro otevření historie schránky"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "Největší počet zapamatovaných položek"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr ""
+"Připnuté položky se nepočítají. Nejstarší položky se zapomínají jako první."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "Co se uchová po odhlášení"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": historie je jen v paměti a po odhlášení zmizí. \"pinned\": "
+"připnuté položky se ukládají do uživatelské datové složky. \"all\": ukládá "
+"se tam celá historie."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "Nepamatovat si nové položky"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr "Dočasný stav měněný z panelu historie; není součástí předvoleb."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "Pamatovat si i vybraný text"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"Do historie se přidává i text vybraný myší (primární výběr, vkládaný "
+"prostředním tlačítkem)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "Vždy vkládat text bez formátování"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"Historie uchovává text bez formátování; jen nejnovější položku lze vložit s "
+"formátováním, dokud ji aplikace, ze které byla zkopírována, stále poskytuje. "
+"Je-li zapnuto, vloží se jako prostý text i tato položka. Shift+Enter v "
+"historii vloží prostý text v každém případě."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "Vložit zvolenou položku ihned"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"Je-li zapnuto, výběr položky zavře panel a vloží ji do okna, které bylo "
+"zaměřené, pomocí Ctrl+V. Je-li vypnuto, položka se jen vloží do schránky."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "Ponechat zapnutou i obrazovku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"Je-li vypnuto, zabraňuje udržování počítače vzhůru jen automatickému uspání: "
+"obrazovka se stále vypíná a zamyká jako obvykle. Je-li zapnuto, zůstane "
+"zapnutá i obrazovka a nezamkne se automaticky."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "Doba používaná tlačítkem v rychlém nastavení"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr "Naposledy zvolená doba; kliknutí na tlačítko ji použije znovu."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "Vlastní doba v minutách"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "Čas konce v minutách po půlnoci"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr "Používá „do určitého času“: nejbližší výskyt tohoto místního času."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"Otevřít stránku nastavení: general, dock, desktop-icons, app-grid, top-bar, "
+"windows nebo clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "STRÁNKA"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"Dok se složkami, ikony na ploše, ikony aplikací na horní liště, historie "
+"schránky a nastavení oken pro GNOME."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "Neprůhledné"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "Průhledné"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "_Zrušit"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "Není nainstalováno. Přeinstalujte balíček deskence."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "Spustí se po odhlášení a opětovném přihlášení"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "Aktualizováno; nová verze se spustí po opětovném přihlášení"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "GNOME Shell neběží; projeví se v příštím sezení GNOME"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "Neběží"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "Funkce se zastavila kvůli chybě"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "Tato verze GNOME není podporována"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "Nainstalovaná verze nepodporuje GNOME {}."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "Rozšíření GNOME jsou vypnutá"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Deskence je potřebuje, aby mohl zobrazit své funkce."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "_Zapnout…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "Místo toho se používá jiná kopie"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "Kopie ve vaší domovské složce nahrazuje nainstalovanou: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "_Zobrazit"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "Zapnout rozšíření GNOME?"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr ""
+"Tím se zapnou i další rozšíření, která jste povolili v aplikaci Rozšíření."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "_Zapnout"
+
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "dok"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "ikony na ploše"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "ikony aplikací na horní liště"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "řazení zobrazení aplikací"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "historii schránky"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "udržování počítače vzhůru"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr "Poskytuje také {}. Současné používání obou způsobuje problémy."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "Může poskytovat také {}."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "Zakázat „{}“?"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"Rozšíření zůstane nainstalované a jeho nastavení se zachová. Znovu ho můžete "
+"zapnout v aplikaci Rozšíření."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "_Zakázat"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "_Zakázat…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "Slabé"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "Silné"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "Síla zvětšení"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "Průhlednost pozadí"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "Velikost ikon"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "Dok je vždy viditelný a okna ho nezakrývají"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "Skryje se, když ho překrývá okno"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "Objeví se, když přesunete ukazatel k okraji obrazovky"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "Druhé kliknutí přepne na další okno aplikace"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr "Kliknutí na aplikaci s jedním zaměřeným oknem ho minimalizuje"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "Obnovit výchozí nastavení doku?"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"Umístění, velikost, barvy, skrývání, monitor, chování při kliknutí a "
+"zobrazené položky se vrátí na výchozí hodnoty. Připnuté aplikace, složky v "
+"doku, zobrazení aplikací a to, zda se dok zobrazuje, se nezmění."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "_Obnovit"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr "Nezobrazuje se, když jsou vypnuté animace v nastavení přístupnosti"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "Přidat složku"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "Jiná složka…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "Na tomto počítači není nastavena"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{} (chybí)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "Posunout nahoru"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "Posunout dolů"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "Odebrat z doku"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "Přidat složku do doku"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "Tuto složku nelze přidat"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "Přidat lze jen místní složky."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "_Zavřít"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "Začátek doku"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "Konec doku"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "Nahoře"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "Dole"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "Vlevo"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "Vpravo"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "Žádné logo není nainstalováno; používá se výchozí ikona"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "Není zvolen žádný obrázek; používá se výchozí ikona"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "Obrázek chybí; používá se výchozí ikona"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "Obrázky"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "Výběr ikony"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "Použít lze jen místní soubory."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr ""
+"Soubor není obrázek v podporovaném formátu (PNG, SVG, JPEG nebo WebP) o "
+"velikosti nejvýše 4 MB."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "Tento obrázek nelze použít"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{} (odpojeno)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "Není nastavena žádná složka plochy"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "Obnovit výchozí nastavení ikon na ploše?"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"Velikost, umístění, chování při kliknutí a zobrazené položky se vrátí na "
+"výchozí hodnoty. Vaše soubory a umístění ikon se nezmění."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "Ikony zůstanou přesně tam, kam je upustíte"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "Upuštěné ikony se přichytí k mřížce"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "Průhlednost složek"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "Průhlednost zvýraznění"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "Obnovit výchozí nastavení zobrazení aplikací?"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"Pozadí, složky aplikací a zvýraznění při přejetí se vrátí ke vzhledu GNOME a "
+"aplikace k vašemu vlastnímu pořadí."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr "Podle názvu, i ve složkách. Přetahování pořadí nemění."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr ""
+"Uspořádejte aplikace přetažením. Toto uspořádání se vrátí, když vypnete "
+"abecední řazení."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr "Pozadí za aplikacemi. Ikony, názvy a vyhledávací pole se nemění."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Dostupné, když je dok Deskence zapnutý."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"Změňte vzhled skupin aplikací, jako je „Nástroje“, v zobrazení aplikací. "
+"Mění se jen pozadí dlaždice."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"Zvolte pozadí, které se objeví pod ukazatelem na aplikaci nebo složce "
+"aplikací, i v otevřené složce."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "_Klávesová zkratka"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "Otevře historii"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "Obnovit výchozí nastavení schránky?"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"Klávesová zkratka a vkládání se vrátí na výchozí hodnoty. Historie, kolik "
+"položek uchovává a zda se uchová po odhlášení, se nezmění."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "Jen v paměti"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "Připnuté položky se ukládají do {}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "Historie se ukládá do {}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "Obnovit výchozí nastavení horní lišty?"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"Zobrazování neaktivních ikon a volby „Neuspávat“ se vrátí na výchozí "
+"hodnoty. Které funkce se zobrazují, se nezmění."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "Přepíná „Vždy navrchu“ pro zaměřené okno"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "Obnovit výchozí tlačítka záhlaví?"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr "Tlačítka záhlaví se vrátí na výchozí nastavení GNOME v tomto systému."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "Obnovit předchozí tlačítka záhlaví?"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr "Tlačítka záhlaví se vrátí do stavu před změnami provedenými Deskence."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr "Tlačítka byla po změně provedené Deskence změněna jinde"
+
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "u levého okraje"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "u dolního okraje"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "u pravého okraje"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "Náhled: dok {} obrazovky"
+
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "levého horního"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "pravého horního"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "levého dolního"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "pravého dolního"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "Náhled: nové ikony se umisťují od {} rohu"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "Zapněte „{}“, abyste mohli změnit „{}“."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "„{}“ je dostupné po zapnutí „{}“."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "„{}“ teď není dostupné."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr ""
+"Byla nainstalována aktualizace. Chcete-li ji používat, odhlaste se a znovu "
+"se přihlaste."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr "Chcete-li spustit zapnuté funkce, odhlaste se a znovu se přihlaste."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "_O aplikaci"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "Hledat v nastavení"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "Hlavní nabídka"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "Hledat v nastavení"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "Stránky nastavení"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "Výsledky hledání"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "Nebyly nalezeny žádné výsledky"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "Zkuste jiná slova, například název funkce."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "_Odhlásit se…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "Dok"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"Upravte umístění, vzhled a chování lišty aplikací u okraje obrazovky. "
+"Připnuté aplikace jsou stejné jako v přehledu činností."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "Zobrazit _dok"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "Vzhled"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "_Umístění"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "Vlevo"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "Dole"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "Vpravo"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "_Délka"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "Podle ikon"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "Celý okraj"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "_Velikost ikon"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "Vlastní _barva pozadí"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "Barva pozadí"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "Vlastní _průhlednost pozadí"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "_Zvětšovat ikony pod ukazatelem"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "_Síla zvětšení"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "Chování"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "_Skrývat"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "Nikdy"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "Když ho překrývají okna"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "Když se nepoužívá"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "_Monitor"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "Hlavní"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "Vybraný"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "Všechny"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "V_ybraný monitor"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "_Kliknutí na spuštěnou aplikaci"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "Zaměřit, pak přepínat okna"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "Minimalizovat nebo přepínat okna"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "Zobrazovat jen aplikace z aktuální _pracovní plochy"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "Zobrazovat _náhledy oken při přejetí"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr ""
+"Zastavte ukazatel na spuštěné aplikaci, abyste viděli její okna a mohli "
+"jedno vybrat"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "Na_hlížet do oken"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"Zastavte ukazatel na náhledu, abyste viděli jeho okno nad ostatními, aniž "
+"byste se do něj přepnuli"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "Informace od aplikací"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"Aplikace mohou na své ikoně zobrazit počítadlo nebo průběh operace, "
+"například nepřečtené zprávy nebo stahování. Zobrazuje se jen to, co aplikace "
+"hlásí."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "Zobrazovat počítadla aplikací"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "Číslo na ikoně, například nepřečtené zprávy"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "Zobrazovat průběh operací"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "Pruh na ikoně během stahování nebo kopírování"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "Položky"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "Co dok zobrazuje kromě aplikací."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "_Koš"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "Jednotky a flash disky _USB"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "_Síťová umístění"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "Tlačítko _aplikací"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "_Umístění tlačítka aplikací"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "_Ikona tlačítka aplikací"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "Výchozí GNOME"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "Logo distribuce"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "Vlastní obrázek"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "_Vybrat…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "Složky v doku"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"Připněte složky, abyste mohli procházet jejich obsah přímo z doku. Odebrání "
+"složky z doku nemění složku ani její soubory."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "Zobrazovat _složky v doku"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "_Obnovit výchozí nastavení…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "Ikony na ploše"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr "Zobrazovat soubory a složky ze složky plochy jako ikony na ploše."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "Zobrazovat _ikony na ploše"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "Složka plochy"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "Otevřít v aplikaci Soubory"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "Ikony"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "_Velikost"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "Malé"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "Střední"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "Velké"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "Velmi velké"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "_Umisťovat nové ikony od"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "Přesunuté ikony si zachovají své místo"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "Levého horního rohu"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "Pravého horního rohu"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "Levého dolního rohu"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "Pravého dolního rohu"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "_Uspořádání ikon"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "Volné"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "Přichytávat k mřížce"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "_Otevírat položky"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "Dvojitým kliknutím"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "Jedním kliknutím"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "Zobrazovat také"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "_Domovská složka"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"Skryté soubory se nezobrazují. Vypnutí ikon na ploše nikdy nepřesune ani "
+"nesmaže vaše soubory."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "Horní lišta"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "Ikony aplikací"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr ""
+"Ikony aplikací běžících na pozadí, například komunikátorů a synchronizace "
+"souborů."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "Zobrazovat ikony _aplikací"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "Zobrazovat _neaktivní ikony"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "Ikony, které aplikace označují jako momentálně nedůležité"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "Neuspávat"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"Tlačítko v rychlém nastavení, které brání automatickému uspání počítače po "
+"zvolenou dobu nebo do vypnutí. Ruční uspání funguje dál."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "Zobrazovat „_Neuspávat“"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "Ponechat zapnutou i _obrazovku"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr ""
+"Když je „Neuspávat“ zapnuto, obrazovka se automaticky nevypne ani nezamkne"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "_Vlastní doba"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "Minuty"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"Podporovány jsou aplikace používající standard StatusNotifierItem. Ikony "
+"oznamovací oblasti starého typu (XEmbed) podporovány nejsou."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "Okna"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "Tlačítka záhlaví"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"Toto jsou nastavení GNOME: zůstanou platná i po odebrání Deskence. Aplikace, "
+"které kreslí vlastní záhlaví, například některé prohlížeče, je mohou "
+"ignorovat."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "Tlačítko _minimalizace"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "Tlačítko m_aximalizace"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "_Umístění"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "Vždy navrchu"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"Udržuje okno nad ostatními. Je také v nabídce okna (Alt+Mezerník) a v "
+"nabídce náhledu okna v doku, který u takových oken zobrazuje špendlík. "
+"Nezobrazuje okno na každé pracovní ploše; to je samostatná volba nabídky "
+"okna."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "Obnovit nastavení z doby _před změnami…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "Název nesmí být prázdný."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "Název nesmí obsahovat „/“."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "„.“ a „..“ nejsou platné názvy."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "Položka s tímto názvem již existuje."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "Název je příliš dlouhý."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "Umístění nelze otevřít"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "„{}“ nelze otevřít"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "Odkaz je poškozený: položka, na kterou ukazuje, neexistuje."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "Spouštěč je neplatný."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "„{}“ nelze spustit"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "Nedůvěryhodný spouštěč"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"„{}“ nebyl označen jako důvěryhodný. Spuštění povolte, jen pokud víte, odkud "
+"tento soubor pochází."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "_Povolit a spustit"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "Spuštění „{}“ nelze povolit"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "Nastavení nelze otevřít"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "Deskence nelze otevřít"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "„{}“ nelze odpojit"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "Názvy začínající „.“ jsou skryté."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "Nová složka"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "Název složky"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "_Vytvořit"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "Přejmenovat složku"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "Přejmenovat soubor"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "_Přejmenovat"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "Nová _složka…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "_Vložit"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "Vybrat _vše"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "_Uspořádat ikony"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "Zarovnat do _mřížky"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "_Název"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "_Změněno"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "_Typ"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "_Seřadit podle"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "Změnit _pozadí…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "_Nastavení plochy"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "_Otevřít"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "Otevřít _pomocí…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "Povolit _spouštění"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "Vyjmou_t"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "_Kopírovat"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "Přej_menovat…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "Přesunout do _koše"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "_Vyprázdnit koš…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "_Vysunout"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "_Odpojit"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "V_lastnosti"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "Operace se nezdařila"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "Koš nelze vyprázdnit"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "K vyprázdnění koše je potřeba aplikace Soubory."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "Vlastnosti nelze zobrazit"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "Nelze přesunout do koše"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "Nelze přejmenovat"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "Složku nelze vytvořit"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "Soubory nelze přesunout"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "Soubory nelze zkopírovat"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "Domov"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "Koš"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "Plocha"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "Zobrazit aplikace"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "Nastavení doku"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "Umístění nelze otevřít"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "Otevřít"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "Vyprázdnit koš…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "Vysunout"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "Odpojit"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "Jednotku nelze vysunout"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "Jednotku nelze odpojit"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "Okna aplikace %s"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "Zavřít okno"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "Předvolby (JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "Předvolby s obrázky"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "Všechny předvolby"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "Název"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "Připnuté aplikace"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "Vlastní obrázky"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "Ukládají se do archivu spolu s nastavením"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "Obnovit výchozí nastavení Deskence?"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"Celé nastavení Deskence se vrátí na výchozí hodnoty a zobrazení aplikací k "
+"vašemu vlastnímu pořadí. Složky se z doku odeberou; samotných složek se to "
+"nedotkne. Zapnuté funkce, připnuté aplikace, tlačítka záhlaví, uložené "
+"předvolby a historie schránky se nezmění."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "Podle systému ({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "_Zpět"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "_Použít…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "_Přejmenovat…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "_Exportovat…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "_Smazat…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "Další"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "připnutými aplikacemi"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "složkami v doku"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "obrázky"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "Nastavení"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "Nastavení s {}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "Moje nastavení"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "Uložit aktuální nastavení"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "_Uložit"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "Předvolbu nelze uložit"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "Předvolba „{}“ uložena"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "Přejmenovat předvolbu"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "Předvolbu nelze přejmenovat"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "Předvolbu nelze smazat"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "Smazat předvolbu „{}“?"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "Aktuální nastavení se nezmění."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "_Smazat"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "Exportovat nastavení"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"Nastavení se ukládá jako čitelný soubor JSON. S obrázky je soubor archivem s "
+"nastavením a obrázky."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Nastavení Deskence"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "Nelze exportovat"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "Nastavení exportováno"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "Importovat nastavení"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "Nelze importovat"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "Vaše nastavení již odpovídá této předvolbě."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "Není co měnit"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "Změní se {} nastavení v: {}."
+msgstr[1] "Změní se {} nastavení v: {}."
+msgstr[2] "Změní se {} nastavení v: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "Použít „{}“?"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "Použít předvolbu?"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "_Použít"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "Tyto změny nebylo možné vrátit: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "Vaše předchozí nastavení bylo obnoveno."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "Předvolba nebyla použita"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "Nic se nezměnilo."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "Předvolba použita"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "Předvolbu nelze vrátit"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "Neexistuje žádná použitá předvolba, kterou by bylo možné vrátit."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "Předchozí nastavení obnoveno"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "Vrátit naposledy použitou předvolbu?"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr "Nastavení změněná předvolbou se vrátí na hodnoty, které měla předtím."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "Některá nastavení se mezitím změnila"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"Tato nastavení byla změněna po použití předvolby: {}. Vrátit i je, nebo je "
+"ponechat tak, jak jsou teď?"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "_Ponechat"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "Vrátit _vše"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "Hlášení"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "_Uložit…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "Informace pro hlášení chyb"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "Diagnostika zkopírována"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "Uložit hlášení"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "Hlášení nelze uložit"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "Hlášení uloženo"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "Výchozí nastavení obnoveno"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "Funkce"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "Obecné"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "Zobrazení aplikací"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "Schránka"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "Soubor je příliš velký na to, aby byl předvolbou."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "Soubor není předvolbou Deskence."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "Předvolba nemá platnou verzi formátu."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"Předvolba byla vytvořena novější verzí Deskence. Chcete-li ji použít, "
+"aktualizujte Deskence."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "Archiv je příliš velký na to, aby byl předvolbou."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "Archiv neobsahuje předvolbu Deskence."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "Archiv je poškozený."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "Část předvolby s nastavením je poškozená."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "Neznámá část „{}“ byla ignorována."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "Neznámé nastavení „{}“ v {} bylo ignorováno."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"Monitor {} není připojen. Do té doby se dok zobrazuje na hlavním monitoru."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "{} není na tomto počítači dostupné."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "{} má neplatnou hodnotu a bylo přeskočeno."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "{} je uzamčeno správcem."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "Jazyk „{}“ není na tomto počítači dostupný a byl přeskočen."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "Klávesová zkratka {} pro „{}“ nebyla importována: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "Seznam funkcí je poškozený a byl přeskočen."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "Neznámá funkce „{}“ byla ignorována."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr "Připnuté aplikace nejsou na tomto počítači dostupné."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "Seznam připnutých aplikací je poškozený a byl přeskočen."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr "Nenainstalováno: {}. Objeví se v doku po instalaci."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "Seznam složek v doku je poškozený a byl přeskočen."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "Složka „{}“ má neplatnou položku a byla přeskočena."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"Standardní složka {} není na tomto počítači nastavena; zobrazuje se jako "
+"nedostupná."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr ""
+"Složka {} neexistuje; zobrazuje se jako nedostupná, dokud nebude existovat."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"Předvolba používá vlastní obrázek tlačítka aplikací, který není přiložen; "
+"použije se výchozí ikona."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: nespouštějte Deskence jako root; spouštějte ho jako svůj vlastní "
+"uživatel (bez sudo)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"Schéma nastavení Deskence není nainstalováno. Přeinstalujte balíček deskence."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "Nic se nezměnilo: nastavení nelze uložit."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"Tato změna vyžaduje potvrzení. Spusťte příkaz znovu s --yes, abyste ji "
+"potvrdili bez dotazu."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "a/N"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "a"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "ano"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"Uloženo. Změnu se nepodařilo potvrdit v aktuálním sezení GNOME; může být "
+"nutné se znovu přihlásit."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "běží"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "neběží"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "chyba"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "nepodporovaná verze GNOME"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "spustí se po opětovném přihlášení"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "aktualizováno; nová verze po opětovném přihlášení"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "nenainstalováno"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "neznámý (GNOME Shell není dostupný)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: zobrazuje se stav běžícího sezení."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr "GNOME Shell není dostupný: známé je jen uložené nastavení."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr ""
+"Rozšíření GNOME jsou vypnutá; žádná funkce neběží, dokud nebudou zapnuta."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "FUNKCE"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "ULOŽENO"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "V TOMTO SEZENÍ"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "zapnuto"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "vypnuto"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr "{}: místo nainstalované se používá kopie z vaší domovské složky: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr ""
+"{}: uložené nastavení se liší od sezení; projeví se po opětovném přihlášení."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr "{}: „{}“ poskytuje totéž; používání obou způsobuje problémy."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: „{}“ může poskytovat totéž."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "Zadejte názvy funkcí nebo --all, ne obojí."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr "Uveďte aspoň jednu funkci nebo použijte --all. Funkce: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "Neznámá funkce: {}. Funkce: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "nastavení nebylo možné uložit"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: zapnuto"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: vypnuto"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: již zapnuto"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: již vypnuto"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: v uloženém nastavení již zapnuto"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: v uloženém nastavení již vypnuto"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: selhalo: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"Rozšíření GNOME jsou vypnutá; zapnuté funkce se spustí, jakmile budou "
+"zapnuta (gsettings set org.gnome.shell disable-user-extensions false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr "Žádná uložená předvolba se nejmenuje „{}“. Viz deskence preset list."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr ""
+"Několik uložených předvoleb se jmenuje „{}“; použijte jeden z jejich "
+"identifikátorů: {}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "Funkce {}: zapnout"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "Funkce {}: vypnout"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "Dok: vlastní obrázek tlačítka aplikací"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Varování: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "Přeskočeno: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "Předvolba nebyla použita: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "Tyto změny nebylo možné vrátit: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "Předchozí nastavení bylo obnoveno."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "Předvolba nebyla použita; nic se nezměnilo. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"Předvolba byla použita jen částečně; tato nastavení nebyla uložena: {}. "
+"Vraťte ji příkazem: deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "Funkce {}: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "Žádné uložené předvolby."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "NÁZEV"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ID"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "VYTVOŘENO"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "Vaše nastavení již odpovídá předvolbě „{}“."
+
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "Předvolba „{}“ mění {} nastavení:"
+msgstr[1] "Předvolba „{}“ mění {} nastavení:"
+msgstr[2] "Předvolba „{}“ mění {} nastavení:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "Nic se nezměnilo (--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "Použít předvolbu?"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr "Předvolba „{}“ použita. Vraťte ji příkazem: deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "{} nelze importovat: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"Uložená předvolba se již jmenuje „{}“. Zvolte jiný název pomocí --name nebo "
+"ji nahraďte pomocí --replace."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr ""
+"Předvolba „{}“ je platná a byla by uložena; nic se nezměnilo (--dry-run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr ""
+"Předvolba „{}“ uložena jako {}. Použijte ji příkazem: deskence preset apply "
+"{}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "Uložit a použít předvolbu?"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"Předvolba „{}“ uložena jako {} a použita. Vraťte ji příkazem: deskence "
+"preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "{} je složka; zadejte název souboru."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "{} již existuje. Pro nahrazení použijte --force."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "{} nelze zapsat: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "Nastavení exportováno do {} (archiv s obrázky)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "Nastavení exportováno do {}."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr "Nepoužívá se žádný vlastní obrázek, takže soubor je prostý JSON."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr "Nastavení se vrátí do stavu těsně před posledním importem."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "Předvolba nezměnila nic, co by šlo vrátit."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "Vrácení „{}“ obnoví:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"Změněno po použití předvolby, proto ponecháno beze změny (přidejte --include-"
+"changed, chcete-li vrátit i to): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "Vrátit předvolbu?"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "Předvolba byla vrácena jen částečně: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "Předchozí nastavení obnoveno."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "Zadejte, co obnovit, nebo --all, ne obojí."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr "Uveďte, co obnovit, nebo použijte --all. Možnosti: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "Neznámá volba: {}. Možnosti: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "Vše již má výchozí hodnotu; není co obnovovat."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "Obnoveno na výchozí ({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "celé Deskence"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "Zobrazení aplikací se vrátí k vašemu vlastnímu pořadí."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "Funkce app-grid (abecední řazení) se vypne."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"Beze změny: ostatní zapnuté funkce, připnuté aplikace, soubory na ploše, "
+"vlastní obrázky, uložené předvolby a historie schránky."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "Obnovit tato nastavení?"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "Některá nastavení nebylo možné obnovit: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "Výchozí nastavení obnoveno."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: chyba: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"Nastavení Deskence z příkazového řádku. Bez příkazu se otevře okno nastavení "
+"(deskence [--page STRÁNKA])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"Funkce: {}. Návratové kódy: 0 hotovo, 1 selhání, 2 neplatný příkazový řádek, "
+"3 nepotvrzeno, 4 uloženo, ale nepotvrzeno v běžícím sezení GNOME. Viz man "
+"deskence."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "PŘÍKAZ"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "vypsat dokument JSON místo textu"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "zobrazit uložený a běžící stav každé funkce"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "zapnout funkce"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "vypnout funkce; jejich nastavení se zachová"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "jedno z: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "všechny funkce Deskence (nikdy jiná rozšíření)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "vypsat, použít, importovat a exportovat předvolby"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "Předvolby se ukládají do {}."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "AKCE"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "jen zobrazit, co by se změnilo"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "nežádat o potvrzení"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "zobrazit uložené předvolby"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "použít uloženou předvolbu"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "název nebo ID uložené předvolby"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr "zkontrolovat soubor předvolby a uložit ho mezi předvolby"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "SOUBOR"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr "předvolba .json nebo archiv .deskence"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "uložit pod tímto názvem"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "nahradit uloženou předvolbu se stejným názvem"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "také ji použít"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "zapsat aktuální nastavení do souboru"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "název uložený v předvolbě"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "zahrnout připnuté aplikace"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "zahrnout složky v doku"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "zahrnout vlastní obrázky (zapíše archiv)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "nahradit existující soubor"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "vrátit naposledy použitou předvolbu"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr "vrátit i nastavení změněná po použití předvolby"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "obnovit výchozí nastavení"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "ČÁST"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "celé nastavení Deskence; vypne také funkci app-grid"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "zobrazit hlášení pro hlášení chyb (nic se neodesílá)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"Sběrnice sezení není dostupná, takže dconf nemůže ukládat nastavení. Spusťte "
+"příkaz v terminálu svého sezení GNOME nebo po přihlášení na textové konzoli "
+"jako stejný uživatel."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr ""
+"Nastavení se uchovává jen v paměti (GSETTINGS_BACKEND=memory) a ztratilo by "
+"se."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "Zobrazit historii schránky"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "Otevře historii zkopírovaných textů a obrázků"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr "Přepíná „Vždy navrchu“ pro zaměřené okno (klávesová zkratka GNOME)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "V okně nastavení Deskence"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "Toto není platná klávesová zkratka."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "Samotná modifikační klávesa nemůže být klávesovou zkratkou."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr ""
+"Použijte klávesu společně s Ctrl, Alt nebo Super, nebo funkční klávesu."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"Tento druh zkratek používají samotné aplikace. Přidejte Super nebo "
+"zkombinujte Ctrl a Alt."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "Vlastní klávesová zkratka"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "Již použito pro: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "dok, hlavní panel, spouštěč, panel, dock, taskbar, launcher"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "lupa, zvětšit, zvětšení, zoom"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "automatické skrývání, skrývání, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "zásobníky, složky, stažené, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "miniatury, okna, náhledy, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "odznaky, nepřečtené, oznámení, zprávy, počítadlo, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "stahování, průběh, ukazatel průběhu"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "plocha, soubory, ikony, desktop"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr "mřížka aplikací, aplikace, spouštěč, nabídka, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "řazení, abecedně, pořadí, uspořádat"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "složky, dlaždice, skupiny"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "přejetí, zvýraznění, ukazatel, kurzor, hover"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "oznamovací oblast, indikátory, stavové ikony, systray, tray"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "uspání, spánek, kofein, caffeine, zabránit, vzhůru"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "šetřič obrazovky, prázdná obrazovka, zámek"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "záhlaví, tlačítka, minimalizovat, maximalizovat"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "kopírovat, vložit, schránka, historie, clipboard"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr "klávesnice, klávesové zkratky, klávesy, zkratky, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "chyba, diagnostika, hlášení, problém, bug"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "záloha, předvolby, přenos, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "jazyk, překlad, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "Vypnuto"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "Obnovit výchozí klávesovou zkratku"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "Nastavit klávesovou zkratku"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "Stiskněte novou klávesovou zkratku pro „{}“. Escape ruší."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "Obnovit _výchozí"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "Výchozí klávesová zkratka je obsazená: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "Tuto klávesovou zkratku nelze použít"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "Klávesové zkratky"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "Všude"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"Kolize s jinými zkratkami Deskence a s vlastními zkratkami GNOME se "
+"odmítají. Zkratky jiných aplikací a rozšíření nelze zkontrolovat."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "V okně nastavení"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "Funguje, když je „{}“ zapnuto"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "Čeština"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "Začátek sezení"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "Po přihlášení zobrazit _plochu"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "Začínat na ploše místo v přehledu činností"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr "Dok, plocha a ostatní funkce vždy používají jazyk systému."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "_Jazyk aplikace"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "Nastavení a příkaz deskence"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "Nový jazyk se použije po restartu"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "_Restartovat"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "Předvolby"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr "Uložte aktuální nastavení, abyste se k němu mohli později vrátit."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "Žádné uložené předvolby"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "_Uložit aktuální nastavení…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "Přenos nastavení"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"Přeneste nastavení na jiný počítač nebo si ho uchovejte pro přeinstalaci. "
+"Před importem uvidíte, co se změní."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "_Exportovat do souboru…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "_Importovat ze souboru…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "_Vrátit naposledy použitou předvolbu…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "_Klávesové zkratky"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr "Zobrazit a změnit všechny zkratky Deskence na jednom místě"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"Verze, druh sezení, monitory a stav každé funkce pro vložení do hlášení "
+"chyby. Nic soukromého není zahrnuto a nic se nikam neodesílá."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "_Zobrazit hlášení…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "_Kopírovat diagnostiku"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "Uložit hlášení do _souboru…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "_Obnovit výchozí nastavení Deskence…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "Pořadí"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr "Jak jsou aplikace uspořádány v celoobrazovkovém zobrazení aplikací."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "_Pořadí aplikací"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "Vlastní pořadí"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "Abecedně"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "Pozadí"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "Když je vypnuto, použije se barva stylu GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "Vlastní _průhlednost pozadí"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "Když je vypnuto, pozadí je neprůhledné jako v GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "Průhlednost _pozadí"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "Složky aplikací"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "Vlastní _barva složek"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "Barva složek"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "Vlastní _průhlednost složek"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "Když je vypnuto, použije se průhlednost stylu GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "Průhlednost _složek"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "Zvýraznění při přejetí"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "Vlastní barva _zvýraznění"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "Barva zvýraznění"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "Vlastní průhlednost zvýrazně_ní"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"Kopírování a vkládání fungují jako dříve. Historie zkopírovaných textů a "
+"obrázků se otevírá vlastní klávesovou zkratkou."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "_Historie schránky"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "_Vložit zvolenou položku"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Vloží do okna, ve kterém jste byli, pomocí Ctrl+V (v terminálech "
+"Ctrl+Shift+V). Když je vypnuto, položka se jen vloží do schránky."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "Vždy vkládat text _bez formátování"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"Starší položky jsou vždy prostý text. Shift+Enter kdykoli vloží prostý text."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "Pamatovat si i vybraný _text"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "Text vybraný myší, který vkládá prostřední tlačítko"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "Úložiště"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"Historie se uchovává jen v paměti a po odhlášení zmizí. Připnuté položky "
+"zůstanou i po vymazání historie a nepočítají se do limitu. Obsah, který "
+"aplikace označí jako tajný, například ze správců hesel, se nezapamatuje; ne "
+"každé heslo lze rozpoznat."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "_Zapamatované položky"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "_Uchovat po odhlášení"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "Nic"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "Připnuté položky"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "Celou historii"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "_Pozastavit zapamatovávání"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "Nové položky se nepřidávají, dokud tuto volbu nevypnete"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "Složka %s"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "Zpět"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "Datum"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "Typ"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "Seřadit podle: %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "Zobrazit jako mřížku"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "Zobrazit jako seznam"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "Tato standardní složka není nastavena."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "Načítá se…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "Tato složka již neexistuje."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "Nemáte oprávnění tuto složku otevřít."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "Tuto složku nelze otevřít: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "Tato složka je prázdná."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"Tato složka obsahuje více než %d položek; zobrazují se jen první z nich. "
+"Chcete-li vidět vše, otevřete ji v aplikaci Soubory."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "Složka"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "„%s“ nelze otevřít"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "Vyjmout"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "%s není dostupné"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "%s je jen pro čtení"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "Složku nelze vložit do sebe samé"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "Již ve složce %s"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "Do složky lze vložit jen soubory"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "Přesunout do %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Kopírovat do %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Přesunout nebo kopírovat do %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "Soubory nelze přesunout do %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "Soubory nelze zkopírovat do %s"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr "Ke kopírování a přesouvání souborů z doku je potřeba aplikace Soubory."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Soubory nelze otevřít v aplikaci %s"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Otevřít v aplikaci %s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "%s nemůže otevírat soubory"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Nelze potvrdit, že %s otevře tyto soubory"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "%d ze souborů již není dostupný"
+msgstr[1] "%d ze souborů již nejsou dostupné"
+msgstr[2] "%d ze souborů již není dostupných"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "%s neotevírá tento typ souboru"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "%s neotevře %d z těchto souborů"
+msgstr[1] "%s neotevře %d z těchto souborů"
+msgstr[2] "%s neotevře %d z těchto souborů"
+
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, %d nová položka"
+msgstr[1] "%s, %d nové položky"
+msgstr[2] "%s, %d nových položek"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "Aplikace jsou seřazeny abecedně"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr "Chcete-li je uspořádat sami, zvolte v Deskence „Vlastní pořadí“."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "Připraveno k vložení"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "Právě teď"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "před %d minutou"
+msgstr[1] "před %d minutami"
+msgstr[2] "před %d minutami"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "před %d hodinou"
+msgstr[1] "před %d hodinami"
+msgstr[2] "před %d hodinami"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "Historie schránky"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "Hledat v historii"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "Vymazat historii"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: vložit · Shift+Enter: vložit jako prostý text · Delete: odebrat · "
+"Ctrl+P: připnout"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "Obnovit zapamatovávání"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "Pozastavit zapamatovávání"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "Kliknutím znovu vymažete"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr "Kliknutím znovu odeberete všechny položky kromě připnutých."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "Nové položky se nezapamatují, dokud neobnovíte zapamatovávání."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr "Zatím nic nezkopírováno. Položky, které zkopírujete, se objeví zde."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "Hledání neodpovídá žádná položka."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "Obrázek, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "Odepnout"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "Připnout"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "Odebrat"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "„Neuspávat“ je zapnuto: obrazovka zůstane zapnutá"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "„Neuspávat“ je zapnuto"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "Méně"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "Brání automatickému uspání"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "Do vypnutí"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d minuta"
+msgstr[1] "%d minuty"
+msgstr[2] "%d minut"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d hodina"
+msgstr[1] "%d hodiny"
+msgstr[2] "%d hodin"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "Ponechat obrazovku zapnutou"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "Obrazovka se pak automaticky nevypne ani nezamkne"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "Ukončit nyní"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "Do %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "Do vypnutí"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "Zbývá %d minuta"
+msgstr[1] "Zbývají %d minuty"
+msgstr[2] "Zbývá %d minut"

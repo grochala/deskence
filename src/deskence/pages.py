@@ -250,6 +250,10 @@ class FeatureController:
 
     def _add_conflict_row(self, conflict):
         what = {
+            # Translators: this and the next five fill the {} of "Also
+            # provides {}. Using both at once causes problems." and "May also
+            # provide {}."; the subject is another GNOME extension. Use the
+            # form that fits there.
             "dock": _("a dock"),
             "desktop-icons": _("desktop icons"),
             "tray": _("application icons in the top bar"),

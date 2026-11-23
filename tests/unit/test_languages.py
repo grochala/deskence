@@ -23,6 +23,11 @@ def localedir(tmp_path):
     (tmp_path / "de" / "LC_MESSAGES").mkdir(parents=True)
     (tmp_path / "de" / "LC_MESSAGES" / "other.mo").write_bytes(b"")
     (tmp_path / "README").write_text("")
+    # A regional variant using the Polish translation (as po/meson.build
+    # installs zh_HK for zh_TW).
+    alias = tmp_path / "pl_XX" / "LC_MESSAGES"
+    alias.mkdir(parents=True)
+    (alias / "deskence.mo").symlink_to("../../pl/LC_MESSAGES/deskence.mo")
     bad = tmp_path / "..evil" / "LC_MESSAGES"
     bad.mkdir(parents=True)
     (bad / "deskence.mo").write_bytes(b"")
@@ -42,6 +47,48 @@ def environment(monkeypatch):
 
 def test_available_lists_shipped_translations_and_english(localedir):
     assert languages.available(localedir) == ["en", "pl"]
+
+
+def test_listed_by_native_name(localedir):
+    # "English" before "Polski"; a code without a translation by its code.
+    assert languages.by_name(["pl", "en"], localedir) == ["en", "pl"]
+    assert languages.by_name(["pl", "de", "en"], localedir) == ["de", "en", "pl"]
+
+
+def test_listed_without_regard_to_diacritics(monkeypatch):
+    names = {"cs": "Čeština", "da": "Dansk", "sv": "Svenska", "en": "English"}
+    monkeypatch.setattr(languages, "native_name", lambda code, localedir=None: names[code])
+    assert languages.by_name(["sv", "cs", "en", "da"]) == ["cs", "da", "en", "sv"]
+
+
+@pytest.mark.parametrize("variables, expected", [
+    ({"LANG": "pl_PL.UTF-8"}, "pl"),
+    ({"LANG": "de_DE.UTF-8"}, "en"),
+    ({"LANG": "C.UTF-8"}, "en"),
+    ({}, "en"),
+    # LANGUAGE comes first, in its order, as for gettext: a language
+    # without a catalog (also English) passes to the next one.
+    ({"LANGUAGE": "de:pl", "LANG": "en_US.UTF-8"}, "pl"),
+    ({"LANGUAGE": "en_GB:pl", "LANG": "pl_PL.UTF-8"}, "pl"),
+    ({"LANGUAGE": "en_US:en", "LANG": "pl_PL.UTF-8"}, "en"),
+    ({"LC_MESSAGES": "pl_PL.UTF-8", "LANG": "en_US.UTF-8"}, "pl"),
+    # A regional variant installed as a link: the translation it uses.
+    ({"LANG": "pl_XX.UTF-8"}, "pl"),
+])
+def test_system_language(localedir, environment, variables, expected):
+    for name in ("LANGUAGE", "LC_ALL", "LC_MESSAGES", "LANG"):
+        environment.delenv(name, raising=False)
+    for name, value in variables.items():
+        environment.setenv(name, value)
+    assert languages.system_language(localedir) == expected
+
+
+def test_system_language_ignores_the_chosen_one(localedir, environment):
+    environment.setenv("LANG", "en_US.UTF-8")
+    environment.delenv("LC_ALL", raising=False)
+    environment.delenv("LC_MESSAGES", raising=False)
+    languages.apply(localedir, "pl")
+    assert languages.system_language() == "en"
 
 
 def test_available_without_translations():
@@ -103,13 +150,13 @@ def test_chosen_language_translates(localedir, environment):
     import gettext
     languages.apply(localedir, "pl")
     translation = gettext.translation("deskence", localedir, fallback=True)
-    assert translation.gettext("Same as the System") == "Zgodny z systemem"
+    assert translation.gettext("Search Settings") == "Wyszukaj ustawienia"
     # A text the translation does not have: the English original.
     assert translation.gettext("No such text in any translation") == \
         "No such text in any translation"
     languages.apply(localedir, "en")
     translation = gettext.translation("deskence", localedir, fallback=True)
-    assert translation.gettext("Same as the System") == "Same as the System"
+    assert translation.gettext("Search Settings") == "Search Settings"
 
 
 def test_unreadable_settings_mean_system(monkeypatch):
@@ -141,6 +188,23 @@ def test_c_locale_gets_a_messages_locale(localedir, environment):
     child = languages.child_environment()
     assert "LC_MESSAGES" not in child and "LANGUAGE" not in child
     assert languages.original_environment() == {"LANGUAGE": None, "LC_MESSAGES": None}
+
+
+@pytest.mark.parametrize("code, expected", [
+    ("el", "el_GR.UTF-8"), ("sv", "sv_SE.UTF-8"), ("zh_TW", "zh_TW.UTF-8"),
+])
+def test_c_locale_uses_the_usual_territory(environment, code, expected):
+    calls = []
+
+    def setlocale(category, value=None):
+        if value is None:
+            return "C"
+        calls.append(value)
+        return value
+    environment.setattr(languages.locale, "setlocale", setlocale)
+    environment.delenv("LC_ALL", raising=False)
+    _real_messages_locale(code)
+    assert calls == [expected]
 
 
 _real_messages_locale = languages._messages_locale

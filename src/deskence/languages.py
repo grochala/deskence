@@ -25,12 +25,18 @@ GNOME Shell process, which must not be changed for one extension.
 A saved code that is not valid or whose translation is no longer installed
 falls back to English, and texts missing from a translation are shown in
 English, as gettext does.
+
+Regional variants without a translation of their own (zh_HK) are installed
+as symbolic links to the closest translation (zh_TW, see po/meson.build),
+so that gettext finds one for them everywhere, the GNOME Shell extensions
+included; they are not listed as languages of their own.
 """
 
 import gettext
 import locale
 import os
 import re
+import unicodedata
 
 DOMAIN = "deskence"
 SCHEMA = "io.github.deskence.Deskence"
@@ -69,10 +75,40 @@ def available(localedir=None):
     except OSError:
         names = []
     for name in names:
-        if CODE.fullmatch(name) and os.path.isfile(
-                os.path.join(localedir, name, "LC_MESSAGES", DOMAIN + ".mo")):
+        path = os.path.join(localedir, name, "LC_MESSAGES", DOMAIN + ".mo")
+        # A link is a regional variant using another translation.
+        if CODE.fullmatch(name) and os.path.isfile(path) and not os.path.islink(path):
             codes.add(name)
     return sorted(codes)
+
+
+def by_name(codes, localedir=None):
+    """codes in the order of their native names, as they are listed:
+    "Čeština" next to "Dansk", not after "Svenska"."""
+    def key(code):
+        name = unicodedata.normalize("NFKD", native_name(code, localedir))
+        return "".join(c for c in name if not unicodedata.combining(c)).casefold()
+    return sorted(codes, key=key)
+
+
+def system_language(localedir=None):
+    """The language the system would show: the translation gettext finds
+    for the environment the application was started with, English when it
+    finds none."""
+    localedir = localedir or _localedir
+    env = child_environment()
+    wanted = []
+    for name in ("LANGUAGE", "LC_ALL", "LC_MESSAGES", "LANG"):
+        if env.get(name):
+            wanted = [part for part in env[name].split(":") if part]
+            break
+    # As gettext: the first language with a catalog, stopping at the C
+    # locale. "en_GB:pl" gives Polish, there is no English catalog.
+    path = gettext.find(DOMAIN, localedir, languages=wanted) if localedir and wanted else None
+    if not path:
+        return ENGLISH
+    code = os.path.basename(os.path.dirname(os.path.dirname(os.path.realpath(path))))
+    return code if code in available(localedir) else ENGLISH
 
 
 def native_name(code, localedir=None):
@@ -126,7 +162,8 @@ def _messages_locale(code):
         return
     if current not in ("C", "POSIX", "C.UTF-8", "C.utf8") or os.environ.get("LC_ALL"):
         return
-    region = code.split("@")[0]
+    # The usual territory of the language: "el" -> "el_GR".
+    region = locale.normalize(code.split("@")[0]).split(".")[0].split("@")[0]
     if "_" not in region:
         region = f"{region}_{region.upper()}"
     for candidate in (f"{region}.UTF-8", "en_US.UTF-8", "en_GB.UTF-8"):

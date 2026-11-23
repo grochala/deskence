@@ -93,6 +93,8 @@ def test_fold_ignores_case_and_diacritics():
     assert search.fold("Przezroczystość") == "przezroczystosc"
     assert search.fold("ŁÓDŹ") == "lodz"
     assert search.fold(None) == ""
+    # Soft hyphens of translations do not stop a word from matching.
+    assert search.fold("Anwendungs\u00adübersicht") == "anwendungsubersicht"
 
 
 def test_every_word_must_match_and_titles_rank_first():

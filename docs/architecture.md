@@ -518,6 +518,20 @@ background.
     Shell: GJS translates through the locale of the whole Shell process,
     and a second translation mechanism is not worth it.
 
+    The list shows the languages by their own names, sorted without regard
+    to diacritics, after "Same as the System (…)", which names the
+    translation gettext finds for the environment the application was
+    started with (`languages.system_language`). Regional variants without a
+    translation of their own (`zh_HK`, `zh_MO` → `zh_TW`, `zh_SG` →
+    `zh_CN`) are installed as links to the closest catalog
+    (`po/meson.build`), because gettext falls back from `zh_HK` only to
+    `zh`; the links work everywhere, the Shell extensions included, and
+    the list skips them. With a prefix other than `/usr` each extension
+    gets a `locale` link to Deskence's locale directory, since GNOME Shell
+    looks for an extension's catalogs in the extension or in its own
+    locale directory. Translators and the checks of the catalogs are
+    described in [po/README.md](../po/README.md).
+
 ## Other facts used by the design
 
 - GNOME Shell scans extension directories only in `_loadExtensions()` at

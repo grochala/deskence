@@ -1,0 +1,4597 @@
+# Filipino translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Filipino\n"
+"Language: fil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n == 1 || n==2 || n==3) || (n % 10 != 4 && "
+"n % 10 != 6 && n % 10 != 9) ? 0 : 1;\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "Mga Setting ng Desktop"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr ""
+"Dock, mga icon sa desktop, mga icon ng app sa itaas na bar at mga button ng "
+"window"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"dock;desktop;icon;tray;indicator;taskbar;i-minimize;i-"
+"maximize;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "Dock, mga icon sa desktop at tray para sa GNOME"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Nagdaragdag ang Deskence ng ilang kaginhawahan sa karaniwang GNOME desktop "
+"at hinahayaan kang i-set up ang mga ito sa iisang lugar."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"Isang dock na may mga naka-pin at tumatakbong app, mga folder, mga drive at "
+"ang basurahan, pati mga preview ng mga window"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "Mga file at folder sa desktop"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr ""
+"Mga icon ng app sa itaas na bar, halimbawa mula sa mga messenger at pag-sync "
+"ng file"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr ""
+"Isang history ng clipboard at “Panatilihing Gising” sa mabilisang setting"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "Alpabetikong pagkakasunod-sunod ng view ng mga app"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr "Mga button para i-minimize at i-maximize sa mga title bar ng window"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr ""
+"Mga preset para i-save ang mga setting at ilipat ang mga ito sa ibang "
+"computer"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr ""
+"Gumagana ito sa kasalukuyan mong GNOME session at pinapanatili ang "
+"karaniwang hitsura ng GNOME."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"Available na ang Deskence sa 29 na wika: lahat ng opisyal na wika ng "
+"European Union, Korean, Simplified at Traditional Chinese, Serbian at "
+"Filipino. Ipinapakita ng listahan ng wika sa mga setting ang wikang "
+"ginagamit ng system."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"Mga Setting: piliin ang wika ng window ng mga setting at ng command na "
+"deskence sa pahinang Pangkalahatan, hiwalay sa system."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"Dock: kopyahin o i-cut ang mga file at folder sa panel ng folder (right "
+"click, Ctrl+C, Ctrl+X) at i-paste ang mga ito sa Files o sa desktop."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Dock: i-drag ang mga file at folder mula sa panel ng folder papunta sa ibang "
+"folder sa dock o sa desktop para ilipat o kopyahin ang mga ito."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Dock: binubuksan lang ng mga app ang mga in-drop na file na may uring "
+"idinedeklara nila; kung hindi, ipinapaliwanag ng dock kung bakit."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr ""
+"Dock: tumutugma na ang marka sa ilalim ng mga folder sa mga tuldok ng mga "
+"app."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"Magsimula sa desktop: pagkatapos mag-log in, muling tumutugon sa mga click "
+"ang desktop, ang itaas na bar at ang mga window kapag naka-off ang mga "
+"animation, halimbawa sa mga virtual machine na walang 3D acceleration; dati, "
+"ang dock lang ang tumutugon hanggang mabuksan nang isang beses ang overview."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"Opsyonal na diagnostics para sa mga ulat tungkol sa desktop at mga window na "
+"hindi na tumutugon sa mga click."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"Dock: laging maayos na natatapos ang pag-drag ng mga file sa dock, kahit may "
+"pumalya habang dina-drop."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Dock: i-drop ang mga file sa isang app para buksan ang mga ito roon, o sa "
+"isang folder para kopyahin o ilipat ang mga ito roon; itapat ang file sa "
+"isang folder para buksan ito at i-drop sa isa sa mga subfolder nito."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"Mga Setting: hanapin ang anumang setting gamit ang Ctrl+F, pamahalaan ang "
+"lahat ng keyboard shortcut sa iisang lugar na may pagsusuri ng banggaan, at "
+"kopyahin o i-save ang ulat para sa mga bug report."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"Mga Preset: ang pag-undo ng na-apply na preset ay nagbabalik lang ng mga "
+"binago nito at pinapanatili ang mga setting na binago mo pagkatapos."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr ""
+"Dock: mga bilang ng hindi pa nababasa at progreso ng mga operasyon sa mga "
+"icon ng app, para sa mga app na nag-uulat ng mga ito."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"Command line: suriin ang estado ng bawat feature, i-off at i-on ang mga "
+"feature, i-apply, i-import at i-export ang mga preset, ibalik ang mga "
+"default na setting at mangalap ng diagnostics gamit ang command na deskence, "
+"kahit mula sa text console kapag hindi gumagana ang desktop. Tingnan ang man "
+"deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"Hindi na binubura ng pagbabalik ng mga default na setting ang history ng "
+"clipboard na itinatago pagkatapos mag-log out."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"View ng mga app: sariling kulay at transparency para sa highlight sa ilalim "
+"ng pointer sa mga app at folder ng app; hindi na gumuguhit ng outline kapag "
+"itinapat sa folder."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"Mga folder sa dock: hanggang kalahati lang ng taas ng screen ang sinasakop "
+"ng panel, nag-i-scroll sa buong folder, pati gamit ang keyboard, at "
+"bumabalik sa dating posisyon pagkatapos ng subfolder."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"Mga Setting: mas malinaw na paglalarawan, mas mahusay na salitang Polish at "
+"mas kaunting nagbabanggaang keyboard shortcut."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"Dock: tumutugma ang dock na sakop ang buong gilid sa itaas na bar sa "
+"overview ng mga aktibidad at sa view ng mga app; pinapanatili ng maikling "
+"dock ang sarili nitong hitsura."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"View ng mga app: malinaw nang ipinapakita ng mga tile ng folder na may "
+"sariling kulay o transparency ang hover, pagpindot, focus at pagpili."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"View ng mga app: sariling kulay at transparency para sa mga tile ng folder "
+"gaya ng “Utilities”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"Pangkalahatan: kung nais, magsimula sa desktop sa halip na sa overview ng "
+"mga aktibidad pagkatapos mag-log in."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr ""
+"Dock: sumasanib na ito sa overview ng mga aktibidad sa halip na bumuo ng "
+"hiwalay na banda."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"Mga link sa homepage ng proyekto at sa bug tracker, dokumentasyon sa Ingles. "
+"Walang pagbabago sa app."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"Mga Setting: pahinang Pangkalahatan na may mga preset, pag-export at pag-"
+"import ng mga setting at pagbabalik ng mga default; pahinang View ng mga App "
+"na may alpabetikong pagsasaayos; mas kalmadong mga preview."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"Dock: mga folder na nagpapakita ng laman, pagsara at pagsilip sa mga window "
+"mula sa kanilang preview, “Laging Nasa Itaas” sa menu ng preview."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"Bago: history ng clipboard, “Panatilihing Gising” sa mabilisang setting, "
+"isang shortcut para sa “Laging Nasa Itaas”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Deskence na ang pangalan ng Better GNOME Desktop. Inililipat ang mga "
+"setting, mga naka-on na feature, mga naka-pin na app at mga posisyon ng icon "
+"sa desktop."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"Dock: mga preview ng mga window ng app kapag nakatigil dito ang pointer, "
+"walang dagdag na espasyo sa tabi ng button ng mga app kapag pinalaki ang mga "
+"icon, mga indicator ng pagtakbo sa ilalim ng mga icon ng dock sa ibaba."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"Mga Setting: mas malalaki at mas malinaw na preview ng dock at ng mga icon "
+"sa desktop, mga icon ng pahina, item sa menu na “Tungkol”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Deskence na ang pangalan ng Better GNOME Desktop."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"Dock: matatalas na pinalaking icon, walang tile sa ilalim ng mga icon kapag "
+"may sariling background, isang-kulay na logo ng distribusyon, listahan ng "
+"mga app sa simula ng dock na sakop ang buong gilid, mga indicator ng "
+"pagtakbo sa panloob na bahagi."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"View ng mga app: iisang tuloy-tuloy na transisyon sa pagsara, opsyonal na "
+"sariling kulay ng background."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"Desktop: bumubukas ang mga menu sa puntong kinlik, pati sa tabi ng dock; "
+"nagsisimula ang grid ng mga icon sa piniling sulok na may maliliit na margin."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"Dock: button ng mga app sa alinmang dulo na may pagpili ng icon, pinalaking "
+"mga icon, pag-scroll kapag hindi kasya ang mga app, sariling kulay at "
+"transparency ng background, mga setting sa menu ng button ng mga app, "
+"transparent na background para sa view ng mga app."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"Mga icon sa desktop: malayang paglalagay o pagdikit sa grid, “I-align sa "
+"Grid”, magagamit ang buong desktop sa tabi ng dock, mga posisyon ng icon na "
+"hindi gumagalaw kasama ng dock."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"Mga ayos: maayos na pagsara ng view ng mga app, agarang muling pagsasaayos "
+"ng mga icon ng dock, walang frame habang dina-drag ang mga icon sa desktop, "
+"iisang menu ng desktop saanman."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "Unang release."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "Bersyon ng istruktura ng mga setting"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"Ginagamit ng app ng mga setting para ilipat ang mga naka-save na halaga sa "
+"pagitan ng mga release. Ang 0 ay nangangahulugang hindi pa kailanman "
+"nailipat ang mga setting."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "Nakuha na ang mga setting ng Better GNOME Desktop"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Itinatakda kapag nakopya na rito ang mga setting na na-save ng Better GNOME "
+"Desktop (0.3.0 at mas luma). Hindi kailanman pinapalitan ang mga halagang "
+"nakatakda na rito; pinapanatili ang mga dating setting."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "Ipakita ang desktop pagkatapos mag-log in"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"Kapag true, nagsisimula ang bagong session sa desktop sa halip na sa "
+"overview ng mga aktibidad. Ang simula lang ng session ang naaapektuhan: "
+"hindi ito kailanman isinasara ng pagbukas ng overview sa ibang pagkakataon, "
+"pag-unlock ng screen o pag-on at pag-off ng mga feature. Inilalapat ng "
+"extension ng dock."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Wika ng app na Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"Ang wika ng window ng mga setting at ng command na deskence: ang code ng "
+"salin na naka-install kasama ng Deskence (halimbawa \"pl\"), \"en\" para sa "
+"Ingles, o walang laman para sundin ang system. Ang code na walang naka-"
+"install na salin ay nangangahulugang Ingles. Laging sinusunod ng mga "
+"extension ng GNOME Shell at ng mga icon sa desktop ang wika ng GNOME Shell. "
+"Inilalapat kapag nagsimula ang app."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "Gilid ng screen ng dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\" (kaliwa), \"bottom\" (ibaba) o \"right\" (kanan)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "Haba ng dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr ""
+"\"fit\": kasinghaba lang ng kailangan ng mga icon. \"full\": ang buong gilid "
+"ng screen."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "Laki ng icon sa logical pixel"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"Ini-i-scale ayon sa scale ng monitor at sa text scaling factor ng tema ng "
+"shell, gaya ng ibang icon ng GNOME Shell."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "Kailan nagtatago ang dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": laging nakikita at iniiwas ang mga window sa lugar nito. "
+"\"intellihide\": nakatago habang may window sa parehong monitor na "
+"nakapatong dito. \"autohide\": nakatago hanggang umabot ang pointer sa gilid "
+"ng screen."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "Sa aling mga monitor ipinapakita ang dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\" (pangunahin), \"selected\" (napili, tingnan ang selected-"
+"monitor) o \"all\" (lahat)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "Connector ng napiling monitor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"Pangalan ng connector, gaya ng \"DP-1\". Ginagamit kapag \"selected\" ang "
+"monitor-mode; ginagamit ang pangunahing monitor habang hindi nakakonekta ang "
+"monitor na iyon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "Ipakita ang basurahan"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "Ipakita ang mga naaalis na drive"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "Ipakita ang mga lokasyon sa network"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "Ipakita ang button ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "Kung nasaan ang button ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": unang item ng dock (kaliwa sa pahalang na dock, itaas sa patayo). "
+"\"end\": huling item (kanan o ibaba)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "Icon ng button ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": ang icon ng mga app ng GNOME. \"distribution\": ang logo ng "
+"naka-install na distribusyon, mula sa mga icon na naka-install sa system; "
+"ang default na icon kung wala. \"custom\": ang larawan sa apps-button-custom-"
+"icon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "Sariling icon ng button ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"Path ng kopya ng piniling larawan, na itinatago sa folder ng data ng user ng "
+"Deskence para gumana pa rin kapag inilipat o binura ang orihinal na file. "
+"Ginagamit ang default na icon kapag hindi ma-load ang file."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "Palakihin ang mga icon sa ilalim ng pointer"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"Maayos na lumalaki ang mga icon malapit sa pointer habang gumagalaw ito sa "
+"ibabaw ng dock. Hindi ipinapakita habang naka-off ang mga animation sa GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "Lakas ng pagpapalaki"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr "Laki ng icon sa ilalim ng pointer kumpara sa karaniwang laki nito."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "Sariling kulay ng background ng dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr ""
+"Kapag false, ang background ng dock ay may kulay ng kasalukuyang istilo ng "
+"GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "Kulay ng background ng dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"Kulay bilang \"#rrggbb\", ginagamit kapag true ang background-custom-color. "
+"Wala itong sariling transparency: iyon ang background-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "Sariling transparency ng background ng dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr ""
+"Kapag false, kasing-transparent ang background ng dock gaya ng itinatakda ng "
+"kasalukuyang istilo ng GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "Transparency ng background ng dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: hindi transparent. 100: ganap na transparent. Background lang; "
+"pinapanatili ng mga icon, indicator, label at menu ang sarili nilang "
+"visibility. Ginagamit kapag true ang background-custom-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "Sariling transparency ng background ng view ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr ""
+"Kapag false, ang full-screen na view ng mga app na binuksan mula sa dock ay "
+"may karaniwang background ng GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "Sariling kulay ng background ng view ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"Kapag false, ang full-screen na view ng mga app na binuksan mula sa dock ay "
+"may kulay ng karaniwang background ng GNOME. Hiwalay sa background ng dock."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "Kulay ng background ng view ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"Kulay bilang \"#rrggbb\", ginagamit kapag true ang app-grid-custom-color. "
+"Wala itong sariling transparency: iyon ang app-grid-transparency (o hindi "
+"transparent kapag false ang app-grid-custom-transparency)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "Transparency ng background ng view ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: hindi transparent na background (karaniwan o sariling kulay). 100: ganap "
+"na transparent, wallpaper lang ang nakikita sa likod ng mga app. Background "
+"lang ang nagbabago; nananatiling ganap na nakikita ang mga icon, pangalan at "
+"search field. Ginagamit kapag true ang app-grid-custom-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "Sariling kulay ng background ng mga folder ng app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"Kapag false, ang mga tile ng folder sa view ng mga app (gaya ng "
+"\"Utilities\") ay may kulay ng kasalukuyang istilo ng GNOME. Background lang "
+"ng tile ang nagbabago; nananatili ang mga thumbnail ng app at ang pangalan "
+"ng folder, at hindi naaapektuhan ang panel ng nakabukas na folder."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "Kulay ng background ng mga folder ng app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"Kulay bilang \"#rrggbb\", ginagamit kapag true ang app-grid-folder-custom-"
+"color. Wala itong sariling transparency: iyon ang app-grid-folder-"
+"transparency (o ang alpha ng istilo ng GNOME kapag false ang app-grid-folder-"
+"custom-transparency)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "Sariling transparency ng background ng mga folder ng app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"Kapag false, kasing-opaque ang mga tile ng folder sa view ng mga app gaya ng "
+"itinatakda ng kasalukuyang istilo ng GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "Transparency ng background ng mga folder ng app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: hindi transparent na background ng tile. 100: ganap na transparent; "
+"nakikilala ang folder sa mga thumbnail ng app at sa pangalan nito. "
+"Nananatiling nakikita ang hover, pagpili at keyboard focus. Ginagamit kapag "
+"true ang app-grid-folder-custom-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr "Sariling kulay ng hover highlight sa view ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"Kapag false, ang highlight sa ilalim ng pointer sa mga app, folder ng app at "
+"mga app sa loob ng nakabukas na folder ay may kulay ng kasalukuyang istilo "
+"ng GNOME. Hindi naaapektuhan ang dock, ang desktop at ang mga folder stack."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "Kulay ng hover highlight sa view ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"Kulay bilang \"#rrggbb\", ginagamit kapag true ang app-grid-hover-custom-"
+"color. Wala itong sariling transparency: iyon ang app-grid-hover-"
+"transparency (o ang alpha ng istilo ng GNOME kapag false ang app-grid-hover-"
+"custom-transparency)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr "Sariling transparency ng hover highlight sa view ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"Kapag false, kasing-opaque ang hover highlight gaya ng itinatakda ng "
+"kasalukuyang istilo ng GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr "Transparency ng hover highlight sa view ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: hindi transparent na highlight. 100: ganap na transparent; magmumukhang "
+"pareho ang folder sa ilalim ng pointer at habang nakapahinga. Highlight lang "
+"ang nagbabago; nananatiling ganap na nakikita ang mga icon at pangalan, at "
+"nananatiling may marka ang keyboard focus. Ginagamit kapag true ang app-grid-"
+"hover-custom-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "Pag-click sa tumatakbong app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": i-focus ang pinakahuling ginamit na window; kapag naka-"
+"focus na ang app, lumipat sa susunod nitong window. \"minimize-or-cycle\": "
+"gaya ng focus-or-cycle, pero mini-minimize ang app na may iisang naka-focus "
+"na window."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "Ipakita lang ang mga app ng kasalukuyang workspace"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"Kapag true, ipinapakita lang ang mga tumatakbong (hindi naka-pin) app kapag "
+"may window sila sa aktibong workspace, at lumilipat lang ang pag-click sa "
+"pagitan ng mga window na iyon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "Ipakita ang mga bilang ng app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"Kapag true, ipinapakita ng app na nag-uulat ng bilang (halimbawa mga hindi "
+"pa nababasang mensahe, sa pamamagitan ng LauncherEntry D-Bus API) ito sa "
+"icon nito sa dock. Walang ipinapakita ang mga app na walang iniuulat."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "Ipakita ang progreso ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"Kapag true, ipinapakita ng app na nag-uulat ng progreso ng isang operasyon "
+"(halimbawa download, sa pamamagitan ng LauncherEntry D-Bus API) ito bilang "
+"bar sa icon nito sa dock."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "Ipakita ang mga preview ng window kapag itinapat ang pointer"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"Kapag nakatigil ang pointer sa tumatakbong app, ipinapakita ang mga window "
+"nito (ang mga binibilang ng dock, tingnan ang isolate-workspaces) kasama ang "
+"mga pamagat; ang pag-click sa isa ay nag-a-activate sa window na iyon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "Silipin ang window mula sa preview nito"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"Habang nakatigil ang pointer sa preview ng window, sandaling ipinapakita ang "
+"window na iyon sa ibabaw ng iba, na pinadilim. Walang naka-focus, itinataas, "
+"ibinabalik o inililipat; natatapos ito kapag umalis sa preview o pinindot "
+"ang Escape."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "Mga folder sa dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"Mga folder na ipinapakita sa dock, ayon sa pagkakasunod-sunod. Ang bawat "
+"entry ay \"xdg:PANGALAN\" para sa karaniwang folder (PANGALAN gaya ng sa "
+"GLib.UserDirectory nang walang prefix na DIRECTORY_, halimbawa "
+"\"xdg:DOWNLOAD\"), \"home:RELATIBONG/PATH\" para sa folder sa home folder, o "
+"\"file://\" URI para sa anumang ibang folder. Hindi kailanman ginagalaw ng "
+"pag-alis ng entry ang folder mismo."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "Ipakita ang mga folder sa dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr ""
+"Kapag false, pinapanatili ang mga folder sa folder-stacks pero hindi "
+"ipinapakita."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "Paano ipinapakita ang laman ng mga folder"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": malalaking icon. \"list\": mas maliliit na icon na may laki at "
+"petsa. Binabago mula sa panel ng folder."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "Pagkakasunod-sunod ng bawat folder"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"Iniuugnay ang isang entry ng folder-stacks sa \"name\", \"modified\" "
+"(pinakabago muna) o \"type\". Ang folder na walang entry ay inaayos ayon sa "
+"pangalan, maliban sa Downloads (xdg:DOWNLOAD), na nagpapakita muna ng "
+"pinakabagong mga file. Binabago mula sa panel ng folder."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "Laki ng icon sa desktop"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) o \"huge\" (128 px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "Sulok kung saan inilalagay ang mga bagong icon"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "Ipakita ang home folder"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "Ipakita ang mga drive at USB stick"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "Paano inilalagay ang mga inilipat na icon"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": nananatili ang mga icon kung saan mismo dina-drop ang mga ito. "
+"\"grid\": dumidikit sa grid ang mga dina-drop na icon. Hindi inililipat ng "
+"pagbabago ang mga kasalukuyang icon; ginagawa iyon ng \"I-align sa Grid\" sa "
+"menu ng desktop."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "Buksan ang mga item sa isang click o dobleng click"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "Pagkakasunod-sunod na ginagamit ng \"Ayusin ang mga Icon\""
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "Binabago mula sa \"Ayusin Ayon sa\" sa menu ng desktop."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "Ipakita ang mga pasibong icon ng app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"Nagtatakda ang StatusNotifierItem ng estadong \"Passive\" para sa mga icon "
+"na itinuturing ng app na hindi mahalaga. Nakatago ang mga ito maliban kung "
+"true ito."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "Ayos ng mga button bago ang unang pagbabago"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"Halaga ng button-layout ng org.gnome.desktop.wm.preferences na na-save bago "
+"ito binago ng Deskence sa unang pagkakataon. Walang laman kung walang binago."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "Ayos ng mga button na huling isinulat ng Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"Ginagamit para malaman kung binago ng user ang ayos sa ibang lugar "
+"pagkatapos; iniaalok lang ang orihinal na halaga para ibalik habang kapareho "
+"pa rin nito ang kasalukuyang halaga."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "Pagkakasunod-sunod ng view ng mga app"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": ang ayos na ginawa ng user (ang sariling app-picker-layout ng "
+"GNOME at ang mga listahan ng folder). \"alphabetical\": mga app at folder "
+"ayon sa display name sa wika ng user, pati ang mga app sa loob ng bawat "
+"folder; naka-off ang muling pagsasaayos sa pag-drag. Pinapanatiling updated "
+"ng extension na app-grid."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "Ayos na na-save bago ang alpabetikong pagsasaayos"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"JSON na isinusulat kapag naging \"alphabetical\" ang sort-mode: ang dating "
+"app-picker-layout ng org.gnome.shell (GVariant text) at ang listahan ng app "
+"ng bawat folder. Ibinabalik ito kapag bumalik sa \"custom\" ang sort-mode. "
+"Panloob; hindi bahagi ng mga preset."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "Shortcut na nagbubukas ng history ng clipboard"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "Pinakamaraming bilang ng tinatandaang item"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr ""
+"Hindi binibilang ang mga naka-pin na item. Ang pinakalumang mga item ang "
+"unang kinakalimutan."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "Ano ang itinatago pagkatapos mag-log out"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": sa memory lang itinatago ang history at nawawala ito pagkatapos "
+"mag-log out. \"pinned\": sine-save ang mga naka-pin na item sa folder ng "
+"data ng user. \"all\": doon sine-save ang buong history."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "Huwag tandaan ang mga bagong item"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr ""
+"Pansamantalang estado na binabago mula sa panel ng history; hindi bahagi ng "
+"mga preset."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "Tandaan din ang piniling text"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"Idinaragdag din sa history ang text na pinili gamit ang mouse (ang primary "
+"selection, na idinidikit gamit ang gitnang button)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "Laging i-paste ang text nang walang format"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"Itinatago ng history ang text nang walang format; ang pinakabagong item lang "
+"ang maaaring i-paste kasama ang format nito, habang ibinibigay pa ito ng app "
+"na pinagkopyahan. Kapag true, ipe-paste rin ang item na iyon bilang plain "
+"text. Ang Shift+Enter sa history ay laging nagpe-paste ng plain text."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "I-paste agad ang piniling item"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"Kapag true, isinasara ng pagpili ng item ang panel at ipe-paste ito sa "
+"window na naka-focus, gamit ang Ctrl+V. Kapag false, inilalagay lang ang "
+"item sa clipboard."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "Panatilihin ding nakabukas ang screen"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"Kapag false, pinipigilan lang ng pagpapanatiling gising ng computer ang "
+"awtomatikong suspend: namamatay at nagla-lock pa rin ang screen gaya ng "
+"dati. Kapag true, nananatili ring nakabukas ang screen at hindi awtomatikong "
+"nagla-lock."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "Tagal na ginagamit ng button sa mabilisang setting"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr ""
+"Ang huling piniling tagal; ginagamit itong muli ng pag-click sa button."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "Sariling tagal sa minuto"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "Oras ng pagtatapos sa minuto pagkalipas ng hatinggabi"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr ""
+"Ginagamit ng \"hanggang sa isang oras\": ang susunod na pagdating ng lokal "
+"na oras na ito."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"Magbukas ng pahina ng mga setting: general, dock, desktop-icons, app-grid, "
+"top-bar, windows o clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "PAHINA"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"Isang dock na may mga folder, mga icon sa desktop, mga icon ng app sa itaas "
+"na bar, history ng clipboard at mga setting ng window para sa GNOME."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "Hindi transparent"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "Transparent"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "_Kanselahin"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "Hindi naka-install. I-install muli ang package na deskence."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "Magsisimula pagkatapos mong mag-log out at mag-log in muli"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr ""
+"Na-update; magsisimula ang bagong bersyon pagkatapos mong mag-log in muli"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "Hindi tumatakbo ang GNOME Shell; ilalapat sa susunod na GNOME session"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "Hindi tumatakbo"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "Huminto ang feature dahil sa error"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "Hindi suportado ang bersyong ito ng GNOME"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "Hindi sinusuportahan ng naka-install na bersyon ang GNOME {}."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "Naka-off ang mga extension ng GNOME"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Kailangan ng Deskence ang mga ito para maipakita ang mga feature nito."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "_I-on…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "Ibang kopya ang ginagamit sa halip"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "Pinapalitan ng kopya sa iyong home folder ang naka-install: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "_Ipakita"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "I-on ang mga extension ng GNOME?"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr ""
+"Ino-on din nito ang iba pang extension na in-enable mo sa app na Extensions."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "_I-on"
+
+# NEEDS-REVIEW: fragments 201–206 go into „Nagbibigay rin ito ng {}“; check
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "dock"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "mga icon sa desktop"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "mga icon ng app sa itaas na bar"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "pagsasaayos ng view ng mga app"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "history ng clipboard"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "pagpapanatiling gising ng computer"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr ""
+"Nagbibigay rin ito ng {}. Nagdudulot ng problema ang paggamit ng dalawa nang "
+"sabay."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "Maaaring nagbibigay rin ito ng {}."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "I-disable ang “{}”?"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"Mananatiling naka-install ang extension at pananatilihin ang mga setting "
+"nito. Maaari mo itong i-on muli sa app na Extensions."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "_I-disable"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "_I-disable…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "Mahina"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "Malakas"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "Lakas ng pagpapalaki"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "Transparency ng background"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "Laki ng icon"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "Laging nakikita ang dock at hindi ito tinatakpan ng mga window"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "Nagtatago habang may window na nakapatong dito"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "Lumalabas kapag inilipat mo ang pointer sa gilid ng screen"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "Lumilipat sa susunod na window ng app ang pangalawang click"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr ""
+"Mini-minimize ng pag-click sa app na may iisang naka-focus na window ang "
+"window na iyon"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "Ibalik ang mga default na setting ng dock?"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"Babalik sa kanilang default ang posisyon, laki, mga kulay, pagtatago, "
+"monitor, gawi sa pag-click at mga ipinapakitang item. Hindi magbabago ang "
+"mga naka-pin na app, mga folder sa dock, ang view ng mga app at kung "
+"ipinapakita ang dock."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "_Ibalik"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr ""
+"Hindi ipinapakita habang naka-off ang mga animation sa mga setting ng "
+"accessibility"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "Magdagdag ng Folder"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "Ibang Folder…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "Hindi naka-set up sa computer na ito"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{} (nawawala)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "Ilipat Pataas"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "Ilipat Pababa"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "Alisin sa Dock"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "Idagdag ang Folder sa Dock"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "Hindi Maidagdag ang Folder na Ito"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "Mga lokal na folder lang ang maaaring idagdag."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "_Isara"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "Simula ng Dock"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "Dulo ng Dock"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "Sa Itaas"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "Sa Ibaba"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "Sa Kaliwa"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "Sa Kanan"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "Walang naka-install na logo; ginagamit ang default na icon"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "Walang piniling larawan; ginagamit ang default na icon"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "Nawawala ang larawan; ginagamit ang default na icon"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "Mga Larawan"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "Pumili ng Icon"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "Mga lokal na file lang ang maaaring gamitin."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr ""
+"Hindi larawan ang file sa suportadong format (PNG, SVG, JPEG o WebP) na "
+"hanggang 4 MB."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "Hindi Magamit ang Larawang Ito"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{} (nadiskonekta)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "Walang naka-set up na folder ng desktop"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "Ibalik ang mga default na setting ng mga icon sa desktop?"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"Babalik sa kanilang default ang laki, paglalagay, gawi sa pag-click at mga "
+"ipinapakitang item. Hindi magbabago ang iyong mga file at ang mga posisyon "
+"ng icon."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "Nananatili ang mga icon kung saan mo mismo ito dina-drop"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "Dumidikit sa grid ang mga dina-drop na icon"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "Transparency ng folder"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "Transparency ng highlight"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "Ibalik ang mga default na setting ng view ng mga app?"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"Babalik sa hitsura ng GNOME ang background, mga folder ng app at hover "
+"highlight, at babalik ang mga app sa sarili mong pagkakasunod-sunod."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr ""
+"Ayon sa pangalan, pati sa loob ng mga folder. Hindi binabago ng pag-drag ang "
+"pagkakasunod-sunod."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr ""
+"Ayusin ang mga app sa pamamagitan ng pag-drag. Babalik ang ayos na ito kapag "
+"in-off ang alpabetikong pagkakasunod-sunod."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr ""
+"Ang background sa likod ng mga app. Hindi nagbabago ang mga icon, pangalan "
+"at search field."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Magagamit habang naka-on ang dock ng Deskence."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"Baguhin ang hitsura ng mga grupo ng app, gaya ng “Utilities”, sa view ng mga "
+"app. Background lang ng tile ang nagbabago."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"Piliin ang background na lumalabas sa ilalim ng pointer sa isang app o "
+"folder ng app, pati sa loob ng nakabukas na folder."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "_Shortcut"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "Binubuksan ang history"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "Ibalik ang mga default na setting ng clipboard?"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"Babalik sa kanilang default ang shortcut at ang pag-paste. Hindi magbabago "
+"ang history, kung ilang item ang itinatago nito at kung itinatago ito "
+"pagkatapos mag-log out."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "Sa memory lang"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "Sine-save ang mga naka-pin na item sa {}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "Sine-save ang history sa {}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "Ibalik ang mga default na setting ng itaas na bar?"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"Babalik sa kanilang default ang pagpapakita ng mga hindi aktibong icon at "
+"ang mga opsyon ng “Panatilihing Gising”. Hindi magbabago kung aling mga "
+"feature ang ipinapakita."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "Ino-on o ino-off ang “Laging Nasa Itaas” para sa naka-focus na window"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "Ibalik ang mga default na button ng title bar?"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr ""
+"Babalik ang mga button ng title bar sa default ng GNOME sa system na ito."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "Ibalik ang mga dating button ng title bar?"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr ""
+"Babalik ang mga button ng title bar sa dati nilang ayos bago binago ng "
+"Deskence."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr "Binago ang mga button sa ibang lugar matapos baguhin ng Deskence"
+
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "kaliwang gilid"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "ibabang gilid"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "kanang gilid"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "Preview: dock sa {} ng screen"
+
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "kaliwang itaas"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "kanang itaas"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "kaliwang ibaba"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "kanang ibaba"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "Preview: inilalagay ang mga bagong icon mula sa {} na sulok"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "I-on ang “{}” para mabago ang “{}”."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "Magagamit ang “{}” pagkatapos i-on ang “{}”."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "Hindi magagamit ang “{}” sa ngayon."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr ""
+"May na-install na update. Mag-log out at mag-log in muli para magamit ito."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr ""
+"Mag-log out at mag-log in muli para simulan ang mga naka-on na feature."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "_Tungkol"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "Maghanap sa mga Setting"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "Pangunahing Menu"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "Maghanap sa mga setting"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "Mga Pahina ng Setting"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "Mga Resulta ng Paghahanap"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "Walang Nahanap na Resulta"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "Subukan ang ibang salita, halimbawa ang pangalan ng isang feature."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "_Mag-log Out…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "Dock"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"Ayusin ang posisyon, hitsura at gawi ng bar ng mga app sa gilid ng screen. "
+"Pareho ang mga naka-pin na app sa nasa overview ng mga aktibidad."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "Ipakita ang _Dock"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "Hitsura"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "_Posisyon"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "Kaliwa"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "Ibaba"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "Kanan"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "_Haba"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "Kasya sa mga Icon"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "Buong Gilid"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "_Laki ng Icon"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "Sariling _Kulay ng Background"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "Kulay ng Background"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "Sariling Transparency ng _Background"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "_Palakihin ang mga Icon sa Ilalim ng Pointer"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "_Lakas ng Pagpapalaki"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "Gawi"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "_Itago"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "Hindi Kailanman"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "Kapag May Nakapatong na Window"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "Kapag Hindi Ginagamit"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "_Monitor"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "Pangunahin"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "Napili"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "Lahat"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "Napiling _Monitor"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "_Pag-click sa Tumatakbong App"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "I-focus, Pagkatapos Lumipat ng Window"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "I-minimize o Lumipat ng Window"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "Ipakita Lang ang mga App ng Kasalukuyang _Workspace"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "Ipakita ang mga _Preview ng Window Kapag Itinapat"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr ""
+"Huminto sa tumatakbong app para makita ang mga window nito at pumili ng isa"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "_Silipin ang mga Window"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"Huminto sa preview para makita ang window nito sa ibabaw ng iba, nang hindi "
+"lumilipat dito"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "Impormasyon Mula sa mga App"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"Maaaring magpakita ang mga app ng bilang o progreso ng operasyon sa kanilang "
+"icon, halimbawa mga hindi pa nababasang mensahe o download. Ang iniuulat "
+"lang ng app ang ipinapakita."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "Ipakita ang mga Bilang ng App"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "Isang numero sa icon, gaya ng mga hindi pa nababasang mensahe"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "Ipakita ang Progreso ng mga Operasyon"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "Isang bar sa icon habang may download o pagkopya"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "Mga Item"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "Ang ipinapakita ng dock bukod sa mga app."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "_Basurahan"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "Mga Drive at _USB Stick"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "Mga Lokasyon sa _Network"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "Button ng mga _App"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "P_osisyon ng Button ng mga App"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "_Icon ng Button ng mga App"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "Default ng GNOME"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "Logo ng Distribusyon"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "Sariling Larawan"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "_Pumili…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "Mga Folder sa Dock"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"I-pin ang mga folder para direktang ma-browse ang laman nila mula sa dock. "
+"Hindi binabago ng pag-alis ng folder sa dock ang folder o ang mga file nito."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "Ipakita ang mga _Folder sa Dock"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "_Ibalik ang mga Default na Setting…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "Mga Icon sa Desktop"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr ""
+"Ipakita ang mga file at folder ng iyong folder ng desktop bilang mga icon sa "
+"desktop."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "Ipakita ang mga _Icon sa Desktop"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "Folder ng Desktop"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "Buksan sa Files"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "Mga Icon"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "_Laki"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "Maliit"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "Katamtaman"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "Malaki"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "Napakalaki"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "_Ilagay ang mga Bagong Icon Mula sa"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "Pinapanatili ng mga icon na inilipat mo ang kanilang puwesto"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "Kaliwang Itaas"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "Kanang Itaas"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "Kaliwang Ibaba"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "Kanang Ibaba"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "_Ayos ng mga Icon"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "Malaya"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "Idikit sa Grid"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "_Buksan ang mga Item Gamit ang"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "Dobleng Click"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "Isang Click"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "Ipakita Rin"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "_Home Folder"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"Hindi ipinapakita ang mga nakatagong file. Hindi kailanman inililipat o "
+"binubura ng pag-disable ng mga icon sa desktop ang iyong mga file."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "Itaas na Bar"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "Mga Icon ng App"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr ""
+"Mga icon ng mga app na tumatakbo sa background, halimbawa mga messenger at "
+"pag-sync ng file."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "Ipakita ang mga Icon ng _App"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "Ipakita ang mga Hindi _Aktibong Icon"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "Mga icon na minarkahan ng mga app bilang hindi mahalaga sa ngayon"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "Panatilihing Gising"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"Isang button sa mabilisang setting na pumipigil sa computer na awtomatikong "
+"mag-suspend, sa piniling tagal o hanggang i-off. Gumagana pa rin ang manu-"
+"manong pag-suspend."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "Ipakita ang “Panatilihing _Gising”"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "Panatilihin Ding Nakabukas ang _Screen"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr ""
+"Habang naka-on ang “Panatilihing Gising”, hindi awtomatikong namamatay o "
+"nagla-lock ang screen"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "Sariling _Tagal"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "Minuto"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"Sinusuportahan ang mga app na gumagamit ng pamantayang StatusNotifierItem. "
+"Hindi sinusuportahan ang mga lumang istilong icon ng tray (XEmbed)."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "Mga Window"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "Mga Button ng Title Bar"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"Mga setting ito ng GNOME: nananatili ang mga ito kapag inalis ang Deskence. "
+"Maaaring balewalain ang mga ito ng mga app na gumuguhit ng sarili nilang "
+"title bar, gaya ng ilang browser."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "Button para _I-minimize"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "Button para I-m_aximize"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "_Paglalagay"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "Laging Nasa Itaas"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"Pinapanatili ang isang window sa ibabaw ng iba. Nasa menu din ito ng window "
+"(Alt+Space) at sa menu ng preview ng window sa dock, na nagpapakita ng pin "
+"para sa mga ganitong window. Hindi nito ipinapakita ang window sa bawat "
+"workspace; hiwalay na opsyon iyon ng menu ng window."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "Ibalik ang mga Setting Mula _Bago ang mga Pagbabago…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "Hindi maaaring walang laman ang pangalan."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "Hindi maaaring may “/” ang pangalan."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "Hindi balidong pangalan ang “.” at “..”."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "May item nang may ganitong pangalan."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "Masyadong mahaba ang pangalan."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "Hindi mabuksan ang lokasyon"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "Hindi mabuksan ang “{}”"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "Sira ang link: wala ang item na itinuturo nito."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "Hindi balido ang launcher."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "Hindi masimulan ang “{}”"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "Hindi Pinagkakatiwalaang Launcher"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"Hindi pa minarkahang pinagkakatiwalaan ang “{}”. Payagan lang ang paglunsad "
+"kung alam mo kung saan galing ang file na ito."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "_Payagan at Ilunsad"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "Hindi mapayagan ang paglunsad ng “{}”"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "Hindi mabuksan ang Settings"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "Hindi mabuksan ang Deskence"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "Hindi ma-unmount ang “{}”"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "Nakatago ang mga pangalang nagsisimula sa “.”."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "Bagong Folder"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "Pangalan ng Folder"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "_Gumawa"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "Palitan ang Pangalan ng Folder"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "Palitan ang Pangalan ng File"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "_Palitan ang Pangalan"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "Bagong _Folder…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "I-_paste"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "Piliin _Lahat"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "_Ayusin ang mga Icon"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "I-align sa _Grid"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "_Pangalan"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "_Binago"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "_Uri"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "Ayusin _Ayon sa"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "Palitan ang _Background…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "Mga Setting ng _Desktop"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "_Buksan"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "Buksan _Gamit ang…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "Payagan ang _Paglunsad"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "I-_cut"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "_Kopyahin"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "Palitan ang Pa_ngalan…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "Ilipat sa _Basurahan"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "_Alisan ng Laman ang Basurahan…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "_I-eject"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "_I-unmount"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "_Mga Katangian"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "Pumalya ang operasyon"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "Hindi maalisan ng laman ang basurahan"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "Kailangan ang app na Files para maalisan ng laman ang basurahan."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "Hindi maipakita ang mga katangian"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "Hindi mailipat sa basurahan"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "Hindi mapalitan ang pangalan"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "Hindi magawa ang folder"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "Hindi mailipat ang mga file"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "Hindi makopya ang mga file"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "Home"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "Basurahan"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "Desktop"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "Ipakita ang mga App"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "Mga Setting ng Dock"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "Hindi mabuksan ang lokasyon"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "Buksan"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "Alisan ng Laman ang Basurahan…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "I-eject"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "I-unmount"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "Hindi ma-eject ang drive"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "Hindi ma-unmount ang drive"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "Mga window ng %s"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "Isara ang Window"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "Mga Preset (JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "Mga Preset na May Larawan"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "Lahat ng Preset"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "Pangalan"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "Mga Naka-pin na App"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "Mga Sariling Larawan"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "Sine-save sa isang archive kasama ng mga setting"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "Ibalik ang mga default na setting ng Deskence?"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"Babalik sa kanilang default ang lahat ng setting ng Deskence at babalik ang "
+"view ng mga app sa sarili mong pagkakasunod-sunod. Aalisin ang mga folder sa "
+"dock; hindi gagalawin ang mga folder mismo. Hindi magbabago ang mga naka-on "
+"na feature, mga naka-pin na app, mga button ng title bar, mga naka-save na "
+"preset at ang history ng clipboard."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "Pareho sa System ({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "_I-undo"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "_I-apply…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "_Palitan ang Pangalan…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "_I-export…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "_Burahin…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "Higit Pa"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "mga naka-pin na app"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "mga folder sa dock"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "mga larawan"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "Mga Setting"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "Mga setting na may {}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "Aking mga Setting"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "I-save ang Kasalukuyang mga Setting"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "_I-save"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "Hindi Ma-save ang Preset"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "Na-save ang preset na “{}”"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "Palitan ang Pangalan ng Preset"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "Hindi Mapalitan ang Pangalan ng Preset"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "Hindi Mabura ang Preset"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "Burahin ang preset na “{}”?"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "Hindi magbabago ang kasalukuyang mga setting."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "_Burahin"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "I-export ang mga Setting"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"Sine-save ang mga setting bilang nababasang JSON file. Kapag may mga "
+"larawan, archive ang file na may mga setting at mga larawan."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Mga Setting ng Deskence"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "Hindi Ma-export"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "Na-export ang mga setting"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "I-import ang mga Setting"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "Hindi Ma-import"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "Tugma na ang iyong mga setting sa preset na ito."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "Walang Babaguhin"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "{} setting ang magbabago sa: {}."
+msgstr[1] "{} na setting ang magbabago sa: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "I-apply ang “{}”?"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "I-apply ang Preset?"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "_I-apply"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "Hindi naibalik ang mga pagbabagong ito: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "Naibalik ang mga dati mong setting."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "Hindi Na-apply ang Preset"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "Walang binago."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "Na-apply ang preset"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "Hindi Ma-undo ang Preset"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "Walang na-apply na preset na maa-undo."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "Naibalik ang mga dating setting"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "I-undo ang Huling Na-apply na Preset?"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr "Babalik sa mga halaga bago ito ang mga setting na binago ng preset."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "May Ilang Setting na Nagbago Mula Noon"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"Binago ang mga setting na ito pagkatapos ma-apply ang preset: {}. I-undo rin "
+"ba ang mga ito, o panatilihin kung ano sila ngayon?"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "_Panatilihin"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "I-undo _Lahat"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "Ulat"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "_I-save…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "Impormasyon para sa mga Bug Report"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "Nakopya ang diagnostics"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "I-save ang Ulat"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "Hindi Ma-save ang Ulat"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "Na-save ang ulat"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "Naibalik ang mga default na setting"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "Mga Feature"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "Pangkalahatan"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "View ng mga App"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "Clipboard"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "Masyadong malaki ang file para maging preset."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "Hindi preset ng Deskence ang file."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "Walang balidong bersyon ng format ang preset."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"Ginawa ang preset ng mas bagong bersyon ng Deskence. I-update ang Deskence "
+"para magamit ito."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "Masyadong malaki ang archive para maging preset."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "Walang preset ng Deskence sa archive."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "Sira ang archive."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "Sira ang bahagi ng mga setting ng preset."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "Binalewala ang hindi kilalang bahaging “{}”."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "Binalewala ang hindi kilalang setting na “{}” sa {}."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"Hindi nakakonekta ang monitor na {}. Hanggang doon, ipinapakita ang dock sa "
+"pangunahing monitor."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "Hindi magagamit ang {} sa computer na ito."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "May hindi balidong halaga ang {} at nilaktawan ito."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "Naka-lock ng administrator ang {}."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "Hindi magagamit sa computer na ito ang wikang “{}” at nilaktawan ito."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "Hindi na-import ang shortcut na {} para sa “{}”: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "Sira ang listahan ng mga feature at nilaktawan ito."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "Binalewala ang hindi kilalang feature na “{}”."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr "Hindi magagamit sa computer na ito ang mga naka-pin na app."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "Sira ang listahan ng mga naka-pin na app at nilaktawan ito."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr ""
+"Hindi naka-install: {}. Lalabas ang mga ito sa dock kapag na-install na."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "Sira ang listahan ng mga folder sa dock at nilaktawan ito."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "May hindi balidong entry ang folder na “{}” at nilaktawan ito."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"Hindi naka-set up sa computer na ito ang karaniwang folder na {}; "
+"ipinapakita ito bilang hindi magagamit."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr ""
+"Wala ang folder na {}; ipinapakita ito bilang hindi magagamit hanggang "
+"magkaroon ito."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"Gumagamit ang preset ng sariling larawan para sa button ng mga app na hindi "
+"kasama; ginagamit ang default na icon."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: huwag patakbuhin ang Deskence bilang root; patakbuhin ito bilang "
+"sarili mong user (walang sudo)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"Hindi naka-install ang schema ng mga setting ng Deskence. I-install muli ang "
+"package na deskence."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "Walang binago: hindi ma-save ang mga setting."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"Kailangang kumpirmahin ang pagbabagong ito. Patakbuhin muli ang command na "
+"may --yes para kumpirmahin ito nang walang tanong."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "o/H"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "o"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "oo"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"Na-save. Hindi makumpirma ang pagbabago sa kasalukuyang GNOME session; "
+"maaaring kailanganing mag-log in muli."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "tumatakbo"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "hindi tumatakbo"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "error"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "hindi suportadong bersyon ng GNOME"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "magsisimula pagkatapos mag-log in muli"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "na-update; bagong bersyon pagkatapos mag-log in muli"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "hindi naka-install"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "hindi alam (hindi maabot ang GNOME Shell)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: ipinapakita ang estado ng tumatakbong session."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr ""
+"Hindi maabot ang GNOME Shell: ang mga naka-save na setting lang ang alam."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr ""
+"Naka-off ang mga extension ng GNOME; walang feature na tatakbo hanggang i-on "
+"ang mga ito."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "FEATURE"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "NAKA-SAVE"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "SA SESSION NA ITO"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "naka-on"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "naka-off"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr ""
+"{}: kopya sa iyong home folder ang ginagamit sa halip na ang naka-install: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr ""
+"{}: iba ang naka-save na setting sa session; magkakabisa ito pagkatapos mag-"
+"log in muli."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr ""
+"{}: nagbibigay ang “{}” ng parehong bagay; nagdudulot ng problema ang "
+"paggamit ng dalawa."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: maaaring nagbibigay ang “{}” ng parehong bagay."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "Magbigay ng mga pangalan ng feature o --all, hindi pareho."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr ""
+"Magbanggit ng kahit isang feature, o gamitin ang --all. Mga feature: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "Hindi kilalang feature: {}. Mga feature: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "hindi ma-save ang setting"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: naka-on"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: naka-off"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: naka-on na"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: naka-off na"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: naka-on na sa mga naka-save na setting"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: naka-off na sa mga naka-save na setting"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: pumalya: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"Naka-off ang mga extension ng GNOME; magsisimula ang mga naka-on na feature "
+"kapag na-on na ang mga ito (gsettings set org.gnome.shell disable-user-"
+"extensions false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr ""
+"Walang naka-save na preset na may pangalang “{}”. Tingnan ang deskence "
+"preset list."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr ""
+"Maraming naka-save na preset ang may pangalang “{}”; gamitin ang isa sa "
+"kanilang ID: {}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "Feature na {}: i-on"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "Feature na {}: i-off"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "Dock: ang sariling larawan ng button ng mga app"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Babala: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "Nilaktawan: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "Hindi na-apply ang preset: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "Hindi naibalik ang mga pagbabagong ito: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "Naibalik ang mga dating setting."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "Hindi na-apply ang preset; walang binago. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"Bahagya lang na-apply ang preset; hindi na-save ang mga setting na ito: {}. "
+"I-undo ito gamit ang: deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "Mga feature na {}: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "Walang naka-save na preset."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "PANGALAN"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ID"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "GINAWA"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "Tugma na ang iyong mga setting sa preset na “{}”."
+
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "Binabago ng preset na “{}” ang {} setting:"
+msgstr[1] "Binabago ng preset na “{}” ang {} na setting:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "Walang binago (--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "I-apply ang preset?"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr ""
+"Na-apply ang preset na “{}”. I-undo ito gamit ang: deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "Hindi ma-import ang {}: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"May naka-save nang preset na may pangalang “{}”. Pumili ng ibang pangalan "
+"gamit ang --name, o palitan ito gamit ang --replace."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr "Balido ang preset na “{}” at mase-save ito; walang binago (--dry-run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr ""
+"Na-save ang preset na “{}” bilang {}. I-apply ito gamit ang: deskence preset "
+"apply {}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "I-save at i-apply ang preset?"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"Na-save ang preset na “{}” bilang {} at na-apply. I-undo ito gamit ang: "
+"deskence preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "Folder ang {}; magbigay ng pangalan ng file."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "Mayroon nang {}. Gamitin ang --force para palitan ito."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "Hindi maisulat ang {}: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "Na-export ang mga setting sa {} (isang archive na may mga larawan)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "Na-export ang mga setting sa {}."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr "Walang ginagamit na sariling larawan, kaya simpleng JSON ang file."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr "Babalik ang mga setting sa ayos nila bago ang huling pag-import."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "Walang binago ang preset na maaaring i-undo."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "Ibinabalik ng pag-undo ng “{}”:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"Binago pagkatapos ma-apply ang preset, kaya iniiwan kung ano sila (idagdag "
+"ang --include-changed para i-undo rin ang mga ito): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "I-undo ang preset?"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "Bahagya lang na-undo ang preset: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "Naibalik ang mga dating setting."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "Ibigay kung ano ang ibabalik o --all, hindi pareho."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr ""
+"Banggitin kung ano ang ibabalik, o gamitin ang --all. Mga pagpipilian: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "Hindi kilalang pagpipilian: {}. Mga pagpipilian: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "Nasa default na ang lahat; walang ibabalik."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "Ibinalik sa default ({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "buong Deskence"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "Babalik ang view ng mga app sa sarili mong pagkakasunod-sunod."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "Io-off ang feature na app-grid (alpabetikong pagkakasunod-sunod)."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"Hindi binago: ibang naka-on na feature, mga naka-pin na app, mga file sa "
+"desktop, mga sariling larawan, mga naka-save na preset at ang history ng "
+"clipboard."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "Ibalik ang mga setting na ito?"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "Hindi naibalik ang ilang setting: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "Naibalik ang mga default na setting."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: error: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"Mga setting ng Deskence mula sa command line. Kapag walang command, bubukas "
+"ang window ng mga setting (deskence [--page PAHINA])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"Mga feature: {}. Exit status: 0 tapos, 1 pumalya, 2 hindi balidong command "
+"line, 3 hindi nakumpirma, 4 na-save pero hindi nakumpirma sa tumatakbong "
+"GNOME session. Tingnan ang man deskence."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "COMMAND"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "mag-print ng JSON na dokumento sa halip na text"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "ipakita ang naka-save at tumatakbong estado ng bawat feature"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "i-on ang mga feature"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "i-off ang mga feature; pinapanatili ang mga setting nila"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "isa sa: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "lahat ng feature ng Deskence (hindi kailanman ibang extension)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "ilista, i-apply, i-import at i-export ang mga preset"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "Sine-save ang mga preset sa {}."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "AKSIYON"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "ipakita lang kung ano ang magbabago"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "huwag humingi ng kumpirmasyon"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "ipakita ang mga naka-save na preset"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "mag-apply ng naka-save na preset"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "pangalan o ID ng naka-save na preset"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr "suriin ang file ng preset at i-save ito kasama ng mga preset"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "FILE"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr "isang .json na preset o .deskence na archive"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "i-save ito sa pangalang ito"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "palitan ang naka-save na preset na may parehong pangalan"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "i-apply din ito"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "isulat ang kasalukuyang mga setting sa isang file"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "pangalang itinatago sa preset"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "isama ang mga naka-pin na app"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "isama ang mga folder sa dock"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "isama ang mga sariling larawan (nagsusulat ng archive)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "palitan ang kasalukuyang file"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "i-undo ang huling na-apply na preset"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr "i-undo rin ang mga setting na binago pagkatapos ma-apply ang preset"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "ibalik ang mga default na setting"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "BAHAGI"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "lahat ng setting ng Deskence; ino-off din ang feature na app-grid"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "magpakita ng ulat para sa mga bug report (walang ipinapadala)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"Hindi available ang session bus, kaya hindi makapag-save ng mga setting ang "
+"dconf. Patakbuhin ang command sa terminal ng iyong GNOME session o "
+"pagkatapos mag-log in sa text console bilang parehong user."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr ""
+"Sa memory lang itinatago ang mga setting (GSETTINGS_BACKEND=memory) at "
+"mawawala ang mga ito."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "Ipakita ang History ng Clipboard"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "Binubuksan ang history ng mga kinopyang text at larawan"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr ""
+"Ino-on o ino-off ang “Laging Nasa Itaas” para sa naka-focus na window (isang "
+"shortcut ng GNOME)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "Sa window ng mga setting ng Deskence"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "Hindi ito balidong shortcut."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "Hindi maaaring shortcut ang modifier key lang."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr "Gamitin ang Ctrl, Alt o Super kasabay ng key, o isang function key."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"Ginagamit mismo ng mga app ang ganitong uri ng shortcut. Idagdag ang Super, "
+"o pagsamahin ang Ctrl at Alt."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "Sariling shortcut"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "Ginagamit na para sa: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "dock, taskbar, launcher, panel"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "zoom, palakihin, pagpapalaki, magnifier"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "awtomatikong pagtatago, pagtatago, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "mga stack, mga folder, downloads, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "mga thumbnail, mga window, mga preview, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "badge, hindi pa nababasa, notification, mensahe, bilang, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "download, progreso, progress bar"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "desktop, mga file, mga icon"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr "grid ng app, mga app, application, launcher, menu, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "pagsasaayos, alpabetiko, pagkakasunod-sunod, ayusin"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "mga folder, mga tile, mga grupo"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "hover, highlight, pointer"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "tray, mga indicator, mga status icon, notification area"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "suspend, tulog, caffeine, pigilan, gising"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "screen saver, blangkong screen, lock"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "title bar, mga button, i-minimize, i-maximize"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "kopyahin, i-paste, clipboard, history"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr "keyboard, mga keyboard shortcut, mga key, mga shortcut, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "bug, error, diagnostics, ulat, problema"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "backup, mga preset, paglilipat, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "wika, salin, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "Naka-disable"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "Ibalik ang Default na Shortcut"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "Itakda ang Shortcut"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "Pindutin ang bagong shortcut para sa “{}”. Kinakansela ng Escape."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "Ibalik ang _Default"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "Ginagamit na ang default na shortcut: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "Hindi Magamit ang Shortcut na Ito"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "Mga Keyboard Shortcut"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "Saanman"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"Tinatanggihan ang mga banggaan sa ibang shortcut ng Deskence at sa sariling "
+"shortcut ng GNOME. Hindi masusuri ang mga shortcut ng ibang app at extension."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "Sa Window ng mga Setting"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "Gumagana habang naka-on ang “{}”"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "Filipino"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "Simula ng Session"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "Ipakita ang _Desktop Pagkatapos Mag-log In"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "Magsimula sa desktop sa halip na sa overview ng mga aktibidad"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr ""
+"Laging ginagamit ng dock, ng desktop at ng iba pang feature ang wika ng "
+"system."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "_Wika ng App"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "Mga setting at ang command na deskence"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "Gagamitin ang bagong wika pagkatapos mag-restart"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "_I-restart"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "Mga Preset"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr ""
+"I-save ang kasalukuyang mga setting para mabalikan mo ang mga ito mamaya."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "Walang naka-save na preset"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "_I-save ang Kasalukuyang mga Setting…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "Paglilipat ng mga Setting"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"Ilipat ang mga setting sa ibang computer o itago ang mga ito para sa muling "
+"pag-install. Bago mag-import, makikita mo kung ano ang magbabago."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "_I-export sa File…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "_I-import Mula sa File…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "_I-undo ang Huling Na-apply na Preset…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "Mga _Keyboard Shortcut"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr "Tingnan at baguhin ang lahat ng shortcut ng Deskence sa iisang lugar"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"Mga bersyon, uri ng session, mga monitor at ang estado ng bawat feature, "
+"para i-paste sa bug report. Walang pribadong kasama, at walang ipinapadala "
+"kahit saan."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "_Ipakita ang Ulat…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "_Kopyahin ang Diagnostics"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "I-save ang Ulat sa _File…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "_Ibalik ang mga Default na Setting ng Deskence…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "Pagkakasunod-sunod"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr "Kung paano inaayos ang mga app sa full-screen na view ng mga app."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "_Pagkakasunod-sunod ng mga App"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "Sarili"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "Alpabetiko"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "Background"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "Kapag naka-off, ginagamit ang kulay ng istilo ng GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "Sariling _Transparency ng Background"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "Kapag naka-off, hindi transparent ang background, gaya sa GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "Transparency ng _Background"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "Mga Folder ng App"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "Sariling Ku_lay ng Folder"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "Kulay ng Folder"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "Sariling Trans_parency ng Folder"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "Kapag naka-off, ginagamit ang transparency ng istilo ng GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "Tr_ansparency ng Folder"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "Hover Highlight"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "Sariling Kulay ng _Highlight"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "Kulay ng Highlight"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "Sariling Transparenc_y ng Highlight"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"Gumagana gaya ng dati ang pagkopya at pag-paste. Bumubukas ang history ng "
+"mga kinopyang text at larawan gamit ang sarili nitong shortcut."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "History ng _Clipboard"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "I-_paste ang Piniling Item"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Ipe-paste sa window na pinanggalingan mo, gamit ang Ctrl+V (Ctrl+Shift+V sa "
+"mga terminal). Kapag naka-off, inilalagay lang ang item sa clipboard."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "Laging I-paste ang Text nang _Walang Format"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"Laging plain text ang mga mas lumang item. Nagpe-paste ng plain text ang "
+"Shift+Enter anumang oras."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "Tandaan Din ang Piniling _Text"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "Text na pinili gamit ang mouse, na idinidikit ng gitnang button"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "Imbakan"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"Sa memory lang itinatago ang history at nawawala ito pagkatapos mag-log out. "
+"Nananatili ang mga naka-pin na item kapag nilinis ang history at hindi sila "
+"binibilang sa limitasyon. Hindi tinatandaan ang nilalamang minarkahan ng mga "
+"app bilang lihim, gaya ng mula sa mga password manager; hindi lahat ng "
+"password ay nakikilala."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "_Mga Tinatandaang Item"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "_Itago Pagkatapos Mag-log Out"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "Wala"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "Mga Naka-pin na Item"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "Buong History"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "I-_pause ang Pagtatanda"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "Walang idinaragdag na bagong item hanggang i-off ito"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "Folder na %s"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "Bumalik"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "Petsa"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "Uri"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "Ayusin ayon sa %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "Ipakita bilang Grid"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "Ipakita bilang Listahan"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "Hindi naka-set up ang karaniwang folder na ito."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "Nilo-load…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "Wala na ang folder na ito."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "Wala kang pahintulot na buksan ang folder na ito."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "Hindi mabuksan ang folder na ito: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "Walang laman ang folder na ito."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"Mahigit %d item ang nasa folder na ito; ang mga una lang ang ipinapakita. "
+"Buksan ito sa Files para makita lahat."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "Folder"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "Hindi mabuksan ang “%s”"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "Kopyahin"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "I-cut"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "Hindi magagamit ang %s"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "Read-only ang %s"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "Hindi maaaring ilagay ang folder sa loob ng sarili nito"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "Nasa %s na"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "Mga file lang ang maaaring ilagay sa folder"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "Ilipat sa %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Kopyahin sa %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Ilipat o kopyahin sa %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "Hindi mailipat ang mga file sa %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "Hindi makopya ang mga file sa %s"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr ""
+"Kailangan ang app na Files para makopya at mailipat ang mga file mula sa "
+"dock."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Hindi mabuksan ang mga file sa %s"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Buksan gamit ang %s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "Hindi makapagbukas ng mga file ang %s"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Hindi makumpirma na binubuksan ng %s ang mga file na ito"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "Hindi na magagamit ang %d sa mga file"
+msgstr[1] "Hindi na magagamit ang %d sa mga file"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "Hindi binubuksan ng %s ang ganitong uri ng file"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "Hindi binubuksan ng %s ang %d sa mga file na ito"
+msgstr[1] "Hindi binubuksan ng %s ang %d sa mga file na ito"
+
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, %d bagong item"
+msgstr[1] "%s, %d bagong item"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "Nakaayos nang alpabetiko ang mga app"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr ""
+"Para ikaw mismo ang mag-ayos, piliin ang sariling pagkakasunod-sunod sa "
+"Deskence."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "Handa nang I-paste"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "Ngayon lang"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d minuto na ang nakalipas"
+msgstr[1] "%d minuto na ang nakalipas"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d oras na ang nakalipas"
+msgstr[1] "%d oras na ang nakalipas"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "History ng Clipboard"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "Maghanap sa history"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "Linisin ang History"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: i-paste · Shift+Enter: i-paste bilang plain text · Delete: alisin · "
+"Ctrl+P: i-pin"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "Ituloy ang Pagtatanda"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "I-pause ang Pagtatanda"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "I-click Muli para Linisin"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr "I-click muli para alisin ang lahat ng item maliban sa mga naka-pin."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "Hindi tinatandaan ang mga bagong item hanggang ituloy mo."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr "Wala pang kinopya. Lalabas dito ang mga item na kokopyahin mo."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "Walang item na tumutugma sa paghahanap."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "Larawan, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "I-unpin"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "I-pin"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "Alisin"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "Naka-on ang “Panatilihing Gising”: nananatiling nakabukas ang screen"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "Naka-on ang “Panatilihing Gising”"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "Mas Kaunti"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "Pinipigilan ang awtomatikong suspend"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "Hanggang I-off"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d Minuto"
+msgstr[1] "%d Minuto"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d Oras"
+msgstr[1] "%d Oras"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "Panatilihing Nakabukas ang Screen"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "Hindi awtomatikong mamamatay o magla-lock ang screen"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "Tapusin Ngayon"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "Hanggang %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "Hanggang i-off"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "%d minuto na lang ang natitira"
+msgstr[1] "%d minuto na lang ang natitira"

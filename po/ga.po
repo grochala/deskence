@@ -1,0 +1,4637 @@
+# Irish translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Irish\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 : "
+"(n>6 && n<11) ? 3 : 4;\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "Socruithe Deisce"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr ""
+"Duga, deilbhíní deisce, deilbhíní feidhmchlár sa bharra barr agus cnaipí "
+"fuinneog"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"duga;deasc;deilbhíní;tráidire;táscaire;barra "
+"tascanna;íoslaghdaigh;uasmhéadaigh;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "Duga, deilbhíní deisce agus tráidire do GNOME"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Cuireann Deskence roinnt áiseanna leis an deasc chaighdeánach GNOME agus "
+"ligeann sé duit iad a shocrú in aon áit amháin."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"Duga le feidhmchláir phionnáilte agus fheidhmchláir atá ag rith, fillteáin, "
+"tiomántáin agus an bruscar, chomh maith le réamhamhairc ar fhuinneoga"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "Comhaid agus fillteáin ar an deasc"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr ""
+"Deilbhíní feidhmchlár sa bharra barr, mar shampla ó theachtairí agus ó "
+"shioncronú comhad"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "Stair na gearrthaisce agus “Coinnigh Múscailte” sna socruithe tapa"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "Ord aibítreach in amharc na bhfeidhmchlár"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr "Cnaipí íoslaghdaithe agus uasmhéadaithe i mbarraí teidil na bhfuinneog"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr ""
+"Réamhshocruithe chun socruithe a shábháil agus iad a aistriú go ríomhaire "
+"eile"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr ""
+"Oibríonn sé i do sheisiún GNOME reatha agus coinníonn sé cuma chaighdeánach "
+"GNOME."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"Tá Deskence ar fáil anois i 29 dteanga: teangacha oifigiúla uile an Aontais "
+"Eorpaigh, Cóiréis, Sínis Shimplithe agus Thraidisiúnta, Seirbis agus "
+"Filipínis. Taispeánann liosta na dteangacha sna socruithe an teanga a "
+"úsáideann an córas."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"Socruithe: roghnaigh teanga fhuinneog na socruithe agus an ordaithe deskence "
+"ar an leathanach Ginearálta, beag beann ar an gcóras."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"Duga: cóipeáil nó gearr comhaid agus fillteáin i bpainéal fillteáin "
+"(cliceáil ar dheis, Ctrl+C, Ctrl+X) agus greamaigh iad in Comhaid nó ar an "
+"deasc."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Duga: tarraing comhaid agus fillteáin ó phainéal fillteáin go fillteán eile "
+"sa duga nó go dtí an deasc chun iad a bhogadh nó a chóipeáil."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Duga: ní osclaíonn feidhmchláir comhaid a scaoiltear orthu ach de na "
+"cineálacha a fhógraíonn siad; seachas sin, míníonn an duga an chúis."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr ""
+"Duga: tá an marc faoi na fillteáin ag teacht le poncanna na bhfeidhmchlár."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"Tosú ar an deasc: tar éis logáil isteach, freagraíonn an deasc, an barra "
+"barr agus na fuinneoga do chlic arís nuair atá beochan múchta, mar shampla i "
+"meaisíní fíorúla gan luasghéarú 3D; roimhe seo níor fhreagair ach an duga go "
+"dtí gur osclaíodh an forbhreathnú uair amháin."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"Diagnóisic roghnach le haghaidh tuairiscí faoi dheasc agus fuinneoga a "
+"stopann ag freagairt do chlic."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"Duga: críochnaíonn tarraingt comhad ar an duga go glan i gcónaí, fiú má "
+"theipeann ar rud éigin le linn an scaoilte."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Duga: scaoil comhaid ar fheidhmchlár chun iad a oscailt ann, nó ar fhillteán "
+"chun iad a chóipeáil nó a bhogadh ann; coinnigh comhad os cionn fillteáin "
+"chun é a oscailt agus é a scaoileadh i bhfo-fhillteán."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"Socruithe: cuardaigh aon socrú le Ctrl+F, bainistigh na haicearraí "
+"méarchláir go léir in aon áit amháin le seiceáil ar choimhlintí, agus "
+"cóipeáil nó sábháil tuairisc do thuairiscí fabhtanna."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"Réamhshocruithe: nuair a chealaítear réamhshocrú a cuireadh i bhfeidhm, ní "
+"athchóirítear ach a raibh athraithe aige agus coinnítear socruithe a "
+"d'athraigh tú ina dhiaidh."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr ""
+"Duga: áiritheoirí neamhléite agus dul chun cinn oibríochtaí ar dheilbhíní "
+"feidhmchlár, d'fheidhmchláir a thuairiscíonn iad."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"Líne na n-orduithe: seiceáil staid gach gné, múch agus cas air gnéithe, cuir "
+"i bhfeidhm, iompórtáil agus easpórtáil réamhshocruithe, athchóirigh na "
+"réamhshocruithe agus bailigh diagnóisic leis an ordú deskence, fiú ó chonsól "
+"téacs nuair nach n-oibríonn an deasc. Féach man deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"Ní scriosann athchóiriú na socruithe réamhshocraithe stair na gearrthaisce a "
+"choinnítear tar éis logáil amach a thuilleadh."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"Amharc na bhfeidhmchlár: do dhath agus do thrédhearcacht féin don aibhsiú "
+"faoin bpointeoir ar fheidhmchláir agus ar fhillteáin feidhmchlár; ní "
+"tharraingítear imlíne a thuilleadh nuair a ghluaiseann an pointeoir thar "
+"fhillteán."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"Fillteáin sa duga: ní thógann an painéal níos mó ná leath d'airde an "
+"scáileáin, scrollaíonn sé tríd an bhfillteán ar fad, leis an méarchlár "
+"freisin, agus filleann sé ar an áit roimhe tar éis fo-fhillteáin."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"Socruithe: cur síos níos soiléire, foclaíocht Pholainnis níos fearr agus "
+"níos lú aicearraí méarchláir i gcoimhlint."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"Duga: meaitseálann duga ar fud an imill ar fad an barra barr i "
+"bhforbhreathnú na ngníomhaíochtaí agus in amharc na bhfeidhmchlár; coinníonn "
+"duga gearr a chuma féin."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"Amharc na bhfeidhmchlár: taispeánann tíleanna fillteán le do dhath nó do "
+"thrédhearcacht féin go soiléir anois ainliú, brú, fócas agus roghnú."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"Amharc na bhfeidhmchlár: do dhath agus do thrédhearcacht féin do thíleanna "
+"fillteán ar nós “Fóntais”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"Ginearálta: más mian leat, tosaigh ar an deasc in ionad fhorbhreathnú na "
+"ngníomhaíochtaí tar éis logáil isteach."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr ""
+"Duga: cumascann sé anois le forbhreathnú na ngníomhaíochtaí in ionad banda "
+"ar leith a dhéanamh."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"Naisc le leathanach an tionscadail agus leis an rianaire fabhtanna, "
+"doiciméadú i mBéarla. Gan athruithe ar an bhfeidhmchlár."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"Socruithe: leathanach Ginearálta le réamhshocruithe, easpórtáil agus "
+"iompórtáil socruithe agus athchóiriú na réamhshocruithe; leathanach Amharc "
+"na bhFeidhmchlár le sórtáil aibítreach; réamhamhairc níos ciúine."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"Duga: fillteáin a thaispeánann a n-ábhar, fuinneoga a dhúnadh agus "
+"spléachadh orthu óna réamhamhairc, “I gCónaí ar Barr” i roghchlár an "
+"réamhamhairc."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"Nua: stair na gearrthaisce, “Coinnigh Múscailte” sna socruithe tapa, "
+"aicearra do “I gCónaí ar Barr”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Deskence is ainm do Better GNOME Desktop anois. Glactar le socruithe, "
+"gnéithe cumasaithe, feidhmchláir phionnáilte agus suíomhanna na ndeilbhíní "
+"deisce."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"Duga: réamhamhairc ar fhuinneoga feidhmchláir nuair a fhanann an pointeoir "
+"air, gan spás breise in aice le cnaipe na bhfeidhmchlár nuair a mhéadaítear "
+"deilbhíní, táscairí reatha faoi dheilbhíní duga ag an mbun."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"Socruithe: réamhamhairc níos mó agus níos soiléire den duga agus de na "
+"deilbhíní deisce, deilbhíní leathanach, mír roghchláir “Maidir Leis”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Deskence is ainm do Better GNOME Desktop anois."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"Duga: deilbhíní méadaithe géara, gan tíleanna faoi dheilbhíní le cúlra "
+"saincheaptha, lógó aondaite an dáileacháin, liosta na bhfeidhmchlár ag tús "
+"duga ar fud an imill ar fad, táscairí reatha ar an taobh istigh."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"Amharc na bhfeidhmchlár: trasdul leanúnach amháin agus é á dhúnadh, dath "
+"cúlra saincheaptha roghnach."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"Deasc: osclaítear roghchláir ag an bpointe a cliceáladh, in aice leis an "
+"duga freisin; tosaíonn greille na ndeilbhíní sa chúinne roghnaithe le "
+"corrlaigh bheaga."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"Duga: cnaipe na bhfeidhmchlár ag ceachtar ceann le rogha deilbhín, deilbhíní "
+"méadaithe, scrollú nuair nach n-oireann na feidhmchláir, dath agus "
+"trédhearcacht chúlra shaincheaptha, socruithe i roghchlár chnaipe na "
+"bhfeidhmchlár, cúlra trédhearcach d'amharc na bhfeidhmchlár."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"Deilbhíní deisce: socrúchán saor nó léim go dtí an ghreille, “Ailínigh leis "
+"an nGreille”, an deasc ar fad in aice leis an duga inúsáidte, suíomhanna "
+"deilbhíní nach mbogann leis an duga."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"Ceartúcháin: amharc na bhfeidhmchlár á dhúnadh go réidh, deilbhíní an duga á "
+"n-athordú láithreach, gan fráma agus deilbhíní deisce á dtarraingt, an "
+"roghchlár deisce céanna i ngach áit."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "An chéad eisiúint."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "Leagan de struchtúr na socruithe"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"Úsáideann feidhmchlár na socruithe é chun luachanna sábháilte a imirce idir "
+"eisiúintí. Ciallaíonn 0 nár imríodh na socruithe riamh."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "Glacadh le socruithe Better GNOME Desktop"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Socraítear é nuair a chóipeáladh anseo na socruithe a shábháil Better GNOME "
+"Desktop (0.3.0 agus níos sine). Ní fhorscríobhtar luachanna atá socraithe "
+"anseo cheana féin choíche; coinnítear na seanshocruithe."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "Taispeáin an deasc tar éis logáil isteach"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"Má tá sé fíor, tosaíonn seisiún nua ar an deasc in ionad fhorbhreathnú na "
+"ngníomhaíochtaí. Ní bhaineann sé ach le tús an tseisiúin: ní dhúnann oscailt "
+"an fhorbhreathnaithe níos déanaí, díghlasáil an scáileáin ná gnéithe a "
+"chasadh air agus as é riamh. Cuireann eisínteacht an duga i bhfeidhm é."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Teanga an fheidhmchláir Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"Teanga fhuinneog na socruithe agus an ordaithe deskence: cód aistriúcháin a "
+"suiteáladh le Deskence (mar shampla \"pl\"), \"en\" don Bhéarla, nó folamh "
+"chun an córas a leanúint. Ciallaíonn cód gan aistriúchán suiteáilte Béarla. "
+"Leanann eisínteachtaí GNOME Shell agus na deilbhíní deisce teanga GNOME "
+"Shell i gcónaí. Cuirtear i bhfeidhm é nuair a thosaíonn an feidhmchlár."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "Imeall an scáileáin don duga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\" (clé), \"bottom\" (bun) nó \"right\" (deas)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "Fad an duga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr ""
+"\"fit\": chomh fada agus a theastaíonn ó na deilbhíní amháin. \"full\": "
+"imeall iomlán an scáileáin."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "Méid na ndeilbhíní i bpicteilíní loighciúla"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"Scálaithe de réir scála an scáileáin agus fhachtóir scálaithe téacs théama "
+"an bhlaoisc, cosúil le deilbhíní eile GNOME Shell."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "Cathain a cheiltear an duga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": le feiceáil i gcónaí agus coinnítear fuinneoga amach as a "
+"limistéar. \"intellihide\": i bhfolach fad is a fhorluíonn fuinneog ar an "
+"scáileán céanna é. \"autohide\": i bhfolach go dtí go sroicheann an "
+"pointeoir imeall an scáileáin."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "Na scáileáin ar a dtaispeántar an duga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\" (príomh), \"selected\" (roghnaithe, féach selected-monitor) nó "
+"\"all\" (gach ceann)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "Nascóir an scáileáin roghnaithe"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"Ainm nascóra, mar shampla \"DP-1\". Úsáidtear é nuair is \"selected\" é "
+"monitor-mode; úsáidtear an príomhscáileán fad nach bhfuil an scáileán sin "
+"ceangailte."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "Taispeáin an bruscar"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "Taispeáin tiomántáin inbhainte"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "Taispeáin suíomhanna líonra"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "Taispeáin cnaipe na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "Cá bhfuil cnaipe na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": an chéad mhír sa duga (ar chlé i nduga cothrománach, ag barr i "
+"gceann ingearach). \"end\": an mhír dheireanach (ar dheis nó ag bun)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "Deilbhín chnaipe na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": deilbhín feidhmchlár GNOME. \"distribution\": lógó an "
+"dáileacháin suiteáilte, ó na deilbhíní atá suiteáilte ar an gcóras; an "
+"deilbhín réamhshocraithe mura bhfuil ceann ann. \"custom\": an íomhá in apps-"
+"button-custom-icon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "Deilbhín saincheaptha chnaipe na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"Conair chuig cóip den íomhá roghnaithe, a choinnítear i bhfillteán sonraí "
+"úsáideora Deskence ionas go n-oibreoidh sí fós má bhogtar nó má scriostar an "
+"bunchomhad. Úsáidtear an deilbhín réamhshocraithe mura féidir an comhad a "
+"lódáil."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "Méadaigh deilbhíní faoin bpointeoir"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"Fásann deilbhíní gar don phointeoir go réidh fad is a ghluaiseann sé thar an "
+"duga. Ní thaispeántar é nuair atá beochan múchta in GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "Neart an mhéadaithe"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr "Méid an deilbhín faoin bpointeoir i gcomparáid lena ghnáthmhéid."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "Dath cúlra saincheaptha an duga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr "Má tá sé bréagach, tá dath stíl reatha GNOME ar chúlra an duga."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "Dath cúlra an duga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"Dath san fhoirm \"#rrggbb\", a úsáidtear nuair atá background-custom-color "
+"fíor. Níl a thrédhearcacht féin aige: is é sin background-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "Trédhearcacht chúlra shaincheaptha an duga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr ""
+"Má tá sé bréagach, tá cúlra an duga chomh trédhearcach agus a dhéanann stíl "
+"reatha GNOME é."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "Trédhearcacht chúlra an duga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: teimhneach. 100: go hiomlán trédhearcach. An cúlra amháin; coinníonn "
+"deilbhíní, táscairí, lipéid agus roghchláir a n-infheictheacht féin. "
+"Úsáidtear é nuair atá background-custom-transparency fíor."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "Trédhearcacht chúlra shaincheaptha amharc na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr ""
+"Má tá sé bréagach, tá cúlra caighdeánach GNOME ar amharc lánscáileáin na "
+"bhfeidhmchlár a osclaítear ón duga."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "Dath cúlra saincheaptha amharc na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"Má tá sé bréagach, tá dath chúlra caighdeánach GNOME ar amharc lánscáileáin "
+"na bhfeidhmchlár a osclaítear ón duga. Neamhspleách ar chúlra an duga."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "Dath cúlra amharc na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"Dath san fhoirm \"#rrggbb\", a úsáidtear nuair atá app-grid-custom-color "
+"fíor. Níl a thrédhearcacht féin aige: is é sin app-grid-transparency (nó "
+"teimhneach nuair atá app-grid-custom-transparency bréagach)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "Trédhearcacht chúlra amharc na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: cúlra teimhneach (dath caighdeánach nó saincheaptha). 100: go hiomlán "
+"trédhearcach, ní fheictear ach an cúlbhrat taobh thiar de na feidhmchláir. "
+"Ní athraíonn ach an cúlra; fanann deilbhíní, ainmneacha agus an réimse "
+"cuardaigh le feiceáil go hiomlán. Úsáidtear é nuair atá app-grid-custom-"
+"transparency fíor."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "Dath cúlra saincheaptha fhillteáin na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"Má tá sé bréagach, tá dath stíl reatha GNOME ar thíleanna fillteán in amharc "
+"na bhfeidhmchlár (ar nós \"Fóntais\"). Ní athraíonn ach cúlra na tíle; "
+"fanann mionsamhlacha na bhfeidhmchlár agus ainm an fhillteáin mar atá siad, "
+"agus ní théann sé i bhfeidhm ar phainéal fillteáin oscailte."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "Dath cúlra fhillteáin na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"Dath san fhoirm \"#rrggbb\", a úsáidtear nuair atá app-grid-folder-custom-"
+"color fíor. Níl a thrédhearcacht féin aige: is é sin app-grid-folder-"
+"transparency (nó alfa stíl GNOME nuair atá app-grid-folder-custom-"
+"transparency bréagach)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "Trédhearcacht chúlra shaincheaptha fhillteáin na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"Má tá sé bréagach, tá tíleanna fillteán in amharc na bhfeidhmchlár chomh "
+"teimhneach agus a dhéanann stíl reatha GNOME iad."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "Trédhearcacht chúlra fhillteáin na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: cúlra tíle teimhneach. 100: go hiomlán trédhearcach; aithnítear an "
+"fillteán ar mhionsamhlacha a fheidhmchlár agus ar a ainm. Fanann ainliú, "
+"roghnú agus fócas an mhéarchláir le feiceáil. Úsáidtear é nuair atá app-grid-"
+"folder-custom-transparency fíor."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr "Dath saincheaptha an aibhsithe ar ainliú in amharc na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"Má tá sé bréagach, tá dath stíl reatha GNOME ar an aibhsiú faoin bpointeoir "
+"ar fheidhmchláir, ar fhillteáin feidhmchlár agus ar fheidhmchláir laistigh "
+"d'fhillteán oscailte. Ní théann sé i bhfeidhm ar an duga, ar an deasc ná ar "
+"chruacha fillteán."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "Dath an aibhsithe ar ainliú in amharc na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"Dath san fhoirm \"#rrggbb\", a úsáidtear nuair atá app-grid-hover-custom-"
+"color fíor. Níl a thrédhearcacht féin aige: is é sin app-grid-hover-"
+"transparency (nó alfa stíl GNOME nuair atá app-grid-hover-custom-"
+"transparency bréagach)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr ""
+"Trédhearcacht shaincheaptha an aibhsithe ar ainliú in amharc na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"Má tá sé bréagach, tá an t-aibhsiú ar ainliú chomh teimhneach agus a "
+"dhéanann stíl reatha GNOME é."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr "Trédhearcacht an aibhsithe ar ainliú in amharc na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: aibhsiú teimhneach. 100: go hiomlán trédhearcach; bíonn an chuma chéanna "
+"ar fhillteán faoin bpointeoir agus atá air ina luí. Ní athraíonn ach an t-"
+"aibhsiú; fanann deilbhíní agus ainmneacha le feiceáil go hiomlán, agus "
+"fanann fócas an mhéarchláir marcáilte. Úsáidtear é nuair atá app-grid-hover-"
+"custom-transparency fíor."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "Cliceáil ar fheidhmchlár atá ag rith"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": cuir fócas ar an bhfuinneog is déanaí a úsáideadh; má tá "
+"fócas ar an bhfeidhmchlár cheana, athraigh go dtí a chéad fhuinneog eile. "
+"\"minimize-or-cycle\": cosúil le focus-or-cycle, ach íoslaghdaítear "
+"feidhmchlár a bhfuil fuinneog amháin le fócas aige."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "Ná taispeáin ach feidhmchláir an spáis oibre reatha"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"Má tá sé fíor, ní liostaítear feidhmchláir atá ag rith (gan phionnáil) ach "
+"nuair atá fuinneog acu ar an spás oibre gníomhach, agus ní athraíonn "
+"cliceáil ach idir na fuinneoga sin."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "Taispeáin áiritheoirí feidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"Má tá sé fíor, taispeánann feidhmchlár a thuairiscíonn áiritheoir (mar "
+"shampla teachtaireachtaí neamhléite, tríd an API D-Bus LauncherEntry) é ar a "
+"dheilbhín duga. Ní thaispeánann feidhmchláir nach dtuairiscíonn aon rud aon "
+"rud."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "Taispeáin dul chun cinn feidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"Má tá sé fíor, taispeánann feidhmchlár a thuairiscíonn dul chun cinn "
+"oibríochta (mar shampla íoslódáil, tríd an API D-Bus LauncherEntry) é mar "
+"bharra ar a dheilbhín duga."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "Taispeáin réamhamhairc fuinneog ar ainliú"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"Nuair a fhanann an pointeoir ar fheidhmchlár atá ag rith, taispeántar a "
+"fhuinneoga (na cinn a chomhairíonn an duga, féach isolate-workspaces) lena "
+"dteidil; gníomhachtaíonn cliceáil ar cheann acu an fhuinneog sin."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "Spléachadh ar fhuinneog óna réamhamharc"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"Fad is a fhanann an pointeoir ar réamhamharc fuinneoige, taispeántar an "
+"fhuinneog sin ar feadh nóiméid os cionn na cinn eile, atá dorchaithe. Ní "
+"chuirtear fócas ar aon rud, ní ardaítear, ní athchóirítear ná ní bhogtar aon "
+"rud; cuireann fágáil an réamhamhairc nó brú ar Escape deireadh leis."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "Fillteáin sa duga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"Fillteáin a thaispeántar sa duga, in ord. Is é gach iontráil \"xdg:AINM\" "
+"d'fhillteán caighdeánach (AINM mar atá in GLib.UserDirectory gan an réimír "
+"DIRECTORY_, mar shampla \"xdg:DOWNLOAD\"), \"home:CONAIR/CHOIBHNEASTA\" "
+"d'fhillteán san fhillteán baile, nó URI \"file://\" d'aon fhillteán eile. Ní "
+"théann baint iontrála i bhfeidhm ar an bhfillteán féin choíche."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "Taispeáin fillteáin sa duga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr ""
+"Má tá sé bréagach, coinnítear na fillteáin in folder-stacks ach ní "
+"thaispeántar iad."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "Conas a thaispeántar ábhar fillteán"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": deilbhíní móra. \"list\": deilbhíní níos lú le méid agus dáta. "
+"Athraítear é ó phainéal an fhillteáin."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "Ord sórtála gach fillteáin"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"Mapálann iontráil de folder-stacks go \"name\", \"modified\" (an ceann is "
+"nuaí ar dtús) nó \"type\". Sórtáiltear fillteán gan iontráil de réir ainm, "
+"seachas Íoslódálacha (xdg:DOWNLOAD), a thaispeánann na comhaid is nuaí ar "
+"dtús. Athraítear é ó phainéal an fhillteáin."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "Méid na ndeilbhíní deisce"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) nó \"huge\" (128 "
+"px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "An cúinne ina gcuirtear deilbhíní nua"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "Taispeáin an fillteán baile"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "Taispeáin tiomántáin agus cuimhneacháin USB"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "Conas a chuirtear deilbhíní a bogadh"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": fanann deilbhíní go díreach san áit a scaoiltear iad. \"grid\": "
+"léimeann deilbhíní scaoilte go dtí an ghreille. Ní bhogann an t-athrú "
+"deilbhíní atá ann cheana; déanann \"Ailínigh leis an nGreille\" i roghchlár "
+"na deisce é sin."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "Oscail míreanna le cliceáil shingil nó dhúbailte"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "Ord a úsáideann \"Socraigh Deilbhíní\""
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "Athraítear é ó \"Sórtáil de réir\" i roghchlár na deisce."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "Taispeáin deilbhíní éighníomhacha feidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"Sainmhíníonn StatusNotifierItem stádas \"Passive\" do dheilbhíní a mheasann "
+"feidhmchlár a bheith neamhthábhachtach. Bíonn siad i bhfolach mura bhfuil sé "
+"seo fíor."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "Leagan amach na gcnaipí roimh an gcéad athrú"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"Luach button-layout de org.gnome.desktop.wm.preferences a sábháladh sular "
+"athraigh Deskence é den chéad uair. Folamh mura ndearnadh aon athrú."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "Leagan amach na gcnaipí a scríobh Deskence go deireanach"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"Úsáidtear é chun a fháil amach ar athraigh an t-úsáideoir an leagan amach in "
+"áit eile ina dhiaidh sin; ní thairgtear an bunluach le hathchóiriú ach fad "
+"is atá an luach reatha cothrom leis seo fós."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "Ord amharc na bhfeidhmchlár"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": an leagan amach a rinne an t-úsáideoir (app-picker-layout GNOME "
+"féin agus liostaí na bhfillteán). \"alphabetical\": feidhmchláir agus "
+"fillteáin de réir ainm taispeána i dteanga an úsáideora, agus na "
+"feidhmchláir laistigh de gach fillteán freisin; tá athordú trí tharraingt "
+"múchta. Coinníonn an eisínteacht app-grid cothrom le dáta é."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "Leagan amach a sábháladh roimh shórtáil aibítreach"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"JSON a scríobhtar nuair a athraíonn sort-mode go \"alphabetical\": an app-"
+"picker-layout roimhe de org.gnome.shell (téacs GVariant) agus liosta "
+"feidhmchlár gach fillteáin. Athchóirítear é nuair a fhilleann sort-mode ar "
+"\"custom\". Inmheánach; ní cuid de réamhshocruithe é."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "Aicearra a osclaíonn stair na gearrthaisce"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "An líon is mó míreanna a choinnítear i gcuimhne"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr ""
+"Ní áirítear míreanna pionnáilte. Déantar dearmad ar na míreanna is sine ar "
+"dtús."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "Cad a choinnítear tar éis logáil amach"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": ní choinnítear an stair ach sa chuimhne agus imíonn sí tar éis "
+"logáil amach. \"pinned\": sábháiltear míreanna pionnáilte i bhfillteán "
+"sonraí an úsáideora. \"all\": sábháiltear an stair ar fad ansin."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "Ná coinnigh míreanna nua i gcuimhne"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr ""
+"Staid shealadach a athraítear ó phainéal na staire; ní cuid de "
+"réamhshocruithe é."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "Coinnigh téacs roghnaithe i gcuimhne freisin"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"Cuirtear téacs a roghnaítear leis an luch (an príomhroghnú, a ghreamaítear "
+"leis an gcnaipe láir) leis an stair freisin."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "Greamaigh téacs gan formáidiú i gcónaí"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"Coinníonn an stair téacs gan formáidiú; ní féidir ach an mhír is nuaí a "
+"ghreamú lena formáidiú, fad is a sholáthraíonn an feidhmchlár ar cóipeáladh "
+"í uaidh í fós. Má tá sé fíor, greamaítear an mhír sin mar ghnáth-théacs "
+"freisin. Greamaíonn Shift+Enter sa stair gnáth-théacs i gcás ar bith."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "Greamaigh an mhír roghnaithe láithreach"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"Má tá sé fíor, dúnann roghnú míre an painéal agus greamaíonn sé í san "
+"fhuinneog a raibh fócas uirthi, le Ctrl+V. Má tá sé bréagach, ní chuirtear "
+"an mhír ach ar an ngearrthaisce."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "Coinnigh an scáileán ar siúl freisin"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"Má tá sé bréagach, ní chuireann coinneáil an ríomhaire múscailte cosc ach ar "
+"fhionraí uathoibríoch: múchtar agus glasáiltear an scáileán mar is gnách. Má "
+"tá sé fíor, fanann an scáileán ar siúl freisin agus ní ghlasáiltear go "
+"huathoibríoch é."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "Fad a úsáideann cnaipe na socruithe tapa"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr ""
+"An fad a roghnaíodh go deireanach; úsáideann cliceáil ar an gcnaipe é arís."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "Fad saincheaptha i nóiméid"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "Am deiridh i nóiméid tar éis meán oíche"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr ""
+"Úsáideann \"go dtí am áirithe\" é: an chéad uair eile a thiocfaidh an t-am "
+"áitiúil seo."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"Oscail leathanach socruithe: general, dock, desktop-icons, app-grid, top-"
+"bar, windows nó clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "LEATHANACH"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"Duga le fillteáin, deilbhíní deisce, deilbhíní feidhmchlár sa bharra barr, "
+"stair na gearrthaisce agus socruithe fuinneog do GNOME."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "Teimhneach"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "Trédhearcach"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "_Cealaigh"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "Níl sé suiteáilte. Athshuiteáil an pacáiste deskence."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "Tosaíonn sé tar éis duit logáil amach agus logáil isteach arís"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "Nuashonraithe; tosaíonn an leagan nua tar éis duit logáil isteach arís"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr ""
+"Níl GNOME Shell ag rith; cuirfear i bhfeidhm é sa chéad seisiún GNOME eile"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "Níl sé ag rith"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "Stop an ghné de bharr earráide"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "Ní thacaítear leis an leagan seo de GNOME"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "Ní thacaíonn an leagan suiteáilte le GNOME {}."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "Tá eisínteachtaí GNOME múchta"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Tá siad ag teastáil ó Deskence chun a ghnéithe a thaispeáint."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "_Cas Air…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "Tá cóip eile á húsáid ina háit"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "Cuireann cóip i d'fhillteán baile in ionad na cóipe suiteáilte: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "_Taispeáin"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "An gcasfar eisínteachtaí GNOME air?"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr ""
+"Casann sé seo air eisínteachtaí eile a chumasaigh tú san fheidhmchlár "
+"Eisínteachtaí freisin."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "_Cas Air"
+
+# NEEDS-REVIEW: frame „Soláthraíonn sé {} freisin“; check article/case of 201–206
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "duga"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "deilbhíní deisce"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "deilbhíní feidhmchlár sa bharra barr"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "sórtáil amharc na bhfeidhmchlár"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "stair gearrthaisce"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "coinneáil an ríomhaire múscailte"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr ""
+"Soláthraíonn sé {} freisin. Bíonn fadhbanna ann má úsáidtear an dá cheann le "
+"chéile."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "D'fhéadfadh sé {} a sholáthar freisin."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "An ndíchumasófar “{}”?"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"Fanann an eisínteacht suiteáilte agus coinnítear a socruithe. Is féidir leat "
+"í a chasadh air arís san fheidhmchlár Eisínteachtaí."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "_Díchumasaigh"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "_Díchumasaigh…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "Lag"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "Láidir"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "Neart an mhéadaithe"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "Trédhearcacht an chúlra"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "Méid na ndeilbhíní"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "Bíonn an duga le feiceáil i gcónaí agus ní chlúdaíonn fuinneoga é"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "Ceilt fad is a fhorluíonn fuinneog é"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr ""
+"Tagann sé chun solais nuair a bhogann tú an pointeoir go himeall an scáileáin"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr ""
+"Athraíonn an dara cliceáil go dtí an chéad fhuinneog eile den fheidhmchlár"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr "Íoslaghdaíonn cliceáil ar fheidhmchlár le fuinneog amháin le fócas í"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "An athchóireofar socruithe réamhshocraithe an duga?"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"Filleann suíomh, méid, dathanna, ceilt, scáileán, iompar cliceála agus na "
+"míreanna a thaispeántar ar a réamhshocruithe. Ní athraíonn feidhmchláir "
+"phionnáilte, fillteáin sa duga, amharc na bhfeidhmchlár ná cé acu an "
+"dtaispeántar an duga."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "_Athchóirigh"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr ""
+"Ní thaispeántar é nuair atá beochan múchta i socruithe na hinrochtaineachta"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "Cuir Fillteán Leis"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "Fillteán Eile…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "Níl sé socraithe ar an ríomhaire seo"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{} (ar iarraidh)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "Bog Suas"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "Bog Síos"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "Bain den Duga"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "Cuir Fillteán leis an Duga"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "Ní Féidir an Fillteán Seo a Chur Leis"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "Ní féidir ach fillteáin logánta a chur leis."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "_Dún"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "Tús an Duga"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "Deireadh an Duga"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "Ag an mBarr"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "Ag an mBun"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "Ar Chlé"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "Ar Dheis"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "Níl lógó suiteáilte; tá an deilbhín réamhshocraithe in úsáid"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "Níor roghnaíodh íomhá; tá an deilbhín réamhshocraithe in úsáid"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "Tá an íomhá ar iarraidh; tá an deilbhín réamhshocraithe in úsáid"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "Íomhánna"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "Roghnaigh Deilbhín"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "Ní féidir ach comhaid logánta a úsáid."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr ""
+"Ní íomhá i bhformáid a dtacaítear léi (PNG, SVG, JPEG nó WebP) de 4 MB ar a "
+"mhéad é an comhad."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "Ní Féidir an Íomhá Seo a Úsáid"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{} (dícheangailte)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "Níl aon fhillteán deisce socraithe"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "An athchóireofar socruithe réamhshocraithe na ndeilbhíní deisce?"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"Filleann méid, socrúchán, iompar cliceála agus na míreanna a thaispeántar ar "
+"a réamhshocruithe. Ní athraíonn do chomhaid ná suíomhanna na ndeilbhíní."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "Fanann deilbhíní go díreach san áit a scaoileann tú iad"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "Léimeann deilbhíní scaoilte go dtí an ghreille"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "Trédhearcacht na bhfillteán"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "Trédhearcacht an aibhsithe"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "An athchóireofar socruithe réamhshocraithe amharc na bhfeidhmchlár?"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"Filleann an cúlra, fillteáin na bhfeidhmchlár agus an t-aibhsiú ar ainliú ar "
+"chuma GNOME, agus filleann na feidhmchláir ar d'ord féin."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr ""
+"De réir ainm, laistigh d'fhillteáin freisin. Ní athraíonn tarraingt an t-ord."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr ""
+"Socraigh feidhmchláir trína dtarraingt. Filleann an leagan amach seo nuair a "
+"mhúchtar an t-ord aibítreach."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr ""
+"An cúlra taobh thiar de na feidhmchláir. Ní athraíonn deilbhíní, ainmneacha "
+"ná an réimse cuardaigh."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Ar fáil fad is atá duga Deskence casta air."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"Athraigh cuma na ngrúpaí feidhmchlár, ar nós “Fóntais”, in amharc na "
+"bhfeidhmchlár. Ní athraíonn ach cúlra na tíle."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"Roghnaigh an cúlra a thaispeántar faoin bpointeoir ar fheidhmchlár nó ar "
+"fhillteán feidhmchlár, laistigh d'fhillteán oscailte freisin."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "_Aicearra"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "Osclaíonn sé an stair"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "An athchóireofar socruithe réamhshocraithe na gearrthaisce?"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"Filleann an t-aicearra agus an greamú ar a réamhshocruithe. Ní athraíonn an "
+"stair, an líon míreanna a choinníonn sí ná cé acu an gcoinnítear í tar éis "
+"logáil amach."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "Sa chuimhne amháin"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "Sábháiltear míreanna pionnáilte in {}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "Sábháiltear an stair in {}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "An athchóireofar socruithe réamhshocraithe an bharra barr?"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"Filleann taispeáint deilbhíní neamhghníomhacha agus roghanna “Coinnigh "
+"Múscailte” ar a réamhshocruithe. Ní athraíonn cé na gnéithe a thaispeántar."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "Scoránaíonn sé “I gCónaí ar Barr” don fhuinneog a bhfuil fócas uirthi"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "An athchóireofar cnaipí réamhshocraithe an bharra teidil?"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr "Filleann cnaipí an bharra teidil ar réamhshocrú GNOME an chórais seo."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "An athchóireofar na cnaipí roimhe ar an mbarra teidil?"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr ""
+"Filleann cnaipí an bharra teidil ar an gcaoi a raibh siad sular athraigh "
+"Deskence iad."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr "Athraíodh na cnaipí in áit eile tar éis do Deskence iad a athrú"
+
+# NEEDS-REVIEW: fragments for „Réamhamharc: duga ar {} an scáileáin“; check
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "imeall clé"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "bun"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "imeall deas"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "Réamhamharc: duga ar {} an scáileáin"
+
+# NEEDS-REVIEW: fragments for „cuirtear deilbhíní nua ón gcúinne {}“; check
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "barr ar chlé"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "barr ar dheis"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "bun ar chlé"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "bun ar dheis"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "Réamhamharc: cuirtear deilbhíní nua ón gcúinne {}"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "Cas air “{}” chun “{}” a athrú."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "Bíonn “{}” ar fáil tar éis “{}” a chasadh air."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "Níl “{}” ar fáil faoi láthair."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr ""
+"Suiteáladh nuashonrú. Logáil amach agus logáil isteach arís chun é a úsáid."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr ""
+"Logáil amach agus logáil isteach arís chun na gnéithe cumasaithe a thosú."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "_Maidir Leis"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "Cuardaigh na Socruithe"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "Príomhroghchlár"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "Cuardaigh sna socruithe"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "Leathanaigh Socruithe"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "Torthaí Cuardaigh"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "Níor Aimsíodh Torthaí"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "Bain triail as focail eile, mar shampla ainm gné."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "_Logáil Amach…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "Duga"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"Coigeartaigh suíomh, cuma agus iompar bharra na bhfeidhmchlár ag imeall an "
+"scáileáin. Is iad na feidhmchláir phionnáilte na cinn chéanna agus atá i "
+"bhforbhreathnú na ngníomhaíochtaí."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "Taispeáin an _Duga"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "Cuma"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "_Suíomh"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "Clé"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "Bun"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "Deas"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "_Fad"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "Oiriúnach do na Deilbhíní"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "An tImeall ar Fad"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "_Méid na nDeilbhíní"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "_Dath Cúlra Saincheaptha"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "Dath an Chúlra"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "Trédhearcacht Chúlra _Shaincheaptha"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "_Méadaigh Deilbhíní faoin bPointeoir"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "_Neart an Mhéadaithe"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "Iompar"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "_Ceil"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "Riamh"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "Nuair a Fhorluíonn Fuinneoga"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "Nuair Nach bhFuil in Úsáid"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "_Scáileán"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "Príomh"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "Roghnaithe"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "Gach Ceann"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "_Scáileán Roghnaithe"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "_Cliceáil ar Fheidhmchlár atá ag Rith"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "Cuir Fócas, Ansin Athraigh Fuinneoga"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "Íoslaghdaigh nó Athraigh Fuinneoga"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "Ná Taispeáin ach Feidhmchláir an Spáis _Oibre Reatha"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "Taispeáin _Réamhamhairc Fuinneog ar Ainliú"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr ""
+"Stad ar fheidhmchlár atá ag rith chun a fhuinneoga a fheiceáil agus ceann a "
+"roghnú"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "_Spléachadh ar Fhuinneoga"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"Stad ar réamhamharc chun a fhuinneog a fheiceáil os cionn na gcinn eile, gan "
+"athrú chuici"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "Faisnéis ó Fheidhmchláir"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"Is féidir le feidhmchláir áiritheoir nó dul chun cinn oibríochta a "
+"thaispeáint ar a ndeilbhín, mar shampla teachtaireachtaí neamhléite nó "
+"íoslódáil. Ní thaispeántar ach a dtuairiscíonn feidhmchlár."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "Taispeáin Áiritheoirí Feidhmchlár"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "Uimhir ar an deilbhín, ar nós teachtaireachtaí neamhléite"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "Taispeáin Dul Chun Cinn Oibríochtaí"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "Barra ar an deilbhín fad is atá íoslódáil nó cóipeáil ar siúl"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "Míreanna"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "Cad a thaispeánann an duga seachas feidhmchláir."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "_Bruscar"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "Tiomántáin agus Cuimhneacháin _USB"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "Suíomhanna _Líonra"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "Cnaipe na _bhFeidhmchlár"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "S_uíomh Chnaipe na bhFeidhmchlár"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "_Deilbhín Chnaipe na bhFeidhmchlár"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "Réamhshocrú GNOME"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "Lógó an Dáileacháin"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "Íomhá Shaincheaptha"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "_Roghnaigh…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "Fillteáin sa Duga"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"Pionnáil fillteáin chun a n-ábhar a bhrabhsáil go díreach ón duga. Ní "
+"athraíonn baint fillteáin den duga an fillteán ná a chomhaid."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "Taispeáin _Fillteáin sa Duga"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "_Athchóirigh na Socruithe Réamhshocraithe…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "Deilbhíní Deisce"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr ""
+"Taispeáin comhaid agus fillteáin d'fhillteán deisce mar dheilbhíní ar an "
+"deasc."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "Taispeáin _Deilbhíní ar an Deasc"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "Fillteán Deisce"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "Oscail in Comhaid"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "Deilbhíní"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "_Méid"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "Beag"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "Meánach"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "Mór"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "An-mhór"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "_Cuir Deilbhíní Nua Ó"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "Coinníonn deilbhíní a bhog tú a n-áit"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "Barr ar Chlé"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "Barr ar Dheis"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "Bun ar Chlé"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "Bun ar Dheis"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "_Socrú na nDeilbhíní"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "Saor"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "Léim go dtí an Ghreille"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "_Oscail Míreanna Le"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "Cliceáil Dhúbailte"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "Cliceáil Shingil"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "Taispeáin Freisin"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "_Fillteán Baile"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"Ní thaispeántar comhaid fholaithe. Ní bhogann ná ní scriosann múchadh na "
+"ndeilbhíní deisce do chomhaid choíche."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "Barra Barr"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "Deilbhíní Feidhmchlár"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr ""
+"Deilbhíní feidhmchlár atá ag rith sa chúlra, mar shampla teachtairí agus "
+"sioncronú comhad."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "Taispeáin Deilbhíní _Feidhmchlár"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "Taispeáin Deilbhíní _Neamhghníomhacha"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "Deilbhíní a mharcálann feidhmchláir mar neamhthábhachtach faoi láthair"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "Coinnigh Múscailte"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"Cnaipe sna socruithe tapa a chuireann cosc ar an ríomhaire dul ar fionraí go "
+"huathoibríoch, ar feadh ama roghnaithe nó go dtí go múchtar é. Oibríonn "
+"fionraí de láimh fós."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "Taispeáin “Coinnigh _Múscailte”"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "Coinnigh an _Scáileán ar Siúl Freisin"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr ""
+"Fad is atá “Coinnigh Múscailte” ar siúl, ní mhúchtar ná ní ghlasáiltear an "
+"scáileán go huathoibríoch"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "_Fad Saincheaptha"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "Nóiméid"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"Tacaítear le feidhmchláir a úsáideann an caighdeán StatusNotifierItem. Ní "
+"thacaítear le deilbhíní tráidire sean-stíle (XEmbed)."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "Fuinneoga"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "Cnaipí an Bharra Teidil"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"Is socruithe GNOME iad seo: fanann siad i bhfeidhm má bhaintear Deskence. "
+"D'fhéadfadh feidhmchláir a tharraingíonn a mbarraí teidil féin, ar nós "
+"roinnt brabhsálaithe, neamhaird a dhéanamh orthu."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "Cnaipe _Íoslaghdaithe"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "Cnaipe _Uasmhéadaithe"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "_Socrúchán"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "I gCónaí ar Barr"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"Coinníonn sé fuinneog os cionn na gcinn eile. Tá sé i roghchlár na "
+"fuinneoige freisin (Alt+Spás) agus i roghchlár réamhamhairc fuinneoige sa "
+"duga, a thaispeánann biorán do na fuinneoga sin. Ní thaispeánann sé an "
+"fhuinneog ar gach spás oibre; is rogha ar leith de roghchlár na fuinneoige é "
+"sin."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "Athchóirigh Socruithe Ó _Roimh na hAthruithe…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "Ní féidir leis an ainm a bheith folamh."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "Ní féidir “/” a bheith san ainm."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "Ní ainmneacha bailí iad “.” agus “..”."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "Tá mír leis an ainm seo ann cheana."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "Tá an t-ainm rófhada."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "Ní féidir an suíomh a oscailt"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "Ní féidir “{}” a oscailt"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "Tá an nasc briste: níl an mhír a dtagraíonn sé di ann."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "Níl an tosaitheoir bailí."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "Ní féidir “{}” a thosú"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "Tosaitheoir Neamhiontaofa"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"Níor marcáladh “{}” mar iontaofa. Ná ceadaigh é a thosú ach amháin má tá a "
+"fhios agat cá as a dtagann an comhad seo."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "_Ceadaigh agus Tosaigh"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "Ní féidir tosú “{}” a cheadú"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "Ní féidir Socruithe a oscailt"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "Ní féidir Deskence a oscailt"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "Ní féidir “{}” a dhífheistiú"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "Tá ainmneacha a thosaíonn le “.” i bhfolach."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "Fillteán Nua"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "Ainm an Fhillteáin"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "_Cruthaigh"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "Athainmnigh an Fillteán"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "Athainmnigh an Comhad"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "_Athainmnigh"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "_Fillteán Nua…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "_Greamaigh"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "Roghnaigh _Uile"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "_Socraigh Deilbhíní"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "Ailínigh leis an n_Greille"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "_Ainm"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "_Athraithe"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "_Cineál"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "_Sórtáil de réir"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "Athraigh an _Cúlra…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "Socruithe _Deisce"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "_Oscail"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "Oscail _Le…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "Ceadaigh _Tosú"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "_Gearr"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "_Cóipeáil"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "A_thainmnigh…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "Bog go dtí an _Bruscar"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "_Folmhaigh an Bruscar…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "_Díchuir"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "_Dífheistigh"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "_Airíonna"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "Theip ar an oibríocht"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "Ní féidir an bruscar a fholmhú"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "Teastaíonn an feidhmchlár Comhaid chun an bruscar a fholmhú."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "Ní féidir airíonna a thaispeáint"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "Ní féidir bogadh go dtí an bruscar"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "Ní féidir athainmniú"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "Ní féidir an fillteán a chruthú"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "Ní féidir na comhaid a bhogadh"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "Ní féidir na comhaid a chóipeáil"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "Baile"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "Bruscar"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "Deasc"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "Taispeáin Feidhmchláir"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "Socruithe an Duga"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "Níorbh fhéidir an suíomh a oscailt"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "Oscail"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "Folmhaigh an Bruscar…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "Díchuir"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "Dífheistigh"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "Níorbh fhéidir an tiomántán a dhíchur"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "Níorbh fhéidir an tiomántán a dhífheistiú"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "Fuinneoga %s"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "Dún an Fhuinneog"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "Réamhshocruithe (JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "Réamhshocruithe le hÍomhánna"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "Gach Réamhshocrú"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "Ainm"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "Feidhmchláir Phionnáilte"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "Íomhánna Saincheaptha"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "Sábháilte i gcartlann in éineacht leis na socruithe"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "An athchóireofar socruithe réamhshocraithe Deskence?"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"Filleann socruithe Deskence go léir ar a réamhshocruithe agus filleann "
+"amharc na bhfeidhmchlár ar d'ord féin. Baintear na fillteáin den duga; ní "
+"dhéantar aon rud leis na fillteáin féin. Ní athraíonn gnéithe cumasaithe, "
+"feidhmchláir phionnáilte, cnaipí an bharra teidil, réamhshocruithe sábháilte "
+"ná stair na gearrthaisce."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "Mar an gCóras ({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "_Cealaigh an Gníomh"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "_Cuir i bhFeidhm…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "_Athainmnigh…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "_Easpórtáil…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "_Scrios…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "Tuilleadh"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "feidhmchláir phionnáilte"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "fillteáin sa duga"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "íomhánna"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "Socruithe"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "Socruithe le {}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "Mo Shocruithe"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "Sábháil na Socruithe Reatha"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "_Sábháil"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "Ní Féidir an Réamhshocrú a Shábháil"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "Sábháladh an réamhshocrú “{}”"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "Athainmnigh an Réamhshocrú"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "Ní Féidir an Réamhshocrú a Athainmniú"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "Ní Féidir an Réamhshocrú a Scriosadh"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "An scriosfar an réamhshocrú “{}”?"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "Ní athraíonn na socruithe reatha."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "_Scrios"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "Easpórtáil Socruithe"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"Sábháiltear socruithe mar chomhad JSON inléite. Le híomhánna, is cartlann é "
+"an comhad leis na socruithe agus na híomhánna."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Socruithe Deskence"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "Ní Féidir Easpórtáil"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "Easpórtáladh na socruithe"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "Iompórtáil Socruithe"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "Ní Féidir Iompórtáil"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "Tá do shocruithe ag teacht leis an réamhshocrú seo cheana féin."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "Níl Aon Rud le hAthrú"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "Athraíonn {} socrú in: {}."
+msgstr[1] "Athraíonn {} shocrú in: {}."
+msgstr[2] "Athraíonn {} shocrú in: {}."
+msgstr[3] "Athraíonn {} socrú in: {}."
+msgstr[4] "Athraíonn {} socrú in: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "An gcuirfear “{}” i bhfeidhm?"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "An gcuirfear an Réamhshocrú i bhFeidhm?"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "_Cuir i bhFeidhm"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "Níorbh fhéidir na hathruithe seo a chur ar ais: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "Athchóiríodh do shocruithe roimhe."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "Níor Cuireadh an Réamhshocrú i bhFeidhm"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "Níor athraíodh aon rud."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "Cuireadh an réamhshocrú i bhfeidhm"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "Ní Féidir an Réamhshocrú a Chealú"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "Níl aon réamhshocrú curtha i bhfeidhm le cealú."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "Athchóiríodh na socruithe roimhe"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "An gcealófar an Réamhshocrú is Déanaí a Cuireadh i bhFeidhm?"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr ""
+"Filleann na socruithe a d'athraigh an réamhshocrú ar a luachanna roimhe."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "Athraíodh Roinnt Socruithe Ó Shin"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"Athraíodh na socruithe seo tar éis an réamhshocrú a chur i bhfeidhm: {}. An "
+"gcealófar iad freisin, nó an gcoinneofar iad mar atá siad anois?"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "_Coinnigh Iad"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "Cealaigh _Uile"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "Tuairisc"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "_Sábháil…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "Faisnéis do Thuairiscí Fabhtanna"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "Cóipeáladh an diagnóisic"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "Sábháil an Tuairisc"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "Ní Féidir an Tuairisc a Shábháil"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "Sábháladh an tuairisc"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "Athchóiríodh na socruithe réamhshocraithe"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "Gnéithe"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "Ginearálta"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "Amharc na bhFeidhmchlár"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "Gearrthaisce"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "Tá an comhad rómhór le bheith ina réamhshocrú."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "Ní réamhshocrú Deskence é an comhad."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "Níl leagan formáide bailí ag an réamhshocrú."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"Rinne leagan níos nuaí de Deskence an réamhshocrú. Nuashonraigh Deskence "
+"chun é a úsáid."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "Tá an chartlann rómhór le bheith ina réamhshocrú."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "Níl réamhshocrú Deskence sa chartlann."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "Tá an chartlann damáistithe."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "Tá cuid socruithe an réamhshocraithe damáistithe."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "Rinneadh neamhaird den chuid anaithnid “{}”."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "Rinneadh neamhaird den socrú anaithnid “{}” in {}."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"Níl an scáileán {} ceangailte. Go dtí sin, taispeántar an duga ar an "
+"bpríomhscáileán."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "Níl {} ar fáil ar an ríomhaire seo."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "Tá luach neamhbhailí ag {} agus scipeáladh é."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "Tá {} glasáilte ag an riarthóir."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "Níl an teanga “{}” ar fáil ar an ríomhaire seo agus scipeáladh í."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "Níor iompórtáladh an t-aicearra {} do “{}”: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "Tá liosta na ngnéithe damáistithe agus scipeáladh é."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "Rinneadh neamhaird den ghné anaithnid “{}”."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr "Níl feidhmchláir phionnáilte ar fáil ar an ríomhaire seo."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "Tá liosta na bhfeidhmchlár pionnáilte damáistithe agus scipeáladh é."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr "Níl siad suiteáilte: {}. Beidh siad sa duga nuair a shuiteálfar iad."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "Tá liosta na bhfillteán sa duga damáistithe agus scipeáladh é."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "Tá iontráil neamhbhailí san fhillteán “{}” agus scipeáladh é."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"Níl an fillteán caighdeánach {} socraithe ar an ríomhaire seo; taispeántar é "
+"mar fhillteán nach bhfuil ar fáil."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr ""
+"Níl an fillteán {} ann; taispeántar é mar fhillteán nach bhfuil ar fáil go "
+"dtí go mbeidh sé ann."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"Úsáideann an réamhshocrú íomhá shaincheaptha do chnaipe na bhfeidhmchlár "
+"nach bhfuil san áireamh; tá an deilbhín réamhshocraithe in úsáid."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: ná rith Deskence mar root; rith é mar d'úsáideoir féin (gan sudo)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"Níl scéimre socruithe Deskence suiteáilte. Athshuiteáil an pacáiste deskence."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "Níor athraíodh aon rud: ní féidir na socruithe a shábháil."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"Ní mór an t-athrú seo a dhearbhú. Rith an t-ordú arís le --yes chun é a "
+"dhearbhú gan cheist."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "t/N"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "t"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "tá"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"Sábháilte. Níorbh fhéidir an t-athrú a dhearbhú sa seisiún GNOME reatha; "
+"b'fhéidir go mbeidh ort logáil isteach arís."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "ag rith"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "níl ag rith"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "earráid"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "ní thacaítear leis an leagan GNOME"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "tosaíonn sé tar éis logáil isteach arís"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "nuashonraithe; leagan nua tar éis logáil isteach arís"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "níl suiteáilte"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "anaithnid (níl GNOME Shell inrochtana)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: taispeántar staid an tseisiúin reatha."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr "Níl GNOME Shell inrochtana: níl ar eolas ach na socruithe sábháilte."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr ""
+"Tá eisínteachtaí GNOME múchta; ní ritheann aon ghné go dtí go gcastar air "
+"iad."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "GNÉ"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "SÁBHÁILTE"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "SA SEISIÚN SEO"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "cumasaithe"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "díchumasaithe"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr ""
+"{}: tá cóip i d'fhillteán baile in úsáid in ionad na cóipe suiteáilte: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr ""
+"{}: tá an socrú sábháilte difriúil ón seisiún; beidh sé i bhfeidhm tar éis "
+"logáil isteach arís."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr ""
+"{}: soláthraíonn “{}” an rud céanna; bíonn fadhbanna ann má úsáidtear an dá "
+"cheann."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: d'fhéadfadh “{}” an rud céanna a sholáthar."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "Tabhair ainmneacha gnéithe nó --all, ní an dá cheann."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr "Ainmnigh gné amháin ar a laghad, nó úsáid --all. Gnéithe: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "Gné anaithnid: {}. Gnéithe: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "níorbh fhéidir an socrú a shábháil"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: cumasaithe"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: díchumasaithe"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: cumasaithe cheana"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: díchumasaithe cheana"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: cumasaithe cheana sna socruithe sábháilte"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: díchumasaithe cheana sna socruithe sábháilte"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: theip: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"Tá eisínteachtaí GNOME múchta; tosóidh na gnéithe cumasaithe nuair a chastar "
+"air iad (gsettings set org.gnome.shell disable-user-extensions false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr ""
+"Níl aon réamhshocrú sábháilte darb ainm “{}”. Féach deskence preset list."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr ""
+"Tá roinnt réamhshocruithe sábháilte darb ainm “{}”; úsáid ceann dá n-"
+"aitheantóirí: {}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "Gné {}: cumasaigh"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "Gné {}: díchumasaigh"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "Duga: íomhá shaincheaptha chnaipe na bhfeidhmchlár"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Rabhadh: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "Scipeáilte: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "Níor cuireadh an réamhshocrú i bhfeidhm: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "Níorbh fhéidir na hathruithe seo a chur ar ais: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "Athchóiríodh na socruithe roimhe."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "Níor cuireadh an réamhshocrú i bhfeidhm; níor athraíodh aon rud. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"Níor cuireadh an réamhshocrú i bhfeidhm ach go páirteach; níor sábháladh na "
+"socruithe seo: {}. Cealaigh é le: deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "Gnéithe {}: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "Níl aon réamhshocruithe sábháilte."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "AINM"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ID"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "CRUTHAITHE"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "Tá do shocruithe ag teacht leis an réamhshocrú “{}” cheana féin."
+
+# NEEDS-REVIEW: initial mutation after numbers is approximate
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "Athraíonn an réamhshocrú “{}” {} socrú:"
+msgstr[1] "Athraíonn an réamhshocrú “{}” {} shocrú:"
+msgstr[2] "Athraíonn an réamhshocrú “{}” {} shocrú:"
+msgstr[3] "Athraíonn an réamhshocrú “{}” {} socrú:"
+msgstr[4] "Athraíonn an réamhshocrú “{}” {} socrú:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "Níor athraíodh aon rud (--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "An gcuirfear an réamhshocrú i bhfeidhm?"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr ""
+"Cuireadh an réamhshocrú “{}” i bhfeidhm. Cealaigh é le: deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "Ní féidir {} a iompórtáil: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"Tá réamhshocrú sábháilte darb ainm “{}” ann cheana. Roghnaigh ainm eile le --"
+"name, nó cuir é in ionad an chinn sin le --replace."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr ""
+"Tá an réamhshocrú “{}” bailí agus shábhálfaí é; níor athraíodh aon rud (--"
+"dry-run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr ""
+"Sábháladh an réamhshocrú “{}” mar {}. Cuir i bhfeidhm é le: deskence preset "
+"apply {}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "An sábhálfar agus an gcuirfear an réamhshocrú i bhfeidhm?"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"Sábháladh an réamhshocrú “{}” mar {} agus cuireadh i bhfeidhm é. Cealaigh é "
+"le: deskence preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "Is fillteán é {}; tabhair ainm comhaid."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "Tá {} ann cheana. Úsáid --force chun é a ionadú."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "Ní féidir {} a scríobh: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "Easpórtáladh na socruithe go {} (cartlann le híomhánna)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "Easpórtáladh na socruithe go {}."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr ""
+"Níl aon íomhá shaincheaptha in úsáid, mar sin is gnáth-JSON é an comhad."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr ""
+"Filleann na socruithe ar an staid a bhí acu díreach roimh an iompórtáil "
+"dheireanach."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "Níor athraigh an réamhshocrú aon rud ar féidir a chealú."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "Athchóiríonn cealú “{}”:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"Athraíodh iad tar éis an réamhshocrú a chur i bhfeidhm, mar sin fágtar mar "
+"atá siad (cuir --include-changed leis chun iad a chealú freisin): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "An gcealófar an réamhshocrú?"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "Níor cealaíodh an réamhshocrú ach go páirteach: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "Athchóiríodh na socruithe roimhe."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "Tabhair cad atá le hathchóiriú nó --all, ní an dá cheann."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr "Ainmnigh cad atá le hathchóiriú, nó úsáid --all. Roghanna: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "Rogha anaithnid: {}. Roghanna: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "Tá gach rud ar a réamhshocrú cheana féin; níl aon rud le hathchóiriú."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "Athchóirithe go dtí an réamhshocrú ({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "Deskence ar fad"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "Filleann amharc na bhfeidhmchlár ar d'ord féin."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "Múchtar an ghné app-grid (ord aibítreach)."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"Gan athrú: gnéithe cumasaithe eile, feidhmchláir phionnáilte, comhaid ar an "
+"deasc, íomhánna saincheaptha, réamhshocruithe sábháilte agus stair na "
+"gearrthaisce."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "An athchóireofar na socruithe seo?"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "Níorbh fhéidir roinnt socruithe a athchóiriú: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "Athchóiríodh na socruithe réamhshocraithe."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: earráid: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"Socruithe Deskence ó líne na n-orduithe. Gan ordú, osclaítear fuinneog na "
+"socruithe (deskence [--page LEATHANACH])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"Gnéithe: {}. Stádas scoir: 0 déanta, 1 theip, 2 líne orduithe neamhbhailí, 3 "
+"gan dearbhú, 4 sábháilte ach gan dearbhú sa seisiún GNOME atá ag rith. Féach "
+"man deskence."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "ORDÚ"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "priontáil doiciméad JSON in ionad téacs"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "taispeáin staid shábháilte agus staid reatha gach gné"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "cas air gnéithe"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "múch gnéithe; coinnítear a socruithe"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "ceann de: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "gnéithe Deskence go léir (ní eisínteachtaí eile choíche)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "liostaigh, cuir i bhfeidhm, iompórtáil agus easpórtáil réamhshocruithe"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "Sábháiltear réamhshocruithe in {}."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "GNÍOMH"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "ná taispeáin ach cad a d'athródh"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "ná hiarr dearbhú"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "taispeáin na réamhshocruithe sábháilte"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "cuir réamhshocrú sábháilte i bhfeidhm"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "ainm nó ID réamhshocraithe shábháilte"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr ""
+"seiceáil comhad réamhshocraithe agus sábháil i measc na réamhshocruithe é"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "COMHAD"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr "réamhshocrú .json nó cartlann .deskence"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "sábháil faoin ainm seo é"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "cuir in ionad réamhshocraithe shábháilte den ainm céanna"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "cuir i bhfeidhm freisin é"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "scríobh na socruithe reatha chuig comhad"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "ainm atá stóráilte sa réamhshocrú"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "cuir feidhmchláir phionnáilte san áireamh"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "cuir fillteáin sa duga san áireamh"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "cuir íomhánna saincheaptha san áireamh (scríobhann sé cartlann)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "cuir in ionad comhaid atá ann"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "cealaigh an réamhshocrú is déanaí a cuireadh i bhfeidhm"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr ""
+"cealaigh freisin socruithe a athraíodh tar éis an réamhshocrú a chur i "
+"bhfeidhm"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "athchóirigh na socruithe réamhshocraithe"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "CUID"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "socruithe Deskence go léir; múchann sé an ghné app-grid freisin"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "taispeáin tuairisc do thuairiscí fabhtanna (ní sheoltar aon rud)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"Níl bus an tseisiúin ar fáil, mar sin ní féidir le dconf socruithe a "
+"shábháil. Rith an t-ordú i dteirminéal de do sheisiún GNOME nó tar éis "
+"logáil isteach ar chonsól téacs mar an t-úsáideoir céanna."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr ""
+"Ní choinnítear socruithe ach sa chuimhne (GSETTINGS_BACKEND=memory) agus "
+"chaillfí iad."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "Taispeáin Stair na Gearrthaisce"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "Osclaíonn sé stair na dtéacsanna agus na n-íomhánna a cóipeáladh"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr ""
+"Scoránaíonn sé “I gCónaí ar Barr” don fhuinneog a bhfuil fócas uirthi "
+"(aicearra GNOME)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "I bhfuinneog socruithe Deskence"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "Ní aicearra bailí é seo."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "Ní féidir le heochair mhodhnóra ina haonar a bheith ina haicearra."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr ""
+"Úsáid Ctrl, Alt nó Super in éineacht leis an eochair, nó eochair feidhme."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"Úsáideann feidhmchláir féin an cineál seo aicearra. Cuir Super leis, nó "
+"comhcheangail Ctrl agus Alt."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "Aicearra saincheaptha"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "In úsáid cheana do: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "duga, barra tascanna, tosaitheoir, painéal, dock, taskbar, launcher"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "zúmáil, méadaigh, méadú, formhéadaitheoir, zoom"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "ceilt uathoibríoch, ceilt, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "cruacha, fillteáin, íoslódálacha, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "mionsamhlacha, fuinneoga, réamhamhairc, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr ""
+"suaitheantais, neamhléite, fógraí, teachtaireachtaí, áiritheoir, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "íoslódáil, dul chun cinn, barra dul chun cinn, download"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "deasc, comhaid, deilbhíní, desktop"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr ""
+"greille feidhmchlár, feidhmchláir, aipeanna, tosaitheoir, roghchlár, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "sórtáil, aibítreach, ord, socraigh"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "fillteáin, tíleanna, grúpaí"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "ainliú, aibhsiú, pointeoir, hover"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "tráidire, táscairí, deilbhíní stádais, limistéar fógraí, tray"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "fionraí, codladh, caiféin, caffeine, cosc, múscailte"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "spárálaí scáileáin, scáileán bán, glas"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "barra teidil, cnaipí, íoslaghdaigh, uasmhéadaigh"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "cóipeáil, greamaigh, gearrthaisce, stair, clipboard"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr "méarchlár, aicearraí méarchláir, eochracha, aicearraí, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "fabht, diagnóisic, tuairisc, fadhb, bug"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "cúltaca, réamhshocruithe, aistriú, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "teanga, aistriúchán, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "Díchumasaithe"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "Athchóirigh an tAicearra Réamhshocraithe"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "Socraigh Aicearra"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "Brúigh an t-aicearra nua do “{}”. Cealaíonn Escape."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "Athchóirigh an _Réamhshocrú"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "Tá an t-aicearra réamhshocraithe in úsáid: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "Ní Féidir an tAicearra Seo a Úsáid"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "Aicearraí Méarchláir"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "I nGach Áit"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"Diúltaítear do choimhlintí le haicearraí eile Deskence agus le haicearraí "
+"GNOME féin. Ní féidir aicearraí feidhmchlár agus eisínteachtaí eile a "
+"sheiceáil."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "I bhFuinneog na Socruithe"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "Oibríonn sé fad is atá “{}” casta air"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "Gaeilge"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "Tús an tSeisiúin"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "Taispeáin an _Deasc Tar Éis Logáil Isteach"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "Tosaigh ar an deasc in ionad fhorbhreathnú na ngníomhaíochtaí"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr ""
+"Úsáideann an duga, an deasc agus na gnéithe eile teanga an chórais i gcónaí."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "_Teanga an Fheidhmchláir"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "Socruithe agus an t-ordú deskence"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "Úsáidtear an teanga nua tar éis atosú"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "_Atosaigh"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "Réamhshocruithe"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr "Sábháil na socruithe reatha chun filleadh orthu níos déanaí."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "Níl aon réamhshocruithe sábháilte"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "_Sábháil na Socruithe Reatha…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "Socruithe a Aistriú"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"Aistrigh socruithe go ríomhaire eile nó coinnigh iad le haghaidh "
+"athshuiteála. Roimh iompórtáil, feiceann tú cad a athraíonn."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "_Easpórtáil go Comhad…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "_Iompórtáil ó Chomhad…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "_Cealaigh an Réamhshocrú is Déanaí a Cuireadh i bhFeidhm…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "_Aicearraí Méarchláir"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr "Féach agus athraigh aicearraí Deskence go léir in aon áit amháin"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"Leaganacha, cineál an tseisiúin, scáileáin agus staid gach gné, le greamú i "
+"dtuairisc fabht. Níl aon rud príobháideach san áireamh, agus ní sheoltar aon "
+"rud áit ar bith."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "Taispeáin an _Tuairisc…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "_Cóipeáil an Diagnóisic"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "Sábháil an Tuairisc i _gComhad…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "_Athchóirigh Socruithe Réamhshocraithe Deskence…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "Ord"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr ""
+"Conas a shocraítear feidhmchláir in amharc lánscáileáin na bhfeidhmchlár."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "_Ord na bhFeidhmchlár"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "Ord Saincheaptha"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "Aibítreach"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "Cúlra"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "Nuair atá sé múchta, úsáidtear dath stíl GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "Trédhearcacht Chúlra _Shaincheaptha"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "Nuair atá sé múchta, tá an cúlra teimhneach, mar atá in GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "Trédhearcacht an _Chúlra"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "Fillteáin Feidhmchlár"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "Dath Saincheaptha na _bhFillteán"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "Dath na bhFillteán"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "Trédhearcacht Shaincheaptha na bh_Fillteán"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "Nuair atá sé múchta, úsáidtear trédhearcacht stíl GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "Tréd_hearcacht na bhFillteán"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "Aibhsiú ar Ainliú"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "Dath _Aibhsithe Saincheaptha"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "Dath an Aibhsithe"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "Trédhearcacht Aibhsithe Shaincheapt_ha"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"Oibríonn cóipeáil agus greamú mar a bhí. Osclaítear stair na dtéacsanna agus "
+"na n-íomhánna a cóipeáladh lena haicearra féin."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "Stair na _Gearrthaisce"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "_Greamaigh an Mhír Roghnaithe"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Greamaíonn sé san fhuinneog ina raibh tú, le Ctrl+V (Ctrl+Shift+V i "
+"dteirminéil). Nuair atá sé múchta, ní chuirtear an mhír ach ar an "
+"ngearrthaisce."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "Greamaigh Téacs _Gan Formáidiú i gCónaí"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"Is gnáth-théacs iad míreanna níos sine i gcónaí. Greamaíonn Shift+Enter "
+"gnáth-théacs am ar bith."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "Coinnigh _Téacs Roghnaithe i gCuimhne Freisin"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "Téacs a roghnaítear leis an luch, a ghreamaíonn an cnaipe láir"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "Stóráil"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"Ní choinnítear an stair ach sa chuimhne agus imíonn sí tar éis logáil amach. "
+"Fanann míreanna pionnáilte nuair a ghlantar an stair agus ní áirítear i "
+"dtreo na teorann iad. Ní choinnítear i gcuimhne ábhar a mharcálann "
+"feidhmchláir mar rúnda, mar shampla ó bhainisteoirí pasfhocal; ní féidir "
+"gach pasfhocal a aithint."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "_Míreanna i gCuimhne"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "_Coinnigh Tar Éis Logáil Amach"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "Faic"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "Míreanna Pionnáilte"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "An Stair ar Fad"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "_Cuir an Cuimhneamh ar Sos"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "Ní chuirtear míreanna nua leis go dtí go múchtar é seo"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "Fillteán %s"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "Siar"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "Dáta"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "Cineál"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "Sórtáil de réir %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "Taispeáin mar Ghreille"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "Taispeáin mar Liosta"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "Níl an fillteán caighdeánach seo socraithe."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "Á lódáil…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "Níl an fillteán seo ann a thuilleadh."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "Níl cead agat an fillteán seo a oscailt."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "Ní féidir an fillteán seo a oscailt: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "Tá an fillteán seo folamh."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"Tá níos mó ná %d mír san fhillteán seo; ní thaispeántar ach na chéad cinn. "
+"Oscail in Comhaid é chun iad go léir a fheiceáil."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "Fillteán"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "Níorbh fhéidir “%s” a oscailt"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "Cóipeáil"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "Gearr"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "Níl %s ar fáil"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "Tá %s inléite amháin"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "Ní féidir fillteán a chur isteach ann féin"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "In %s cheana"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "Ní féidir ach comhaid a chur i bhfillteán"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "Bog go %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Cóipeáil go %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Bog nó cóipeáil go %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "Ní féidir na comhaid a bhogadh go %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "Ní féidir na comhaid a chóipeáil go %s"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr ""
+"Teastaíonn an feidhmchlár Comhaid chun comhaid a chóipeáil agus a bhogadh ón "
+"duga."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Ní féidir na comhaid a oscailt in %s"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Oscail le %s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "Ní féidir le %s comhaid a oscailt"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Ní féidir a dhearbhú go n-osclaíonn %s na comhaid seo"
+
+# NEEDS-REVIEW: same form for all plural classes; check
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "Níl %d de na comhaid ar fáil a thuilleadh"
+msgstr[1] "Níl %d de na comhaid ar fáil a thuilleadh"
+msgstr[2] "Níl %d de na comhaid ar fáil a thuilleadh"
+msgstr[3] "Níl %d de na comhaid ar fáil a thuilleadh"
+msgstr[4] "Níl %d de na comhaid ar fáil a thuilleadh"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "Ní osclaíonn %s an cineál seo comhaid"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "Ní osclaíonn %s %d de na comhaid seo"
+msgstr[1] "Ní osclaíonn %s %d de na comhaid seo"
+msgstr[2] "Ní osclaíonn %s %d de na comhaid seo"
+msgstr[3] "Ní osclaíonn %s %d de na comhaid seo"
+msgstr[4] "Ní osclaíonn %s %d de na comhaid seo"
+
+# NEEDS-REVIEW: initial mutation after numbers is approximate
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, %d mhír nua"
+msgstr[1] "%s, %d mhír nua"
+msgstr[2] "%s, %d mhír nua"
+msgstr[3] "%s, %d mír nua"
+msgstr[4] "%s, %d mír nua"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "Tá na feidhmchláir sórtáilte in ord aibítreach"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr "Chun iad a shocrú tú féin, roghnaigh “Ord Saincheaptha” in Deskence."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "Réidh le Greamú"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "Díreach anois"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d nóiméad ó shin"
+msgstr[1] "%d nóiméad ó shin"
+msgstr[2] "%d nóiméad ó shin"
+msgstr[3] "%d nóiméad ó shin"
+msgstr[4] "%d nóiméad ó shin"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d uair an chloig ó shin"
+msgstr[1] "%d uair an chloig ó shin"
+msgstr[2] "%d huaire an chloig ó shin"
+msgstr[3] "%d n-uaire an chloig ó shin"
+msgstr[4] "%d uair an chloig ó shin"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "Stair na Gearrthaisce"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "Cuardaigh an stair"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "Glan an Stair"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: greamaigh · Shift+Enter: greamaigh mar ghnáth-théacs · Delete: bain · "
+"Ctrl+P: pionnáil"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "Lean ar aghaidh leis an gCuimhneamh"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "Cuir an Cuimhneamh ar Sos"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "Cliceáil Arís chun Glanadh"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr "Cliceáil arís chun gach mír seachas na cinn phionnáilte a bhaint."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr ""
+"Ní choinnítear míreanna nua i gcuimhne go dtí go leanann tú ar aghaidh."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr ""
+"Níor cóipeáladh aon rud fós. Taispeántar anseo na míreanna a chóipeálann tú."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "Níl aon mhír ag teacht leis an gcuardach."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "Íomhá, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "Díphionnáil"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "Pionnáil"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "Bain"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "Tá “Coinnigh Múscailte” ar siúl: fanann an scáileán ar siúl"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "Tá “Coinnigh Múscailte” ar siúl"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "Níos Lú"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "Cuireann sé cosc ar fhionraí uathoibríoch"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "Go dTí go Múchtar É"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d Nóiméad"
+msgstr[1] "%d Nóiméad"
+msgstr[2] "%d Nóiméad"
+msgstr[3] "%d Nóiméad"
+msgstr[4] "%d Nóiméad"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d Uair an Chloig"
+msgstr[1] "%d Uair an Chloig"
+msgstr[2] "%d Huaire an Chloig"
+msgstr[3] "%d n-Uaire an Chloig"
+msgstr[4] "%d Uair an Chloig"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "Coinnigh an Scáileán ar Siúl"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "Ansin ní mhúchtar ná ní ghlasáiltear an scáileán go huathoibríoch"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "Cuir Deireadh Leis Anois"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "Go dtí %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "Go dtí go múchtar é"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "%d nóiméad fágtha"
+msgstr[1] "%d nóiméad fágtha"
+msgstr[2] "%d nóiméad fágtha"
+msgstr[3] "%d nóiméad fágtha"
+msgstr[4] "%d nóiméad fágtha"

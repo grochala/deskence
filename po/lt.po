@@ -1,0 +1,4530 @@
+# Lithuanian translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Lithuanian\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "Darbalaukio nustatymai"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr ""
+"Dokas, darbalaukio piktogramos, programų piktogramos viršutinėje juostoje ir "
+"langų mygtukai"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"dokas;darbalaukis;piktogramos;pranešimų sritis;indikatorius;užduočių "
+"juosta;sumažinti;išdidinti;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "Dokas, darbalaukio piktogramos ir pranešimų sritis GNOME aplinkai"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Deskence papildo standartinį GNOME darbalaukį keliomis patogiomis "
+"funkcijomis ir leidžia jas nustatyti vienoje vietoje."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"Dokas su prisegtomis ir veikiančiomis programomis, aplankais, diskais ir "
+"šiukšline bei langų peržiūromis"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "Failai ir aplankai darbalaukyje"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr ""
+"Programų piktogramos viršutinėje juostoje, pavyzdžiui, pokalbių ir failų "
+"sinchronizavimo programų"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "Iškarpinės istorija ir „Neužmigdyti“ greituosiuose nustatymuose"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "Abėcėlinė programų rodinio tvarka"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr "Sumažinimo ir išdidinimo mygtukai langų antraštės juostose"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr "Profiliai nustatymams įrašyti ir perkelti į kitą kompiuterį"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr "Veikia jūsų esamame GNOME seanse ir išlaiko įprastą GNOME išvaizdą."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"Deskence dabar prieinamas 29 kalbomis: visomis oficialiosiomis Europos "
+"Sąjungos kalbomis, korėjiečių, supaprastinta ir tradicine kinų, serbų ir "
+"filipiniečių kalbomis. Nustatymų kalbų sąraše nurodoma sistemos naudojama "
+"kalba."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"Nustatymai: nustatymų lango ir komandos deskence kalbą galima pasirinkti "
+"puslapyje „Bendra“, nepriklausomai nuo sistemos."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"Dokas: kopijuokite arba iškirpkite failus ir aplankus aplanko skydelyje "
+"(dešinysis spustelėjimas, Ctrl+C, Ctrl+X) ir įdėkite juos programoje "
+"„Failai“ arba darbalaukyje."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Dokas: vilkite failus ir aplankus iš aplanko skydelio ant kito doko aplanko "
+"arba į darbalaukį, kad juos perkeltumėte ar nukopijuotumėte."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Dokas: programos atveria numestus failus tik tų tipų, kuriuos nurodo; kitaip "
+"dokas paaiškina kodėl."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr "Dokas: žymė po aplankais atitinka programų taškus."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"Pradžia darbalaukyje: prisijungus darbalaukis, viršutinė juosta ir langai "
+"vėl reaguoja į spustelėjimus, kai animacijos išjungtos, pavyzdžiui, "
+"virtualiose mašinose be 3D spartinimo; anksčiau reagavo tik dokas, kol "
+"apžvalga nebuvo atverta bent kartą."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"Pasirenkama diagnostika pranešimams apie darbalaukį ir langus, kurie nustoja "
+"reaguoti į spustelėjimus."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"Dokas: failų vilkimas ant doko visada tvarkingai baigiasi, net jei numetant "
+"kas nors nepavyksta."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Dokas: numeskite failus ant programos, kad jie būtų atverti joje, arba ant "
+"aplanko, kad būtų ten nukopijuoti ar perkelti; palaikykite failą virš "
+"aplanko, kad jį atvertumėte ir numestumėte į vieną iš jo poaplankių."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"Nustatymai: bet kurio nustatymo paieška su Ctrl+F, visų sparčiųjų klavišų "
+"valdymas vienoje vietoje su konfliktų tikrinimu ir ataskaitos kopijavimas ar "
+"įrašymas klaidų pranešimams."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"Profiliai: pritaikyto profilio atšaukimas atkuria tik tai, ką jis pakeitė, "
+"ir išlaiko vėliau pakeistus nustatymus."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr ""
+"Dokas: neperskaitytų skaitikliai ir operacijų eiga programų piktogramose, "
+"jei programos tai praneša."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"Komandų eilutė: tikrinkite kiekvienos funkcijos būseną, išjunkite ir "
+"įjunkite funkcijas, taikykite, importuokite ir eksportuokite profilius, "
+"atkurkite numatytuosius nustatymus ir rinkite diagnostiką komanda deskence, "
+"net iš tekstinės konsolės, kai darbalaukis neveikia. Žr. man deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"Numatytųjų nustatymų atkūrimas nebeištrina iškarpinės istorijos, kuri "
+"išsaugoma atsijungus."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"Programų rodinys: sava spalva ir skaidrumas paryškinimui po žymekliu ant "
+"programų ir programų aplankų; užvedus žymeklį ant aplanko, kontūras "
+"nebepiešiamas."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"Aplankai doke: skydelis užima ne daugiau kaip pusę ekrano aukščio, slenka "
+"per visą aplanką, taip pat klaviatūra, ir po poaplankio grįžta į ankstesnę "
+"vietą."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"Nustatymai: aiškesni aprašymai, geresnės lenkiškos formuluotės ir mažiau "
+"konfliktuojančių sparčiųjų klavišų."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"Dokas: per visą kraštą einantis dokas veiklų apžvalgoje ir programų rodinyje "
+"dera prie viršutinės juostos; trumpas dokas išlaiko savo išvaizdą."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"Programų rodinys: aplankų plytelės su sava spalva ar skaidrumu dabar aiškiai "
+"rodo užvedimą, paspaudimą, fokusą ir pasirinkimą."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"Programų rodinys: sava spalva ir skaidrumas aplankų plytelėms, pavyzdžiui, "
+"„Priemonės“."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"Bendra: pasirinktinai prisijungus pradėti darbalaukyje vietoj veiklų "
+"apžvalgos."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr "Dokas: dabar susilieja su veiklų apžvalga, o ne sudaro atskirą juostą."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"Nuorodos į projekto puslapį ir klaidų sekimo sistemą, dokumentacija anglų "
+"kalba. Programoje pakeitimų nėra."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"Nustatymai: puslapis „Bendra“ su profiliais, nustatymų eksportu ir importu "
+"bei numatytųjų reikšmių atkūrimu; puslapis „Programų rodinys“ su abėcėliniu "
+"rikiavimu; ramesnės peržiūros."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"Dokas: aplankai, rodantys savo turinį, langų užvėrimas ir žvilgtelėjimas į "
+"juos iš jų peržiūrų, „Visada viršuje“ peržiūros meniu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"Nauja: iškarpinės istorija, „Neužmigdyti“ greituosiuose nustatymuose, "
+"spartusis klavišas „Visada viršuje“."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Better GNOME Desktop dabar vadinasi Deskence. Nustatymai, įjungtos "
+"funkcijos, prisegtos programos ir darbalaukio piktogramų vietos perimamos."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"Dokas: programos langų peržiūros, kai žymeklis ant jos užsibūna, jokios "
+"papildomos vietos šalia programų mygtuko didinant piktogramas, veikimo "
+"indikatoriai po apatinio doko piktogramomis."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"Nustatymai: didesnės ir aiškesnės doko bei darbalaukio piktogramų peržiūros, "
+"puslapių piktogramos, meniu punktas „Apie“."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Better GNOME Desktop dabar vadinasi Deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"Dokas: ryškios padidintos piktogramos, jokių plytelių po piktogramomis su "
+"savu fonu, vienspalvis distribucijos logotipas, programų sąrašas per visą "
+"kraštą einančio doko pradžioje, veikimo indikatoriai vidinėje pusėje."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"Programų rodinys: vienas nenutrūkstamas perėjimas užveriant, pasirenkama "
+"sava fono spalva."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"Darbalaukis: meniu atsiveria spustelėtoje vietoje, taip pat šalia doko; "
+"piktogramų tinklelis prasideda pasirinktame kampe su mažomis paraštėmis."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"Dokas: programų mygtukas bet kuriame gale su piktogramos pasirinkimu, "
+"padidintos piktogramos, slinkimas, kai programos netelpa, sava fono spalva "
+"ir skaidrumas, nustatymai programų mygtuko meniu, skaidrus programų rodinio "
+"fonas."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"Darbalaukio piktogramos: laisvas išdėstymas arba pritraukimas prie "
+"tinklelio, „Lygiuoti pagal tinklelį“, visas darbalaukis šalia doko "
+"naudojamas, piktogramų vietos, kurios nejuda kartu su doku."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"Pataisymai: sklandus programų rodinio užvėrimas, nedelsiamas doko piktogramų "
+"pertvarkymas, jokio rėmelio velkant darbalaukio piktogramas, visur tas pats "
+"darbalaukio meniu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "Pirmoji laida."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "Nustatymų struktūros versija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"Naudojama nustatymų programos įrašytoms reikšmėms perkelti tarp laidų. 0 "
+"reiškia, kad nustatymai niekada nebuvo perkelti."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "Better GNOME Desktop nustatymai perimti"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Nustatoma, kai Better GNOME Desktop (0.3.0 ir senesnės versijos) įrašyti "
+"nustatymai nukopijuojami čia. Čia jau nustatytos reikšmės niekada "
+"neperrašomos; ankstesni nustatymai išlaikomi."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "Rodyti darbalaukį prisijungus"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"Jei teigiama, naujas seansas prasideda darbalaukyje, o ne veiklų apžvalgoje. "
+"Paveikiama tik seanso pradžia: vėlesnis apžvalgos atvėrimas, ekrano "
+"atrakinimas ar funkcijų įjungimas ir išjungimas jos niekada neuždaro. Taiko "
+"doko plėtinys."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Programos Deskence kalba"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"Nustatymų lango ir komandos deskence kalba: su Deskence įdiegto vertimo "
+"kodas (pavyzdžiui, \"pl\"), \"en\" anglų kalbai arba tuščia, kad būtų "
+"laikomasi sistemos. Kodas be įdiegto vertimo reiškia anglų kalbą. GNOME "
+"Shell plėtiniai ir darbalaukio piktogramos visada naudoja GNOME Shell kalbą. "
+"Taikoma paleidžiant programą."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "Ekrano kraštas su doku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\" (kairė), \"bottom\" (apačia) arba \"right\" (dešinė)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "Doko ilgis"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr ""
+"\"fit\": tik tokio ilgio, kokio reikia piktogramoms. \"full\": visas ekrano "
+"kraštas."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "Piktogramų dydis loginiais taškais"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"Mastelis keičiamas pagal monitoriaus mastelį ir apvalkalo temos teksto "
+"mastelio koeficientą, kaip ir kitų GNOME Shell piktogramų."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "Kada dokas slepiamas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": visada matomas, o langai laikomi už jo srities ribų. "
+"\"intellihide\": paslėptas, kol jį dengia langas tame pačiame monitoriuje. "
+"\"autohide\": paslėptas, kol žymeklis pasiekia ekrano kraštą."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "Kuriuose monitoriuose rodomas dokas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\" (pagrindinis), \"selected\" (pasirinktas, žr. selected-monitor) "
+"arba \"all\" (visi)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "Pasirinkto monitoriaus jungtis"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"Jungties pavadinimas, pavyzdžiui, \"DP-1\". Naudojama, kai monitor-mode yra "
+"\"selected\"; kol tas monitorius neprijungtas, naudojamas pagrindinis "
+"monitorius."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "Rodyti šiukšlinę"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "Rodyti išimamus diskus"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "Rodyti tinklo vietas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "Rodyti programų mygtuką"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "Kur yra programų mygtukas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": pirmasis doko elementas (kairėje horizontaliame doke, viršuje "
+"vertikaliame). \"end\": paskutinis elementas (dešinėje arba apačioje)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "Programų mygtuko piktograma"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": GNOME programų piktograma. \"distribution\": įdiegtos "
+"distribucijos logotipas iš sistemoje įdiegtų piktogramų; numatytoji "
+"piktograma, jei jo nėra. \"custom\": paveikslėlis iš apps-button-custom-icon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "Sava programų mygtuko piktograma"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"Kelias į pasirinkto paveikslėlio kopiją, laikomą Deskence naudotojo duomenų "
+"aplanke, kad ji veiktų ir perkėlus ar ištrynus originalų failą. Jei failo "
+"nepavyksta įkelti, naudojama numatytoji piktograma."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "Didinti piktogramas po žymekliu"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"Piktogramos šalia žymeklio sklandžiai didėja, kai jis juda virš doko. "
+"Nerodoma, kai GNOME išjungtos animacijos."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "Didinimo stiprumas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr "Piktogramos po žymekliu dydis, palyginti su jos įprastu dydžiu."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "Sava doko fono spalva"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr "Jei neigiama, doko fonas yra dabartinio GNOME stiliaus spalvos."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "Doko fono spalva"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"Spalva \"#rrggbb\" formatu, naudojama, kai background-custom-color yra "
+"teigiama. Ji neturi savo skaidrumo: tai background-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "Savas doko fono skaidrumas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr ""
+"Jei neigiama, doko fonas yra tiek skaidrus, kiek jį padaro dabartinis GNOME "
+"stilius."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "Doko fono skaidrumas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: neskaidrus. 100: visiškai skaidrus. Tik fonas; piktogramos, indikatoriai, "
+"užrašai ir meniu išlaiko savo matomumą. Naudojama, kai background-custom-"
+"transparency yra teigiama."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "Savas programų rodinio fono skaidrumas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr ""
+"Jei neigiama, iš doko atvertas viso ekrano programų rodinys turi standartinį "
+"GNOME foną."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "Sava programų rodinio fono spalva"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"Jei neigiama, iš doko atvertas viso ekrano programų rodinys turi "
+"standartinio GNOME fono spalvą. Nepriklauso nuo doko fono."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "Programų rodinio fono spalva"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"Spalva \"#rrggbb\" formatu, naudojama, kai app-grid-custom-color yra "
+"teigiama. Ji neturi savo skaidrumo: tai app-grid-transparency (arba "
+"neskaidri, kai app-grid-custom-transparency yra neigiama)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "Programų rodinio fono skaidrumas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: neskaidrus fonas (standartinė arba sava spalva). 100: visiškai skaidrus, "
+"už programų matomas tik darbalaukio fonas. Keičiasi tik fonas; piktogramos, "
+"pavadinimai ir paieškos laukas lieka visiškai matomi. Naudojama, kai app-"
+"grid-custom-transparency yra teigiama."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "Sava programų aplankų fono spalva"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"Jei neigiama, programų rodinio aplankų plytelės (pavyzdžiui, \"Priemonės\") "
+"yra dabartinio GNOME stiliaus spalvos. Keičiasi tik plytelės fonas; programų "
+"miniatiūros ir aplanko pavadinimas lieka nepakitę, o atverto aplanko "
+"skydelis nepaveikiamas."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "Programų aplankų fono spalva"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"Spalva \"#rrggbb\" formatu, naudojama, kai app-grid-folder-custom-color yra "
+"teigiama. Ji neturi savo skaidrumo: tai app-grid-folder-transparency (arba "
+"GNOME stiliaus alfa, kai app-grid-folder-custom-transparency yra neigiama)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "Savas programų aplankų fono skaidrumas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"Jei neigiama, programų rodinio aplankų plytelės yra tiek neskaidrios, kiek "
+"jas padaro dabartinis GNOME stilius."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "Programų aplankų fono skaidrumas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: neskaidrus plytelės fonas. 100: visiškai skaidrus; aplanką galima "
+"atpažinti iš programų miniatiūrų ir pavadinimo. Užvedimas, pasirinkimas ir "
+"klaviatūros fokusas lieka matomi. Naudojama, kai app-grid-folder-custom-"
+"transparency yra teigiama."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr "Sava paryškinimo užvedus spalva programų rodinyje"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"Jei neigiama, paryškinimas po žymekliu ant programų, programų aplankų ir "
+"programų atvertame aplanke yra dabartinio GNOME stiliaus spalvos. Dokas, "
+"darbalaukis ir aplankų krūvos nepaveikiami."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "Paryškinimo užvedus spalva programų rodinyje"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"Spalva \"#rrggbb\" formatu, naudojama, kai app-grid-hover-custom-color yra "
+"teigiama. Ji neturi savo skaidrumo: tai app-grid-hover-transparency (arba "
+"GNOME stiliaus alfa, kai app-grid-hover-custom-transparency yra neigiama)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr "Savas paryškinimo užvedus skaidrumas programų rodinyje"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"Jei neigiama, paryškinimas užvedus yra tiek neskaidrus, kiek jį padaro "
+"dabartinis GNOME stilius."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr "Paryškinimo užvedus skaidrumas programų rodinyje"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: neskaidrus paryškinimas. 100: visiškai skaidrus; aplankas tada po "
+"žymekliu atrodo taip pat kaip ramybės būsenoje. Keičiasi tik paryškinimas; "
+"piktogramos ir pavadinimai lieka visiškai matomi, o klaviatūros fokusas "
+"lieka pažymėtas. Naudojama, kai app-grid-hover-custom-transparency yra "
+"teigiama."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "Veikiančios programos spustelėjimas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": suaktyvina paskiausiai naudotą langą; kai programa jau "
+"aktyvi, perjungia į kitą jos langą. \"minimize-or-cycle\": kaip focus-or-"
+"cycle, bet programa su vieninteliu aktyviu langu sumažinama."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "Rodyti tik dabartinės darbo srities programas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"Jei teigiama, veikiančios (neprisegtos) programos rodomos tik tada, kai turi "
+"langą aktyvioje darbo srityje, o spustelėjimas perjungia tik tarp tų langų."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "Rodyti programų skaitiklius"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"Jei teigiama, programa, pranešanti skaitiklį (pavyzdžiui, neperskaitytus "
+"pranešimus per D-Bus API LauncherEntry), rodo jį savo doko piktogramoje. "
+"Programos, kurios nieko nepraneša, nieko nerodo."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "Rodyti programų eigą"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"Jei teigiama, programa, pranešanti operacijos eigą (pavyzdžiui, atsisiuntimo "
+"per D-Bus API LauncherEntry), rodo ją kaip juostą savo doko piktogramoje."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "Rodyti langų peržiūras užvedus"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"Kai žymeklis užsibūna ant veikiančios programos, rodomi jos langai (tie, "
+"kuriuos skaičiuoja dokas, žr. isolate-workspaces) su pavadinimais; "
+"spustelėjus vieną, tas langas suaktyvinamas."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "Žvilgtelėti į langą iš jo peržiūros"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"Kol žymeklis užsibūna ant lango peržiūros, tas langas trumpam parodomas virš "
+"kitų, pritemdytų. Niekas nesuaktyvinamas, neiškeliamas, neatkuriamas ir "
+"neperkeliamas; išėjus iš peržiūros arba paspaudus Escape tai baigiasi."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "Aplankai doke"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"Doke rodomi aplankai, eilės tvarka. Kiekvienas įrašas yra "
+"\"xdg:PAVADINIMAS\" standartiniam aplankui (PAVADINIMAS kaip "
+"GLib.UserDirectory be priešdėlio DIRECTORY_, pavyzdžiui, \"xdg:DOWNLOAD\"), "
+"\"home:SANTYKINIS/KELIAS\" aplankui namų aplanke arba \"file://\" URI bet "
+"kuriam kitam aplankui. Įrašo pašalinimas niekada neliečia paties aplanko."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "Rodyti aplankus doke"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr "Jei neigiama, folder-stacks aplankai išlaikomi, bet nerodomi."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "Kaip rodomas aplankų turinys"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": didelės piktogramos. \"list\": mažesnės piktogramos su dydžiu ir "
+"data. Keičiama aplanko skydelyje."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "Kiekvieno aplanko rikiavimo tvarka"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"Susieja folder-stacks įrašą su \"name\", \"modified\" (naujausi pirmiau) "
+"arba \"type\". Aplankas be įrašo rikiuojamas pagal pavadinimą, išskyrus "
+"„Atsiuntimus“ (xdg:DOWNLOAD), kurie pirmiau rodo naujausius failus. Keičiama "
+"aplanko skydelyje."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "Darbalaukio piktogramų dydis"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) arba \"huge\" (128 "
+"px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "Kampas, kuriame dedamos naujos piktogramos"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "Rodyti namų aplanką"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "Rodyti diskus ir USB atmintukus"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "Kaip dedamos perkeltos piktogramos"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": piktogramos lieka lygiai ten, kur numetamos. \"grid\": numestos "
+"piktogramos pritraukiamos prie tinklelio. Pakeitimas neperkelia esamų "
+"piktogramų; tai daro darbalaukio meniu punktas „Lygiuoti pagal tinklelį“."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "Atverti elementus vienu arba dviem spustelėjimais"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "Tvarka, kurią naudoja „Išdėstyti piktogramas“"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "Keičiama darbalaukio meniu punkte „Rikiuoti pagal“."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "Rodyti pasyvias programų piktogramas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"StatusNotifierItem apibrėžia būseną \"Passive\" piktogramoms, kurias "
+"programa laiko nesvarbiomis. Jos paslėptos, nebent tai yra teigiama."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "Mygtukų išdėstymas prieš pirmąjį pakeitimą"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"org.gnome.desktop.wm.preferences button-layout reikšmė, įrašyta prieš "
+"Deskence ją pirmą kartą pakeičiant. Tuščia, jei niekas nepakeista."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "Deskence paskiausiai įrašytas mygtukų išdėstymas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"Naudojama nustatyti, ar naudotojas vėliau pakeitė išdėstymą kitur; pradinė "
+"reikšmė siūloma atkurti tik tol, kol dabartinė reikšmė vis dar lygi šiai."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "Programų rodinio tvarka"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": naudotojo sukurtas išdėstymas (paties GNOME app-picker-layout ir "
+"aplankų sąrašai). \"alphabetical\": programos ir aplankai pagal rodomą "
+"pavadinimą naudotojo kalba, taip pat programos kiekviename aplanke; "
+"pertvarkymas vilkimu išjungtas. Atnaujinamas plėtinio app-grid."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "Išdėstymas, įrašytas prieš rikiavimą abėcėlės tvarka"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"JSON, įrašomas, kai sort-mode pasikeičia į \"alphabetical\": ankstesnis "
+"org.gnome.shell app-picker-layout (GVariant tekstas) ir kiekvieno aplanko "
+"programų sąrašas. Atkuriamas, kai sort-mode grįžta į \"custom\". Vidinis; "
+"neįtraukiamas į profilius."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "Spartusis klavišas, atveriantis iškarpinės istoriją"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "Didžiausias įsimenamų elementų skaičius"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr ""
+"Prisegti elementai neskaičiuojami. Seniausi elementai pamirštami pirmiausia."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "Kas išsaugoma atsijungus"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": istorija laikoma tik atmintyje ir atsijungus dingsta. "
+"\"pinned\": prisegti elementai įrašomi naudotojo duomenų aplanke. \"all\": "
+"ten įrašoma visa istorija."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "Neįsiminti naujų elementų"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr ""
+"Laikina būsena, keičiama istorijos skydelyje; neįtraukiama į profilius."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "Įsiminti ir pažymėtą tekstą"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"Pele pažymėtas tekstas (pirminis žymėjimas, įdedamas viduriniu mygtuku) taip "
+"pat įtraukiamas į istoriją."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "Visada įdėti tekstą be formatavimo"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"Istorija laiko tekstą be formatavimo; tik naujausią elementą galima įdėti su "
+"formatavimu, kol programa, iš kurios jis nukopijuotas, vis dar jį teikia. "
+"Jei teigiama, ir tas elementas įdedamas kaip grynasis tekstas. Shift+Enter "
+"istorijoje bet kuriuo atveju įdeda grynąjį tekstą."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "Iš karto įdėti pasirinktą elementą"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"Jei teigiama, elemento pasirinkimas užveria skydelį ir įdeda jį į langą, "
+"kuris buvo aktyvus, naudojant Ctrl+V. Jei neigiama, elementas tik padedamas "
+"į iškarpinę."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "Laikyti įjungtą ir ekraną"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"Jei neigiama, kompiuterio laikymas pabudusio tik neleidžia automatiškai "
+"užmigti: ekranas vis tiek išsijungia ir užsirakina kaip įprasta. Jei "
+"teigiama, ekranas taip pat lieka įjungtas ir automatiškai neužsirakina."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "Trukmė, kurią naudoja greitųjų nustatymų mygtukas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr "Paskiausiai pasirinkta trukmė; spustelėjus mygtuką ji naudojama vėl."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "Sava trukmė minutėmis"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "Pabaigos laikas minutėmis po vidurnakčio"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr ""
+"Naudoja „iki nurodyto laiko“: artimiausias šio vietinio laiko atėjimas."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"Atverti nustatymų puslapį: general, dock, desktop-icons, app-grid, top-bar, "
+"windows arba clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "PUSLAPIS"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"Dokas su aplankais, darbalaukio piktogramos, programų piktogramos "
+"viršutinėje juostoje, iškarpinės istorija ir langų nustatymai GNOME aplinkai."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "Neskaidrus"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "Skaidrus"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "_Atsisakyti"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "Neįdiegta. Iš naujo įdiekite paketą deskence."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "Pasileidžia atsijungus ir vėl prisijungus"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "Atnaujinta; nauja versija pasileidžia vėl prisijungus"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "GNOME Shell neveikia; bus pritaikyta kitame GNOME seanse"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "Neveikia"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "Funkcija sustojo dėl klaidos"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "Ši GNOME versija nepalaikoma"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "Įdiegta versija nepalaiko GNOME {}."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "GNOME plėtiniai išjungti"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Deskence jų reikia, kad parodytų savo funkcijas."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "Į_jungti…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "Vietoj jos naudojama kita kopija"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "Jūsų namų aplanke esanti kopija pakeičia įdiegtąją: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "_Rodyti"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "Įjungti GNOME plėtinius?"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr ""
+"Tai taip pat įjungia kitus plėtinius, kuriuos įgalinote programoje "
+"„Plėtiniai“."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "Į_jungti"
+
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "doką"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "darbalaukio piktogramas"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "programų piktogramas viršutinėje juostoje"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "programų rodinio rikiavimą"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "iškarpinės istoriją"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "kompiuterio laikymą pabudusio"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr "Taip pat teikia {}. Abiejų naudojimas vienu metu sukelia problemų."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "Gali taip pat teikti {}."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "Išjungti „{}“?"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"Plėtinys lieka įdiegtas, o jo nustatymai išlaikomi. Jį vėl galite įjungti "
+"programoje „Plėtiniai“."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "_Išjungti"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "_Išjungti…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "Silpnas"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "Stiprus"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "Didinimo stiprumas"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "Fono skaidrumas"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "Piktogramų dydis"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "Dokas visada matomas, ir langai jo neuždengia"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "Pasislepia, kol jį dengia langas"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "Atsiranda, kai nuvedate žymeklį prie ekrano krašto"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "Antras spustelėjimas perjungia į kitą programos langą"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr "Spustelėjus programą su vienu aktyviu langu, jis sumažinamas"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "Atkurti numatytuosius doko nustatymus?"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"Vieta, dydis, spalvos, slėpimas, monitorius, spustelėjimo elgsena ir rodomi "
+"elementai grąžinami į numatytąsias reikšmes. Prisegtos programos, aplankai "
+"doke, programų rodinys ir tai, ar dokas rodomas, nesikeičia."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "_Atkurti"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr "Nerodoma, kai animacijos išjungtos prieinamumo nustatymuose"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "Pridėti aplanką"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "Kitas aplankas…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "Šiame kompiuteryje nenustatyta"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{} (trūksta)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "Perkelti aukštyn"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "Perkelti žemyn"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "Pašalinti iš doko"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "Pridėti aplanką į doką"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "Šio aplanko pridėti negalima"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "Galima pridėti tik vietinius aplankus."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "_Užverti"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "Doko pradžia"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "Doko pabaiga"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "Viršuje"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "Apačioje"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "Kairėje"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "Dešinėje"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "Logotipas neįdiegtas; naudojama numatytoji piktograma"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "Paveikslėlis nepasirinktas; naudojama numatytoji piktograma"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "Paveikslėlio trūksta; naudojama numatytoji piktograma"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "Paveikslėliai"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "Pasirinkite piktogramą"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "Galima naudoti tik vietinius failus."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr ""
+"Failas nėra palaikomo formato (PNG, SVG, JPEG arba WebP) ne didesnis kaip 4 "
+"MB paveikslėlis."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "Šio paveikslėlio naudoti negalima"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{} (atjungtas)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "Darbalaukio aplankas nenustatytas"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "Atkurti numatytuosius darbalaukio piktogramų nustatymus?"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"Dydis, išdėstymas, spustelėjimo elgsena ir rodomi elementai grąžinami į "
+"numatytąsias reikšmes. Jūsų failai ir piktogramų vietos nesikeičia."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "Piktogramos lieka lygiai ten, kur jas numetate"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "Numestos piktogramos pritraukiamos prie tinklelio"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "Aplankų skaidrumas"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "Paryškinimo skaidrumas"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "Atkurti numatytuosius programų rodinio nustatymus?"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"Fonas, programų aplankai ir paryškinimas užvedus grįžta į GNOME išvaizdą, o "
+"programos – į jūsų pačių tvarką."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr "Pagal pavadinimą, taip pat aplankuose. Vilkimas tvarkos nekeičia."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr ""
+"Išdėstykite programas jas vilkdami. Šis išdėstymas grįžta išjungus abėcėlinę "
+"tvarką."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr ""
+"Fonas už programų. Piktogramos, pavadinimai ir paieškos laukas nesikeičia."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Prieinama, kol Deskence dokas įjungtas."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"Pakeiskite programų grupių, pavyzdžiui, „Priemonės“, išvaizdą programų "
+"rodinyje. Keičiasi tik plytelės fonas."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"Pasirinkite foną, kuris atsiranda po žymekliu ant programos ar programų "
+"aplanko, taip pat atvertame aplanke."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "_Spartusis klavišas"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "Atveria istoriją"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "Atkurti numatytuosius iškarpinės nustatymus?"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"Spartusis klavišas ir įdėjimas grąžinami į numatytąsias reikšmes. Istorija, "
+"kiek elementų ji laiko ir ar ji išsaugoma atsijungus, nesikeičia."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "Tik atmintyje"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "Prisegti elementai įrašomi į {}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "Istorija įrašoma į {}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "Atkurti numatytuosius viršutinės juostos nustatymus?"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"Neaktyvių piktogramų rodymas ir „Neužmigdyti“ parinktys grąžinami į "
+"numatytąsias reikšmes. Tai, kurios funkcijos rodomos, nesikeičia."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "Perjungia „Visada viršuje“ aktyviam langui"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "Atkurti numatytuosius antraštės juostos mygtukus?"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr ""
+"Antraštės juostos mygtukai grąžinami į šios sistemos GNOME numatytąją "
+"reikšmę."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "Atkurti ankstesnius antraštės juostos mygtukus?"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr ""
+"Antraštės juostos mygtukai grąžinami į tokius, kokie buvo prieš Deskence "
+"juos pakeičiant."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr "Mygtukai buvo pakeisti kitur po to, kai Deskence juos pakeitė"
+
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "kairiajame krašte"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "apatiniame krašte"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "dešiniajame krašte"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "Peržiūra: dokas ekrano {}"
+
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "viršutinio kairiojo"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "viršutinio dešiniojo"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "apatinio kairiojo"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "apatinio dešiniojo"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "Peržiūra: naujos piktogramos dedamos nuo {} kampo"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "Įjunkite „{}“, kad galėtumėte keisti „{}“."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "„{}“ prieinama įjungus „{}“."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "„{}“ šiuo metu neprieinama."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr ""
+"Įdiegtas atnaujinimas. Kad galėtumėte jį naudoti, atsijunkite ir vėl "
+"prisijunkite."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr "Kad paleistumėte įjungtas funkcijas, atsijunkite ir vėl prisijunkite."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "_Apie"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "Ieškoti nustatymų"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "Pagrindinis meniu"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "Ieškoti nustatymuose"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "Nustatymų puslapiai"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "Paieškos rezultatai"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "Rezultatų nerasta"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "Pabandykite kitus žodžius, pavyzdžiui, funkcijos pavadinimą."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "_Atsijungti…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "Dokas"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"Sureguliuokite programų juostos prie ekrano krašto vietą, išvaizdą ir "
+"elgseną. Prisegtos programos yra tos pačios kaip veiklų apžvalgoje."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "Rodyti _doką"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "Išvaizda"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "_Vieta"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "Kairė"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "Apačia"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "Dešinė"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "_Ilgis"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "Pagal piktogramas"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "Visas kraštas"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "_Piktogramų dydis"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "Sava fono _spalva"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "Fono spalva"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "Savas fono _skaidrumas"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "_Didinti piktogramas po žymekliu"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "Didinimo _stiprumas"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "Elgsena"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "_Slėpti"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "Niekada"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "Kai jį dengia langai"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "Kai nenaudojamas"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "_Monitorius"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "Pagrindinis"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "Pasirinktas"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "Visi"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "Pasirinktas _monitorius"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "Veikiančios programos _spustelėjimas"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "Suaktyvinti, tada perjungti langus"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "Sumažinti arba perjungti langus"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "Rodyti tik dabartinės _darbo srities programas"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "Rodyti langų _peržiūras užvedus"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr ""
+"Užlaikykite žymeklį ant veikiančios programos, kad pamatytumėte jos langus "
+"ir pasirinktumėte vieną"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "_Žvilgtelėti į langus"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"Užlaikykite žymeklį ant peržiūros, kad pamatytumėte jos langą virš kitų, "
+"neperjungdami į jį"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "Informacija iš programų"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"Programos savo piktogramoje gali rodyti skaitiklį arba operacijos eigą, "
+"pavyzdžiui, neperskaitytus pranešimus ar atsisiuntimą. Rodoma tik tai, ką "
+"praneša programa."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "Rodyti programų skaitiklius"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "Skaičius piktogramoje, pavyzdžiui, neperskaityti pranešimai"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "Rodyti operacijų eigą"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "Juosta piktogramoje vykstant atsisiuntimui ar kopijavimui"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "Elementai"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "Ką dokas rodo be programų."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "_Šiukšlinė"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "Diskai ir _USB atmintukai"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "_Tinklo vietos"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "_Programų mygtukas"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "Programų mygtuko _vieta"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "Programų mygtuko _piktograma"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "GNOME numatytoji"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "Distribucijos logotipas"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "Savas paveikslėlis"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "_Pasirinkti…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "Aplankai doke"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"Prisekite aplankus, kad jų turinį naršytumėte tiesiai iš doko. Aplanko "
+"pašalinimas iš doko nekeičia nei aplanko, nei jo failų."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "Rodyti _aplankus doke"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "_Atkurti numatytuosius nustatymus…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "Darbalaukio piktogramos"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr ""
+"Rodyti darbalaukio aplanko failus ir aplankus kaip piktogramas darbalaukyje."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "Rodyti _piktogramas darbalaukyje"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "Darbalaukio aplankas"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "Atverti programoje „Failai“"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "Piktogramos"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "_Dydis"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "Mažos"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "Vidutinės"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "Didelės"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "Labai didelės"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "_Dėti naujas piktogramas nuo"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "Jūsų perkeltos piktogramos išlaiko savo vietą"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "Viršutinio kairiojo kampo"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "Viršutinio dešiniojo kampo"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "Apatinio kairiojo kampo"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "Apatinio dešiniojo kampo"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "Piktogramų _išdėstymas"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "Laisvas"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "Pritraukti prie tinklelio"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "_Atverti elementus"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "Dukart spustelėjus"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "Vieną kartą spustelėjus"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "Taip pat rodyti"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "_Namų aplanką"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"Paslėpti failai nerodomi. Išjungus darbalaukio piktogramas, jūsų failai "
+"niekada neperkeliami ir neištrinami."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "Viršutinė juosta"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "Programų piktogramos"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr ""
+"Fone veikiančių programų piktogramos, pavyzdžiui, pokalbių ir failų "
+"sinchronizavimo programų."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "Rodyti _programų piktogramas"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "Rodyti _neaktyvias piktogramas"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "Piktogramos, kurias programos šiuo metu pažymi kaip nesvarbias"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "Neužmigdyti"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"Greitųjų nustatymų mygtukas, kuris neleidžia kompiuteriui automatiškai "
+"užmigti pasirinktą laiką arba kol bus išjungtas. Užmigdyti patiems vis tiek "
+"galima."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "Rodyti „_Neužmigdyti“"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "Laikyti įjungtą ir _ekraną"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr ""
+"Kol „Neužmigdyti“ įjungta, ekranas automatiškai neišsijungia ir neužsirakina"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "Sava _trukmė"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "Minutės"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"Palaikomos programos, naudojančios standartą StatusNotifierItem. Senojo tipo "
+"pranešimų srities piktogramos (XEmbed) nepalaikomos."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "Langai"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "Antraštės juostos mygtukai"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"Tai GNOME nustatymai: jie lieka galioti pašalinus Deskence. Programos, "
+"kurios piešia savo antraštės juostas, pavyzdžiui, kai kurios naršyklės, gali "
+"jų nepaisyti."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "_Sumažinimo mygtukas"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "_Išdidinimo mygtukas"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "_Išdėstymas"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "Visada viršuje"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"Laiko langą virš kitų. Tai taip pat yra lango meniu (Alt+Tarpas) ir doko "
+"lango peržiūros meniu, kuris tokiems langams rodo smeigtuką. Langas "
+"nerodomas kiekvienoje darbo srityje; tai atskira lango meniu parinktis."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "Atkurti nustatymus iš _prieš pakeitimus…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "Pavadinimas negali būti tuščias."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "Pavadinime negali būti „/“."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "„.“ ir „..“ nėra tinkami pavadinimai."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "Elementas tokiu pavadinimu jau yra."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "Pavadinimas per ilgas."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "Vietos atverti negalima"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "„{}“ atverti negalima"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "Saitas sugadintas: elemento, į kurį jis rodo, nėra."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "Paleidiklis netinkamas."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "„{}“ paleisti negalima"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "Nepatikimas paleidiklis"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"„{}“ nepažymėtas kaip patikimas. Leiskite paleisti tik tada, jei žinote, iš "
+"kur šis failas."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "_Leisti ir paleisti"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "Leisti paleisti „{}“ negalima"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "Nustatymų atverti negalima"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "Deskence atverti negalima"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "„{}“ atjungti negalima"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "Pavadinimai, prasidedantys „.“, yra paslėpti."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "Naujas aplankas"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "Aplanko pavadinimas"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "_Sukurti"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "Pervadinti aplanką"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "Pervadinti failą"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "_Pervadinti"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "Naujas _aplankas…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "Į_dėti"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "Pažymėti _viską"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "_Išdėstyti piktogramas"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "Lygiuoti pagal _tinklelį"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "_Pavadinimas"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "_Pakeista"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "_Tipas"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "_Rikiuoti pagal"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "Keisti _foną…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "_Darbalaukio nustatymai"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "_Atverti"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "Atverti _su…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "Leisti _paleisti"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "_Iškirpti"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "_Kopijuoti"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "Perva_dinti…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "Perkelti į _šiukšlinę"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "_Išvalyti šiukšlinę…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "Iš_imti"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "_Atjungti"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "_Savybės"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "Operacija nepavyko"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "Šiukšlinės išvalyti negalima"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "Šiukšlinei išvalyti reikia programos „Failai“."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "Savybių parodyti negalima"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "Perkelti į šiukšlinę negalima"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "Pervadinti negalima"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "Aplanko sukurti negalima"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "Failų perkelti negalima"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "Failų nukopijuoti negalima"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "Namai"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "Šiukšlinė"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "Darbalaukis"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "Rodyti programas"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "Doko nustatymai"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "Nepavyko atverti vietos"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "Atverti"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "Išvalyti šiukšlinę…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "Išimti"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "Atjungti"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "Nepavyko išimti disko"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "Nepavyko atjungti disko"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "%s langai"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "Užverti langą"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "Profiliai (JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "Profiliai su paveikslėliais"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "Visi profiliai"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "Prisegtos programos"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "Savi paveikslėliai"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "Įrašomi į archyvą kartu su nustatymais"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "Atkurti numatytuosius Deskence nustatymus?"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"Visi Deskence nustatymai grąžinami į numatytąsias reikšmes, o programų "
+"rodinys – į jūsų pačių tvarką. Aplankai pašalinami iš doko; patys aplankai "
+"neliečiami. Įjungtos funkcijos, prisegtos programos, antraštės juostos "
+"mygtukai, įrašyti profiliai ir iškarpinės istorija nesikeičia."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "Kaip sistemoje ({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "_Atšaukti"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "_Taikyti…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "_Pervadinti…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "_Eksportuoti…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "_Ištrinti…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "Daugiau"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "prisegtomis programomis"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "aplankais doke"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "paveikslėliais"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "Nustatymai su {}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "Mano nustatymai"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "Įrašyti dabartinius nustatymus"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "Į_rašyti"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "Profilio įrašyti negalima"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "Profilis „{}“ įrašytas"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "Pervadinti profilį"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "Profilio pervadinti negalima"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "Profilio ištrinti negalima"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "Ištrinti profilį „{}“?"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "Dabartiniai nustatymai nesikeičia."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "_Ištrinti"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "Eksportuoti nustatymus"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"Nustatymai įrašomi kaip skaitomas JSON failas. Su paveikslėliais failas yra "
+"archyvas su nustatymais ir paveikslėliais."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Deskence nustatymai"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "Eksportuoti negalima"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "Nustatymai eksportuoti"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "Importuoti nustatymus"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "Importuoti negalima"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "Jūsų nustatymai jau atitinka šį profilį."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "Nėra ką keisti"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "{} nustatymas pasikeičia: {}."
+msgstr[1] "{} nustatymai pasikeičia: {}."
+msgstr[2] "{} nustatymų pasikeičia: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "Taikyti „{}“?"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "Taikyti profilį?"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "_Taikyti"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "Šių pakeitimų atšaukti nepavyko: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "Jūsų ankstesni nustatymai atkurti."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "Profilis nepritaikytas"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "Niekas nepakeista."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "Profilis pritaikytas"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "Profilio atšaukti negalima"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "Nėra pritaikyto profilio, kurį būtų galima atšaukti."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "Ankstesni nustatymai atkurti"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "Atšaukti paskutinį pritaikytą profilį?"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr "Profilio pakeisti nustatymai grąžinami į reikšmes, buvusias prieš jį."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "Kai kurie nustatymai nuo to laiko pasikeitė"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"Šie nustatymai buvo pakeisti pritaikius profilį: {}. Atšaukti ir juos ar "
+"palikti tokius, kokie yra dabar?"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "_Palikti"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "Atšaukti _viską"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "Ataskaita"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "Į_rašyti…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "Informacija klaidų pranešimams"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "Diagnostika nukopijuota"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "Įrašyti ataskaitą"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "Ataskaitos įrašyti negalima"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "Ataskaita įrašyta"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "Numatytieji nustatymai atkurti"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "Funkcijos"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "Bendra"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "Programų rodinys"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "Iškarpinė"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "Failas per didelis, kad būtų profilis."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "Failas nėra Deskence profilis."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "Profilis neturi tinkamos formato versijos."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"Profilis sukurtas naujesne Deskence versija. Kad galėtumėte jį naudoti, "
+"atnaujinkite Deskence."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "Archyvas per didelis, kad būtų profilis."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "Archyve nėra Deskence profilio."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "Archyvas sugadintas."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "Profilio nustatymų dalis sugadinta."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "Nežinoma dalis „{}“ nepaisyta."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "Nežinomas nustatymas „{}“ dalyje {} nepaisytas."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"Monitorius {} neprijungtas. Iki tol dokas rodomas pagrindiniame monitoriuje."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "{} šiame kompiuteryje neprieinama."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "{} turi netinkamą reikšmę ir praleista."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "{} užrakinta administratoriaus."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "Kalba „{}“ šiame kompiuteryje neprieinama ir praleista."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "Spartusis klavišas {}, skirtas „{}“, neimportuotas: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "Funkcijų sąrašas sugadintas ir praleistas."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "Nežinoma funkcija „{}“ nepaisyta."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr "Prisegtos programos šiame kompiuteryje neprieinamos."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "Prisegtų programų sąrašas sugadintas ir praleistas."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr "Neįdiegta: {}. Jos atsiras doke, kai bus įdiegtos."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "Doko aplankų sąrašas sugadintas ir praleistas."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "Aplanke „{}“ yra netinkamas įrašas, todėl jis praleistas."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"Standartinis aplankas {} šiame kompiuteryje nenustatytas; jis rodomas kaip "
+"neprieinamas."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr "Aplanko {} nėra; jis rodomas kaip neprieinamas, kol bus sukurtas."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"Profilis naudoja savą programų mygtuko paveikslėlį, kuris neįtrauktas; "
+"naudojama numatytoji piktograma."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: nepaleiskite Deskence kaip root; paleiskite jį kaip savo "
+"naudotojas (be sudo)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"Deskence nustatymų schema neįdiegta. Iš naujo įdiekite paketą deskence."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "Niekas nepakeista: nustatymų įrašyti negalima."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"Šį pakeitimą reikia patvirtinti. Paleiskite komandą iš naujo su --yes, kad "
+"patvirtintumėte be klausimo."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "t/N"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "t"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "taip"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"Įrašyta. Pakeitimo nepavyko patvirtinti dabartiniame GNOME seanse; gali "
+"reikėti vėl prisijungti."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "veikia"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "neveikia"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "klaida"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "nepalaikoma GNOME versija"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "pasileidžia vėl prisijungus"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "atnaujinta; nauja versija vėl prisijungus"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "neįdiegta"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "nežinoma (GNOME Shell nepasiekiamas)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: rodoma veikiančio seanso būsena."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr "GNOME Shell nepasiekiamas: žinomi tik įrašyti nustatymai."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr "GNOME plėtiniai išjungti; jokia funkcija neveikia, kol jie neįjungti."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "FUNKCIJA"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "ĮRAŠYTA"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "ŠIAME SEANSE"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "įjungta"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "išjungta"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr "{}: vietoj įdiegtosios naudojama kopija iš jūsų namų aplanko: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr ""
+"{}: įrašytas nustatymas skiriasi nuo seanso; jis galios vėl prisijungus."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr "{}: „{}“ teikia tą patį; abiejų naudojimas sukelia problemų."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: „{}“ gali teikti tą patį."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "Nurodykite funkcijų pavadinimus arba --all, ne abu."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr "Nurodykite bent vieną funkciją arba naudokite --all. Funkcijos: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "Nežinoma funkcija: {}. Funkcijos: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "nustatymo įrašyti nepavyko"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: įjungta"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: išjungta"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: jau įjungta"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: jau išjungta"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: įrašytuose nustatymuose jau įjungta"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: įrašytuose nustatymuose jau išjungta"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: nepavyko: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"GNOME plėtiniai išjungti; įjungtos funkcijos pasileis, kai jie bus įjungti "
+"(gsettings set org.gnome.shell disable-user-extensions false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr ""
+"Nė vienas įrašytas profilis nevadinamas „{}“. Žr. deskence preset list."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr "Keli įrašyti profiliai vadinami „{}“; naudokite vieną iš jų ID: {}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "Funkcija {}: įjungti"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "Funkcija {}: išjungti"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "Dokas: savas programų mygtuko paveikslėlis"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Įspėjimas: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "Praleista: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "Profilis nepritaikytas: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "Šių pakeitimų atšaukti nepavyko: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "Ankstesni nustatymai atkurti."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "Profilis nepritaikytas; niekas nepakeista. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"Profilis pritaikytas tik iš dalies; šie nustatymai neįrašyti: {}. Atšaukite "
+"jį komanda: deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "Funkcijos {}: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "Įrašytų profilių nėra."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "PAVADINIMAS"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ID"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "SUKURTA"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "Jūsų nustatymai jau atitinka profilį „{}“."
+
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "Profilis „{}“ keičia {} nustatymą:"
+msgstr[1] "Profilis „{}“ keičia {} nustatymus:"
+msgstr[2] "Profilis „{}“ keičia {} nustatymų:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "Niekas nepakeista (--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "Taikyti profilį?"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr "Profilis „{}“ pritaikytas. Atšaukite jį komanda: deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "{} importuoti negalima: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"Įrašytas profilis jau vadinamas „{}“. Pasirinkite kitą pavadinimą su --name "
+"arba pakeiskite jį su --replace."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr ""
+"Profilis „{}“ tinkamas ir būtų įrašytas; niekas nepakeista (--dry-run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr ""
+"Profilis „{}“ įrašytas kaip {}. Pritaikykite jį komanda: deskence preset "
+"apply {}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "Įrašyti ir taikyti profilį?"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"Profilis „{}“ įrašytas kaip {} ir pritaikytas. Atšaukite jį komanda: "
+"deskence preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "{} yra aplankas; nurodykite failo pavadinimą."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "{} jau yra. Kad jį pakeistumėte, naudokite --force."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "{} įrašyti negalima: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "Nustatymai eksportuoti į {} (archyvas su paveikslėliais)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "Nustatymai eksportuoti į {}."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr "Savas paveikslėlis nenaudojamas, todėl failas yra paprastas JSON."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr "Nustatymai grąžinami į būseną, buvusią prieš pat paskutinį importą."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "Profilis nepakeitė nieko, ką būtų galima atšaukti."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "Atšaukus „{}“ atkuriama:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"Pakeista pritaikius profilį, todėl paliekama kaip yra (pridėkite --include-"
+"changed, kad atšauktumėte ir tai): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "Atšaukti profilį?"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "Profilis atšauktas tik iš dalies: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "Ankstesni nustatymai atkurti."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "Nurodykite, ką atkurti, arba --all, ne abu."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr "Nurodykite, ką atkurti, arba naudokite --all. Galimybės: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "Nežinoma galimybė: {}. Galimybės: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "Viskas jau turi numatytąsias reikšmes; nėra ką atkurti."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "Atkurta į numatytąją reikšmę ({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "visas Deskence"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "Programų rodinys grąžinamas į jūsų pačių tvarką."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "Funkcija app-grid (abėcėlinė tvarka) išjungiama."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"Nepakeista: kitos įjungtos funkcijos, prisegtos programos, darbalaukio "
+"failai, savi paveikslėliai, įrašyti profiliai ir iškarpinės istorija."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "Atkurti šiuos nustatymus?"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "Kai kurių nustatymų atkurti nepavyko: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "Numatytieji nustatymai atkurti."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: klaida: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"Deskence nustatymai iš komandų eilutės. Be komandos atveriamas nustatymų "
+"langas (deskence [--page PUSLAPIS])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"Funkcijos: {}. Išėjimo kodai: 0 atlikta, 1 nepavyko, 2 netinkama komandų "
+"eilutė, 3 nepatvirtinta, 4 įrašyta, bet nepatvirtinta veikiančiame GNOME "
+"seanse. Žr. man deskence."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "KOMANDA"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "išvesti JSON dokumentą vietoj teksto"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "rodyti kiekvienos funkcijos įrašytą ir veikimo būseną"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "įjungti funkcijas"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "išjungti funkcijas; jų nustatymai išlaikomi"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "viena iš: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "visos Deskence funkcijos (niekada kiti plėtiniai)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "rodyti, taikyti, importuoti ir eksportuoti profilius"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "Profiliai įrašomi į {}."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "VEIKSMAS"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "tik rodyti, kas pasikeistų"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "neprašyti patvirtinimo"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "rodyti įrašytus profilius"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "taikyti įrašytą profilį"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "įrašyto profilio pavadinimas arba ID"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr "patikrinti profilio failą ir įrašyti jį tarp profilių"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "FAILAS"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr ".json profilis arba .deskence archyvas"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "įrašyti šiuo pavadinimu"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "pakeisti to paties pavadinimo įrašytą profilį"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "taip pat jį pritaikyti"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "įrašyti dabartinius nustatymus į failą"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "profilyje įrašomas pavadinimas"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "įtraukti prisegtas programas"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "įtraukti doko aplankus"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "įtraukti savus paveikslėlius (įrašo archyvą)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "pakeisti esamą failą"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "atšaukti paskutinį pritaikytą profilį"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr "atšaukti ir nustatymus, pakeistus pritaikius profilį"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "atkurti numatytuosius nustatymus"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "DALIS"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "visi Deskence nustatymai; taip pat išjungia funkciją app-grid"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "rodyti ataskaitą klaidų pranešimams (niekas nesiunčiama)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"Seanso magistralė neprieinama, todėl dconf negali įrašyti nustatymų. "
+"Paleiskite komandą savo GNOME seanso terminale arba prisijungę tekstinėje "
+"konsolėje tuo pačiu naudotoju."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr ""
+"Nustatymai laikomi tik atmintyje (GSETTINGS_BACKEND=memory) ir būtų prarasti."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "Rodyti iškarpinės istoriją"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "Atveria nukopijuotų tekstų ir paveikslėlių istoriją"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr "Perjungia „Visada viršuje“ aktyviam langui (GNOME spartusis klavišas)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "Deskence nustatymų lange"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "Tai netinkamas spartusis klavišas."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "Vien modifikavimo klavišas negali būti sparčiuoju klavišu."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr "Naudokite klavišą kartu su Ctrl, Alt ar Super arba funkcinį klavišą."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"Tokius sparčiuosius klavišus naudoja pačios programos. Pridėkite Super arba "
+"derinkite Ctrl ir Alt."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "Savas spartusis klavišas"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "Jau naudojama: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "dokas, užduočių juosta, paleidiklis, skydelis, dock, taskbar, launcher"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "didinimas, padidinti, lupa, zoom"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "automatinis slėpimas, slėpimas, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "krūvos, aplankai, atsiuntimai, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "miniatiūros, langai, peržiūros, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "ženkleliai, neperskaityti, pranešimai, žinutės, skaitiklis, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "atsiuntimas, eiga, eigos juosta, download"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "darbalaukis, failai, piktogramos, desktop"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr "programų tinklelis, programos, paleidiklis, meniu, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "rikiavimas, abėcėlė, tvarka, išdėstyti"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "aplankai, plytelės, grupės"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "užvedimas, paryškinimas, žymeklis, hover"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "pranešimų sritis, indikatoriai, būsenos piktogramos, tray"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "užmigdymas, miegas, kofeinas, caffeine, neleisti, pabudęs"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "ekrano užsklanda, tuščias ekranas, užraktas"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "antraštės juosta, mygtukai, sumažinti, išdidinti"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "kopijuoti, įdėti, iškarpinė, istorija, clipboard"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr "klaviatūra, spartieji klavišai, klavišai, trumpiniai, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "klaida, diagnostika, ataskaita, problema, bug"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "atsarginė kopija, profiliai, perkėlimas, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "kalba, vertimas, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "Išjungta"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "Atkurti numatytąjį spartųjį klavišą"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "Nustatyti spartųjį klavišą"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "Paspauskite naują spartųjį klavišą, skirtą „{}“. Escape atsisako."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "Atkurti _numatytąjį"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "Numatytasis spartusis klavišas užimtas: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "Šio sparčiojo klavišo naudoti negalima"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "Spartieji klavišai"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "Visur"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"Konfliktai su kitais Deskence sparčiaisiais klavišais ir su paties GNOME "
+"klavišais atmetami. Kitų programų ir plėtinių sparčiųjų klavišų patikrinti "
+"negalima."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "Nustatymų lange"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "Veikia, kol „{}“ įjungta"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "Lietuvių"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "Seanso pradžia"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "Prisijungus rodyti _darbalaukį"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "Pradėti darbalaukyje vietoj veiklų apžvalgos"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr "Dokas, darbalaukis ir kitos funkcijos visada naudoja sistemos kalbą."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "Programos _kalba"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "Nustatymai ir komanda deskence"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "Nauja kalba naudojama paleidus iš naujo"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "Paleisti _iš naujo"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "Profiliai"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr ""
+"Įrašykite dabartinius nustatymus, kad vėliau galėtumėte prie jų grįžti."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "Įrašytų profilių nėra"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "Į_rašyti dabartinius nustatymus…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "Nustatymų perkėlimas"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"Perkelkite nustatymus į kitą kompiuterį arba išsaugokite juos pakartotiniam "
+"diegimui. Prieš importą matysite, kas pasikeis."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "_Eksportuoti į failą…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "_Importuoti iš failo…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "_Atšaukti paskutinį pritaikytą profilį…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "_Spartieji klavišai"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr ""
+"Peržiūrėkite ir keiskite visus Deskence sparčiuosius klavišus vienoje vietoje"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"Versijos, seanso tipas, monitoriai ir kiekvienos funkcijos būsena, kuriuos "
+"galima įklijuoti į klaidos pranešimą. Nieko privataus neįtraukiama ir niekas "
+"niekur nesiunčiama."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "Rodyti _ataskaitą…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "_Kopijuoti diagnostiką"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "Įrašyti ataskaitą į _failą…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "_Atkurti numatytuosius Deskence nustatymus…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "Tvarka"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr "Kaip programos išdėstytos viso ekrano programų rodinyje."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "Programų _tvarka"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "Sava tvarka"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "Abėcėlinė"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "Fonas"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "Kai išjungta, naudojama GNOME stiliaus spalva"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "Savas fono _skaidrumas"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "Kai išjungta, fonas neskaidrus, kaip GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "Fono _skaidrumas"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "Programų aplankai"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "Sava aplankų _spalva"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "Aplankų spalva"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "Savas aplankų _skaidrumas"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "Kai išjungta, naudojamas GNOME stiliaus skaidrumas"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "Aplankų s_kaidrumas"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "Paryškinimas užvedus"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "Sava _paryškinimo spalva"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "Paryškinimo spalva"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "Savas paryškinimo s_kaidrumas"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"Kopijavimas ir įdėjimas veikia kaip anksčiau. Nukopijuotų tekstų ir "
+"paveikslėlių istorija atveriama savu sparčiuoju klavišu."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "_Iškarpinės istorija"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "Į_dėti pasirinktą elementą"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Įdeda į langą, kuriame buvote, naudojant Ctrl+V (terminaluose Ctrl+Shift+V). "
+"Kai išjungta, elementas tik padedamas į iškarpinę."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "Visada įdėti tekstą _be formatavimo"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"Senesni elementai visada yra grynasis tekstas. Shift+Enter bet kada įdeda "
+"grynąjį tekstą."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "Įsiminti ir pažymėtą _tekstą"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "Pele pažymėtas tekstas, kurį įdeda vidurinis mygtukas"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "Saugykla"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"Istorija laikoma tik atmintyje ir atsijungus dingsta. Prisegti elementai "
+"lieka išvalius istoriją ir neįskaičiuojami į ribą. Turinys, kurį programos "
+"pažymi kaip slaptą, pavyzdžiui, iš slaptažodžių tvarkyklių, neįsimenamas; ne "
+"kiekvieną slaptažodį įmanoma atpažinti."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "Į_simenami elementai"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "_Išsaugoti atsijungus"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "Nieko"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "Prisegtus elementus"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "Visą istoriją"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "_Pristabdyti įsiminimą"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "Nauji elementai nepridedami, kol tai neišjungta"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "Aplankas %s"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "Atgal"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "Data"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "Tipas"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "Rikiuoti pagal: %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "Rodyti tinkleliu"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "Rodyti sąrašu"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "Šis standartinis aplankas nenustatytas."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "Įkeliama…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "Šio aplanko nebėra."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "Neturite leidimo atverti šio aplanko."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "Šio aplanko atverti negalima: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "Šis aplankas tuščias."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"Šiame aplanke yra daugiau nei %d elementų; rodomi tik pirmieji. Kad "
+"matytumėte visus, atverkite jį programoje „Failai“."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "Aplankas"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "Nepavyko atverti „%s“"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "Kopijuoti"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "Iškirpti"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "%s neprieinamas"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "%s tik skaitomas"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "Aplanko negalima įdėti į jį patį"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "Jau yra %s"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "Į aplanką galima dėti tik failus"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "Perkelti į %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Kopijuoti į %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Perkelti arba kopijuoti į %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "Failų perkelti į %s negalima"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "Failų nukopijuoti į %s negalima"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr "Failams kopijuoti ir perkelti iš doko reikia programos „Failai“."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Failų atverti programoje %s negalima"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Atverti su %s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "%s negali atverti failų"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Negalima patvirtinti, kad %s atveria šiuos failus"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "%d iš failų nebeprieinamas"
+msgstr[1] "%d iš failų nebeprieinami"
+msgstr[2] "%d iš failų nebeprieinama"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "%s neatveria šio tipo failų"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "%s neatveria %d iš šių failų"
+msgstr[1] "%s neatveria %d iš šių failų"
+msgstr[2] "%s neatveria %d iš šių failų"
+
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, %d naujas elementas"
+msgstr[1] "%s, %d nauji elementai"
+msgstr[2] "%s, %d naujų elementų"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "Programos surikiuotos abėcėlės tvarka"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr "Kad jas išdėstytumėte patys, Deskence pasirinkite „Sava tvarka“."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "Paruošta įdėti"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "Ką tik"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "prieš %d minutę"
+msgstr[1] "prieš %d minutes"
+msgstr[2] "prieš %d minučių"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "prieš %d valandą"
+msgstr[1] "prieš %d valandas"
+msgstr[2] "prieš %d valandų"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "Iškarpinės istorija"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "Ieškoti istorijoje"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "Išvalyti istoriją"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: įdėti · Shift+Enter: įdėti kaip grynąjį tekstą · Delete: pašalinti · "
+"Ctrl+P: prisegti"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "Tęsti įsiminimą"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "Pristabdyti įsiminimą"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "Spustelėkite dar kartą, kad išvalytumėte"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr ""
+"Spustelėkite dar kartą, kad pašalintumėte visus elementus, išskyrus "
+"prisegtus."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "Nauji elementai neįsimenami, kol nepratęsite."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr "Dar niekas nenukopijuota. Jūsų nukopijuoti elementai atsiras čia."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "Paiešką atitinkančių elementų nėra."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "Paveikslėlis, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "Atsegti"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "Prisegti"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "Pašalinti"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "„Neužmigdyti“ įjungta: ekranas lieka įjungtas"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "„Neužmigdyti“ įjungta"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "Mažiau"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "Neleidžia automatiškai užmigti"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "Kol bus išjungta"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d minutė"
+msgstr[1] "%d minutės"
+msgstr[2] "%d minučių"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d valanda"
+msgstr[1] "%d valandos"
+msgstr[2] "%d valandų"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "Laikyti ekraną įjungtą"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "Ekranas tada automatiškai neišsijungia ir neužsirakina"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "Baigti dabar"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "Iki %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "Kol bus išjungta"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "Liko %d minutė"
+msgstr[1] "Liko %d minutės"
+msgstr[2] "Liko %d minučių"

@@ -1,0 +1,4554 @@
+# Bulgarian translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Bulgarian\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "Настройки на работния плот"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr ""
+"Док, икони на работния плот, икони на програми в горната лента и бутони на "
+"прозорците"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"док;работен плот;икони;област за уведомяване;индикатор;лента със "
+"задачи;минимизиране;максимизиране;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "Док, икони на работния плот и област за уведомяване за GNOME"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Deskence добавя няколко удобства към стандартния работен плот на GNOME и ви "
+"позволява да ги настроите на едно място."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"Док със закачени и работещи програми, папки, устройства и кошчето, както и "
+"мостри на прозорците"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "Файлове и папки на работния плот"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr ""
+"Икони на програми в горната лента, например от програми за съобщения и "
+"синхронизиране на файлове"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "История на буфера за обмен и „Без заспиване“ в бързите настройки"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "Азбучна подредба на изгледа с програмите"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr ""
+"Бутони за минимизиране и максимизиране в заглавните ленти на прозорците"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr "Профили за запазване на настройките и пренасянето им на друг компютър"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr ""
+"Работи в текущата ви сесия на GNOME и запазва стандартния вид на GNOME."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"Deskence вече е достъпен на 29 езика: всички официални езици на Европейския "
+"съюз, корейски, опростен и традиционен китайски, сръбски и филипински. "
+"Списъкът с езици в настройките показва езика, който използва системата."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"Настройки: изберете езика на прозореца с настройки и на командата deskence в "
+"страницата „Общи“, независимо от системата."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"Док: копирайте или изрежете файлове и папки в панела на папка (десен бутон, "
+"Ctrl+C, Ctrl+X) и ги поставете във „Файлове“ или на работния плот."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Док: изтеглете файлове и папки от панела на папка върху друга папка в дока "
+"или върху работния плот, за да ги преместите или копирате."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Док: програмите отварят пуснатите файлове само от видовете, които обявяват; "
+"иначе докът обяснява защо."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr "Док: маркерът под папките съответства на точките на програмите."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"Начало на работния плот: след вписване работният плот, горната лента и "
+"прозорците отново реагират на щраквания, когато анимациите са изключени, "
+"например във виртуални машини без 3D ускорение; преди реагираше само докът, "
+"докато прегледът не се отвореше веднъж."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"Незадължителна диагностика за доклади за работен плот и прозорци, които "
+"спират да реагират на щраквания."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"Док: изтеглянето на файлове върху дока винаги приключва чисто, дори когато "
+"нещо се провали при пускането."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Док: пуснете файлове върху програма, за да ги отворите в нея, или върху "
+"папка, за да ги копирате или преместите там; задръжте файл над папка, за да "
+"я отворите и да го пуснете в някоя от подпапките ѝ."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"Настройки: търсене във всяка настройка с Ctrl+F, управление на всички "
+"клавишни комбинации на едно място с проверка за конфликти и копиране или "
+"запазване на доклад за съобщаване на грешки."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"Профили: отменянето на приложен профил възстановява само това, което той е "
+"променил, и запазва настройките, които сте променили след това."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr ""
+"Док: броячи на непрочетени и напредък на операции върху иконите на "
+"програмите, които ги съобщават."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"Команден ред: проверка на състоянието на всяка функция, изключване и "
+"включване на функции, прилагане, внасяне и изнасяне на профили, "
+"възстановяване на стандартните настройки и събиране на диагностика с "
+"командата deskence, дори от текстова конзола, когато работният плот не "
+"работи. Вижте man deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"Възстановяването на стандартните настройки вече не изтрива историята на "
+"буфера за обмен, която се пази след излизане."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"Изглед с програмите: собствен цвят и прозрачност за осветяването под "
+"показалеца върху програми и папки с програми; посочването на папка вече не "
+"рисува контур."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"Папки в дока: панелът заема най-много половината от височината на екрана, "
+"превърта през цялата папка, включително с клавиатурата, и се връща на "
+"предишното място след подпапка."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"Настройки: по-ясни описания, по-добри полски формулировки и по-малко "
+"конфликтни клавишни комбинации."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"Док: док по целия ръб пасва на горната лента в прегледа на дейностите и в "
+"изгледа с програмите; къс док запазва собствения си вид."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"Изглед с програмите: плочките на папки със собствен цвят или прозрачност "
+"вече ясно показват посочване, натискане, фокус и избор."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"Изглед с програмите: собствен цвят и прозрачност за плочките на папки като "
+"„Инструменти“."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"Общи: по избор започване на работния плот вместо в прегледа на дейностите "
+"след вписване."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr ""
+"Док: вече се слива с прегледа на дейностите, вместо да образува отделна "
+"ивица."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"Връзки към страницата на проекта и системата за грешки, документация на "
+"английски. Без промени в програмата."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"Настройки: страница „Общи“ с профили, изнасяне и внасяне на настройки и "
+"възстановяване на стандартните стойности; страница „Изглед с програмите“ с "
+"азбучна подредба; по-спокойни мостри."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"Док: папки, които показват съдържанието си, затваряне и надникване в "
+"прозорци от мострите им, „Винаги отгоре“ в менюто на мострата."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"Ново: история на буфера за обмен, „Без заспиване“ в бързите настройки, "
+"клавишна комбинация за „Винаги отгоре“."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Better GNOME Desktop вече се казва Deskence. Настройките, включените "
+"функции, закачените програми и позициите на иконите на работния плот се "
+"пренасят."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"Док: мостри на прозорците на програма, когато показалецът застане върху нея, "
+"без допълнително място до бутона за програми при уголемени икони, индикатори "
+"за работа под иконите на долен док."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"Настройки: по-големи и по-ясни мостри на дока и иконите на работния плот, "
+"икони на страниците, елемент от менюто „Относно“."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Better GNOME Desktop вече се казва Deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"Док: остри уголемени икони, без плочки под иконите при собствен фон, "
+"едноцветно лого на дистрибуцията, списъкът с програми в началото на док по "
+"целия ръб, индикатори за работа от вътрешната страна."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"Изглед с програмите: един непрекъснат преход при затваряне, незадължителен "
+"собствен цвят на фона."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"Работен плот: менютата се отварят на мястото на щракването, включително до "
+"дока; решетката с икони започва от избрания ъгъл с малки полета."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"Док: бутон за програми в единия или другия край с избор на икона, уголемени "
+"икони, превъртане, когато програмите не се побират, собствен цвят и "
+"прозрачност на фона, настройки в менюто на бутона за програми, прозрачен фон "
+"за изгледа с програмите."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"Икони на работния плот: свободно разполагане или прилепване към решетката, "
+"„Подравняване към решетката“, целият работен плот до дока е използваем, "
+"позиции на иконите, които не се местят с дока."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"Поправки: плавно затваряне на изгледа с програмите, незабавно пренареждане "
+"на иконите в дока, без рамка при влачене на икони на работния плот, едно и "
+"също меню на работния плот навсякъде."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "Първо издание."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "Версия на структурата на настройките"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"Използва се от програмата за настройки за пренасяне на запазените стойности "
+"между изданията. 0 означава, че настройките никога не са били пренасяни."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "Настройките на Better GNOME Desktop са пренесени"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Задава се, след като настройките, запазени от Better GNOME Desktop (0.3.0 и "
+"по-стари), са копирани тук. Вече зададените тук стойности никога не се "
+"презаписват; предишните настройки се запазват."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "Показване на работния плот след вписване"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"Ако е истина, новата сесия започва на работния плот вместо в прегледа на "
+"дейностите. Засяга се само началото на сесията: по-късното отваряне на "
+"прегледа, отключването на екрана или включването и изключването на функции "
+"никога не го затварят. Прилага се от разширението на дока."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Език на програмата Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"Езикът на прозореца с настройки и на командата deskence: кодът на превод, "
+"инсталиран с Deskence (например \"pl\"), \"en\" за английски или празно, за "
+"да се следва системата. Код без инсталиран превод означава английски. "
+"Разширенията на GNOME Shell и иконите на работния плот винаги следват езика "
+"на GNOME Shell. Прилага се при стартиране на програмата."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "Ръб на екрана за дока"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\" (ляв), \"bottom\" (долен) или \"right\" (десен)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "Дължина на дока"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr ""
+"\"fit\": само толкова дълъг, колкото е нужно на иконите. \"full\": целият "
+"ръб на екрана."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "Размер на иконите в логически пиксели"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"Мащабира се според мащаба на монитора и коефициента за мащабиране на текста "
+"на темата на обвивката, като другите икони на GNOME Shell."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "Кога докът се скрива"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": винаги видим и прозорците се държат извън областта му. "
+"\"intellihide\": скрит, докато прозорец на същия монитор го припокрива. "
+"\"autohide\": скрит, докато показалецът не достигне ръба на екрана."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "На кои монитори се показва докът"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\" (основен), \"selected\" (избран, вижте selected-monitor) или "
+"\"all\" (всички)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "Конектор на избрания монитор"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"Име на конектора, например \"DP-1\". Използва се, когато monitor-mode е "
+"\"selected\"; докато този монитор не е свързан, се използва основният "
+"монитор."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "Показване на кошчето"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "Показване на преносимите устройства"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "Показване на мрежовите местоположения"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "Показване на бутона за програми"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "Къде е бутонът за програми"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": първият елемент на дока (вляво при хоризонтален док, горе при "
+"вертикален). \"end\": последният елемент (вдясно или долу)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "Икона на бутона за програми"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": иконата за програми на GNOME. \"distribution\": логото на "
+"инсталираната дистрибуция от иконите, инсталирани в системата; стандартната "
+"икона, ако няма такова. \"custom\": изображението в apps-button-custom-icon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "Собствена икона на бутона за програми"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"Път до копие на избраното изображение, пазено в папката с потребителски "
+"данни на Deskence, за да продължи да работи, ако оригиналният файл бъде "
+"преместен или изтрит. Ако файлът не може да се зареди, се използва "
+"стандартната икона."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "Уголемяване на иконите под показалеца"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"Иконите близо до показалеца плавно растат, докато той се движи над дока. Не "
+"се показва, докато анимациите в GNOME са изключени."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "Сила на уголемяването"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr "Размер на иконата под показалеца спрямо нормалния ѝ размер."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "Собствен цвят на фона на дока"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr "Ако е лъжа, фонът на дока има цвета на текущия стил на GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "Цвят на фона на дока"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"Цвят във вида \"#rrggbb\", използва се, когато background-custom-color е "
+"истина. Няма собствена прозрачност: тя е background-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "Собствена прозрачност на фона на дока"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr ""
+"Ако е лъжа, фонът на дока е толкова прозрачен, колкото го прави текущият "
+"стил на GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "Прозрачност на фона на дока"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: непрозрачен. 100: напълно прозрачен. Само фонът; иконите, индикаторите, "
+"етикетите и менютата запазват собствената си видимост. Използва се, когато "
+"background-custom-transparency е истина."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "Собствена прозрачност на фона на изгледа с програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr ""
+"Ако е лъжа, изгледът с програмите на цял екран, отворен от дока, има "
+"стандартния фон на GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "Собствен цвят на фона на изгледа с програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"Ако е лъжа, изгледът с програмите на цял екран, отворен от дока, има цвета "
+"на стандартния фон на GNOME. Независимо от фона на дока."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "Цвят на фона на изгледа с програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"Цвят във вида \"#rrggbb\", използва се, когато app-grid-custom-color е "
+"истина. Няма собствена прозрачност: тя е app-grid-transparency (или е "
+"непрозрачен, когато app-grid-custom-transparency е лъжа)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "Прозрачност на фона на изгледа с програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: непрозрачен фон (стандартен или собствен цвят). 100: напълно прозрачен, "
+"зад програмите се вижда само тапетът. Променя се само фонът; иконите, "
+"имената и полето за търсене остават напълно видими. Използва се, когато app-"
+"grid-custom-transparency е истина."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "Собствен цвят на фона на папките с програми"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"Ако е лъжа, плочките на папките в изгледа с програмите (като "
+"\"Инструменти\") имат цвета на текущия стил на GNOME. Променя се само фонът "
+"на плочката; миниатюрите на програмите и името на папката остават същите, а "
+"панелът на отворена папка не се засяга."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "Цвят на фона на папките с програми"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"Цвят във вида \"#rrggbb\", използва се, когато app-grid-folder-custom-color "
+"е истина. Няма собствена прозрачност: тя е app-grid-folder-transparency (или "
+"алфата на стила на GNOME, когато app-grid-folder-custom-transparency е лъжа)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "Собствена прозрачност на фона на папките с програми"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"Ако е лъжа, плочките на папките в изгледа с програмите са толкова "
+"непрозрачни, колкото ги прави текущият стил на GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "Прозрачност на фона на папките с програми"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: непрозрачен фон на плочката. 100: напълно прозрачен; папката се "
+"разпознава по миниатюрите на програмите и името си. Посочването, изборът и "
+"фокусът на клавиатурата остават видими. Използва се, когато app-grid-folder-"
+"custom-transparency е истина."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr "Собствен цвят на осветяването при посочване в изгледа с програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"Ако е лъжа, осветяването под показалеца върху програми, папки с програми и "
+"програми в отворена папка има цвета на текущия стил на GNOME. Докът, "
+"работният плот и стековете с папки не се засягат."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "Цвят на осветяването при посочване в изгледа с програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"Цвят във вида \"#rrggbb\", използва се, когато app-grid-hover-custom-color е "
+"истина. Няма собствена прозрачност: тя е app-grid-hover-transparency (или "
+"алфата на стила на GNOME, когато app-grid-hover-custom-transparency е лъжа)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr ""
+"Собствена прозрачност на осветяването при посочване в изгледа с програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"Ако е лъжа, осветяването при посочване е толкова непрозрачно, колкото го "
+"прави текущият стил на GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr "Прозрачност на осветяването при посочване в изгледа с програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: непрозрачно осветяване. 100: напълно прозрачно; тогава папката изглежда "
+"под показалеца същата като в покой. Променя се само осветяването; иконите и "
+"имената остават напълно видими, а фокусът на клавиатурата остава отбелязан. "
+"Използва се, когато app-grid-hover-custom-transparency е истина."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "Щракване върху работеща програма"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": фокусира последно използвания прозорец; когато "
+"програмата вече е на фокус, превключва към следващия ѝ прозорец. \"minimize-"
+"or-cycle\": като focus-or-cycle, но програма с единствен прозорец на фокус "
+"се минимизира."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "Показване само на програмите от текущото работно място"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"Ако е истина, работещите (незакачени) програми се показват само когато имат "
+"прозорец на активното работно място, а щракването превключва само между тези "
+"прозорци."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "Показване на броячите на програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"Ако е истина, програма, която съобщава брояч (например непрочетени съобщения "
+"чрез D-Bus API LauncherEntry), го показва върху иконата си в дока. "
+"Програмите, които не съобщават нищо, не показват нищо."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "Показване на напредъка на програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"Ако е истина, програма, която съобщава напредъка на операция (например "
+"изтегляне чрез D-Bus API LauncherEntry), го показва като лента върху иконата "
+"си в дока."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "Показване на мостри на прозорците при посочване"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"Когато показалецът застане върху работеща програма, се показват прозорците ѝ "
+"(тези, които докът брои, вижте isolate-workspaces) със заглавията им; "
+"щракване върху някой от тях го активира."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "Надникване в прозорец от мострата му"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"Докато показалецът стои върху мостра на прозорец, този прозорец се показва "
+"за момент над останалите, затъмнени. Нищо не се фокусира, издига, "
+"възстановява или премества; напускането на мострата или натискането на "
+"Escape го прекратява."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "Папки в дока"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"Папки, показвани в дока, по ред. Всеки запис е \"xdg:ИМЕ\" за стандартна "
+"папка (ИМЕ като в GLib.UserDirectory без представката DIRECTORY_, например "
+"\"xdg:DOWNLOAD\"), \"home:ОТНОСИТЕЛЕН/ПЪТ\" за папка в домашната папка или "
+"URI \"file://\" за всяка друга папка. Премахването на запис никога не засяга "
+"самата папка."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "Показване на папки в дока"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr "Ако е лъжа, папките във folder-stacks се запазват, но не се показват."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "Как се показва съдържанието на папките"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": големи икони. \"list\": по-малки икони с размер и дата. Променя се "
+"от панела на папката."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "Ред на подреждане на всяка папка"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"Свързва запис от folder-stacks с \"name\", \"modified\" (най-новите първи) "
+"или \"type\". Папка без запис се подрежда по име, освен „Изтегляния“ "
+"(xdg:DOWNLOAD), която показва първо най-новите файлове. Променя се от панела "
+"на папката."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "Размер на иконите на работния плот"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) или \"huge\" (128 "
+"px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "Ъгъл, в който се поставят новите икони"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "Показване на домашната папка"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "Показване на устройствата и USB флашките"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "Как се поставят преместените икони"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": иконите остават точно там, където са пуснати. \"grid\": пуснатите "
+"икони прилепват към решетката. Промяната не мести съществуващите икони; това "
+"прави „Подравняване към решетката“ в менюто на работния плот."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "Отваряне на елементите с едно или двойно щракване"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "Ред, използван от „Подреждане на иконите“"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "Променя се от „Подреждане по“ в менюто на работния плот."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "Показване на пасивните икони на програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"StatusNotifierItem определя състояние \"Passive\" за икони, които програмата "
+"смята за маловажни. Те са скрити, освен ако това не е истина."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "Подредба на бутоните преди първата промяна"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"Стойността на button-layout от org.gnome.desktop.wm.preferences, запазена "
+"преди Deskence да я промени за първи път. Празна, ако нищо не е променяно."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "Подредба на бутоните, записана последно от Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"Използва се, за да се разбере дали потребителят е променил подредбата "
+"другаде след това; оригиналната стойност се предлага за възстановяване само "
+"докато текущата стойност все още е равна на тази."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "Ред в изгледа с програмите"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": подредбата, направена от потребителя (собственото app-picker-"
+"layout на GNOME и списъците на папките). \"alphabetical\": програмите и "
+"папките по показваното име на езика на потребителя, включително програмите "
+"във всяка папка; пренареждането чрез влачене е изключено. Поддържа се "
+"актуално от разширението app-grid."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "Подредба, запазена преди азбучното подреждане"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"JSON, записван, когато sort-mode се промени на \"alphabetical\": предишното "
+"app-picker-layout на org.gnome.shell (текст GVariant) и списъкът с програми "
+"на всяка папка. Възстановява се, когато sort-mode се върне на \"custom\". "
+"Вътрешно; не е част от профилите."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "Клавишна комбинация, която отваря историята на буфера за обмен"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "Най-голям брой запомнени елементи"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr ""
+"Закачените елементи не се броят. Най-старите елементи се забравят първи."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "Какво се пази след излизане"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": историята е само в паметта и изчезва след излизане. \"pinned\": "
+"закачените елементи се запазват в папката с потребителски данни. \"all\": "
+"там се запазва цялата история."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "Без запомняне на нови елементи"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr ""
+"Временно състояние, променяно от панела на историята; не е част от профилите."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "Запомняне и на избрания текст"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"Текстът, избран с мишката (основният избор, поставян със средния бутон), "
+"също се добавя към историята."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "Винаги поставяне на текст без форматиране"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"Историята пази текста без форматиране; само най-новият елемент може да се "
+"постави с форматирането си, докато програмата, от която е копиран, все още "
+"го предоставя. Ако е истина, и този елемент се поставя като обикновен текст. "
+"Shift+Enter в историята поставя обикновен текст във всеки случай."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "Незабавно поставяне на избрания елемент"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"Ако е истина, изборът на елемент затваря панела и го поставя в прозореца, "
+"който е бил на фокус, с Ctrl+V. Ако е лъжа, елементът само се поставя в "
+"буфера за обмен."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "Поддържане и на екрана включен"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"Ако е лъжа, поддържането на компютъра буден предотвратява само автоматичното "
+"приспиване: екранът продължава да се изключва и заключва както обикновено. "
+"Ако е истина, и екранът остава включен и не се заключва автоматично."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "Продължителност, използвана от бутона в бързите настройки"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr ""
+"Последно избраната продължителност; щракването върху бутона я използва "
+"отново."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "Собствена продължителност в минути"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "Час на край в минути след полунощ"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr ""
+"Използва се от „до определен час“: следващото настъпване на този местен час."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"Отваряне на страница с настройки: general, dock, desktop-icons, app-grid, "
+"top-bar, windows или clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "СТРАНИЦА"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"Док с папки, икони на работния плот, икони на програми в горната лента, "
+"история на буфера за обмен и настройки на прозорците за GNOME."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "Непрозрачен"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "Прозрачен"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "_Отказ"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "Не е инсталирано. Инсталирайте отново пакета deskence."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "Стартира след излизане и повторно вписване"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "Обновено; новата версия стартира след повторно вписване"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "GNOME Shell не работи; ще се приложи в следващата сесия на GNOME"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "Не работи"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "Функцията спря поради грешка"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "Тази версия на GNOME не се поддържа"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "Инсталираната версия не поддържа GNOME {}."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "Разширенията на GNOME са изключени"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Deskence се нуждае от тях, за да показва функциите си."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "_Включване…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "Вместо това се използва друго копие"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "Копие в домашната ви папка замества инсталираното: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "_Показване"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "Включване на разширенията на GNOME?"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr ""
+"Това включва и други разширения, които сте разрешили в програмата "
+"„Разширения“."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "_Включване"
+
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "док"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "икони на работния плот"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "икони на програми в горната лента"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "подреждане на изгледа с програмите"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "история на буфера за обмен"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "поддържане на компютъра буден"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr ""
+"Предоставя също {}. Едновременното използване на двете създава проблеми."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "Може да предоставя също {}."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "Изключване на „{}“?"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"Разширението остава инсталирано и настройките му се запазват. Можете да го "
+"включите отново в програмата „Разширения“."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "_Изключване"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "_Изключване…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "Слабо"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "Силно"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "Сила на уголемяването"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "Прозрачност на фона"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "Размер на иконите"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "Докът винаги е видим и прозорците не го закриват"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "Скрива се, докато прозорец го припокрива"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "Появява се, когато преместите показалеца до ръба на екрана"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "Второ щракване превключва към следващия прозорец на програмата"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr "Щракване върху програма с един прозорец на фокус го минимизира"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "Възстановяване на стандартните настройки на дока?"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"Позицията, размерът, цветовете, скриването, мониторът, поведението при "
+"щракване и показваните елементи се връщат към стандартните си стойности. "
+"Закачените програми, папките в дока, изгледът с програмите и дали докът се "
+"показва, не се променят."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "_Възстановяване"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr ""
+"Не се показва, докато анимациите са изключени в настройките за достъпност"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "Добавяне на папка"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "Друга папка…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "Не е настроена на този компютър"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{} (липсва)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "Нагоре"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "Надолу"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "Премахване от дока"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "Добавяне на папка в дока"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "Тази папка не може да се добави"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "Могат да се добавят само локални папки."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "_Затваряне"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "Начало на дока"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "Край на дока"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "Горе"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "Долу"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "Вляво"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "Вдясно"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "Няма инсталирано лого; използва се стандартната икона"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "Не е избрано изображение; използва се стандартната икона"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "Изображението липсва; използва се стандартната икона"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "Изображения"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "Избор на икона"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "Могат да се използват само локални файлове."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr ""
+"Файлът не е изображение в поддържан формат (PNG, SVG, JPEG или WebP) с "
+"размер до 4 MB."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "Това изображение не може да се използва"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{} (изключен)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "Не е настроена папка за работния плот"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "Възстановяване на стандартните настройки на иконите на работния плот?"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"Размерът, разполагането, поведението при щракване и показваните елементи се "
+"връщат към стандартните си стойности. Файловете ви и позициите на иконите не "
+"се променят."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "Иконите остават точно там, където ги пуснете"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "Пуснатите икони прилепват към решетката"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "Прозрачност на папките"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "Прозрачност на осветяването"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "Възстановяване на стандартните настройки на изгледа с програмите?"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"Фонът, папките с програми и осветяването при посочване се връщат към вида на "
+"GNOME, а програмите — към вашата собствена подредба."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr "По име, включително в папките. Влаченето не променя реда."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr ""
+"Подреждайте програмите, като ги влачите. Тази подредба се връща, когато "
+"азбучният ред се изключи."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr ""
+"Фонът зад програмите. Иконите, имената и полето за търсене не се променят."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Достъпно, докато докът на Deskence е включен."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"Променете вида на групите програми, като „Инструменти“, в изгледа с "
+"програмите. Променя се само фонът на плочката."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"Изберете фона, който се появява под показалеца върху програма или папка с "
+"програми, включително в отворена папка."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "_Клавишна комбинация"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "Отваря историята"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "Възстановяване на стандартните настройки на буфера за обмен?"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"Клавишната комбинация и поставянето се връщат към стандартните си стойности. "
+"Историята, колко елемента пази и дали се пази след излизане, не се променят."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "Само в паметта"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "Закачените елементи се запазват в {}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "Историята се запазва в {}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "Възстановяване на стандартните настройки на горната лента?"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"Показването на неактивни икони и настройките на „Без заспиване“ се връщат "
+"към стандартните си стойности. Кои функции се показват, не се променя."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "Превключва „Винаги отгоре“ за прозореца на фокус"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "Възстановяване на стандартните бутони на заглавната лента?"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr ""
+"Бутоните на заглавната лента се връщат към стандартните за GNOME в тази "
+"система."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "Възстановяване на предишните бутони на заглавната лента?"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr ""
+"Бутоните на заглавната лента се връщат към състоянието отпреди промените на "
+"Deskence."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr "Бутоните са променени другаде, след като Deskence ги е променил"
+
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "левия ръб"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "долния ръб"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "десния ръб"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "Мостра: док на {} на екрана"
+
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "горния ляв"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "горния десен"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "долния ляв"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "долния десен"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "Мостра: новите икони се поставят от {} ъгъл"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "Включете „{}“, за да промените „{}“."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "„{}“ е достъпно след включване на „{}“."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "„{}“ не е достъпно в момента."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr ""
+"Инсталирано е обновление. Излезте и се впишете отново, за да го използвате."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr "Излезте и се впишете отново, за да стартирате включените функции."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "_Относно"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "Търсене в настройките"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "Главно меню"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "Търсене в настройките"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "Страници с настройки"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "Резултати от търсенето"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "Няма намерени резултати"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "Опитайте с други думи, например името на функция."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "_Изход…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "Док"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"Настройте позицията, вида и поведението на лентата с програми на ръба на "
+"екрана. Закачените програми са същите като в прегледа на дейностите."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "Показване на _дока"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "Външен вид"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "_Позиция"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "Ляв ръб"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "Долен ръб"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "Десен ръб"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "_Дължина"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "Според иконите"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "Целият ръб"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "_Размер на иконите"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "Собствен _цвят на фона"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "Цвят на фона"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "Собствена _прозрачност на фона"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "_Уголемяване на иконите под показалеца"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "_Сила на уголемяването"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "Поведение"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "_Скриване"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "Никога"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "Когато прозорци го припокриват"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "Когато не се използва"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "_Монитор"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "Основен"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "Избран"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "Всички"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "_Избран монитор"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "_Щракване върху работеща програма"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "Фокусиране, после превключване на прозорците"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "Минимизиране или превключване на прозорците"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "Показване само на програмите от текущото _работно място"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "Показване на _мостри на прозорците при посочване"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr ""
+"Задръжте показалеца върху работеща програма, за да видите прозорците ѝ и да "
+"изберете един"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "_Надникване в прозорците"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"Задръжте показалеца върху мостра, за да видите прозореца ѝ над останалите, "
+"без да превключвате към него"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "Информация от програмите"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"Програмите могат да показват върху иконата си брояч или напредъка на "
+"операция, например непрочетени съобщения или изтегляне. Показва се само "
+"това, което програмата съобщава."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "Показване на броячите на програмите"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "Число върху иконата, например непрочетени съобщения"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "Показване на напредъка на операциите"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "Лента върху иконата по време на изтегляне или копиране"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "Елементи"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "Какво показва докът освен програмите."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "_Кошче"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "Устройства и _USB флашки"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "_Мрежови местоположения"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "Бутон за _програми"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "П_озиция на бутона за програми"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "_Икона на бутона за програми"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "Стандартна за GNOME"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "Лого на дистрибуцията"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "Собствено изображение"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "_Избор…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "Папки в дока"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"Закачете папки, за да разглеждате съдържанието им направо от дока. "
+"Премахването на папка от дока не променя нито папката, нито файловете в нея."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "Показване на _папки в дока"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "_Възстановяване на стандартните настройки…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "Икони на работния плот"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr ""
+"Показване на файловете и папките от папката на работния плот като икони на "
+"работния плот."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "Показване на _икони на работния плот"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "Папка на работния плот"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "Отваряне във „Файлове“"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "Икони"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "_Размер"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "Малки"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "Средни"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "Големи"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "Много големи"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "_Поставяне на новите икони от"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "Иконите, които сте преместили, запазват мястото си"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "Горния ляв ъгъл"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "Горния десен ъгъл"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "Долния ляв ъгъл"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "Долния десен ъгъл"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "_Разполагане на иконите"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "Свободно"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "Прилепване към решетката"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "_Отваряне на елементите с"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "Двойно щракване"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "Едно щракване"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "Показване също на"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "_Домашната папка"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"Скритите файлове не се показват. Изключването на иконите на работния плот "
+"никога не мести и не изтрива файловете ви."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "Горна лента"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "Икони на програми"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr ""
+"Икони на програми, работещи във фонов режим, например програми за съобщения "
+"и синхронизиране на файлове."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "Показване на икони на _програми"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "Показване на _неактивни икони"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "Икони, които програмите отбелязват като маловажни в момента"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "Без заспиване"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"Бутон в бързите настройки, който не позволява на компютъра автоматично да "
+"заспи за избран период или докато не бъде изключен. Ръчното приспиване "
+"продължава да работи."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "Показване на „_Без заспиване“"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "Поддържане и на _екрана включен"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr ""
+"Докато „Без заспиване“ е включено, екранът не се изключва и не се заключва "
+"автоматично"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "_Собствена продължителност"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "Минути"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"Поддържат се програмите, които използват стандарта StatusNotifierItem. "
+"Иконите от стар тип в областта за уведомяване (XEmbed) не се поддържат."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "Прозорци"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "Бутони на заглавната лента"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"Това са настройки на GNOME: остават в сила и след премахване на Deskence. "
+"Програмите, които рисуват собствени заглавни ленти, като някои браузъри, "
+"може да ги пренебрегват."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "Бутон за _минимизиране"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "Бутон за м_аксимизиране"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "_Разположение"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "Винаги отгоре"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"Държи прозорец над останалите. Има го и в менюто на прозореца (Alt+Интервал) "
+"и в менюто на мострата на прозорец в дока, която показва карфица за такива "
+"прозорци. Не показва прозореца на всяко работно място; това е отделна "
+"възможност в менюто на прозореца."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "Възстановяване на настройките отпреди _промените…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "Името не може да е празно."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "Името не може да съдържа „/“."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "„.“ и „..“ не са валидни имена."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "Вече съществува елемент с това име."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "Името е твърде дълго."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "Местоположението не може да се отвори"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "„{}“ не може да се отвори"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "Връзката е повредена: елементът, към който сочи, не съществува."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "Стартерът е невалиден."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "„{}“ не може да се стартира"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "Ненадежден стартер"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"„{}“ не е отбелязан като надежден. Разрешете стартирането само ако знаете "
+"откъде идва този файл."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "_Разрешаване и стартиране"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "Стартирането на „{}“ не може да се разреши"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "Настройките не могат да се отворят"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "Deskence не може да се отвори"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "„{}“ не може да се демонтира"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "Имената, започващи с „.“, са скрити."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "Нова папка"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "Име на папката"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "_Създаване"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "Преименуване на папката"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "Преименуване на файла"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "_Преименуване"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "Нова _папка…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "П_оставяне"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "Избиране на _всичко"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "_Подреждане на иконите"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "Подравняване към _решетката"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "_Име"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "_Промяна"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "_Вид"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "Подреждане _по"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "Смяна на _фона…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "_Настройки на работния плот"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "_Отваряне"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "Отваряне _с…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "Разрешаване на _стартирането"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "_Изрязване"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "_Копиране"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "Преи_менуване…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "Преместване в _кошчето"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "_Изпразване на кошчето…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "_Изваждане"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "_Демонтиране"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "_Свойства"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "Операцията е неуспешна"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "Кошчето не може да се изпразни"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "За изпразване на кошчето е нужна програмата „Файлове“."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "Свойствата не могат да се покажат"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "Не може да се премести в кошчето"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "Не може да се преименува"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "Папката не може да се създаде"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "Файловете не могат да се преместят"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "Файловете не могат да се копират"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "Домашна папка"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "Кошче"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "Работен плот"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "Показване на програмите"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "Настройки на дока"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "Местоположението не можа да се отвори"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "Отваряне"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "Изпразване на кошчето…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "Изваждане"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "Демонтиране"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "Устройството не можа да се извади"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "Устройството не можа да се демонтира"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "Прозорци на %s"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "Затваряне на прозореца"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "Профили (JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "Профили с изображения"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "Всички профили"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "Име"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "Закачени програми"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "Собствени изображения"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "Запазват се в архив заедно с настройките"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "Възстановяване на стандартните настройки на Deskence?"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"Всички настройки на Deskence се връщат към стандартните си стойности, а "
+"изгледът с програмите — към вашата собствена подредба. Папките се премахват "
+"от дока; самите папки не се засягат. Включените функции, закачените "
+"програми, бутоните на заглавната лента, запазените профили и историята на "
+"буфера за обмен не се променят."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "Като системата ({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "_Отмяна"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "_Прилагане…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "_Преименуване…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "_Изнасяне…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "_Изтриване…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "Още"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "закачени програми"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "папки в дока"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "изображения"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "Настройки с {}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "Моите настройки"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "Запазване на текущите настройки"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "_Запазване"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "Профилът не може да се запази"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "Профилът „{}“ е запазен"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "Преименуване на профила"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "Профилът не може да се преименува"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "Профилът не може да се изтрие"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "Изтриване на профила „{}“?"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "Текущите настройки не се променят."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "_Изтриване"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "Изнасяне на настройките"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"Настройките се запазват като четим файл JSON. С изображения файлът е архив с "
+"настройките и изображенията."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Настройки на Deskence"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "Не може да се изнесе"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "Настройките са изнесени"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "Внасяне на настройки"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "Не може да се внесе"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "Настройките ви вече съответстват на този профил."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "Няма какво да се променя"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "{} настройка се променя в: {}."
+msgstr[1] "{} настройки се променят в: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "Прилагане на „{}“?"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "Прилагане на профила?"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "_Прилагане"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "Тези промени не можаха да се върнат: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "Предишните ви настройки са възстановени."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "Профилът не е приложен"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "Нищо не е променено."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "Профилът е приложен"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "Профилът не може да се отмени"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "Няма приложен профил, който да се отмени."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "Предишните настройки са възстановени"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "Отменяне на последно приложения профил?"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr ""
+"Настройките, които профилът е променил, се връщат към стойностите си отпреди "
+"него."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "Някои настройки са променени междувременно"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"Тези настройки са променени след прилагането на профила: {}. Да се отменят "
+"ли и те, или да се запазят такива, каквито са сега?"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "_Запазване"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "Отменяне на _всичко"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "Доклад"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "_Запазване…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "Информация за съобщаване на грешки"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "Диагностиката е копирана"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "Запазване на доклада"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "Докладът не може да се запази"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "Докладът е запазен"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "Стандартните настройки са възстановени"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "Функции"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "Общи"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "Изглед с програмите"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "Буфер за обмен"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "Файлът е твърде голям, за да е профил."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "Файлът не е профил на Deskence."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "Профилът няма валидна версия на формата."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"Профилът е създаден с по-нова версия на Deskence. Обновете Deskence, за да "
+"го използвате."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "Архивът е твърде голям, за да е профил."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "Архивът не съдържа профил на Deskence."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "Архивът е повреден."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "Частта с настройките на профила е повредена."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "Непознатата част „{}“ е пренебрегната."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "Непознатата настройка „{}“ в {} е пренебрегната."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"Мониторът {} не е свързан. Дотогава докът се показва на основния монитор."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "{} не е достъпно на този компютър."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "{} има невалидна стойност и е пропуснато."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "{} е заключено от администратора."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "Езикът „{}“ не е достъпен на този компютър и е пропуснат."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "Клавишната комбинация {} за „{}“ не е внесена: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "Списъкът с функции е повреден и е пропуснат."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "Непознатата функция „{}“ е пренебрегната."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr "Закачените програми не са достъпни на този компютър."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "Списъкът със закачени програми е повреден и е пропуснат."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr "Не са инсталирани: {}. Ще се появят в дока след инсталиране."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "Списъкът с папки в дока е повреден и е пропуснат."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "Папката „{}“ има невалиден запис и е пропусната."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"Стандартната папка {} не е настроена на този компютър; показва се като "
+"недостъпна."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr ""
+"Папката {} не съществува; показва се като недостъпна, докато не бъде "
+"създадена."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"Профилът използва собствено изображение за бутона за програми, което не е "
+"включено; използва се стандартната икона."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: не стартирайте Deskence като root; стартирайте я като собствения "
+"си потребител (без sudo)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"Схемата с настройки на Deskence не е инсталирана. Инсталирайте отново пакета "
+"deskence."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "Нищо не е променено: настройките не могат да се запазят."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"Тази промяна изисква потвърждение. Изпълнете командата отново с --yes, за да "
+"я потвърдите без въпрос."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "д/Н"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "д"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "да"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"Запазено. Промяната не можа да се потвърди в текущата сесия на GNOME; може "
+"да се наложи повторно вписване."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "работи"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "не работи"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "грешка"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "неподдържана версия на GNOME"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "стартира след повторно вписване"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "обновено; нова версия след повторно вписване"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "не е инсталирано"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "неизвестно (GNOME Shell е недостъпен)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: показва се състоянието на текущата сесия."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr "GNOME Shell е недостъпен: известни са само запазените настройки."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr ""
+"Разширенията на GNOME са изключени; никоя функция не работи, докато не бъдат "
+"включени."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "ФУНКЦИЯ"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "ЗАПАЗЕНО"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "В ТАЗИ СЕСИЯ"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "включена"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "изключена"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr "{}: вместо инсталираното се използва копие от домашната ви папка: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr ""
+"{}: запазената настройка се различава от сесията; ще важи след повторно "
+"вписване."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr "{}: „{}“ предоставя същото; използването на двете създава проблеми."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: „{}“ може да предоставя същото."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "Посочете имена на функции или --all, не и двете."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr "Посочете поне една функция или използвайте --all. Функции: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "Непозната функция: {}. Функции: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "настройката не можа да се запази"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: включена"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: изключена"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: вече е включена"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: вече е изключена"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: вече е включена в запазените настройки"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: вече е изключена в запазените настройки"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: неуспех: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"Разширенията на GNOME са изключени; включените функции ще стартират, когато "
+"те бъдат включени (gsettings set org.gnome.shell disable-user-extensions "
+"false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr "Няма запазен профил с име „{}“. Вижте deskence preset list."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr ""
+"Няколко запазени профила се казват „{}“; използвайте един от "
+"идентификаторите им: {}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "Функция {}: включване"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "Функция {}: изключване"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "Док: собственото изображение на бутона за програми"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Предупреждение: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "Пропуснато: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "Профилът не е приложен: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "Тези промени не можаха да се върнат: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "Предишните настройки са възстановени."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "Профилът не е приложен; нищо не е променено. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"Профилът е приложен само частично; тези настройки не са запазени: {}. "
+"Отменете го с: deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "Функции {}: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "Няма запазени профили."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "ИМЕ"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ИДЕНТИФИКАТОР"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "СЪЗДАДЕН"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "Настройките ви вече съответстват на профила „{}“."
+
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "Профилът „{}“ променя {} настройка:"
+msgstr[1] "Профилът „{}“ променя {} настройки:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "Нищо не е променено (--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "Прилагане на профила?"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr "Профилът „{}“ е приложен. Отменете го с: deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "{} не може да се внесе: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"Вече има запазен профил с име „{}“. Изберете друго име с --name или го "
+"заменете с --replace."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr ""
+"Профилът „{}“ е валиден и би бил запазен; нищо не е променено (--dry-run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr ""
+"Профилът „{}“ е запазен като {}. Приложете го с: deskence preset apply {}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "Запазване и прилагане на профила?"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"Профилът „{}“ е запазен като {} и е приложен. Отменете го с: deskence preset "
+"undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "{} е папка; посочете име на файл."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "{} вече съществува. Използвайте --force, за да го замените."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "{} не може да се запише: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "Настройките са изнесени в {} (архив с изображения)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "Настройките са изнесени в {}."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr "Не се използва собствено изображение, затова файлът е обикновен JSON."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr "Настройките се връщат в състоянието си точно преди последното внасяне."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "Профилът не е променил нищо, което може да се отмени."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "Отменянето на „{}“ възстановява:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"Променени след прилагането на профила, затова остават както са (добавете --"
+"include-changed, за да ги отмените и тях): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "Отменяне на профила?"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "Профилът е отменен само частично: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "Предишните настройки са възстановени."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "Посочете какво да се възстанови или --all, не и двете."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr "Посочете какво да се възстанови или използвайте --all. Възможности: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "Непозната възможност: {}. Възможности: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr ""
+"Всичко вече е със стандартните стойности; няма какво да се възстановява."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "Възстановено към стандартното ({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "целия Deskence"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "Изгледът с програмите се връща към вашата собствена подредба."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "Функцията app-grid (азбучна подредба) се изключва."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"Без промяна: другите включени функции, закачените програми, файловете на "
+"работния плот, собствените изображения, запазените профили и историята на "
+"буфера за обмен."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "Възстановяване на тези настройки?"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "Някои настройки не можаха да се възстановят: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "Стандартните настройки са възстановени."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: грешка: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"Настройки на Deskence от командния ред. Без команда се отваря прозорецът с "
+"настройки (deskence [--page СТРАНИЦА])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"Функции: {}. Изходни кодове: 0 готово, 1 неуспех, 2 невалиден команден ред, "
+"3 непотвърдено, 4 запазено, но непотвърдено в текущата сесия на GNOME. Вижте "
+"man deskence."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "КОМАНДА"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "извеждане на документ JSON вместо текст"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "показване на запазеното и текущото състояние на всяка функция"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "включване на функции"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "изключване на функции; настройките им се запазват"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "едно от: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "всички функции на Deskence (никога други разширения)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "изброяване, прилагане, внасяне и изнасяне на профили"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "Профилите се запазват в {}."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "ДЕЙСТВИЕ"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "само показване на това, което би се променило"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "без искане на потвърждение"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "показване на запазените профили"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "прилагане на запазен профил"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "име или идентификатор на запазен профил"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr "проверка на файл с профил и запазването му сред профилите"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "ФАЙЛ"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr "профил .json или архив .deskence"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "запазване с това име"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "замяна на запазен профил със същото име"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "прилагане и на него"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "записване на текущите настройки във файл"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "име, записано в профила"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "включване на закачените програми"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "включване на папките в дока"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "включване на собствените изображения (записва архив)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "замяна на съществуващ файл"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "отменяне на последно приложения профил"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr "отменяне и на настройките, променени след прилагането на профила"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "възстановяване на стандартните настройки"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "ЧАСТ"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "всички настройки на Deskence; изключва и функцията app-grid"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "показване на доклад за съобщаване на грешки (нищо не се изпраща)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"Шината на сесията не е достъпна, затова dconf не може да запазва настройки. "
+"Изпълнете командата в терминал от сесията си на GNOME или след вписване в "
+"текстова конзола като същия потребител."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr ""
+"Настройките се пазят само в паметта (GSETTINGS_BACKEND=memory) и биха се "
+"изгубили."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "Показване на историята на буфера за обмен"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "Отваря историята на копираните текстове и изображения"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr ""
+"Превключва „Винаги отгоре“ за прозореца на фокус (клавишна комбинация на "
+"GNOME)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "В прозореца с настройки на Deskence"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "Това не е валидна клавишна комбинация."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "Само модификаторен клавиш не може да бъде клавишна комбинация."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr ""
+"Използвайте Ctrl, Alt или Super заедно с клавиша или функционален клавиш."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"Самите програми използват такъв вид комбинации. Добавете Super или "
+"комбинирайте Ctrl и Alt."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "Собствена клавишна комбинация"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "Вече се използва за: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "док, лента със задачи, стартер, панел, dock, taskbar, launcher"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "мащабиране, уголемяване, лупа, zoom"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "автоматично скриване, скриване, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "стекове, папки, изтегляния, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "миниатюри, прозорци, мостри, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "значки, непрочетени, известия, съобщения, брояч, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "изтегляне, напредък, лента за напредък, download"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "работен плот, файлове, икони, desktop"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr "решетка с програми, програми, приложения, стартер, меню, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "подреждане, азбучно, ред, подредба"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "папки, плочки, групи"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "посочване, осветяване, показалец, курсор, hover"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "област за уведомяване, индикатори, икони за състояние, tray"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "приспиване, сън, кофеин, caffeine, предотвратяване, буден"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "екранен предпазител, празен екран, заключване"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "заглавна лента, бутони, минимизиране, максимизиране"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "копиране, поставяне, буфер за обмен, история, clipboard"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr "клавиатура, клавишни комбинации, клавиши, бързи клавиши, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "грешка, диагностика, доклад, проблем, bug"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "резервно копие, профили, пренасяне, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "език, превод, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "Изключено"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "Възстановяване на стандартната клавишна комбинация"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "Задаване на клавишна комбинация"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "Натиснете новата клавишна комбинация за „{}“. Escape отказва."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "Възстановяване на _стандартната"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "Стандартната клавишна комбинация е заета: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "Тази клавишна комбинация не може да се използва"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "Клавишни комбинации"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "Навсякъде"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"Конфликтите с други комбинации на Deskence и със собствените на GNOME се "
+"отхвърлят. Комбинациите на други програми и разширения не могат да се "
+"проверят."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "В прозореца с настройки"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "Работи, докато „{}“ е включено"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "Български"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "Начало на сесията"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "Показване на _работния плот след вписване"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "Започване на работния плот вместо в прегледа на дейностите"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr ""
+"Докът, работният плот и другите функции винаги използват езика на системата."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "_Език на програмата"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "Настройки и командата deskence"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "Новият език се използва след рестартиране"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "_Рестартиране"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "Профили"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr "Запазете текущите настройки, за да се върнете към тях по-късно."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "Няма запазени профили"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "_Запазване на текущите настройки…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "Пренасяне на настройките"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"Пренесете настройките на друг компютър или ги запазете за преинсталиране. "
+"Преди внасянето ще видите какво се променя."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "_Изнасяне във файл…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "_Внасяне от файл…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "_Отменяне на последно приложения профил…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "_Клавишни комбинации"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr "Преглед и промяна на всички комбинации на Deskence на едно място"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"Версии, видът на сесията, мониторите и състоянието на всяка функция, за "
+"поставяне в съобщение за грешка. Не се включва нищо лично и нищо не се "
+"изпраща никъде."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "_Показване на доклада…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "_Копиране на диагностиката"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "Запазване на доклада във _файл…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "_Възстановяване на стандартните настройки на Deskence…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "Ред"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr "Как са подредени програмите в изгледа с програмите на цял екран."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "_Ред на програмите"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "Собствен ред"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "Азбучен"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "Фон"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "Когато е изключено, се използва цветът на стила на GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "Собствена _прозрачност на фона"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "Когато е изключено, фонът е непрозрачен, както в GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "Прозрачност на _фона"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "Папки с програми"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "Собствен _цвят на папките"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "Цвят на папките"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "Собствена про_зрачност на папките"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "Когато е изключено, се използва прозрачността на стила на GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "Прозрачност на _папките"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "Осветяване при посочване"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "Собствен цвят на _осветяването"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "Цвят на осветяването"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "Собствена прозрачност на осв_етяването"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"Копирането и поставянето работят както досега. Историята на копираните "
+"текстове и изображения се отваря със собствена клавишна комбинация."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "_История на буфера за обмен"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "_Поставяне на избрания елемент"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Поставя в прозореца, в който сте били, с Ctrl+V (Ctrl+Shift+V в "
+"терминалите). Когато е изключено, елементът само се поставя в буфера за "
+"обмен."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "Винаги поставяне на текст _без форматиране"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"По-старите елементи винаги са обикновен текст. Shift+Enter поставя обикновен "
+"текст по всяко време."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "Запомняне и на избрания _текст"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "Текст, избран с мишката, който средният бутон поставя"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "Съхранение"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"Историята се пази само в паметта и изчезва след излизане. Закачените "
+"елементи остават при изчистване на историята и не се броят към "
+"ограничението. Съдържание, което програмите отбелязват като тайно, например "
+"от мениджъри на пароли, не се запомня; не всяка парола може да бъде "
+"разпозната."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "_Запомнени елементи"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "_Пазене след излизане"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "Нищо"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "Закачените елементи"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "Цялата история"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "_Пауза на запомнянето"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "Нови елементи не се добавят, докато това не се изключи"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "Папка %s"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "Назад"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "Дата"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "Вид"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "Подреждане по %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "Показване като решетка"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "Показване като списък"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "Тази стандартна папка не е настроена."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "Зареждане…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "Тази папка вече не съществува."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "Нямате права да отворите тази папка."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "Тази папка не може да се отвори: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "Тази папка е празна."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"Тази папка съдържа повече от %d елемента; показват се само първите. Отворете "
+"я във „Файлове“, за да видите всички."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "Папка"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "„%s“ не можа да се отвори"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "Копиране"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "Изрязване"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "%s не е достъпно"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "%s е само за четене"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "Папка не може да се постави в самата себе си"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "Вече е в %s"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "В папка могат да се поставят само файлове"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "Преместване в %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Копиране в %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Преместване или копиране в %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "Файловете не могат да се преместят в %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "Файловете не могат да се копират в %s"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr ""
+"За копиране и преместване на файлове от дока е нужна програмата „Файлове“."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Файловете не могат да се отворят в %s"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Отваряне с %s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "%s не може да отваря файлове"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Не може да се потвърди, че %s отваря тези файлове"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "%d от файловете вече не е достъпен"
+msgstr[1] "%d от файловете вече не са достъпни"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "%s не отваря този вид файлове"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "%s не отваря %d от тези файлове"
+msgstr[1] "%s не отваря %d от тези файлове"
+
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, %d нов елемент"
+msgstr[1] "%s, %d нови елемента"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "Програмите са подредени по азбучен ред"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr "За да ги подреждате сами, изберете „Собствен ред“ в Deskence."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "Готово за поставяне"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "Току-що"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "Преди %d минута"
+msgstr[1] "Преди %d минути"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "Преди %d час"
+msgstr[1] "Преди %d часа"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "История на буфера за обмен"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "Търсене в историята"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "Изчистване на историята"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: поставяне · Shift+Enter: поставяне като обикновен текст · Delete: "
+"премахване · Ctrl+P: закачане"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "Продължаване на запомнянето"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "Пауза на запомнянето"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "Щракнете отново, за да изчистите"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr "Щракнете отново, за да премахнете всички елементи без закачените."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "Новите елементи не се запомнят, докато не продължите."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr "Още нищо не е копирано. Елементите, които копирате, се появяват тук."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "Няма елементи, отговарящи на търсенето."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "Изображение, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "Откачане"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "Закачане"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "Премахване"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "„Без заспиване“ е включено: екранът остава включен"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "„Без заспиване“ е включено"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "По-малко"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "Предотвратява автоматичното приспиване"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "До изключване"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d минута"
+msgstr[1] "%d минути"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d час"
+msgstr[1] "%d часа"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "Поддържане на екрана включен"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "Тогава екранът не се изключва и не се заключва автоматично"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "Прекратяване сега"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "До %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "До изключване"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "Остава %d минута"
+msgstr[1] "Остават %d минути"

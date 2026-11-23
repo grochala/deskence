@@ -1,0 +1,4533 @@
+# Croatian translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "Postavke radne površine"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr ""
+"Dok, ikone radne površine, ikone aplikacija na gornjoj traci i tipke prozora"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"dok;radna površina;ikone;područje obavijesti;indikator;traka "
+"zadataka;smanji;uvećaj;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "Dok, ikone radne površine i područje obavijesti za GNOME"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Deskence dodaje nekoliko pogodnosti standardnoj GNOME radnoj površini i "
+"omogućuje njihovo podešavanje na jednom mjestu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"Dok s prikvačenim i pokrenutim aplikacijama, mapama, uređajima i smećem te "
+"pregledima prozora"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "Datoteke i mape na radnoj površini"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr ""
+"Ikone aplikacija na gornjoj traci, primjerice aplikacija za razmjenu poruka "
+"i usklađivanje datoteka"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "Povijest međuspremnika i „Drži budnim” u brzim postavkama"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "Abecedni redoslijed prikaza aplikacija"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr "Tipke za smanjivanje i uvećavanje na naslovnim trakama prozora"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr "Profili za spremanje postavki i njihov prijenos na drugo računalo"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr ""
+"Radi u vašoj postojećoj GNOME sesiji i zadržava standardni izgled GNOME-a."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"Deskence je sada dostupan na 29 jezika: na svim službenim jezicima Europske "
+"unije, korejskom, pojednostavljenom i tradicionalnom kineskom, srpskom i "
+"filipinskom. Popis jezika u postavkama navodi jezik koji koristi sustav."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"Postavke: jezik prozora postavki i naredbe deskence može se odabrati na "
+"stranici Općenito, neovisno o sustavu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"Dok: kopirajte ili izrežite datoteke i mape u panelu mape (desni klik, "
+"Ctrl+C, Ctrl+X) i zalijepite ih u Datoteke ili na radnu površinu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Dok: povucite datoteke i mape iz panela mape na drugu mapu u doku ili na "
+"radnu površinu kako biste ih premjestili ili kopirali."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Dok: aplikacije otvaraju ispuštene datoteke samo onih vrsta koje navode; "
+"inače dok objašnjava zašto."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr "Dok: oznaka ispod mapa odgovara točkama aplikacija."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"Početak na radnoj površini: nakon prijave radna površina, gornja traka i "
+"prozori ponovno reagiraju na klikove kada su animacije isključene, "
+"primjerice u virtualnim strojevima bez 3D ubrzanja; prije je reagirao samo "
+"dok dok se pregled jednom ne bi otvorio."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"Neobavezna dijagnostika za prijave radne površine i prozora koji prestanu "
+"reagirati na klikove."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"Dok: povlačenje datoteka na dok uvijek završava uredno, čak i kada nešto ne "
+"uspije pri ispuštanju."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Dok: ispustite datoteke na aplikaciju kako biste ih otvorili u njoj ili na "
+"mapu kako biste ih kopirali ili premjestili onamo; držite datoteku iznad "
+"mape kako biste je otvorili i ispustili u jednu od njezinih podmapa."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"Postavke: pretraživanje svake postavke s Ctrl+F, upravljanje svim "
+"tipkovničkim prečacima na jednom mjestu s provjerom sukoba te kopiranje ili "
+"spremanje izvješća za prijavu greške."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"Profili: poništavanje primijenjenog profila vraća samo ono što je promijenio "
+"i zadržava postavke koje ste promijenili nakon toga."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr ""
+"Dok: brojači nepročitanih i napredak radnji na ikonama aplikacija koje ih "
+"javljaju."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"Naredbeni redak: provjerite stanje svake značajke, isključite i uključite "
+"značajke, primijenite, uvezite i izvezite profile, vratite zadane postavke i "
+"prikupite dijagnostiku naredbom deskence, čak i s tekstualne konzole kada "
+"radna površina ne radi. Pogledajte man deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"Vraćanje zadanih postavki više ne briše povijest međuspremnika koja se čuva "
+"nakon odjave."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"Prikaz aplikacija: vlastita boja i prozirnost isticanja ispod pokazivača na "
+"aplikacijama i mapama aplikacija; prelazak preko mape više ne crta obrub."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"Mape u doku: panel zauzima najviše polovicu visine zaslona, pomiče se kroz "
+"cijelu mapu, i tipkovnicom, te se nakon podmape vraća na prethodno mjesto."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"Postavke: jasniji opisi, bolje poljske formulacije i manje tipkovničkih "
+"prečaca u sukobu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"Dok: dok duž cijelog ruba usklađen je s gornjom trakom u pregledu aktivnosti "
+"i prikazu aplikacija; kratki dok zadržava vlastiti izgled."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"Prikaz aplikacija: pločice mapa s vlastitom bojom ili prozirnošću sada jasno "
+"pokazuju prelazak, pritisak, fokus i odabir."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"Prikaz aplikacija: vlastita boja i prozirnost za pločice mapa poput „Alati”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"Općenito: po želji početak na radnoj površini umjesto u pregledu aktivnosti "
+"nakon prijave."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr ""
+"Dok: sada se stapa s pregledom aktivnosti umjesto da tvori zasebnu traku."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"Poveznice na stranicu projekta i praćenje grešaka, dokumentacija na "
+"engleskom. Bez promjena u aplikaciji."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"Postavke: stranica Općenito s profilima, izvozom i uvozom postavki i "
+"vraćanjem zadanih vrijednosti; stranica Prikaz aplikacija s abecednim "
+"razvrstavanjem; mirniji pregledi."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"Dok: mape koje pokazuju svoj sadržaj, zatvaranje prozora i virenje u njih iz "
+"njihovih pregleda, „Uvijek na vrhu” u izborniku pregleda."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"Novo: povijest međuspremnika, „Drži budnim” u brzim postavkama, prečac za "
+"„Uvijek na vrhu”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Better GNOME Desktop sada se zove Deskence. Postavke, uključene značajke, "
+"prikvačene aplikacije i položaji ikona radne površine preuzimaju se."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"Dok: pregledi prozora aplikacije kada pokazivač miruje na njoj, bez dodatnog "
+"prostora pokraj tipke aplikacija pri uvećanim ikonama, pokazatelji rada "
+"ispod ikona donjeg doka."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"Postavke: veći i jasniji pregledi doka i ikona radne površine, ikone "
+"stranica, stavka izbornika „O aplikaciji”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Better GNOME Desktop sada se zove Deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"Dok: oštre uvećane ikone, bez pločica ispod ikona s vlastitom pozadinom, "
+"jednobojni logotip distribucije, popis aplikacija na početku doka duž "
+"cijelog ruba, pokazatelji rada na unutarnjoj strani."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"Prikaz aplikacija: jedan neprekinut prijelaz pri zatvaranju, neobavezna "
+"vlastita boja pozadine."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"Radna površina: izbornici se otvaraju na mjestu klika, i pokraj doka; mreža "
+"ikona počinje u odabranom kutu s malim marginama."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"Dok: tipka aplikacija na bilo kojem kraju s odabirom ikone, uvećane ikone, "
+"pomicanje kada aplikacije ne stanu, vlastita boja i prozirnost pozadine, "
+"postavke u izborniku tipke aplikacija, prozirna pozadina za prikaz "
+"aplikacija."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"Ikone radne površine: slobodno postavljanje ili prianjanje uz mrežu, "
+"„Poravnaj uz mrežu”, cijela radna površina pokraj doka upotrebljiva, "
+"položaji ikona koji se ne pomiču s dokom."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"Ispravci: glatko zatvaranje prikaza aplikacija, trenutačno preslagivanje "
+"ikona doka, bez okvira pri povlačenju ikona radne površine, isti izbornik "
+"radne površine posvuda."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "Prvo izdanje."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "Inačica strukture postavki"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"Koristi je aplikacija postavki za prijenos spremljenih vrijednosti između "
+"izdanja. 0 znači da postavke nikada nisu prenesene."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "Postavke iz Better GNOME Desktopa su preuzete"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Postavlja se nakon što su postavke koje je spremio Better GNOME Desktop "
+"(0.3.0 i starije) kopirane ovamo. Vrijednosti koje su ovdje već postavljene "
+"nikada se ne prepisuju; prethodne postavke se zadržavaju."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "Prikaži radnu površinu nakon prijave"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"Ako je istina, nova sesija počinje na radnoj površini umjesto u pregledu "
+"aktivnosti. Utječe samo na početak sesije: kasnije otvaranje pregleda, "
+"otključavanje zaslona ili uključivanje i isključivanje značajki nikada ga ne "
+"zatvara. Primjenjuje ga proširenje doka."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Jezik aplikacije Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"Jezik prozora postavki i naredbe deskence: kôd prijevoda instaliranog s "
+"Deskenceom (primjerice \"pl\"), \"en\" za engleski ili prazno za praćenje "
+"sustava. Kôd bez instaliranog prijevoda znači engleski. Proširenja GNOME "
+"Shella i ikone radne površine uvijek prate jezik GNOME Shella. Primjenjuje "
+"se pri pokretanju aplikacije."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "Rub zaslona za dok"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\" (lijevo), \"bottom\" (dolje) ili \"right\" (desno)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "Duljina doka"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr ""
+"\"fit\": samo onoliko dug koliko trebaju ikone. \"full\": cijeli rub zaslona."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "Veličina ikona u logičkim pikselima"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"Skalira se prema skali monitora i faktoru skaliranja teksta teme ljuske, kao "
+"i ostale ikone GNOME Shella."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "Kada se dok skriva"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": uvijek vidljiv, a prozori se drže izvan njegova područja. "
+"\"intellihide\": skriven dok ga prozor na istom monitoru prekriva. "
+"\"autohide\": skriven dok pokazivač ne dođe do ruba zaslona."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "Na kojim se monitorima prikazuje dok"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\" (glavni), \"selected\" (odabrani, pogledajte selected-monitor) "
+"ili \"all\" (svi)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "Priključak odabranog monitora"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"Naziv priključka, primjerice \"DP-1\". Koristi se kada je monitor-mode "
+"\"selected\"; dok taj monitor nije priključen, koristi se glavni monitor."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "Prikaži smeće"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "Prikaži prijenosne uređaje"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "Prikaži mrežne lokacije"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "Prikaži tipku aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "Gdje se nalazi tipka aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": prva stavka doka (lijevo u vodoravnom doku, gore u okomitom). "
+"\"end\": posljednja stavka (desno ili dolje)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "Ikona tipke aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": GNOME ikona aplikacija. \"distribution\": logotip instalirane "
+"distribucije iz ikona instaliranih u sustavu; zadana ikona ako ga nema. "
+"\"custom\": slika u apps-button-custom-icon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "Vlastita ikona tipke aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"Putanja do kopije odabrane slike koja se čuva u korisničkoj mapi podataka "
+"Deskencea kako bi radila i kada se izvorna datoteka premjesti ili izbriše. "
+"Ako se datoteka ne može učitati, koristi se zadana ikona."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "Uvećaj ikone ispod pokazivača"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"Ikone blizu pokazivača glatko rastu dok se on kreće iznad doka. Ne prikazuje "
+"se dok su animacije u GNOME-u isključene."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "Jačina uvećanja"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr ""
+"Veličina ikone ispod pokazivača u odnosu na njezinu uobičajenu veličinu."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "Vlastita boja pozadine doka"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr "Ako je laž, pozadina doka ima boju trenutnog GNOME stila."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "Boja pozadine doka"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"Boja u obliku \"#rrggbb\", koristi se kada je background-custom-color "
+"istina. Nema vlastitu prozirnost: to je background-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "Vlastita prozirnost pozadine doka"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr ""
+"Ako je laž, pozadina doka prozirna je onoliko koliko je čini trenutni GNOME "
+"stil."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "Prozirnost pozadine doka"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: neprozirno. 100: potpuno prozirno. Samo pozadina; ikone, pokazatelji, "
+"natpisi i izbornici zadržavaju vlastitu vidljivost. Koristi se kada je "
+"background-custom-transparency istina."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "Vlastita prozirnost pozadine prikaza aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr ""
+"Ako je laž, prikaz aplikacija preko cijelog zaslona otvoren iz doka ima "
+"standardnu GNOME pozadinu."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "Vlastita boja pozadine prikaza aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"Ako je laž, prikaz aplikacija preko cijelog zaslona otvoren iz doka ima boju "
+"standardne GNOME pozadine. Neovisno o pozadini doka."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "Boja pozadine prikaza aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"Boja u obliku \"#rrggbb\", koristi se kada je app-grid-custom-color istina. "
+"Nema vlastitu prozirnost: to je app-grid-transparency (ili neprozirno kada "
+"je app-grid-custom-transparency laž)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "Prozirnost pozadine prikaza aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: neprozirna pozadina (standardna ili vlastita boja). 100: potpuno "
+"prozirno, iza aplikacija vidi se samo pozadinska slika. Mijenja se samo "
+"pozadina; ikone, nazivi i polje pretrage ostaju potpuno vidljivi. Koristi se "
+"kada je app-grid-custom-transparency istina."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "Vlastita boja pozadine mapa aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"Ako je laž, pločice mapa u prikazu aplikacija (poput \"Alati\") imaju boju "
+"trenutnog GNOME stila. Mijenja se samo pozadina pločice; minijature "
+"aplikacija i naziv mape ostaju kakvi jesu, a panel otvorene mape nije "
+"zahvaćen."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "Boja pozadine mapa aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"Boja u obliku \"#rrggbb\", koristi se kada je app-grid-folder-custom-color "
+"istina. Nema vlastitu prozirnost: to je app-grid-folder-transparency (ili "
+"alfa GNOME stila kada je app-grid-folder-custom-transparency laž)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "Vlastita prozirnost pozadine mapa aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"Ako je laž, pločice mapa u prikazu aplikacija neprozirne su onoliko koliko "
+"ih čini trenutni GNOME stil."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "Prozirnost pozadine mapa aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: neprozirna pozadina pločice. 100: potpuno prozirno; mapa se prepoznaje po "
+"minijaturama aplikacija i nazivu. Prelazak, odabir i fokus tipkovnice ostaju "
+"vidljivi. Koristi se kada je app-grid-folder-custom-transparency istina."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr "Vlastita boja isticanja pri prelasku u prikazu aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"Ako je laž, isticanje ispod pokazivača na aplikacijama, mapama aplikacija i "
+"aplikacijama unutar otvorene mape ima boju trenutnog GNOME stila. Dok, radna "
+"površina i hrpe mapa nisu zahvaćeni."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "Boja isticanja pri prelasku u prikazu aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"Boja u obliku \"#rrggbb\", koristi se kada je app-grid-hover-custom-color "
+"istina. Nema vlastitu prozirnost: to je app-grid-hover-transparency (ili "
+"alfa GNOME stila kada je app-grid-hover-custom-transparency laž)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr "Vlastita prozirnost isticanja pri prelasku u prikazu aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"Ako je laž, isticanje pri prelasku neprozirno je onoliko koliko ga čini "
+"trenutni GNOME stil."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr "Prozirnost isticanja pri prelasku u prikazu aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: neprozirno isticanje. 100: potpuno prozirno; mapa tada ispod pokazivača "
+"izgleda isto kao u mirovanju. Mijenja se samo isticanje; ikone i nazivi "
+"ostaju potpuno vidljivi, a fokus tipkovnice ostaje označen. Koristi se kada "
+"je app-grid-hover-custom-transparency istina."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "Klik na pokrenutu aplikaciju"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": fokusira posljednji korišteni prozor; kada je aplikacija "
+"već u fokusu, prebacuje na njezin sljedeći prozor. \"minimize-or-cycle\": "
+"kao focus-or-cycle, ali aplikacija s jednim prozorom u fokusu se smanjuje."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "Prikaži samo aplikacije trenutnog radnog prostora"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"Ako je istina, pokrenute (neprikvačene) aplikacije prikazuju se samo kada "
+"imaju prozor na aktivnom radnom prostoru, a klik se izmjenjuje samo među tim "
+"prozorima."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "Prikaži brojače aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"Ako je istina, aplikacija koja javlja brojač (primjerice nepročitane poruke, "
+"putem D-Bus API-ja LauncherEntry) prikazuje ga na svojoj ikoni u doku. "
+"Aplikacije koje ništa ne javljaju ništa ne prikazuju."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "Prikaži napredak aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"Ako je istina, aplikacija koja javlja napredak radnje (primjerice "
+"preuzimanja, putem D-Bus API-ja LauncherEntry) prikazuje ga kao traku na "
+"svojoj ikoni u doku."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "Prikaži preglede prozora pri prelasku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"Kada pokazivač miruje na pokrenutoj aplikaciji, prikazuju se njezini prozori "
+"(oni koje dok broji, pogledajte isolate-workspaces) s naslovima; klik na "
+"jedan aktivira taj prozor."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "Zaviri u prozor iz njegova pregleda"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"Dok pokazivač miruje na pregledu prozora, taj se prozor nakratko prikazuje "
+"iznad ostalih, zatamnjenih. Ništa se ne fokusira, ne podiže, ne vraća niti "
+"premješta; napuštanje pregleda ili pritisak na Escape to završava."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "Mape u doku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"Mape prikazane u doku, redom. Svaki unos je \"xdg:NAZIV\" za standardnu mapu "
+"(NAZIV kao u GLib.UserDirectory bez prefiksa DIRECTORY_, primjerice "
+"\"xdg:DOWNLOAD\"), \"home:RELATIVNA/PUTANJA\" za mapu u osobnoj mapi ili "
+"\"file://\" URI za bilo koju drugu mapu. Uklanjanje unosa nikada ne dira "
+"samu mapu."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "Prikaži mape u doku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr "Ako je laž, mape u folder-stacks se zadržavaju, ali se ne prikazuju."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "Kako se prikazuje sadržaj mapa"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": velike ikone. \"list\": manje ikone s veličinom i datumom. Mijenja "
+"se iz panela mape."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "Redoslijed razvrstavanja svake mape"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"Pridružuje unosu iz folder-stacks \"name\", \"modified\" (najnovije prvo) "
+"ili \"type\". Mapa bez unosa razvrstava se po nazivu, osim Preuzimanja "
+"(xdg:DOWNLOAD), koja prvo prikazuje najnovije datoteke. Mijenja se iz panela "
+"mape."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "Veličina ikona radne površine"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) ili \"huge\" (128 "
+"px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "Kut u koji se postavljaju nove ikone"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "Prikaži osobnu mapu"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "Prikaži uređaje i USB stickove"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "Kako se postavljaju premještene ikone"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": ikone ostaju točno ondje gdje su ispuštene. \"grid\": ispuštene "
+"ikone prianjaju uz mrežu. Promjena ne pomiče postojeće ikone; to radi "
+"„Poravnaj uz mrežu” u izborniku radne površine."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "Otvaraj stavke jednim ili dvostrukim klikom"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "Redoslijed koji koristi „Posloži ikone”"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "Mijenja se iz „Razvrstaj po” u izborniku radne površine."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "Prikaži pasivne ikone aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"StatusNotifierItem definira stanje \"Passive\" za ikone koje aplikacija "
+"smatra nevažnima. Skrivene su osim ako je ovo istina."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "Raspored tipki prije prve promjene"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"Vrijednost button-layout iz org.gnome.desktop.wm.preferences spremljena "
+"prije nego što ju je Deskence prvi put promijenio. Prazno ako ništa nije "
+"promijenjeno."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "Raspored tipki koji je Deskence posljednji zapisao"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"Služi za utvrđivanje je li korisnik kasnije promijenio raspored negdje "
+"drugdje; izvorna vrijednost nudi se za vraćanje samo dok je trenutna "
+"vrijednost i dalje jednaka ovoj."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "Redoslijed prikaza aplikacija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": raspored koji je napravio korisnik (GNOME-ov vlastiti app-picker-"
+"layout i popisi mapa). \"alphabetical\": aplikacije i mape po prikaznom "
+"nazivu na jeziku korisnika, kao i aplikacije unutar svake mape; "
+"preslagivanje povlačenjem je isključeno. Ažurnim ga održava proširenje app-"
+"grid."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "Raspored spremljen prije abecednog razvrstavanja"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"JSON koji se zapisuje kada se sort-mode promijeni u \"alphabetical\": "
+"prethodni app-picker-layout iz org.gnome.shell (tekst GVariant) i popis "
+"aplikacija svake mape. Vraća se kada se sort-mode vrati na \"custom\". "
+"Interno; nije dio profila."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "Prečac koji otvara povijest međuspremnika"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "Najveći broj zapamćenih stavki"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr "Prikvačene stavke se ne broje. Najstarije stavke zaboravljaju se prve."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "Što se čuva nakon odjave"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": povijest se čuva samo u memoriji i nestaje nakon odjave. "
+"\"pinned\": prikvačene stavke spremaju se u korisničku mapu podataka. "
+"\"all\": ondje se sprema cijela povijest."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "Ne pamti nove stavke"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr ""
+"Privremeno stanje koje se mijenja iz panela povijesti; nije dio profila."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "Pamti i odabrani tekst"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"Tekst odabran mišem (primarni odabir, koji se lijepi srednjom tipkom) "
+"također se dodaje u povijest."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "Uvijek lijepi tekst bez oblikovanja"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"Povijest čuva tekst bez oblikovanja; samo najnovija stavka može se "
+"zalijepiti s oblikovanjem, dok je aplikacija iz koje je kopirana još nudi. "
+"Ako je istina, i ta se stavka lijepi kao običan tekst. Shift+Enter u "
+"povijesti u svakom slučaju lijepi običan tekst."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "Odmah zalijepi odabranu stavku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"Ako je istina, odabir stavke zatvara panel i lijepi je u prozor koji je bio "
+"u fokusu, s Ctrl+V. Ako je laž, stavka se samo stavlja u međuspremnik."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "Drži i zaslon uključenim"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"Ako je laž, držanje računala budnim sprječava samo automatsku suspenziju: "
+"zaslon se i dalje gasi i zaključava kao i obično. Ako je istina, i zaslon "
+"ostaje uključen i ne zaključava se automatski."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "Trajanje koje koristi tipka u brzim postavkama"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr "Posljednje odabrano trajanje; klik na tipku ponovno ga koristi."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "Vlastito trajanje u minutama"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "Vrijeme završetka u minutama nakon ponoći"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr ""
+"Koristi ga „do određenog vremena”: sljedeće nastupanje tog lokalnog vremena."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"Otvori stranicu postavki: general, dock, desktop-icons, app-grid, top-bar, "
+"windows ili clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "STRANICA"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"Dok s mapama, ikone radne površine, ikone aplikacija na gornjoj traci, "
+"povijest međuspremnika i postavke prozora za GNOME."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "Neprozirno"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "Prozirno"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "_Odustani"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "Nije instalirano. Ponovno instalirajte paket deskence."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "Pokreće se nakon odjave i ponovne prijave"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "Ažurirano; nova inačica pokreće se nakon ponovne prijave"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "GNOME Shell nije pokrenut; primjenjuje se u sljedećoj GNOME sesiji"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "Nije pokrenuto"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "Značajka se zaustavila zbog greške"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "Ova inačica GNOME-a nije podržana"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "Instalirana inačica ne podržava GNOME {}."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "GNOME proširenja su isključena"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Deskence ih treba kako bi prikazao svoje značajke."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "_Uključi…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "Umjesto toga koristi se druga kopija"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "Kopija u vašoj osobnoj mapi zamjenjuje instaliranu: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "_Prikaži"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "Uključiti GNOME proširenja?"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr ""
+"Time se uključuju i druga proširenja koja ste omogućili u aplikaciji "
+"Proširenja."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "_Uključi"
+
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "dok"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "ikone radne površine"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "ikone aplikacija na gornjoj traci"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "razvrstavanje prikaza aplikacija"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "povijest međuspremnika"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "držanje računala budnim"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr "Također pruža {}. Istodobna upotreba obaju uzrokuje probleme."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "Možda također pruža {}."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "Onemogućiti „{}”?"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"Proširenje ostaje instalirano, a njegove postavke se zadržavaju. Možete ga "
+"ponovno uključiti u aplikaciji Proširenja."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "_Onemogući"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "_Onemogući…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "Slabo"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "Jako"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "Jačina uvećanja"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "Prozirnost pozadine"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "Veličina ikona"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "Dok je uvijek vidljiv i prozori ga ne prekrivaju"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "Skriva se dok ga prozor prekriva"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "Pojavljuje se kada pomaknete pokazivač do ruba zaslona"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "Drugi klik prebacuje na sljedeći prozor aplikacije"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr "Klik na aplikaciju s jednim prozorom u fokusu smanjuje ga"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "Vratiti zadane postavke doka?"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"Položaj, veličina, boje, skrivanje, monitor, ponašanje pri kliku i prikazane "
+"stavke vraćaju se na zadane vrijednosti. Prikvačene aplikacije, mape u doku, "
+"prikaz aplikacija i to prikazuje li se dok ne mijenjaju se."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "_Vrati"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr ""
+"Ne prikazuje se dok su animacije isključene u postavkama pristupačnosti"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "Dodaj mapu"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "Druga mapa…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "Nije postavljena na ovom računalu"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{} (nedostaje)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "Pomakni gore"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "Pomakni dolje"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "Ukloni iz doka"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "Dodaj mapu u dok"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "Ova se mapa ne može dodati"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "Mogu se dodati samo lokalne mape."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "_Zatvori"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "Početak doka"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "Kraj doka"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "Gore"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "Dolje"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "Lijevo"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "Desno"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "Nema instaliranog logotipa; koristi se zadana ikona"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "Nije odabrana slika; koristi se zadana ikona"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "Slika nedostaje; koristi se zadana ikona"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "Slike"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "Odaberite ikonu"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "Mogu se koristiti samo lokalne datoteke."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr ""
+"Datoteka nije slika u podržanom formatu (PNG, SVG, JPEG ili WebP) od najviše "
+"4 MB."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "Ova se slika ne može koristiti"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{} (isključen)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "Nije postavljena mapa radne površine"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "Vratiti zadane postavke ikona radne površine?"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"Veličina, postavljanje, ponašanje pri kliku i prikazane stavke vraćaju se na "
+"zadane vrijednosti. Vaše datoteke i položaji ikona ne mijenjaju se."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "Ikone ostaju točno ondje gdje ih ispustite"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "Ispuštene ikone prianjaju uz mrežu"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "Prozirnost mapa"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "Prozirnost isticanja"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "Vratiti zadane postavke prikaza aplikacija?"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"Pozadina, mape aplikacija i isticanje pri prelasku vraćaju se na izgled "
+"GNOME-a, a aplikacije na vaš vlastiti redoslijed."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr "Po nazivu, i unutar mapa. Povlačenje ne mijenja redoslijed."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr ""
+"Rasporedite aplikacije povlačenjem. Ovaj se raspored vraća kada se abecedni "
+"redoslijed isključi."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr ""
+"Pozadina iza aplikacija. Ikone, nazivi i polje pretrage ne mijenjaju se."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Dostupno dok je dok Deskencea uključen."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"Promijenite izgled grupa aplikacija, poput „Alati”, u prikazu aplikacija. "
+"Mijenja se samo pozadina pločice."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"Odaberite pozadinu koja se pojavljuje ispod pokazivača na aplikaciji ili "
+"mapi aplikacija, i unutar otvorene mape."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "_Prečac"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "Otvara povijest"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "Vratiti zadane postavke međuspremnika?"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"Prečac i lijepljenje vraćaju se na zadane vrijednosti. Povijest, koliko "
+"stavki čuva i čuva li se nakon odjave ne mijenjaju se."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "Samo u memoriji"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "Prikvačene stavke spremaju se u {}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "Povijest se sprema u {}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "Vratiti zadane postavke gornje trake?"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"Prikazivanje neaktivnih ikona i mogućnosti „Drži budnim” vraćaju se na "
+"zadane vrijednosti. Koje se značajke prikazuju ne mijenja se."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "Uključuje ili isključuje „Uvijek na vrhu” za prozor u fokusu"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "Vratiti zadane tipke naslovne trake?"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr "Tipke naslovne trake vraćaju se na GNOME zadano za ovaj sustav."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "Vratiti prethodne tipke naslovne trake?"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr ""
+"Tipke naslovne trake vraćaju se u stanje prije nego što ih je Deskence "
+"promijenio."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr ""
+"Tipke su promijenjene negdje drugdje nakon što ih je Deskence promijenio"
+
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "lijevom rubu"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "donjem rubu"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "desnom rubu"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "Pregled: dok na {} zaslona"
+
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "gornjeg lijevog"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "gornjeg desnog"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "donjeg lijevog"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "donjeg desnog"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "Pregled: nove ikone postavljaju se od {} kuta"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "Uključite „{}” kako biste promijenili „{}”."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "„{}” je dostupno nakon uključivanja „{}”."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "„{}” trenutno nije dostupno."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr ""
+"Instalirano je ažuriranje. Odjavite se i ponovno prijavite kako biste ga "
+"koristili."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr ""
+"Odjavite se i ponovno prijavite kako biste pokrenuli uključene značajke."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "_O aplikaciji"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "Pretraži postavke"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "Glavni izbornik"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "Pretraži postavke"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "Stranice postavki"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "Rezultati pretrage"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "Nema rezultata"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "Pokušajte s drugim riječima, primjerice nazivom značajke."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "_Odjava…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "Dok"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"Prilagodite položaj, izgled i ponašanje trake aplikacija na rubu zaslona. "
+"Prikvačene aplikacije iste su kao u pregledu aktivnosti."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "Prikaži _dok"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "Izgled"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "_Položaj"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "Lijevo"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "Dolje"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "Desno"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "_Duljina"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "Prema ikonama"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "Cijeli rub"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "_Veličina ikona"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "Vlastita _boja pozadine"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "Boja pozadine"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "Vlastita _prozirnost pozadine"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "_Uvećaj ikone ispod pokazivača"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "_Jačina uvećanja"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "Ponašanje"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "_Skrivanje"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "Nikad"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "Kada ga prozori prekrivaju"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "Kada se ne koristi"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "_Monitor"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "Glavni"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "Odabrani"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "Svi"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "Odabrani _monitor"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "_Klik na pokrenutu aplikaciju"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "Fokusiraj, zatim izmjenjuj prozore"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "Smanji ili izmjenjuj prozore"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "Prikaži samo aplikacije trenutnog _radnog prostora"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "Prikaži _preglede prozora pri prelasku"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr ""
+"Zadržite pokazivač na pokrenutoj aplikaciji kako biste vidjeli njezine "
+"prozore i odabrali jedan"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "_Zavirivanje u prozore"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"Zadržite pokazivač na pregledu kako biste vidjeli njegov prozor iznad "
+"ostalih, bez prebacivanja na njega"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "Podaci iz aplikacija"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"Aplikacije mogu na svojoj ikoni prikazati brojač ili napredak radnje, "
+"primjerice nepročitane poruke ili preuzimanje. Prikazuje se samo ono što "
+"aplikacija javlja."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "Prikaži brojače aplikacija"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "Broj na ikoni, primjerice nepročitane poruke"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "Prikaži napredak radnji"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "Traka na ikoni tijekom preuzimanja ili kopiranja"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "Stavke"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "Što dok prikazuje osim aplikacija."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "_Smeće"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "Uređaji i _USB stickovi"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "_Mrežne lokacije"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "Tipka _aplikacija"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "P_oložaj tipke aplikacija"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "_Ikona tipke aplikacija"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "GNOME zadano"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "Logotip distribucije"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "Vlastita slika"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "_Odaberi…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "Mape u doku"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"Prikvačite mape kako biste pregledavali njihov sadržaj izravno iz doka. "
+"Uklanjanje mape iz doka ne mijenja ni mapu ni njezine datoteke."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "Prikaži _mape u doku"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "_Vrati zadane postavke…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "Ikone radne površine"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr ""
+"Prikaži datoteke i mape iz mape radne površine kao ikone na radnoj površini."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "Prikaži _ikone na radnoj površini"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "Mapa radne površine"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "Otvori u Datotekama"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "Ikone"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "_Veličina"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "Male"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "Srednje"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "Velike"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "Vrlo velike"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "_Postavljaj nove ikone od"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "Ikone koje ste premjestili zadržavaju svoje mjesto"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "Gornjeg lijevog kuta"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "Gornjeg desnog kuta"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "Donjeg lijevog kuta"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "Donjeg desnog kuta"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "_Raspored ikona"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "Slobodno"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "Prianjanje uz mrežu"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "_Otvaranje stavki"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "Dvostrukim klikom"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "Jednim klikom"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "Prikaži i"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "_Osobna mapa"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"Skrivene datoteke se ne prikazuju. Isključivanje ikona radne površine nikada "
+"ne premješta niti briše vaše datoteke."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "Gornja traka"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "Ikone aplikacija"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr ""
+"Ikone aplikacija koje rade u pozadini, primjerice aplikacija za razmjenu "
+"poruka i usklađivanje datoteka."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "Prikaži ikone _aplikacija"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "Prikaži _neaktivne ikone"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "Ikone koje aplikacije označavaju kao trenutačno nevažne"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "Drži budnim"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"Tipka u brzim postavkama koja sprječava automatsku suspenziju računala na "
+"odabrano vrijeme ili do isključivanja. Ručna suspenzija i dalje radi."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "Prikaži „_Drži budnim”"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "Drži i _zaslon uključenim"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr ""
+"Dok je „Drži budnim” uključeno, zaslon se ne gasi i ne zaključava automatski"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "_Vlastito trajanje"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "Minute"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"Podržane su aplikacije koje koriste standard StatusNotifierItem. Ikone "
+"područja obavijesti starog tipa (XEmbed) nisu."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "Prozori"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "Tipke naslovne trake"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"Ovo su GNOME postavke: ostaju na snazi i nakon uklanjanja Deskencea. "
+"Aplikacije koje iscrtavaju vlastite naslovne trake, poput nekih preglednika, "
+"mogu ih zanemariti."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "Tipka za _smanjivanje"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "Tipka za u_većavanje"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "_Smještaj"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "Uvijek na vrhu"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"Drži prozor iznad ostalih. Nalazi se i u izborniku prozora (Alt+Razmak) i u "
+"izborniku pregleda prozora u doku, koji za takve prozore prikazuje "
+"pribadaču. Ne prikazuje prozor na svakom radnom prostoru; to je zasebna "
+"mogućnost izbornika prozora."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "Vrati postavke od _prije promjena…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "Naziv ne smije biti prazan."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "Naziv ne smije sadržavati „/”."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "„.” i „..” nisu valjani nazivi."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "Stavka s tim nazivom već postoji."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "Naziv je predug."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "Lokacija se ne može otvoriti"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "„{}” se ne može otvoriti"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "Poveznica je neispravna: stavka na koju upućuje ne postoji."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "Pokretač nije valjan."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "„{}” se ne može pokrenuti"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "Nepouzdan pokretač"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"„{}” nije označen kao pouzdan. Dopustite pokretanje samo ako znate odakle "
+"ova datoteka dolazi."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "_Dopusti i pokreni"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "Pokretanje „{}” ne može se dopustiti"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "Postavke se ne mogu otvoriti"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "Deskence se ne može otvoriti"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "„{}” se ne može odmontirati"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "Nazivi koji počinju s „.” su skriveni."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "Nova mapa"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "Naziv mape"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "_Stvori"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "Preimenuj mapu"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "Preimenuj datoteku"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "_Preimenuj"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "Nova _mapa…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "_Zalijepi"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "Odaberi _sve"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "_Posloži ikone"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "Poravnaj uz _mrežu"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "_Naziv"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "_Izmijenjeno"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "_Vrsta"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "_Razvrstaj po"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "Promijeni _pozadinu…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "_Postavke radne površine"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "_Otvori"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "Otvori _pomoću…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "Dopusti _pokretanje"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "_Izreži"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "_Kopiraj"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "Pre_imenuj…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "Premjesti u _smeće"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "_Isprazni smeće…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "_Izbaci"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "_Odmontiraj"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "_Svojstva"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "Radnja nije uspjela"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "Smeće se ne može isprazniti"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "Za pražnjenje smeća potrebna je aplikacija Datoteke."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "Svojstva se ne mogu prikazati"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "Ne može se premjestiti u smeće"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "Ne može se preimenovati"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "Mapa se ne može stvoriti"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "Datoteke se ne mogu premjestiti"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "Datoteke se ne mogu kopirati"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "Osobna mapa"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "Smeće"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "Radna površina"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "Prikaži aplikacije"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "Postavke doka"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "Lokacija se nije mogla otvoriti"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "Otvori"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "Isprazni smeće…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "Izbaci"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "Odmontiraj"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "Uređaj se nije mogao izbaciti"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "Uređaj se nije mogao odmontirati"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "Prozori aplikacije %s"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "Zatvori prozor"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "Profili (JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "Profili sa slikama"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "Svi profili"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "Naziv"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "Prikvačene aplikacije"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "Vlastite slike"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "Spremaju se u arhivu zajedno s postavkama"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "Vratiti zadane postavke Deskencea?"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"Sve postavke Deskencea vraćaju se na zadane vrijednosti, a prikaz aplikacija "
+"na vaš vlastiti redoslijed. Mape se uklanjaju iz doka; same mape ostaju "
+"netaknute. Uključene značajke, prikvačene aplikacije, tipke naslovne trake, "
+"spremljeni profili i povijest međuspremnika ne mijenjaju se."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "Kao sustav ({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "_Poništi"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "_Primijeni…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "_Preimenuj…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "_Izvezi…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "_Izbriši…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "Više"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "prikvačenim aplikacijama"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "mapama u doku"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "slikama"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "Postavke"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "Postavke s {}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "Moje postavke"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "Spremi trenutne postavke"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "_Spremi"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "Profil se ne može spremiti"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "Profil „{}” je spremljen"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "Preimenuj profil"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "Profil se ne može preimenovati"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "Profil se ne može izbrisati"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "Izbrisati profil „{}”?"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "Trenutne postavke se ne mijenjaju."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "_Izbriši"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "Izvezi postavke"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"Postavke se spremaju kao čitljiva JSON datoteka. Sa slikama je datoteka "
+"arhiva s postavkama i slikama."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Postavke Deskencea"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "Izvoz nije moguć"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "Postavke su izvezene"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "Uvezi postavke"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "Uvoz nije moguć"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "Vaše postavke već odgovaraju ovom profilu."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "Nema se što mijenjati"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "{} postavka mijenja se u: {}."
+msgstr[1] "{} postavke mijenjaju se u: {}."
+msgstr[2] "{} postavki mijenja se u: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "Primijeniti „{}”?"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "Primijeniti profil?"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "_Primijeni"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "Ove promjene nije bilo moguće vratiti: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "Vaše prethodne postavke su vraćene."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "Profil nije primijenjen"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "Ništa nije promijenjeno."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "Profil je primijenjen"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "Profil se ne može poništiti"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "Nema primijenjenog profila koji bi se mogao poništiti."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "Prethodne postavke su vraćene"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "Poništiti posljednji primijenjeni profil?"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr ""
+"Postavke koje je profil promijenio vraćaju se na vrijednosti od prije njega."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "Neke su se postavke u međuvremenu promijenile"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"Ove su postavke promijenjene nakon primjene profila: {}. Poništiti i njih "
+"ili ih zadržati kakve su sada?"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "_Zadrži ih"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "Poništi _sve"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "Izvješće"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "_Spremi…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "Podaci za prijavu grešaka"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "Dijagnostika je kopirana"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "Spremi izvješće"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "Izvješće se ne može spremiti"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "Izvješće je spremljeno"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "Zadane postavke su vraćene"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "Značajke"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "Općenito"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "Prikaz aplikacija"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "Međuspremnik"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "Datoteka je prevelika da bi bila profil."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "Datoteka nije profil Deskencea."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "Profil nema valjanu inačicu formata."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"Profil je izradila novija inačica Deskencea. Ažurirajte Deskence kako biste "
+"ga koristili."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "Arhiva je prevelika da bi bila profil."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "Arhiva ne sadrži profil Deskencea."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "Arhiva je oštećena."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "Dio profila s postavkama je oštećen."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "Nepoznati dio „{}” je zanemaren."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "Nepoznata postavka „{}” u {} je zanemarena."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"Monitor {} nije priključen. Do tada se dok prikazuje na glavnom monitoru."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "{} nije dostupno na ovom računalu."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "{} ima nevaljanu vrijednost i preskočeno je."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "{} je zaključao administrator."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "Jezik „{}” nije dostupan na ovom računalu i preskočen je."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "Prečac {} za „{}” nije uvezen: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "Popis značajki je oštećen i preskočen je."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "Nepoznata značajka „{}” je zanemarena."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr "Prikvačene aplikacije nisu dostupne na ovom računalu."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "Popis prikvačenih aplikacija je oštećen i preskočen je."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr "Nisu instalirane: {}. Pojavit će se u doku nakon instalacije."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "Popis mapa u doku je oštećen i preskočen je."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "Mapa „{}” ima nevaljan unos i preskočena je."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"Standardna mapa {} nije postavljena na ovom računalu; prikazuje se kao "
+"nedostupna."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr "Mapa {} ne postoji; prikazuje se kao nedostupna dok ne bude postojala."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"Profil koristi vlastitu sliku za tipku aplikacija koja nije uključena; "
+"koristi se zadana ikona."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: ne pokrećite Deskence kao root; pokrenite ga kao vlastiti korisnik "
+"(bez sudo)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"Shema postavki Deskencea nije instalirana. Ponovno instalirajte paket "
+"deskence."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "Ništa nije promijenjeno: postavke se ne mogu spremiti."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"Ova promjena zahtijeva potvrdu. Ponovno pokrenite naredbu s --yes kako biste "
+"je potvrdili bez pitanja."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "d/N"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "d"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "da"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"Spremljeno. Promjena se nije mogla potvrditi u trenutnoj GNOME sesiji; možda "
+"je potrebna ponovna prijava."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "pokrenuto"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "nije pokrenuto"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "greška"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "nepodržana inačica GNOME-a"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "pokreće se nakon ponovne prijave"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "ažurirano; nova inačica nakon ponovne prijave"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "nije instalirano"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "nepoznato (GNOME Shell nije dostupan)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: prikazuje se stanje pokrenute sesije."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr "GNOME Shell nije dostupan: poznate su samo spremljene postavke."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr ""
+"GNOME proširenja su isključena; nijedna značajka ne radi dok se ne uključe."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "ZNAČAJKA"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "SPREMLJENO"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "U OVOJ SESIJI"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "uključeno"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "isključeno"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr "{}: umjesto instalirane koristi se kopija iz vaše osobne mape: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr ""
+"{}: spremljena postavka razlikuje se od sesije; vrijedi nakon ponovne "
+"prijave."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr "{}: „{}” pruža isto; upotreba obaju uzrokuje probleme."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: „{}” možda pruža isto."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "Navedite nazive značajki ili --all, ne oboje."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr "Navedite barem jednu značajku ili upotrijebite --all. Značajke: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "Nepoznata značajka: {}. Značajke: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "postavka se nije mogla spremiti"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: uključeno"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: isključeno"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: već uključeno"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: već isključeno"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: već uključeno u spremljenim postavkama"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: već isključeno u spremljenim postavkama"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: nije uspjelo: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"GNOME proširenja su isključena; uključene značajke pokrenut će se kada se "
+"ona uključe (gsettings set org.gnome.shell disable-user-extensions false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr ""
+"Nijedan spremljeni profil ne zove se „{}”. Pogledajte deskence preset list."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr ""
+"Nekoliko spremljenih profila zove se „{}”; upotrijebite jedan od njihovih ID-"
+"ova: {}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "Značajka {}: uključivanje"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "Značajka {}: isključivanje"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "Dok: vlastita slika tipke aplikacija"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Upozorenje: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "Preskočeno: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "Profil nije primijenjen: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "Ove promjene nije bilo moguće vratiti: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "Prethodne postavke su vraćene."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "Profil nije primijenjen; ništa nije promijenjeno. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"Profil je primijenjen samo djelomično; ove postavke nisu spremljene: {}. "
+"Poništite ga s: deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "Značajke {}: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "Nema spremljenih profila."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "NAZIV"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ID"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "STVORENO"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "Vaše postavke već odgovaraju profilu „{}”."
+
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "Profil „{}” mijenja {} postavku:"
+msgstr[1] "Profil „{}” mijenja {} postavke:"
+msgstr[2] "Profil „{}” mijenja {} postavki:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "Ništa nije promijenjeno (--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "Primijeniti profil?"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr "Profil „{}” je primijenjen. Poništite ga s: deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "{} se ne može uvesti: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"Spremljeni profil već se zove „{}”. Odaberite drugi naziv s --name ili ga "
+"zamijenite s --replace."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr ""
+"Profil „{}” je valjan i bio bi spremljen; ništa nije promijenjeno (--dry-"
+"run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr ""
+"Profil „{}” spremljen je kao {}. Primijenite ga s: deskence preset apply {}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "Spremiti i primijeniti profil?"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"Profil „{}” spremljen je kao {} i primijenjen. Poništite ga s: deskence "
+"preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "{} je mapa; navedite naziv datoteke."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "{} već postoji. Upotrijebite --force kako biste ga zamijenili."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "{} se ne može zapisati: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "Postavke su izvezene u {} (arhiva sa slikama)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "Postavke su izvezene u {}."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr "Ne koristi se vlastita slika, pa je datoteka običan JSON."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr "Postavke se vraćaju u stanje neposredno prije posljednjeg uvoza."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "Profil nije promijenio ništa što bi se moglo poništiti."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "Poništavanje „{}” vraća:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"Promijenjeno nakon primjene profila, pa ostaje kakvo jest (dodajte --include-"
+"changed kako biste poništili i to): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "Poništiti profil?"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "Profil je poništen samo djelomično: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "Prethodne postavke su vraćene."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "Navedite što vratiti ili --all, ne oboje."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr "Navedite što vratiti ili upotrijebite --all. Mogućnosti: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "Nepoznata mogućnost: {}. Mogućnosti: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "Sve je već na zadanim vrijednostima; nema se što vraćati."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "Vraćeno na zadano ({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "cijeli Deskence"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "Prikaz aplikacija vraća se na vaš vlastiti redoslijed."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "Značajka app-grid (abecedni redoslijed) se isključuje."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"Bez promjene: ostale uključene značajke, prikvačene aplikacije, datoteke na "
+"radnoj površini, vlastite slike, spremljeni profili i povijest međuspremnika."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "Vratiti ove postavke?"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "Neke postavke nije bilo moguće vratiti: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "Zadane postavke su vraćene."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: greška: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"Postavke Deskencea iz naredbenog retka. Bez naredbe otvara se prozor "
+"postavki (deskence [--page STRANICA])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"Značajke: {}. Izlazni kodovi: 0 gotovo, 1 neuspjeh, 2 nevaljan naredbeni "
+"redak, 3 nije potvrđeno, 4 spremljeno, ali nije potvrđeno u pokrenutoj GNOME "
+"sesiji. Pogledajte man deskence."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "NAREDBA"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "ispiši JSON dokument umjesto teksta"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "prikaži spremljeno i trenutno stanje svake značajke"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "uključi značajke"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "isključi značajke; njihove se postavke zadržavaju"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "jedno od: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "sve značajke Deskencea (nikada druga proširenja)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "prikaži, primijeni, uvezi i izvezi profile"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "Profili se spremaju u {}."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "RADNJA"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "samo prikaži što bi se promijenilo"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "ne traži potvrdu"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "prikaži spremljene profile"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "primijeni spremljeni profil"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "naziv ili ID spremljenog profila"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr "provjeri datoteku profila i spremi je među profile"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "DATOTEKA"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr "profil .json ili arhiva .deskence"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "spremi pod ovim nazivom"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "zamijeni spremljeni profil istog naziva"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "primijeni ga i"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "zapiši trenutne postavke u datoteku"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "naziv spremljen u profilu"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "uključi prikvačene aplikacije"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "uključi mape u doku"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "uključi vlastite slike (zapisuje arhivu)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "zamijeni postojeću datoteku"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "poništi posljednji primijenjeni profil"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr "poništi i postavke promijenjene nakon primjene profila"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "vrati zadane postavke"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "DIO"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "sve postavke Deskencea; isključuje i značajku app-grid"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "prikaži izvješće za prijavu grešaka (ništa se ne šalje)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"Sabirnica sesije nije dostupna, pa dconf ne može spremati postavke. "
+"Pokrenite naredbu u terminalu svoje GNOME sesije ili nakon prijave na "
+"tekstualnu konzolu kao isti korisnik."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr ""
+"Postavke se čuvaju samo u memoriji (GSETTINGS_BACKEND=memory) i bile bi "
+"izgubljene."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "Prikaži povijest međuspremnika"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "Otvara povijest kopiranih tekstova i slika"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr ""
+"Uključuje ili isključuje „Uvijek na vrhu” za prozor u fokusu (GNOME prečac)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "U prozoru postavki Deskencea"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "Ovo nije valjan prečac."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "Sama modifikacijska tipka ne može biti prečac."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr ""
+"Upotrijebite Ctrl, Alt ili Super zajedno s tipkom ili funkcijsku tipku."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"Aplikacije same koriste ovakve prečace. Dodajte Super ili kombinirajte Ctrl "
+"i Alt."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "Vlastiti prečac"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "Već se koristi za: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "dok, traka zadataka, pokretač, panel, dock, taskbar, launcher"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "zumiranje, uvećanje, povećalo, zoom"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "automatsko skrivanje, skrivanje, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "hrpe, mape, preuzimanja, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "minijature, prozori, pregledi, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "značke, nepročitano, obavijesti, poruke, brojač, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "preuzimanje, napredak, traka napretka, download"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "radna površina, datoteke, ikone, desktop"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr "mreža aplikacija, aplikacije, pokretač, izbornik, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "razvrstavanje, abecedno, redoslijed, raspored"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "mape, pločice, grupe"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "prelazak, isticanje, pokazivač, hover"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "područje obavijesti, indikatori, ikone stanja, tray"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "suspenzija, spavanje, kofein, caffeine, spriječiti, budan"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "čuvar zaslona, prazan zaslon, zaključavanje"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "naslovna traka, tipke, smanji, uvećaj"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "kopiraj, zalijepi, međuspremnik, povijest, clipboard"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr "tipkovnica, tipkovnički prečaci, tipke, prečaci, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "greška, dijagnostika, izvješće, problem, bug"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "sigurnosna kopija, profili, prijenos, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "jezik, prijevod, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "Isključeno"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "Vrati zadani prečac"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "Postavi prečac"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "Pritisnite novi prečac za „{}”. Escape odustaje."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "Vrati _zadano"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "Zadani prečac je zauzet: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "Ovaj se prečac ne može koristiti"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "Tipkovnički prečaci"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "Posvuda"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"Sukobi s drugim prečacima Deskencea i s GNOME-ovim vlastitim prečacima se "
+"odbijaju. Prečaci drugih aplikacija i proširenja ne mogu se provjeriti."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "U prozoru postavki"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "Radi dok je „{}” uključeno"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "Hrvatski"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "Početak sesije"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "Prikaži _radnu površinu nakon prijave"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "Počni na radnoj površini umjesto u pregledu aktivnosti"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr "Dok, radna površina i ostale značajke uvijek koriste jezik sustava."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "_Jezik aplikacije"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "Postavke i naredba deskence"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "Novi jezik koristi se nakon ponovnog pokretanja"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "Ponovno _pokreni"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "Profili"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr "Spremite trenutne postavke kako biste im se kasnije vratili."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "Nema spremljenih profila"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "_Spremi trenutne postavke…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "Prijenos postavki"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"Prenesite postavke na drugo računalo ili ih sačuvajte za ponovnu "
+"instalaciju. Prije uvoza vidjet ćete što se mijenja."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "_Izvezi u datoteku…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "_Uvezi iz datoteke…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "_Poništi posljednji primijenjeni profil…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "_Tipkovnički prečaci"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr "Pregledajte i promijenite sve prečace Deskencea na jednom mjestu"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"Inačice, vrsta sesije, monitori i stanje svake značajke, za lijepljenje u "
+"prijavu greške. Ništa privatno nije uključeno i ništa se nikamo ne šalje."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "Prikaži _izvješće…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "_Kopiraj dijagnostiku"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "Spremi izvješće u _datoteku…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "_Vrati zadane postavke Deskencea…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "Redoslijed"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr ""
+"Kako su aplikacije raspoređene u prikazu aplikacija preko cijelog zaslona."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "_Redoslijed aplikacija"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "Vlastiti"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "Abecedno"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "Pozadina"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "Kada je isključeno, koristi se boja GNOME stila"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "Vlastita _prozirnost pozadine"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "Kada je isključeno, pozadina je neprozirna, kao u GNOME-u"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "Prozirnost _pozadine"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "Mape aplikacija"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "Vlastita _boja mapa"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "Boja mapa"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "Vlastita pro_zirnost mapa"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "Kada je isključeno, koristi se prozirnost GNOME stila"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "Prozirnost _mapa"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "Isticanje pri prelasku"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "Vlastita boja _isticanja"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "Boja isticanja"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "Vlastita prozirnost is_ticanja"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"Kopiranje i lijepljenje rade kao i prije. Povijest kopiranih tekstova i "
+"slika otvara se vlastitim prečacem."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "_Povijest međuspremnika"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "_Zalijepi odabranu stavku"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Lijepi u prozor u kojem ste bili, s Ctrl+V (Ctrl+Shift+V u terminalima). "
+"Kada je isključeno, stavka se samo stavlja u međuspremnik."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "Uvijek lijepi tekst _bez oblikovanja"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"Starije stavke uvijek su običan tekst. Shift+Enter u bilo kojem trenutku "
+"lijepi običan tekst."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "Pamti i odabrani _tekst"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "Tekst odabran mišem, koji srednja tipka lijepi"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "Pohrana"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"Povijest se čuva samo u memoriji i nestaje nakon odjave. Prikvačene stavke "
+"ostaju kada se povijest očisti i ne ulaze u ograničenje. Sadržaj koji "
+"aplikacije označe kao tajan, primjerice iz upravitelja lozinki, ne pamti se; "
+"ne može se prepoznati svaka lozinka."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "_Zapamćene stavke"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "_Čuvaj nakon odjave"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "Ništa"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "Prikvačene stavke"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "Cijelu povijest"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "_Pauziraj pamćenje"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "Nove stavke se ne dodaju dok se ovo ne isključi"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "Mapa %s"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "Natrag"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "Datum"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "Vrsta"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "Razvrstaj po: %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "Prikaži kao mrežu"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "Prikaži kao popis"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "Ova standardna mapa nije postavljena."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "Učitavanje…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "Ova mapa više ne postoji."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "Nemate dopuštenje za otvaranje ove mape."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "Ova se mapa ne može otvoriti: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "Ova je mapa prazna."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"Ova mapa ima više od %d stavki; prikazane su samo prve. Otvorite je u "
+"Datotekama kako biste vidjeli sve."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "Mapa"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "„%s” se nije moglo otvoriti"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "Izreži"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "%s nije dostupno"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "%s je samo za čitanje"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "Mapa se ne može staviti u samu sebe"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "Već u %s"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "U mapu se mogu staviti samo datoteke"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "Premjesti u %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Kopiraj u %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Premjesti ili kopiraj u %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "Datoteke se ne mogu premjestiti u %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "Datoteke se ne mogu kopirati u %s"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr ""
+"Za kopiranje i premještanje datoteka iz doka potrebna je aplikacija Datoteke."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Datoteke se ne mogu otvoriti u %s"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Otvori pomoću %s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "%s ne može otvarati datoteke"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Ne može se potvrditi da %s otvara ove datoteke"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "%d od datoteka više nije dostupna"
+msgstr[1] "%d od datoteka više nisu dostupne"
+msgstr[2] "%d od datoteka više nije dostupno"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "%s ne otvara ovu vrstu datoteke"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "%s ne otvara %d od ovih datoteka"
+msgstr[1] "%s ne otvara %d od ovih datoteka"
+msgstr[2] "%s ne otvara %d od ovih datoteka"
+
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, %d nova stavka"
+msgstr[1] "%s, %d nove stavke"
+msgstr[2] "%s, %d novih stavki"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "Aplikacije su razvrstane abecedno"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr ""
+"Kako biste ih sami rasporedili, odaberite vlastiti redoslijed u Deskenceu."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "Spremno za lijepljenje"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "Upravo sada"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "prije %d minute"
+msgstr[1] "prije %d minute"
+msgstr[2] "prije %d minuta"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "prije %d sata"
+msgstr[1] "prije %d sata"
+msgstr[2] "prije %d sati"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "Povijest međuspremnika"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "Pretraži povijest"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "Očisti povijest"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: zalijepi · Shift+Enter: zalijepi kao običan tekst · Delete: ukloni · "
+"Ctrl+P: prikvači"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "Nastavi pamćenje"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "Pauziraj pamćenje"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "Kliknite ponovno za čišćenje"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr "Kliknite ponovno kako biste uklonili sve stavke osim prikvačenih."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "Nove stavke ne pamte se dok ne nastavite."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr "Još ništa nije kopirano. Stavke koje kopirate pojavit će se ovdje."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "Nijedna stavka ne odgovara pretrazi."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "Slika, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "Otkvači"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "Prikvači"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "Ukloni"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "„Drži budnim” je uključeno: zaslon ostaje uključen"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "„Drži budnim” je uključeno"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "Manje"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "Sprječava automatsku suspenziju"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "Do isključivanja"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d minuta"
+msgstr[1] "%d minute"
+msgstr[2] "%d minuta"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d sat"
+msgstr[1] "%d sata"
+msgstr[2] "%d sati"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "Drži zaslon uključenim"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "Zaslon se tada ne gasi i ne zaključava automatski"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "Završi sada"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "Do %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "Do isključivanja"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "Preostala je %d minuta"
+msgstr[1] "Preostale su %d minute"
+msgstr[2] "Preostalo je %d minuta"

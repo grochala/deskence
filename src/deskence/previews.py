@@ -186,6 +186,8 @@ class DockPreview(ScreenPreview):
     __gtype_name__ = "DeskenceDockPreview"
 
     def update(self, position, length, icon_size, apps_button="end", background=None):
+        # Translators: these fill the {} of "Preview: dock at the {} of the
+        # screen" (read by screen readers); use the form that fits there.
         names = {"left": _("left"), "bottom": _("bottom"), "right": _("right")}
         self.update_property([Gtk.AccessibleProperty.LABEL],
                              [_("Preview: dock at the {} of the screen").format(
@@ -206,6 +208,9 @@ class IconsPreview(ScreenPreview):
 
     def update(self, size, corner):
         self.size, self.corner = size, corner
+        # Translators: these fill the {} of "Preview: new icons are placed
+        # from the {} corner" (read by screen readers); use the form that
+        # fits there.
         names = {"top-left": _("top left"), "top-right": _("top right"),
                  "bottom-left": _("bottom left"), "bottom-right": _("bottom right")}
         self.update_property([Gtk.AccessibleProperty.LABEL],

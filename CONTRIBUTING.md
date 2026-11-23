@@ -59,7 +59,9 @@ isolated session, on every GNOME version listed in `meson_options.txt`
   existing value has to be converted, a step in `src/deskence/migrations.py`
   (see [docs/migration.md](docs/migration.md)).
 - New user-visible strings go through gettext; add new source files with
-  strings to `po/POTFILES.in`.
+  strings to `po/POTFILES.in`. After changing strings, run
+  `meson compile -C _build deskence-pot deskence-update-po`; translators
+  and the translation checks are described in [po/README.md](po/README.md).
 - Only declare a GNOME Shell version in `shell_versions` after testing on it.
 - Update the documentation in `docs/` when behavior or a design decision
   changes.

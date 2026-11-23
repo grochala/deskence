@@ -26,6 +26,10 @@
             <property name="title" translatable="yes">Application _Language</property>
             <property name="subtitle" translatable="yes">Settings and the deskence command</property>
             <property name="use-underline">True</property>
+            <property name="enable-search">True</property>
+            <property name="expression">
+              <lookup type="GtkStringObject" name="string"/>
+            </property>
           </object>
         </child>
         <child>

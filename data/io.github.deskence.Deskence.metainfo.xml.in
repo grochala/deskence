@@ -38,6 +38,11 @@
     <id>io.github.bettergnome.Desktop</id>
   </provides>
   <releases>
+    <release version="0.15.0" date="2026-11-23">
+      <description>
+        <p>Deskence is now available in 29 languages: all official languages of the European Union, Korean, Simplified and Traditional Chinese, Serbian and Filipino. The language list in the settings names the language the system uses.</p>
+      </description>
+    </release>
     <release version="0.14.0" date="2026-11-23">
       <description>
         <p>Settings: choose the language of the settings window and the deskence command on the General page, independently of the system.</p>

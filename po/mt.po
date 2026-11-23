@@ -1,0 +1,4584 @@
+# Maltese translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Maltese\n"
+"Language: mt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>1 && n%100<11) ? "
+"1 : (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "Settings tad-Desktop"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr ""
+"Dock, ikoni tad-desktop, ikoni tal-applikazzjonijiet fil-bar ta' fuq u "
+"buttuni tat-twieqi"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr "dock;desktop;ikoni;tray;indikatur;taskbar;minimizza;massimizza;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "Dock, ikoni tad-desktop u tray għal GNOME"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Deskence iżid xi faċilitajiet mad-desktop standard ta' GNOME u jħallik "
+"tissettjahom f'post wieħed."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"Dock b'applikazzjonijiet ippinjati u li qed jaħdmu, folders, drives u l-"
+"iskart, kif ukoll previews tat-twieqi"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "Fajls u folders fuq id-desktop"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr ""
+"Ikoni tal-applikazzjonijiet fil-bar ta' fuq, pereżempju minn messaġġiera u "
+"sinkronizzazzjoni tal-fajls"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "Storja tal-clipboard u “Żomm Imqajjem” fis-settings ta' malajr"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "Ordni alfabetiku tal-veduta tal-applikazzjonijiet"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr ""
+"Buttuni biex timminimizza u timmassimizza fil-bars tat-titlu tat-twieqi"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr "Presets biex tissejvja s-settings u tieħodhom fuq kompjuter ieħor"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr ""
+"Jaħdem fis-sessjoni GNOME eżistenti tiegħek u jżomm id-dehra standard ta' "
+"GNOME."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"Deskence issa huwa disponibbli f'29 lingwa: il-lingwi uffiċjali kollha tal-"
+"Unjoni Ewropea, il-Korean, iċ-Ċiniż Simplifikat u Tradizzjonali, is-Serb u l-"
+"Filippin. Il-lista tal-lingwi fis-settings issemmi l-lingwa li tuża s-"
+"sistema."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"Settings: agħżel il-lingwa tat-tieqa tas-settings u tal-kmand deskence fil-"
+"paġna Ġenerali, indipendentement mis-sistema."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"Dock: ikkopja jew aqta' fajls u folders f'panew ta' folder (klikk lemin, "
+"Ctrl+C, Ctrl+X) u waħħalhom f'Files jew fuq id-desktop."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Dock: kaxkar fajls u folders minn panew ta' folder fuq folder ieħor fid-dock "
+"jew fuq id-desktop biex tmexxihom jew tikkopjahom."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Dock: l-applikazzjonijiet jiftħu fajls imwaqqgħin biss tat-tipi li "
+"jiddikjaraw; inkella d-dock jispjega għaliex."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr "Dock: il-marka taħt il-folders taqbel mat-tikek tal-applikazzjonijiet."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"Ibda fuq id-desktop: wara li tidħol, id-desktop, il-bar ta' fuq u t-twieqi "
+"jerġgħu jirrispondu għall-klikks meta l-animazzjonijiet ikunu mitfija, "
+"pereżempju f'magni virtwali mingħajr aċċelerazzjoni 3D; qabel kien "
+"jirrispondi biss id-dock sakemm il-ħarsa ġenerali tinfetaħ darba."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"Dijanjostika mhux obbligatorja għal rapporti dwar desktop u twieqi li jieqfu "
+"jirrispondu għall-klikks."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"Dock: it-tkaxkir ta' fajls fuq id-dock dejjem jispiċċa sew, anke meta xi "
+"ħaġa tfalli waqt il-waqgħa."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Dock: waqqa' fajls fuq applikazzjoni biex tiftaħhom fiha, jew fuq folder "
+"biex tikkopjahom jew tmexxihom hemm; żomm fajl fuq folder biex tiftħu u "
+"twaqqgħu f'wieħed mis-sottofolders tiegħu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"Settings: fittex kull setting b'Ctrl+F, immaniġġja s-shortcuts kollha tat-"
+"tastiera f'post wieħed b'kontroll għall-kunflitti, u kkopja jew issejvja "
+"rapport għar-rapporti tal-bugs."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"Presets: meta tikkanċella preset applikat, jiġi rrestawrat biss dak li "
+"biddel u jinżammu s-settings li bdilt wara."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr ""
+"Dock: għaddadi ta' dak li ma nqarax u progress tal-operazzjonijiet fuq l-"
+"ikoni tal-applikazzjonijiet li jirrapportawhom."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"Linja tal-kmand: iċċekkja l-istat ta' kull funzjoni, itfi u ixgħel "
+"funzjonijiet, applika, importa u esporta presets, irrestawra s-settings "
+"default u iġbor dijanjostika bil-kmand deskence, anke minn console tat-test "
+"meta d-desktop ma jaħdimx. Ara man deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"Ir-restawr tas-settings default ma jħassarx aktar l-istorja tal-clipboard li "
+"tinżamm wara li toħroġ."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"Veduta tal-applikazzjonijiet: kulur u trasparenza tiegħek għall-enfasi taħt "
+"il-pointer fuq applikazzjonijiet u folders tal-applikazzjonijiet; meta "
+"tgħaddi fuq folder ma tinġibidx aktar kontorn."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"Folders fid-dock: il-panew jieħu l-aktar nofs l-għoli tal-iskrin, jiskrollja "
+"l-folder kollu, anke bit-tastiera, u jerġa' lura fil-post ta' qabel wara "
+"sottofolder."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"Settings: deskrizzjonijiet aktar ċari, kliem Pollakk aħjar u inqas shortcuts "
+"tat-tastiera f'kunflitt."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"Dock: dock tul it-tarf kollu jaqbel mal-bar ta' fuq fil-ħarsa ġenerali tal-"
+"attivitajiet u fil-veduta tal-applikazzjonijiet; dock qasir iżomm id-dehra "
+"tiegħu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"Veduta tal-applikazzjonijiet: il-madum tal-folders b'kulur jew trasparenza "
+"tiegħek issa juri b'mod ċar il-hover, l-ippressar, il-fokus u l-għażla."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"Veduta tal-applikazzjonijiet: kulur u trasparenza tiegħek għall-madum tal-"
+"folders bħal “Utilitajiet”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"Ġenerali: jekk trid, ibda fuq id-desktop minflok fil-ħarsa ġenerali tal-"
+"attivitajiet wara li tidħol."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr ""
+"Dock: issa jingħaqad mal-ħarsa ġenerali tal-attivitajiet minflok ma jifforma "
+"strixxa separata."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"Links għall-paġna tal-proġett u għat-traċċar tal-bugs, dokumentazzjoni bl-"
+"Ingliż. L-ebda bidla fl-applikazzjoni."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"Settings: paġna Ġenerali bi presets, esportazzjoni u importazzjoni tas-"
+"settings u restawr tad-defaults; paġna Veduta tal-Applikazzjonijiet "
+"b'issortjar alfabetiku; previews aktar kwieti."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"Dock: folders li juru l-kontenut tagħhom, l-għeluq u t-titwil fit-twieqi "
+"mill-previews tagħhom, “Dejjem Fuq” fil-menu tal-preview."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"Ġdid: storja tal-clipboard, “Żomm Imqajjem” fis-settings ta' malajr, "
+"shortcut għal “Dejjem Fuq”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Better GNOME Desktop issa jismu Deskence. Is-settings, il-funzjonijiet "
+"mixgħula, l-applikazzjonijiet ippinjati u l-pożizzjonijiet tal-ikoni tad-"
+"desktop jinżammu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"Dock: previews tat-twieqi ta' applikazzjoni meta l-pointer jistrieħ fuqha, l-"
+"ebda spazju żejjed ħdejn il-buttuna tal-applikazzjonijiet meta l-ikoni "
+"jitkabbru, indikaturi ta' tħaddim taħt l-ikoni ta' dock fil-qiegħ."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"Settings: previews akbar u aktar ċari tad-dock u tal-ikoni tad-desktop, "
+"ikoni tal-paġni, oġġett tal-menu “Dwar”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Better GNOME Desktop issa jismu Deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"Dock: ikoni mkabbra ċari, l-ebda madum taħt l-ikoni b'sfond tiegħek, logo "
+"tad-distribuzzjoni b'kulur wieħed, il-lista tal-applikazzjonijiet fil-bidu "
+"ta' dock tul it-tarf kollu, indikaturi ta' tħaddim fuq in-naħa ta' ġewwa."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"Veduta tal-applikazzjonijiet: tranżizzjoni waħda kontinwa meta tingħalaq, "
+"kulur tal-isfond tiegħek mhux obbligatorju."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"Desktop: il-menus jinfetħu fil-punt ikklikkjat, anke ħdejn id-dock; il-"
+"grilja tal-ikoni tibda fil-kantuniera magħżula b'marġni żgħar."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"Dock: buttuna tal-applikazzjonijiet fi kwalunkwe tarf b'għażla tal-ikona, "
+"ikoni mkabbra, skrolljar meta l-applikazzjonijiet ma jidħlux, kulur u "
+"trasparenza tal-isfond tiegħek, settings fil-menu tal-buttuna tal-"
+"applikazzjonijiet, sfond trasparenti għall-veduta tal-applikazzjonijiet."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"Ikoni tad-desktop: tqegħid liberu jew allinjament mal-grilja, “Allinja mal-"
+"Grilja”, id-desktop kollu ħdejn id-dock jista' jintuża, pożizzjonijiet tal-"
+"ikoni li ma jiċċaqilqux mad-dock."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"Korrezzjonijiet: għeluq bla xkiel tal-veduta tal-applikazzjonijiet, irranġar "
+"mill-ewwel tal-ikoni tad-dock, l-ebda qafas waqt it-tkaxkir tal-ikoni tad-"
+"desktop, l-istess menu tad-desktop kullimkien."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "L-ewwel ħruġ."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "Verżjoni tal-istruttura tas-settings"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"Tintuża mill-applikazzjoni tas-settings biex timmigra l-valuri ssejvjati "
+"bejn ħruġ u ieħor. 0 tfisser li s-settings qatt ma ġew immigrati."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "Is-settings ta' Better GNOME Desktop ġew meħuda"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Jiġi ssettjat ladarba s-settings issejvjati minn Better GNOME Desktop (0.3.0 "
+"u aqdem) ikunu ġew ikkupjati hawn. Il-valuri diġà ssettjati hawn qatt ma "
+"jinkitbu fuqhom; is-settings ta' qabel jinżammu."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "Uri d-desktop wara li tidħol"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"Jekk veru, sessjoni ġdida tibda fuq id-desktop minflok fil-ħarsa ġenerali "
+"tal-attivitajiet. Jaffettwa biss il-bidu tas-sessjoni: il-ftuħ tal-ħarsa "
+"ġenerali aktar tard, il-ftuħ tal-iskrin jew it-tixgħil u t-tifi tal-"
+"funzjonijiet qatt ma jagħlquha. Applikat mill-estensjoni tad-dock."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Il-lingwa tal-applikazzjoni Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"Il-lingwa tat-tieqa tas-settings u tal-kmand deskence: il-kodiċi ta' "
+"traduzzjoni installata ma' Deskence (pereżempju \"pl\"), \"en\" għall-"
+"Ingliż, jew vojt biex issegwi s-sistema. Kodiċi mingħajr traduzzjoni "
+"installata jfisser Ingliż. L-estensjonijiet ta' GNOME Shell u l-ikoni tad-"
+"desktop dejjem isegwu l-lingwa ta' GNOME Shell. Applikat meta tibda l-"
+"applikazzjoni."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "It-tarf tal-iskrin tad-dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\" (xellug), \"bottom\" (isfel) jew \"right\" (lemin)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "It-tul tad-dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr ""
+"\"fit\": twil biss kemm għandhom bżonn l-ikoni. \"full\": it-tarf kollu tal-"
+"iskrin."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "Id-daqs tal-ikoni f'pixels loġiċi"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"Skalat skont l-iskala tal-iskrin u l-fattur tal-iskala tat-test tat-tema tax-"
+"shell, bħall-ikoni l-oħra ta' GNOME Shell."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "Meta jinħeba d-dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": dejjem jidher u t-twieqi jinżammu barra miż-żona tiegħu. "
+"\"intellihide\": moħbi sakemm tieqa fuq l-istess skrin tkun qed tgħattih. "
+"\"autohide\": moħbi sakemm il-pointer jilħaq it-tarf tal-iskrin."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "Fuq liema skrins jidher id-dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\" (primarju), \"selected\" (magħżul, ara selected-monitor) jew "
+"\"all\" (kollha)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "Il-konnettur tal-iskrin magħżul"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"Isem il-konnettur, bħal \"DP-1\". Jintuża meta monitor-mode ikun "
+"\"selected\"; sakemm dak l-iskrin ma jkunx imqabbad, jintuża l-iskrin "
+"primarju."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "Uri l-iskart"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "Uri d-drives li jitneħħew"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "Uri l-postijiet tan-netwerk"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "Uri l-buttuna tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "Fejn tinsab il-buttuna tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": l-ewwel oġġett tad-dock (xellug f'dock orizzontali, fuq f'wieħed "
+"vertikali). \"end\": l-aħħar oġġett (lemin jew isfel)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "L-ikona tal-buttuna tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": l-ikona tal-applikazzjonijiet ta' GNOME. \"distribution\": il-"
+"logo tad-distribuzzjoni installata, mill-ikoni installati fis-sistema; l-"
+"ikona default jekk ma jkunx hemm. \"custom\": l-immaġni f'apps-button-custom-"
+"icon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "Ikona tiegħek għall-buttuna tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"Il-path ta' kopja tal-immaġni magħżula, miżmuma fil-folder tad-data tal-"
+"utent ta' Deskence biex tibqa' taħdem jekk il-fajl oriġinali jitmexxa jew "
+"jitħassar. Jekk il-fajl ma jistax jitgħabba, tintuża l-ikona default."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "Kabbar l-ikoni taħt il-pointer"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"L-ikoni qrib il-pointer jikbru bil-mod hekk kif jiċċaqlaq fuq id-dock. Ma "
+"jidhirx meta l-animazzjonijiet ikunu mitfija f'GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "Is-saħħa tat-tkabbir"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr ""
+"Id-daqs tal-ikona taħt il-pointer meta mqabbel mad-daqs normali tagħha."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "Kulur tal-isfond tiegħek għad-dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr ""
+"Jekk falz, l-isfond tad-dock għandu l-kulur tal-istil kurrenti ta' GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "Il-kulur tal-isfond tad-dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"Kulur fil-forma \"#rrggbb\", użat meta background-custom-color ikun veru. "
+"M'għandux trasparenza tiegħu: dik hija background-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "Trasparenza tal-isfond tiegħek għad-dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr ""
+"Jekk falz, l-isfond tad-dock huwa trasparenti daqskemm jagħmlu l-istil "
+"kurrenti ta' GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "It-trasparenza tal-isfond tad-dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: opak. 100: trasparenti għal kollox. L-isfond biss; l-ikoni, l-indikaturi, "
+"it-tikketti u l-menus iżommu l-viżibbiltà tagħhom. Użat meta background-"
+"custom-transparency ikun veru."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "Trasparenza tal-isfond tiegħek għall-veduta tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr ""
+"Jekk falz, il-veduta tal-applikazzjonijiet fuq skrin sħiħ miftuħa mid-dock "
+"għandha l-isfond standard ta' GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "Kulur tal-isfond tiegħek għall-veduta tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"Jekk falz, il-veduta tal-applikazzjonijiet fuq skrin sħiħ miftuħa mid-dock "
+"għandha l-kulur tal-isfond standard ta' GNOME. Indipendenti mill-isfond tad-"
+"dock."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "Il-kulur tal-isfond tal-veduta tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"Kulur fil-forma \"#rrggbb\", użat meta app-grid-custom-color ikun veru. "
+"M'għandux trasparenza tiegħu: dik hija app-grid-transparency (jew opak meta "
+"app-grid-custom-transparency ikun falz)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "It-trasparenza tal-isfond tal-veduta tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: sfond opak (kulur standard jew tiegħek). 100: trasparenti għal kollox, "
+"wara l-applikazzjonijiet jidher biss il-wallpaper. Jinbidel l-isfond biss; l-"
+"ikoni, l-ismijiet u l-kaxxa tat-tiftix jibqgħu jidhru kompletament. Użat "
+"meta app-grid-custom-transparency ikun veru."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "Kulur tal-isfond tiegħek għall-folders tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"Jekk falz, il-madum tal-folders fil-veduta tal-applikazzjonijiet (bħal "
+"\"Utilitajiet\") għandu l-kulur tal-istil kurrenti ta' GNOME. Jinbidel biss "
+"l-isfond tal-madum; il-miniaturi tal-applikazzjonijiet u l-isem tal-folder "
+"jibqgħu kif inhuma, u l-panew ta' folder miftuħ mhux affettwat."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "Il-kulur tal-isfond tal-folders tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"Kulur fil-forma \"#rrggbb\", użat meta app-grid-folder-custom-color ikun "
+"veru. M'għandux trasparenza tiegħu: dik hija app-grid-folder-transparency "
+"(jew l-alpha tal-istil ta' GNOME meta app-grid-folder-custom-transparency "
+"ikun falz)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "Trasparenza tal-isfond tiegħek għall-folders tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"Jekk falz, il-madum tal-folders fil-veduta tal-applikazzjonijiet huwa opak "
+"daqskemm jagħmlu l-istil kurrenti ta' GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "It-trasparenza tal-isfond tal-folders tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: sfond tal-madum opak. 100: trasparenti għal kollox; il-folder jingħaraf "
+"mill-miniaturi tal-applikazzjonijiet u mill-isem tiegħu. Il-hover, l-għażla "
+"u l-fokus tat-tastiera jibqgħu jidhru. Użat meta app-grid-folder-custom-"
+"transparency ikun veru."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr "Kulur tiegħek għall-enfasi tal-hover fil-veduta tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"Jekk falz, l-enfasi murija taħt il-pointer fuq applikazzjonijiet, folders "
+"tal-applikazzjonijiet u applikazzjonijiet ġo folder miftuħ għandha l-kulur "
+"tal-istil kurrenti ta' GNOME. Id-dock, id-desktop u l-munzelli tal-folders "
+"mhumiex affettwati."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "Il-kulur tal-enfasi tal-hover fil-veduta tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"Kulur fil-forma \"#rrggbb\", użat meta app-grid-hover-custom-color ikun "
+"veru. M'għandux trasparenza tiegħu: dik hija app-grid-hover-transparency "
+"(jew l-alpha tal-istil ta' GNOME meta app-grid-hover-custom-transparency "
+"ikun falz)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr ""
+"Trasparenza tiegħek għall-enfasi tal-hover fil-veduta tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"Jekk falz, l-enfasi tal-hover hija opaka daqskemm jagħmilha l-istil kurrenti "
+"ta' GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr "It-trasparenza tal-enfasi tal-hover fil-veduta tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: enfasi opaka. 100: trasparenti għal kollox; folder imbagħad jidher l-"
+"istess taħt il-pointer bħal meta jkun mistrieħ. Tinbidel biss l-enfasi; l-"
+"ikoni u l-ismijiet jibqgħu jidhru kompletament, u l-fokus tat-tastiera "
+"jibqa' mmarkat. Użat meta app-grid-hover-custom-transparency ikun veru."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "Klikk fuq applikazzjoni li qed taħdem"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": jagħti l-fokus lit-tieqa użata l-aktar riċentement; meta "
+"l-applikazzjoni diġà jkollha l-fokus, jaqleb għat-tieqa li jmiss tagħha. "
+"\"minimize-or-cycle\": bħal focus-or-cycle, iżda applikazzjoni b'tieqa waħda "
+"bil-fokus tiġi minimizzata."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "Uri biss l-applikazzjonijiet tal-ispazju tax-xogħol kurrenti"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"Jekk veru, l-applikazzjonijiet li qed jaħdmu (mhux ippinjati) jidhru biss "
+"meta jkollhom tieqa fuq l-ispazju tax-xogħol attiv, u l-klikk jaqleb biss "
+"bejn dawk it-twieqi."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "Uri l-għaddadi tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"Jekk veru, applikazzjoni li tirrapporta għadd (pereżempju messaġġi mhux "
+"moqrija, permezz tal-API D-Bus LauncherEntry) turih fuq l-ikona tagħha fid-"
+"dock. L-applikazzjonijiet li ma jirrapportaw xejn ma juru xejn."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "Uri l-progress tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"Jekk veru, applikazzjoni li tirrapporta l-progress ta' operazzjoni "
+"(pereżempju download, permezz tal-API D-Bus LauncherEntry) turih bħala bar "
+"fuq l-ikona tagħha fid-dock."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "Uri previews tat-twieqi mal-hover"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"Meta l-pointer jistrieħ fuq applikazzjoni li qed taħdem, jintwerew it-twieqi "
+"tagħha (dawk li jgħodd id-dock, ara isolate-workspaces) bit-titli tagħhom; "
+"klikk fuq waħda jattiva dik it-tieqa."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "Itawwal f'tieqa mill-preview tagħha"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"Sakemm il-pointer jistrieħ fuq preview ta' tieqa, dik it-tieqa tintwera għal "
+"mument fuq l-oħrajn, li jiskuraw. Xejn ma jieħu l-fokus, ma jitla' fuq, ma "
+"jiġi rrestawrat jew imċaqlaq; meta titlaq il-preview jew tagħfas Escape "
+"jispiċċa."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "Folders fid-dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"Folders murija fid-dock, f'ordni. Kull entrata hija \"xdg:ISEM\" għal folder "
+"standard (ISEM bħal f'GLib.UserDirectory mingħajr il-prefiss DIRECTORY_, "
+"pereżempju \"xdg:DOWNLOAD\"), \"home:PATH/RELATTIV\" għal folder fil-folder "
+"tad-dar, jew URI \"file://\" għal kwalunkwe folder ieħor. It-tneħħija ta' "
+"entrata qatt ma tmiss il-folder innifsu."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "Uri l-folders fid-dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr "Jekk falz, il-folders f'folder-stacks jinżammu iżda ma jintwerewx."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "Kif jintwera l-kontenut tal-folders"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": ikoni kbar. \"list\": ikoni iżgħar bid-daqs u d-data. Jinbidel "
+"mill-panew tal-folder."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "L-ordni tal-issortjar ta' kull folder"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"Jassoċja entrata ta' folder-stacks ma' \"name\", \"modified\" (l-aktar ġodda "
+"l-ewwel) jew \"type\". Folder mingħajr entrata jiġi ssortjat skont l-isem, "
+"ħlief Downloads (xdg:DOWNLOAD), li juri l-fajls l-aktar ġodda l-ewwel. "
+"Jinbidel mill-panew tal-folder."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "Id-daqs tal-ikoni tad-desktop"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) jew \"huge\" (128 "
+"px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "Il-kantuniera fejn jitqiegħdu l-ikoni l-ġodda"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "Uri l-folder tad-dar"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "Uri d-drives u l-USB sticks"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "Kif jitqiegħdu l-ikoni mċaqalqa"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": l-ikoni jibqgħu eżattament fejn jitwaqqgħu. \"grid\": l-ikoni "
+"mwaqqgħin jinqabdu mal-grilja. Il-bidla ma ċċaqlaqx l-ikoni eżistenti; dan "
+"jagħmlu \"Allinja mal-Grilja\" fil-menu tad-desktop."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "Iftaħ l-oġġetti bi klikk wieħed jew doppju"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "Ordni użat minn \"Irranġa l-Ikoni\""
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "Jinbidel minn \"Issortja skont\" fil-menu tad-desktop."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "Uri l-ikoni passivi tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"StatusNotifierItem jiddefinixxi status \"Passive\" għal ikoni li "
+"applikazzjoni tqis mhux importanti. Huma moħbija sakemm dan ma jkunx veru."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "It-tqassim tal-buttuni qabel l-ewwel bidla"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"Il-valur ta' button-layout ta' org.gnome.desktop.wm.preferences issejvjat "
+"qabel ma Deskence biddlu għall-ewwel darba. Vojt jekk xejn ma nbidel."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "It-tqassim tal-buttuni l-aħħar miktub minn Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"Jintuża biex jiġi stabbilit jekk l-utent biddilx it-tqassim x'imkien ieħor "
+"wara; il-valur oriġinali jiġi offrut għar-restawr biss sakemm il-valur "
+"kurrenti jkun għadu ugwali għal dan."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "L-ordni tal-veduta tal-applikazzjonijiet"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": it-tqassim magħmul mill-utent (l-app-picker-layout ta' GNOME "
+"stess u l-listi tal-folders). \"alphabetical\": applikazzjonijiet u folders "
+"skont l-isem muri fil-lingwa tal-utent, u l-applikazzjonijiet ġo kull folder "
+"ukoll; l-irranġar bit-tkaxkir huwa mitfi. Miżmum aġġornat mill-estensjoni "
+"app-grid."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "Tqassim issejvjat qabel l-issortjar alfabetiku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"JSON miktub meta sort-mode jinbidel għal \"alphabetical\": l-app-picker-"
+"layout preċedenti ta' org.gnome.shell (test GVariant) u l-lista tal-"
+"applikazzjonijiet ta' kull folder. Jiġi rrestawrat meta sort-mode jerġa' "
+"lura għal \"custom\". Intern; mhux parti mill-presets."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "Shortcut li jiftaħ l-istorja tal-clipboard"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "L-akbar numru ta' oġġetti mfakkra"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr "L-oġġetti ppinjati ma jgħoddux. L-eqdem oġġetti jintesew l-ewwel."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "X'jinżamm wara li toħroġ"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": l-istorja tinżamm biss fil-memorja u tisparixxi wara li toħroġ. "
+"\"pinned\": l-oġġetti ppinjati jiġu ssejvjati fil-folder tad-data tal-utent. "
+"\"all\": l-istorja kollha tiġi ssejvjata hemm."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "Tiftakarx oġġetti ġodda"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr ""
+"Stat temporanju mibdul mill-panew tal-istorja; mhux parti mill-presets."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "Ftakar ukoll it-test magħżul"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"It-test magħżul bil-maws (l-għażla primarja, imwaħħla bil-buttuna tan-nofs) "
+"jiżdied ukoll mal-istorja."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "Dejjem waħħal it-test mingħajr formattjar"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"L-istorja żżomm it-test mingħajr formattjar; l-aktar oġġett ġdid biss jista' "
+"jitwaħħal bil-formattjar tiegħu, sakemm l-applikazzjoni li ġie kkupjat "
+"minnha tkun għadha tipprovdih. Jekk veru, anke dak l-oġġett jitwaħħal bħala "
+"test sempliċi. Shift+Enter fl-istorja jwaħħal test sempliċi f'kull każ."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "Waħħal l-oġġett magħżul minnufih"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"Jekk veru, l-għażla ta' oġġett tagħlaq il-panew u twaħħlu fit-tieqa li "
+"kellha l-fokus, b'Ctrl+V. Jekk falz, l-oġġett jitqiegħed biss fil-clipboard."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "Żomm ukoll l-iskrin mixgħul"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"Jekk falz, iż-żamma tal-kompjuter imqajjem tipprevjeni biss is-sospensjoni "
+"awtomatika: l-iskrin xorta jintefa u jissakkar bħas-soltu. Jekk veru, l-"
+"iskrin ukoll jibqa' mixgħul u ma jissakkarx awtomatikament."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "It-tul użat mill-buttuna tas-settings ta' malajr"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr "L-aħħar tul magħżul; klikk fuq il-buttuna jerġa' jużah."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "Tul tiegħek f'minuti"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "Il-ħin tat-tmiem f'minuti wara nofsillejl"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr ""
+"Użat minn \"sa ċertu ħin\": id-darba li jmiss li jasal dan il-ħin lokali."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"Iftaħ paġna tas-settings: general, dock, desktop-icons, app-grid, top-bar, "
+"windows jew clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "PAĠNA"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"Dock bil-folders, ikoni tad-desktop, ikoni tal-applikazzjonijiet fil-bar ta' "
+"fuq, storja tal-clipboard u settings tat-twieqi għal GNOME."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "Opak"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "Trasparenti"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "_Ikkanċella"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "Mhux installat. Erġa' installa l-pakkett deskence."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "Jibda wara li toħroġ u terġa' tidħol"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "Aġġornat; il-verżjoni l-ġdida tibda wara li terġa' tidħol"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "GNOME Shell mhux qed jaħdem; jiġi applikat fis-sessjoni GNOME li jmiss"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "Mhux qed jaħdem"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "Il-funzjoni waqfet minħabba żball"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "Din il-verżjoni ta' GNOME mhix appoġġjata"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "Il-verżjoni installata ma tappoġġjax GNOME {}."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "L-estensjonijiet ta' GNOME huma mitfija"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Deskence għandu bżonnhom biex juri l-funzjonijiet tiegħu."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "_Ixgħel…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "Qed tintuża kopja oħra minflok"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "Kopja fil-folder tad-dar tiegħek qed tieħu post dik installata: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "_Uri"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "Tixgħel l-estensjonijiet ta' GNOME?"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr ""
+"Dan jixgħel ukoll estensjonijiet oħra li ppermettejt fl-applikazzjoni "
+"Extensions."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "_Ixgħel"
+
+# NEEDS-REVIEW: fragments 201–206 go into „Jipprovdi wkoll {}“; check articles
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "dock"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "ikoni tad-desktop"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "ikoni tal-applikazzjonijiet fil-bar ta' fuq"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "l-issortjar tal-veduta tal-applikazzjonijiet"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "storja tal-clipboard"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "iż-żamma tal-kompjuter imqajjem"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr "Jipprovdi wkoll {}. L-użu taż-żewġ flimkien joħloq problemi."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "Jista' jipprovdi wkoll {}."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "Tiddiżattiva “{}”?"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"L-estensjoni tibqa' installata u s-settings tagħha jinżammu. Tista' terġa' "
+"tixgħelha fl-applikazzjoni Extensions."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "_Iddiżattiva"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "_Iddiżattiva…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "Ħafif"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "Qawwi"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "Is-saħħa tat-tkabbir"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "Trasparenza tal-isfond"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "Daqs tal-ikoni"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "Id-dock dejjem jidher u t-twieqi ma jgħattuhx"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "Jinħeba sakemm tieqa tgħattih"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "Jidher meta tmexxi l-pointer sat-tarf tal-iskrin"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "It-tieni klikk jaqleb għat-tieqa li jmiss tal-applikazzjoni"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr "Klikk fuq applikazzjoni b'tieqa waħda bil-fokus jimminimizzaha"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "Tirrestawra s-settings default tad-dock?"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"Il-pożizzjoni, id-daqs, il-kuluri, il-ħabi, l-iskrin, l-imġiba tal-klikk u l-"
+"oġġetti murija jerġgħu lura għad-defaults tagħhom. L-applikazzjonijiet "
+"ippinjati, il-folders fid-dock, il-veduta tal-applikazzjonijiet u jekk id-"
+"dock jidhirx ma jinbidlux."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "_Irrestawra"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr ""
+"Ma jidhirx meta l-animazzjonijiet ikunu mitfija fis-settings tal-"
+"aċċessibbiltà"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "Żid Folder"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "Folder Ieħor…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "Mhux issettjat fuq dan il-kompjuter"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{} (nieqes)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "Mexxi 'l Fuq"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "Mexxi 'l Isfel"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "Neħħi mid-Dock"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "Żid Folder mad-Dock"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "Dan il-Folder Ma Jistax Jiżdied"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "Jistgħu jiżdiedu biss folders lokali."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "_Agħlaq"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "Bidu tad-Dock"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "Tmiem tad-Dock"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "Fuq"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "Isfel"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "Fuq ix-Xellug"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "Fuq il-Lemin"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "L-ebda logo mhu installat; qed tintuża l-ikona default"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "L-ebda immaġni magħżula; qed tintuża l-ikona default"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "L-immaġni nieqsa; qed tintuża l-ikona default"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "Immaġnijiet"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "Agħżel Ikona"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "Jistgħu jintużaw biss fajls lokali."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr ""
+"Il-fajl mhuwiex immaġni f'format appoġġjat (PNG, SVG, JPEG jew WebP) ta' "
+"mhux aktar minn 4 MB."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "Din l-Immaġni Ma Tistax Tintuża"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{} (skonnettjat)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "L-ebda folder tad-desktop mhu ssettjat"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "Tirrestawra s-settings default tal-ikoni tad-desktop?"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"Id-daqs, it-tqegħid, l-imġiba tal-klikk u l-oġġetti murija jerġgħu lura għad-"
+"defaults tagħhom. Il-fajls tiegħek u l-pożizzjonijiet tal-ikoni ma jinbidlux."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "L-ikoni jibqgħu eżattament fejn twaqqagħhom"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "L-ikoni mwaqqgħin jinqabdu mal-grilja"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "Trasparenza tal-folders"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "Trasparenza tal-enfasi"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "Tirrestawra s-settings default tal-veduta tal-applikazzjonijiet?"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"L-isfond, il-folders tal-applikazzjonijiet u l-enfasi tal-hover jerġgħu lura "
+"għad-dehra ta' GNOME, u l-applikazzjonijiet jerġgħu lura għall-ordni tiegħek."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr "Skont l-isem, anke ġol-folders. It-tkaxkir ma jbiddilx l-ordni."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr ""
+"Irranġa l-applikazzjonijiet billi tkaxkarhom. Dan it-tqassim jerġa' lura "
+"meta l-ordni alfabetiku jintefa."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr ""
+"L-isfond wara l-applikazzjonijiet. L-ikoni, l-ismijiet u l-kaxxa tat-tiftix "
+"ma jinbidlux."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Disponibbli sakemm id-dock ta' Deskence ikun mixgħul."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"Biddel id-dehra tal-gruppi tal-applikazzjonijiet, bħal “Utilitajiet”, fil-"
+"veduta tal-applikazzjonijiet. Jinbidel biss l-isfond tal-madum."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"Agħżel l-isfond li jidher taħt il-pointer fuq applikazzjoni jew folder tal-"
+"applikazzjonijiet, anke ġo folder miftuħ."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "_Shortcut"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "Jiftaħ l-istorja"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "Tirrestawra s-settings default tal-clipboard?"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"Ix-shortcut u l-waħħil jerġgħu lura għad-defaults tagħhom. L-istorja, kemm-"
+"il oġġett iżżomm u jekk tinżammx wara li toħroġ ma jinbidlux."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "Fil-memorja biss"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "L-oġġetti ppinjati jiġu ssejvjati f'{}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "L-istorja tiġi ssejvjata f'{}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "Tirrestawra s-settings default tal-bar ta' fuq?"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"Il-wiri tal-ikoni inattivi u l-għażliet ta' “Żomm Imqajjem” jerġgħu lura "
+"għad-defaults tagħhom. Liema funzjonijiet jintwerew ma jinbidilx."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "Jaqleb “Dejjem Fuq” għat-tieqa bil-fokus"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "Tirrestawra l-buttuni default tal-bar tat-titlu?"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr ""
+"Il-buttuni tal-bar tat-titlu jerġgħu lura għad-default ta' GNOME ta' din is-"
+"sistema."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "Tirrestawra l-buttuni preċedenti tal-bar tat-titlu?"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr ""
+"Il-buttuni tal-bar tat-titlu jerġgħu lura kif kienu qabel ma Deskence "
+"biddilhom."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr "Il-buttuni nbidlu x'imkien ieħor wara li Deskence biddilhom"
+
+# NEEDS-REVIEW: fragments for „Preview: dock fuq it-{} tal-iskrin“; check
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "tarf tax-xellug"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "tarf t'isfel"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "tarf tal-lemin"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "Preview: dock fuq it-{} tal-iskrin"
+
+# NEEDS-REVIEW: fragments for „mill-kantuniera {}“; check
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "ta' fuq fuq ix-xellug"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "ta' fuq fuq il-lemin"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "t'isfel fuq ix-xellug"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "t'isfel fuq il-lemin"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "Preview: l-ikoni l-ġodda jitqiegħdu mill-kantuniera {}"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "Ixgħel “{}” biex tbiddel “{}”."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "“{}” isir disponibbli wara li tixgħel “{}”."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "“{}” mhux disponibbli bħalissa."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr "Ġie installat aġġornament. Oħroġ u erġa' idħol biex tużah."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr "Oħroġ u erġa' idħol biex tibda l-funzjonijiet mixgħula."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "_Dwar"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "Fittex fis-Settings"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "Menu Ewlieni"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "Fittex fis-settings"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "Paġni tas-Settings"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "Riżultati tat-Tiftix"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "Ma Nstab l-Ebda Riżultat"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "Ipprova kliem ieħor, pereżempju l-isem ta' funzjoni."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "_Oħroġ…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "Dock"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"Aġġusta l-pożizzjoni, id-dehra u l-imġiba tal-bar tal-applikazzjonijiet fit-"
+"tarf tal-iskrin. L-applikazzjonijiet ippinjati huma l-istess bħal fil-ħarsa "
+"ġenerali tal-attivitajiet."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "Uri d-_Dock"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "Dehra"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "_Pożizzjoni"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "Xellug"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "Isfel"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "Lemin"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "_Tul"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "Skont l-Ikoni"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "It-Tarf Kollu"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "_Daqs tal-Ikoni"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "_Kulur tal-Isfond Tiegħek"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "Kulur tal-Isfond"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "Trasparenza tal-_Isfond Tiegħek"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "_Kabbar l-Ikoni taħt il-Pointer"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "_Saħħa tat-Tkabbir"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "Imġiba"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "_Aħbi"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "Qatt"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "Meta t-Twieqi Jgħattuh"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "Meta Ma Jkunx Qed Jintuża"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "_Skrin"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "Primarju"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "Magħżul"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "Kollha"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "_Skrin Magħżul"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "_Klikk fuq Applikazzjoni li Qed Taħdem"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "Agħti l-Fokus, Imbagħad Aqleb it-Twieqi"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "Imminimizza jew Aqleb it-Twieqi"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "Uri Biss l-Applikazzjonijiet tal-Ispazju tax-_Xogħol Kurrenti"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "Uri _Previews tat-Twieqi mal-Hover"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr ""
+"Ieqaf fuq applikazzjoni li qed taħdem biex tara t-twieqi tagħha u tagħżel "
+"waħda"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "_Itawwal fit-Twieqi"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"Ieqaf fuq preview biex tara t-tieqa tagħha fuq l-oħrajn, mingħajr ma taqleb "
+"għaliha"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "Informazzjoni mill-Applikazzjonijiet"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"L-applikazzjonijiet jistgħu juru għadd jew il-progress ta' operazzjoni fuq l-"
+"ikona tagħhom, pereżempju messaġġi mhux moqrija jew download. Jintwera biss "
+"dak li tirrapporta applikazzjoni."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "Uri l-Għaddadi tal-Applikazzjonijiet"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "Numru fuq l-ikona, bħal messaġġi mhux moqrija"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "Uri l-Progress tal-Operazzjonijiet"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "Bar fuq l-ikona waqt download jew kopja"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "Oġġetti"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "X'juri d-dock minbarra l-applikazzjonijiet."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "_Skart"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "Drives u _USB Sticks"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "Postijiet tan-_Netwerk"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "Buttuna tal-_Applikazzjonijiet"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "P_ożizzjoni tal-Buttuna tal-Applikazzjonijiet"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "_Ikona tal-Buttuna tal-Applikazzjonijiet"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "Default ta' GNOME"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "Logo tad-Distribuzzjoni"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "Immaġni Tiegħek"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "_Agħżel…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "Folders fid-Dock"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"Ippinja l-folders biex tfittex il-kontenut tagħhom direttament mid-dock. It-"
+"tneħħija ta' folder mid-dock ma tbiddilx il-folder jew il-fajls tiegħu."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "Uri l-_Folders fid-Dock"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "_Irrestawra s-Settings Default…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "Ikoni tad-Desktop"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr ""
+"Uri l-fajls u l-folders tal-folder tad-desktop tiegħek bħala ikoni fuq id-"
+"desktop."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "Uri _Ikoni fuq id-Desktop"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "Folder tad-Desktop"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "Iftaħ f'Files"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "Ikoni"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "_Daqs"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "Żgħar"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "Medji"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "Kbar"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "Kbar Ħafna"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "_Qiegħed l-Ikoni l-Ġodda Minn"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "L-ikoni li mexxejt iżommu posthom"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "Fuq ix-Xellug"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "Fuq il-Lemin"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "Isfel ix-Xellug"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "Isfel il-Lemin"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "_Tqassim tal-Ikoni"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "Liberu"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "Aqbad mal-Grilja"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "_Iftaħ l-Oġġetti B'"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "Klikk Doppju"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "Klikk Wieħed"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "Uri Wkoll"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "Folder tad-_Dar"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"Il-fajls moħbija ma jintwerewx. It-tifi tal-ikoni tad-desktop qatt ma "
+"jċaqlaq jew iħassar il-fajls tiegħek."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "Bar ta' Fuq"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "Ikoni tal-Applikazzjonijiet"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr ""
+"Ikoni ta' applikazzjonijiet li qed jaħdmu fl-isfond, pereżempju messaġġiera "
+"u sinkronizzazzjoni tal-fajls."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "Uri l-Ikoni tal-_Applikazzjonijiet"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "Uri l-Ikoni _Inattivi"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "Ikoni li l-applikazzjonijiet jimmarkaw bħala mhux importanti bħalissa"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "Żomm Imqajjem"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"Buttuna fis-settings ta' malajr li żżomm il-kompjuter milli jmur "
+"f'sospensjoni awtomatikament, għal ħin magħżul jew sakemm tintefa. Is-"
+"sospensjoni manwali xorta taħdem."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "Uri “Żomm _Imqajjem”"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "Żomm Ukoll l-_Iskrin Mixgħul"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr ""
+"Sakemm “Żomm Imqajjem” ikun mixgħul, l-iskrin ma jintefiex u ma jissakkarx "
+"awtomatikament"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "_Tul Tiegħek"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "Minuti"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"L-applikazzjonijiet li jużaw l-istandard StatusNotifierItem huma appoġġjati. "
+"L-ikoni tat-tray tal-istil il-qadim (XEmbed) mhumiex."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "Twieqi"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "Buttuni tal-Bar tat-Titlu"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"Dawn huma settings ta' GNOME: jibqgħu fis-seħħ meta Deskence jitneħħa. L-"
+"applikazzjonijiet li jpinġu l-bars tat-titlu tagħhom stess, bħal xi "
+"browsers, jistgħu jinjorawhom."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "Buttuna biex _Timminimizza"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "Buttuna biex T_immassimizza"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "_Tqegħid"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "Dejjem Fuq"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"Iżżomm tieqa fuq l-oħrajn. Tinsab ukoll fil-menu tat-tieqa (Alt+Spazju) u "
+"fil-menu ta' preview ta' tieqa fid-dock, li juri pinna għal dawn it-twieqi. "
+"Ma turix it-tieqa fuq kull spazju tax-xogħol; dik hija għażla separata tal-"
+"menu tat-tieqa."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "Irrestawra s-Settings minn _Qabel il-Bidliet…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "L-isem ma jistax ikun vojt."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "L-isem ma jistax ikun fih “/”."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "“.” u “..” mhumiex ismijiet validi."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "Diġà jeżisti oġġett b'dan l-isem."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "L-isem twil wisq."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "Il-post ma jistax jinfetaħ"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "“{}” ma jistax jinfetaħ"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "Il-link miksur: l-oġġett li jipponta lejh ma jeżistix."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "Il-launcher mhuwiex validu."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "“{}” ma jistax jinbeda"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "Launcher Mhux Fdat"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"“{}” ma ġiex immarkat bħala fdat. Ippermetti l-bidu biss jekk taf minn fejn "
+"ġej dan il-fajl."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "_Ippermetti u Ibda"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "Il-bidu ta' “{}” ma jistax jiġi permess"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "Settings ma jistax jinfetaħ"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "Deskence ma jistax jinfetaħ"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "“{}” ma jistax jiġi unmounted"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "L-ismijiet li jibdew b'“.” huma moħbija."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "Folder Ġdid"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "Isem il-Folder"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "_Oħloq"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "Semmi mill-ġdid il-Folder"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "Semmi mill-ġdid il-Fajl"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "_Semmi mill-ġdid"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "_Folder Ġdid…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "_Waħħal"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "Agħżel _Kollox"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "_Irranġa l-Ikoni"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "Allinja mal-_Grilja"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "_Isem"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "_Modifikat"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "_Tip"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "_Issortja skont"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "Biddel l-_Isfond…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "Settings tad-_Desktop"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "_Iftaħ"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "Iftaħ _B'…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "Ippermetti l-_Bidu"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "A_qta'"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "_Ikkopja"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "Semmi _mill-ġdid…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "Mexxi għall-_Iskart"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "_Battal l-Iskart…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "_Oħroġ"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "_Unmount"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "_Proprjetajiet"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "L-operazzjoni falliet"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "L-iskart ma jistax jitbattal"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "Biex tbattal l-iskart hemm bżonn l-applikazzjoni Files."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "Il-proprjetajiet ma jistgħux jintwerew"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "Ma jistax jitmexxa għall-iskart"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "Ma jistax jissemma mill-ġdid"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "Il-folder ma jistax jinħoloq"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "Il-fajls ma jistgħux jitmexxew"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "Il-fajls ma jistgħux jiġu kkupjati"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "Dar"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "Skart"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "Desktop"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "Uri l-Applikazzjonijiet"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "Settings tad-Dock"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "Il-post ma setax jinfetaħ"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "Iftaħ"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "Battal l-Iskart…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "Oħroġ"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "Unmount"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "Id-drive ma setax joħroġ"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "Id-drive ma setax jiġi unmounted"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "Twieqi ta' %s"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "Agħlaq it-Tieqa"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "Presets (JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "Presets b'Immaġnijiet"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "Il-Presets Kollha"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "Isem"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "Applikazzjonijiet Ippinjati"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "Immaġnijiet Tiegħek"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "Issejvjati f'arkivju flimkien mas-settings"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "Tirrestawra s-settings default ta' Deskence?"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"Is-settings kollha ta' Deskence jerġgħu lura għad-defaults tagħhom u l-"
+"veduta tal-applikazzjonijiet terġa' lura għall-ordni tiegħek. Il-folders "
+"jitneħħew mid-dock; il-folders infushom ma jintmessux. Il-funzjonijiet "
+"mixgħula, l-applikazzjonijiet ippinjati, il-buttuni tal-bar tat-titlu, il-"
+"presets issejvjati u l-istorja tal-clipboard ma jinbidlux."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "Bħas-Sistema ({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "_Erġa' Lura"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "_Applika…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "_Semmi mill-ġdid…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "_Esporta…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "_Ħassar…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "Aktar"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "applikazzjonijiet ippinjati"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "folders fid-dock"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "immaġnijiet"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "Settings"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "Settings b'{}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "Is-Settings Tiegħi"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "Issejvja s-Settings Kurrenti"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "_Issejvja"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "Il-Preset Ma Jistax Jiġi Ssejvjat"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "Il-preset “{}” ġie ssejvjat"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "Semmi mill-ġdid il-Preset"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "Il-Preset Ma Jistax Jissemma mill-ġdid"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "Il-Preset Ma Jistax Jitħassar"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "Tħassar il-preset “{}”?"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "Is-settings kurrenti ma jinbidlux."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "_Ħassar"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "Esporta s-Settings"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"Is-settings jiġu ssejvjati bħala fajl JSON li jinqara. Bl-immaġnijiet, il-"
+"fajl huwa arkivju bis-settings u l-immaġnijiet."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Settings ta' Deskence"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "Ma Jistax Jiġi Esportat"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "Is-settings ġew esportati"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "Importa s-Settings"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "Ma Jistax Jiġi Importat"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "Is-settings tiegħek diġà jaqblu ma' dan il-preset."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "Xejn x'Tibdel"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "{} setting jinbidel fi: {}."
+msgstr[1] "{} settings jinbidlu fi: {}."
+msgstr[2] "{}-il setting jinbidlu fi: {}."
+msgstr[3] "{} setting jinbidlu fi: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "Tapplika “{}”?"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "Tapplika l-Preset?"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "_Applika"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "Dawn il-bidliet ma setgħux jiġu mreġġa' lura: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "Is-settings preċedenti tiegħek ġew irrestawrati."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "Il-Preset Ma Ġiex Applikat"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "Xejn ma nbidel."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "Il-preset ġie applikat"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "Il-Preset Ma Jistax Jitreġġa' Lura"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "M'hemm l-ebda preset applikat biex jitreġġa' lura."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "Is-settings preċedenti ġew irrestawrati"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "Treġġa' lura l-Aħħar Preset Applikat?"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr "Is-settings li biddel il-preset jerġgħu lura għall-valuri ta' qablu."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "Xi Settings Inbidlu Minn Dak Iż-Żmien"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"Dawn is-settings inbidlu wara li ġie applikat il-preset: {}. Treġġagħhom "
+"lura wkoll, jew iżżommhom kif inhuma issa?"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "_Żommhom"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "Reġġa' Lura _Kollox"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "Rapport"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "_Issejvja…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "Informazzjoni għar-Rapporti tal-Bugs"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "Id-dijanjostika ġiet ikkupjata"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "Issejvja r-Rapport"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "Ir-Rapport Ma Jistax Jiġi Ssejvjat"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "Ir-rapport ġie ssejvjat"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "Is-settings default ġew irrestawrati"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "Funzjonijiet"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "Ġenerali"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "Veduta tal-Applikazzjonijiet"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "Clipboard"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "Il-fajl huwa kbir wisq biex ikun preset."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "Il-fajl mhuwiex preset ta' Deskence."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "Il-preset m'għandux verżjoni tal-format valida."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"Il-preset sar minn verżjoni aktar ġdida ta' Deskence. Aġġorna Deskence biex "
+"tużah."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "L-arkivju huwa kbir wisq biex ikun preset."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "L-arkivju ma fihx preset ta' Deskence."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "L-arkivju huwa bil-ħsara."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "Il-parti tas-settings tal-preset hija bil-ħsara."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "Il-parti mhux magħrufa “{}” ġiet injorata."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "Is-setting mhux magħruf “{}” f'{} ġie injorat."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"L-iskrin {} mhuwiex imqabbad. Sa dak iż-żmien id-dock jintwera fuq l-iskrin "
+"primarju."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "{} mhuwiex disponibbli fuq dan il-kompjuter."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "{} għandu valur invalidu u nqabeż."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "{} huwa msakkar mill-amministratur."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "Il-lingwa “{}” mhix disponibbli fuq dan il-kompjuter u nqabżet."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "Ix-shortcut {} għal “{}” ma ġiex importat: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "Il-lista tal-funzjonijiet hija bil-ħsara u nqabżet."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "Il-funzjoni mhux magħrufa “{}” ġiet injorata."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr ""
+"L-applikazzjonijiet ippinjati mhumiex disponibbli fuq dan il-kompjuter."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "Il-lista tal-applikazzjonijiet ippinjati hija bil-ħsara u nqabżet."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr "Mhux installati: {}. Jidhru fid-dock ladarba jiġu installati."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "Il-lista tal-folders fid-dock hija bil-ħsara u nqabżet."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "Il-folder “{}” għandu entrata invalida u nqabeż."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"Il-folder standard {} mhuwiex issettjat fuq dan il-kompjuter; jintwera bħala "
+"mhux disponibbli."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr ""
+"Il-folder {} ma jeżistix; jintwera bħala mhux disponibbli sakemm jeżisti."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"Il-preset juża immaġni tiegħu għall-buttuna tal-applikazzjonijiet li mhix "
+"inkluża; qed tintuża l-ikona default."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: tħaddimx Deskence bħala root; ħaddmu bħala l-utent tiegħek "
+"(mingħajr sudo)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"L-iskema tas-settings ta' Deskence mhix installata. Erġa' installa l-pakkett "
+"deskence."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "Xejn ma nbidel: is-settings ma jistgħux jiġu ssejvjati."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"Din il-bidla teħtieġ konferma. Erġa' ħaddem il-kmand b'--yes biex "
+"tikkonfermaha mingħajr mistoqsija."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "i/L"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "i"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "iva"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"Issejvjat. Il-bidla ma setgħetx tiġi kkonfermata fis-sessjoni GNOME "
+"kurrenti; jista' jkun hemm bżonn li terġa' tidħol."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "qed jaħdem"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "mhux qed jaħdem"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "żball"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "verżjoni ta' GNOME mhux appoġġjata"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "jibda wara li terġa' tidħol"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "aġġornat; verżjoni ġdida wara li terġa' tidħol"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "mhux installat"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "mhux magħruf (GNOME Shell mhux raġġungibbli)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: jintwera l-istat tas-sessjoni li qed taħdem."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr ""
+"GNOME Shell mhux raġġungibbli: huma magħrufa biss is-settings issejvjati."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr ""
+"L-estensjonijiet ta' GNOME huma mitfija; l-ebda funzjoni ma taħdem sakemm "
+"jinxtegħlu."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "FUNZJONI"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "ISSEJVJAT"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "F'DIN IS-SESSJONI"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "mixgħula"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "mitfija"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr ""
+"{}: qed tintuża kopja fil-folder tad-dar tiegħek minflok dik installata: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr ""
+"{}: is-setting issejvjat huwa differenti mis-sessjoni; jgħodd wara li terġa' "
+"tidħol."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr "{}: “{}” jipprovdi l-istess; l-użu taż-żewġ joħloq problemi."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: “{}” jista' jipprovdi l-istess."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "Agħti ismijiet ta' funzjonijiet jew --all, mhux it-tnejn."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr "Semmi mill-inqas funzjoni waħda, jew uża --all. Funzjonijiet: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "Funzjoni mhux magħrufa: {}. Funzjonijiet: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "is-setting ma setax jiġi ssejvjat"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: mixgħula"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: mitfija"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: diġà mixgħula"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: diġà mitfija"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: diġà mixgħula fis-settings issejvjati"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: diġà mitfija fis-settings issejvjati"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: falliet: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"L-estensjonijiet ta' GNOME huma mitfija; il-funzjonijiet mixgħula jibdew "
+"ladarba jinxtegħlu (gsettings set org.gnome.shell disable-user-extensions "
+"false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr "L-ebda preset issejvjat ma jismu “{}”. Ara deskence preset list."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr ""
+"Diversi presets issejvjati jisimhom “{}”; uża wieħed mill-IDs tagħhom: {}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "Funzjoni {}: ixgħel"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "Funzjoni {}: itfi"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "Dock: l-immaġni tiegħek tal-buttuna tal-applikazzjonijiet"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Twissija: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "Maqbuż: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "Il-preset ma ġiex applikat: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "Dawn il-bidliet ma setgħux jiġu mreġġa' lura: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "Is-settings preċedenti ġew irrestawrati."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "Il-preset ma ġiex applikat; xejn ma nbidel. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"Il-preset ġie applikat parzjalment biss; dawn is-settings ma ġewx "
+"issejvjati: {}. Reġġgħu lura b': deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "Funzjonijiet {}: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "L-ebda preset issejvjat."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "ISEM"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ID"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "MAĦLUQ"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "Is-settings tiegħek diġà jaqblu mal-preset “{}”."
+
+# NEEDS-REVIEW: number agreement for 11–19 and 20+ is approximate
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "Il-preset “{}” ibiddel {} setting:"
+msgstr[1] "Il-preset “{}” ibiddel {} settings:"
+msgstr[2] "Il-preset “{}” ibiddel {}-il setting:"
+msgstr[3] "Il-preset “{}” ibiddel {} setting:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "Xejn ma nbidel (--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "Tapplika l-preset?"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr "Il-preset “{}” ġie applikat. Reġġgħu lura b': deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "{} ma jistax jiġi importat: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"Preset issejvjat diġà jismu “{}”. Agħżel isem ieħor b'--name, jew ibdlu b'--"
+"replace."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr ""
+"Il-preset “{}” huwa validu u jiġi ssejvjat; xejn ma nbidel (--dry-run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr ""
+"Il-preset “{}” ġie ssejvjat bħala {}. Applikah b': deskence preset apply {}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "Tissejvja u tapplika l-preset?"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"Il-preset “{}” ġie ssejvjat bħala {} u applikat. Reġġgħu lura b': deskence "
+"preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "{} huwa folder; agħti isem ta' fajl."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "{} diġà jeżisti. Uża --force biex tibdlu."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "{} ma jistax jinkiteb: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "Is-settings ġew esportati lejn {} (arkivju bl-immaġnijiet)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "Is-settings ġew esportati lejn {}."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr ""
+"L-ebda immaġni tiegħek mhi qed tintuża, għalhekk il-fajl huwa JSON sempliċi."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr "Is-settings jerġgħu lura kif kienu eżatt qabel l-aħħar importazzjoni."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "Il-preset ma biddel xejn li jista' jitreġġa' lura."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "It-treġġigħ lura ta' “{}” jirrestawra:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"Inbidlu wara li ġie applikat il-preset, għalhekk jitħallew kif inhuma (żid --"
+"include-changed biex treġġagħhom lura wkoll): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "Treġġa' lura l-preset?"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "Il-preset treġġa' lura parzjalment biss: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "Is-settings preċedenti ġew irrestawrati."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "Agħti x'għandu jiġi rrestawrat jew --all, mhux it-tnejn."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr "Semmi x'għandu jiġi rrestawrat, jew uża --all. Għażliet: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "Għażla mhux magħrufa: {}. Għażliet: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "Kollox diġà fid-default tiegħu; xejn x'jiġi rrestawrat."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "Irrestawrat għad-default ({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "Deskence kollu"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "Il-veduta tal-applikazzjonijiet terġa' lura għall-ordni tiegħek."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "Il-funzjoni app-grid (ordni alfabetiku) tintefa."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"Mhux mibdula: funzjonijiet mixgħula oħra, applikazzjonijiet ippinjati, fajls "
+"fuq id-desktop, immaġnijiet tiegħek, presets issejvjati u l-istorja tal-"
+"clipboard."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "Tirrestawra dawn is-settings?"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "Xi settings ma setgħux jiġu rrestawrati: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "Is-settings default ġew irrestawrati."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: żball: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"Settings ta' Deskence mil-linja tal-kmand. Mingħajr kmand, tinfetaħ it-tieqa "
+"tas-settings (deskence [--page PAĠNA])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"Funzjonijiet: {}. Status tal-ħruġ: 0 lest, 1 falla, 2 linja tal-kmand "
+"invalida, 3 mhux ikkonfermat, 4 issejvjat iżda mhux ikkonfermat fis-sessjoni "
+"GNOME li qed taħdem. Ara man deskence."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "KMAND"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "ipprintja dokument JSON minflok test"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "uri l-istat issejvjat u l-istat attwali ta' kull funzjoni"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "ixgħel funzjonijiet"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "itfi funzjonijiet; is-settings tagħhom jinżammu"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "waħda minn: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "il-funzjonijiet kollha ta' Deskence (qatt estensjonijiet oħra)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "elenka, applika, importa u esporta presets"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "Il-presets jiġu ssejvjati f'{}."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "AZZJONI"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "uri biss x'jinbidel"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "titlobx konferma"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "uri l-presets issejvjati"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "applika preset issejvjat"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "isem jew ID ta' preset issejvjat"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr "iċċekkja fajl ta' preset u ssejvjah fost il-presets"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "FAJL"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr "preset .json jew arkivju .deskence"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "issejvjah b'dan l-isem"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "ibdel preset issejvjat bl-istess isem"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "applikah ukoll"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "ikteb is-settings kurrenti f'fajl"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "isem maħżun fil-preset"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "inkludi l-applikazzjonijiet ippinjati"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "inkludi l-folders fid-dock"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "inkludi l-immaġnijiet tiegħek (jikteb arkivju)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "ibdel fajl eżistenti"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "reġġa' lura l-aħħar preset applikat"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr "reġġa' lura wkoll settings mibdula wara li ġie applikat il-preset"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "irrestawra s-settings default"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "PARTI"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "is-settings kollha ta' Deskence; jitfi wkoll il-funzjoni app-grid"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "uri rapport għar-rapporti tal-bugs (xejn ma jintbagħat)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"Il-bus tas-sessjoni mhuwiex disponibbli, għalhekk dconf ma jistax jissejvja "
+"s-settings. Ħaddem il-kmand f'terminal tas-sessjoni GNOME tiegħek jew wara "
+"li tidħol f'console tat-test bħala l-istess utent."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr ""
+"Is-settings jinżammu biss fil-memorja (GSETTINGS_BACKEND=memory) u jintilfu."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "Uri l-Istorja tal-Clipboard"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "Jiftaħ l-istorja tat-testi u l-immaġnijiet ikkupjati"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr "Jaqleb “Dejjem Fuq” għat-tieqa bil-fokus (shortcut ta' GNOME)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "Fit-tieqa tas-settings ta' Deskence"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "Dan mhuwiex shortcut validu."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "Buttuna modifikatriċi waħedha ma tistax tkun shortcut."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr ""
+"Uża Ctrl, Alt jew Super flimkien mal-buttuna, jew buttuna tal-funzjoni."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"L-applikazzjonijiet jużaw dan it-tip ta' shortcut huma stess. Żid Super, jew "
+"għaqqad Ctrl u Alt."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "Shortcut tiegħek"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "Diġà użat għal: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "dock, taskbar, launcher, panew, panel"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "zoom, kabbar, tkabbir, lenti"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "ħabi awtomatiku, ħabi, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "munzelli, folders, downloads, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "miniaturi, twieqi, previews, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "badges, mhux moqri, notifiki, messaġġi, għadd"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "download, progress, bar tal-progress"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "desktop, fajls, ikoni"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr ""
+"grilja tal-applikazzjonijiet, applikazzjonijiet, apps, launcher, menu, app "
+"grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "issortjar, alfabetiku, ordni, irranġa"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "folders, madum, gruppi"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "hover, enfasi, pointer"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "tray, indikaturi, ikoni tal-istatus, żona tan-notifiki"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "sospensjoni, irqad, kaffeina, caffeine, ipprevjeni, imqajjem"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "screensaver, skrin iswed, issakkar"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "bar tat-titlu, buttuni, minimizza, massimizza"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "ikkopja, waħħal, clipboard, storja"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr "tastiera, shortcuts tat-tastiera, buttuni, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "bug, żball, dijanjostika, rapport, problema"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "backup, presets, trasferiment"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "lingwa, traduzzjoni, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "Mitfi"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "Irrestawra x-Shortcut Default"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "Issettja Shortcut"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "Agħfas ix-shortcut il-ġdid għal “{}”. Escape jikkanċella."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "Irrestawra d-_Default"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "Ix-shortcut default diġà qed jintuża: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "Dan ix-Shortcut Ma Jistax Jintuża"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "Shortcuts tat-Tastiera"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "Kullimkien"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"Il-kunflitti ma' shortcuts oħra ta' Deskence u ma' dawk ta' GNOME stess jiġu "
+"rrifjutati. Ix-shortcuts ta' applikazzjonijiet u estensjonijiet oħra ma "
+"jistgħux jiġu ċċekkjati."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "Fit-Tieqa tas-Settings"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "Jaħdem sakemm “{}” ikun mixgħul"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "Malti"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "Bidu tas-Sessjoni"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "Uri d-_Desktop Wara li Tidħol"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "Ibda fuq id-desktop minflok fil-ħarsa ġenerali tal-attivitajiet"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr ""
+"Id-dock, id-desktop u l-funzjonijiet l-oħra dejjem jużaw il-lingwa tas-"
+"sistema."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "_Lingwa tal-Applikazzjoni"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "Settings u l-kmand deskence"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "Il-lingwa l-ġdida tintuża wara restart"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "_Erġa' Ibda"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "Presets"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr "Issejvja s-settings kurrenti biex terġa' lura għalihom aktar tard."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "L-ebda preset issejvjat"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "_Issejvja s-Settings Kurrenti…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "Trasferiment tas-Settings"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"Ittrasferixxi s-settings fuq kompjuter ieħor jew żommhom għal installazzjoni "
+"mill-ġdid. Qabel l-importazzjoni, tara x'jinbidel."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "_Esporta f'Fajl…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "_Importa minn Fajl…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "_Reġġa' Lura l-Aħħar Preset Applikat…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "_Shortcuts tat-Tastiera"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr "Ara u biddel ix-shortcuts kollha ta' Deskence f'post wieħed"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"Verżjonijiet, it-tip ta' sessjoni, l-iskrins u l-istat ta' kull funzjoni, "
+"biex twaħħalhom f'rapport ta' bug. Xejn privat mhu inkluż, u xejn ma "
+"jintbagħat imkien."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "Uri r-_Rapport…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "_Ikkopja d-Dijanjostika"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "Issejvja r-Rapport f'_Fajl…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "_Irrestawra s-Settings Default ta' Deskence…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "Ordni"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr ""
+"Kif huma rranġati l-applikazzjonijiet fil-veduta tal-applikazzjonijiet fuq "
+"skrin sħiħ."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "_Ordni tal-Applikazzjonijiet"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "Ordni Tiegħek"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "Alfabetiku"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "Sfond"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "Meta jkun mitfi, jintuża l-kulur tal-istil ta' GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "_Trasparenza tal-Isfond Tiegħek"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "Meta jkun mitfi, l-isfond huwa opak, bħal f'GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "Trasparenza tal-_Isfond"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "Folders tal-Applikazzjonijiet"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "Ku_lur tal-Folders Tiegħek"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "Kulur tal-Folders"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "Tras_parenza tal-Folders Tiegħek"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "Meta jkun mitfi, tintuża t-trasparenza tal-istil ta' GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "Tr_asparenza tal-Folders"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "Enfasi tal-Hover"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "Kulur tal-_Enfasi Tiegħek"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "Kulur tal-Enfasi"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "Trasparenza tal-Enfasi Tiegħe_k"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"Il-kopja u l-waħħil jaħdmu bħal qabel. L-istorja tat-testi u l-immaġnijiet "
+"ikkupjati tinfetaħ bix-shortcut tagħha."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "Storja tal-_Clipboard"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "_Waħħal l-Oġġett Magħżul"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Iwaħħal fit-tieqa li kont fiha, b'Ctrl+V (Ctrl+Shift+V fit-terminals). Meta "
+"jkun mitfi, l-oġġett jitqiegħed biss fil-clipboard."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "Dejjem Waħħal it-Test _Mingħajr Formattjar"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"L-oġġetti eqdem huma dejjem test sempliċi. Shift+Enter iwaħħal test sempliċi "
+"fi kwalunkwe ħin."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "Ftakar Ukoll it-_Test Magħżul"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "Test magħżul bil-maws, li l-buttuna tan-nofs twaħħal"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "Ħażna"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"L-istorja tinżamm biss fil-memorja u tisparixxi wara li toħroġ. L-oġġetti "
+"ppinjati jibqgħu meta l-istorja titnaddaf u ma jgħoddux għal-limitu. Il-"
+"kontenut li l-applikazzjonijiet jimmarkaw bħala sigriet, bħal minn managers "
+"tal-passwords, ma jiġix imfakkar; mhux kull password tista' tingħaraf."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "_Oġġetti Mfakkra"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "_Żomm Wara li Toħroġ"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "Xejn"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "Oġġetti Ppinjati"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "L-Istorja Kollha"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "_Waqqaf il-Ftakir"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "Ma jiżdiedux oġġetti ġodda sakemm dan jintefa"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "Folder %s"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "Lura"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "Data"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "Tip"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "Issortja skont %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "Uri bħala Grilja"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "Uri bħala Lista"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "Dan il-folder standard mhuwiex issettjat."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "Qed jitgħabba…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "Dan il-folder ma għadux jeżisti."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "M'għandekx permess tiftaħ dan il-folder."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "Dan il-folder ma jistax jinfetaħ: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "Dan il-folder huwa vojt."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"Dan il-folder fih aktar minn %d oġġett; jintwerew biss l-ewwel. Iftħu "
+"f'Files biex tarahom kollha."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "Folder"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "Ma setax jinfetaħ “%s”"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "Ikkopja"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "Aqta'"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "%s mhuwiex disponibbli"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "%s huwa biss għall-qari"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "Folder ma jistax jitqiegħed ġo fih innifsu"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "Diġà f'%s"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "Jistgħu jitqiegħdu biss fajls ġo folder"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "Mexxi lejn %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Ikkopja lejn %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Mexxi jew ikkopja lejn %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "Il-fajls ma jistgħux jitmexxew lejn %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "Il-fajls ma jistgħux jiġu kkupjati lejn %s"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr ""
+"Biex tikkopja u tmexxi fajls mid-dock hemm bżonn l-applikazzjoni Files."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Il-fajls ma jistgħux jinfetħu f'%s"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Iftaħ b'%s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "%s ma jistax jiftaħ fajls"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Ma jistax jiġi kkonfermat li %s jiftaħ dawn il-fajls"
+
+# NEEDS-REVIEW: number agreement is approximate
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "%d mill-fajls m'għadux disponibbli"
+msgstr[1] "%d mill-fajls m'għadhomx disponibbli"
+msgstr[2] "%d mill-fajls m'għadhomx disponibbli"
+msgstr[3] "%d mill-fajls m'għadhomx disponibbli"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "%s ma jiftaħx dan it-tip ta' fajl"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "%s ma jiftaħx %d minn dawn il-fajls"
+msgstr[1] "%s ma jiftaħx %d minn dawn il-fajls"
+msgstr[2] "%s ma jiftaħx %d minn dawn il-fajls"
+msgstr[3] "%s ma jiftaħx %d minn dawn il-fajls"
+
+# NEEDS-REVIEW: number agreement is approximate
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, %d oġġett ġdid"
+msgstr[1] "%s, %d oġġetti ġodda"
+msgstr[2] "%s, %d-il oġġett ġdid"
+msgstr[3] "%s, %d oġġett ġdid"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "L-applikazzjonijiet huma ssortjati alfabetikament"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr "Biex tirranġahom int, agħżel “Ordni Tiegħek” f'Deskence."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "Lest biex Jitwaħħal"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "Issa stess"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d minuta ilu"
+msgstr[1] "%d minuti ilu"
+msgstr[2] "%d-il minuta ilu"
+msgstr[3] "%d minuta ilu"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d siegħa ilu"
+msgstr[1] "%d sigħat ilu"
+msgstr[2] "%d-il siegħa ilu"
+msgstr[3] "%d siegħa ilu"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "Storja tal-Clipboard"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "Fittex fl-istorja"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "Naddaf l-Istorja"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: waħħal · Shift+Enter: waħħal bħala test sempliċi · Delete: neħħi · "
+"Ctrl+P: ippinja"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "Kompli l-Ftakir"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "Waqqaf il-Ftakir"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "Erġa' Kklikkja biex Tnaddaf"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr "Erġa' kklikkja biex tneħħi l-oġġetti kollha ħlief dawk ippinjati."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "L-oġġetti ġodda ma jiġux imfakkra sakemm tkompli."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr "Għadu ma ġie kkupjat xejn. L-oġġetti li tikkopja jidhru hawn."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "L-ebda oġġett ma jaqbel mat-tiftix."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "Immaġni, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "Neħħi l-Pinna"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "Ippinja"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "Neħħi"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "“Żomm Imqajjem” mixgħul: l-iskrin jibqa' mixgħul"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "“Żomm Imqajjem” mixgħul"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "Inqas"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "Jipprevjeni s-sospensjoni awtomatika"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "Sakemm Jintefa"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d Minuta"
+msgstr[1] "%d Minuti"
+msgstr[2] "%d-il Minuta"
+msgstr[3] "%d Minuta"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d Siegħa"
+msgstr[1] "%d Sigħat"
+msgstr[2] "%d-il Siegħa"
+msgstr[3] "%d Siegħa"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "Żomm l-Iskrin Mixgħul"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "L-iskrin imbagħad ma jintefiex u ma jissakkarx awtomatikament"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "Waqqaf Issa"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "Sa %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "Sakemm jintefa"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "Fadal %d minuta"
+msgstr[1] "Fadal %d minuti"
+msgstr[2] "Fadal %d-il minuta"
+msgstr[3] "Fadal %d minuta"

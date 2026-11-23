@@ -1,0 +1,4581 @@
+# Hungarian translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "Asztalbeállítások"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr "Dokk, asztali ikonok, alkalmazásikonok a felső sávon és ablakgombok"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"dokk;asztal;ikonok;értesítési "
+"terület;indikátor;tálca;minimalizálás;maximalizálás;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "Dokk, asztali ikonok és értesítési terület a GNOME-hoz"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"A Deskence néhány kényelmi funkcióval egészíti ki a szabványos GNOME "
+"asztalt, és egy helyen teszi lehetővé ezek beállítását."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"Dokk a kitűzött és futó alkalmazásokkal, mappákkal, meghajtókkal és a "
+"kukával, valamint az ablakok előnézeteivel"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "Fájlok és mappák az asztalon"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr ""
+"Alkalmazásikonok a felső sávon, például üzenetküldőkből és "
+"fájlszinkronizálóktól"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "Vágólapelőzmények és „Ébren tartás” a gyorsbeállításokban"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "Az alkalmazásnézet betűrendje"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr "Kis méret és teljes méret gombok az ablakok címsorában"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr ""
+"Előbeállítások a beállítások mentéséhez és másik számítógépre viteléhez"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr ""
+"A meglévő GNOME munkamenetben működik, és megtartja a GNOME megszokott "
+"megjelenését."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"A Deskence mostantól 29 nyelven érhető el: az Európai Unió összes hivatalos "
+"nyelvén, valamint koreaiul, egyszerűsített és hagyományos kínaiul, szerbül "
+"és filippínóul. A beállítások nyelvlistája megnevezi a rendszer által "
+"használt nyelvet."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"Beállítások: a beállítások ablakának és a deskence parancsnak a nyelve az "
+"Általános oldalon választható, a rendszertől függetlenül."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"Dokk: fájlok és mappák másolása vagy kivágása egy mappapanelen (jobb "
+"kattintás, Ctrl+C, Ctrl+X), majd beillesztése a Fájlokba vagy az asztalra."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Dokk: fájlok és mappák húzása egy mappapanelről a dokk egy másik mappájára "
+"vagy az asztalra áthelyezéshez vagy másoláshoz."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Dokk: az alkalmazások csak az általuk megadott típusú ráejtett fájlokat "
+"nyitják meg; egyébként a dokk elmagyarázza, miért nem."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr "Dokk: a mappák alatti jelölés megfelel az alkalmazások pontjainak."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"Indítás az asztalon: bejelentkezés után az asztal, a felső sáv és az ablakok "
+"ismét reagálnak a kattintásokra kikapcsolt animációk mellett is, például 3D-"
+"gyorsítás nélküli virtuális gépeken; korábban csak a dokk reagált, amíg az "
+"áttekintést egyszer meg nem nyitották."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"Opcionális diagnosztika azokhoz a jelentésekhez, amikor az asztal és az "
+"ablakok nem reagálnak a kattintásokra."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"Dokk: a fájlok dokkra húzása mindig rendben véget ér, akkor is, ha az "
+"ejtéskor valami hiba történik."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Dokk: ejtsen fájlokat egy alkalmazásra, hogy abban nyíljanak meg, vagy egy "
+"mappára, hogy oda másolja vagy áthelyezze őket; tartson egy fájlt egy mappa "
+"fölött, hogy megnyissa, és egy almappájába ejtse."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"Beállítások: bármely beállítás keresése Ctrl+F billentyűkkel, az összes "
+"gyorsbillentyű kezelése egy helyen ütközésellenőrzéssel, valamint jelentés "
+"másolása vagy mentése hibabejelentéshez."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"Előbeállítások: egy alkalmazott előbeállítás visszavonása csak azt állítja "
+"vissza, amit megváltoztatott, és megtartja a később módosított beállításokat."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr ""
+"Dokk: olvasatlan számlálók és műveletek folyamata az alkalmazásikonokon, "
+"azoknál az alkalmazásoknál, amelyek jelentik ezeket."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"Parancssor: minden funkció állapotának ellenőrzése, funkciók ki- és "
+"bekapcsolása, előbeállítások alkalmazása, importálása és exportálása, "
+"alapértelmezett beállítások visszaállítása és diagnosztikai adatok gyűjtése "
+"a deskence paranccsal, szöveges konzolról is, ha az asztal nem működik. "
+"Lásd: man deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"Az alapértelmezett beállítások visszaállítása már nem törli a kijelentkezés "
+"után megőrzött vágólapelőzményeket."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"Alkalmazásnézet: saját szín és átlátszóság a mutató alatti kiemeléshez "
+"alkalmazásokon és alkalmazásmappákon; egy mappa fölé húzva már nem "
+"rajzolódik körvonal."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"Mappák a dokkban: a panel legfeljebb a képernyő magasságának felét foglalja "
+"el, az egész mappán végig lehet görgetni, billentyűzettel is, és egy almappa "
+"után visszatér az előző helyre."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"Beállítások: érthetőbb leírások, jobb lengyel megfogalmazások és kevesebb "
+"ütköző gyorsbillentyű."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"Dokk: a teljes élen végigfutó dokk illeszkedik a felső sávhoz a "
+"Tevékenységek áttekintésben és az alkalmazásnézetben; a rövid dokk megtartja "
+"saját megjelenését."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"Alkalmazásnézet: a saját színű vagy átlátszóságú mappacsempék mostantól jól "
+"láthatóan jelzik a rámutatást, a lenyomást, a fókuszt és a kijelölést."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"Alkalmazásnézet: saját szín és átlátszóság az olyan mappacsempékhez, mint a "
+"„Segédprogramok”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"Általános: bejelentkezés után igény szerint indulás az asztalon a "
+"Tevékenységek áttekintés helyett."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr ""
+"Dokk: mostantól beleolvad a Tevékenységek áttekintésbe, ahelyett hogy külön "
+"sávot alkotna."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"Hivatkozások a projekt oldalára és a hibakövetőre, angol nyelvű "
+"dokumentáció. Az alkalmazás nem változott."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"Beállítások: Általános oldal előbeállításokkal, a beállítások exportálásával "
+"és importálásával, valamint az alapértékek visszaállításával; "
+"Alkalmazásnézet oldal betűrendes rendezéssel; nyugodtabb előnézetek."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"Dokk: a tartalmukat megjelenítő mappák, ablakok bezárása és bekukucskálás az "
+"előnézetükből, „Mindig felül” az előnézet menüjében."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"Újdonságok: vágólapelőzmények, „Ébren tartás” a gyorsbeállításokban, "
+"gyorsbillentyű a „Mindig felül” funkcióhoz."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"A Better GNOME Desktop új neve Deskence. A beállítások, a bekapcsolt "
+"funkciók, a kitűzött alkalmazások és az asztali ikonok helyzete átkerül."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"Dokk: egy alkalmazás ablakainak előnézete, amikor a mutató rajta időzik, "
+"nincs többletterület az alkalmazások gomb mellett nagyított ikonoknál, "
+"futásjelzők az alsó dokk ikonjai alatt."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"Beállítások: nagyobb, áttekinthetőbb előnézetek a dokkról és az asztali "
+"ikonokról, oldalikonok, „Névjegy” menüpont."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "A Better GNOME Desktop új neve Deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"Dokk: éles nagyított ikonok, saját háttér esetén nincsenek csempék az ikonok "
+"alatt, egyszínű disztribúciós logó, az alkalmazáslista a teljes élen "
+"végigfutó dokk elején, futásjelzők a belső oldalon."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"Alkalmazásnézet: egyetlen folyamatos átmenet bezáráskor, opcionális saját "
+"háttérszín."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"Asztal: a menük a kattintás helyén nyílnak meg, a dokk mellett is; az "
+"ikonrács a választott sarokban kezdődik kis margókkal."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"Dokk: alkalmazások gomb bármelyik végén választható ikonnal, nagyított "
+"ikonok, görgetés, ha az alkalmazások nem férnek el, saját háttérszín és "
+"átlátszóság, beállítások az alkalmazások gomb menüjében, átlátszó háttér az "
+"alkalmazásnézethez."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"Asztali ikonok: szabad elhelyezés vagy rácshoz igazítás, „Rácshoz igazítás”, "
+"az egész asztal használható a dokk mellett, a dokkal együtt el nem mozduló "
+"ikonhelyzetek."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"Javítások: az alkalmazásnézet gördülékeny bezárása, a dokkikonok azonnali "
+"átrendezése, nincs keret az asztali ikonok húzásakor, mindenhol ugyanaz az "
+"asztali menü."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "Első kiadás."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "A beállítások szerkezetének verziója"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"A beállítóalkalmazás használja a mentett értékek kiadások közötti "
+"átalakításához. A 0 azt jelenti, hogy a beállításokat még soha nem "
+"alakították át."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "A Better GNOME Desktop beállításai átvéve"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Akkor kerül beállításra, amikor a Better GNOME Desktop (0.3.0 és régebbi) "
+"által mentett beállítások ide lettek másolva. Az itt már beállított értékek "
+"soha nem íródnak felül; a korábbi beállítások megmaradnak."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "Az asztal megjelenítése bejelentkezés után"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"Ha igaz, egy új munkamenet az asztalon indul a Tevékenységek áttekintés "
+"helyett. Csak a munkamenet kezdetét érinti: az áttekintés későbbi "
+"megnyitása, a képernyő feloldása vagy a funkciók be- és kikapcsolása soha "
+"nem zárja be. A dokk kiterjesztése alkalmazza."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "A Deskence alkalmazás nyelve"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"A beállítások ablakának és a deskence parancsnak a nyelve: a Deskence-szel "
+"telepített fordítás kódja (például \"pl\"), \"en\" az angolhoz, vagy üres a "
+"rendszer követéséhez. A telepített fordítás nélküli kód angolt jelent. A "
+"GNOME Shell kiterjesztések és az asztali ikonok mindig a GNOME Shell nyelvét "
+"követik. Az alkalmazás indításakor lép érvénybe."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "A dokk képernyőszéle"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\" (bal), \"bottom\" (alsó) vagy \"right\" (jobb)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "A dokk hossza"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr ""
+"\"fit\": csak olyan hosszú, amennyire az ikonoknak szükségük van. \"full\": "
+"a teljes képernyőszél."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "Ikonméret logikai képpontban"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"A többi GNOME Shell ikonhoz hasonlóan a monitor méretezése és a shelltéma "
+"szövegméretezési tényezője szerint méreteződik."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "Mikor rejtőzik el a dokk"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": mindig látható, és az ablakok nem kerülnek a területére. "
+"\"intellihide\": rejtett, amíg egy ablak takarja ugyanazon a monitoron. "
+"\"autohide\": rejtett, amíg a mutató el nem éri a képernyő szélét."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "Mely monitorokon jelenik meg a dokk"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\" (elsődleges), \"selected\" (kiválasztott, lásd: selected-"
+"monitor) vagy \"all\" (összes)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "A kiválasztott monitor csatlakozója"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"Csatlakozónév, például \"DP-1\". Akkor használatos, ha a monitor-mode értéke "
+"\"selected\"; amíg az a monitor nincs csatlakoztatva, az elsődleges monitor "
+"lesz használva."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "A kuka megjelenítése"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "Cserélhető meghajtók megjelenítése"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "Hálózati helyek megjelenítése"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "Az alkalmazások gomb megjelenítése"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "Az alkalmazások gomb helye"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": a dokk első eleme (vízszintes dokkban balra, függőlegesben fent). "
+"\"end\": utolsó elem (jobbra vagy lent)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "Az alkalmazások gomb ikonja"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": a GNOME alkalmazásikonja. \"distribution\": a telepített "
+"disztribúció logója a rendszerre telepített ikonok közül; az alapértelmezett "
+"ikon, ha nincs ilyen. \"custom\": az apps-button-custom-icon kulcsban "
+"megadott kép."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "Az alkalmazások gomb saját ikonja"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"A választott kép másolatának útvonala, amelyet a Deskence felhasználói "
+"adatmappája őriz, hogy akkor is működjön, ha az eredeti fájlt áthelyezik "
+"vagy törlik. Ha a fájl nem tölthető be, az alapértelmezett ikon lesz "
+"használva."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "Ikonok nagyítása a mutató alatt"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"A mutatóhoz közeli ikonok egyenletesen megnőnek, miközben a mutató a dokk "
+"fölött mozog. Nem látható, ha az animációk ki vannak kapcsolva a GNOME-ban."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "Nagyítás erőssége"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr "A mutató alatti ikon mérete a normál méretéhez képest."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "A dokk saját háttérszíne"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr "Ha hamis, a dokk hátterének színe a jelenlegi GNOME stílus színe."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "A dokk háttérszíne"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"Szín \"#rrggbb\" formában, akkor használatos, ha a background-custom-color "
+"igaz. Nincs saját átlátszósága: azt a background-transparency adja."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "A dokk saját háttér-átlátszósága"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr ""
+"Ha hamis, a dokk háttere olyan átlátszó, amilyenné a jelenlegi GNOME stílus "
+"teszi."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "A dokk háttér-átlátszósága"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: átlátszatlan. 100: teljesen átlátszó. Csak a háttér; az ikonok, jelzők, "
+"címkék és menük megtartják saját láthatóságukat. Akkor használatos, ha a "
+"background-custom-transparency igaz."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "Az alkalmazásnézet saját háttér-átlátszósága"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr ""
+"Ha hamis, a dokkból megnyitott teljes képernyős alkalmazásnézet a GNOME "
+"szabványos hátterét kapja."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "Az alkalmazásnézet saját háttérszíne"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"Ha hamis, a dokkból megnyitott teljes képernyős alkalmazásnézet a GNOME "
+"szabványos hátterének színét kapja. Független a dokk hátterétől."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "Az alkalmazásnézet háttérszíne"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"Szín \"#rrggbb\" formában, akkor használatos, ha az app-grid-custom-color "
+"igaz. Nincs saját átlátszósága: azt az app-grid-transparency adja (vagy "
+"átlátszatlan, ha az app-grid-custom-transparency hamis)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "Az alkalmazásnézet háttér-átlátszósága"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: átlátszatlan háttér (szabványos vagy saját szín). 100: teljesen átlátszó, "
+"az alkalmazások mögött csak a háttérkép látszik. Csak a háttér változik; az "
+"ikonok, nevek és a keresőmező teljesen láthatók maradnak. Akkor használatos, "
+"ha az app-grid-custom-transparency igaz."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "Az alkalmazásmappák saját háttérszíne"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"Ha hamis, az alkalmazásnézet mappacsempéi (például \"Segédprogramok\") a "
+"jelenlegi GNOME stílus színét kapják. Csak a csempe háttere változik; az "
+"alkalmazások bélyegképei és a mappa neve változatlanok maradnak, és egy "
+"megnyitott mappa paneljét ez nem érinti."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "Az alkalmazásmappák háttérszíne"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"Szín \"#rrggbb\" formában, akkor használatos, ha az app-grid-folder-custom-"
+"color igaz. Nincs saját átlátszósága: azt az app-grid-folder-transparency "
+"adja (vagy a GNOME stílus alfája, ha az app-grid-folder-custom-transparency "
+"hamis)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "Az alkalmazásmappák saját háttér-átlátszósága"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"Ha hamis, az alkalmazásnézet mappacsempéi olyan átlátszatlanok, amilyenné a "
+"jelenlegi GNOME stílus teszi őket."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "Az alkalmazásmappák háttér-átlátszósága"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: átlátszatlan csempeháttér. 100: teljesen átlátszó; a mappa az alkalmazás-"
+"bélyegképeiről és a nevéről ismerhető fel. A rámutatás, a kijelölés és a "
+"billentyűzetfókusz látható marad. Akkor használatos, ha az app-grid-folder-"
+"custom-transparency igaz."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr "A rámutatási kiemelés saját színe az alkalmazásnézetben"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"Ha hamis, a mutató alatt megjelenő kiemelés az alkalmazásokon, "
+"alkalmazásmappákon és egy megnyitott mappa alkalmazásain a jelenlegi GNOME "
+"stílus színét kapja. A dokkot, az asztalt és a mappakötegeket ez nem érinti."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "A rámutatási kiemelés színe az alkalmazásnézetben"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"Szín \"#rrggbb\" formában, akkor használatos, ha az app-grid-hover-custom-"
+"color igaz. Nincs saját átlátszósága: azt az app-grid-hover-transparency "
+"adja (vagy a GNOME stílus alfája, ha az app-grid-hover-custom-transparency "
+"hamis)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr "A rámutatási kiemelés saját átlátszósága az alkalmazásnézetben"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"Ha hamis, a rámutatási kiemelés olyan átlátszatlan, amilyenné a jelenlegi "
+"GNOME stílus teszi."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr "A rámutatási kiemelés átlátszósága az alkalmazásnézetben"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: átlátszatlan kiemelés. 100: teljesen átlátszó; ilyenkor egy mappa a "
+"mutató alatt ugyanúgy néz ki, mint nyugalmi helyzetben. Csak a kiemelés "
+"változik; az ikonok és nevek teljesen láthatók maradnak, és a "
+"billentyűzetfókusz jelölve marad. Akkor használatos, ha az app-grid-hover-"
+"custom-transparency igaz."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "Kattintás egy futó alkalmazásra"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": a legutóbb használt ablak fókuszba hozása; ha az "
+"alkalmazás már fókuszban van, váltás a következő ablakára. \"minimize-or-"
+"cycle\": mint a focus-or-cycle, de az egyetlen fókuszban lévő ablakkal "
+"rendelkező alkalmazás kis méretre vált."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "Csak a jelenlegi munkaterület alkalmazásainak megjelenítése"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"Ha igaz, a futó (nem kitűzött) alkalmazások csak akkor jelennek meg, ha van "
+"ablakuk az aktív munkaterületen, és a kattintás csak ezek között az ablakok "
+"között vált."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "Az alkalmazások számlálóinak megjelenítése"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"Ha igaz, egy számlálót jelentő alkalmazás (például olvasatlan üzenetek a "
+"LauncherEntry D-Bus API-n keresztül) megjeleníti azt a dokkikonján. A semmit "
+"sem jelentő alkalmazások semmit sem jelenítenek meg."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "Az alkalmazások folyamatának megjelenítése"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"Ha igaz, egy művelet folyamatát jelentő alkalmazás (például letöltés a "
+"LauncherEntry D-Bus API-n keresztül) sávként jeleníti meg azt a dokkikonján."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "Ablakelőnézetek megjelenítése rámutatáskor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"Amikor a mutató egy futó alkalmazáson időzik, megjelennek az ablakai (azok, "
+"amelyeket a dokk számol, lásd: isolate-workspaces) a címükkel; valamelyikre "
+"kattintva az az ablak aktiválódik."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "Bekukucskálás egy ablakba az előnézetéből"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"Amíg a mutató egy ablakelőnézeten időzik, az az ablak egy pillanatra a "
+"többi, elhalványított ablak fölött látszik. Semmi sem kerül fókuszba, nem "
+"emelkedik előre, nem áll vissza és nem mozdul el; az előnézet elhagyása vagy "
+"az Escape megnyomása véget vet neki."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "Mappák a dokkban"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"A dokkban megjelenített mappák sorrendben. Minden bejegyzés \"xdg:NÉV\" egy "
+"szabványos mappához (a NÉV a GLib.UserDirectory szerint, a DIRECTORY_ előtag "
+"nélkül, például \"xdg:DOWNLOAD\"), \"home:RELATÍV/ÚTVONAL\" egy saját mappán "
+"belüli mappához, vagy egy \"file://\" URI bármely más mappához. Egy "
+"bejegyzés eltávolítása soha nem érinti magát a mappát."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "Mappák megjelenítése a dokkban"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr "Ha hamis, a folder-stacks mappái megmaradnak, de nem jelennek meg."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "Hogyan jelenjen meg a mappák tartalma"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": nagy ikonok. \"list\": kisebb ikonok mérettel és dátummal. A "
+"mappapanelen módosítható."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "Az egyes mappák rendezési sorrendje"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"A folder-stacks egy bejegyzéséhez a \"name\", \"modified\" (legújabb elöl) "
+"vagy \"type\" értéket rendeli. A bejegyzés nélküli mappa név szerint "
+"rendeződik, kivéve a Letöltéseket (xdg:DOWNLOAD), amely a legújabb fájlokat "
+"mutatja elöl. A mappapanelen módosítható."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "Asztali ikonok mérete"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) vagy \"huge\" (128 "
+"px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "Sarok, ahová az új ikonok kerülnek"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "A saját mappa megjelenítése"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "Meghajtók és USB-kulcsok megjelenítése"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "Hogyan kerülnek el az áthelyezett ikonok"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": az ikonok pontosan ott maradnak, ahová ejtették őket. \"grid\": az "
+"ejtett ikonok a rácshoz igazodnak. A módosítás nem mozgatja a meglévő "
+"ikonokat; ezt az asztali menü \"Rácshoz igazítás\" pontja teszi."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "Elemek megnyitása egyszeres vagy dupla kattintással"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "Az „Ikonok elrendezése” által használt sorrend"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "Az asztali menü „Rendezés” pontjában módosítható."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "Passzív alkalmazásikonok megjelenítése"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"A StatusNotifierItem \"Passive\" állapotot határoz meg azokhoz az ikonokhoz, "
+"amelyeket egy alkalmazás lényegtelennek tart. Rejtve maradnak, hacsak ez nem "
+"igaz."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "Gombelrendezés az első módosítás előtt"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"Az org.gnome.desktop.wm.preferences button-layout értéke, amelyet a Deskence "
+"az első módosítása előtt mentett. Üres, ha semmi sem módosult."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "A Deskence által utoljára írt gombelrendezés"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"Annak megállapítására szolgál, hogy a felhasználó később máshol módosította-"
+"e az elrendezést; az eredeti érték visszaállítását csak addig kínálja, amíg "
+"a jelenlegi érték még egyezik ezzel."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "Az alkalmazásnézet sorrendje"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": a felhasználó által kialakított elrendezés (a GNOME saját app-"
+"picker-layout kulcsa és a mappalisták). \"alphabetical\": alkalmazások és "
+"mappák megjelenített név szerint a felhasználó nyelvén, és az egyes mappákon "
+"belüli alkalmazások is; a húzással történő átrendezés ki van kapcsolva. Az "
+"app-grid kiterjesztés tartja naprakészen."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "A betűrendes rendezés előtt mentett elrendezés"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"JSON, amely akkor íródik, amikor a sort-mode \"alphabetical\" értékre vált: "
+"az org.gnome.shell korábbi app-picker-layout értéke (GVariant szöveg) és az "
+"egyes mappák alkalmazáslistája. Visszaáll, amikor a sort-mode visszavált "
+"\"custom\" értékre. Belső; nem része az előbeállításoknak."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "A vágólapelőzményeket megnyitó gyorsbillentyű"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "A megjegyzett elemek legnagyobb száma"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr ""
+"A kitűzött elemek nem számítanak bele. A legrégebbi elemek felejtődnek el "
+"először."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "Mi marad meg kijelentkezés után"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": az előzmények csak a memóriában vannak, és kijelentkezés után "
+"eltűnnek. \"pinned\": a kitűzött elemek a felhasználói adatmappába "
+"mentődnek. \"all\": a teljes előzmény oda mentődik."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "Ne jegyezze meg az új elemeket"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr ""
+"Az előzménypanelen módosított ideiglenes állapot; nem része az "
+"előbeállításoknak."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "A kijelölt szöveg megjegyzése is"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"Az egérrel kijelölt szöveg (az elsődleges kijelölés, amely a középső gombbal "
+"illeszthető be) is bekerül az előzményekbe."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "Szöveg beillesztése mindig formázás nélkül"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"Az előzmények formázás nélkül tárolják a szöveget; csak a legújabb elem "
+"illeszthető be formázással, amíg az alkalmazás, amelyből másolták, még "
+"szolgáltatja. Ha igaz, ez az elem is egyszerű szövegként kerül "
+"beillesztésre. A Shift+Enter az előzményekben mindenképp egyszerű szöveget "
+"illeszt be."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "A választott elem azonnali beillesztése"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"Ha igaz, egy elem kiválasztása bezárja a panelt, és a Ctrl+V billentyűkkel "
+"beilleszti abba az ablakba, amely fókuszban volt. Ha hamis, az elem csak a "
+"vágólapra kerül."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "A képernyő bekapcsolva tartása is"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"Ha hamis, a számítógép ébren tartása csak az automatikus felfüggesztést "
+"akadályozza meg: a képernyő továbbra is a szokásos módon kikapcsol és "
+"zárolódik. Ha igaz, a képernyő is bekapcsolva marad, és nem zárolódik "
+"automatikusan."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "A gyorsbeállítások gombja által használt időtartam"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr ""
+"A legutóbb választott időtartam; a gombra kattintás újra ezt használja."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "Saját időtartam percben"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "Befejezési idő percben éjfél után"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr ""
+"Az „adott időpontig” használja: ennek a helyi időpontnak a következő "
+"előfordulása."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"Beállítási oldal megnyitása: general, dock, desktop-icons, app-grid, top-"
+"bar, windows vagy clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "OLDAL"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"Dokk mappákkal, asztali ikonok, alkalmazásikonok a felső sávon, "
+"vágólapelőzmények és ablakbeállítások a GNOME-hoz."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "Átlátszatlan"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "Átlátszó"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "_Mégse"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "Nincs telepítve. Telepítse újra a deskence csomagot."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "Ki- és újbóli bejelentkezés után indul"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "Frissítve; az új verzió az újbóli bejelentkezés után indul"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "A GNOME Shell nem fut; a következő GNOME munkamenetben lép érvénybe"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "Nem fut"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "A funkció hiba miatt leállt"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "Ez a GNOME verzió nem támogatott"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "A telepített verzió nem támogatja a GNOME {} verziót."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "A GNOME kiterjesztések ki vannak kapcsolva"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "A Deskence-nek szüksége van rájuk a funkciói megjelenítéséhez."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "_Bekapcsolás…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "Helyette egy másik példány van használatban"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "A saját mappában lévő példány helyettesíti a telepítettet: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "_Megjelenítés"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "Bekapcsolja a GNOME kiterjesztéseket?"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr ""
+"Ez a Kiterjesztések alkalmazásban engedélyezett többi kiterjesztést is "
+"bekapcsolja."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "_Bekapcsolás"
+
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "dokkot"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "asztali ikonokat"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "alkalmazásikonokat a felső sávon"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "az alkalmazásnézet rendezését"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "vágólapelőzményeket"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "a számítógép ébren tartását"
+
+# NEEDS-REVIEW: the accusative fragments 201–206 fit this frame; word order may need polishing
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr "Szintén biztosít {}. Mindkettő egyidejű használata problémákat okoz."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "Lehet, hogy szintén biztosít {}."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "Letiltja: „{}”?"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"A kiterjesztés telepítve marad, és a beállításai megmaradnak. A "
+"Kiterjesztések alkalmazásban újra bekapcsolhatja."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "_Letiltás"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "_Letiltás…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "Gyenge"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "Erős"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "Nagyítás erőssége"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "Háttér-átlátszóság"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "Ikonméret"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "A dokk mindig látható, és az ablakok nem takarják"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "Elrejtőzik, amíg egy ablak takarja"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "Megjelenik, amikor a mutatót a képernyő szélére viszi"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "Egy második kattintás az alkalmazás következő ablakára vált"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr ""
+"Egy fókuszban lévő ablakkal rendelkező alkalmazásra kattintva az kis méretre "
+"vált"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "Visszaállítja a dokk alapértelmezett beállításait?"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"A helyzet, a méret, a színek, az elrejtés, a monitor, a kattintás "
+"viselkedése és a megjelenített elemek visszaállnak az alapértelmezett "
+"értékekre. A kitűzött alkalmazások, a dokk mappái, az alkalmazásnézet és az, "
+"hogy a dokk látható-e, nem változik."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "_Visszaállítás"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr ""
+"Nem látható, ha az animációk ki vannak kapcsolva az akadálymentesítési "
+"beállításokban"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "Mappa hozzáadása"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "Másik mappa…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "Nincs beállítva ezen a számítógépen"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{} (hiányzik)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "Mozgatás fel"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "Mozgatás le"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "Eltávolítás a dokkból"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "Mappa hozzáadása a dokkhoz"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "Ez a mappa nem adható hozzá"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "Csak helyi mappák adhatók hozzá."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "_Bezárás"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "A dokk eleje"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "A dokk vége"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "Fent"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "Lent"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "Balra"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "Jobbra"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "Nincs telepítve logó; az alapértelmezett ikon van használatban"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "Nincs kép kiválasztva; az alapértelmezett ikon van használatban"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "A kép hiányzik; az alapértelmezett ikon van használatban"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "Képek"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "Ikon kiválasztása"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "Csak helyi fájlok használhatók."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr ""
+"A fájl nem támogatott formátumú (PNG, SVG, JPEG vagy WebP), legfeljebb 4 MB-"
+"os kép."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "Ez a kép nem használható"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{} (leválasztva)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "Nincs beállítva asztalmappa"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "Visszaállítja az asztali ikonok alapértelmezett beállításait?"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"A méret, az elhelyezés, a kattintás viselkedése és a megjelenített elemek "
+"visszaállnak az alapértelmezett értékekre. A fájljai és az ikonok helyzete "
+"nem változik."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "Az ikonok pontosan ott maradnak, ahová ejti őket"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "Az ejtett ikonok a rácshoz igazodnak"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "Mappák átlátszósága"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "Kiemelés átlátszósága"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "Visszaállítja az alkalmazásnézet alapértelmezett beállításait?"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"A háttér, az alkalmazásmappák és a rámutatási kiemelés visszaáll a GNOME "
+"megjelenésére, az alkalmazások pedig a saját sorrendjére."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr "Név szerint, mappákban is. A húzás nem változtatja meg a sorrendet."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr ""
+"Rendezze el az alkalmazásokat húzással. Ez az elrendezés visszatér, ha a "
+"betűrendet kikapcsolja."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr ""
+"Az alkalmazások mögötti háttér. Az ikonok, a nevek és a keresőmező nem "
+"változnak."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Akkor érhető el, ha a Deskence dokk be van kapcsolva."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"Az alkalmazáscsoportok, például a „Segédprogramok”, megjelenésének "
+"módosítása az alkalmazásnézetben. Csak a csempe háttere változik."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"Válassza ki a mutató alatt megjelenő hátteret egy alkalmazáson vagy "
+"alkalmazásmappán, megnyitott mappán belül is."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "_Gyorsbillentyű"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "Megnyitja az előzményeket"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "Visszaállítja a vágólap alapértelmezett beállításait?"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"A gyorsbillentyű és a beillesztés visszaáll az alapértelmezett értékekre. Az "
+"előzmények, a megőrzött elemek száma és az, hogy kijelentkezés után "
+"megmaradnak-e, nem változik."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "Csak a memóriában"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "A kitűzött elemek mentési helye: {}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "Az előzmények mentési helye: {}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "Visszaállítja a felső sáv alapértelmezett beállításait?"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"A passzív ikonok megjelenítése és az „Ébren tartás” beállításai visszaállnak "
+"az alapértelmezett értékekre. Az, hogy mely funkciók láthatók, nem változik."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "Be- vagy kikapcsolja a „Mindig felül” módot a fókuszban lévő ablakhoz"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "Visszaállítja a címsor alapértelmezett gombjait?"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr "A címsor gombjai visszaállnak a rendszer GNOME alapértelmezésére."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "Visszaállítja a címsor korábbi gombjait?"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr ""
+"A címsor gombjai visszaállnak arra az állapotra, amilyenek a Deskence "
+"módosítása előtt voltak."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr "A gombokat máshol módosították, miután a Deskence módosította őket"
+
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "bal szélén"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "alsó szélén"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "jobb szélén"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "Előnézet: dokk a képernyő {}"
+
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "bal felső"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "jobb felső"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "bal alsó"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "jobb alsó"
+
+# NEEDS-REVIEW: passive construction; a native speaker may prefer an active form
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "Előnézet: az új ikonok a {} saroktól kerülnek elhelyezésre"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "Kapcsolja be ezt: „{}”, hogy módosíthassa ezt: „{}”."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "„{}” a következő bekapcsolása után érhető el: „{}”."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "„{}” jelenleg nem érhető el."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr ""
+"Frissítés lett telepítve. A használatához jelentkezzen ki, majd be újra."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr "A bekapcsolt funkciók indításához jelentkezzen ki, majd be újra."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "_Névjegy"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "Keresés a beállításokban"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "Főmenü"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "Keresés a beállításokban"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "Beállítási oldalak"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "Keresési találatok"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "Nincs találat"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "Próbáljon más szavakat, például egy funkció nevét."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "_Kijelentkezés…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "Dokk"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"A képernyő szélén lévő alkalmazássáv helyzetének, megjelenésének és "
+"viselkedésének beállítása. A kitűzött alkalmazások ugyanazok, mint a "
+"Tevékenységek áttekintésben."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "_Dokk megjelenítése"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "Megjelenés"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "_Helyzet"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "Bal"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "Alsó"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "Jobb"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "_Hossz"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "Ikonokhoz igazítva"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "Teljes él"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "_Ikonméret"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "Saját _háttérszín"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "Háttérszín"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "Saját há_ttér-átlátszóság"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "Ikonok _nagyítása a mutató alatt"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "Nagyítás _erőssége"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "Viselkedés"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "_Elrejtés"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "Soha"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "Ha ablakok takarják"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "Ha nincs használatban"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "_Monitor"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "Elsődleges"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "Kiválasztott"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "Összes"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "_Kiválasztott monitor"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "_Kattintás egy futó alkalmazásra"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "Fókuszálás, majd ablakváltás"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "Kis méret vagy ablakváltás"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "Csak a jelenlegi _munkaterület alkalmazásainak megjelenítése"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "Ablak_előnézetek megjelenítése rámutatáskor"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr ""
+"Álljon meg egy futó alkalmazáson, hogy lássa az ablakait és válasszon egyet"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "_Bekukucskálás az ablakokba"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"Álljon meg egy előnézeten, hogy az ablakát a többi fölött lássa, anélkül "
+"hogy átváltana rá"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "Információk az alkalmazásoktól"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"Az alkalmazások számlálót vagy egy művelet folyamatát jeleníthetik meg az "
+"ikonjukon, például olvasatlan üzeneteket vagy egy letöltést. Csak az jelenik "
+"meg, amit egy alkalmazás jelent."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "Az alkalmazások számlálóinak megjelenítése"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "Egy szám az ikonon, például az olvasatlan üzenetek"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "Műveletek folyamatának megjelenítése"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "Egy sáv az ikonon letöltés vagy másolás közben"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "Elemek"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "Mit jelenít meg a dokk az alkalmazásokon kívül."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "_Kuka"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "Meghajtók és _USB-kulcsok"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "_Hálózati helyek"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "_Alkalmazások gomb"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "Az alkalmazások gomb _helyzete"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "Az alkalmazások gomb _ikonja"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "GNOME alapértelmezés"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "Disztribúció logója"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "Saját kép"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "_Kiválasztás…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "Mappák a dokkban"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"Tűzzön ki mappákat, hogy a tartalmukat közvetlenül a dokkból böngészhesse. "
+"Egy mappa eltávolítása a dokkból nem változtatja meg sem a mappát, sem a "
+"fájljait."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "_Mappák megjelenítése a dokkban"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "Alapértelmezett beállítások _visszaállítása…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "Asztali ikonok"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr ""
+"Az asztalmappa fájljainak és mappáinak megjelenítése ikonként az asztalon."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "_Ikonok megjelenítése az asztalon"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "Asztalmappa"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "Megnyitás a Fájlokban"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "Ikonok"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "_Méret"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "Kicsi"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "Közepes"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "Nagy"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "Nagyon nagy"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "Új ikonok _elhelyezése innen"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "Az Ön által áthelyezett ikonok megtartják a helyüket"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "Bal felső sarok"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "Jobb felső sarok"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "Bal alsó sarok"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "Jobb alsó sarok"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "Ikonok _elrendezése"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "Szabad"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "Rácshoz igazítás"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "Elemek _megnyitása"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "Dupla kattintással"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "Egyszeres kattintással"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "Megjelenítés még"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "_Saját mappa"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"A rejtett fájlok nem jelennek meg. Az asztali ikonok kikapcsolása soha nem "
+"helyezi át és nem törli a fájljait."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "Felső sáv"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "Alkalmazásikonok"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr ""
+"A háttérben futó alkalmazások ikonjai, például üzenetküldők és "
+"fájlszinkronizálók."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "_Alkalmazásikonok megjelenítése"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "_Passzív ikonok megjelenítése"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "Ikonok, amelyeket az alkalmazások jelenleg lényegtelennek jelölnek"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "Ébren tartás"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"Egy gomb a gyorsbeállításokban, amely megakadályozza a számítógép "
+"automatikus felfüggesztését egy választott ideig vagy kikapcsolásig. A kézi "
+"felfüggesztés továbbra is működik."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "„_Ébren tartás” megjelenítése"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "A _képernyő bekapcsolva tartása is"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr ""
+"Amíg az „Ébren tartás” be van kapcsolva, a képernyő nem kapcsol ki és nem "
+"zárolódik automatikusan"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "_Saját időtartam"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "Perc"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"A StatusNotifierItem szabványt használó alkalmazások támogatottak. A régi "
+"stílusú értesítésiterület-ikonok (XEmbed) nem."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "Ablakok"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "Címsorgombok"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"Ezek GNOME beállítások: a Deskence eltávolítása után is érvényben maradnak. "
+"A saját címsort rajzoló alkalmazások, például egyes böngészők, figyelmen "
+"kívül hagyhatják őket."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "_Kis méret gomb"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "_Teljes méret gomb"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "_Elhelyezés"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "Mindig felül"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"Egy ablakot a többi fölött tart. Az ablakmenüben (Alt+Szóköz) és a dokk "
+"ablakelőnézetének menüjében is megtalálható, amely az ilyen ablakoknál "
+"gombostűt mutat. Nem jeleníti meg az ablakot minden munkaterületen; az az "
+"ablakmenü külön lehetősége."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "A _módosítások előtti beállítások visszaállítása…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "A név nem lehet üres."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "A név nem tartalmazhat „/” karaktert."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "A „.” és a „..” nem érvényes név."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "Már létezik ilyen nevű elem."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "A név túl hosszú."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "A hely nem nyitható meg"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "„{}” nem nyitható meg"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "A hivatkozás hibás: az elem, amelyre mutat, nem létezik."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "Az indító érvénytelen."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "„{}” nem indítható el"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "Nem megbízható indító"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"„{}” nincs megbízhatónak jelölve. Csak akkor engedélyezze az indítást, ha "
+"tudja, honnan származik ez a fájl."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "_Engedélyezés és indítás"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "„{}” indítása nem engedélyezhető"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "A Beállítások nem nyitható meg"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "A Deskence nem nyitható meg"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "„{}” nem választható le"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "A „.” karakterrel kezdődő nevek rejtettek."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "Új mappa"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "Mappa neve"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "_Létrehozás"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "Mappa átnevezése"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "Fájl átnevezése"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "Át_nevezés"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "Új _mappa…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "_Beillesztés"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "Összes _kijelölése"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "Ikonok _elrendezése"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "_Rácshoz igazítás"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "_Név"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "_Módosítva"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "_Típus"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "_Rendezés"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "_Háttér megváltoztatása…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "_Asztalbeállítások"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "_Megnyitás"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "Megnyitás _ezzel…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "Indítás _engedélyezése"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "_Kivágás"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "_Másolás"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "Át_nevezés…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "Áthelyezés a _Kukába"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "_Kuka ürítése…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "_Kiadás"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "_Leválasztás"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "_Tulajdonságok"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "A művelet sikertelen"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "A kuka nem üríthető"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "A kuka ürítéséhez a Fájlok alkalmazás szükséges."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "A tulajdonságok nem jeleníthetők meg"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "Nem helyezhető át a kukába"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "Nem nevezhető át"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "A mappa nem hozható létre"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "A fájlok nem helyezhetők át"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "A fájlok nem másolhatók"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "Saját mappa"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "Kuka"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "Asztal"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "Alkalmazások megjelenítése"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "Dokkbeállítások"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "A hely nem nyitható meg"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "Megnyitás"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "Kuka ürítése…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "Kiadás"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "Leválasztás"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "A meghajtó nem adható ki"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "A meghajtó nem választható le"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "%s ablakai"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "Ablak bezárása"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "Előbeállítások (JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "Előbeállítások képekkel"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "Összes előbeállítás"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "Név"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "Kitűzött alkalmazások"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "Saját képek"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "A beállításokkal együtt egy archívumba mentve"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "Visszaállítja a Deskence alapértelmezett beállításait?"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"A Deskence összes beállítása visszaáll az alapértelmezett értékekre, az "
+"alkalmazásnézet pedig a saját sorrendjére. A mappák kikerülnek a dokkból; "
+"magukat a mappákat ez nem érinti. A bekapcsolt funkciók, a kitűzött "
+"alkalmazások, a címsorgombok, a mentett előbeállítások és a "
+"vágólapelőzmények nem változnak."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "Rendszerrel egyező ({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "_Visszavonás"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "_Alkalmazás…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "Át_nevezés…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "_Exportálás…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "_Törlés…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "Továbbiak"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "kitűzött alkalmazásokkal"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "dokkmappákkal"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "képekkel"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "Beállítások"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "Beállítások {}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "Saját beállításaim"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "Jelenlegi beállítások mentése"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "_Mentés"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "Az előbeállítás nem menthető"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "„{}” előbeállítás mentve"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "Előbeállítás átnevezése"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "Az előbeállítás nem nevezhető át"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "Az előbeállítás nem törölhető"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "Törli ezt az előbeállítást: „{}”?"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "A jelenlegi beállítások nem változnak."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "_Törlés"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "Beállítások exportálása"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"A beállítások olvasható JSON-fájlként mentődnek. Képekkel a fájl egy "
+"archívum, amely a beállításokat és a képeket tartalmazza."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Deskence beállítások"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "Az exportálás nem lehetséges"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "Beállítások exportálva"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "Beállítások importálása"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "Az importálás nem lehetséges"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "A beállításai már megegyeznek ezzel az előbeállítással."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "Nincs mit módosítani"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "{} beállítás változik itt: {}."
+msgstr[1] "{} beállítás változik itt: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "Alkalmazza ezt: „{}”?"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "Alkalmazza az előbeállítást?"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "_Alkalmazás"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "Ezeket a változtatásokat nem sikerült visszacsinálni: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "A korábbi beállításai visszaálltak."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "Az előbeállítás nem lett alkalmazva"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "Semmi sem változott."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "Előbeállítás alkalmazva"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "Az előbeállítás nem vonható vissza"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "Nincs visszavonható alkalmazott előbeállítás."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "Korábbi beállítások visszaállítva"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "Visszavonja a legutóbb alkalmazott előbeállítást?"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr ""
+"Az előbeállítás által módosított beállítások visszaállnak a korábbi "
+"értékükre."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "Néhány beállítás azóta megváltozott"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"Ezek a beállítások az előbeállítás alkalmazása után változtak: {}. Ezeket is "
+"visszavonja, vagy megtartja őket a jelenlegi állapotukban?"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "_Megtartás"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "_Összes visszavonása"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "Jelentés"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "_Mentés…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "Információk hibabejelentéshez"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "Diagnosztika másolva"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "Jelentés mentése"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "A jelentés nem menthető"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "Jelentés mentve"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "Alapértelmezett beállítások visszaállítva"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "Funkciók"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "Általános"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "Alkalmazásnézet"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "Vágólap"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "A fájl túl nagy ahhoz, hogy előbeállítás legyen."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "A fájl nem Deskence előbeállítás."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "Az előbeállításnak nincs érvényes formátumverziója."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"Az előbeállítás a Deskence egy újabb verziójával készült. A használatához "
+"frissítse a Deskence-t."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "Az archívum túl nagy ahhoz, hogy előbeállítás legyen."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "Az archívum nem tartalmaz Deskence előbeállítást."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "Az archívum sérült."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "Az előbeállítás beállításokat tartalmazó része sérült."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "Az ismeretlen „{}” rész figyelmen kívül maradt."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "Az ismeretlen „{}” beállítás ({}) figyelmen kívül maradt."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"A(z) {} monitor nincs csatlakoztatva. Addig a dokk az elsődleges monitoron "
+"jelenik meg."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "{}: nem érhető el ezen a számítógépen."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "{}: érvénytelen érték, kihagyva."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "{}: a rendszergazda zárolta."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "A(z) „{}” nyelv nem érhető el ezen a számítógépen, és ki lett hagyva."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "A(z) {} gyorsbillentyű nem lett importálva ehhez: „{}”: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "A funkciók listája sérült, és ki lett hagyva."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "Az ismeretlen „{}” funkció figyelmen kívül maradt."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr "A kitűzött alkalmazások nem érhetők el ezen a számítógépen."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "A kitűzött alkalmazások listája sérült, és ki lett hagyva."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr "Nincs telepítve: {}. A telepítés után megjelennek a dokkban."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "A dokk mappáinak listája sérült, és ki lett hagyva."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "A(z) „{}” mappának érvénytelen bejegyzése van, és ki lett hagyva."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"A(z) {} szabványos mappa nincs beállítva ezen a számítógépen; "
+"elérhetetlenként jelenik meg."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr ""
+"A(z) {} mappa nem létezik; amíg nem létezik, elérhetetlenként jelenik meg."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"Az előbeállítás az alkalmazások gombhoz egy saját képet használ, amely nincs "
+"mellékelve; az alapértelmezett ikon lesz használva."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: ne futtassa a Deskence-t rendszergazdaként (root); futtassa a "
+"saját felhasználójaként (sudo nélkül)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"A Deskence beállítási sémája nincs telepítve. Telepítse újra a deskence "
+"csomagot."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "Semmi sem változott: a beállítások nem menthetők."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"Ez a módosítás megerősítést igényel. Futtassa újra a parancsot a --yes "
+"kapcsolóval, hogy kérdés nélkül megerősítse."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "i/N"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "i"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "igen"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"Mentve. A módosítást nem sikerült megerősíteni a jelenlegi GNOME "
+"munkamenetben; újbóli bejelentkezés lehet szükséges."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "fut"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "nem fut"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "hiba"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "nem támogatott GNOME verzió"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "újbóli bejelentkezés után indul"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "frissítve; új verzió újbóli bejelentkezés után"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "nincs telepítve"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "ismeretlen (a GNOME Shell nem érhető el)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: a futó munkamenet állapota látható."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr "A GNOME Shell nem érhető el: csak a mentett beállítások ismertek."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr ""
+"A GNOME kiterjesztések ki vannak kapcsolva; egyetlen funkció sem fut, amíg "
+"be nem kapcsolják őket."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "FUNKCIÓ"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "MENTVE"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "EBBEN A MUNKAMENETBEN"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "bekapcsolva"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "kikapcsolva"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr ""
+"{}: a telepített helyett a saját mappában lévő példány van használatban: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr ""
+"{}: a mentett beállítás eltér a munkamenettől; újbóli bejelentkezés után lép "
+"érvénybe."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr "{}: „{}” ugyanezt biztosítja; mindkettő használata problémákat okoz."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: „{}” lehet, hogy ugyanezt biztosítja."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "Funkcióneveket vagy --all kapcsolót adjon meg, ne mindkettőt."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr ""
+"Nevezzen meg legalább egy funkciót, vagy használja a --all kapcsolót. "
+"Funkciók: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "Ismeretlen funkció: {}. Funkciók: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "a beállítást nem sikerült menteni"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: bekapcsolva"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: kikapcsolva"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: már be van kapcsolva"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: már ki van kapcsolva"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: a mentett beállításokban már be van kapcsolva"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: a mentett beállításokban már ki van kapcsolva"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: sikertelen: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"A GNOME kiterjesztések ki vannak kapcsolva; a bekapcsolt funkciók akkor "
+"indulnak el, amikor bekapcsolják őket (gsettings set org.gnome.shell disable-"
+"user-extensions false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr "Nincs „{}” nevű mentett előbeállítás. Lásd: deskence preset list."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr ""
+"Több mentett előbeállítás neve is „{}”; használja valamelyik azonosítójukat: "
+"{}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "{} funkció: bekapcsolás"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "{} funkció: kikapcsolás"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "Dokk: az alkalmazások gomb saját képe"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Figyelmeztetés: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "Kihagyva: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "Az előbeállítás nem lett alkalmazva: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "Ezeket a változtatásokat nem sikerült visszacsinálni: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "A korábbi beállítások visszaálltak."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "Az előbeállítás nem lett alkalmazva; semmi sem változott. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"Az előbeállítás csak részben lett alkalmazva; ezek a beállítások nem "
+"mentődtek: {}. Visszavonás: deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "{} funkciók: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "Nincsenek mentett előbeállítások."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "NÉV"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "AZONOSÍTÓ"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "LÉTREHOZVA"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "A beállításai már megegyeznek a(z) „{}” előbeállítással."
+
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "A(z) „{}” előbeállítás {} beállítást módosít:"
+msgstr[1] "A(z) „{}” előbeállítás {} beállítást módosít:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "Semmi sem változott (--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "Alkalmazza az előbeállítást?"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr "A(z) „{}” előbeállítás alkalmazva. Visszavonás: deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "{} nem importálható: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"Már van „{}” nevű mentett előbeállítás. Válasszon másik nevet a --name "
+"kapcsolóval, vagy cserélje le a --replace kapcsolóval."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr ""
+"A(z) „{}” előbeállítás érvényes, és mentésre kerülne; semmi sem változott (--"
+"dry-run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr ""
+"A(z) „{}” előbeállítás mentve ezzel az azonosítóval: {}. Alkalmazás: "
+"deskence preset apply {}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "Menti és alkalmazza az előbeállítást?"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"A(z) „{}” előbeállítás mentve ezzel az azonosítóval: {}, és alkalmazva. "
+"Visszavonás: deskence preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "{} egy mappa; adjon meg fájlnevet."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "{} már létezik. A cseréjéhez használja a --force kapcsolót."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "{} nem írható: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "Beállítások exportálva ide: {} (archívum képekkel)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "Beállítások exportálva ide: {}."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr "Nincs használatban saját kép, ezért a fájl egyszerű JSON."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr "A beállítások visszaállnak a legutóbbi importálás előtti állapotra."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "Az előbeállítás nem módosított semmit, ami visszavonható lenne."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "A(z) „{}” visszavonása visszaállítja:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"Az előbeállítás alkalmazása után módosítva, ezért változatlanul maradnak (a "
+"--include-changed kapcsolóval ezek is visszavonhatók): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "Visszavonja az előbeállítást?"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "Az előbeállítás csak részben lett visszavonva: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "Korábbi beállítások visszaállítva."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "Adja meg, mit állítson vissza, vagy a --all kapcsolót, ne mindkettőt."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr ""
+"Nevezze meg, mit állítson vissza, vagy használja a --all kapcsolót. "
+"Lehetőségek: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "Ismeretlen lehetőség: {}. Lehetőségek: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "Már minden az alapértelmezett értéken van; nincs mit visszaállítani."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "Visszaállítva az alapértelmezésre ({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "a teljes Deskence"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "Az alkalmazásnézet visszaáll a saját sorrendjére."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "Az app-grid funkció (betűrend) kikapcsol."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"Nem változik: a többi bekapcsolt funkció, a kitűzött alkalmazások, az "
+"asztalon lévő fájlok, a saját képek, a mentett előbeállítások és a "
+"vágólapelőzmények."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "Visszaállítja ezeket a beállításokat?"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "Néhány beállítást nem sikerült visszaállítani: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "Alapértelmezett beállítások visszaállítva."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: hiba: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"A Deskence beállításai parancssorból. Parancs nélkül a beállítások ablaka "
+"nyílik meg (deskence [--page OLDAL])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"Funkciók: {}. Kilépési kódok: 0 kész, 1 sikertelen, 2 érvénytelen "
+"parancssor, 3 nincs megerősítve, 4 mentve, de a futó GNOME munkamenetben "
+"nincs megerősítve. Lásd: man deskence."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "PARANCS"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "JSON-dokumentum kiírása szöveg helyett"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "minden funkció mentett és futó állapotának megjelenítése"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "funkciók bekapcsolása"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "funkciók kikapcsolása; a beállításaik megmaradnak"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "a következők egyike: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "a Deskence összes funkciója (soha más kiterjesztések)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "előbeállítások listázása, alkalmazása, importálása és exportálása"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "Az előbeállítások mentési helye: {}."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "MŰVELET"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "csak annak megjelenítése, ami változna"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "ne kérjen megerősítést"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "a mentett előbeállítások megjelenítése"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "egy mentett előbeállítás alkalmazása"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "egy mentett előbeállítás neve vagy azonosítója"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr "egy előbeállítás-fájl ellenőrzése és mentése az előbeállítások közé"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "FÁJL"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr "egy .json előbeállítás vagy egy .deskence archívum"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "mentés ezen a néven"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "azonos nevű mentett előbeállítás cseréje"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "alkalmazás is"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "a jelenlegi beállítások fájlba írása"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "az előbeállításban tárolt név"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "kitűzött alkalmazások hozzáadása"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "dokkmappák hozzáadása"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "saját képek hozzáadása (archívumot ír)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "meglévő fájl cseréje"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "a legutóbb alkalmazott előbeállítás visszavonása"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr ""
+"az előbeállítás alkalmazása után módosított beállítások visszavonása is"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "alapértelmezett beállítások visszaállítása"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "RÉSZ"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "a Deskence összes beállítása; az app-grid funkciót is kikapcsolja"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "jelentés megjelenítése hibabejelentéshez (semmi sem kerül elküldésre)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"A munkamenetbusz nem érhető el, így a dconf nem tudja menteni a "
+"beállításokat. Futtassa a parancsot a GNOME munkamenete egy terminálában, "
+"vagy szöveges konzolon ugyanazzal a felhasználóval bejelentkezve."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr ""
+"A beállítások csak a memóriában vannak (GSETTINGS_BACKEND=memory), és "
+"elvesznének."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "Vágólapelőzmények megjelenítése"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "Megnyitja a másolt szövegek és képek előzményeit"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr ""
+"Be- vagy kikapcsolja a „Mindig felül” módot a fókuszban lévő ablakhoz (GNOME "
+"gyorsbillentyű)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "A Deskence beállítások ablakában"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "Ez nem érvényes gyorsbillentyű."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "Egy módosítóbillentyű önmagában nem lehet gyorsbillentyű."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr ""
+"Használja a billentyűt a Ctrl, Alt vagy Super billentyűvel együtt, vagy "
+"használjon funkcióbillentyűt."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"Az alkalmazások maguk is használnak ilyen gyorsbillentyűket. Adja hozzá a "
+"Super billentyűt, vagy kombinálja a Ctrl és az Alt billentyűt."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "Saját gyorsbillentyű"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "Már használatban: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "dokk, tálca, indító, panel, dock, taskbar, launcher"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "nagyítás, nagyító, zoom"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "automatikus elrejtés, elrejtés, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "kötegek, mappák, letöltések, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "bélyegképek, ablakok, előnézetek, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "jelvények, olvasatlan, értesítések, üzenetek, számláló, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "letöltés, folyamat, folyamatjelző, download"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "asztal, fájlok, ikonok, desktop"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr "alkalmazásrács, alkalmazások, indító, menü, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "rendezés, betűrend, sorrend, elrendezés"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "mappák, csempék, csoportok"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "rámutatás, kiemelés, mutató, hover"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "értesítési terület, indikátorok, állapotikonok, tálcaikonok, tray"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "felfüggesztés, alvás, koffein, caffeine, megakadályozás, ébren"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "képernyővédő, üres képernyő, zárolás"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "címsor, gombok, kis méret, teljes méret"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "másolás, beillesztés, vágólap, előzmények, clipboard"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr ""
+"billentyűzet, gyorsbillentyűk, billentyűk, billentyűparancsok, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "hiba, diagnosztika, jelentés, probléma, bug"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "biztonsági mentés, előbeállítások, átvitel, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "nyelv, fordítás, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "Kikapcsolva"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "Alapértelmezett gyorsbillentyű visszaállítása"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "Gyorsbillentyű beállítása"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "Nyomja le az új gyorsbillentyűt ehhez: „{}”. Az Escape megszakítja."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "_Alapértelmezett visszaállítása"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "Az alapértelmezett gyorsbillentyű foglalt: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "Ez a gyorsbillentyű nem használható"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "Gyorsbillentyűk"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "Mindenhol"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"A Deskence más gyorsbillentyűivel és a GNOME saját gyorsbillentyűivel való "
+"ütközések el lesznek utasítva. Más alkalmazások és kiterjesztések "
+"gyorsbillentyűi nem ellenőrizhetők."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "A beállítások ablakában"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "Működik, amíg „{}” be van kapcsolva"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "Magyar"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "Munkamenet kezdete"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "Az _asztal megjelenítése bejelentkezés után"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "Indulás az asztalon a Tevékenységek áttekintés helyett"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr ""
+"A dokk, az asztal és a többi funkció mindig a rendszer nyelvét használja."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "Az alkalmazás _nyelve"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "Beállítások és a deskence parancs"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "Az új nyelv újraindítás után lesz használva"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "Új_raindítás"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "Előbeállítások"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr ""
+"Mentse a jelenlegi beállításokat, hogy később visszatérhessen hozzájuk."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "Nincsenek mentett előbeállítások"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "Jelenlegi beállítások _mentése…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "Beállítások átvitele"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"Vigye át a beállításokat egy másik számítógépre, vagy őrizze meg őket egy "
+"újratelepítéshez. Importálás előtt láthatja, mi változik."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "_Exportálás fájlba…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "_Importálás fájlból…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "A legutóbb alkalmazott előbeállítás _visszavonása…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "_Gyorsbillentyűk"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr ""
+"A Deskence összes gyorsbillentyűjének megtekintése és módosítása egy helyen"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"Verziók, a munkamenet típusa, a monitorok és az egyes funkciók állapota, "
+"hibabejelentésbe illesztéshez. Semmi személyes adat nincs benne, és semmi "
+"sem kerül elküldésre."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "Jelentés _megjelenítése…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "Diagnosztika _másolása"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "Jelentés mentése _fájlba…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "A Deskence alapértelmezett beállításainak _visszaállítása…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "Sorrend"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr ""
+"Hogyan legyenek elrendezve az alkalmazások a teljes képernyős "
+"alkalmazásnézetben."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "Az alkalmazások _sorrendje"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "Saját sorrend"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "Betűrend"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "Háttér"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "Kikapcsolva a GNOME stílus színe van használatban"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "Saját há_ttér-átlátszóság"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "Kikapcsolva a háttér átlátszatlan, mint a GNOME-ban"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "_Háttér-átlátszóság"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "Alkalmazásmappák"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "Saját mappa_szín"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "Mappaszín"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "Saját mappa-át_látszóság"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "Kikapcsolva a GNOME stílus átlátszósága van használatban"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "Mappák át_látszósága"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "Rámutatási kiemelés"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "Saját _kiemelésszín"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "Kiemelésszín"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "Saját kiemelés-át_látszóság"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"A másolás és a beillesztés ugyanúgy működik, mint eddig. A másolt szövegek "
+"és képek előzményei saját gyorsbillentyűvel nyílnak meg."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "_Vágólapelőzmények"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "A választott elem _beillesztése"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Beilleszti abba az ablakba, amelyben volt, a Ctrl+V billentyűkkel "
+"(terminálokban Ctrl+Shift+V). Kikapcsolva az elem csak a vágólapra kerül."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "Szöveg beillesztése mindig _formázás nélkül"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"A régebbi elemek mindig egyszerű szövegek. A Shift+Enter bármikor egyszerű "
+"szöveget illeszt be."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "A kijelölt _szöveg megjegyzése is"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "Az egérrel kijelölt szöveg, amelyet a középső gomb illeszt be"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "Tárolás"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"Az előzmények csak a memóriában vannak, és kijelentkezés után eltűnnek. A "
+"kitűzött elemek megmaradnak az előzmények törlésekor, és nem számítanak bele "
+"a korlátba. Az alkalmazások által titkosnak jelölt tartalom, például "
+"jelszókezelőkből, nem kerül megjegyzésre; nem minden jelszó ismerhető fel."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "_Megjegyzett elemek"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "_Megőrzés kijelentkezés után"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "Semmi"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "Kitűzött elemek"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "Teljes előzmény"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "Megjegyzés _szüneteltetése"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "Új elemek nem kerülnek be, amíg ezt ki nem kapcsolja"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "%s mappa"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "Vissza"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "Dátum"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "Típus"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "Rendezés: %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "Megjelenítés rácsként"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "Megjelenítés listaként"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "Ez a szabványos mappa nincs beállítva."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "Betöltés…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "Ez a mappa már nem létezik."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "Nincs jogosultsága megnyitni ezt a mappát."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "Ez a mappa nem nyitható meg: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "Ez a mappa üres."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"Ebben a mappában több mint %d elem van; csak az elsők jelennek meg. Az "
+"összes megtekintéséhez nyissa meg a Fájlokban."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "Mappa"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "„%s” nem nyitható meg"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "Másolás"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "Kivágás"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "%s nem érhető el"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "%s csak olvasható"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "Egy mappa nem tehető saját magába"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "Már itt van: %s"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "Mappába csak fájlok tehetők"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "Áthelyezés ide: %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Másolás ide: %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Áthelyezés vagy másolás ide: %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "A fájlok nem helyezhetők át ide: %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "A fájlok nem másolhatók ide: %s"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr ""
+"A fájlok dokkból történő másolásához és áthelyezéséhez a Fájlok alkalmazás "
+"szükséges."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "A fájlok nem nyithatók meg ezzel: %s"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Megnyitás ezzel: %s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "%s nem tud fájlokat megnyitni"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Nem erősíthető meg, hogy %s megnyitja ezeket a fájlokat"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "A fájlok közül %d már nem érhető el"
+msgstr[1] "A fájlok közül %d már nem érhető el"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "%s nem nyitja meg ezt a fájltípust"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "%s nem nyit meg %d fájlt ezek közül"
+msgstr[1] "%s nem nyit meg %d fájlt ezek közül"
+
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, %d új elem"
+msgstr[1] "%s, %d új elem"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "Az alkalmazások betűrendbe vannak rendezve"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr ""
+"Ha saját maga szeretné elrendezni őket, válassza a Deskence-ben a „Saját "
+"sorrend” lehetőséget."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "Beillesztésre kész"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "Épp most"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d perce"
+msgstr[1] "%d perce"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d órája"
+msgstr[1] "%d órája"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "Vágólapelőzmények"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "Keresés az előzményekben"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "Előzmények törlése"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: beillesztés · Shift+Enter: beillesztés egyszerű szövegként · Delete: "
+"eltávolítás · Ctrl+P: kitűzés"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "Megjegyzés folytatása"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "Megjegyzés szüneteltetése"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "Kattintson újra a törléshez"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr ""
+"Kattintson újra az összes elem eltávolításához a kitűzöttek kivételével."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "Az új elemek nem kerülnek megjegyzésre, amíg nem folytatja."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr "Még semmi sincs másolva. A másolt elemek itt jelennek meg."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "Egy elem sem felel meg a keresésnek."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "Kép, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "Kitűzés megszüntetése"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "Kitűzés"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "Az „Ébren tartás” be van kapcsolva: a képernyő bekapcsolva marad"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "Az „Ébren tartás” be van kapcsolva"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "Kevesebb"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "Megakadályozza az automatikus felfüggesztést"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "Kikapcsolásig"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d perc"
+msgstr[1] "%d perc"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d óra"
+msgstr[1] "%d óra"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "A képernyő bekapcsolva tartása"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "A képernyő ekkor nem kapcsol ki és nem zárolódik automatikusan"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "Befejezés most"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "Eddig: %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "Kikapcsolásig"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "%d perc van hátra"
+msgstr[1] "%d perc van hátra"

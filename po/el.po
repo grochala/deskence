@@ -1,0 +1,4630 @@
+# Greek translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "Ρυθμίσεις επιφάνειας εργασίας"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr ""
+"Dock, εικονίδια επιφάνειας εργασίας, εικονίδια εφαρμογών στην πάνω γραμμή "
+"και κουμπιά παραθύρων"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"dock;επιφάνεια εργασίας;εικονίδια;περιοχή ειδοποιήσεων;ένδειξη;γραμμή "
+"εργασιών;ελαχιστοποίηση;μεγιστοποίηση;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr ""
+"Dock, εικονίδια επιφάνειας εργασίας και περιοχή ειδοποιήσεων για το GNOME"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Το Deskence προσθέτει μερικές ευκολίες στην τυπική επιφάνεια εργασίας του "
+"GNOME και σας επιτρέπει να τις ρυθμίσετε σε ένα σημείο."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"Ένα dock με καρφιτσωμένες και ενεργές εφαρμογές, φακέλους, μονάδες δίσκου "
+"και τα απορρίμματα, καθώς και προεπισκοπήσεις παραθύρων"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "Αρχεία και φάκελοι στην επιφάνεια εργασίας"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr ""
+"Εικονίδια εφαρμογών στην πάνω γραμμή, για παράδειγμα από εφαρμογές μηνυμάτων "
+"και συγχρονισμού αρχείων"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "Ένα ιστορικό προχείρου και «Σε εγρήγορση» στις γρήγορες ρυθμίσεις"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "Αλφαβητική σειρά στην προβολή εφαρμογών"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr ""
+"Κουμπιά ελαχιστοποίησης και μεγιστοποίησης στις γραμμές τίτλου των παραθύρων"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr ""
+"Προρυθμίσεις για αποθήκευση των ρυθμίσεων και μεταφορά τους σε άλλον "
+"υπολογιστή"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr ""
+"Λειτουργεί στην υπάρχουσα συνεδρία GNOME και διατηρεί την τυπική εμφάνιση "
+"του GNOME."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"Το Deskence είναι πλέον διαθέσιμο σε 29 γλώσσες: όλες τις επίσημες γλώσσες "
+"της Ευρωπαϊκής Ένωσης, κορεατικά, απλοποιημένα και παραδοσιακά κινεζικά, "
+"σερβικά και φιλιππινέζικα. Η λίστα γλωσσών στις ρυθμίσεις αναφέρει τη γλώσσα "
+"που χρησιμοποιεί το σύστημα."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"Ρυθμίσεις: επιλέξτε τη γλώσσα του παραθύρου ρυθμίσεων και της εντολής "
+"deskence στη σελίδα Γενικά, ανεξάρτητα από το σύστημα."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"Dock: αντιγράψτε ή αποκόψτε αρχεία και φακέλους σε ένα πλαίσιο φακέλου (δεξί "
+"κλικ, Ctrl+C, Ctrl+X) και επικολλήστε τα στα Αρχεία ή στην επιφάνεια "
+"εργασίας."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Dock: σύρετε αρχεία και φακέλους από ένα πλαίσιο φακέλου σε άλλο φάκελο του "
+"dock ή στην επιφάνεια εργασίας για να τα μετακινήσετε ή να τα αντιγράψετε."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Dock: οι εφαρμογές ανοίγουν αρχεία που αφήνονται πάνω τους μόνο των τύπων "
+"που δηλώνουν· διαφορετικά το dock εξηγεί γιατί."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr ""
+"Dock: η σήμανση κάτω από τους φακέλους ταιριάζει με τις τελείες των "
+"εφαρμογών."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"Έναρξη στην επιφάνεια εργασίας: μετά τη σύνδεση, η επιφάνεια εργασίας, η "
+"πάνω γραμμή και τα παράθυρα ανταποκρίνονται ξανά στα κλικ όταν τα κινούμενα "
+"εφέ είναι απενεργοποιημένα, για παράδειγμα σε εικονικές μηχανές χωρίς "
+"τρισδιάστατη επιτάχυνση· πριν ανταποκρινόταν μόνο το dock, μέχρι να ανοίξει "
+"μία φορά η επισκόπηση."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"Προαιρετικά διαγνωστικά για αναφορές όταν η επιφάνεια εργασίας και τα "
+"παράθυρα παύουν να ανταποκρίνονται στα κλικ."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"Dock: η μεταφορά αρχείων στο dock ολοκληρώνεται πάντα σωστά, ακόμη και όταν "
+"κάτι αποτύχει κατά την απόθεση."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Dock: αφήστε αρχεία σε μια εφαρμογή για να ανοίξουν σε αυτή ή σε έναν φάκελο "
+"για να αντιγραφούν ή να μετακινηθούν εκεί· κρατήστε ένα αρχείο πάνω από έναν "
+"φάκελο για να ανοίξει και αφήστε το σε έναν από τους υποφακέλους του."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"Ρυθμίσεις: αναζήτηση κάθε ρύθμισης με Ctrl+F, διαχείριση όλων των "
+"συντομεύσεων πληκτρολογίου σε ένα σημείο με έλεγχο συγκρούσεων και αντιγραφή "
+"ή αποθήκευση αναφοράς για αναφορές σφαλμάτων."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"Προρυθμίσεις: η αναίρεση μιας εφαρμοσμένης προρύθμισης επαναφέρει μόνο ό,τι "
+"άλλαξε και διατηρεί τις ρυθμίσεις που αλλάξατε αργότερα."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr ""
+"Dock: μετρητές μη αναγνωσμένων και πρόοδος λειτουργιών στα εικονίδια των "
+"εφαρμογών που τα αναφέρουν."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"Γραμμή εντολών: ελέγξτε την κατάσταση κάθε λειτουργίας, απενεργοποιήστε και "
+"ενεργοποιήστε λειτουργίες, εφαρμόστε, εισαγάγετε και εξαγάγετε προρυθμίσεις, "
+"επαναφέρετε τις προεπιλεγμένες ρυθμίσεις και συλλέξτε διαγνωστικά με την "
+"εντολή deskence, ακόμη και από κονσόλα κειμένου όταν η επιφάνεια εργασίας "
+"δεν λειτουργεί. Δείτε man deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"Η επαναφορά των προεπιλεγμένων ρυθμίσεων δεν διαγράφει πλέον το ιστορικό "
+"προχείρου που διατηρείται μετά την αποσύνδεση."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"Προβολή εφαρμογών: δικό σας χρώμα και διαφάνεια για την επισήμανση κάτω από "
+"τον δείκτη σε εφαρμογές και φακέλους εφαρμογών· η μετακίνηση πάνω από φάκελο "
+"δεν σχεδιάζει πλέον περίγραμμα."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"Φάκελοι στο dock: το πλαίσιο καταλαμβάνει το πολύ το μισό ύψος της οθόνης, "
+"κυλά σε όλο τον φάκελο, και με το πληκτρολόγιο, και επιστρέφει στην "
+"προηγούμενη θέση μετά από υποφάκελο."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"Ρυθμίσεις: σαφέστερες περιγραφές, καλύτερες πολωνικές διατυπώσεις και "
+"λιγότερες συγκρουόμενες συντομεύσεις πληκτρολογίου."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"Dock: ένα dock σε όλο το άκρο ταιριάζει με την πάνω γραμμή στην επισκόπηση "
+"δραστηριοτήτων και στην προβολή εφαρμογών· ένα κοντό dock διατηρεί τη δική "
+"του εμφάνιση."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"Προβολή εφαρμογών: τα πλακίδια φακέλων με δικό σας χρώμα ή διαφάνεια "
+"δείχνουν πλέον καθαρά το πέρασμα του δείκτη, το πάτημα, την εστίαση και την "
+"επιλογή."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"Προβολή εφαρμογών: δικό σας χρώμα και διαφάνεια για πλακίδια φακέλων όπως "
+"«Βοηθήματα»."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"Γενικά: προαιρετική έναρξη στην επιφάνεια εργασίας αντί για την επισκόπηση "
+"δραστηριοτήτων μετά τη σύνδεση."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr ""
+"Dock: πλέον ενσωματώνεται στην επισκόπηση δραστηριοτήτων αντί να σχηματίζει "
+"ξεχωριστή λωρίδα."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"Σύνδεσμοι προς τη σελίδα του έργου και την παρακολούθηση σφαλμάτων, "
+"τεκμηρίωση στα αγγλικά. Καμία αλλαγή στην εφαρμογή."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"Ρυθμίσεις: σελίδα Γενικά με προρυθμίσεις, εξαγωγή και εισαγωγή ρυθμίσεων και "
+"επαναφορά των προεπιλογών· σελίδα Προβολή εφαρμογών με αλφαβητική "
+"ταξινόμηση· πιο ήρεμες προεπισκοπήσεις."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"Dock: φάκελοι που δείχνουν το περιεχόμενό τους, κλείσιμο και ματιά σε "
+"παράθυρα από τις προεπισκοπήσεις τους, «Πάντα στην κορυφή» στο μενού της "
+"προεπισκόπησης."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"Νέα: ιστορικό προχείρου, «Σε εγρήγορση» στις γρήγορες ρυθμίσεις, μια "
+"συντόμευση για το «Πάντα στην κορυφή»."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Το Better GNOME Desktop ονομάζεται πλέον Deskence. Οι ρυθμίσεις, οι "
+"ενεργοποιημένες λειτουργίες, οι καρφιτσωμένες εφαρμογές και οι θέσεις των "
+"εικονιδίων της επιφάνειας εργασίας μεταφέρονται."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"Dock: προεπισκοπήσεις των παραθύρων μιας εφαρμογής όταν ο δείκτης σταματά "
+"πάνω της, χωρίς επιπλέον χώρο δίπλα στο κουμπί εφαρμογών όταν τα εικονίδια "
+"μεγεθύνονται, ενδείξεις εκτέλεσης κάτω από τα εικονίδια ενός dock στο κάτω "
+"μέρος."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"Ρυθμίσεις: μεγαλύτερες και σαφέστερες προεπισκοπήσεις του dock και των "
+"εικονιδίων επιφάνειας εργασίας, εικονίδια σελίδων, στοιχείο μενού «Περί»."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Το Better GNOME Desktop ονομάζεται πλέον Deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"Dock: καθαρά μεγεθυμένα εικονίδια, χωρίς πλακίδια κάτω από τα εικονίδια με "
+"δικό σας φόντο, μονόχρωμο λογότυπο διανομής, η λίστα εφαρμογών στην αρχή "
+"ενός dock σε όλο το άκρο, ενδείξεις εκτέλεσης στην εσωτερική πλευρά."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"Προβολή εφαρμογών: μία συνεχής μετάβαση στο κλείσιμο, προαιρετικό δικό σας "
+"χρώμα φόντου."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"Επιφάνεια εργασίας: τα μενού ανοίγουν στο σημείο του κλικ, και δίπλα στο "
+"dock· το πλέγμα εικονιδίων ξεκινά από την επιλεγμένη γωνία με μικρά "
+"περιθώρια."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"Dock: κουμπί εφαρμογών σε οποιοδήποτε άκρο με επιλογή εικονιδίου, μεγεθυμένα "
+"εικονίδια, κύλιση όταν οι εφαρμογές δεν χωρούν, δικό σας χρώμα και διαφάνεια "
+"φόντου, ρυθμίσεις στο μενού του κουμπιού εφαρμογών, διαφανές φόντο για την "
+"προβολή εφαρμογών."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"Εικονίδια επιφάνειας εργασίας: ελεύθερη τοποθέτηση ή ευθυγράμμιση στο "
+"πλέγμα, «Ευθυγράμμιση στο πλέγμα», ολόκληρη η επιφάνεια εργασίας δίπλα στο "
+"dock διαθέσιμη, θέσεις εικονιδίων που δεν μετακινούνται μαζί με το dock."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"Διορθώσεις: ομαλό κλείσιμο της προβολής εφαρμογών, άμεση αναδιάταξη των "
+"εικονιδίων του dock, χωρίς πλαίσιο κατά τη μεταφορά εικονιδίων επιφάνειας "
+"εργασίας, ένα ενιαίο μενού επιφάνειας εργασίας παντού."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "Πρώτη έκδοση."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "Έκδοση της δομής ρυθμίσεων"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"Χρησιμοποιείται από την εφαρμογή ρυθμίσεων για τη μετάπτωση των "
+"αποθηκευμένων τιμών μεταξύ εκδόσεων. Το 0 σημαίνει ότι οι ρυθμίσεις δεν "
+"μεταπτώθηκαν ποτέ."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "Οι ρυθμίσεις του Better GNOME Desktop μεταφέρθηκαν"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Ορίζεται μόλις οι ρυθμίσεις που αποθήκευσε το Better GNOME Desktop (0.3.0 "
+"και παλαιότερες) αντιγραφούν εδώ. Οι τιμές που έχουν ήδη οριστεί εδώ δεν "
+"αντικαθίστανται ποτέ· οι προηγούμενες ρυθμίσεις διατηρούνται."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "Εμφάνιση της επιφάνειας εργασίας μετά τη σύνδεση"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"Αν είναι αληθές, μια νέα συνεδρία ξεκινά στην επιφάνεια εργασίας αντί για "
+"την επισκόπηση δραστηριοτήτων. Επηρεάζεται μόνο η έναρξη της συνεδρίας: το "
+"άνοιγμα της επισκόπησης αργότερα, το ξεκλείδωμα της οθόνης ή η ενεργοποίηση "
+"και απενεργοποίηση λειτουργιών δεν την κλείνει ποτέ. Εφαρμόζεται από την "
+"επέκταση του dock."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Γλώσσα της εφαρμογής Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"Η γλώσσα του παραθύρου ρυθμίσεων και της εντολής deskence: ο κωδικός μιας "
+"μετάφρασης εγκατεστημένης με το Deskence (για παράδειγμα \"pl\"), \"en\" για "
+"τα αγγλικά ή κενό για να ακολουθείται το σύστημα. Ένας κωδικός χωρίς "
+"εγκατεστημένη μετάφραση σημαίνει αγγλικά. Οι επεκτάσεις του GNOME Shell και "
+"τα εικονίδια επιφάνειας εργασίας ακολουθούν πάντα τη γλώσσα του GNOME Shell. "
+"Εφαρμόζεται κατά την εκκίνηση της εφαρμογής."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "Άκρο οθόνης του dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\" (αριστερά), \"bottom\" (κάτω) ή \"right\" (δεξιά)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "Μήκος του dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr ""
+"\"fit\": μόνο όσο μακρύ χρειάζονται τα εικονίδια. \"full\": ολόκληρο το άκρο "
+"της οθόνης."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "Μέγεθος εικονιδίων σε λογικά εικονοστοιχεία"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"Κλιμακώνεται σύμφωνα με την κλίμακα της οθόνης και τον συντελεστή κλιμάκωσης "
+"κειμένου του θέματος του κελύφους, όπως τα άλλα εικονίδια του GNOME Shell."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "Πότε κρύβεται το dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": πάντα ορατό και τα παράθυρα κρατιούνται έξω από την περιοχή του. "
+"\"intellihide\": κρυμμένο όσο ένα παράθυρο στην ίδια οθόνη το επικαλύπτει. "
+"\"autohide\": κρυμμένο μέχρι ο δείκτης να φτάσει στο άκρο της οθόνης."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "Σε ποιες οθόνες εμφανίζεται το dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\" (κύρια), \"selected\" (επιλεγμένη, δείτε selected-monitor) ή "
+"\"all\" (όλες)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "Θύρα σύνδεσης της επιλεγμένης οθόνης"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"Όνομα θύρας σύνδεσης, όπως \"DP-1\". Χρησιμοποιείται όταν το monitor-mode "
+"είναι \"selected\"· όσο εκείνη η οθόνη δεν είναι συνδεδεμένη, "
+"χρησιμοποιείται η κύρια οθόνη."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "Εμφάνιση των απορριμμάτων"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "Εμφάνιση αφαιρούμενων μονάδων δίσκου"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "Εμφάνιση τοποθεσιών δικτύου"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "Εμφάνιση του κουμπιού εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "Πού βρίσκεται το κουμπί εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": το πρώτο στοιχείο του dock (αριστερά σε οριζόντιο dock, πάνω σε "
+"κατακόρυφο). \"end\": το τελευταίο στοιχείο (δεξιά ή κάτω)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "Εικονίδιο του κουμπιού εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": το εικονίδιο εφαρμογών του GNOME. \"distribution\": το λογότυπο "
+"της εγκατεστημένης διανομής, από τα εικονίδια που είναι εγκατεστημένα στο "
+"σύστημα· το προεπιλεγμένο εικονίδιο αν δεν υπάρχει. \"custom\": η εικόνα στο "
+"apps-button-custom-icon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "Δικό σας εικονίδιο για το κουμπί εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"Διαδρομή ενός αντιγράφου της επιλεγμένης εικόνας, που φυλάσσεται στον φάκελο "
+"δεδομένων χρήστη του Deskence ώστε να συνεχίζει να λειτουργεί όταν το αρχικό "
+"αρχείο μετακινηθεί ή διαγραφεί. Αν το αρχείο δεν μπορεί να φορτωθεί, "
+"χρησιμοποιείται το προεπιλεγμένο εικονίδιο."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "Μεγέθυνση εικονιδίων κάτω από τον δείκτη"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"Τα εικονίδια κοντά στον δείκτη μεγαλώνουν ομαλά καθώς αυτός κινείται πάνω "
+"από το dock. Δεν εμφανίζεται όσο τα κινούμενα εφέ είναι απενεργοποιημένα στο "
+"GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "Ένταση μεγέθυνσης"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr ""
+"Μέγεθος του εικονιδίου κάτω από τον δείκτη σε σχέση με το κανονικό του "
+"μέγεθος."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "Δικό σας χρώμα φόντου για το dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr ""
+"Αν είναι ψευδές, το φόντο του dock έχει το χρώμα του τρέχοντος στιλ GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "Χρώμα φόντου του dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"Χρώμα στη μορφή \"#rrggbb\", χρησιμοποιείται όταν το background-custom-color "
+"είναι αληθές. Δεν έχει δική του διαφάνεια: αυτή είναι το background-"
+"transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "Δική σας διαφάνεια φόντου για το dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr ""
+"Αν είναι ψευδές, το φόντο του dock είναι τόσο διαφανές όσο το κάνει το "
+"τρέχον στιλ GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "Διαφάνεια φόντου του dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: αδιαφανές. 100: εντελώς διαφανές. Μόνο το φόντο· τα εικονίδια, οι "
+"ενδείξεις, οι ετικέτες και τα μενού διατηρούν τη δική τους ορατότητα. "
+"Χρησιμοποιείται όταν το background-custom-transparency είναι αληθές."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "Δική σας διαφάνεια φόντου για την προβολή εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr ""
+"Αν είναι ψευδές, η προβολή εφαρμογών πλήρους οθόνης που ανοίγει από το dock "
+"έχει το τυπικό φόντο του GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "Δικό σας χρώμα φόντου για την προβολή εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"Αν είναι ψευδές, η προβολή εφαρμογών πλήρους οθόνης που ανοίγει από το dock "
+"έχει το χρώμα του τυπικού φόντου του GNOME. Ανεξάρτητο από το φόντο του dock."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "Χρώμα φόντου της προβολής εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"Χρώμα στη μορφή \"#rrggbb\", χρησιμοποιείται όταν το app-grid-custom-color "
+"είναι αληθές. Δεν έχει δική του διαφάνεια: αυτή είναι το app-grid-"
+"transparency (ή αδιαφανές όταν το app-grid-custom-transparency είναι ψευδές)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "Διαφάνεια φόντου της προβολής εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: αδιαφανές φόντο (τυπικό ή δικό σας χρώμα). 100: εντελώς διαφανές, πίσω "
+"από τις εφαρμογές φαίνεται μόνο η ταπετσαρία. Αλλάζει μόνο το φόντο· τα "
+"εικονίδια, τα ονόματα και το πεδίο αναζήτησης παραμένουν πλήρως ορατά. "
+"Χρησιμοποιείται όταν το app-grid-custom-transparency είναι αληθές."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "Δικό σας χρώμα φόντου για τους φακέλους εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"Αν είναι ψευδές, τα πλακίδια φακέλων στην προβολή εφαρμογών (όπως "
+"\"Βοηθήματα\") έχουν το χρώμα του τρέχοντος στιλ GNOME. Αλλάζει μόνο το "
+"φόντο του πλακιδίου· οι μικρογραφίες των εφαρμογών και το όνομα του φακέλου "
+"μένουν ως έχουν, και το πλαίσιο ενός ανοιχτού φακέλου δεν επηρεάζεται."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "Χρώμα φόντου των φακέλων εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"Χρώμα στη μορφή \"#rrggbb\", χρησιμοποιείται όταν το app-grid-folder-custom-"
+"color είναι αληθές. Δεν έχει δική του διαφάνεια: αυτή είναι το app-grid-"
+"folder-transparency (ή το άλφα του στιλ GNOME όταν το app-grid-folder-custom-"
+"transparency είναι ψευδές)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "Δική σας διαφάνεια φόντου για τους φακέλους εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"Αν είναι ψευδές, τα πλακίδια φακέλων στην προβολή εφαρμογών είναι τόσο "
+"αδιαφανή όσο τα κάνει το τρέχον στιλ GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "Διαφάνεια φόντου των φακέλων εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: αδιαφανές φόντο πλακιδίου. 100: εντελώς διαφανές· ο φάκελος αναγνωρίζεται "
+"από τις μικρογραφίες των εφαρμογών και το όνομά του. Το πέρασμα του δείκτη, "
+"η επιλογή και η εστίαση πληκτρολογίου παραμένουν ορατά. Χρησιμοποιείται όταν "
+"το app-grid-folder-custom-transparency είναι αληθές."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr ""
+"Δικό σας χρώμα επισήμανσης κατά το πέρασμα του δείκτη στην προβολή εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"Αν είναι ψευδές, η επισήμανση που εμφανίζεται κάτω από τον δείκτη σε "
+"εφαρμογές, φακέλους εφαρμογών και εφαρμογές μέσα σε ανοιχτό φάκελο έχει το "
+"χρώμα του τρέχοντος στιλ GNOME. Το dock, η επιφάνεια εργασίας και οι στοίβες "
+"φακέλων δεν επηρεάζονται."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "Χρώμα επισήμανσης κατά το πέρασμα του δείκτη στην προβολή εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"Χρώμα στη μορφή \"#rrggbb\", χρησιμοποιείται όταν το app-grid-hover-custom-"
+"color είναι αληθές. Δεν έχει δική του διαφάνεια: αυτή είναι το app-grid-"
+"hover-transparency (ή το άλφα του στιλ GNOME όταν το app-grid-hover-custom-"
+"transparency είναι ψευδές)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr ""
+"Δική σας διαφάνεια επισήμανσης κατά το πέρασμα του δείκτη στην προβολή "
+"εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"Αν είναι ψευδές, η επισήμανση κατά το πέρασμα του δείκτη είναι τόσο "
+"αδιαφανής όσο την κάνει το τρέχον στιλ GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr ""
+"Διαφάνεια επισήμανσης κατά το πέρασμα του δείκτη στην προβολή εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: αδιαφανής επισήμανση. 100: εντελώς διαφανής· ένας φάκελος τότε φαίνεται "
+"κάτω από τον δείκτη ίδιος με όταν είναι σε ηρεμία. Αλλάζει μόνο η "
+"επισήμανση· τα εικονίδια και τα ονόματα παραμένουν πλήρως ορατά, και η "
+"εστίαση πληκτρολογίου παραμένει σημειωμένη. Χρησιμοποιείται όταν το app-grid-"
+"hover-custom-transparency είναι αληθές."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "Κλικ σε ενεργή εφαρμογή"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": εστιάζει το πιο πρόσφατα χρησιμοποιημένο παράθυρο· όταν "
+"η εφαρμογή είναι ήδη εστιασμένη, μεταβαίνει στο επόμενο παράθυρό της. "
+"\"minimize-or-cycle\": όπως το focus-or-cycle, αλλά μια εφαρμογή με ένα μόνο "
+"εστιασμένο παράθυρο ελαχιστοποιείται."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "Εμφάνιση μόνο των εφαρμογών του τρέχοντος χώρου εργασίας"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"Αν είναι αληθές, οι ενεργές (μη καρφιτσωμένες) εφαρμογές εμφανίζονται μόνο "
+"όταν έχουν παράθυρο στον ενεργό χώρο εργασίας, και το κλικ εναλλάσσει μόνο "
+"μεταξύ αυτών των παραθύρων."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "Εμφάνιση μετρητών εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"Αν είναι αληθές, μια εφαρμογή που αναφέρει μετρητή (για παράδειγμα μη "
+"αναγνωσμένα μηνύματα, μέσω του D-Bus API LauncherEntry) τον εμφανίζει στο "
+"εικονίδιό της στο dock. Οι εφαρμογές που δεν αναφέρουν τίποτα δεν εμφανίζουν "
+"τίποτα."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "Εμφάνιση προόδου εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"Αν είναι αληθές, μια εφαρμογή που αναφέρει την πρόοδο μιας λειτουργίας (για "
+"παράδειγμα λήψης, μέσω του D-Bus API LauncherEntry) την εμφανίζει ως γραμμή "
+"στο εικονίδιό της στο dock."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "Εμφάνιση προεπισκοπήσεων παραθύρων κατά το πέρασμα του δείκτη"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"Όταν ο δείκτης σταματά σε μια ενεργή εφαρμογή, εμφανίζονται τα παράθυρά της "
+"(όσα μετρά το dock, δείτε isolate-workspaces) με τους τίτλους τους· ένα κλικ "
+"σε κάποιο ενεργοποιεί εκείνο το παράθυρο."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "Ματιά σε παράθυρο από την προεπισκόπησή του"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"Όσο ο δείκτης σταματά σε μια προεπισκόπηση παραθύρου, εκείνο το παράθυρο "
+"εμφανίζεται για λίγο πάνω από τα υπόλοιπα, που σκουραίνουν. Τίποτα δεν "
+"εστιάζεται, δεν ανυψώνεται, δεν επαναφέρεται ούτε μετακινείται· η έξοδος από "
+"την προεπισκόπηση ή το πάτημα του Escape το τερματίζει."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "Φάκελοι στο dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"Φάκελοι που εμφανίζονται στο dock, με τη σειρά. Κάθε καταχώριση είναι "
+"\"xdg:ΟΝΟΜΑ\" για τυπικό φάκελο (ΟΝΟΜΑ όπως στο GLib.UserDirectory χωρίς το "
+"πρόθεμα DIRECTORY_, για παράδειγμα \"xdg:DOWNLOAD\"), \"home:ΣΧΕΤΙΚΗ/"
+"ΔΙΑΔΡΟΜΗ\" για φάκελο μέσα στον προσωπικό φάκελο ή ένα URI \"file://\" για "
+"οποιονδήποτε άλλο φάκελο. Η αφαίρεση μιας καταχώρισης δεν αγγίζει ποτέ τον "
+"ίδιο τον φάκελο."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "Εμφάνιση φακέλων στο dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr ""
+"Αν είναι ψευδές, οι φάκελοι στο folder-stacks διατηρούνται αλλά δεν "
+"εμφανίζονται."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "Πώς εμφανίζονται τα περιεχόμενα των φακέλων"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": μεγάλα εικονίδια. \"list\": μικρότερα εικονίδια με μέγεθος και "
+"ημερομηνία. Αλλάζει από το πλαίσιο του φακέλου."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "Σειρά ταξινόμησης κάθε φακέλου"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"Αντιστοιχίζει μια καταχώριση του folder-stacks σε \"name\", \"modified\" "
+"(πρώτα τα νεότερα) ή \"type\". Ένας φάκελος χωρίς καταχώριση ταξινομείται "
+"κατά όνομα, εκτός από τις Λήψεις (xdg:DOWNLOAD), που δείχνουν πρώτα τα "
+"νεότερα αρχεία. Αλλάζει από το πλαίσιο του φακέλου."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "Μέγεθος εικονιδίων επιφάνειας εργασίας"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) ή \"huge\" (128 px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "Γωνία όπου τοποθετούνται τα νέα εικονίδια"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "Εμφάνιση του προσωπικού φακέλου"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "Εμφάνιση μονάδων δίσκου και USB στικ"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "Πώς τοποθετούνται τα εικονίδια που μετακινούνται"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": τα εικονίδια μένουν ακριβώς εκεί που αφήνονται. \"grid\": τα "
+"εικονίδια που αφήνονται ευθυγραμμίζονται στο πλέγμα. Η αλλαγή δεν μετακινεί "
+"τα υπάρχοντα εικονίδια· αυτό το κάνει η «Ευθυγράμμιση στο πλέγμα» στο μενού "
+"της επιφάνειας εργασίας."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "Άνοιγμα στοιχείων με μονό ή διπλό κλικ"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "Σειρά που χρησιμοποιεί η «Τακτοποίηση εικονιδίων»"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "Αλλάζει από την «Ταξινόμηση κατά» στο μενού της επιφάνειας εργασίας."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "Εμφάνιση παθητικών εικονιδίων εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"Το StatusNotifierItem ορίζει την κατάσταση \"Passive\" για εικονίδια που μια "
+"εφαρμογή θεωρεί ασήμαντα. Είναι κρυμμένα εκτός αν αυτό είναι αληθές."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "Διάταξη κουμπιών πριν από την πρώτη αλλαγή"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"Η τιμή του button-layout στο org.gnome.desktop.wm.preferences που "
+"αποθηκεύτηκε πριν το Deskence την αλλάξει για πρώτη φορά. Κενή αν δεν άλλαξε "
+"τίποτα."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "Διάταξη κουμπιών που έγραψε τελευταία το Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"Χρησιμοποιείται για να διαπιστωθεί αν ο χρήστης άλλαξε αργότερα τη διάταξη "
+"αλλού· η αρχική τιμή προσφέρεται για επαναφορά μόνο όσο η τρέχουσα τιμή "
+"είναι ακόμη ίση με αυτήν."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "Σειρά της προβολής εφαρμογών"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": η διάταξη που έφτιαξε ο χρήστης (το δικό του app-picker-layout "
+"του GNOME και οι λίστες των φακέλων). \"alphabetical\": εφαρμογές και "
+"φάκελοι κατά εμφανιζόμενο όνομα στη γλώσσα του χρήστη, καθώς και οι "
+"εφαρμογές μέσα σε κάθε φάκελο· η αναδιάταξη με μεταφορά είναι "
+"απενεργοποιημένη. Διατηρείται ενημερωμένη από την επέκταση app-grid."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "Διάταξη που αποθηκεύτηκε πριν από την αλφαβητική ταξινόμηση"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"JSON που γράφεται όταν το sort-mode αλλάζει σε \"alphabetical\": το "
+"προηγούμενο app-picker-layout του org.gnome.shell (κείμενο GVariant) και η "
+"λίστα εφαρμογών κάθε φακέλου. Επαναφέρεται όταν το sort-mode επιστρέψει σε "
+"\"custom\". Εσωτερικό· δεν αποτελεί μέρος των προρυθμίσεων."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "Συντόμευση που ανοίγει το ιστορικό προχείρου"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "Μέγιστος αριθμός απομνημονευμένων στοιχείων"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr ""
+"Τα καρφιτσωμένα στοιχεία δεν μετρούν. Τα παλαιότερα στοιχεία ξεχνιούνται "
+"πρώτα."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "Τι διατηρείται μετά την αποσύνδεση"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": το ιστορικό κρατιέται μόνο στη μνήμη και χάνεται μετά την "
+"αποσύνδεση. \"pinned\": τα καρφιτσωμένα στοιχεία αποθηκεύονται στον φάκελο "
+"δεδομένων χρήστη. \"all\": ολόκληρο το ιστορικό αποθηκεύεται εκεί."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "Χωρίς απομνημόνευση νέων στοιχείων"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr ""
+"Προσωρινή κατάσταση που αλλάζει από το πλαίσιο του ιστορικού· δεν αποτελεί "
+"μέρος των προρυθμίσεων."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "Απομνημόνευση και του επιλεγμένου κειμένου"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"Το κείμενο που επιλέγεται με το ποντίκι (η κύρια επιλογή, που επικολλάται με "
+"το μεσαίο κουμπί) προστίθεται επίσης στο ιστορικό."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "Πάντα επικόλληση κειμένου χωρίς μορφοποίηση"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"Το ιστορικό κρατά το κείμενο χωρίς μορφοποίηση· μόνο το νεότερο στοιχείο "
+"μπορεί να επικολληθεί με τη μορφοποίησή του, όσο η εφαρμογή από την οποία "
+"αντιγράφηκε το παρέχει ακόμη. Αν είναι αληθές, και αυτό το στοιχείο "
+"επικολλάται ως απλό κείμενο. Το Shift+Enter στο ιστορικό επικολλά απλό "
+"κείμενο σε κάθε περίπτωση."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "Άμεση επικόλληση του επιλεγμένου στοιχείου"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"Αν είναι αληθές, η επιλογή ενός στοιχείου κλείνει το πλαίσιο και το επικολλά "
+"στο παράθυρο που είχε την εστίαση, με Ctrl+V. Αν είναι ψευδές, το στοιχείο "
+"απλώς τοποθετείται στο πρόχειρο."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "Διατήρηση και της οθόνης αναμμένης"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"Αν είναι ψευδές, η διατήρηση του υπολογιστή σε εγρήγορση αποτρέπει μόνο την "
+"αυτόματη αναστολή: η οθόνη συνεχίζει να σβήνει και να κλειδώνει ως συνήθως. "
+"Αν είναι αληθές, και η οθόνη μένει αναμμένη και δεν κλειδώνει αυτόματα."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "Διάρκεια που χρησιμοποιεί το κουμπί των γρήγορων ρυθμίσεων"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr ""
+"Η διάρκεια που επιλέχθηκε τελευταία· ένα κλικ στο κουμπί τη χρησιμοποιεί "
+"ξανά."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "Δική σας διάρκεια σε λεπτά"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "Ώρα λήξης σε λεπτά μετά τα μεσάνυχτα"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr ""
+"Χρησιμοποιείται από το «μέχρι μια ώρα»: η επόμενη φορά που θα έρθει αυτή η "
+"τοπική ώρα."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"Άνοιγμα σελίδας ρυθμίσεων: general, dock, desktop-icons, app-grid, top-bar, "
+"windows ή clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "ΣΕΛΙΔΑ"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"Ένα dock με φακέλους, εικονίδια επιφάνειας εργασίας, εικονίδια εφαρμογών "
+"στην πάνω γραμμή, ένα ιστορικό προχείρου και ρυθμίσεις παραθύρων για το "
+"GNOME."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "Αδιαφανές"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "Διαφανές"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "_Ακύρωση"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "Δεν είναι εγκατεστημένο. Εγκαταστήστε ξανά το πακέτο deskence."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "Ξεκινά μετά από αποσύνδεση και νέα σύνδεση"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "Ενημερώθηκε· η νέα έκδοση ξεκινά μετά από νέα σύνδεση"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "Το GNOME Shell δεν εκτελείται· εφαρμόζεται στην επόμενη συνεδρία GNOME"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "Δεν εκτελείται"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "Η λειτουργία σταμάτησε λόγω σφάλματος"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "Αυτή η έκδοση του GNOME δεν υποστηρίζεται"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "Η εγκατεστημένη έκδοση δεν υποστηρίζει το GNOME {}."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "Οι επεκτάσεις του GNOME είναι απενεργοποιημένες"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Το Deskence τις χρειάζεται για να εμφανίσει τις λειτουργίες του."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "_Ενεργοποίηση…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "Χρησιμοποιείται άλλο αντίγραφο"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr ""
+"Ένα αντίγραφο στον προσωπικό σας φάκελο αντικαθιστά το εγκατεστημένο: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "_Εμφάνιση"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "Ενεργοποίηση των επεκτάσεων του GNOME;"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr ""
+"Αυτό ενεργοποιεί και άλλες επεκτάσεις που έχετε ενεργοποιήσει στην εφαρμογή "
+"Επεκτάσεις."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "_Ενεργοποίηση"
+
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "ένα dock"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "εικονίδια επιφάνειας εργασίας"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "εικονίδια εφαρμογών στην πάνω γραμμή"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "ταξινόμηση της προβολής εφαρμογών"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "ένα ιστορικό προχείρου"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "διατήρηση του υπολογιστή σε εγρήγορση"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr "Παρέχει επίσης {}. Η ταυτόχρονη χρήση και των δύο προκαλεί προβλήματα."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "Μπορεί επίσης να παρέχει {}."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "Απενεργοποίηση του «{}»;"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"Η επέκταση παραμένει εγκατεστημένη και οι ρυθμίσεις της διατηρούνται. "
+"Μπορείτε να την ενεργοποιήσετε ξανά στην εφαρμογή Επεκτάσεις."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "_Απενεργοποίηση"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "_Απενεργοποίηση…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "Ήπια"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "Έντονη"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "Ένταση μεγέθυνσης"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "Διαφάνεια φόντου"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "Μέγεθος εικονιδίων"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "Το dock είναι πάντα ορατό και τα παράθυρα δεν το καλύπτουν"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "Κρύβεται όσο ένα παράθυρο το επικαλύπτει"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "Εμφανίζεται όταν μετακινείτε τον δείκτη στο άκρο της οθόνης"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "Ένα δεύτερο κλικ μεταβαίνει στο επόμενο παράθυρο της εφαρμογής"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr "Το κλικ σε εφαρμογή με ένα εστιασμένο παράθυρο το ελαχιστοποιεί"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "Επαναφορά των προεπιλεγμένων ρυθμίσεων του dock;"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"Η θέση, το μέγεθος, τα χρώματα, η απόκρυψη, η οθόνη, η συμπεριφορά του κλικ "
+"και τα εμφανιζόμενα στοιχεία επιστρέφουν στις προεπιλογές τους. Οι "
+"καρφιτσωμένες εφαρμογές, οι φάκελοι στο dock, η προβολή εφαρμογών και το αν "
+"εμφανίζεται το dock δεν αλλάζουν."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "_Επαναφορά"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr ""
+"Δεν εμφανίζεται όσο τα κινούμενα εφέ είναι απενεργοποιημένα στις ρυθμίσεις "
+"προσβασιμότητας"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "Προσθήκη φακέλου"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "Άλλος φάκελος…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "Δεν έχει ρυθμιστεί σε αυτόν τον υπολογιστή"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{} (λείπει)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "Μετακίνηση πάνω"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "Μετακίνηση κάτω"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "Αφαίρεση από το dock"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "Προσθήκη φακέλου στο dock"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "Δεν είναι δυνατή η προσθήκη αυτού του φακέλου"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "Μόνο τοπικοί φάκελοι μπορούν να προστεθούν."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "_Κλείσιμο"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "Αρχή του dock"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "Τέλος του dock"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "Πάνω"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "Κάτω"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "Αριστερά"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "Δεξιά"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr ""
+"Δεν έχει εγκατασταθεί λογότυπο· χρησιμοποιείται το προεπιλεγμένο εικονίδιο"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "Δεν επιλέχθηκε εικόνα· χρησιμοποιείται το προεπιλεγμένο εικονίδιο"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "Η εικόνα λείπει· χρησιμοποιείται το προεπιλεγμένο εικονίδιο"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "Εικόνες"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "Επιλογή εικονιδίου"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "Μόνο τοπικά αρχεία μπορούν να χρησιμοποιηθούν."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr ""
+"Το αρχείο δεν είναι εικόνα σε υποστηριζόμενη μορφή (PNG, SVG, JPEG ή WebP) "
+"έως 4 MB."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "Δεν είναι δυνατή η χρήση αυτής της εικόνας"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{} (αποσυνδεδεμένη)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "Δεν έχει ρυθμιστεί φάκελος επιφάνειας εργασίας"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr ""
+"Επαναφορά των προεπιλεγμένων ρυθμίσεων των εικονιδίων επιφάνειας εργασίας;"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"Το μέγεθος, η τοποθέτηση, η συμπεριφορά του κλικ και τα εμφανιζόμενα "
+"στοιχεία επιστρέφουν στις προεπιλογές τους. Τα αρχεία σας και οι θέσεις των "
+"εικονιδίων δεν αλλάζουν."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "Τα εικονίδια μένουν ακριβώς εκεί που τα αφήνετε"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "Τα εικονίδια που αφήνονται ευθυγραμμίζονται στο πλέγμα"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "Διαφάνεια φακέλων"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "Διαφάνεια επισήμανσης"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "Επαναφορά των προεπιλεγμένων ρυθμίσεων της προβολής εφαρμογών;"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"Το φόντο, οι φάκελοι εφαρμογών και η επισήμανση κατά το πέρασμα του δείκτη "
+"επιστρέφουν στην εμφάνιση του GNOME, και οι εφαρμογές στη δική σας σειρά."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr "Κατά όνομα, και μέσα στους φακέλους. Η μεταφορά δεν αλλάζει τη σειρά."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr ""
+"Τακτοποιήστε τις εφαρμογές σύροντάς τες. Αυτή η διάταξη επιστρέφει όταν "
+"απενεργοποιηθεί η αλφαβητική σειρά."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr ""
+"Το φόντο πίσω από τις εφαρμογές. Τα εικονίδια, τα ονόματα και το πεδίο "
+"αναζήτησης δεν αλλάζουν."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Διαθέσιμο όσο το dock του Deskence είναι ενεργοποιημένο."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"Αλλάξτε την εμφάνιση των ομάδων εφαρμογών, όπως «Βοηθήματα», στην προβολή "
+"εφαρμογών. Αλλάζει μόνο το φόντο του πλακιδίου."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"Επιλέξτε το φόντο που εμφανίζεται κάτω από τον δείκτη σε μια εφαρμογή ή έναν "
+"φάκελο εφαρμογών, και μέσα σε ανοιχτό φάκελο."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "_Συντόμευση"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "Ανοίγει το ιστορικό"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "Επαναφορά των προεπιλεγμένων ρυθμίσεων του προχείρου;"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"Η συντόμευση και η επικόλληση επιστρέφουν στις προεπιλογές τους. Το "
+"ιστορικό, πόσα στοιχεία κρατά και αν διατηρείται μετά την αποσύνδεση δεν "
+"αλλάζουν."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "Μόνο στη μνήμη"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "Τα καρφιτσωμένα στοιχεία αποθηκεύονται στο {}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "Το ιστορικό αποθηκεύεται στο {}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "Επαναφορά των προεπιλεγμένων ρυθμίσεων της πάνω γραμμής;"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"Η εμφάνιση ανενεργών εικονιδίων και οι επιλογές του «Σε εγρήγορση» "
+"επιστρέφουν στις προεπιλογές τους. Το ποιες λειτουργίες εμφανίζονται δεν "
+"αλλάζει."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "Εναλλάσσει το «Πάντα στην κορυφή» για το εστιασμένο παράθυρο"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "Επαναφορά των προεπιλεγμένων κουμπιών της γραμμής τίτλου;"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr ""
+"Τα κουμπιά της γραμμής τίτλου επιστρέφουν στην προεπιλογή του GNOME σε αυτό "
+"το σύστημα."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "Επαναφορά των προηγούμενων κουμπιών της γραμμής τίτλου;"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr ""
+"Τα κουμπιά της γραμμής τίτλου επιστρέφουν σε ό,τι ήταν πριν τα αλλάξει το "
+"Deskence."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr "Τα κουμπιά άλλαξαν αλλού αφού τα άλλαξε το Deskence"
+
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "αριστερό άκρο"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "κάτω άκρο"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "δεξί άκρο"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "Προεπισκόπηση: dock στο {} της οθόνης"
+
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "πάνω αριστερή"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "πάνω δεξιά"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "κάτω αριστερή"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "κάτω δεξιά"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "Προεπισκόπηση: τα νέα εικονίδια τοποθετούνται από την {} γωνία"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "Ενεργοποιήστε το «{}» για να αλλάξετε το «{}»."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "Το «{}» είναι διαθέσιμο μετά την ενεργοποίηση του «{}»."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "Το «{}» δεν είναι διαθέσιμο αυτή τη στιγμή."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr ""
+"Εγκαταστάθηκε μια ενημέρωση. Αποσυνδεθείτε και συνδεθείτε ξανά για να τη "
+"χρησιμοποιήσετε."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr ""
+"Αποσυνδεθείτε και συνδεθείτε ξανά για να ξεκινήσουν οι ενεργοποιημένες "
+"λειτουργίες."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "_Περί"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "Αναζήτηση ρυθμίσεων"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "Κύριο μενού"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "Αναζήτηση στις ρυθμίσεις"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "Σελίδες ρυθμίσεων"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "Αποτελέσματα αναζήτησης"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "Δεν βρέθηκαν αποτελέσματα"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "Δοκιμάστε άλλες λέξεις, για παράδειγμα το όνομα μιας λειτουργίας."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "_Αποσύνδεση…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "Dock"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"Προσαρμόστε τη θέση, την εμφάνιση και τη συμπεριφορά της γραμμής εφαρμογών "
+"στο άκρο της οθόνης. Οι καρφιτσωμένες εφαρμογές είναι ίδιες με αυτές της "
+"επισκόπησης δραστηριοτήτων."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "Εμφάνιση του _dock"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "_Θέση"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "Αριστερά"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "Κάτω"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "Δεξιά"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "_Μήκος"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "Προσαρμογή στα εικονίδια"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "Ολόκληρο το άκρο"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "_Μέγεθος εικονιδίων"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "Δικό σας _χρώμα φόντου"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "Χρώμα φόντου"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "Δική σας _διαφάνεια φόντου"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "_Μεγέθυνση εικονιδίων κάτω από τον δείκτη"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "Έν_ταση μεγέθυνσης"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "Συμπεριφορά"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "_Απόκρυψη"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "Ποτέ"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "Όταν το επικαλύπτουν παράθυρα"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "Όταν δεν χρησιμοποιείται"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "_Οθόνη"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "Κύρια"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "Επιλεγμένη"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "Όλες"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "_Επιλεγμένη οθόνη"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "_Κλικ σε ενεργή εφαρμογή"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "Εστίαση, μετά εναλλαγή παραθύρων"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "Ελαχιστοποίηση ή εναλλαγή παραθύρων"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "Εμφάνιση μόνο των εφαρμογών του τρέχοντος _χώρου εργασίας"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "Εμφάνιση _προεπισκοπήσεων παραθύρων κατά το πέρασμα του δείκτη"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr ""
+"Σταματήστε σε μια ενεργή εφαρμογή για να δείτε τα παράθυρά της και να "
+"επιλέξετε ένα"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "_Ματιά στα παράθυρα"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"Σταματήστε σε μια προεπισκόπηση για να δείτε το παράθυρό της πάνω από τα "
+"άλλα, χωρίς να μεταβείτε σε αυτό"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "Πληροφορίες από εφαρμογές"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"Οι εφαρμογές μπορούν να εμφανίζουν στο εικονίδιό τους έναν μετρητή ή την "
+"πρόοδο μιας λειτουργίας, για παράδειγμα μη αναγνωσμένα μηνύματα ή μια λήψη. "
+"Εμφανίζεται μόνο ό,τι αναφέρει μια εφαρμογή."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "Εμφάνιση μετρητών εφαρμογών"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "Ένας αριθμός στο εικονίδιο, όπως τα μη αναγνωσμένα μηνύματα"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "Εμφάνιση προόδου λειτουργιών"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "Μια γραμμή στο εικονίδιο όσο εκτελείται μια λήψη ή αντιγραφή"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "Στοιχεία"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "Τι εμφανίζει το dock εκτός από τις εφαρμογές."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "_Απορρίμματα"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "Μονάδες δίσκου και _USB στικ"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "Τοποθεσίες _δικτύου"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "Κουμπί _εφαρμογών"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "Θέ_ση του κουμπιού εφαρμογών"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "_Εικονίδιο του κουμπιού εφαρμογών"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "Προεπιλογή του GNOME"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "Λογότυπο διανομής"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "Δική σας εικόνα"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "_Επιλογή…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "Φάκελοι στο dock"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"Καρφιτσώστε φακέλους για να περιηγείστε στο περιεχόμενό τους απευθείας από "
+"το dock. Η αφαίρεση ενός φακέλου από το dock δεν αλλάζει ούτε τον φάκελο "
+"ούτε τα αρχεία του."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "Εμφάνιση _φακέλων στο dock"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "_Επαναφορά προεπιλεγμένων ρυθμίσεων…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "Εικονίδια επιφάνειας εργασίας"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr ""
+"Εμφάνιση των αρχείων και φακέλων του φακέλου επιφάνειας εργασίας ως "
+"εικονίδια στην επιφάνεια εργασίας."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "Εμφάνιση _εικονιδίων στην επιφάνεια εργασίας"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "Φάκελος επιφάνειας εργασίας"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "Άνοιγμα στα Αρχεία"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "Εικονίδια"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "_Μέγεθος"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "Μικρά"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "Μεσαία"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "Μεγάλα"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "Πολύ μεγάλα"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "_Τοποθέτηση νέων εικονιδίων από"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "Τα εικονίδια που μετακινήσατε κρατούν τη θέση τους"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "Πάνω αριστερή γωνία"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "Πάνω δεξιά γωνία"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "Κάτω αριστερή γωνία"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "Κάτω δεξιά γωνία"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "_Διάταξη εικονιδίων"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "Ελεύθερη"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "Ευθυγράμμιση στο πλέγμα"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "Ά_νοιγμα στοιχείων με"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "Διπλό κλικ"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "Μονό κλικ"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "Εμφάνιση επίσης"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "_Προσωπικός φάκελος"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"Τα κρυφά αρχεία δεν εμφανίζονται. Η απενεργοποίηση των εικονιδίων επιφάνειας "
+"εργασίας δεν μετακινεί ούτε διαγράφει ποτέ τα αρχεία σας."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "Πάνω γραμμή"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "Εικονίδια εφαρμογών"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr ""
+"Εικονίδια εφαρμογών που εκτελούνται στο παρασκήνιο, για παράδειγμα εφαρμογές "
+"μηνυμάτων και συγχρονισμού αρχείων."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "Εμφάνιση εικονιδίων _εφαρμογών"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "Εμφάνιση _ανενεργών εικονιδίων"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "Εικονίδια που οι εφαρμογές σημειώνουν ως προσωρινά ασήμαντα"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "Σε εγρήγορση"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"Ένα κουμπί στις γρήγορες ρυθμίσεις που εμποδίζει τον υπολογιστή να μπει "
+"αυτόματα σε αναστολή, για επιλεγμένο χρόνο ή μέχρι να απενεργοποιηθεί. Η "
+"χειροκίνητη αναστολή εξακολουθεί να λειτουργεί."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "Εμφάνιση του «Σε _εγρήγορση»"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "Διατήρηση και της _οθόνης αναμμένης"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr ""
+"Όσο το «Σε εγρήγορση» είναι ενεργό, η οθόνη δεν σβήνει και δεν κλειδώνει "
+"αυτόματα"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "Δική σας _διάρκεια"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "Λεπτά"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"Υποστηρίζονται οι εφαρμογές που χρησιμοποιούν το πρότυπο StatusNotifierItem. "
+"Τα εικονίδια περιοχής ειδοποιήσεων παλαιού τύπου (XEmbed) δεν υποστηρίζονται."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "Παράθυρα"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "Κουμπιά γραμμής τίτλου"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"Αυτές είναι ρυθμίσεις του GNOME: παραμένουν σε ισχύ αν αφαιρεθεί το "
+"Deskence. Οι εφαρμογές που σχεδιάζουν τις δικές τους γραμμές τίτλου, όπως "
+"ορισμένα προγράμματα περιήγησης, ίσως τις αγνοούν."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "Κουμπί _ελαχιστοποίησης"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "Κουμπί μ_εγιστοποίησης"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "_Τοποθέτηση"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "Πάντα στην κορυφή"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"Κρατά ένα παράθυρο πάνω από τα άλλα. Υπάρχει επίσης στο μενού παραθύρου "
+"(Alt+Διάστημα) και στο μενού μιας προεπισκόπησης παραθύρου στο dock, που "
+"δείχνει μια πινέζα για τέτοια παράθυρα. Δεν εμφανίζει το παράθυρο σε κάθε "
+"χώρο εργασίας· αυτή είναι ξεχωριστή επιλογή του μενού παραθύρου."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "Επαναφορά ρυθμίσεων από _πριν τις αλλαγές…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "Το όνομα δεν μπορεί να είναι κενό."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "Το όνομα δεν μπορεί να περιέχει «/»."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "Τα «.» και «..» δεν είναι έγκυρα ονόματα."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "Υπάρχει ήδη στοιχείο με αυτό το όνομα."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "Το όνομα είναι πολύ μεγάλο."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "Δεν είναι δυνατό το άνοιγμα της τοποθεσίας"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "Δεν είναι δυνατό το άνοιγμα του «{}»"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr ""
+"Ο σύνδεσμος είναι κατεστραμμένος: το στοιχείο στο οποίο δείχνει δεν υπάρχει."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "Ο εκκινητής δεν είναι έγκυρος."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "Δεν είναι δυνατή η εκκίνηση του «{}»"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "Μη έμπιστος εκκινητής"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"Το «{}» δεν έχει σημειωθεί ως έμπιστο. Επιτρέψτε την εκκίνηση μόνο αν "
+"γνωρίζετε από πού προέρχεται αυτό το αρχείο."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "_Να επιτρέπεται και εκκίνηση"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "Δεν είναι δυνατό να επιτραπεί η εκκίνηση του «{}»"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "Δεν είναι δυνατό το άνοιγμα των Ρυθμίσεων"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "Δεν είναι δυνατό το άνοιγμα του Deskence"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "Δεν είναι δυνατή η αποπροσάρτηση του «{}»"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "Τα ονόματα που ξεκινούν με «.» είναι κρυφά."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "Νέος φάκελος"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "Όνομα φακέλου"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "_Δημιουργία"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "Μετονομασία φακέλου"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "Μετονομασία αρχείου"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "_Μετονομασία"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "Νέος _φάκελος…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "Επι_κόλληση"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "Επιλογή _όλων"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "_Τακτοποίηση εικονιδίων"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "Ευθυγράμμιση στο _πλέγμα"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "Ό_νομα"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "_Τροποποίηση"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "Τ_ύπος"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "Τα_ξινόμηση κατά"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "Αλλαγή _φόντου…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "Ρυθμίσεις _επιφάνειας εργασίας"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "Ά_νοιγμα"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "Άνοιγμα _με…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "Να επιτρέπεται η _εκκίνηση"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "Απο_κοπή"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "Α_ντιγραφή"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "Μετονο_μασία…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "Μετακίνηση στα _απορρίμματα"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "Ά_δειασμα απορριμμάτων…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "Ε_ξαγωγή"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "Α_ποπροσάρτηση"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "Ιδιό_τητες"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "Η λειτουργία απέτυχε"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "Δεν είναι δυνατό το άδειασμα των απορριμμάτων"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "Για το άδειασμα των απορριμμάτων χρειάζεται η εφαρμογή Αρχεία."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "Δεν είναι δυνατή η εμφάνιση ιδιοτήτων"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "Δεν είναι δυνατή η μετακίνηση στα απορρίμματα"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "Δεν είναι δυνατή η μετονομασία"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "Δεν είναι δυνατή η δημιουργία του φακέλου"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "Δεν είναι δυνατή η μετακίνηση των αρχείων"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "Δεν είναι δυνατή η αντιγραφή των αρχείων"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "Προσωπικός φάκελος"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "Απορρίμματα"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "Επιφάνεια εργασίας"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "Εμφάνιση εφαρμογών"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "Ρυθμίσεις dock"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "Δεν ήταν δυνατό το άνοιγμα της τοποθεσίας"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "Άδειασμα απορριμμάτων…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "Εξαγωγή"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "Αποπροσάρτηση"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "Δεν ήταν δυνατή η εξαγωγή της μονάδας"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "Δεν ήταν δυνατή η αποπροσάρτηση της μονάδας"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "Παράθυρα του %s"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "Κλείσιμο παραθύρου"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "Προρυθμίσεις (JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "Προρυθμίσεις με εικόνες"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "Όλες οι προρυθμίσεις"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "Όνομα"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "Καρφιτσωμένες εφαρμογές"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "Δικές σας εικόνες"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "Αποθηκεύονται σε αρχειοθήκη μαζί με τις ρυθμίσεις"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "Επαναφορά των προεπιλεγμένων ρυθμίσεων του Deskence;"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"Όλες οι ρυθμίσεις του Deskence επιστρέφουν στις προεπιλογές τους και η "
+"προβολή εφαρμογών στη δική σας σειρά. Οι φάκελοι αφαιρούνται από το dock· οι "
+"ίδιοι οι φάκελοι δεν αγγίζονται. Οι ενεργοποιημένες λειτουργίες, οι "
+"καρφιτσωμένες εφαρμογές, τα κουμπιά γραμμής τίτλου, οι αποθηκευμένες "
+"προρυθμίσεις και το ιστορικό προχείρου δεν αλλάζουν."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "Όπως το σύστημα ({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "_Αναίρεση"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "_Εφαρμογή…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "_Μετονομασία…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "Ε_ξαγωγή…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "_Διαγραφή…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "Περισσότερα"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "καρφιτσωμένες εφαρμογές"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "φακέλους στο dock"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "εικόνες"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "Ρυθμίσεις με {}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "Οι ρυθμίσεις μου"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "Αποθήκευση τρεχουσών ρυθμίσεων"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "_Αποθήκευση"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "Δεν είναι δυνατή η αποθήκευση της προρύθμισης"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "Η προρύθμιση «{}» αποθηκεύτηκε"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "Μετονομασία προρύθμισης"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "Δεν είναι δυνατή η μετονομασία της προρύθμισης"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "Δεν είναι δυνατή η διαγραφή της προρύθμισης"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "Διαγραφή της προρύθμισης «{}»;"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "Οι τρέχουσες ρυθμίσεις δεν αλλάζουν."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "_Διαγραφή"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "Εξαγωγή ρυθμίσεων"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"Οι ρυθμίσεις αποθηκεύονται ως αναγνώσιμο αρχείο JSON. Με εικόνες, το αρχείο "
+"είναι αρχειοθήκη με τις ρυθμίσεις και τις εικόνες."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Ρυθμίσεις Deskence"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "Δεν είναι δυνατή η εξαγωγή"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "Οι ρυθμίσεις εξήχθησαν"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "Εισαγωγή ρυθμίσεων"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "Δεν είναι δυνατή η εισαγωγή"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "Οι ρυθμίσεις σας ταιριάζουν ήδη με αυτή την προρύθμιση."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "Τίποτα προς αλλαγή"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "{} ρύθμιση αλλάζει σε: {}."
+msgstr[1] "{} ρυθμίσεις αλλάζουν σε: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "Εφαρμογή του «{}»;"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "Εφαρμογή προρύθμισης;"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "_Εφαρμογή"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "Δεν ήταν δυνατή η αναίρεση αυτών των αλλαγών: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "Οι προηγούμενες ρυθμίσεις σας επαναφέρθηκαν."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "Η προρύθμιση δεν εφαρμόστηκε"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "Δεν άλλαξε τίποτα."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "Η προρύθμιση εφαρμόστηκε"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "Δεν είναι δυνατή η αναίρεση της προρύθμισης"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "Δεν υπάρχει εφαρμοσμένη προρύθμιση για αναίρεση."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "Οι προηγούμενες ρυθμίσεις επαναφέρθηκαν"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "Αναίρεση της τελευταίας εφαρμοσμένης προρύθμισης;"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr ""
+"Οι ρυθμίσεις που άλλαξε η προρύθμιση επιστρέφουν στις τιμές που είχαν πριν "
+"από αυτήν."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "Ορισμένες ρυθμίσεις άλλαξαν στο μεταξύ"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"Αυτές οι ρυθμίσεις άλλαξαν μετά την εφαρμογή της προρύθμισης: {}. Να "
+"αναιρεθούν και αυτές ή να μείνουν όπως είναι τώρα;"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "_Να μείνουν"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "Αναίρεση ό_λων"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "Αναφορά"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "_Αποθήκευση…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "Πληροφορίες για αναφορές σφαλμάτων"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "Τα διαγνωστικά αντιγράφηκαν"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "Αποθήκευση αναφοράς"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "Δεν είναι δυνατή η αποθήκευση της αναφοράς"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "Η αναφορά αποθηκεύτηκε"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "Οι προεπιλεγμένες ρυθμίσεις επαναφέρθηκαν"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "Λειτουργίες"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "Γενικά"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "Προβολή εφαρμογών"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "Πρόχειρο"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "Το αρχείο είναι πολύ μεγάλο για να είναι προρύθμιση."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "Το αρχείο δεν είναι προρύθμιση του Deskence."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "Η προρύθμιση δεν έχει έγκυρη έκδοση μορφής."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"Η προρύθμιση δημιουργήθηκε από νεότερη έκδοση του Deskence. Ενημερώστε το "
+"Deskence για να τη χρησιμοποιήσετε."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "Η αρχειοθήκη είναι πολύ μεγάλη για να είναι προρύθμιση."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "Η αρχειοθήκη δεν περιέχει προρύθμιση του Deskence."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "Η αρχειοθήκη είναι κατεστραμμένη."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "Το τμήμα ρυθμίσεων της προρύθμισης είναι κατεστραμμένο."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "Το άγνωστο τμήμα «{}» αγνοήθηκε."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "Η άγνωστη ρύθμιση «{}» στο {} αγνοήθηκε."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"Η οθόνη {} δεν είναι συνδεδεμένη. Μέχρι τότε το dock εμφανίζεται στην κύρια "
+"οθόνη."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "Το {} δεν είναι διαθέσιμο σε αυτόν τον υπολογιστή."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "Το {} έχει μη έγκυρη τιμή και παραλείφθηκε."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "Το {} είναι κλειδωμένο από τον διαχειριστή."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr ""
+"Η γλώσσα «{}» δεν είναι διαθέσιμη σε αυτόν τον υπολογιστή και παραλείφθηκε."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "Η συντόμευση {} για το «{}» δεν εισήχθη: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "Η λίστα λειτουργιών είναι κατεστραμμένη και παραλείφθηκε."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "Η άγνωστη λειτουργία «{}» αγνοήθηκε."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr ""
+"Οι καρφιτσωμένες εφαρμογές δεν είναι διαθέσιμες σε αυτόν τον υπολογιστή."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "Η λίστα καρφιτσωμένων εφαρμογών είναι κατεστραμμένη και παραλείφθηκε."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr ""
+"Δεν είναι εγκατεστημένες: {}. Θα εμφανιστούν στο dock μόλις εγκατασταθούν."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "Η λίστα φακέλων στο dock είναι κατεστραμμένη και παραλείφθηκε."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "Ο φάκελος «{}» έχει μη έγκυρη καταχώριση και παραλείφθηκε."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"Ο τυπικός φάκελος {} δεν έχει ρυθμιστεί σε αυτόν τον υπολογιστή· εμφανίζεται "
+"ως μη διαθέσιμος."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr ""
+"Ο φάκελος {} δεν υπάρχει· εμφανίζεται ως μη διαθέσιμος μέχρι να υπάρξει."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"Η προρύθμιση χρησιμοποιεί δική της εικόνα για το κουμπί εφαρμογών που δεν "
+"περιλαμβάνεται· χρησιμοποιείται το προεπιλεγμένο εικονίδιο."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: μην εκτελείτε το Deskence ως root· εκτελέστε το ως ο δικός σας "
+"χρήστης (χωρίς sudo)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"Το σχήμα ρυθμίσεων του Deskence δεν είναι εγκατεστημένο. Εγκαταστήστε ξανά "
+"το πακέτο deskence."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "Δεν άλλαξε τίποτα: οι ρυθμίσεις δεν μπορούν να αποθηκευτούν."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"Αυτή η αλλαγή χρειάζεται επιβεβαίωση. Εκτελέστε ξανά την εντολή με --yes για "
+"να την επιβεβαιώσετε χωρίς ερώτηση."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "ν/Ο"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "ν"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "ναι"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"Αποθηκεύτηκε. Η αλλαγή δεν μπόρεσε να επιβεβαιωθεί στην τρέχουσα συνεδρία "
+"GNOME· ίσως χρειαστεί νέα σύνδεση."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "εκτελείται"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "δεν εκτελείται"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "σφάλμα"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "μη υποστηριζόμενη έκδοση GNOME"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "ξεκινά μετά από νέα σύνδεση"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "ενημερώθηκε· νέα έκδοση μετά από νέα σύνδεση"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "δεν είναι εγκατεστημένο"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "άγνωστο (το GNOME Shell δεν είναι προσβάσιμο)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: εμφανίζεται η κατάσταση της τρέχουσας συνεδρίας."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr ""
+"Το GNOME Shell δεν είναι προσβάσιμο: είναι γνωστές μόνο οι αποθηκευμένες "
+"ρυθμίσεις."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr ""
+"Οι επεκτάσεις του GNOME είναι απενεργοποιημένες· καμία λειτουργία δεν "
+"εκτελείται μέχρι να ενεργοποιηθούν."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "ΛΕΙΤΟΥΡΓΙΑ"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "ΑΠΟΘΗΚΕΥΜΕΝΟ"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "ΣΕ ΑΥΤΗ ΤΗ ΣΥΝΕΔΡΙΑ"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "ενεργοποιημένη"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "απενεργοποιημένη"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr ""
+"{}: χρησιμοποιείται αντίγραφο από τον προσωπικό σας φάκελο αντί για το "
+"εγκατεστημένο: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr ""
+"{}: η αποθηκευμένη ρύθμιση διαφέρει από τη συνεδρία· ισχύει μετά από νέα "
+"σύνδεση."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr "{}: το «{}» παρέχει το ίδιο· η χρήση και των δύο προκαλεί προβλήματα."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: το «{}» μπορεί να παρέχει το ίδιο."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "Δώστε ονόματα λειτουργιών ή --all, όχι και τα δύο."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr ""
+"Ονομάστε τουλάχιστον μία λειτουργία ή χρησιμοποιήστε --all. Λειτουργίες: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "Άγνωστη λειτουργία: {}. Λειτουργίες: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "η ρύθμιση δεν μπόρεσε να αποθηκευτεί"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: ενεργοποιήθηκε"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: απενεργοποιήθηκε"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: ήδη ενεργοποιημένη"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: ήδη απενεργοποιημένη"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: ήδη ενεργοποιημένη στις αποθηκευμένες ρυθμίσεις"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: ήδη απενεργοποιημένη στις αποθηκευμένες ρυθμίσεις"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: απέτυχε: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"Οι επεκτάσεις του GNOME είναι απενεργοποιημένες· οι ενεργοποιημένες "
+"λειτουργίες ξεκινούν μόλις αυτές ενεργοποιηθούν (gsettings set "
+"org.gnome.shell disable-user-extensions false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr ""
+"Καμία αποθηκευμένη προρύθμιση δεν ονομάζεται «{}». Δείτε deskence preset "
+"list."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr ""
+"Πολλές αποθηκευμένες προρυθμίσεις ονομάζονται «{}»· χρησιμοποιήστε ένα από "
+"τα αναγνωριστικά τους: {}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "Λειτουργία {}: ενεργοποίηση"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "Λειτουργία {}: απενεργοποίηση"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "Dock: η δική σας εικόνα του κουμπιού εφαρμογών"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Προειδοποίηση: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "Παραλείφθηκε: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "Η προρύθμιση δεν εφαρμόστηκε: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "Δεν ήταν δυνατή η αναίρεση αυτών των αλλαγών: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "Οι προηγούμενες ρυθμίσεις επαναφέρθηκαν."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "Η προρύθμιση δεν εφαρμόστηκε· δεν άλλαξε τίποτα. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"Η προρύθμιση εφαρμόστηκε μόνο εν μέρει· αυτές οι ρυθμίσεις δεν "
+"αποθηκεύτηκαν: {}. Αναιρέστε τη με: deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "Λειτουργίες {}: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "Δεν υπάρχουν αποθηκευμένες προρυθμίσεις."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "ΟΝΟΜΑ"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ID"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "ΔΗΜΙΟΥΡΓΗΘΗΚΕ"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "Οι ρυθμίσεις σας ταιριάζουν ήδη με την προρύθμιση «{}»."
+
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "Η προρύθμιση «{}» αλλάζει {} ρύθμιση:"
+msgstr[1] "Η προρύθμιση «{}» αλλάζει {} ρυθμίσεις:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "Δεν άλλαξε τίποτα (--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "Εφαρμογή της προρύθμισης;"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr "Η προρύθμιση «{}» εφαρμόστηκε. Αναιρέστε τη με: deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "Δεν είναι δυνατή η εισαγωγή του {}: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"Υπάρχει ήδη αποθηκευμένη προρύθμιση με το όνομα «{}». Επιλέξτε άλλο όνομα με "
+"--name ή αντικαταστήστε την με --replace."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr ""
+"Η προρύθμιση «{}» είναι έγκυρη και θα αποθηκευόταν· δεν άλλαξε τίποτα (--dry-"
+"run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr ""
+"Η προρύθμιση «{}» αποθηκεύτηκε ως {}. Εφαρμόστε τη με: deskence preset apply "
+"{}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "Αποθήκευση και εφαρμογή της προρύθμισης;"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"Η προρύθμιση «{}» αποθηκεύτηκε ως {} και εφαρμόστηκε. Αναιρέστε τη με: "
+"deskence preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "Το {} είναι φάκελος· δώστε όνομα αρχείου."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "Το {} υπάρχει ήδη. Χρησιμοποιήστε --force για να το αντικαταστήσετε."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "Δεν είναι δυνατή η εγγραφή του {}: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "Οι ρυθμίσεις εξήχθησαν στο {} (αρχειοθήκη με εικόνες)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "Οι ρυθμίσεις εξήχθησαν στο {}."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr "Δεν χρησιμοποιείται δική σας εικόνα, οπότε το αρχείο είναι απλό JSON."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr ""
+"Οι ρυθμίσεις επιστρέφουν σε ό,τι ήταν ακριβώς πριν από την τελευταία "
+"εισαγωγή."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "Η προρύθμιση δεν άλλαξε τίποτα που να μπορεί να αναιρεθεί."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "Η αναίρεση του «{}» επαναφέρει:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"Άλλαξαν μετά την εφαρμογή της προρύθμισης, οπότε μένουν ως έχουν (προσθέστε "
+"--include-changed για να αναιρεθούν και αυτές): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "Αναίρεση της προρύθμισης;"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "Η προρύθμιση αναιρέθηκε μόνο εν μέρει: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "Οι προηγούμενες ρυθμίσεις επαναφέρθηκαν."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "Δώστε τι θα επαναφερθεί ή --all, όχι και τα δύο."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr "Ονομάστε τι θα επαναφερθεί ή χρησιμοποιήστε --all. Επιλογές: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "Άγνωστη επιλογή: {}. Επιλογές: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "Όλα είναι ήδη στην προεπιλογή τους· τίποτα προς επαναφορά."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "Επαναφέρθηκε στην προεπιλογή ({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "όλο το Deskence"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "Η προβολή εφαρμογών επιστρέφει στη δική σας σειρά."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "Η λειτουργία app-grid (αλφαβητική σειρά) απενεργοποιείται."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"Δεν αλλάζουν: οι άλλες ενεργοποιημένες λειτουργίες, οι καρφιτσωμένες "
+"εφαρμογές, τα αρχεία στην επιφάνεια εργασίας, οι δικές σας εικόνες, οι "
+"αποθηκευμένες προρυθμίσεις και το ιστορικό προχείρου."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "Επαναφορά αυτών των ρυθμίσεων;"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "Ορισμένες ρυθμίσεις δεν μπόρεσαν να επαναφερθούν: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "Οι προεπιλεγμένες ρυθμίσεις επαναφέρθηκαν."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: σφάλμα: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"Ρυθμίσεις του Deskence από τη γραμμή εντολών. Χωρίς εντολή, ανοίγει το "
+"παράθυρο ρυθμίσεων (deskence [--page ΣΕΛΙΔΑ])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"Λειτουργίες: {}. Κωδικοί εξόδου: 0 ολοκληρώθηκε, 1 απέτυχε, 2 μη έγκυρη "
+"γραμμή εντολών, 3 δεν επιβεβαιώθηκε, 4 αποθηκεύτηκε αλλά δεν επιβεβαιώθηκε "
+"στην τρέχουσα συνεδρία GNOME. Δείτε man deskence."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "ΕΝΤΟΛΗ"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "εκτύπωση εγγράφου JSON αντί για κείμενο"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr ""
+"εμφάνιση της αποθηκευμένης και της τρέχουσας κατάστασης κάθε λειτουργίας"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "ενεργοποίηση λειτουργιών"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "απενεργοποίηση λειτουργιών· οι ρυθμίσεις τους διατηρούνται"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "ένα από: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "όλες οι λειτουργίες του Deskence (ποτέ άλλες επεκτάσεις)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "εμφάνιση, εφαρμογή, εισαγωγή και εξαγωγή προρυθμίσεων"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "Οι προρυθμίσεις αποθηκεύονται στο {}."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "ΕΝΕΡΓΕΙΑ"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "εμφάνιση μόνο του τι θα άλλαζε"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "χωρίς αίτημα επιβεβαίωσης"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "εμφάνιση των αποθηκευμένων προρυθμίσεων"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "εφαρμογή αποθηκευμένης προρύθμισης"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "όνομα ή ID αποθηκευμένης προρύθμισης"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr "έλεγχος αρχείου προρύθμισης και αποθήκευσή του στις προρυθμίσεις"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "ΑΡΧΕΙΟ"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr "προρύθμιση .json ή αρχειοθήκη .deskence"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "αποθήκευση με αυτό το όνομα"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "αντικατάσταση αποθηκευμένης προρύθμισης με το ίδιο όνομα"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "και εφαρμογή της"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "εγγραφή των τρεχουσών ρυθμίσεων σε αρχείο"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "όνομα που αποθηκεύεται στην προρύθμιση"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "συμπερίληψη καρφιτσωμένων εφαρμογών"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "συμπερίληψη φακέλων στο dock"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "συμπερίληψη δικών σας εικόνων (γράφει αρχειοθήκη)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "αντικατάσταση υπάρχοντος αρχείου"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "αναίρεση της τελευταίας εφαρμοσμένης προρύθμισης"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr ""
+"αναίρεση και των ρυθμίσεων που άλλαξαν μετά την εφαρμογή της προρύθμισης"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "επαναφορά προεπιλεγμένων ρυθμίσεων"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "ΤΜΗΜΑ"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr ""
+"όλες οι ρυθμίσεις του Deskence· απενεργοποιεί επίσης τη λειτουργία app-grid"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "εμφάνιση αναφοράς για αναφορές σφαλμάτων (δεν αποστέλλεται τίποτα)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"Ο δίαυλος συνεδρίας δεν είναι διαθέσιμος, οπότε το dconf δεν μπορεί να "
+"αποθηκεύσει ρυθμίσεις. Εκτελέστε την εντολή σε τερματικό της συνεδρίας GNOME "
+"ή μετά από σύνδεση σε κονσόλα κειμένου ως ο ίδιος χρήστης."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr ""
+"Οι ρυθμίσεις κρατιούνται μόνο στη μνήμη (GSETTINGS_BACKEND=memory) και θα "
+"χάνονταν."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "Εμφάνιση ιστορικού προχείρου"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "Ανοίγει το ιστορικό των αντιγραμμένων κειμένων και εικόνων"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr ""
+"Εναλλάσσει το «Πάντα στην κορυφή» για το εστιασμένο παράθυρο (συντόμευση του "
+"GNOME)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "Στο παράθυρο ρυθμίσεων του Deskence"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "Αυτή δεν είναι έγκυρη συντόμευση."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "Ένα πλήκτρο τροποποίησης μόνο του δεν μπορεί να είναι συντόμευση."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr ""
+"Χρησιμοποιήστε Ctrl, Alt ή Super μαζί με το πλήκτρο, ή ένα πλήκτρο "
+"λειτουργίας."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"Οι ίδιες οι εφαρμογές χρησιμοποιούν αυτό το είδος συντομεύσεων. Προσθέστε "
+"Super ή συνδυάστε Ctrl και Alt."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "Δική σας συντόμευση"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "Χρησιμοποιείται ήδη για: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "dock, γραμμή εργασιών, εκκινητής, πλαίσιο, ταμπλό, taskbar, launcher"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "μεγέθυνση, ζουμ, μεγεθυντικός φακός, zoom"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "αυτόματη απόκρυψη, απόκρυψη, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "στοίβες, φάκελοι, λήψεις, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "μικρογραφίες, παράθυρα, προεπισκοπήσεις, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "σήματα, μη αναγνωσμένα, ειδοποιήσεις, μηνύματα, μετρητής, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "λήψη, πρόοδος, γραμμή προόδου, download"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "επιφάνεια εργασίας, αρχεία, εικονίδια, desktop"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr "πλέγμα εφαρμογών, εφαρμογές, εκκινητής, μενού, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "ταξινόμηση, αλφαβητικά, σειρά, τακτοποίηση"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "φάκελοι, πλακίδια, ομάδες"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "πέρασμα δείκτη, επισήμανση, δείκτης, hover"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "περιοχή ειδοποιήσεων, ενδείξεις, εικονίδια κατάστασης, tray"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "αναστολή, ύπνος, καφεΐνη, caffeine, αποτροπή, εγρήγορση"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "προφύλαξη οθόνης, κενή οθόνη, κλείδωμα"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "γραμμή τίτλου, κουμπιά, ελαχιστοποίηση, μεγιστοποίηση"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "αντιγραφή, επικόλληση, πρόχειρο, ιστορικό, clipboard"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr ""
+"πληκτρολόγιο, συντομεύσεις πληκτρολογίου, πλήκτρα, συντομεύσεις, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "σφάλμα, διαγνωστικά, αναφορά, πρόβλημα, bug"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "αντίγραφο ασφαλείας, προρυθμίσεις, μεταφορά, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "γλώσσα, μετάφραση, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "Απενεργοποιημένη"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "Επαναφορά προεπιλεγμένης συντόμευσης"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "Ορισμός συντόμευσης"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "Πατήστε τη νέα συντόμευση για το «{}». Το Escape ακυρώνει."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "Επαναφορά _προεπιλογής"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "Η προεπιλεγμένη συντόμευση χρησιμοποιείται ήδη: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "Δεν είναι δυνατή η χρήση αυτής της συντόμευσης"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "Συντομεύσεις πληκτρολογίου"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "Παντού"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"Οι συγκρούσεις με άλλες συντομεύσεις του Deskence και με αυτές του GNOME "
+"απορρίπτονται. Οι συντομεύσεις άλλων εφαρμογών και επεκτάσεων δεν μπορούν να "
+"ελεγχθούν."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "Στο παράθυρο ρυθμίσεων"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "Λειτουργεί όσο το «{}» είναι ενεργοποιημένο"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "Ελληνικά"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "Έναρξη συνεδρίας"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "Εμφάνιση της _επιφάνειας εργασίας μετά τη σύνδεση"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "Έναρξη στην επιφάνεια εργασίας αντί για την επισκόπηση δραστηριοτήτων"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr ""
+"Το dock, η επιφάνεια εργασίας και οι άλλες λειτουργίες χρησιμοποιούν πάντα "
+"τη γλώσσα του συστήματος."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "_Γλώσσα εφαρμογής"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "Ρυθμίσεις και εντολή deskence"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "Η νέα γλώσσα χρησιμοποιείται μετά από επανεκκίνηση"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "_Επανεκκίνηση"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "Προρυθμίσεις"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr ""
+"Αποθηκεύστε τις τρέχουσες ρυθμίσεις για να επιστρέψετε σε αυτές αργότερα."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "Δεν υπάρχουν αποθηκευμένες προρυθμίσεις"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "_Αποθήκευση τρεχουσών ρυθμίσεων…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "Μεταφορά ρυθμίσεων"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"Μεταφέρετε τις ρυθμίσεις σε άλλον υπολογιστή ή κρατήστε τις για "
+"επανεγκατάσταση. Πριν από την εισαγωγή βλέπετε τι αλλάζει."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "Ε_ξαγωγή σε αρχείο…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "Ε_ισαγωγή από αρχείο…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "_Αναίρεση της τελευταίας εφαρμοσμένης προρύθμισης…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "_Συντομεύσεις πληκτρολογίου"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr "Δείτε και αλλάξτε όλες τις συντομεύσεις του Deskence σε ένα σημείο"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"Εκδόσεις, το είδος της συνεδρίας, οι οθόνες και η κατάσταση κάθε "
+"λειτουργίας, για επικόλληση σε αναφορά σφάλματος. Δεν περιλαμβάνεται τίποτα "
+"ιδιωτικό και δεν αποστέλλεται τίποτα πουθενά."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "Εμφάνιση _αναφοράς…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "_Αντιγραφή διαγνωστικών"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "Αποθήκευση αναφοράς σε _αρχείο…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "_Επαναφορά προεπιλεγμένων ρυθμίσεων του Deskence…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "Σειρά"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr "Πώς τακτοποιούνται οι εφαρμογές στην προβολή εφαρμογών πλήρους οθόνης."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "_Σειρά εφαρμογών"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "Δική σας σειρά"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "Αλφαβητική"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "Φόντο"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "Όταν είναι ανενεργό, χρησιμοποιείται το χρώμα του στιλ GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "Δική σας _διαφάνεια φόντου"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "Όταν είναι ανενεργό, το φόντο είναι αδιαφανές, όπως στο GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "Διαφάνεια _φόντου"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "Φάκελοι εφαρμογών"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "Δικό σας _χρώμα φακέλων"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "Χρώμα φακέλων"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "Δική σας δια_φάνεια φακέλων"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "Όταν είναι ανενεργό, χρησιμοποιείται η διαφάνεια του στιλ GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "Διαφάνεια φα_κέλων"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "Επισήμανση κατά το πέρασμα του δείκτη"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "Δικό σας χρώμα _επισήμανσης"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "Χρώμα επισήμανσης"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "Δική σας διαφάνεια επισή_μανσης"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"Η αντιγραφή και η επικόλληση λειτουργούν όπως πριν. Το ιστορικό των "
+"αντιγραμμένων κειμένων και εικόνων ανοίγει με τη δική του συντόμευση."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "_Ιστορικό προχείρου"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "_Επικόλληση του επιλεγμένου στοιχείου"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Επικολλά στο παράθυρο όπου ήσασταν, με Ctrl+V (Ctrl+Shift+V στα τερματικά). "
+"Όταν είναι ανενεργό, το στοιχείο απλώς τοποθετείται στο πρόχειρο."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "Πάντα επικόλληση κειμένου _χωρίς μορφοποίηση"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"Τα παλαιότερα στοιχεία είναι πάντα απλό κείμενο. Το Shift+Enter επικολλά "
+"απλό κείμενο οποιαδήποτε στιγμή."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "Απομνημόνευση και του επιλεγμένου _κειμένου"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "Κείμενο επιλεγμένο με το ποντίκι, που επικολλά το μεσαίο κουμπί"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "Αποθήκευση"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"Το ιστορικό κρατιέται μόνο στη μνήμη και χάνεται μετά την αποσύνδεση. Τα "
+"καρφιτσωμένα στοιχεία μένουν όταν καθαρίζεται το ιστορικό και δεν μετρούν "
+"στο όριο. Περιεχόμενο που οι εφαρμογές σημειώνουν ως μυστικό, όπως από "
+"διαχειριστές κωδικών πρόσβασης, δεν απομνημονεύεται· δεν μπορεί να "
+"αναγνωριστεί κάθε κωδικός πρόσβασης."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "_Απομνημονευμένα στοιχεία"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "_Διατήρηση μετά την αποσύνδεση"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "Τίποτα"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "Καρφιτσωμένα στοιχεία"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "Όλο το ιστορικό"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "_Παύση απομνημόνευσης"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "Νέα στοιχεία δεν προστίθενται μέχρι να απενεργοποιηθεί αυτό"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "Φάκελος %s"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "Πίσω"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "Τύπος"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "Ταξινόμηση κατά %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "Εμφάνιση ως πλέγμα"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "Εμφάνιση ως λίστα"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "Αυτός ο τυπικός φάκελος δεν έχει ρυθμιστεί."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "Φόρτωση…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "Αυτός ο φάκελος δεν υπάρχει πια."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "Δεν έχετε δικαίωμα να ανοίξετε αυτόν τον φάκελο."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "Αυτός ο φάκελος δεν μπορεί να ανοίξει: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "Αυτός ο φάκελος είναι κενός."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"Αυτός ο φάκελος έχει περισσότερα από %d στοιχεία· εμφανίζονται μόνο τα "
+"πρώτα. Ανοίξτε τον στα Αρχεία για να τα δείτε όλα."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "Φάκελος"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του «%s»"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "Αποκοπή"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "Το %s δεν είναι διαθέσιμο"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "Το %s είναι μόνο για ανάγνωση"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "Ένας φάκελος δεν μπορεί να τοποθετηθεί μέσα στον εαυτό του"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "Ήδη στο %s"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "Μόνο αρχεία μπορούν να τοποθετηθούν σε φάκελο"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "Μετακίνηση στο %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Αντιγραφή στο %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Μετακίνηση ή αντιγραφή στο %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "Δεν είναι δυνατή η μετακίνηση των αρχείων στο %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "Δεν είναι δυνατή η αντιγραφή των αρχείων στο %s"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr ""
+"Για την αντιγραφή και μετακίνηση αρχείων από το dock χρειάζεται η εφαρμογή "
+"Αρχεία."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Δεν είναι δυνατό το άνοιγμα των αρχείων στο %s"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Άνοιγμα με %s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "Το %s δεν μπορεί να ανοίξει αρχεία"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Δεν είναι δυνατό να επιβεβαιωθεί ότι το %s ανοίγει αυτά τα αρχεία"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "%d από τα αρχεία δεν είναι πλέον διαθέσιμο"
+msgstr[1] "%d από τα αρχεία δεν είναι πλέον διαθέσιμα"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "Το %s δεν ανοίγει αυτόν τον τύπο αρχείου"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "Το %s δεν ανοίγει %d από αυτά τα αρχεία"
+msgstr[1] "Το %s δεν ανοίγει %d από αυτά τα αρχεία"
+
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, %d νέο στοιχείο"
+msgstr[1] "%s, %d νέα στοιχεία"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "Οι εφαρμογές είναι ταξινομημένες αλφαβητικά"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr ""
+"Για να τις τακτοποιήσετε μόνοι σας, επιλέξτε «Δική σας σειρά» στο Deskence."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "Έτοιμο για επικόλληση"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "Μόλις τώρα"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "Πριν από %d λεπτό"
+msgstr[1] "Πριν από %d λεπτά"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "Πριν από %d ώρα"
+msgstr[1] "Πριν από %d ώρες"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "Ιστορικό προχείρου"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "Αναζήτηση στο ιστορικό"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "Εκκαθάριση ιστορικού"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: επικόλληση · Shift+Enter: επικόλληση ως απλό κείμενο · Delete: "
+"αφαίρεση · Ctrl+P: καρφίτσωμα"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "Συνέχιση απομνημόνευσης"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "Παύση απομνημόνευσης"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "Κάντε ξανά κλικ για εκκαθάριση"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr ""
+"Κάντε ξανά κλικ για να αφαιρεθούν όλα τα στοιχεία εκτός από τα καρφιτσωμένα."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "Τα νέα στοιχεία δεν απομνημονεύονται μέχρι να συνεχίσετε."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr ""
+"Δεν έχει αντιγραφεί τίποτα ακόμη. Τα στοιχεία που αντιγράφετε εμφανίζονται "
+"εδώ."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "Κανένα στοιχείο δεν ταιριάζει με την αναζήτηση."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "Εικόνα, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "Ξεκαρφίτσωμα"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "Καρφίτσωμα"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "Το «Σε εγρήγορση» είναι ενεργό: η οθόνη μένει αναμμένη"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "Το «Σε εγρήγορση» είναι ενεργό"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "Λιγότερα"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "Αποτρέπει την αυτόματη αναστολή"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "Μέχρι να απενεργοποιηθεί"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d λεπτό"
+msgstr[1] "%d λεπτά"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d ώρα"
+msgstr[1] "%d ώρες"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "Διατήρηση της οθόνης αναμμένης"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "Η οθόνη τότε δεν σβήνει και δεν κλειδώνει αυτόματα"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "Τερματισμός τώρα"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "Μέχρι τις %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "Μέχρι να απενεργοποιηθεί"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "Απομένει %d λεπτό"
+msgstr[1] "Απομένουν %d λεπτά"

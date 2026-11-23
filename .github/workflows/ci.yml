@@ -27,6 +27,11 @@ jobs:
           meson compile -C _build
       - name: Test
         run: meson test -C _build --print-errorlogs
+      - name: Translation template is up to date
+        run: |
+          cp po/deskence.pot _build/committed.pot
+          meson compile -C _build deskence-pot
+          python3 po/check-po.py --same-texts _build/committed.pot po/deskence.pot
 
   debian:
     name: Debian 13

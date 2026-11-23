@@ -110,7 +110,13 @@ feature can be turned on and off on its own.
 - **Start on the desktop** – optionally begin a session on the desktop
   instead of the activities overview (needs the dock).
 
-The interface is available in English and Polish.
+The interface is available in 29 languages: all official languages of the
+European Union, Korean, Simplified and Traditional Chinese, Serbian and
+Filipino. It follows the language of the system; the settings window and
+the `deskence` command can also use another one (General page). Apart from
+English and Polish, the translations were prepared with machine assistance
+and still need review by native speakers; corrections are welcome, see
+[po/README.md](po/README.md).
 
 ## Compatibility
 

@@ -22,9 +22,10 @@ import unicodedata
 from dataclasses import dataclass, field
 from gettext import gettext as _
 
-# Letters NFKD does not split into a base letter and a mark.
+# Letters NFKD does not split into a base letter and a mark, and soft
+# hyphens, which translations use to break long words ("Anwendungs­übersicht").
 _EXTRA = str.maketrans({"ł": "l", "Ł": "l", "ø": "o", "Ø": "o", "đ": "d", "Đ": "d",
-                        "ß": "ss", "æ": "ae", "œ": "oe"})
+                        "ß": "ss", "æ": "ae", "œ": "oe", "\u00ad": None})
 
 
 def fold(text):

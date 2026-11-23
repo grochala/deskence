@@ -205,6 +205,35 @@ headless Wayland session.
   still work; files from applications still go into folders;
   `startup-input.sh` passes.
 
+**Translations (0.15.0)**, 28 catalogs:
+
+- `check-po` (in `meson test`): every catalog compiles with
+  `msgfmt --check`, matches the template, keeps placeholders, mnemonics
+  and plural forms; a catalog broken on purpose (missing mnemonic,
+  missing `%s`, duplicate language name) was caught.
+- Fedora 45 container, installed to `/usr`, run as a normal user with
+  `LANG=en_US.UTF-8`: `LANGUAGE=<code> deskence --help` printed the help in
+  each of the 28 languages and in English for an unknown code; GJS
+  (`imports.gettext.dgettext`/`dngettext`, as the extensions use it)
+  translated "Show Apps" and "%d minutes left" with the right plural form in
+  every language, and in `zh_HK`/`zh_SG` through the installed links; with
+  only `LANG=zh_HK.UTF-8` Python's gettext found the Traditional Chinese
+  catalog.
+- Isolated GNOME Shell 51.1 session (`session.sh`), the language set with
+  `gsettings set io.github.deskence.Deskence language`: screenshots of the
+  settings window in German, Dutch, Finnish, Greek, Korean and
+  Traditional Chinese. Long German and Dutch page names broke inside words
+  in the sidebar; they now carry soft hyphens. The value of "Order of
+  Applications" is ellipsized when its explanation is long (also in
+  Polish before); the longest values were shortened.
+- The extension `locale` links of a non-`/usr` prefix were installed into
+  the test prefix.
+
+Not verified: every page in every language, right-to-left languages (none
+shipped), the extensions in a real session with a non-English system
+language, the language list popover with all 29 entries (checked only as
+the sorted list the code builds), native-speaker review of the texts.
+
 **Application language** (after 0.13.0), GNOME Shell 51.1 headless, the
 settings window started with `LANG` set:
 

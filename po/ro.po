@@ -1,0 +1,4579 @@
+# Romanian translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "Configurări desktop"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr ""
+"Dock, iconițe pe desktop, iconițe de aplicații în bara de sus și butoane ale "
+"ferestrelor"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"dock;desktop;iconițe;zonă de notificare;indicator;bară de "
+"activități;minimizare;maximizare;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "Dock, iconițe pe desktop și zonă de notificare pentru GNOME"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Deskence adaugă câteva facilități desktopului GNOME standard și vă permite "
+"să le configurați într-un singur loc."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"Un dock cu aplicații fixate și pornite, dosare, unități și coșul de gunoi, "
+"plus previzualizări ale ferestrelor"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "Fișiere și dosare pe desktop"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr ""
+"Iconițe de aplicații în bara de sus, de exemplu de la programe de mesagerie "
+"și sincronizare de fișiere"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "Un istoric al clipboardului și „Menține treaz” în setările rapide"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "Ordine alfabetică în vizualizarea aplicațiilor"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr "Butoane de minimizare și maximizare în barele de titlu ale ferestrelor"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr ""
+"Presetări pentru salvarea configurărilor și mutarea lor pe alt calculator"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr ""
+"Funcționează în sesiunea GNOME existentă și păstrează aspectul standard "
+"GNOME."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"Deskence este acum disponibil în 29 de limbi: toate limbile oficiale ale "
+"Uniunii Europene, coreeană, chineză simplificată și tradițională, sârbă și "
+"filipineză. Lista de limbi din configurări arată limba pe care o folosește "
+"sistemul."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"Configurări: alegeți limba ferestrei de configurări și a comenzii deskence "
+"în pagina General, independent de sistem."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"Dock: copiați sau decupați fișiere și dosare într-un panou de dosar (clic "
+"dreapta, Ctrl+C, Ctrl+X) și lipiți-le în Fișiere sau pe desktop."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Dock: trageți fișiere și dosare dintr-un panou de dosar pe alt dosar din "
+"dock sau pe desktop pentru a le muta sau copia."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Dock: aplicațiile deschid fișierele plasate doar dacă sunt de tipurile pe "
+"care le declară; altfel dockul explică de ce."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr "Dock: marcajul de sub dosare se potrivește cu punctele aplicațiilor."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"Pornire pe desktop: după autentificare, desktopul, bara de sus și ferestrele "
+"răspund din nou la clicuri când animațiile sunt dezactivate, de exemplu în "
+"mașini virtuale fără accelerare 3D; înainte răspundea doar dockul, până la "
+"prima deschidere a prezentării generale."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"Diagnosticare opțională pentru rapoarte despre un desktop și ferestre care "
+"nu mai răspund la clicuri."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"Dock: tragerea fișierelor pe dock se termină întotdeauna curat, chiar și "
+"când ceva eșuează la plasare."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Dock: plasați fișiere pe o aplicație pentru a le deschide în ea sau pe un "
+"dosar pentru a le copia sau muta acolo; țineți un fișier deasupra unui dosar "
+"pentru a-l deschide și a-l plasa într-unul dintre subdosarele sale."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"Configurări: căutați orice configurare cu Ctrl+F, gestionați toate "
+"scurtăturile de tastatură într-un singur loc cu verificarea conflictelor și "
+"copiați sau salvați un raport pentru raportarea erorilor."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"Presetări: anularea unei presetări aplicate restaurează doar ce a modificat "
+"și păstrează configurările pe care le-ați schimbat ulterior."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr ""
+"Dock: contoare pentru necitite și progresul operațiilor pe iconițele "
+"aplicațiilor care le raportează."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"Linie de comandă: verificați starea fiecărei funcții, dezactivați și "
+"activați funcții, aplicați, importați și exportați presetări, restaurați "
+"configurările implicite și colectați date de diagnosticare cu comanda "
+"deskence, chiar și dintr-o consolă text când desktopul nu funcționează. "
+"Vedeți man deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"Restaurarea configurărilor implicite nu mai șterge istoricul clipboardului "
+"păstrat după deautentificare."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"Vizualizarea aplicațiilor: culoare și transparență proprii pentru "
+"evidențierea de sub cursor pe aplicații și dosare de aplicații; trecerea "
+"peste un dosar nu mai desenează un contur."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"Dosare în dock: panoul ocupă cel mult jumătate din înălțimea ecranului, "
+"derulează întregul dosar, inclusiv cu tastatura, și revine la poziția "
+"anterioară după un subdosar."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"Configurări: descrieri mai clare, formulări poloneze mai bune și mai puține "
+"scurtături de tastatură în conflict."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"Dock: un dock pe toată marginea se potrivește cu bara de sus în prezentarea "
+"generală a activităților și în vizualizarea aplicațiilor; un dock scurt își "
+"păstrează aspectul propriu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"Vizualizarea aplicațiilor: dalele dosarelor cu culoare sau transparență "
+"proprie arată acum clar trecerea cursorului, apăsarea, focalizarea și "
+"selecția."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"Vizualizarea aplicațiilor: culoare și transparență proprii pentru dalele "
+"dosarelor precum „Utilitare”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"General: opțional, pornire pe desktop în loc de prezentarea generală a "
+"activităților după autentificare."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr ""
+"Dock: acum se îmbină cu prezentarea generală a activităților în loc să "
+"formeze o bandă separată."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"Legături către pagina proiectului și sistemul de raportare a erorilor, "
+"documentație în engleză. Fără modificări în aplicație."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"Configurări: o pagină General cu presetări, exportul și importul "
+"configurărilor și restaurarea valorilor implicite; o pagină Vizualizarea "
+"aplicațiilor cu sortare alfabetică; previzualizări mai calme."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"Dock: dosare care își arată conținutul, închiderea ferestrelor și privirea "
+"rapidă din previzualizările lor, „Mereu deasupra” în meniul previzualizării."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"Nou: istoricul clipboardului, „Menține treaz” în setările rapide, o "
+"scurtătură pentru „Mereu deasupra”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Better GNOME Desktop se numește acum Deskence. Configurările, funcțiile "
+"activate, aplicațiile fixate și pozițiile iconițelor de pe desktop sunt "
+"preluate."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"Dock: previzualizări ale ferestrelor unei aplicații când cursorul stă pe ea, "
+"fără spațiu suplimentar lângă butonul aplicațiilor la mărirea iconițelor, "
+"indicatori de rulare sub iconițele unui dock de jos."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"Configurări: previzualizări mai mari și mai clare ale dockului și ale "
+"iconițelor de pe desktop, iconițe pentru pagini, un element de meniu "
+"„Despre”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Better GNOME Desktop se numește acum Deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"Dock: iconițe mărite clare, fără dale sub iconițe cu fundal propriu, logo "
+"monocrom al distribuției, lista aplicațiilor la începutul unui dock pe toată "
+"marginea, indicatori de rulare pe partea interioară."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"Vizualizarea aplicațiilor: o singură tranziție continuă la închidere, "
+"culoare de fundal proprie opțională."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"Desktop: meniurile se deschid în punctul pe care s-a dat clic, inclusiv "
+"lângă dock; grila de iconițe începe în colțul ales, cu margini mici."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"Dock: butonul aplicațiilor la oricare capăt, cu alegerea iconiței, iconițe "
+"mărite, derulare când aplicațiile nu încap, culoare și transparență de "
+"fundal proprii, configurări în meniul butonului aplicațiilor, fundal "
+"transparent pentru vizualizarea aplicațiilor."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"Iconițe pe desktop: plasare liberă sau aliniere la grilă, „Aliniază la "
+"grilă”, tot desktopul de lângă dock utilizabil, poziții ale iconițelor care "
+"nu se mută odată cu dockul."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"Corecturi: închidere lină a vizualizării aplicațiilor, reordonare imediată a "
+"iconițelor din dock, fără cadru la tragerea iconițelor de pe desktop, "
+"același meniu de desktop peste tot."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "Prima versiune."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "Versiunea structurii configurărilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"Folosită de aplicația de configurare pentru a migra valorile salvate între "
+"versiuni. 0 înseamnă că configurările nu au fost niciodată migrate."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "Configurările Better GNOME Desktop au fost preluate"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Setată după ce configurările salvate de Better GNOME Desktop (0.3.0 și mai "
+"vechi) au fost copiate aici. Valorile deja setate aici nu sunt niciodată "
+"suprascrise; configurările anterioare sunt păstrate."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "Afișează desktopul după autentificare"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"Dacă este adevărat, o sesiune nouă începe pe desktop în loc de prezentarea "
+"generală a activităților. Este afectat doar începutul sesiunii: deschiderea "
+"ulterioară a prezentării generale, deblocarea ecranului sau activarea și "
+"dezactivarea funcțiilor nu o închid niciodată. Aplicat de extensia dockului."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Limba aplicației Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"Limba ferestrei de configurări și a comenzii deskence: codul unei traduceri "
+"instalate cu Deskence (de exemplu \"pl\"), \"en\" pentru engleză sau gol "
+"pentru a urma sistemul. Un cod fără traducere instalată înseamnă engleză. "
+"Extensiile GNOME Shell și iconițele de pe desktop urmează întotdeauna limba "
+"GNOME Shell. Aplicată la pornirea aplicației."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "Marginea ecranului pentru dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\" (stânga), \"bottom\" (jos) sau \"right\" (dreapta)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "Lungimea dockului"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr ""
+"\"fit\": doar atât de lung cât au nevoie iconițele. \"full\": toată marginea "
+"ecranului."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "Dimensiunea iconițelor în pixeli logici"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"Scalată după scala monitorului și factorul de scalare a textului din tema "
+"shell, ca celelalte iconițe GNOME Shell."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "Când se ascunde dockul"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": mereu vizibil, iar ferestrele sunt ținute în afara zonei sale. "
+"\"intellihide\": ascuns cât timp o fereastră de pe același monitor îl "
+"acoperă. \"autohide\": ascuns până când cursorul ajunge la marginea "
+"ecranului."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "Pe ce monitoare este afișat dockul"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\" (principal), \"selected\" (selectat, vedeți selected-monitor) "
+"sau \"all\" (toate)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "Conectorul monitorului selectat"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"Numele conectorului, de exemplu \"DP-1\". Folosit când monitor-mode este "
+"\"selected\"; cât timp acel monitor nu este conectat, se folosește monitorul "
+"principal."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "Afișează coșul de gunoi"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "Afișează unitățile amovibile"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "Afișează locațiile din rețea"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "Afișează butonul aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "Unde se află butonul aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": primul element din dock (în stânga într-un dock orizontal, sus "
+"într-unul vertical). \"end\": ultimul element (în dreapta sau jos)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "Iconița butonului aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": iconița de aplicații GNOME. \"distribution\": logoul "
+"distribuției instalate, din iconițele instalate în sistem; iconița implicită "
+"dacă nu există. \"custom\": imaginea din apps-button-custom-icon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "Iconița proprie a butonului aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"Calea unei copii a imaginii alese, păstrată în dosarul de date al "
+"utilizatorului Deskence, ca să funcționeze și dacă fișierul original este "
+"mutat sau șters. Dacă fișierul nu poate fi încărcat, se folosește iconița "
+"implicită."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "Mărește iconițele de sub cursor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"Iconițele de lângă cursor cresc lin pe măsură ce acesta se mișcă peste dock. "
+"Nu se afișează cât timp animațiile sunt dezactivate în GNOME."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "Intensitatea măririi"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr "Dimensiunea iconiței de sub cursor față de dimensiunea sa normală."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "Culoare de fundal proprie pentru dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr "Dacă este fals, fundalul dockului are culoarea stilului GNOME curent."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "Culoarea de fundal a dockului"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"Culoare în forma \"#rrggbb\", folosită când background-custom-color este "
+"adevărat. Nu are transparență proprie: aceasta este background-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "Transparență de fundal proprie pentru dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr ""
+"Dacă este fals, fundalul dockului este atât de transparent cât îl face "
+"stilul GNOME curent."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "Transparența fundalului dockului"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: opac. 100: complet transparent. Doar fundalul; iconițele, indicatorii, "
+"etichetele și meniurile își păstrează propria vizibilitate. Folosit când "
+"background-custom-transparency este adevărat."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "Transparență de fundal proprie pentru vizualizarea aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr ""
+"Dacă este fals, vizualizarea aplicațiilor pe tot ecranul, deschisă din dock, "
+"are fundalul GNOME standard."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "Culoare de fundal proprie pentru vizualizarea aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"Dacă este fals, vizualizarea aplicațiilor pe tot ecranul, deschisă din dock, "
+"are culoarea fundalului GNOME standard. Independent de fundalul dockului."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "Culoarea de fundal a vizualizării aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"Culoare în forma \"#rrggbb\", folosită când app-grid-custom-color este "
+"adevărat. Nu are transparență proprie: aceasta este app-grid-transparency "
+"(sau opacă atunci când app-grid-custom-transparency este fals)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "Transparența fundalului vizualizării aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: fundal opac (culoare standard sau proprie). 100: complet transparent, în "
+"spatele aplicațiilor se vede doar imaginea de fundal. Se schimbă doar "
+"fundalul; iconițele, numele și câmpul de căutare rămân complet vizibile. "
+"Folosit când app-grid-custom-transparency este adevărat."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "Culoare de fundal proprie pentru dosarele de aplicații"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"Dacă este fals, dalele dosarelor din vizualizarea aplicațiilor (precum "
+"\"Utilitare\") au culoarea stilului GNOME curent. Se schimbă doar fundalul "
+"dalei; miniaturile aplicațiilor și numele dosarului rămân neschimbate, iar "
+"panoul unui dosar deschis nu este afectat."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "Culoarea de fundal a dosarelor de aplicații"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"Culoare în forma \"#rrggbb\", folosită când app-grid-folder-custom-color "
+"este adevărat. Nu are transparență proprie: aceasta este app-grid-folder-"
+"transparency (sau alfa stilului GNOME când app-grid-folder-custom-"
+"transparency este fals)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "Transparență de fundal proprie pentru dosarele de aplicații"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"Dacă este fals, dalele dosarelor din vizualizarea aplicațiilor sunt atât de "
+"opace cât le face stilul GNOME curent."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "Transparența fundalului dosarelor de aplicații"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: fundal de dală opac. 100: complet transparent; dosarul se recunoaște după "
+"miniaturile aplicațiilor și după nume. Trecerea cursorului, selecția și "
+"focalizarea tastaturii rămân vizibile. Folosit când app-grid-folder-custom-"
+"transparency este adevărat."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr ""
+"Culoare proprie a evidențierii la trecerea cursorului în vizualizarea "
+"aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"Dacă este fals, evidențierea afișată sub cursor pe aplicații, dosare de "
+"aplicații și aplicații dintr-un dosar deschis are culoarea stilului GNOME "
+"curent. Dockul, desktopul și stivele de dosare nu sunt afectate."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr ""
+"Culoarea evidențierii la trecerea cursorului în vizualizarea aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"Culoare în forma \"#rrggbb\", folosită când app-grid-hover-custom-color este "
+"adevărat. Nu are transparență proprie: aceasta este app-grid-hover-"
+"transparency (sau alfa stilului GNOME când app-grid-hover-custom-"
+"transparency este fals)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr ""
+"Transparență proprie a evidențierii la trecerea cursorului în vizualizarea "
+"aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"Dacă este fals, evidențierea la trecerea cursorului este atât de opacă cât o "
+"face stilul GNOME curent."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr ""
+"Transparența evidențierii la trecerea cursorului în vizualizarea aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: evidențiere opacă. 100: complet transparentă; un dosar arată atunci sub "
+"cursor la fel ca în repaus. Se schimbă doar evidențierea; iconițele și "
+"numele rămân complet vizibile, iar focalizarea tastaturii rămâne marcată. "
+"Folosit când app-grid-hover-custom-transparency este adevărat."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "Clic pe o aplicație pornită"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": focalizează fereastra folosită cel mai recent; când "
+"aplicația este deja focalizată, comută la următoarea ei fereastră. "
+"\"minimize-or-cycle\": ca focus-or-cycle, dar o aplicație cu o singură "
+"fereastră focalizată este minimizată."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "Afișează doar aplicațiile din spațiul de lucru curent"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"Dacă este adevărat, aplicațiile pornite (nefixate) sunt listate doar când au "
+"o fereastră în spațiul de lucru activ, iar clicul comută doar între acele "
+"ferestre."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "Afișează contoarele aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"Dacă este adevărat, o aplicație care raportează un contor (de exemplu mesaje "
+"necitite, prin API-ul D-Bus LauncherEntry) îl afișează pe iconița sa din "
+"dock. Aplicațiile care nu raportează nimic nu afișează nimic."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "Afișează progresul aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"Dacă este adevărat, o aplicație care raportează progresul unei operații (de "
+"exemplu o descărcare, prin API-ul D-Bus LauncherEntry) îl afișează ca bară "
+"pe iconița sa din dock."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "Afișează previzualizări ale ferestrelor la trecerea cursorului"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"Când cursorul stă pe o aplicație pornită, se afișează ferestrele ei (cele pe "
+"care le numără dockul, vedeți isolate-workspaces) cu titlurile lor; un clic "
+"pe una o activează."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "Privire rapidă la o fereastră din previzualizarea ei"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"Cât timp cursorul stă pe previzualizarea unei ferestre, acea fereastră este "
+"afișată o clipă deasupra celorlalte, estompate. Nimic nu este focalizat, "
+"ridicat, restaurat sau mutat; părăsirea previzualizării sau apăsarea tastei "
+"Escape încheie privirea."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "Dosare în dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"Dosarele afișate în dock, în ordine. Fiecare intrare este \"xdg:NUME\" "
+"pentru un dosar standard (NUME ca în GLib.UserDirectory, fără prefixul "
+"DIRECTORY_, de exemplu \"xdg:DOWNLOAD\"), \"home:CALE/RELATIVĂ\" pentru un "
+"dosar din dosarul personal sau un URI \"file://\" pentru orice alt dosar. "
+"Eliminarea unei intrări nu atinge niciodată dosarul."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "Afișează dosare în dock"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr ""
+"Dacă este fals, dosarele din folder-stacks sunt păstrate, dar nu sunt "
+"afișate."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "Cum este afișat conținutul dosarelor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": iconițe mari. \"list\": iconițe mai mici, cu dimensiune și dată. "
+"Se schimbă din panoul dosarului."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "Ordinea de sortare a fiecărui dosar"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"Asociază unei intrări din folder-stacks \"name\", \"modified\" (cele mai noi "
+"primele) sau \"type\". Un dosar fără intrare este sortat după nume, cu "
+"excepția dosarului Descărcări (xdg:DOWNLOAD), care afișează primele "
+"fișierele cele mai noi. Se schimbă din panoul dosarului."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "Dimensiunea iconițelor de pe desktop"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) sau \"huge\" (128 "
+"px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "Colțul în care sunt plasate iconițele noi"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "Afișează dosarul personal"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "Afișează unitățile și stick-urile USB"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "Cum sunt plasate iconițele mutate"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": iconițele rămân exact unde sunt plasate. \"grid\": iconițele "
+"plasate se aliniază la grilă. Schimbarea nu mută iconițele existente; asta "
+"face \"Aliniază la grilă\" din meniul desktopului."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "Deschide elementele cu un clic sau dublu clic"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "Ordinea folosită de „Aranjează iconițele”"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "Se schimbă din meniul desktopului „Sortează după”."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "Afișează iconițele pasive ale aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"StatusNotifierItem definește o stare \"Passive\" pentru iconițele pe care o "
+"aplicație le consideră neimportante. Ele sunt ascunse, cu excepția cazului "
+"în care aceasta este adevărată."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "Aranjarea butoanelor înainte de prima modificare"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"Valoarea button-layout din org.gnome.desktop.wm.preferences salvată înainte "
+"ca Deskence să o modifice prima dată. Goală dacă nu s-a modificat nimic."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "Aranjarea butoanelor scrisă ultima dată de Deskence"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"Folosită pentru a afla dacă utilizatorul a modificat ulterior aranjarea în "
+"altă parte; valoarea inițială este oferită pentru restaurare doar cât timp "
+"valoarea curentă este încă egală cu aceasta."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "Ordinea vizualizării aplicațiilor"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": aranjarea făcută de utilizator (app-picker-layout propriu GNOME "
+"și listele dosarelor). \"alphabetical\": aplicațiile și dosarele după numele "
+"afișat în limba utilizatorului, inclusiv aplicațiile din fiecare dosar; "
+"rearanjarea prin tragere este dezactivată. Menținută la zi de extensia app-"
+"grid."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "Aranjare salvată înainte de sortarea alfabetică"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"JSON scris când sort-mode trece la \"alphabetical\": app-picker-layout "
+"anterior din org.gnome.shell (text GVariant) și lista de aplicații a "
+"fiecărui dosar. Este restaurat când sort-mode revine la \"custom\". Intern; "
+"nu face parte din presetări."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "Scurtătura care deschide istoricul clipboardului"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "Numărul maxim de elemente reținute"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr ""
+"Elementele fixate nu se numără. Cele mai vechi elemente sunt uitate primele."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "Ce se păstrează după deautentificare"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": istoricul este păstrat doar în memorie și dispare după "
+"deautentificare. \"pinned\": elementele fixate sunt salvate în dosarul de "
+"date al utilizatorului. \"all\": tot istoricul este salvat acolo."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "Nu reține elemente noi"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr ""
+"Stare temporară schimbată din panoul istoricului; nu face parte din "
+"presetări."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "Reține și textul selectat"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"Textul selectat cu mausul (selecția primară, lipită cu butonul din mijloc) "
+"este și el adăugat în istoric."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "Lipește întotdeauna textul fără formatare"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"Istoricul păstrează textul fără formatare; doar cel mai nou element poate fi "
+"lipit cu formatare, cât timp aplicația din care a fost copiat încă îl oferă. "
+"Dacă este adevărat, și acel element este lipit ca text simplu. Shift+Enter "
+"în istoric lipește oricum text simplu."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "Lipește imediat elementul ales"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"Dacă este adevărat, alegerea unui element închide panoul și îl lipește în "
+"fereastra care era focalizată, cu Ctrl+V. Dacă este fals, elementul este "
+"doar pus în clipboard."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "Menține și ecranul pornit"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"Dacă este fals, menținerea calculatorului treaz împiedică doar suspendarea "
+"automată: ecranul se stinge și se blochează în continuare ca de obicei. Dacă "
+"este adevărat, și ecranul rămâne pornit și nu se blochează automat."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "Durata folosită de butonul din setările rapide"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr "Ultima durată aleasă; un clic pe buton o folosește din nou."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "Durată proprie în minute"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "Ora de sfârșit în minute după miezul nopții"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr "Folosită de „până la o oră”: următoarea apariție a acestei ore locale."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"Deschide o pagină de configurări: general, dock, desktop-icons, app-grid, "
+"top-bar, windows sau clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "PAGINĂ"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"Un dock cu dosare, iconițe pe desktop, iconițe de aplicații în bara de sus, "
+"un istoric al clipboardului și configurări ale ferestrelor pentru GNOME."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "Opac"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "Transparent"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "_Anulează"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "Neinstalat. Reinstalați pachetul deskence."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "Pornește după ce vă deautentificați și vă autentificați din nou"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "Actualizat; noua versiune pornește după reautentificare"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "GNOME Shell nu rulează; se aplică în următoarea sesiune GNOME"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "Nu rulează"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "Funcția s-a oprit din cauza unei erori"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "Această versiune GNOME nu este suportată"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "Versiunea instalată nu suportă GNOME {}."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "Extensiile GNOME sunt dezactivate"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Deskence are nevoie de ele pentru a-și afișa funcțiile."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "_Activează…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "Se folosește altă copie"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "O copie din dosarul personal o înlocuiește pe cea instalată: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "_Arată"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "Activați extensiile GNOME?"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr ""
+"Astfel se activează și alte extensii pe care le-ați activat în aplicația "
+"Extensii."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "_Activează"
+
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "un dock"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "iconițe pe desktop"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "iconițe de aplicații în bara de sus"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "sortarea vizualizării aplicațiilor"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "un istoric al clipboardului"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "menținerea calculatorului treaz"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr "Oferă și {}. Folosirea ambelor în același timp cauzează probleme."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "Este posibil să ofere și {}."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "Dezactivați „{}”?"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"Extensia rămâne instalată, iar configurările ei sunt păstrate. O puteți "
+"activa din nou în aplicația Extensii."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "_Dezactivează"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "_Dezactivează…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "Slabă"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "Puternică"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "Intensitatea măririi"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "Transparența fundalului"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "Dimensiunea iconițelor"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "Dockul este mereu vizibil, iar ferestrele nu îl acoperă"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "Se ascunde cât timp o fereastră îl acoperă"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "Apare când duceți cursorul la marginea ecranului"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "Un al doilea clic comută la următoarea fereastră a aplicației"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr "Un clic pe o aplicație cu o singură fereastră focalizată o minimizează"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "Restaurați configurările implicite ale dockului?"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"Poziția, dimensiunea, culorile, ascunderea, monitorul, comportamentul la "
+"clic și elementele afișate revin la valorile implicite. Aplicațiile fixate, "
+"dosarele din dock, vizualizarea aplicațiilor și afișarea dockului nu se "
+"schimbă."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "_Restaurează"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr ""
+"Nu se afișează cât timp animațiile sunt dezactivate în configurările de "
+"accesibilitate"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "Adaugă un dosar"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "Alt dosar…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "Neconfigurat pe acest calculator"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{} (lipsește)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "Mută în sus"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "Mută în jos"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "Elimină din dock"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "Adaugă un dosar în dock"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "Acest dosar nu poate fi adăugat"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "Pot fi adăugate doar dosare locale."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "Î_nchide"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "Începutul dockului"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "Sfârșitul dockului"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "Sus"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "Jos"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "În stânga"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "În dreapta"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "Niciun logo instalat; se folosește iconița implicită"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "Nicio imagine aleasă; se folosește iconița implicită"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "Imaginea lipsește; se folosește iconița implicită"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "Imagini"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "Alegeți o iconiță"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "Pot fi folosite doar fișiere locale."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr ""
+"Fișierul nu este o imagine într-un format suportat (PNG, SVG, JPEG sau WebP) "
+"de cel mult 4 MB."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "Această imagine nu poate fi folosită"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{} (deconectat)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "Niciun dosar de desktop nu este configurat"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "Restaurați configurările implicite ale iconițelor de pe desktop?"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"Dimensiunea, plasarea, comportamentul la clic și elementele afișate revin la "
+"valorile implicite. Fișierele și pozițiile iconițelor nu se schimbă."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "Iconițele rămân exact unde le plasați"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "Iconițele plasate se aliniază la grilă"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "Transparența dosarelor"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "Transparența evidențierii"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "Restaurați configurările implicite ale vizualizării aplicațiilor?"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"Fundalul, dosarele de aplicații și evidențierea la trecerea cursorului revin "
+"la aspectul GNOME, iar aplicațiile revin la ordinea dumneavoastră."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr "După nume, inclusiv în dosare. Tragerea nu schimbă ordinea."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr ""
+"Aranjați aplicațiile trăgându-le. Această aranjare revine când ordinea "
+"alfabetică este dezactivată."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr ""
+"Fundalul din spatele aplicațiilor. Iconițele, numele și câmpul de căutare nu "
+"se schimbă."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Disponibil cât timp dockul Deskence este activat."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"Schimbați aspectul grupurilor de aplicații, precum „Utilitare”, în "
+"vizualizarea aplicațiilor. Se schimbă doar fundalul dalei."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"Alegeți fundalul care apare sub cursor pe o aplicație sau pe un dosar de "
+"aplicații, inclusiv într-un dosar deschis."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "_Scurtătură"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "Deschide istoricul"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "Restaurați configurările implicite ale clipboardului?"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"Scurtătura și lipirea revin la valorile implicite. Istoricul, câte elemente "
+"păstrează și dacă este păstrat după deautentificare nu se schimbă."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "Doar în memorie"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "Elementele fixate sunt salvate în {}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "Istoricul este salvat în {}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "Restaurați configurările implicite ale barei de sus?"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"Afișarea iconițelor inactive și opțiunile „Menține treaz” revin la valorile "
+"implicite. Funcțiile afișate nu se schimbă."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "Comută „Mereu deasupra” pentru fereastra focalizată"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "Restaurați butoanele implicite ale barei de titlu?"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr ""
+"Butoanele barei de titlu revin la valoarea implicită GNOME din acest sistem."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "Restaurați butoanele anterioare ale barei de titlu?"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr ""
+"Butoanele barei de titlu revin la starea de dinainte ca Deskence să le "
+"modifice."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr ""
+"Butoanele au fost modificate în altă parte după ce Deskence le-a modificat"
+
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "marginea din stânga"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "marginea de jos"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "marginea din dreapta"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "Previzualizare: dock pe {} a ecranului"
+
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "stânga sus"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "dreapta sus"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "stânga jos"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "dreapta jos"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "Previzualizare: iconițele noi sunt plasate începând din colțul {}"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "Activați „{}” pentru a schimba „{}”."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "„{}” este disponibil după activarea „{}”."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "„{}” nu este disponibil acum."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr ""
+"A fost instalată o actualizare. Deautentificați-vă și autentificați-vă din "
+"nou pentru a o folosi."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr ""
+"Deautentificați-vă și autentificați-vă din nou pentru a porni funcțiile "
+"activate."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "_Despre"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "Caută în configurări"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "Meniu principal"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "Caută în configurări"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "Paginile configurărilor"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "Rezultatele căutării"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "Niciun rezultat găsit"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "Încercați alte cuvinte, de exemplu numele unei funcții."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "_Ieșire din sesiune…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "Dock"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"Ajustați poziția, aspectul și comportamentul barei de aplicații de la "
+"marginea ecranului. Aplicațiile fixate sunt aceleași ca în prezentarea "
+"generală a activităților."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "Afișează _dockul"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "Aspect"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "_Poziție"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "Stânga"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "Jos"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "Dreapta"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "_Lungime"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "Potrivită iconițelor"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "Toată marginea"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "_Dimensiunea iconițelor"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "_Culoare de fundal proprie"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "Culoare de fundal"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "_Transparență de fundal proprie"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "_Mărește iconițele de sub cursor"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "_Intensitatea măririi"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "Comportament"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "_Ascunde"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "Niciodată"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "Când ferestrele îl acoperă"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "Când nu este folosit"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "_Monitor"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "Principal"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "Selectat"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "Toate"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "Monitorul _selectat"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "_Clic pe o aplicație pornită"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "Focalizează, apoi comută ferestrele"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "Minimizează sau comută ferestrele"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "Afișează doar aplicațiile din spațiul de _lucru curent"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "Afișează _previzualizări ale ferestrelor la trecerea cursorului"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr ""
+"Opriți cursorul pe o aplicație pornită pentru a-i vedea ferestrele și a "
+"alege una"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "_Privire rapidă la ferestre"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"Opriți cursorul pe o previzualizare pentru a-i vedea fereastra deasupra "
+"celorlalte, fără a comuta la ea"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "Informații de la aplicații"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"Aplicațiile pot afișa pe iconița lor un contor sau progresul unei operații, "
+"de exemplu mesaje necitite sau o descărcare. Se afișează doar ce raportează "
+"o aplicație."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "Afișează contoarele aplicațiilor"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "Un număr pe iconiță, de exemplu mesajele necitite"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "Afișează progresul operațiilor"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "O bară pe iconiță în timpul unei descărcări sau copieri"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "Elemente"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "Ce afișează dockul pe lângă aplicații."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "_Coș de gunoi"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "Unități și stick-uri _USB"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "Locații din _rețea"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "Butonul _aplicațiilor"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "P_oziția butonului aplicațiilor"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "_Iconița butonului aplicațiilor"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "Implicită GNOME"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "Logoul distribuției"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "Imagine proprie"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "_Alege…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "Dosare în dock"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"Fixați dosare pentru a le răsfoi conținutul direct din dock. Eliminarea unui "
+"dosar din dock nu schimbă nici dosarul, nici fișierele lui."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "Afișează _dosare în dock"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "_Restaurează configurările implicite…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "Iconițe pe desktop"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr ""
+"Afișează fișierele și dosarele din dosarul desktopului ca iconițe pe desktop."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "Afișează _iconițe pe desktop"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "Dosarul desktopului"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "Deschide în Fișiere"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "Iconițe"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "_Dimensiune"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "Mici"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "Medii"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "Mari"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "Foarte mari"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "_Plasează iconițele noi începând din"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "Iconițele pe care le-ați mutat își păstrează locul"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "Stânga sus"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "Dreapta sus"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "Stânga jos"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "Dreapta jos"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "_Aranjarea iconițelor"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "Liberă"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "Aliniere la grilă"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "_Deschide elementele cu"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "Dublu clic"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "Un singur clic"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "Afișează și"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "Dosarul _personal"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"Fișierele ascunse nu sunt afișate. Dezactivarea iconițelor de pe desktop nu "
+"mută și nu șterge niciodată fișierele."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "Bara de sus"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "Iconițe de aplicații"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr ""
+"Iconițe ale aplicațiilor care rulează în fundal, de exemplu programe de "
+"mesagerie și sincronizare de fișiere."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "Afișează iconițe de _aplicații"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "Afișează iconițele _inactive"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "Iconițe pe care aplicațiile le marchează ca neimportante momentan"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "Menține treaz"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"Un buton în setările rapide care împiedică suspendarea automată a "
+"calculatorului pentru un timp ales sau până la dezactivare. Suspendarea "
+"manuală funcționează în continuare."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "Afișează „_Menține treaz”"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "Menține și _ecranul pornit"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr ""
+"Cât timp „Menține treaz” este activ, ecranul nu se stinge și nu se blochează "
+"automat"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "Durată _proprie"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "Minute"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"Sunt suportate aplicațiile care folosesc standardul StatusNotifierItem. "
+"Iconițele vechi din zona de notificare (XEmbed) nu sunt suportate."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "Ferestre"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "Butoanele barei de titlu"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"Acestea sunt configurări GNOME: rămân în vigoare după eliminarea Deskence. "
+"Aplicațiile care își desenează propriile bare de titlu, precum unele "
+"navigatoare, le pot ignora."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "Butonul de _minimizare"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "Butonul de m_aximizare"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "_Amplasare"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "Mereu deasupra"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"Ține o fereastră deasupra celorlalte. Se află și în meniul ferestrei "
+"(Alt+Spațiu) și în meniul unei previzualizări de fereastră din dock, care "
+"afișează o pioneză pentru astfel de ferestre. Nu afișează fereastra în "
+"fiecare spațiu de lucru; aceasta este o opțiune separată a meniului "
+"ferestrei."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "Restaurează configurările de _dinaintea modificărilor…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "Numele nu poate fi gol."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "Numele nu poate conține „/”."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "„.” și „..” nu sunt nume valide."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "Există deja un element cu acest nume."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "Numele este prea lung."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "Locația nu poate fi deschisă"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "„{}” nu poate fi deschis"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "Legătura este ruptă: elementul către care indică nu există."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "Lansatorul nu este valid."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "„{}” nu poate fi pornit"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "Lansator care nu este de încredere"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"„{}” nu a fost marcat ca de încredere. Permiteți lansarea doar dacă știți de "
+"unde provine acest fișier."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "_Permite și lansează"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "Lansarea „{}” nu poate fi permisă"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "Configurările nu pot fi deschise"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "Deskence nu poate fi deschis"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "„{}” nu poate fi demontat"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "Numele care încep cu „.” sunt ascunse."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "Dosar nou"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "Numele dosarului"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "_Creează"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "Redenumește dosarul"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "Redenumește fișierul"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "_Redenumește"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "_Dosar nou…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "_Lipește"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "Selectează _tot"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "_Aranjează iconițele"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "Aliniază la _grilă"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "_Nume"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "_Modificat"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "_Tip"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "_Sortează după"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "Schimbă _fundalul…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "Configurări _desktop"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "_Deschide"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "Deschide _cu…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "Permite _lansarea"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "_Decupează"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "_Copiază"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "Rede_numește…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "Mută la _coșul de gunoi"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "_Golește coșul de gunoi…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "_Scoate"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "_Demontează"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "_Proprietăți"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "Operația a eșuat"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "Coșul de gunoi nu poate fi golit"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "Golirea coșului de gunoi necesită aplicația Fișiere."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "Proprietățile nu pot fi afișate"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "Nu se poate muta la coșul de gunoi"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "Nu se poate redenumi"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "Dosarul nu poate fi creat"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "Fișierele nu pot fi mutate"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "Fișierele nu pot fi copiate"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "Dosar personal"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "Coș de gunoi"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "Desktop"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "Arată aplicațiile"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "Configurări dock"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "Locația nu a putut fi deschisă"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "Deschide"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "Golește coșul de gunoi…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "Scoate"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "Demontează"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "Unitatea nu a putut fi scoasă"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "Unitatea nu a putut fi demontată"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "Ferestrele aplicației %s"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "Închide fereastra"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "Presetări (JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "Presetări cu imagini"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "Toate presetările"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "Nume"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "Aplicații fixate"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "Imagini proprii"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "Salvate într-o arhivă împreună cu configurările"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "Restaurați configurările implicite Deskence?"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"Toate configurările Deskence revin la valorile implicite, iar vizualizarea "
+"aplicațiilor revine la ordinea dumneavoastră. Dosarele sunt eliminate din "
+"dock; dosarele în sine nu sunt atinse. Funcțiile activate, aplicațiile "
+"fixate, butoanele barei de titlu, presetările salvate și istoricul "
+"clipboardului nu se schimbă."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "La fel ca sistemul ({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "_Anulează"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "_Aplică…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "_Redenumește…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "_Exportă…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "_Șterge…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "Mai mult"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "aplicații fixate"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "dosare în dock"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "imagini"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "Configurări"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "Configurări cu {}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "Configurările mele"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "Salvează configurările curente"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "_Salvează"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "Presetarea nu poate fi salvată"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "Presetarea „{}” a fost salvată"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "Redenumește presetarea"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "Presetarea nu poate fi redenumită"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "Presetarea nu poate fi ștearsă"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "Ștergeți presetarea „{}”?"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "Configurările curente nu se schimbă."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "_Șterge"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "Exportă configurările"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"Configurările sunt salvate ca fișier JSON lizibil. Cu imagini, fișierul este "
+"o arhivă cu configurările și imaginile."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Configurări Deskence"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "Nu se poate exporta"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "Configurări exportate"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "Importă configurări"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "Nu se poate importa"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "Configurările dumneavoastră corespund deja acestei presetări."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "Nimic de schimbat"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "{} configurare se schimbă în: {}."
+msgstr[1] "{} configurări se schimbă în: {}."
+msgstr[2] "{} de configurări se schimbă în: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "Aplicați „{}”?"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "Aplicați presetarea?"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "_Aplică"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "Aceste modificări nu au putut fi anulate: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "Configurările anterioare au fost restaurate."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "Presetarea nu a fost aplicată"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "Nu s-a schimbat nimic."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "Presetare aplicată"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "Presetarea nu poate fi anulată"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "Nu există nicio presetare aplicată de anulat."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "Configurări anterioare restaurate"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "Anulați ultima presetare aplicată?"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr "Configurările modificate de presetare revin la valorile de dinainte."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "Unele configurări s-au schimbat între timp"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"Aceste configurări au fost modificate după aplicarea presetării: {}. Le "
+"anulați și pe acestea sau le păstrați așa cum sunt acum?"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "_Păstrează-le"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "Anulează _tot"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "Raport"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "_Salvează…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "Informații pentru raportarea erorilor"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "Diagnosticare copiată"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "Salvează raportul"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "Raportul nu poate fi salvat"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "Raport salvat"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "Configurări implicite restaurate"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "Funcții"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "General"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "Vizualizarea aplicațiilor"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "Clipboard"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "Fișierul este prea mare pentru a fi o presetare."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "Fișierul nu este o presetare Deskence."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "Presetarea nu are o versiune de format validă."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"Presetarea a fost creată de o versiune mai nouă de Deskence. Actualizați "
+"Deskence pentru a o folosi."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "Arhiva este prea mare pentru a fi o presetare."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "Arhiva nu conține o presetare Deskence."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "Arhiva este deteriorată."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "Partea de configurări a presetării este deteriorată."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "Partea necunoscută „{}” a fost ignorată."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "Configurarea necunoscută „{}” din {} a fost ignorată."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"Monitorul {} nu este conectat. Până atunci, dockul este afișat pe monitorul "
+"principal."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "{} nu este disponibil pe acest calculator."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "{} are o valoare nevalidă și a fost omis."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "{} este blocat de administrator."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "Limba „{}” nu este disponibilă pe acest calculator și a fost omisă."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "Scurtătura {} pentru „{}” nu a fost importată: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "Lista funcțiilor este deteriorată și a fost omisă."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "Funcția necunoscută „{}” a fost ignorată."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr "Aplicațiile fixate nu sunt disponibile pe acest calculator."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "Lista aplicațiilor fixate este deteriorată și a fost omisă."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr "Neinstalate: {}. Apar în dock după instalare."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "Lista dosarelor din dock este deteriorată și a fost omisă."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "Dosarul „{}” are o intrare nevalidă și a fost omis."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"Dosarul standard {} nu este configurat pe acest calculator; este afișat ca "
+"indisponibil."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr "Dosarul {} nu există; este afișat ca indisponibil până când va exista."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"Presetarea folosește o imagine proprie pentru butonul aplicațiilor care nu "
+"este inclusă; se folosește iconița implicită."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: nu rulați Deskence ca root; rulați-l ca propriul utilizator (fără "
+"sudo)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"Schema de configurări Deskence nu este instalată. Reinstalați pachetul "
+"deskence."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "Nu s-a schimbat nimic: configurările nu pot fi salvate."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"Această modificare trebuie confirmată. Rulați din nou comanda cu --yes "
+"pentru a o confirma fără întrebare."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "d/N"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "d"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "da"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"Salvat. Modificarea nu a putut fi confirmată în sesiunea GNOME curentă; "
+"poate fi necesară o nouă autentificare."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "rulează"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "nu rulează"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "eroare"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "versiune GNOME nesuportată"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "pornește după reautentificare"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "actualizat; versiune nouă după reautentificare"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "neinstalat"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "necunoscut (GNOME Shell inaccesibil)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: este afișată starea sesiunii curente."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr ""
+"GNOME Shell este inaccesibil: sunt cunoscute doar configurările salvate."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr ""
+"Extensiile GNOME sunt dezactivate; nicio funcție nu rulează până nu sunt "
+"activate."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "FUNCȚIE"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "SALVAT"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "ÎN ACEASTĂ SESIUNE"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "activată"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "dezactivată"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr ""
+"{}: se folosește o copie din dosarul personal în locul celei instalate: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr ""
+"{}: configurarea salvată diferă de sesiune; se aplică după reautentificare."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr "{}: „{}” oferă același lucru; folosirea ambelor cauzează probleme."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: este posibil ca „{}” să ofere același lucru."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "Indicați nume de funcții sau --all, nu ambele."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr "Numiți cel puțin o funcție sau folosiți --all. Funcții: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "Funcție necunoscută: {}. Funcții: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "configurarea nu a putut fi salvată"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: activată"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: dezactivată"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: deja activată"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: deja dezactivată"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: deja activată în configurările salvate"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: deja dezactivată în configurările salvate"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: eșuat: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"Extensiile GNOME sunt dezactivate; funcțiile activate pornesc după ce "
+"acestea sunt activate (gsettings set org.gnome.shell disable-user-extensions "
+"false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr ""
+"Nicio presetare salvată nu se numește „{}”. Vedeți deskence preset list."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr ""
+"Mai multe presetări salvate se numesc „{}”; folosiți unul dintre ID-urile "
+"lor: {}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "Funcția {}: activare"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "Funcția {}: dezactivare"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "Dock: imaginea proprie a butonului aplicațiilor"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Avertisment: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "Omis: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "Presetarea nu a fost aplicată: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "Aceste modificări nu au putut fi anulate: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "Configurările anterioare au fost restaurate."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "Presetarea nu a fost aplicată; nu s-a schimbat nimic. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"Presetarea a fost aplicată doar parțial; aceste configurări nu au fost "
+"salvate: {}. Anulați-o cu: deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "Funcții {}: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "Nicio presetare salvată."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "NUME"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ID"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "CREATĂ"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "Configurările dumneavoastră corespund deja presetării „{}”."
+
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "Presetarea „{}” schimbă {} configurare:"
+msgstr[1] "Presetarea „{}” schimbă {} configurări:"
+msgstr[2] "Presetarea „{}” schimbă {} de configurări:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "Nu s-a schimbat nimic (--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "Aplicați presetarea?"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr "Presetarea „{}” a fost aplicată. Anulați-o cu: deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "{} nu poate fi importat: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"O presetare salvată se numește deja „{}”. Alegeți alt nume cu --name sau "
+"înlocuiți-o cu --replace."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr ""
+"Presetarea „{}” este validă și ar fi salvată; nu s-a schimbat nimic (--dry-"
+"run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr ""
+"Presetarea „{}” a fost salvată ca {}. Aplicați-o cu: deskence preset apply {}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "Salvați și aplicați presetarea?"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"Presetarea „{}” a fost salvată ca {} și aplicată. Anulați-o cu: deskence "
+"preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "{} este un dosar; indicați un nume de fișier."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "{} există deja. Folosiți --force pentru a-l înlocui."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "{} nu poate fi scris: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "Configurări exportate în {} (o arhivă cu imagini)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "Configurări exportate în {}."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr "Nu se folosește nicio imagine proprie, deci fișierul este JSON simplu."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr "Configurările revin la starea de imediat dinaintea ultimului import."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "Presetarea nu a schimbat nimic ce ar putea fi anulat."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "Anularea „{}” restaurează:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"Modificate după aplicarea presetării, deci lăsate așa cum sunt (adăugați --"
+"include-changed pentru a le anula și pe acestea): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "Anulați presetarea?"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "Presetarea a fost anulată doar parțial: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "Configurări anterioare restaurate."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "Indicați ce să fie restaurat sau --all, nu ambele."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr "Numiți ce să fie restaurat sau folosiți --all. Opțiuni: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "Opțiune necunoscută: {}. Opțiuni: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "Totul are deja valoarea implicită; nimic de restaurat."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "Restaurat la valoarea implicită ({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "tot Deskence"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "Vizualizarea aplicațiilor revine la ordinea dumneavoastră."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "Funcția app-grid (ordine alfabetică) este dezactivată."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"Neschimbate: celelalte funcții activate, aplicațiile fixate, fișierele de pe "
+"desktop, imaginile proprii, presetările salvate și istoricul clipboardului."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "Restaurați aceste configurări?"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "Unele configurări nu au putut fi restaurate: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "Configurări implicite restaurate."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: eroare: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"Configurările Deskence din linia de comandă. Fără o comandă, se deschide "
+"fereastra de configurări (deskence [--page PAGINĂ])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"Funcții: {}. Coduri de ieșire: 0 realizat, 1 eșuat, 2 linie de comandă "
+"nevalidă, 3 neconfirmat, 4 salvat, dar neconfirmat în sesiunea GNOME "
+"curentă. Vedeți man deskence."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "COMANDĂ"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "afișează un document JSON în loc de text"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "afișează starea salvată și starea curentă a fiecărei funcții"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "activează funcții"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "dezactivează funcții; configurările lor sunt păstrate"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "una dintre: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "toate funcțiile Deskence (niciodată alte extensii)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "listează, aplică, importă și exportă presetări"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "Presetările sunt salvate în {}."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "ACȚIUNE"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "arată doar ce s-ar schimba"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "nu cere confirmare"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "arată presetările salvate"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "aplică o presetare salvată"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "numele sau ID-ul unei presetări salvate"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr "verifică un fișier de presetare și salvează-l printre presetări"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "FIȘIER"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr "o presetare .json sau o arhivă .deskence"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "salveaz-o cu acest nume"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "înlocuiește o presetare salvată cu același nume"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "aplic-o și"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "scrie configurările curente într-un fișier"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "numele stocat în presetare"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "include aplicațiile fixate"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "include dosarele din dock"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "include imaginile proprii (scrie o arhivă)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "înlocuiește un fișier existent"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "anulează ultima presetare aplicată"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr "anulează și configurările modificate după aplicarea presetării"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "restaurează configurările implicite"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "PARTE"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "toate configurările Deskence; dezactivează și funcția app-grid"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "afișează un raport pentru raportarea erorilor (nu se trimite nimic)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"Magistrala de sesiune nu este disponibilă, deci dconf nu poate salva "
+"configurările. Rulați comanda într-un terminal din sesiunea GNOME sau după "
+"autentificarea într-o consolă text cu același utilizator."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr ""
+"Configurările sunt păstrate doar în memorie (GSETTINGS_BACKEND=memory) și s-"
+"ar pierde."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "Afișează istoricul clipboardului"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "Deschide istoricul textelor și imaginilor copiate"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr ""
+"Comută „Mereu deasupra” pentru fereastra focalizată (o scurtătură GNOME)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "În fereastra de configurări Deskence"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "Aceasta nu este o scurtătură validă."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "O tastă modificatoare singură nu poate fi o scurtătură."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr ""
+"Folosiți Ctrl, Alt sau Super împreună cu tasta, sau o tastă funcțională."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"Aplicațiile folosesc ele însele acest tip de scurtături. Adăugați Super sau "
+"combinați Ctrl și Alt."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "Scurtătură proprie"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "Folosită deja pentru: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "dock, bară de activități, lansator, panou, taskbar, launcher"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "zoom, mărire, mărește, lupă"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "ascundere automată, ascundere, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "stive, dosare, descărcări, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "miniaturi, ferestre, previzualizări, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "insigne, necitite, notificări, mesaje, contor, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "descărcare, progres, bară de progres, download"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "desktop, fișiere, iconițe"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr "grila aplicațiilor, aplicații, lansator, meniu, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "sortare, alfabetic, ordine, aranjare"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "dosare, dale, grupuri"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "trecere cursor, evidențiere, cursor, hover"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "zonă de notificare, indicatori, iconițe de stare, tray"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "suspendare, somn, cofeină, caffeine, împiedicare, treaz"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "protector de ecran, ecran negru, blocare"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "bară de titlu, butoane, minimizare, maximizare"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "copiere, lipire, clipboard, istoric"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr "tastatură, scurtături de tastatură, taste, scurtături, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "eroare, bug, diagnosticare, raport, problemă"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "copie de rezervă, backup, presetări, transfer, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "limbă, traducere, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "Dezactivată"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "Restaurează scurtătura implicită"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "Setează scurtătura"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "Apăsați noua scurtătură pentru „{}”. Escape anulează."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "Restaurează _implicita"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "Scurtătura implicită este deja folosită: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "Această scurtătură nu poate fi folosită"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "Scurtături de tastatură"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "Peste tot"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"Conflictele cu alte scurtături Deskence și cu cele proprii GNOME sunt "
+"refuzate. Scurtăturile altor aplicații și extensii nu pot fi verificate."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "În fereastra de configurări"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "Funcționează cât timp „{}” este activat"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "Română"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "Începutul sesiunii"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "Afișează _desktopul după autentificare"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "Pornește pe desktop în loc de prezentarea generală a activităților"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr ""
+"Dockul, desktopul și celelalte funcții folosesc întotdeauna limba sistemului."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "_Limba aplicației"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "Configurările și comanda deskence"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "Noua limbă este folosită după o repornire"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "_Repornește"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "Presetări"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr "Salvați configurările curente pentru a reveni la ele mai târziu."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "Nicio presetare salvată"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "_Salvează configurările curente…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "Mutarea configurărilor"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"Mutați configurările pe alt calculator sau păstrați-le pentru o reinstalare. "
+"Înainte de import vedeți ce se schimbă."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "_Exportă într-un fișier…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "_Importă dintr-un fișier…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "_Anulează ultima presetare aplicată…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "Scurtături de _tastatură"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr "Vedeți și schimbați toate scurtăturile Deskence într-un singur loc"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"Versiuni, tipul sesiunii, monitoarele și starea fiecărei funcții, de lipit "
+"într-un raport de eroare. Nu este inclus nimic privat și nu se trimite nimic "
+"nicăieri."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "_Arată raportul…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "_Copiază diagnosticarea"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "Salvează raportul într-un _fișier…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "_Restaurează configurările implicite Deskence…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "Ordine"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr ""
+"Cum sunt aranjate aplicațiile în vizualizarea aplicațiilor pe tot ecranul."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "_Ordinea aplicațiilor"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "Ordine proprie"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "Alfabetică"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "Fundal"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "Când este dezactivat, se folosește culoarea stilului GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "_Transparență de fundal proprie"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "Când este dezactivat, fundalul este opac, ca în GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "Transparența _fundalului"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "Dosare de aplicații"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "Cu_loare proprie a dosarelor"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "Culoarea dosarelor"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "Trans_parență proprie a dosarelor"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "Când este dezactivat, se folosește transparența stilului GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "Tr_ansparența dosarelor"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "Evidențiere la trecerea cursorului"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "Culoare de _evidențiere proprie"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "Culoarea evidențierii"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "Transparență de evidențiere propri_e"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"Copierea și lipirea funcționează ca înainte. Istoricul textelor și "
+"imaginilor copiate se deschide cu propria scurtătură."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "_Istoricul clipboardului"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "_Lipește elementul ales"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Lipește în fereastra în care erați, cu Ctrl+V (Ctrl+Shift+V în terminale). "
+"Când este dezactivat, elementul este doar pus în clipboard."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "Lipește întotdeauna textul _fără formatare"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"Elementele mai vechi sunt întotdeauna text simplu. Shift+Enter lipește "
+"oricând text simplu."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "Reține și _textul selectat"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "Text selectat cu mausul, pe care îl lipește butonul din mijloc"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "Stocare"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"Istoricul este păstrat doar în memorie și dispare după deautentificare. "
+"Elementele fixate rămân când istoricul este golit și nu se numără în limită. "
+"Conținutul pe care aplicațiile îl marchează ca secret, de exemplu din "
+"managerele de parole, nu este reținut; nu orice parolă poate fi recunoscută."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "_Elemente reținute"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "_Păstrează după deautentificare"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "Nimic"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "Elementele fixate"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "Tot istoricul"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "_Întrerupe reținerea"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "Elementele noi nu sunt adăugate până când aceasta este dezactivată"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "Dosarul %s"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "Înapoi"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "Dată"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "Tip"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "Sortează după %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "Afișează ca grilă"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "Afișează ca listă"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "Acest dosar standard nu este configurat."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "Se încarcă…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "Acest dosar nu mai există."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "Nu aveți permisiunea de a deschide acest dosar."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "Acest dosar nu poate fi deschis: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "Acest dosar este gol."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"Acest dosar are mai mult de %d elemente; sunt afișate doar primele. "
+"Deschideți-l în Fișiere pentru a le vedea pe toate."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "Dosar"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "„%s” nu a putut fi deschis"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "Copiază"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "Decupează"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "%s nu este disponibil"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "%s este doar în citire"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "Un dosar nu poate fi pus în el însuși"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "Deja în %s"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "Doar fișiere pot fi puse într-un dosar"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "Mută în %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Copiază în %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Mută sau copiază în %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "Fișierele nu pot fi mutate în %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "Fișierele nu pot fi copiate în %s"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr "Copierea și mutarea fișierelor din dock necesită aplicația Fișiere."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Fișierele nu pot fi deschise în %s"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Deschide cu %s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "%s nu poate deschide fișiere"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Nu se poate confirma că %s deschide aceste fișiere"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "%d dintre fișiere nu mai este disponibil"
+msgstr[1] "%d dintre fișiere nu mai sunt disponibile"
+msgstr[2] "%d dintre fișiere nu mai sunt disponibile"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "%s nu deschide acest tip de fișier"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "%s nu deschide %d dintre aceste fișiere"
+msgstr[1] "%s nu deschide %d dintre aceste fișiere"
+msgstr[2] "%s nu deschide %d dintre aceste fișiere"
+
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, %d element nou"
+msgstr[1] "%s, %d elemente noi"
+msgstr[2] "%s, %d de elemente noi"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "Aplicațiile sunt sortate alfabetic"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr "Pentru a le aranja singur, alegeți „Ordine proprie” în Deskence."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "Gata de lipit"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "Chiar acum"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "acum %d minut"
+msgstr[1] "acum %d minute"
+msgstr[2] "acum %d de minute"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "acum %d oră"
+msgstr[1] "acum %d ore"
+msgstr[2] "acum %d de ore"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "Istoricul clipboardului"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "Caută în istoric"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "Golește istoricul"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: lipește · Shift+Enter: lipește ca text simplu · Delete: elimină · "
+"Ctrl+P: fixează"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "Reia reținerea"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "Întrerupe reținerea"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "Dați clic din nou pentru a goli"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr ""
+"Dați clic din nou pentru a elimina toate elementele, cu excepția celor "
+"fixate."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "Elementele noi nu sunt reținute până nu reluați."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr "Nimic copiat încă. Elementele pe care le copiați apar aici."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "Niciun element nu corespunde căutării."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "Imagine, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "Anulează fixarea"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "Fixează"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "Elimină"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "„Menține treaz” este activ: ecranul rămâne pornit"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "„Menține treaz” este activ"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "Mai puțin"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "Împiedică suspendarea automată"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "Până la dezactivare"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d minut"
+msgstr[1] "%d minute"
+msgstr[2] "%d de minute"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d oră"
+msgstr[1] "%d ore"
+msgstr[2] "%d de ore"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "Menține ecranul pornit"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "Ecranul nu se stinge și nu se blochează atunci automat"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "Oprește acum"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "Până la %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "Până la dezactivare"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "%d minut rămas"
+msgstr[1] "%d minute rămase"
+msgstr[2] "%d de minute rămase"

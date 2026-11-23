@@ -1,0 +1,4532 @@
+# Latvian translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Latvian\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "Darbvirsmas iestatījumi"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr "Doks, darbvirsmas ikonas, lietotņu ikonas augšējā joslā un logu pogas"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"doks;darbvirsma;ikonas;paziņojumu "
+"apgabals;indikators;uzdevumjosla;minimizēt;maksimizēt;dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "Doks, darbvirsmas ikonas un paziņojumu apgabals GNOME vidē"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Deskence papildina standarta GNOME darbvirsmu ar dažām ērtībām un ļauj tās "
+"iestatīt vienuviet."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr ""
+"Doks ar piespraustām un palaistām lietotnēm, mapēm, diskiem un miskasti, kā "
+"arī logu priekšskatījumiem"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "Datnes un mapes uz darbvirsmas"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr ""
+"Lietotņu ikonas augšējā joslā, piemēram, no tērzēšanas un datņu "
+"sinhronizēšanas lietotnēm"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "Starpliktuves vēsture un „Neļaut iemigt” ātrajos iestatījumos"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "Lietotņu skata alfabētiskā secība"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr "Minimizēšanas un maksimizēšanas pogas logu virsraksta joslās"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr ""
+"Priekšiestatījumi iestatījumu saglabāšanai un pārnešanai uz citu datoru"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr ""
+"Tas darbojas jūsu esošajā GNOME sesijā un saglabā ierasto GNOME izskatu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"Deskence tagad ir pieejams 29 valodās: visās Eiropas Savienības oficiālajās "
+"valodās, korejiešu, vienkāršotajā un tradicionālajā ķīniešu, serbu un "
+"filipīniešu valodā. Iestatījumu valodu sarakstā norādīta valoda, ko izmanto "
+"sistēma."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr ""
+"Iestatījumi: iestatījumu loga un komandas deskence valodu var izvēlēties "
+"lapā „Vispārīgi”, neatkarīgi no sistēmas."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"Doks: kopējiet vai izgrieziet datnes un mapes mapes panelī (labais klikšķis, "
+"Ctrl+C, Ctrl+X) un ielīmējiet tās lietotnē „Datnes” vai uz darbvirsmas."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"Doks: velciet datnes un mapes no mapes paneļa uz citu doka mapi vai uz "
+"darbvirsmu, lai tās pārvietotu vai kopētu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr ""
+"Doks: lietotnes atver nomestās datnes tikai to tipu, kurus tās norāda; "
+"citādi doks paskaidro, kāpēc."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr "Doks: atzīme zem mapēm atbilst lietotņu punktiem."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"Sākt uz darbvirsmas: pēc ierakstīšanās darbvirsma, augšējā josla un logi "
+"atkal reaģē uz klikšķiem, kad animācijas ir izslēgtas, piemēram, virtuālajās "
+"mašīnās bez 3D paātrinājuma; agrāk reaģēja tikai doks, līdz pārskats tika "
+"atvērts vienreiz."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr ""
+"Neobligāta diagnostika ziņojumiem par darbvirsmu un logiem, kas pārstāj "
+"reaģēt uz klikšķiem."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr ""
+"Doks: datņu vilkšana uz doku vienmēr beidzas kārtīgi, arī tad, ja nometot "
+"kaut kas neizdodas."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"Doks: nometiet datnes uz lietotnes, lai tās atvērtu tajā, vai uz mapes, lai "
+"tās tur kopētu vai pārvietotu; turiet datni virs mapes, lai to atvērtu un "
+"nomestu kādā no tās apakšmapēm."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"Iestatījumi: jebkura iestatījuma meklēšana ar Ctrl+F, visu tastatūras saīsņu "
+"pārvaldība vienuviet ar konfliktu pārbaudi un atskaites kopēšana vai "
+"saglabāšana kļūdu ziņojumiem."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr ""
+"Priekšiestatījumi: pielietota priekšiestatījuma atsaukšana atjauno tikai to, "
+"ko tas mainīja, un saglabā vēlāk mainītos iestatījumus."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr ""
+"Doks: nelasīto skaitītāji un darbību progress lietotņu ikonās, ja lietotnes "
+"tos paziņo."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"Komandrinda: pārbaudiet katras funkcijas stāvokli, izslēdziet un ieslēdziet "
+"funkcijas, pielietojiet, importējiet un eksportējiet priekšiestatījumus, "
+"atjaunojiet noklusējuma iestatījumus un vāciet diagnostiku ar komandu "
+"deskence, arī no teksta konsoles, kad darbvirsma nedarbojas. Skatiet man "
+"deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr ""
+"Noklusējuma iestatījumu atjaunošana vairs nedzēš starpliktuves vēsturi, kas "
+"tiek saglabāta pēc izrakstīšanās."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"Lietotņu skats: sava krāsa un caurspīdīgums izcēlumam zem rādītāja uz "
+"lietotnēm un lietotņu mapēm; virzot pāri mapei, kontūra vairs netiek zīmēta."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"Mapes dokā: panelis aizņem ne vairāk kā pusi ekrāna augstuma, ritina visu "
+"mapi, arī ar tastatūru, un pēc apakšmapes atgriežas iepriekšējā vietā."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr ""
+"Iestatījumi: skaidrāki apraksti, labāki poļu formulējumi un mazāk "
+"konfliktējošu tastatūras saīsņu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"Doks: doks visas malas garumā aktivitāšu pārskatā un lietotņu skatā saskan "
+"ar augšējo joslu; īss doks saglabā savu izskatu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"Lietotņu skats: mapju flīzes ar savu krāsu vai caurspīdīgumu tagad skaidri "
+"parāda virzīšanu, nospiešanu, fokusu un atlasi."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr ""
+"Lietotņu skats: sava krāsa un caurspīdīgums mapju flīzēm, piemēram, "
+"„Utilītas”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr ""
+"Vispārīgi: pēc izvēles pēc ierakstīšanās sākt uz darbvirsmas, nevis "
+"aktivitāšu pārskatā."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr ""
+"Doks: tagad tas saplūst ar aktivitāšu pārskatu, nevis veido atsevišķu joslu."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr ""
+"Saites uz projekta lapu un kļūdu izsekotāju, dokumentācija angļu valodā. "
+"Lietotnē izmaiņu nav."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"Iestatījumi: lapa „Vispārīgi” ar priekšiestatījumiem, iestatījumu eksportu "
+"un importu un noklusējuma vērtību atjaunošanu; lapa „Lietotņu skats” ar "
+"alfabētisko kārtošanu; mierīgāki priekšskatījumi."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"Doks: mapes, kas rāda savu saturu, logu aizvēršana un ieskatīšanās tajos no "
+"to priekšskatījumiem, „Vienmēr virspusē” priekšskatījuma izvēlnē."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr ""
+"Jaunums: starpliktuves vēsture, „Neļaut iemigt” ātrajos iestatījumos, saīsne "
+"funkcijai „Vienmēr virspusē”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Better GNOME Desktop tagad saucas Deskence. Iestatījumi, ieslēgtās "
+"funkcijas, piespraustās lietotnes un darbvirsmas ikonu novietojumi tiek "
+"pārņemti."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"Doks: lietotnes logu priekšskatījumi, kad rādītājs uz tās apstājas, nav "
+"papildu vietas blakus lietotņu pogai, palielinot ikonas, darbības indikatori "
+"zem apakšējā doka ikonām."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr ""
+"Iestatījumi: lielāki un skaidrāki doka un darbvirsmas ikonu priekšskatījumi, "
+"lapu ikonas, izvēlnes vienums „Par”."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Better GNOME Desktop tagad saucas Deskence."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"Doks: asas palielinātas ikonas, nav flīžu zem ikonām ar savu fonu, "
+"vienkrāsains distributīva logotips, lietotņu saraksts visas malas garuma "
+"doka sākumā, darbības indikatori iekšpusē."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr ""
+"Lietotņu skats: viena nepārtraukta pāreja aizverot, neobligāta sava fona "
+"krāsa."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"Darbvirsma: izvēlnes atveras klikšķa vietā, arī blakus dokam; ikonu režģis "
+"sākas izvēlētajā stūrī ar nelielām malām."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"Doks: lietotņu poga jebkurā galā ar ikonas izvēli, palielinātas ikonas, "
+"ritināšana, kad lietotnes neietilpst, sava fona krāsa un caurspīdīgums, "
+"iestatījumi lietotņu pogas izvēlnē, caurspīdīgs fons lietotņu skatam."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"Darbvirsmas ikonas: brīvs izvietojums vai piesaiste režģim, „Līdzināt "
+"režģim”, visa darbvirsma blakus dokam izmantojama, ikonu novietojumi, kas "
+"nepārvietojas kopā ar doku."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"Labojumi: vienmērīga lietotņu skata aizvēršana, tūlītēja doka ikonu "
+"pārkārtošana, nav rāmja, velkot darbvirsmas ikonas, visur viena un tā pati "
+"darbvirsmas izvēlne."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "Pirmais laidiens."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "Iestatījumu struktūras versija"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr ""
+"To izmanto iestatījumu lietotne, lai migrētu saglabātās vērtības starp "
+"laidieniem. 0 nozīmē, ka iestatījumi nekad nav migrēti."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "Better GNOME Desktop iestatījumi ir pārņemti"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"Tiek iestatīts, kad Better GNOME Desktop (0.3.0 un vecākas versijas) "
+"saglabātie iestatījumi ir nokopēti šeit. Šeit jau iestatītās vērtības nekad "
+"netiek pārrakstītas; iepriekšējie iestatījumi tiek saglabāti."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "Rādīt darbvirsmu pēc ierakstīšanās"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"Ja patiess, jauna sesija sākas uz darbvirsmas, nevis aktivitāšu pārskatā. "
+"Tiek ietekmēts tikai sesijas sākums: vēlāka pārskata atvēršana, ekrāna "
+"atslēgšana vai funkciju ieslēgšana un izslēgšana to nekad neaizver. To "
+"pielieto doka paplašinājums."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Lietotnes Deskence valoda"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"Iestatījumu loga un komandas deskence valoda: ar Deskence instalēta "
+"tulkojuma kods (piemēram, \"pl\"), \"en\" angļu valodai vai tukšs, lai "
+"sekotu sistēmai. Kods bez instalēta tulkojuma nozīmē angļu valodu. GNOME "
+"Shell paplašinājumi un darbvirsmas ikonas vienmēr seko GNOME Shell valodai. "
+"Tiek pielietots, palaižot lietotni."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "Ekrāna mala dokam"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\" (pa kreisi), \"bottom\" (apakšā) vai \"right\" (pa labi)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "Doka garums"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr "\"fit\": tikai tik garš, cik vajag ikonām. \"full\": visa ekrāna mala."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "Ikonu izmērs loģiskajos pikseļos"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"Mērogots atbilstoši monitora mērogam un čaulas motīva teksta mērogošanas "
+"koeficientam, tāpat kā citas GNOME Shell ikonas."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "Kad doks paslēpjas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\": vienmēr redzams, un logi tiek turēti ārpus tā apgabala. "
+"\"intellihide\": paslēpts, kamēr to aizsedz logs tajā pašā monitorā. "
+"\"autohide\": paslēpts, līdz rādītājs sasniedz ekrāna malu."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "Kuros monitoros rādīt doku"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\" (galvenais), \"selected\" (izvēlētais, skatiet selected-monitor) "
+"vai \"all\" (visi)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "Izvēlētā monitora savienotājs"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"Savienotāja nosaukums, piemēram, \"DP-1\". Tiek izmantots, kad monitor-mode "
+"ir \"selected\"; kamēr šis monitors nav pievienots, tiek izmantots galvenais "
+"monitors."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "Rādīt miskasti"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "Rādīt izņemamos diskus"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "Rādīt tīkla vietas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "Rādīt lietotņu pogu"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "Kur atrodas lietotņu poga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\": doka pirmais vienums (pa kreisi horizontālā dokā, augšā "
+"vertikālā). \"end\": pēdējais vienums (pa labi vai apakšā)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "Lietotņu pogas ikona"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\": GNOME lietotņu ikona. \"distribution\": instalētā distributīva "
+"logotips no sistēmā instalētajām ikonām; noklusējuma ikona, ja tāda nav. "
+"\"custom\": attēls no apps-button-custom-icon."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "Lietotņu pogas sava ikona"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"Ceļš uz izvēlētā attēla kopiju, kas glabājas Deskence lietotāja datu mapē, "
+"lai tā darbotos arī tad, ja sākotnējā datne tiek pārvietota vai dzēsta. Ja "
+"datni nevar ielādēt, tiek izmantota noklusējuma ikona."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "Palielināt ikonas zem rādītāja"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr ""
+"Ikonas rādītāja tuvumā vienmērīgi palielinās, kamēr tas pārvietojas pār "
+"doku. Netiek rādīts, kamēr GNOME animācijas ir izslēgtas."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "Palielinājuma stiprums"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr "Ikonas zem rādītāja izmērs attiecībā pret tās parasto izmēru."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "Sava doka fona krāsa"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr "Ja aplams, doka fonam ir pašreizējā GNOME stila krāsa."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "Doka fona krāsa"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"Krāsa formā \"#rrggbb\", tiek izmantota, kad background-custom-color ir "
+"patiess. Tai nav sava caurspīdīguma: tas ir background-transparency."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "Savs doka fona caurspīdīgums"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr ""
+"Ja aplams, doka fons ir tik caurspīdīgs, cik to padara pašreizējais GNOME "
+"stils."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "Doka fona caurspīdīgums"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0: necaurspīdīgs. 100: pilnīgi caurspīdīgs. Tikai fons; ikonas, indikatori, "
+"uzraksti un izvēlnes saglabā savu redzamību. Tiek izmantots, kad background-"
+"custom-transparency ir patiess."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "Savs lietotņu skata fona caurspīdīgums"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr ""
+"Ja aplams, no doka atvērtajam pilnekrāna lietotņu skatam ir standarta GNOME "
+"fons."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "Sava lietotņu skata fona krāsa"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"Ja aplams, no doka atvērtajam pilnekrāna lietotņu skatam ir standarta GNOME "
+"fona krāsa. Neatkarīgi no doka fona."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "Lietotņu skata fona krāsa"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"Krāsa formā \"#rrggbb\", tiek izmantota, kad app-grid-custom-color ir "
+"patiess. Tai nav sava caurspīdīguma: tas ir app-grid-transparency (vai "
+"necaurspīdīga, kad app-grid-custom-transparency ir aplams)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "Lietotņu skata fona caurspīdīgums"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0: necaurspīdīgs fons (standarta vai sava krāsa). 100: pilnīgi caurspīdīgs, "
+"aiz lietotnēm redzams tikai fona attēls. Mainās tikai fons; ikonas, "
+"nosaukumi un meklēšanas lauks paliek pilnīgi redzami. Tiek izmantots, kad "
+"app-grid-custom-transparency ir patiess."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "Sava lietotņu mapju fona krāsa"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"Ja aplams, lietotņu skata mapju flīzēm (piemēram, \"Utilītas\") ir "
+"pašreizējā GNOME stila krāsa. Mainās tikai flīzes fons; lietotņu sīktēli un "
+"mapes nosaukums paliek nemainīgi, un atvērtas mapes panelis netiek ietekmēts."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "Lietotņu mapju fona krāsa"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"Krāsa formā \"#rrggbb\", tiek izmantota, kad app-grid-folder-custom-color ir "
+"patiess. Tai nav sava caurspīdīguma: tas ir app-grid-folder-transparency "
+"(vai GNOME stila alfa, kad app-grid-folder-custom-transparency ir aplams)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "Savs lietotņu mapju fona caurspīdīgums"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr ""
+"Ja aplams, lietotņu skata mapju flīzes ir tik necaurspīdīgas, cik tās padara "
+"pašreizējais GNOME stils."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "Lietotņu mapju fona caurspīdīgums"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0: necaurspīdīgs flīzes fons. 100: pilnīgi caurspīdīgs; mapi var atpazīt pēc "
+"lietotņu sīktēliem un nosaukuma. Virzīšana, atlase un tastatūras fokuss "
+"paliek redzami. Tiek izmantots, kad app-grid-folder-custom-transparency ir "
+"patiess."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr "Sava virzīšanas izcēluma krāsa lietotņu skatā"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"Ja aplams, izcēlumam zem rādītāja uz lietotnēm, lietotņu mapēm un lietotnēm "
+"atvērtā mapē ir pašreizējā GNOME stila krāsa. Doks, darbvirsma un mapju "
+"kaudzes netiek ietekmētas."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "Virzīšanas izcēluma krāsa lietotņu skatā"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"Krāsa formā \"#rrggbb\", tiek izmantota, kad app-grid-hover-custom-color ir "
+"patiess. Tai nav sava caurspīdīguma: tas ir app-grid-hover-transparency (vai "
+"GNOME stila alfa, kad app-grid-hover-custom-transparency ir aplams)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr "Savs virzīšanas izcēluma caurspīdīgums lietotņu skatā"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr ""
+"Ja aplams, virzīšanas izcēlums ir tik necaurspīdīgs, cik to padara "
+"pašreizējais GNOME stils."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr "Virzīšanas izcēluma caurspīdīgums lietotņu skatā"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0: necaurspīdīgs izcēlums. 100: pilnīgi caurspīdīgs; mape tad zem rādītāja "
+"izskatās tāpat kā miera stāvoklī. Mainās tikai izcēlums; ikonas un nosaukumi "
+"paliek pilnīgi redzami, un tastatūras fokuss paliek atzīmēts. Tiek "
+"izmantots, kad app-grid-hover-custom-transparency ir patiess."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "Klikšķis uz palaistas lietotnes"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\": fokusē pēdējo izmantoto logu; ja lietotne jau ir fokusā, "
+"pārslēdzas uz tās nākamo logu. \"minimize-or-cycle\": kā focus-or-cycle, bet "
+"lietotne ar vienu fokusētu logu tiek minimizēta."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "Rādīt tikai pašreizējās darbvietas lietotnes"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"Ja patiess, palaistās (nepiespraustās) lietotnes tiek rādītas tikai tad, kad "
+"tām ir logs aktīvajā darbvietā, un klikšķis pārslēdz tikai starp šiem logiem."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "Rādīt lietotņu skaitītājus"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"Ja patiess, lietotne, kas paziņo skaitītāju (piemēram, nelasītos ziņojumus, "
+"izmantojot D-Bus API LauncherEntry), rāda to savā doka ikonā. Lietotnes, kas "
+"neko nepaziņo, neko nerāda."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "Rādīt lietotņu progresu"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"Ja patiess, lietotne, kas paziņo darbības progresu (piemēram, lejupielādes, "
+"izmantojot D-Bus API LauncherEntry), rāda to kā joslu savā doka ikonā."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "Rādīt logu priekšskatījumus, virzot rādītāju"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"Kad rādītājs apstājas uz palaistas lietotnes, tiek parādīti tās logi (tie, "
+"kurus skaita doks, skatiet isolate-workspaces) ar virsrakstiem; klikšķis uz "
+"viena aktivizē šo logu."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "Ieskatīties logā no tā priekšskatījuma"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"Kamēr rādītājs atrodas uz loga priekšskatījuma, šis logs uz brīdi tiek "
+"parādīts virs pārējiem, aptumšotajiem. Nekas netiek fokusēts, pacelts, "
+"atjaunots vai pārvietots; priekšskatījuma pamešana vai Escape nospiešana to "
+"beidz."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "Mapes dokā"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"Dokā rādītās mapes secībā. Katrs ieraksts ir \"xdg:NOSAUKUMS\" standarta "
+"mapei (NOSAUKUMS kā GLib.UserDirectory bez prefiksa DIRECTORY_, piemēram, "
+"\"xdg:DOWNLOAD\"), \"home:RELATĪVAIS/CEĻŠ\" mapei mājas mapē vai \"file://\" "
+"URI jebkurai citai mapei. Ieraksta izņemšana nekad neietekmē pašu mapi."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "Rādīt mapes dokā"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr "Ja aplams, folder-stacks mapes tiek saglabātas, bet netiek rādītas."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "Kā tiek rādīts mapju saturs"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\": lielas ikonas. \"list\": mazākas ikonas ar izmēru un datumu. "
+"Mainās mapes panelī."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "Katras mapes kārtošanas secība"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"Piesaista folder-stacks ierakstam \"name\", \"modified\" (jaunākās vispirms) "
+"vai \"type\". Mape bez ieraksta tiek kārtota pēc nosaukuma, izņemot "
+"„Lejupielādes” (xdg:DOWNLOAD), kas vispirms rāda jaunākās datnes. Mainās "
+"mapes panelī."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "Darbvirsmas ikonu izmērs"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) vai \"huge\" (128 "
+"px)."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "Stūris, kurā novieto jaunās ikonas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "Rādīt mājas mapi"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "Rādīt diskus un USB zibatmiņas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "Kā novieto pārvietotās ikonas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\": ikonas paliek tieši tur, kur tās nomestas. \"grid\": nomestās "
+"ikonas piesaistās režģim. Izmaiņa nepārvieto esošās ikonas; to dara "
+"darbvirsmas izvēlnes vienums „Līdzināt režģim”."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "Atvērt vienumus ar vienu vai dubultklikšķi"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "Secība, ko izmanto „Kārtot ikonas”"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "Mainās darbvirsmas izvēlnē „Kārtot pēc”."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "Rādīt pasīvās lietotņu ikonas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"StatusNotifierItem definē statusu \"Passive\" ikonām, kuras lietotne uzskata "
+"par nesvarīgām. Tās ir paslēptas, ja vien šis nav patiess."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "Pogu izkārtojums pirms pirmās izmaiņas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"org.gnome.desktop.wm.preferences button-layout vērtība, saglabāta pirms "
+"Deskence to pirmo reizi mainīja. Tukšs, ja nekas nav mainīts."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "Pogu izkārtojums, ko Deskence ierakstīja pēdējo"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"Tiek izmantots, lai noteiktu, vai lietotājs vēlāk izkārtojumu mainīja citur; "
+"sākotnējā vērtība tiek piedāvāta atjaunošanai tikai tik ilgi, kamēr "
+"pašreizējā vērtība joprojām ir vienāda ar šo."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "Lietotņu skata secība"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\": lietotāja veidotais izkārtojums (paša GNOME app-picker-layout un "
+"mapju saraksti). \"alphabetical\": lietotnes un mapes pēc attēlojamā "
+"nosaukuma lietotāja valodā, arī lietotnes katrā mapē; pārkārtošana velkot ir "
+"izslēgta. To uztur aktuālu paplašinājums app-grid."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "Izkārtojums, saglabāts pirms alfabētiskās kārtošanas"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"JSON, ko ieraksta, kad sort-mode mainās uz \"alphabetical\": iepriekšējais "
+"org.gnome.shell app-picker-layout (GVariant teksts) un katras mapes lietotņu "
+"saraksts. Tas tiek atjaunots, kad sort-mode atgriežas uz \"custom\". "
+"Iekšējs; nav priekšiestatījumu daļa."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "Saīsne, kas atver starpliktuves vēsturi"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "Lielākais atcerēto vienumu skaits"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr ""
+"Piespraustie vienumi netiek skaitīti. Vecākie vienumi tiek aizmirsti "
+"vispirms."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "Kas tiek saglabāts pēc izrakstīšanās"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\": vēsture tiek glabāta tikai atmiņā un pēc izrakstīšanās pazūd. "
+"\"pinned\": piespraustie vienumi tiek saglabāti lietotāja datu mapē. "
+"\"all\": tur tiek saglabāta visa vēsture."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "Neatcerēties jaunus vienumus"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr ""
+"Pagaidu stāvoklis, ko maina vēstures panelī; nav priekšiestatījumu daļa."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "Atcerēties arī atlasīto tekstu"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr ""
+"Ar peli atlasītais teksts (primārā atlase, ko ielīmē ar vidējo pogu) arī "
+"tiek pievienots vēsturei."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "Vienmēr ielīmēt tekstu bez formatējuma"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"Vēsture glabā tekstu bez formatējuma; tikai jaunāko vienumu var ielīmēt ar "
+"formatējumu, kamēr lietotne, no kuras tas nokopēts, to joprojām piedāvā. Ja "
+"patiess, arī šis vienums tiek ielīmēts kā vienkāršs teksts. Shift+Enter "
+"vēsturē jebkurā gadījumā ielīmē vienkāršu tekstu."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "Uzreiz ielīmēt izvēlēto vienumu"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"Ja patiess, vienuma izvēle aizver paneli un ielīmē to logā, kas bija fokusā, "
+"ar Ctrl+V. Ja aplams, vienums tiek tikai ievietots starpliktuvē."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "Turēt ieslēgtu arī ekrānu"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"Ja aplams, datora turēšana nomodā novērš tikai automātisku iesnaušanos: "
+"ekrāns joprojām izslēdzas un bloķējas kā parasti. Ja patiess, arī ekrāns "
+"paliek ieslēgts un automātiski nebloķējas."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "Ilgums, ko izmanto ātro iestatījumu poga"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr "Pēdējais izvēlētais ilgums; klikšķis uz pogas to izmanto atkal."
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "Savs ilgums minūtēs"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "Beigu laiks minūtēs pēc pusnakts"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr ""
+"To izmanto „līdz noteiktam laikam”: šī vietējā laika nākamā iestāšanās."
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"Atvērt iestatījumu lapu: general, dock, desktop-icons, app-grid, top-bar, "
+"windows vai clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "LAPA"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"Doks ar mapēm, darbvirsmas ikonas, lietotņu ikonas augšējā joslā, "
+"starpliktuves vēsture un logu iestatījumi GNOME vidē."
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "Necaurspīdīgs"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "Caurspīdīgs"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "_Atcelt"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "Nav instalēts. Pārinstalējiet pakotni deskence."
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "Palaižas pēc izrakstīšanās un atkārtotas ierakstīšanās"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "Atjaunināts; jaunā versija palaižas pēc atkārtotas ierakstīšanās"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "GNOME Shell nedarbojas; tiks pielietots nākamajā GNOME sesijā"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "Nedarbojas"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "Funkcija apstājās kļūdas dēļ"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "Šī GNOME versija netiek atbalstīta"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "Instalētā versija neatbalsta GNOME {}."
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "GNOME paplašinājumi ir izslēgti"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Deskence tie ir vajadzīgi, lai parādītu savas funkcijas."
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "_Ieslēgt…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "Tā vietā tiek izmantota cita kopija"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "Kopija jūsu mājas mapē aizstāj instalēto: {}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "_Rādīt"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "Ieslēgt GNOME paplašinājumus?"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr ""
+"Tas ieslēdz arī citus paplašinājumus, ko esat iespējojis lietotnē "
+"„Paplašinājumi”."
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "_Ieslēgt"
+
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "doku"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "darbvirsmas ikonas"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "lietotņu ikonas augšējā joslā"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "lietotņu skata kārtošanu"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "starpliktuves vēsturi"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "datora turēšanu nomodā"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr "Nodrošina arī {}. Abu vienlaicīga lietošana rada problēmas."
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "Var nodrošināt arī {}."
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "Atspējot „{}”?"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr ""
+"Paplašinājums paliek instalēts, un tā iestatījumi tiek saglabāti. To var "
+"atkal ieslēgt lietotnē „Paplašinājumi”."
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "_Atspējot"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "_Atspējot…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "Vājš"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "Spēcīgs"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "Palielinājuma stiprums"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "Fona caurspīdīgums"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "Ikonu izmērs"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "Doks ir vienmēr redzams, un logi to neaizsedz"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "Paslēpjas, kamēr to aizsedz logs"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "Parādās, kad pārvietojat rādītāju uz ekrāna malu"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "Otrs klikšķis pārslēdz uz lietotnes nākamo logu"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr "Klikšķis uz lietotnes ar vienu fokusētu logu to minimizē"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "Atjaunot doka noklusējuma iestatījumus?"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"Novietojums, izmērs, krāsas, slēpšana, monitors, klikšķa uzvedība un rādītie "
+"vienumi atgriežas pie noklusējuma vērtībām. Piespraustās lietotnes, mapes "
+"dokā, lietotņu skats un tas, vai doks tiek rādīts, nemainās."
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "_Atjaunot"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr "Netiek rādīts, kamēr animācijas ir izslēgtas pieejamības iestatījumos"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "Pievienot mapi"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "Cita mape…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "Šajā datorā nav iestatīta"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{} (trūkst)"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "Pārvietot augšup"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "Pārvietot lejup"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "Izņemt no doka"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "Pievienot mapi dokam"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "Šo mapi nevar pievienot"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "Var pievienot tikai lokālas mapes."
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "_Aizvērt"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "Doka sākums"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "Doka beigas"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "Augšā"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "Apakšā"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "Pa kreisi"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "Pa labi"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "Logotips nav instalēts; tiek izmantota noklusējuma ikona"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "Attēls nav izvēlēts; tiek izmantota noklusējuma ikona"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "Attēla trūkst; tiek izmantota noklusējuma ikona"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "Attēli"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "Izvēlieties ikonu"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "Var izmantot tikai lokālas datnes."
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr ""
+"Datne nav atbalstīta formāta (PNG, SVG, JPEG vai WebP) attēls, kas nav "
+"lielāks par 4 MB."
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "Šo attēlu nevar izmantot"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{} (atvienots)"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "Darbvirsmas mape nav iestatīta"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "Atjaunot darbvirsmas ikonu noklusējuma iestatījumus?"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"Izmērs, izvietojums, klikšķa uzvedība un rādītie vienumi atgriežas pie "
+"noklusējuma vērtībām. Jūsu datnes un ikonu novietojumi nemainās."
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "Ikonas paliek tieši tur, kur tās nometat"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "Nomestās ikonas piesaistās režģim"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "Mapju caurspīdīgums"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "Izcēluma caurspīdīgums"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "Atjaunot lietotņu skata noklusējuma iestatījumus?"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"Fons, lietotņu mapes un virzīšanas izcēlums atgriežas pie GNOME izskata, un "
+"lietotnes — pie jūsu pašu secības."
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr "Pēc nosaukuma, arī mapēs. Vilkšana secību nemaina."
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr ""
+"Kārtojiet lietotnes, tās velkot. Šis izkārtojums atgriežas, kad alfabētiskā "
+"secība tiek izslēgta."
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr "Fons aiz lietotnēm. Ikonas, nosaukumi un meklēšanas lauks nemainās."
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "Pieejams, kamēr Deskence doks ir ieslēgts."
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr ""
+"Mainiet lietotņu grupu, piemēram, „Utilītas”, izskatu lietotņu skatā. Mainās "
+"tikai flīzes fons."
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr ""
+"Izvēlieties fonu, kas parādās zem rādītāja uz lietotnes vai lietotņu mapes, "
+"arī atvērtā mapē."
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "_Saīsne"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "Atver vēsturi"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "Atjaunot starpliktuves noklusējuma iestatījumus?"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"Saīsne un ielīmēšana atgriežas pie noklusējuma vērtībām. Vēsture, cik "
+"vienumu tā glabā un vai tā tiek saglabāta pēc izrakstīšanās, nemainās."
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "Tikai atmiņā"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "Piespraustie vienumi tiek saglabāti mapē {}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "Vēsture tiek saglabāta mapē {}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "Atjaunot augšējās joslas noklusējuma iestatījumus?"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr ""
+"Neaktīvo ikonu rādīšana un „Neļaut iemigt” opcijas atgriežas pie noklusējuma "
+"vērtībām. Tas, kuras funkcijas tiek rādītas, nemainās."
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "Pārslēdz „Vienmēr virspusē” fokusētajam logam"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "Atjaunot virsraksta joslas noklusējuma pogas?"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr "Virsraksta joslas pogas atgriežas pie šīs sistēmas GNOME noklusējuma."
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "Atjaunot virsraksta joslas iepriekšējās pogas?"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr ""
+"Virsraksta joslas pogas atgriežas tādas, kādas tās bija, pirms Deskence tās "
+"mainīja."
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr "Pogas tika mainītas citur pēc tam, kad Deskence tās mainīja"
+
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "kreisajā malā"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "apakšējā malā"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "labajā malā"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "Priekšskatījums: doks ekrāna {}"
+
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "augšējā kreisā"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "augšējā labā"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "apakšējā kreisā"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "apakšējā labā"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "Priekšskatījums: jaunās ikonas tiek novietotas, sākot no {} stūra"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "Ieslēdziet „{}”, lai mainītu „{}”."
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "„{}” ir pieejams pēc „{}” ieslēgšanas."
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "„{}” pašlaik nav pieejams."
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr ""
+"Ir instalēts atjauninājums. Lai to izmantotu, izrakstieties un ierakstieties "
+"vēlreiz."
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr ""
+"Lai palaistu ieslēgtās funkcijas, izrakstieties un ierakstieties vēlreiz."
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "_Par"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "Meklēt iestatījumos"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "Galvenā izvēlne"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "Meklēt iestatījumos"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "Iestatījumu lapas"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "Meklēšanas rezultāti"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "Nekas netika atrasts"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "Izmēģiniet citus vārdus, piemēram, funkcijas nosaukumu."
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "_Izrakstīties…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "Doks"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr ""
+"Pielāgojiet lietotņu joslas pie ekrāna malas novietojumu, izskatu un "
+"uzvedību. Piespraustās lietotnes ir tās pašas, kas aktivitāšu pārskatā."
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "Rādīt _doku"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "Izskats"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "_Novietojums"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "Pa kreisi"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "Apakšā"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "Pa labi"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "_Garums"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "Pēc ikonām"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "Visa mala"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "_Ikonu izmērs"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "Sava fona _krāsa"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "Fona krāsa"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "Savs fona _caurspīdīgums"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "_Palielināt ikonas zem rādītāja"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "Palielinājuma _stiprums"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "Uzvedība"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "_Slēpt"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "Nekad"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "Kad to aizsedz logi"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "Kad netiek lietots"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "_Monitors"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "Galvenais"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "Izvēlētais"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "Visi"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "Izvēlētais _monitors"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "_Klikšķis uz palaistas lietotnes"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "Fokusēt, tad pārslēgt logus"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "Minimizēt vai pārslēgt logus"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "Rādīt tikai pašreizējās _darbvietas lietotnes"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "Rādīt logu _priekšskatījumus, virzot rādītāju"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr ""
+"Apturiet rādītāju uz palaistas lietotnes, lai redzētu tās logus un izvēlētos "
+"vienu"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "_Ieskatīties logos"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr ""
+"Apturiet rādītāju uz priekšskatījuma, lai redzētu tā logu virs pārējiem, "
+"nepārslēdzoties uz to"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "Informācija no lietotnēm"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"Lietotnes savā ikonā var rādīt skaitītāju vai darbības progresu, piemēram, "
+"nelasītos ziņojumus vai lejupielādi. Tiek rādīts tikai tas, ko lietotne "
+"paziņo."
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "Rādīt lietotņu skaitītājus"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "Skaitlis uz ikonas, piemēram, nelasītie ziņojumi"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "Rādīt darbību progresu"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "Josla uz ikonas, kamēr notiek lejupielāde vai kopēšana"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "Vienumi"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "Ko doks rāda bez lietotnēm."
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "_Miskaste"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "Diski un _USB zibatmiņas"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "_Tīkla vietas"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "_Lietotņu poga"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "Lietotņu pogas _novietojums"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "Lietotņu pogas _ikona"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "GNOME noklusējums"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "Distributīva logotips"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "Savs attēls"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "_Izvēlēties…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "Mapes dokā"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"Piespraudiet mapes, lai pārlūkotu to saturu tieši no doka. Mapes izņemšana "
+"no doka nemaina ne mapi, ne tās datnes."
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "Rādīt _mapes dokā"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "_Atjaunot noklusējuma iestatījumus…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "Darbvirsmas ikonas"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr "Rādīt darbvirsmas mapes datnes un mapes kā ikonas uz darbvirsmas."
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "Rādīt _ikonas uz darbvirsmas"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "Darbvirsmas mape"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "Atvērt lietotnē „Datnes”"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "Ikonas"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "_Izmērs"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "Mazas"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "Vidējas"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "Lielas"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "Ļoti lielas"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "_Novietot jaunās ikonas no"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "Jūsu pārvietotās ikonas saglabā savu vietu"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "Augšējā kreisā stūra"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "Augšējā labā stūra"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "Apakšējā kreisā stūra"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "Apakšējā labā stūra"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "Ikonu _izvietojums"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "Brīvs"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "Piesaistīt režģim"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "_Atvērt vienumus ar"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "Dubultklikšķi"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "Vienu klikšķi"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "Rādīt arī"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "_Mājas mapi"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr ""
+"Slēptās datnes netiek rādītas. Darbvirsmas ikonu izslēgšana nekad nepārvieto "
+"un nedzēš jūsu datnes."
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "Augšējā josla"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "Lietotņu ikonas"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr ""
+"Fonā darbojošos lietotņu ikonas, piemēram, tērzēšanas un datņu "
+"sinhronizēšanas lietotņu."
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "Rādīt _lietotņu ikonas"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "Rādīt _neaktīvās ikonas"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "Ikonas, ko lietotnes atzīmē kā pašlaik nesvarīgas"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "Neļaut iemigt"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"Ātro iestatījumu poga, kas neļauj datoram automātiski iesnausties izvēlēto "
+"laiku vai līdz izslēgšanai. Iesnaudināt datoru pašam joprojām var."
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "Rādīt „_Neļaut iemigt”"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "Turēt ieslēgtu arī _ekrānu"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr ""
+"Kamēr „Neļaut iemigt” ir ieslēgts, ekrāns automātiski neizslēdzas un "
+"nebloķējas"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "_Savs ilgums"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "Minūtes"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr ""
+"Tiek atbalstītas lietotnes, kas izmanto standartu StatusNotifierItem. Vecā "
+"tipa paziņojumu apgabala ikonas (XEmbed) netiek atbalstītas."
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "Logi"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "Virsraksta joslas pogas"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"Tie ir GNOME iestatījumi: tie paliek spēkā arī pēc Deskence izņemšanas. "
+"Lietotnes, kas zīmē pašas savas virsraksta joslas, piemēram, dažas "
+"pārlūkprogrammas, tos var ignorēt."
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "_Minimizēšanas poga"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "M_aksimizēšanas poga"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "_Izvietojums"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "Vienmēr virspusē"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"Tur logu virs pārējiem. Tas ir arī loga izvēlnē (Alt+Atstarpe) un doka loga "
+"priekšskatījuma izvēlnē, kas šādiem logiem rāda spraudīti. Tas nerāda logu "
+"katrā darbvietā; tā ir atsevišķa loga izvēlnes opcija."
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "Atjaunot iestatījumus no _pirms izmaiņām…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "Nosaukums nevar būt tukšs."
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "Nosaukumā nedrīkst būt „/”."
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "„.” un „..” nav derīgi nosaukumi."
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "Vienums ar šo nosaukumu jau eksistē."
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "Nosaukums ir pārāk garš."
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "Neizdodas atvērt vietu"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "Neizdodas atvērt „{}”"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "Saite ir bojāta: vienums, uz kuru tā norāda, neeksistē."
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "Palaidējs nav derīgs."
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "Neizdodas palaist „{}”"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "Neuzticams palaidējs"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr ""
+"„{}” nav atzīmēts kā uzticams. Atļaujiet palaišanu tikai tad, ja zināt, no "
+"kurienes šī datne nāk."
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "_Atļaut un palaist"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "Neizdodas atļaut „{}” palaišanu"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "Neizdodas atvērt iestatījumus"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "Neizdodas atvērt Deskence"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "Neizdodas atmontēt „{}”"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "Nosaukumi, kas sākas ar „.”, ir paslēpti."
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "Jauna mape"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "Mapes nosaukums"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "_Izveidot"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "Pārdēvēt mapi"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "Pārdēvēt datni"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "_Pārdēvēt"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "Jauna _mape…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "_Ielīmēt"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "Atlasīt _visu"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "_Kārtot ikonas"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "Līdzināt _režģim"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "_Nosaukums"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "_Mainīts"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "_Tips"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "Kārtot _pēc"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "Mainīt _fonu…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "_Darbvirsmas iestatījumi"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "_Atvērt"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "Atvērt _ar…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "Atļaut _palaišanu"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "Iz_griezt"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "_Kopēt"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "Pār_dēvēt…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "Pārvietot uz _miskasti"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "_Iztukšot miskasti…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "_Izgrūst"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "_Atmontēt"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "_Īpašības"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "Darbība neizdevās"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "Neizdodas iztukšot miskasti"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "Miskastes iztukšošanai vajadzīga lietotne „Datnes”."
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "Neizdodas parādīt īpašības"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "Neizdodas pārvietot uz miskasti"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "Neizdodas pārdēvēt"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "Neizdodas izveidot mapi"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "Neizdodas pārvietot datnes"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "Neizdodas kopēt datnes"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "Mājas"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "Miskaste"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "Darbvirsma"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "Rādīt lietotnes"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "Doka iestatījumi"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "Neizdevās atvērt vietu"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "Atvērt"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "Iztukšot miskasti…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "Izgrūst"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "Atmontēt"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "Neizdevās izgrūst disku"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "Neizdevās atmontēt disku"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "%s logi"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "Aizvērt logu"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "Priekšiestatījumi (JSON)"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "Priekšiestatījumi ar attēliem"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "Visi priekšiestatījumi"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "Nosaukums"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "Piespraustās lietotnes"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "Savi attēli"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "Tiek saglabāti arhīvā kopā ar iestatījumiem"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "Atjaunot Deskence noklusējuma iestatījumus?"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"Visi Deskence iestatījumi atgriežas pie noklusējuma vērtībām, un lietotņu "
+"skats — pie jūsu pašu secības. Mapes tiek izņemtas no doka; pašas mapes "
+"netiek skartas. Ieslēgtās funkcijas, piespraustās lietotnes, virsraksta "
+"joslas pogas, saglabātie priekšiestatījumi un starpliktuves vēsture nemainās."
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "Kā sistēmā ({})"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "_Atsaukt"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "_Pielietot…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "_Pārdēvēt…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "_Eksportēt…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "_Dzēst…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "Vairāk"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "piespraustām lietotnēm"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "mapēm dokā"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "attēliem"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "Iestatījumi ar {}"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "Mani iestatījumi"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "Saglabāt pašreizējos iestatījumus"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "_Saglabāt"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "Neizdodas saglabāt priekšiestatījumu"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "Priekšiestatījums „{}” ir saglabāts"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "Pārdēvēt priekšiestatījumu"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "Neizdodas pārdēvēt priekšiestatījumu"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "Neizdodas dzēst priekšiestatījumu"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "Dzēst priekšiestatījumu „{}”?"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "Pašreizējie iestatījumi nemainās."
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "_Dzēst"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "Eksportēt iestatījumus"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"Iestatījumi tiek saglabāti kā lasāma JSON datne. Ar attēliem datne ir arhīvs "
+"ar iestatījumiem un attēliem."
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Deskence iestatījumi"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "Neizdodas eksportēt"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "Iestatījumi eksportēti"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "Importēt iestatījumus"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "Neizdodas importēt"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "Jūsu iestatījumi jau atbilst šim priekšiestatījumam."
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "Nav ko mainīt"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "{} iestatījums mainās: {}."
+msgstr[1] "{} iestatījumi mainās: {}."
+msgstr[2] "{} iestatījumu mainās: {}."
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "Pielietot „{}”?"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "Pielietot priekšiestatījumu?"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "_Pielietot"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "Šīs izmaiņas neizdevās atsaukt: {}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "Jūsu iepriekšējie iestatījumi ir atjaunoti."
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "Priekšiestatījums netika pielietots"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "Nekas netika mainīts."
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "Priekšiestatījums pielietots"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "Neizdodas atsaukt priekšiestatījumu"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "Nav pielietota priekšiestatījuma, ko atsaukt."
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "Iepriekšējie iestatījumi atjaunoti"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "Atsaukt pēdējo pielietoto priekšiestatījumu?"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr ""
+"Iestatījumi, ko priekšiestatījums mainīja, atgriežas pie vērtībām, kādas "
+"bija pirms tā."
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "Daži iestatījumi kopš tā laika ir mainīti"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"Šie iestatījumi tika mainīti pēc priekšiestatījuma pielietošanas: {}. "
+"Atsaukt arī tos vai paturēt tādus, kādi tie ir tagad?"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "_Paturēt"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "Atsaukt _visu"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "Atskaite"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "_Saglabāt…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "Informācija kļūdu ziņojumiem"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "Diagnostika nokopēta"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "Saglabāt atskaiti"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "Neizdodas saglabāt atskaiti"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "Atskaite saglabāta"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "Noklusējuma iestatījumi atjaunoti"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "Funkcijas"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "Vispārīgi"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "Lietotņu skats"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "Starpliktuve"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "Datne ir pārāk liela, lai būtu priekšiestatījums."
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "Datne nav Deskence priekšiestatījums."
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "Priekšiestatījumam nav derīgas formāta versijas."
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr ""
+"Priekšiestatījums ir izveidots ar jaunāku Deskence versiju. Lai to "
+"izmantotu, atjauniniet Deskence."
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "Arhīvs ir pārāk liels, lai būtu priekšiestatījums."
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "Arhīvā nav Deskence priekšiestatījuma."
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "Arhīvs ir bojāts."
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "Priekšiestatījuma iestatījumu daļa ir bojāta."
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "Nezināmā daļa „{}” tika ignorēta."
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "Nezināmais iestatījums „{}” daļā {} tika ignorēts."
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr ""
+"Monitors {} nav pievienots. Līdz tam doks tiek rādīts galvenajā monitorā."
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "{} šajā datorā nav pieejams."
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "{} ir nederīga vērtība, un tas tika izlaists."
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "{} ir bloķējis administrators."
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "Valoda „{}” šajā datorā nav pieejama, un tā tika izlaista."
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "Saīsne {} funkcijai „{}” netika importēta: {}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "Funkciju saraksts ir bojāts, un tas tika izlaists."
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "Nezināmā funkcija „{}” tika ignorēta."
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr "Piespraustās lietotnes šajā datorā nav pieejamas."
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "Piesprausto lietotņu saraksts ir bojāts, un tas tika izlaists."
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr "Nav instalētas: {}. Tās parādīsies dokā, kad būs instalētas."
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "Doka mapju saraksts ir bojāts, un tas tika izlaists."
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "Mapei „{}” ir nederīgs ieraksts, un tā tika izlaista."
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr ""
+"Standarta mape {} šajā datorā nav iestatīta; tā tiek rādīta kā nepieejama."
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr "Mape {} neeksistē; tā tiek rādīta kā nepieejama, līdz tā eksistēs."
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr ""
+"Priekšiestatījums izmanto savu lietotņu pogas attēlu, kas nav iekļauts; tiek "
+"izmantota noklusējuma ikona."
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence: nepalaidiet Deskence kā root; palaidiet to kā savu lietotāju (bez "
+"sudo)."
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr ""
+"Deskence iestatījumu shēma nav instalēta. Pārinstalējiet pakotni deskence."
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "Nekas netika mainīts: iestatījumus nevar saglabāt."
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr ""
+"Šī izmaiņa ir jāapstiprina. Palaidiet komandu vēlreiz ar --yes, lai to "
+"apstiprinātu bez jautājuma."
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "j/N"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "j"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "jā"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr ""
+"Saglabāts. Izmaiņu neizdevās apstiprināt pašreizējā GNOME sesijā; var būt "
+"nepieciešams ierakstīties vēlreiz."
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "darbojas"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "nedarbojas"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "kļūda"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "neatbalstīta GNOME versija"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "palaižas pēc atkārtotas ierakstīšanās"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "atjaunināts; jaunā versija pēc atkārtotas ierakstīšanās"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "nav instalēts"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "nezināms (GNOME Shell nav sasniedzams)"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}: tiek rādīts darbojošās sesijas stāvoklis."
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr "GNOME Shell nav sasniedzams: zināmi tikai saglabātie iestatījumi."
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr ""
+"GNOME paplašinājumi ir izslēgti; neviena funkcija nedarbojas, kamēr tie "
+"netiek ieslēgti."
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "FUNKCIJA"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "SAGLABĀTS"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "ŠAJĀ SESIJĀ"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "ieslēgta"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "izslēgta"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr "{}: instalētās vietā tiek izmantota kopija no jūsu mājas mapes: {}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr ""
+"{}: saglabātais iestatījums atšķiras no sesijas; tas būs spēkā pēc "
+"atkārtotas ierakstīšanās."
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr "{}: „{}” nodrošina to pašu; abu lietošana rada problēmas."
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}: „{}” var nodrošināt to pašu."
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "Norādiet funkciju nosaukumus vai --all, ne abus."
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr "Norādiet vismaz vienu funkciju vai izmantojiet --all. Funkcijas: {}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "Nezināma funkcija: {}. Funkcijas: {}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "iestatījumu neizdevās saglabāt"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}: ieslēgta"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}: izslēgta"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}: jau ieslēgta"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}: jau izslēgta"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}: saglabātajos iestatījumos jau ieslēgta"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}: saglabātajos iestatījumos jau izslēgta"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}: neizdevās: {}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"GNOME paplašinājumi ir izslēgti; ieslēgtās funkcijas palaidīsies, kad tie "
+"tiks ieslēgti (gsettings set org.gnome.shell disable-user-extensions false)."
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr ""
+"Neviens saglabātais priekšiestatījums nesaucas „{}”. Skatiet deskence preset "
+"list."
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr ""
+"Vairāki saglabātie priekšiestatījumi saucas „{}”; izmantojiet kādu no to ID: "
+"{}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "Funkcija {}: ieslēgt"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "Funkcija {}: izslēgt"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "Doks: lietotņu pogas savs attēls"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "Brīdinājums: {}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "Izlaists: {}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "Priekšiestatījums netika pielietots: {}."
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "Šīs izmaiņas neizdevās atsaukt: {}."
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "Iepriekšējie iestatījumi ir atjaunoti."
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "Priekšiestatījums netika pielietots; nekas netika mainīts. {}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"Priekšiestatījums tika pielietots tikai daļēji; šie iestatījumi netika "
+"saglabāti: {}. Atsauciet to ar: deskence preset undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "Funkcijas {}: {}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "Nav saglabātu priekšiestatījumu."
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "NOSAUKUMS"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ID"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "IZVEIDOTS"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "Jūsu iestatījumi jau atbilst priekšiestatījumam „{}”."
+
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "Priekšiestatījums „{}” maina {} iestatījumu:"
+msgstr[1] "Priekšiestatījums „{}” maina {} iestatījumus:"
+msgstr[2] "Priekšiestatījums „{}” maina {} iestatījumu:"
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "Nekas netika mainīts (--dry-run)."
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "Pielietot priekšiestatījumu?"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr ""
+"Priekšiestatījums „{}” pielietots. Atsauciet to ar: deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "Neizdodas importēt {}: {}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"Saglabātais priekšiestatījums jau saucas „{}”. Izvēlieties citu nosaukumu ar "
+"--name vai aizstājiet to ar --replace."
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr ""
+"Priekšiestatījums „{}” ir derīgs un tiktu saglabāts; nekas netika mainīts (--"
+"dry-run)."
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr ""
+"Priekšiestatījums „{}” saglabāts kā {}. Pielietojiet to ar: deskence preset "
+"apply {}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "Saglabāt un pielietot priekšiestatījumu?"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr ""
+"Priekšiestatījums „{}” saglabāts kā {} un pielietots. Atsauciet to ar: "
+"deskence preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "{} ir mape; norādiet datnes nosaukumu."
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "{} jau eksistē. Lai to aizstātu, izmantojiet --force."
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "Neizdodas ierakstīt {}: {}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "Iestatījumi eksportēti uz {} (arhīvs ar attēliem)."
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "Iestatījumi eksportēti uz {}."
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr "Savs attēls netiek izmantots, tāpēc datne ir vienkāršs JSON."
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr "Iestatījumi atgriežas stāvoklī tieši pirms pēdējā importa."
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "Priekšiestatījums nemainīja neko, ko varētu atsaukt."
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "„{}” atsaukšana atjauno:"
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"Mainīti pēc priekšiestatījuma pielietošanas, tāpēc atstāti, kā ir "
+"(pievienojiet --include-changed, lai atsauktu arī tos): {}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "Atsaukt priekšiestatījumu?"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "Priekšiestatījums tika atsaukts tikai daļēji: {}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "Iepriekšējie iestatījumi atjaunoti."
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "Norādiet, ko atjaunot, vai --all, ne abus."
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr "Norādiet, ko atjaunot, vai izmantojiet --all. Iespējas: {}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "Nezināma iespēja: {}. Iespējas: {}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "Viss jau ir noklusējuma vērtībās; nav ko atjaunot."
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "Atjaunots uz noklusējumu ({}):"
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "viss Deskence"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "Lietotņu skats atgriežas pie jūsu pašu secības."
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "Funkcija app-grid (alfabētiskā secība) tiek izslēgta."
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"Netiek mainīts: citas ieslēgtās funkcijas, piespraustās lietotnes, "
+"darbvirsmas datnes, savi attēli, saglabātie priekšiestatījumi un "
+"starpliktuves vēsture."
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "Atjaunot šos iestatījumus?"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "Dažus iestatījumus neizdevās atjaunot: {}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "Noklusējuma iestatījumi atjaunoti."
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}: kļūda: {}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"Deskence iestatījumi no komandrindas. Bez komandas atveras iestatījumu logs "
+"(deskence [--page LAPA])."
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"Funkcijas: {}. Izejas kodi: 0 izdarīts, 1 neizdevās, 2 nederīga komandrinda, "
+"3 nav apstiprināts, 4 saglabāts, bet nav apstiprināts darbojošajā GNOME "
+"sesijā. Skatiet man deskence."
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "KOMANDA"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "izvadīt JSON dokumentu teksta vietā"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "rādīt katras funkcijas saglabāto un darbības stāvokli"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "ieslēgt funkcijas"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "izslēgt funkcijas; to iestatījumi tiek saglabāti"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "viena no: {}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "visas Deskence funkcijas (nekad citi paplašinājumi)"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "uzskaitīt, pielietot, importēt un eksportēt priekšiestatījumus"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "Priekšiestatījumi tiek saglabāti mapē {}."
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "DARBĪBA"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "tikai parādīt, kas mainītos"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "neprasīt apstiprinājumu"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "rādīt saglabātos priekšiestatījumus"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "pielietot saglabātu priekšiestatījumu"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "saglabāta priekšiestatījuma nosaukums vai ID"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr ""
+"pārbaudīt priekšiestatījuma datni un saglabāt to starp priekšiestatījumiem"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "DATNE"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr ".json priekšiestatījums vai .deskence arhīvs"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "saglabāt ar šo nosaukumu"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "aizstāt saglabātu priekšiestatījumu ar tādu pašu nosaukumu"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "arī to pielietot"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "ierakstīt pašreizējos iestatījumus datnē"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "priekšiestatījumā saglabātais nosaukums"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "iekļaut piespraustās lietotnes"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "iekļaut doka mapes"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "iekļaut savus attēlus (ieraksta arhīvu)"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "aizstāt esošu datni"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "atsaukt pēdējo pielietoto priekšiestatījumu"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr ""
+"atsaukt arī iestatījumus, kas mainīti pēc priekšiestatījuma pielietošanas"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "atjaunot noklusējuma iestatījumus"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "DAĻA"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "visi Deskence iestatījumi; izslēdz arī funkciju app-grid"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "rādīt atskaiti kļūdu ziņojumiem (nekas netiek sūtīts)"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence: {}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"Sesijas kopne nav pieejama, tāpēc dconf nevar saglabāt iestatījumus. "
+"Palaidiet komandu savas GNOME sesijas terminālī vai pēc ierakstīšanās teksta "
+"konsolē kā tas pats lietotājs."
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr ""
+"Iestatījumi tiek glabāti tikai atmiņā (GSETTINGS_BACKEND=memory) un tiktu "
+"zaudēti."
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "Rādīt starpliktuves vēsturi"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "Atver nokopēto tekstu un attēlu vēsturi"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr "Pārslēdz „Vienmēr virspusē” fokusētajam logam (GNOME saīsne)"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "Deskence iestatījumu logā"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "Šī nav derīga saīsne."
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "Modificētājtaustiņš viens pats nevar būt saīsne."
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr ""
+"Izmantojiet Ctrl, Alt vai Super kopā ar taustiņu vai funkciju taustiņu."
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr ""
+"Šāda veida saīsnes izmanto pašas lietotnes. Pievienojiet Super vai "
+"apvienojiet Ctrl un Alt."
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "Sava saīsne"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "Jau tiek izmantota: {}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "doks, uzdevumjosla, palaidējs, panelis, dock, taskbar, launcher"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "tālummaiņa, palielināt, palielinājums, lupa, zoom"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "automātiska slēpšana, slēpšana, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "kaudzes, mapes, lejupielādes, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "sīktēli, logi, priekšskatījumi, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "nozīmītes, nelasītie, paziņojumi, ziņojumi, skaitītājs, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "lejupielāde, progress, progresa josla, download"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "darbvirsma, datnes, faili, ikonas, desktop"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr "lietotņu režģis, lietotnes, programmas, palaidējs, izvēlne, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "kārtošana, alfabētiski, secība, kārtot"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "mapes, flīzes, grupas"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "virzīšana, izcēlums, rādītājs, kursors, hover"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "paziņojumu apgabals, indikatori, statusa ikonas, tray"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "iesnaušanās, miegs, kofeīns, caffeine, novērst, nomodā"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "ekrānsaudzētājs, tukšs ekrāns, bloķēšana"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "virsraksta josla, pogas, minimizēt, maksimizēt"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "kopēt, ielīmēt, starpliktuve, vēsture, clipboard"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr "tastatūra, tastatūras saīsnes, taustiņi, saīsnes, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "kļūda, diagnostika, atskaite, problēma, bug"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "rezerves kopija, priekšiestatījumi, pārnešana, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "valoda, tulkojums, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "Atspējots"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "Atjaunot noklusējuma saīsni"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "Iestatīt saīsni"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "Nospiediet jauno saīsni funkcijai „{}”. Escape atceļ."
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "Atjaunot _noklusējumu"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "Noklusējuma saīsne jau ir aizņemta: {}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "Šo saīsni nevar izmantot"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "Tastatūras saīsnes"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "Visur"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"Konflikti ar citām Deskence saīsnēm un ar paša GNOME saīsnēm tiek noraidīti. "
+"Citu lietotņu un paplašinājumu saīsnes nevar pārbaudīt."
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "Iestatījumu logā"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "Darbojas, kamēr „{}” ir ieslēgts"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "Latviešu"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "Sesijas sākums"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "Pēc ierakstīšanās rādīt _darbvirsmu"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "Sākt uz darbvirsmas, nevis aktivitāšu pārskatā"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr "Doks, darbvirsma un citas funkcijas vienmēr izmanto sistēmas valodu."
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "Lietotnes _valoda"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "Iestatījumi un komanda deskence"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "Jaunā valoda tiek izmantota pēc pārstartēšanas"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "_Pārstartēt"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "Priekšiestatījumi"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr "Saglabājiet pašreizējos iestatījumus, lai vēlāk pie tiem atgrieztos."
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "Nav saglabātu priekšiestatījumu"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "_Saglabāt pašreizējos iestatījumus…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "Iestatījumu pārnešana"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"Pārnesiet iestatījumus uz citu datoru vai saglabājiet tos pārinstalēšanai. "
+"Pirms importa redzēsiet, kas mainās."
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "_Eksportēt datnē…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "_Importēt no datnes…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "_Atsaukt pēdējo pielietoto priekšiestatījumu…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "_Tastatūras saīsnes"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr "Skatiet un mainiet visas Deskence saīsnes vienuviet"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"Versijas, sesijas veids, monitori un katras funkcijas stāvoklis, ko ielīmēt "
+"kļūdas ziņojumā. Nekas privāts netiek iekļauts, un nekas netiek nekur sūtīts."
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "Rādīt _atskaiti…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "_Kopēt diagnostiku"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "Saglabāt atskaiti _datnē…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "_Atjaunot Deskence noklusējuma iestatījumus…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "Secība"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr "Kā lietotnes ir izkārtotas pilnekrāna lietotņu skatā."
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "Lietotņu _secība"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "Sava secība"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "Alfabētiska"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "Fons"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "Ja izslēgts, tiek izmantota GNOME stila krāsa"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "Savs fona _caurspīdīgums"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "Ja izslēgts, fons ir necaurspīdīgs, kā GNOME"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "Fona _caurspīdīgums"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "Lietotņu mapes"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "Sava mapju _krāsa"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "Mapju krāsa"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "Savs mapju _caurspīdīgums"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "Ja izslēgts, tiek izmantots GNOME stila caurspīdīgums"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "Mapju c_aurspīdīgums"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "Virzīšanas izcēlums"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "Sava _izcēluma krāsa"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "Izcēluma krāsa"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "Savs izcēluma c_aurspīdīgums"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr ""
+"Kopēšana un ielīmēšana darbojas kā līdz šim. Nokopēto tekstu un attēlu "
+"vēsture atveras ar savu saīsni."
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "_Starpliktuves vēsture"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "_Ielīmēt izvēlēto vienumu"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"Ielīmē logā, kurā bijāt, ar Ctrl+V (terminālos Ctrl+Shift+V). Ja izslēgts, "
+"vienums tiek tikai ievietots starpliktuvē."
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "Vienmēr ielīmēt tekstu _bez formatējuma"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr ""
+"Vecāki vienumi vienmēr ir vienkāršs teksts. Shift+Enter jebkurā brīdī ielīmē "
+"vienkāršu tekstu."
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "Atcerēties arī atlasīto _tekstu"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "Ar peli atlasīts teksts, ko ielīmē vidējā poga"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "Glabāšana"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"Vēsture tiek glabāta tikai atmiņā un pēc izrakstīšanās pazūd. Piespraustie "
+"vienumi paliek, kad vēsture tiek notīrīta, un netiek ieskaitīti "
+"ierobežojumā. Saturs, ko lietotnes atzīmē kā slepenu, piemēram, no paroļu "
+"pārvaldniekiem, netiek atcerēts; ne katru paroli var atpazīt."
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "_Atcerēto vienumu skaits"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "_Saglabāt pēc izrakstīšanās"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "Neko"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "Piespraustos vienumus"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "Visu vēsturi"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "_Pauzēt atcerēšanos"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "Jauni vienumi netiek pievienoti, kamēr tas nav izslēgts"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "Mape %s"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "Datums"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "Tips"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "Kārtot pēc: %s"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "Rādīt kā režģi"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "Rādīt kā sarakstu"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "Šī standarta mape nav iestatīta."
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "Ielādē…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "Šī mape vairs neeksistē."
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "Jums nav atļaujas atvērt šo mapi."
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "Šo mapi nevar atvērt: %s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "Šī mape ir tukša."
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"Šajā mapē ir vairāk nekā %d vienumu; tiek rādīti tikai pirmie. Lai redzētu "
+"visus, atveriet to lietotnē „Datnes”."
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "Mape"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "Neizdevās atvērt „%s”"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "Kopēt"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "Izgriezt"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "%s nav pieejams"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "%s ir tikai lasāms"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "Mapi nevar ievietot pašā sevī"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "Jau ir %s"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "Mapē var ievietot tikai datnes"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "Pārvietot uz %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "Kopēt uz %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "Pārvietot vai kopēt uz %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "Neizdodas pārvietot datnes uz %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "Neizdodas kopēt datnes uz %s"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr "Datņu kopēšanai un pārvietošanai no doka vajadzīga lietotne „Datnes”."
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "Neizdodas atvērt datnes lietotnē %s"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "Atvērt ar %s"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "%s nevar atvērt datnes"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "Nevar apstiprināt, ka %s atver šīs datnes"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "%d no datnēm vairs nav pieejama"
+msgstr[1] "%d no datnēm vairs nav pieejamas"
+msgstr[2] "%d no datnēm vairs nav pieejamas"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "%s neatver šī tipa datnes"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "%s neatver %d no šīm datnēm"
+msgstr[1] "%s neatver %d no šīm datnēm"
+msgstr[2] "%s neatver %d no šīm datnēm"
+
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s, %d jauns vienums"
+msgstr[1] "%s, %d jauni vienumi"
+msgstr[2] "%s, %d jaunu vienumu"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "Lietotnes ir sakārtotas alfabētiski"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr "Lai tās sakārtotu pats, Deskence izvēlieties „Sava secība”."
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "Gatavs ielīmēšanai"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "Tikko"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "pirms %d minūtes"
+msgstr[1] "pirms %d minūtēm"
+msgstr[2] "pirms %d minūtēm"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "pirms %d stundas"
+msgstr[1] "pirms %d stundām"
+msgstr[2] "pirms %d stundām"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "Starpliktuves vēsture"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "Meklēt vēsturē"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "Notīrīt vēsturi"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr ""
+"Enter: ielīmēt · Shift+Enter: ielīmēt kā vienkāršu tekstu · Delete: izņemt · "
+"Ctrl+P: piespraust"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "Atsākt atcerēšanos"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "Pauzēt atcerēšanos"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "Noklikšķiniet vēlreiz, lai notīrītu"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr ""
+"Noklikšķiniet vēlreiz, lai izņemtu visus vienumus, izņemot piespraustos."
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "Jauni vienumi netiek atcerēti, līdz atsāksiet."
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr "Vēl nekas nav nokopēts. Jūsu nokopētie vienumi parādīsies šeit."
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "Meklēšanai neatbilst neviens vienums."
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "Attēls, %s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "Atspraust"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "Piespraust"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "Izņemt"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "„Neļaut iemigt” ir ieslēgts: ekrāns paliek ieslēgts"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "„Neļaut iemigt” ir ieslēgts"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "Mazāk"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "Novērš automātisku iesnaušanos"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "Līdz izslēgšanai"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d minūte"
+msgstr[1] "%d minūtes"
+msgstr[2] "%d minūšu"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d stunda"
+msgstr[1] "%d stundas"
+msgstr[2] "%d stundu"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "Turēt ekrānu ieslēgtu"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "Ekrāns tad automātiski neizslēdzas un nebloķējas"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "Beigt tūlīt"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "Līdz %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "Līdz izslēgšanai"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "Atlikusi %d minūte"
+msgstr[1] "Atlikušas %d minūtes"
+msgstr[2] "Atlikušas %d minūtes"

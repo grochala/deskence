@@ -1,0 +1,4323 @@
+# Chinese (Simplified) translation of Deskence.
+# This file is distributed under the same license as the deskence package.
+# Machine-assisted translation, not yet reviewed by a native speaker
+# (X-Deskence-Reviewed below); see po/README.md.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deskence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Last-Translator: Deskence project\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Deskence-Reviewed: no\n"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:2
+msgid "Deskence"
+msgstr "Deskence"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:3
+msgid "Desktop Settings"
+msgstr "桌面设置"
+
+#: data/io.github.deskence.Deskence.desktop.in.in:4
+msgid ""
+"Dock, desktop icons, application icons in the top bar and window buttons"
+msgstr "程序坞、桌面图标、顶栏中的应用图标和窗口按钮"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.deskence.Deskence.desktop.in.in:6
+msgid "dock;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+msgstr ""
+"程序坞;dock;桌面;图标;托盘;指示器;任务栏;最小化;最大"
+"化;desktop;icons;tray;indicator;taskbar;minimize;maximize;"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:7
+msgid "Dock, desktop icons and tray for GNOME"
+msgstr "适用于 GNOME 的程序坞、桌面图标和托盘"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:9
+msgid ""
+"Deskence adds a few conveniences to the standard GNOME desktop and lets you "
+"configure them in one place."
+msgstr ""
+"Deskence 为标准 GNOME 桌面添加了一些便利功能，并让您在一个地方设置它们。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:11
+msgid ""
+"A dock with pinned and running applications, folders, drives and the trash, "
+"and previews of windows"
+msgstr "包含已固定和正在运行的应用、文件夹、驱动器和回收站以及窗口预览的程序坞"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:12
+msgid "Files and folders on the desktop"
+msgstr "桌面上的文件和文件夹"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:13
+msgid ""
+"Application icons in the top bar, for example from messengers and file "
+"synchronization"
+msgstr "顶栏中的应用图标，例如即时通讯和文件同步应用"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:14
+msgid "A clipboard history and Keep Awake in the quick settings"
+msgstr "剪贴板历史，以及快速设置中的“保持唤醒”"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:15
+msgid "Alphabetical order of the applications view"
+msgstr "应用视图按字母顺序排列"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:16
+msgid "Minimize and maximize buttons in window title bars"
+msgstr "窗口标题栏中的最小化和最大化按钮"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:17
+msgid "Presets to save settings and move them to another computer"
+msgstr "用于保存设置并迁移到其他计算机的预设"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:19
+msgid ""
+"It works in your existing GNOME session and keeps the standard GNOME look."
+msgstr "它在您现有的 GNOME 会话中运行，并保持 GNOME 的标准外观。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:43
+msgid ""
+"Deskence is now available in 29 languages: all official languages of the "
+"European Union, Korean, Simplified and Traditional Chinese, Serbian and "
+"Filipino. The language list in the settings names the language the system "
+"uses."
+msgstr ""
+"Deskence 现已提供 29 种语言：欧盟所有官方语言、韩语、简体中文和繁体中文、塞尔"
+"维亚语和菲律宾语。设置中的语言列表会标明系统使用的语言。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
+"Settings: choose the language of the settings window and the deskence "
+"command on the General page, independently of the system."
+msgstr "设置：可在“常规”页面中独立于系统选择设置窗口和 deskence 命令的语言。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+msgid ""
+"Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
+"Ctrl+X) and paste them in Files or on the desktop."
+msgstr ""
+"程序坞：在文件夹面板中复制或剪切文件和文件夹（右键单击、Ctrl+C、Ctrl+X），然"
+"后粘贴到“文件”或桌面上。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+msgid ""
+"Dock: drag files and folders from a folder panel onto another folder in the "
+"dock or onto the desktop to move or copy them."
+msgstr ""
+"程序坞：将文件和文件夹从文件夹面板拖到程序坞中的另一个文件夹或桌面上，以移动"
+"或复制它们。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+msgid ""
+"Dock: applications only open dropped files of types they declare; otherwise "
+"the dock says why."
+msgstr "程序坞：应用只打开其声明的类型的拖放文件；否则程序坞会说明原因。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+msgid "Dock: the marker under folders matches the dots of applications."
+msgstr "程序坞：文件夹下方的标记与应用的圆点一致。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+msgid ""
+"Start on the desktop: after logging in, the desktop, the top bar and windows "
+"take clicks again when animations are off, for example in virtual machines "
+"without 3D acceleration; before, only the dock did until the overview was "
+"opened once."
+msgstr ""
+"从桌面开始：登录后，在关闭动画时（例如在没有 3D 加速的虚拟机中），桌面、顶栏"
+"和窗口重新响应点击；此前在概览打开一次之前只有程序坞会响应。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+msgid ""
+"Optional diagnostics for reports of a desktop and windows that stop taking "
+"clicks."
+msgstr "可选的诊断信息，用于报告桌面和窗口停止响应点击的问题。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+msgid ""
+"Dock: dragging files onto the dock always ends cleanly, also when something "
+"fails during the drop."
+msgstr "程序坞：将文件拖到程序坞上总能正常结束，即使放下时出错也是如此。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+msgid ""
+"Dock: drop files on an application to open them in it, or on a folder to "
+"copy or move them there; hold a file over a folder to open it and drop into "
+"one of its subfolders."
+msgstr ""
+"程序坞：将文件拖放到应用上即可在其中打开，拖放到文件夹上即可复制或移动到那"
+"里；将文件停留在文件夹上方可打开它，并放入其子文件夹之一。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+msgid ""
+"Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
+"one place with checks for clashes, and copy or save a report for bug reports."
+msgstr ""
+"设置：使用 Ctrl+F 搜索任意设置，在一个地方管理所有键盘快捷键并检查冲突，复制"
+"或保存用于错误报告的报告。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+msgid ""
+"Presets: undoing an applied preset restores only what it changed and keeps "
+"settings you changed afterwards."
+msgstr "预设：撤销已应用的预设只会还原它所做的更改，并保留您之后更改的设置。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+msgid ""
+"Dock: unread counters and the progress of operations on application icons, "
+"for applications that report them."
+msgstr "程序坞：为报告这些信息的应用在其图标上显示未读计数和操作进度。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+msgid ""
+"Command line: check the state of each feature, turn features off and on, "
+"apply, import and export presets, restore defaults and collect diagnostics "
+"with the deskence command, also from a text console when the desktop does "
+"not work. See man deskence."
+msgstr ""
+"命令行：使用 deskence 命令检查每项功能的状态、关闭和打开功能、应用、导入和导"
+"出预设、恢复默认设置并收集诊断信息，桌面无法使用时也可在文本控制台中操作。参"
+"见 man deskence。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+msgid ""
+"Restoring default settings no longer deletes a clipboard history that is "
+"kept after logging out."
+msgstr "恢复默认设置不再删除在注销后保留的剪贴板历史。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+msgid ""
+"Applications view: your own color and transparency for the highlight under "
+"the pointer on applications and application folders; hovering a folder no "
+"longer draws an outline."
+msgstr ""
+"应用视图：可为应用和应用文件夹上指针下方的高亮设置自定义颜色和透明度；指针悬"
+"停在文件夹上时不再绘制轮廓。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+msgid ""
+"Folders in the dock: the panel takes at most half of the screen height and "
+"scrolls through the whole folder, also with the keyboard, and returns to the "
+"earlier position after a subfolder."
+msgstr ""
+"程序坞中的文件夹：面板最多占屏幕高度的一半，可滚动浏览整个文件夹（也可用键"
+"盘），并在离开子文件夹后回到之前的位置。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+msgid ""
+"Settings: clearer descriptions, better Polish wording and fewer clashing "
+"keyboard shortcuts."
+msgstr "设置：更清晰的描述、更好的波兰语措辞，以及更少相互冲突的键盘快捷键。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+msgid ""
+"Dock: a dock along the whole edge matches the top bar in the activities "
+"overview and the applications view; a short dock keeps its own look."
+msgstr ""
+"程序坞：占满整条边缘的程序坞在活动概览和应用视图中与顶栏相协调；较短的程序坞"
+"保持自己的外观。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+msgid ""
+"Applications view: folder tiles with your own color or transparency now "
+"clearly show hover, press, focus and selection."
+msgstr ""
+"应用视图：使用自定义颜色或透明度的文件夹磁贴现在能清楚地显示悬停、按下、焦点"
+"和选中状态。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+msgid ""
+"Applications view: your own color and transparency for folder tiles such as "
+"“Utilities”."
+msgstr "应用视图：可为“工具”等文件夹磁贴设置自定义颜色和透明度。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+msgid ""
+"General: optionally start on the desktop instead of the activities overview "
+"after logging in."
+msgstr "常规：可选择在登录后从桌面而不是活动概览开始。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+msgid ""
+"Dock: it now blends into the activities overview instead of forming a "
+"separate band."
+msgstr "程序坞：现在与活动概览融为一体，而不是形成单独的条带。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+msgid ""
+"Project homepage and bug tracker links, English documentation. No changes to "
+"the application."
+msgstr "项目主页和错误跟踪器链接，英文文档。应用本身没有更改。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+msgid ""
+"Settings: a General page with presets, exporting and importing settings and "
+"restoring defaults; an Applications View page with alphabetical sorting; "
+"calmer previews."
+msgstr ""
+"设置：包含预设、设置导出和导入以及恢复默认值的“常规”页面；带有字母排序的“应用"
+"视图”页面；更平静的预览。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+msgid ""
+"Dock: folders that show their contents, closing and peeking at windows from "
+"their previews, Always on Top in the preview menu."
+msgstr ""
+"程序坞：显示内容的文件夹，从窗口预览中关闭和窥视窗口，预览菜单中的“置顶”。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+msgid ""
+"New: clipboard history, Keep Awake in the quick settings, an Always on Top "
+"shortcut."
+msgstr "新功能：剪贴板历史、快速设置中的“保持唤醒”、“置顶”的快捷键。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+msgid ""
+"Better GNOME Desktop is now called Deskence. Settings, enabled features, "
+"pinned applications and desktop icon positions are taken over."
+msgstr ""
+"Better GNOME Desktop 现已更名为 Deskence。设置、已启用的功能、已固定的应用和"
+"桌面图标的位置都会保留。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+msgid ""
+"Dock: previews of the windows of an application when the pointer rests on "
+"it, no extra space next to the applications button when icons are magnified, "
+"running indicators under the icons of a bottom dock."
+msgstr ""
+"程序坞：指针停留在应用上时显示其窗口预览，图标放大时应用按钮旁不再有多余空"
+"间，底部程序坞图标下方显示运行指示器。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+msgid ""
+"Settings: larger, clearer previews of the dock and the desktop icons, page "
+"icons, an “About” menu item."
+msgstr "设置：更大更清晰的程序坞和桌面图标预览、页面图标、“关于”菜单项。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+msgid "Better GNOME Desktop is now called Deskence."
+msgstr "Better GNOME Desktop 现已更名为 Deskence。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+msgid ""
+"Dock: sharp magnified icons, no tiles under icons with a custom background, "
+"monochrome distribution logo, the application list kept at the start of a "
+"dock along the whole edge, running indicators on the inner side."
+msgstr ""
+"程序坞：清晰的放大图标，使用自定义背景时图标下方不再有磁贴，单色的发行版徽"
+"标，应用列表位于占满整条边缘的程序坞开头，运行指示器位于内侧。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+msgid ""
+"Applications view: one continuous closing transition, optional custom "
+"background color."
+msgstr "应用视图：关闭时呈现一个连续的过渡，可选自定义背景颜色。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+msgid ""
+"Desktop: menus open at the clicked point, also beside the dock; the icon "
+"grid starts at the chosen corner with small margins."
+msgstr ""
+"桌面：菜单在点击处打开，程序坞旁也是如此；图标网格从所选角落开始，边距较小。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+msgid ""
+"Dock: applications button at either end with a choice of icon, magnified "
+"icons, scrolling when the applications do not fit, custom background color "
+"and transparency, settings in the applications button menu, transparent "
+"background for the applications view."
+msgstr ""
+"程序坞：应用按钮可放在任一端并可选择图标，图标放大，应用放不下时可滚动，自定"
+"义背景颜色和透明度，应用按钮菜单中的设置，应用视图的透明背景。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+msgid ""
+"Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
+"the whole desktop beside the dock usable, icon positions that do not move "
+"with the dock."
+msgstr ""
+"桌面图标：自由放置或对齐网格，“对齐到网格”，程序坞旁的整个桌面都可使用，图标"
+"位置不随程序坞移动。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+msgid ""
+"Fixes: smooth closing of the applications view, immediate reordering of dock "
+"icons, no frame while dragging desktop icons, one desktop menu everywhere."
+msgstr ""
+"修复：应用视图平滑关闭，程序坞图标立即重新排序，拖动桌面图标时不再显示边框，"
+"各处使用同一个桌面菜单。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+msgid "First release."
+msgstr "首个版本。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:116
+msgid "Settings layout version"
+msgstr "设置结构版本"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:117
+msgid ""
+"Used by the settings application to migrate stored values between releases. "
+"0 means the settings were never migrated."
+msgstr "设置应用用它在不同版本之间迁移已保存的值。0 表示设置从未迁移过。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:121
+msgid "Settings of Better GNOME Desktop were taken over"
+msgstr "已接管 Better GNOME Desktop 的设置"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:122
+msgid ""
+"Set once the settings stored by Better GNOME Desktop (0.3.0 and older) were "
+"copied here. Values already set here are never overwritten; the former "
+"settings are kept."
+msgstr ""
+"当 Better GNOME Desktop（0.3.0 及更早版本）保存的设置被复制到这里后设置此项。"
+"这里已设置的值永远不会被覆盖；原有设置会保留。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:126
+msgid "Show the desktop after logging in"
+msgstr "登录后显示桌面"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:127
+msgid ""
+"When true, a new session starts on the desktop instead of the activities "
+"overview. Only the start of the session is affected: opening the overview "
+"later, unlocking the screen or turning features on and off never closes it. "
+"Applied by the dock extension."
+msgstr ""
+"如果为真，新会话将从桌面而不是活动概览开始。只影响会话开始时：之后打开概览、"
+"解锁屏幕或打开和关闭功能都不会关闭它。由程序坞扩展应用。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:131
+msgid "Language of the Deskence application"
+msgstr "Deskence 应用的语言"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:132
+msgid ""
+"The language of the settings window and of the deskence command: the code of "
+"a translation installed with Deskence (for example \"pl\"), \"en\" for "
+"English, or empty to follow the system. A code without an installed "
+"translation means English. The GNOME Shell extensions and the desktop icons "
+"always follow the language of GNOME Shell. Applied when the application "
+"starts."
+msgstr ""
+"设置窗口和 deskence 命令的语言：随 Deskence 安装的翻译的代码（例如 \"pl\"），"
+"\"en\" 表示英语，留空则跟随系统。没有已安装翻译的代码表示英语。GNOME Shell 扩"
+"展和桌面图标始终跟随 GNOME Shell 的语言。在应用启动时生效。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:146
+msgid "Screen edge of the dock"
+msgstr "程序坞所在的屏幕边缘"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:147
+msgid "\"left\", \"bottom\" or \"right\"."
+msgstr "\"left\"（左侧）、\"bottom\"（底部）或 \"right\"（右侧）。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:151
+msgid "Dock length"
+msgstr "程序坞长度"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:152
+msgid ""
+"\"fit\": only as long as the icons need. \"full\": the whole screen edge."
+msgstr "\"fit\"：只与图标所需长度相同。\"full\"：整条屏幕边缘。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:157
+msgid "Icon size in logical pixels"
+msgstr "图标大小（逻辑像素）"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:158
+msgid ""
+"Scaled by the monitor scale and the text scaling factor of the shell theme "
+"like other GNOME Shell icons."
+msgstr ""
+"与其他 GNOME Shell 图标一样，按显示器缩放比例和 Shell 主题的文字缩放系数进行"
+"缩放。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:162
+msgid "When the dock hides"
+msgstr "程序坞何时隐藏"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:163
+msgid ""
+"\"never\": always visible and windows are kept out of its area. "
+"\"intellihide\": hidden while a window on the same monitor overlaps it. "
+"\"autohide\": hidden until the pointer reaches the screen edge."
+msgstr ""
+"\"never\"：始终可见，窗口不会进入其区域。\"intellihide\"：当同一显示器上的窗"
+"口与其重叠时隐藏。\"autohide\"：隐藏，直到指针到达屏幕边缘。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:167
+msgid "On which monitors the dock is shown"
+msgstr "在哪些显示器上显示程序坞"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:168
+msgid "\"primary\", \"selected\" (see selected-monitor) or \"all\"."
+msgstr ""
+"\"primary\"（主显示器）、\"selected\"（所选显示器，参见 selected-monitor）或 "
+"\"all\"（全部）。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:172
+msgid "Connector of the selected monitor"
+msgstr "所选显示器的接口"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:173
+msgid ""
+"Connector name such as \"DP-1\". Used when monitor-mode is \"selected\"; "
+"falls back to the primary monitor while that monitor is not connected."
+msgstr ""
+"接口名称，例如 \"DP-1\"。当 monitor-mode 为 \"selected\" 时使用；该显示器未连"
+"接时使用主显示器。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:177
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:369
+msgid "Show the trash"
+msgstr "显示回收站"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:181
+msgid "Show removable drives"
+msgstr "显示可移动驱动器"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:185
+msgid "Show network locations"
+msgstr "显示网络位置"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:189
+msgid "Show the applications button"
+msgstr "显示应用按钮"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:193
+msgid "Where the applications button is"
+msgstr "应用按钮的位置"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:194
+msgid ""
+"\"start\": first item of the dock (left in a horizontal dock, top in a "
+"vertical one). \"end\": last item (right or bottom)."
+msgstr ""
+"\"start\"：程序坞的第一项（水平程序坞中位于左侧，垂直程序坞中位于顶部）。"
+"\"end\"：最后一项（右侧或底部）。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:198
+msgid "Icon of the applications button"
+msgstr "应用按钮的图标"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:199
+msgid ""
+"\"default\": the GNOME applications icon. \"distribution\": the logo of the "
+"installed distribution, from the icons installed on the system; the default "
+"icon when there is none. \"custom\": the image in apps-button-custom-icon."
+msgstr ""
+"\"default\"：GNOME 应用图标。\"distribution\"：从系统已安装的图标中选取的已安"
+"装发行版徽标；没有时使用默认图标。\"custom\"：apps-button-custom-icon 中的图"
+"片。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:203
+msgid "Custom icon of the applications button"
+msgstr "应用按钮的自定义图标"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:204
+msgid ""
+"Path of a copy of the chosen image, kept in the user data folder of Deskence "
+"so it keeps working when the original file is moved or deleted. The default "
+"icon is used when the file cannot be loaded."
+msgstr ""
+"所选图片副本的路径，该副本保存在 Deskence 的用户数据文件夹中，因此原始文件被"
+"移动或删除后仍可使用。文件无法加载时使用默认图标。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:208
+msgid "Magnify icons under the pointer"
+msgstr "放大指针下方的图标"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:209
+msgid ""
+"Icons near the pointer grow smoothly while it moves over the dock. Not shown "
+"while animations are turned off in GNOME."
+msgstr "指针在程序坞上移动时，附近的图标会平滑变大。GNOME 中关闭动画时不显示。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:214
+msgid "Magnification strength"
+msgstr "放大强度"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:215
+msgid "Size of the icon under the pointer relative to its normal size."
+msgstr "指针下方图标相对于其正常大小的尺寸。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:219
+msgid "Custom dock background color"
+msgstr "程序坞自定义背景颜色"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:220
+msgid ""
+"When false, the dock background has the color of the current GNOME style."
+msgstr "如果为假，程序坞背景使用当前 GNOME 样式的颜色。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:224
+msgid "Dock background color"
+msgstr "程序坞背景颜色"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:225
+msgid ""
+"Color as \"#rrggbb\", used when background-custom-color is true. It has no "
+"transparency of its own: that is background-transparency."
+msgstr ""
+"\"#rrggbb\" 格式的颜色，在 background-custom-color 为真时使用。它没有自己的透"
+"明度：透明度由 background-transparency 决定。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:229
+msgid "Custom dock background transparency"
+msgstr "程序坞自定义背景透明度"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:230
+msgid ""
+"When false, the dock background is as transparent as the current GNOME style "
+"makes it."
+msgstr "如果为假，程序坞背景的透明度由当前 GNOME 样式决定。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:235
+msgid "Dock background transparency"
+msgstr "程序坞背景透明度"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:236
+msgid ""
+"0: opaque. 100: fully transparent. Only the background; icons, indicators, "
+"labels and menus keep their own visibility. Used when background-custom-"
+"transparency is true."
+msgstr ""
+"0：不透明。100：完全透明。仅影响背景；图标、指示器、标签和菜单保持各自的可见"
+"性。在 background-custom-transparency 为真时使用。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:240
+msgid "Custom background transparency of the applications view"
+msgstr "应用视图自定义背景透明度"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:241
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"standard GNOME background."
+msgstr "如果为假，从程序坞打开的全屏应用视图使用标准 GNOME 背景。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:245
+msgid "Custom background color of the applications view"
+msgstr "应用视图自定义背景颜色"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:246
+msgid ""
+"When false, the full-screen applications view opened from the dock has the "
+"color of the standard GNOME background. Independent of the dock background."
+msgstr ""
+"如果为假，从程序坞打开的全屏应用视图使用标准 GNOME 背景的颜色。与程序坞背景无"
+"关。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:250
+msgid "Background color of the applications view"
+msgstr "应用视图背景颜色"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:251
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-custom-color is true. It has no "
+"transparency of its own: that is app-grid-transparency (or opaque when app-"
+"grid-custom-transparency is false)."
+msgstr ""
+"\"#rrggbb\" 格式的颜色，在 app-grid-custom-color 为真时使用。它没有自己的透明"
+"度：透明度由 app-grid-transparency 决定（app-grid-custom-transparency 为假时"
+"为不透明）。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:256
+msgid "Background transparency of the applications view"
+msgstr "应用视图背景透明度"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:257
+msgid ""
+"0: opaque background (standard or custom color). 100: fully transparent, "
+"only the wallpaper is visible behind the applications. Only the background "
+"changes; icons, names and the search entry stay fully visible. Used when app-"
+"grid-custom-transparency is true."
+msgstr ""
+"0：不透明背景（标准颜色或自定义颜色）。100：完全透明，应用后面只能看到壁纸。"
+"只有背景会改变；图标、名称和搜索框保持完全可见。在 app-grid-custom-"
+"transparency 为真时使用。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:261
+msgid "Custom background color of application folders"
+msgstr "应用文件夹自定义背景颜色"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:262
+msgid ""
+"When false, the folder tiles in the applications view (such as "
+"\"Utilities\") have the color of the current GNOME style. Only the tile "
+"background changes; the application thumbnails and the folder name stay as "
+"they are, and the panel of an open folder is not affected."
+msgstr ""
+"如果为假，应用视图中的文件夹磁贴（如\"工具\"）使用当前 GNOME 样式的颜色。只有"
+"磁贴背景会改变；应用缩略图和文件夹名称保持不变，已打开文件夹的面板不受影响。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:266
+msgid "Background color of application folders"
+msgstr "应用文件夹背景颜色"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:267
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-folder-custom-color is true. It has "
+"no transparency of its own: that is app-grid-folder-transparency (or the "
+"alpha of the GNOME style when app-grid-folder-custom-transparency is false)."
+msgstr ""
+"\"#rrggbb\" 格式的颜色，在 app-grid-folder-custom-color 为真时使用。它没有自"
+"己的透明度：透明度由 app-grid-folder-transparency 决定（app-grid-folder-"
+"custom-transparency 为假时为 GNOME 样式的 alpha 值）。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:271
+msgid "Custom background transparency of application folders"
+msgstr "应用文件夹自定义背景透明度"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:272
+msgid ""
+"When false, the folder tiles in the applications view are as opaque as the "
+"current GNOME style makes them."
+msgstr "如果为假，应用视图中文件夹磁贴的不透明度由当前 GNOME 样式决定。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:277
+msgid "Background transparency of application folders"
+msgstr "应用文件夹背景透明度"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:278
+msgid ""
+"0: opaque tile background. 100: fully transparent; the folder is recognized "
+"by its application thumbnails and name. Hover, selection and keyboard focus "
+"stay visible. Used when app-grid-folder-custom-transparency is true."
+msgstr ""
+"0：不透明的磁贴背景。100：完全透明；可通过应用缩略图和名称辨认文件夹。悬停、"
+"选中和键盘焦点仍然可见。在 app-grid-folder-custom-transparency 为真时使用。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:282
+msgid "Custom hover highlight color in the applications view"
+msgstr "应用视图中悬停高亮的自定义颜色"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:283
+msgid ""
+"When false, the highlight shown under the pointer on applications, "
+"application folders and applications inside an open folder has the color of "
+"the current GNOME style. The dock, the desktop and folder stacks are not "
+"affected."
+msgstr ""
+"如果为假，应用、应用文件夹以及已打开文件夹中的应用上指针下方的高亮使用当前 "
+"GNOME 样式的颜色。程序坞、桌面和文件夹堆栈不受影响。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:287
+msgid "Hover highlight color in the applications view"
+msgstr "应用视图中悬停高亮的颜色"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:288
+msgid ""
+"Color as \"#rrggbb\", used when app-grid-hover-custom-color is true. It has "
+"no transparency of its own: that is app-grid-hover-transparency (or the "
+"alpha of the GNOME style when app-grid-hover-custom-transparency is false)."
+msgstr ""
+"\"#rrggbb\" 格式的颜色，在 app-grid-hover-custom-color 为真时使用。它没有自己"
+"的透明度：透明度由 app-grid-hover-transparency 决定（app-grid-hover-custom-"
+"transparency 为假时为 GNOME 样式的 alpha 值）。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:292
+msgid "Custom hover highlight transparency in the applications view"
+msgstr "应用视图中悬停高亮的自定义透明度"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:293
+msgid ""
+"When false, the hover highlight is as opaque as the current GNOME style "
+"makes it."
+msgstr "如果为假，悬停高亮的不透明度由当前 GNOME 样式决定。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:298
+msgid "Hover highlight transparency in the applications view"
+msgstr "应用视图中悬停高亮的透明度"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:299
+msgid ""
+"0: opaque highlight. 100: fully transparent; a folder then looks the same "
+"under the pointer as at rest. Only the highlight changes; icons and names "
+"stay fully visible, and keyboard focus stays marked. Used when app-grid-"
+"hover-custom-transparency is true."
+msgstr ""
+"0：不透明的高亮。100：完全透明；此时文件夹在指针下方与静止时看起来相同。只有"
+"高亮会改变；图标和名称保持完全可见，键盘焦点仍有标记。在 app-grid-hover-"
+"custom-transparency 为真时使用。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:303
+msgid "Clicking a running application"
+msgstr "点击正在运行的应用"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:304
+msgid ""
+"\"focus-or-cycle\": focus the most recently used window; when the "
+"application is already focused, switch to its next window. \"minimize-or-"
+"cycle\": like focus-or-cycle, but an application with a single focused "
+"window is minimized."
+msgstr ""
+"\"focus-or-cycle\"：聚焦最近使用的窗口；当应用已获得焦点时，切换到它的下一个"
+"窗口。\"minimize-or-cycle\"：与 focus-or-cycle 相同，但只有一个已聚焦窗口的应"
+"用会被最小化。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:308
+msgid "Only show applications of the current workspace"
+msgstr "只显示当前工作区的应用"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:309
+msgid ""
+"When true, running (non-pinned) applications are listed only when they have "
+"a window on the active workspace, and clicking cycles only through those "
+"windows."
+msgstr ""
+"如果为真，正在运行（未固定）的应用只有在活动工作区中有窗口时才会列出，点击也"
+"只在这些窗口之间切换。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:313
+msgid "Show counters of applications"
+msgstr "显示应用计数"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:314
+msgid ""
+"When true, an application that reports a counter (for example unread "
+"messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
+"Applications that report nothing show nothing."
+msgstr ""
+"如果为真，报告计数（例如通过 LauncherEntry D-Bus API 报告未读消息）的应用会在"
+"其程序坞图标上显示计数。不报告任何内容的应用不显示任何内容。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:318
+msgid "Show progress of applications"
+msgstr "显示应用进度"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:319
+msgid ""
+"When true, an application that reports the progress of an operation (for "
+"example a download, through the LauncherEntry D-Bus API) shows it as a bar "
+"on its dock icon."
+msgstr ""
+"如果为真，报告操作进度（例如通过 LauncherEntry D-Bus API 报告下载）的应用会在"
+"其程序坞图标上以进度条显示。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:323
+msgid "Show window previews on hover"
+msgstr "悬停时显示窗口预览"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:324
+msgid ""
+"When the pointer rests on a running application, show its windows (the ones "
+"the dock counts, see isolate-workspaces) with their titles; clicking one "
+"activates that window."
+msgstr ""
+"指针停留在正在运行的应用上时，显示其窗口（程序坞计入的窗口，参见 isolate-"
+"workspaces）及标题；点击其中一个即可激活该窗口。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:328
+msgid "Peek at a window from its preview"
+msgstr "从预览中窥视窗口"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:329
+msgid ""
+"While the pointer rests on a window preview, that window is shown over the "
+"dimmed others for a moment. Nothing is focused, raised, restored or moved; "
+"leaving the preview or pressing Escape ends it."
+msgstr ""
+"指针停留在窗口预览上时，该窗口会暂时显示在其他变暗的窗口之上。不会聚焦、提"
+"升、恢复或移动任何窗口；离开预览或按 Escape 即结束。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:333
+msgid "Folders in the dock"
+msgstr "程序坞中的文件夹"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:334
+msgid ""
+"Folders shown in the dock, in order. Each entry is \"xdg:NAME\" for a "
+"standard folder (NAME as in GLib.UserDirectory without the DIRECTORY_ "
+"prefix, for example \"xdg:DOWNLOAD\"), \"home:RELATIVE/PATH\" for a folder "
+"in the home folder, or a \"file://\" URI for any other folder. Removing an "
+"entry never touches the folder."
+msgstr ""
+"按顺序显示在程序坞中的文件夹。每一项可以是标准文件夹的 \"xdg:名称\"（名称与 "
+"GLib.UserDirectory 中去掉 DIRECTORY_ 前缀的名称相同，例如 "
+"\"xdg:DOWNLOAD\"）、主文件夹内文件夹的 \"home:相对/路径\"，或任何其他文件夹"
+"的 \"file://\" URI。删除一项永远不会影响文件夹本身。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:338
+msgid "Show folders in the dock"
+msgstr "在程序坞中显示文件夹"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:339
+msgid "When false, the folders in folder-stacks are kept but not shown."
+msgstr "如果为假，folder-stacks 中的文件夹会保留但不显示。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:343
+msgid "How folder contents are shown"
+msgstr "文件夹内容的显示方式"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:344
+msgid ""
+"\"grid\": large icons. \"list\": smaller icons with size and date. Changed "
+"from the folder panel."
+msgstr ""
+"\"grid\"：大图标。\"list\"：带大小和日期的较小图标。在文件夹面板中更改。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:348
+msgid "Sort order of each folder"
+msgstr "每个文件夹的排序方式"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:349
+msgid ""
+"Maps an entry of folder-stacks to \"name\", \"modified\" (newest first) or "
+"\"type\". A folder without an entry is sorted by name, except Downloads "
+"(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
+"panel."
+msgstr ""
+"将 folder-stacks 中的一项对应到 \"name\"、\"modified\"（最新的在前）或 "
+"\"type\"。没有对应项的文件夹按名称排序，但\"下载\"（xdg:DOWNLOAD）除外，它会"
+"先显示最新的文件。在文件夹面板中更改。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:356
+msgid "Desktop icon size"
+msgstr "桌面图标大小"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:357
+msgid ""
+"\"small\" (48 px), \"medium\" (64 px), \"large\" (96 px) or \"huge\" (128 "
+"px)."
+msgstr ""
+"\"small\"（48 像素）、\"medium\"（64 像素）、\"large\"（96 像素）或 "
+"\"huge\"（128 像素）。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:361
+msgid "Corner where new icons are placed"
+msgstr "放置新图标的角落"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:365
+msgid "Show the home folder"
+msgstr "显示主文件夹"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:373
+msgid "Show drives and USB sticks"
+msgstr "显示驱动器和 U 盘"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:377
+msgid "How moved icons are placed"
+msgstr "移动后的图标如何放置"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:378
+msgid ""
+"\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
+"snap to the grid. Changing this does not move existing icons; \"Align to "
+"Grid\" in the desktop menu does."
+msgstr ""
+"\"free\"：图标停留在放下的确切位置。\"grid\"：放下的图标对齐到网格。更改此项"
+"不会移动现有图标；桌面菜单中的\"对齐到网格\"才会这样做。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:382
+msgid "Open items with a single or double click"
+msgstr "单击或双击打开项目"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:386
+msgid "Order used by \"Arrange Icons\""
+msgstr "\"排列图标\"使用的顺序"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:387
+msgid "Changed from the desktop menu \"Sort By\"."
+msgstr "在桌面菜单的\"排序方式\"中更改。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:394
+msgid "Show passive application icons"
+msgstr "显示被动的应用图标"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:395
+msgid ""
+"StatusNotifierItem defines a \"Passive\" status for icons an application "
+"considers unimportant. They are hidden unless this is true."
+msgstr ""
+"StatusNotifierItem 为应用认为不重要的图标定义了 \"Passive\" 状态。除非此项为"
+"真，否则这些图标会被隐藏。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:402
+msgid "Button layout before the first change"
+msgstr "首次更改前的按钮布局"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:403
+msgid ""
+"Value of org.gnome.desktop.wm.preferences button-layout saved before "
+"Deskence changed it for the first time. Empty when nothing was changed."
+msgstr ""
+"Deskence 首次更改之前保存的 org.gnome.desktop.wm.preferences button-layout "
+"值。未做任何更改时为空。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:407
+msgid "Button layout last written by Deskence"
+msgstr "Deskence 最后写入的按钮布局"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:408
+msgid ""
+"Used to tell whether the user changed the layout elsewhere afterwards; the "
+"original value is only offered for restoring while the current value still "
+"equals this one."
+msgstr ""
+"用于判断用户之后是否在其他地方更改了布局；只有当前值仍与此值相同时，才会提供"
+"恢复原始值的选项。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:415
+msgid "Order of the applications view"
+msgstr "应用视图的顺序"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:416
+msgid ""
+"\"custom\": the arrangement made by the user (GNOME's own app-picker-layout "
+"and folder lists). \"alphabetical\": applications and folders by display "
+"name in the user's language, and the applications inside each folder too; "
+"rearranging by dragging is turned off. Kept up to date by the app-grid "
+"extension."
+msgstr ""
+"\"custom\"：用户自己的排列（GNOME 自身的 app-picker-layout 和文件夹列表）。"
+"\"alphabetical\"：应用和文件夹按用户语言的显示名称排序，每个文件夹中的应用也"
+"是如此；拖动重新排列被关闭。由 app-grid 扩展保持更新。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:420
+msgid "Arrangement saved before sorting alphabetically"
+msgstr "按字母排序前保存的排列"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:421
+msgid ""
+"JSON written when sort-mode changes to \"alphabetical\": the previous "
+"org.gnome.shell app-picker-layout (GVariant text) and the application list "
+"of each folder. It is restored when sort-mode goes back to \"custom\". "
+"Internal; not part of presets."
+msgstr ""
+"当 sort-mode 变为 \"alphabetical\" 时写入的 JSON：之前的 org.gnome.shell app-"
+"picker-layout（GVariant 文本）以及每个文件夹的应用列表。sort-mode 变回 "
+"\"custom\" 时恢复。仅供内部使用；不属于预设。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:428
+msgid "Shortcut that opens the clipboard history"
+msgstr "打开剪贴板历史的快捷键"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:433
+msgid "Largest number of remembered items"
+msgstr "记住的最大项目数"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:434
+msgid "Pinned items do not count. The oldest items are forgotten first."
+msgstr "已固定的项目不计入。最旧的项目最先被遗忘。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:438
+msgid "What is kept after logging out"
+msgstr "注销后保留的内容"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:439
+msgid ""
+"\"nothing\": the history is only kept in memory and is gone after logging "
+"out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
+"the whole history is saved there."
+msgstr ""
+"\"nothing\"：历史只保存在内存中，注销后消失。\"pinned\"：已固定的项目保存在用"
+"户数据文件夹中。\"all\"：整个历史都保存在那里。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:443
+msgid "Do not remember new items"
+msgstr "不记住新项目"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:444
+msgid "Temporary state changed from the history panel; not part of presets."
+msgstr "在历史面板中更改的临时状态；不属于预设。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:448
+msgid "Also remember selected text"
+msgstr "同时记住选中的文本"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:449
+msgid ""
+"Text selected with the mouse (the primary selection, pasted with the middle "
+"button) is added to the history too."
+msgstr "用鼠标选中的文本（主选区，用鼠标中键粘贴）也会加入历史。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:453
+msgid "Always paste text without formatting"
+msgstr "始终粘贴无格式文本"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:454
+msgid ""
+"The history keeps text without formatting; only the newest item, while the "
+"application it was copied from still provides it, can be pasted with its "
+"formatting. When true, that item is pasted as plain text too. Shift+Enter in "
+"the history pastes plain text either way."
+msgstr ""
+"历史以无格式方式保存文本；只有最新的项目，在复制它的应用仍提供它时，才能带格"
+"式粘贴。如果为真，该项目也会作为纯文本粘贴。在历史中按 Shift+Enter 总是粘贴纯"
+"文本。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:458
+msgid "Paste the chosen item at once"
+msgstr "立即粘贴所选项目"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:459
+msgid ""
+"When true, choosing an item closes the panel and pastes it into the window "
+"that was focused, with Ctrl+V. When false, the item is only put on the "
+"clipboard."
+msgstr ""
+"如果为真，选择一个项目会关闭面板，并用 Ctrl+V 将其粘贴到之前获得焦点的窗口"
+"中。如果为假，项目只会放到剪贴板上。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:466
+msgid "Also keep the screen on"
+msgstr "同时保持屏幕开启"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:467
+msgid ""
+"When false, keeping the computer awake only prevents automatic suspend: the "
+"screen still turns off and locks as usual. When true, the screen also stays "
+"on and does not lock automatically."
+msgstr ""
+"如果为假，保持计算机唤醒只会阻止自动挂起：屏幕仍会照常关闭和锁定。如果为真，"
+"屏幕也会保持开启且不会自动锁定。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:471
+msgid "Duration used by the quick settings button"
+msgstr "快速设置按钮使用的时长"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:472
+msgid "The duration chosen last; clicking the button uses it again."
+msgstr "最后选择的时长；点击按钮会再次使用它。"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:477
+msgid "Custom duration in minutes"
+msgstr "自定义时长（分钟）"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:482
+msgid "End time in minutes after midnight"
+msgstr "结束时间（午夜之后的分钟数）"
+
+#: data/schemas/io.github.deskence.Deskence.gschema.xml:483
+msgid "Used by \"until a time\": the next occurrence of this local time."
+msgstr "由\"直到某一时间\"使用：该本地时间下一次出现的时刻。"
+
+#: src/deskence/application.py:95
+msgid ""
+"Open a settings page: general, dock, desktop-icons, app-grid, top-bar, "
+"windows or clipboard"
+msgstr ""
+"打开设置页面：general、dock、desktop-icons、app-grid、top-bar、windows 或 "
+"clipboard"
+
+#: src/deskence/application.py:97
+msgid "PAGE"
+msgstr "页面"
+
+#: src/deskence/application.py:193
+msgid ""
+"A dock with folders, desktop icons, application icons in the top bar, a "
+"clipboard history and window settings for GNOME."
+msgstr ""
+"适用于 GNOME 的带文件夹的程序坞、桌面图标、顶栏中的应用图标、剪贴板历史和窗口"
+"设置。"
+
+#: src/deskence/pages.py:98
+msgid "Opaque"
+msgstr "不透明"
+
+#: src/deskence/pages.py:98
+msgid "Transparent"
+msgstr "透明"
+
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/general.py:252 src/deskence/general.py:283
+#: src/deskence/general.py:326 src/deskence/general.py:436
+#: src/deskence/general.py:511 src/deskence/shortcuts.py:89
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: src/deskence/pages.py:200
+msgid "Not installed. Reinstall the deskence package."
+msgstr "未安装。请重新安装 deskence 软件包。"
+
+#: src/deskence/pages.py:204
+msgid "Starts after you log out and log in again"
+msgstr "注销并重新登录后启动"
+
+#: src/deskence/pages.py:205
+msgid "Updated; the new version starts after you log in again"
+msgstr "已更新；重新登录后启动新版本"
+
+#: src/deskence/pages.py:206
+msgid "GNOME Shell is not running; applies in the next GNOME session"
+msgstr "GNOME Shell 未运行；将在下一个 GNOME 会话中生效"
+
+#: src/deskence/pages.py:207
+msgid "Not running"
+msgstr "未运行"
+
+#: src/deskence/pages.py:230
+msgid "The feature stopped because of an error"
+msgstr "该功能因出错而停止"
+
+#: src/deskence/pages.py:232
+msgid "This GNOME version is not supported"
+msgstr "不支持此 GNOME 版本"
+
+#: src/deskence/pages.py:233
+#, python-brace-format
+msgid "The installed version does not support GNOME {}."
+msgstr "已安装的版本不支持 GNOME {}。"
+
+#: src/deskence/pages.py:236 src/deskence/cli.py:179
+msgid "GNOME extensions are turned off"
+msgstr "GNOME 扩展已关闭"
+
+#: src/deskence/pages.py:237
+msgid "Deskence needs them to show its features."
+msgstr "Deskence 需要它们来显示其功能。"
+
+#: src/deskence/pages.py:238
+msgid "_Turn On…"
+msgstr "打开(_T)…"
+
+#: src/deskence/pages.py:240
+msgid "Another copy is used instead"
+msgstr "正在改用另一个副本"
+
+#: src/deskence/pages.py:241
+#, python-brace-format
+msgid "A copy in your home folder replaces the installed one: {}"
+msgstr "主文件夹中的副本取代了已安装的副本：{}"
+
+#: src/deskence/pages.py:243
+msgid "_Show"
+msgstr "显示(_S)"
+
+#: src/deskence/pages.py:247
+msgid "Turn On GNOME Extensions?"
+msgstr "要打开 GNOME 扩展吗？"
+
+#: src/deskence/pages.py:248
+msgid ""
+"This also turns on other extensions you enabled in the Extensions "
+"application."
+msgstr "这也会打开您在“扩展”应用中启用的其他扩展。"
+
+#: src/deskence/pages.py:249
+msgid "_Turn On"
+msgstr "打开(_T)"
+
+#. Translators: this and the next five fill the {} of "Also
+#. provides {}. Using both at once causes problems." and "May also
+#. provide {}."; the subject is another GNOME extension. Use the
+#. form that fits there.
+#: src/deskence/pages.py:257
+msgid "a dock"
+msgstr "程序坞"
+
+#: src/deskence/pages.py:258
+msgid "desktop icons"
+msgstr "桌面图标"
+
+#: src/deskence/pages.py:259
+msgid "application icons in the top bar"
+msgstr "顶栏中的应用图标"
+
+#: src/deskence/pages.py:260
+msgid "sorting of the applications view"
+msgstr "应用视图排序"
+
+#: src/deskence/pages.py:261
+msgid "a clipboard history"
+msgstr "剪贴板历史"
+
+#: src/deskence/pages.py:262
+msgid "keeping the computer awake"
+msgstr "保持计算机唤醒"
+
+#: src/deskence/pages.py:265
+#, python-brace-format
+msgid "Also provides {}. Using both at once causes problems."
+msgstr "也提供{}功能。同时使用两者会导致问题。"
+
+#: src/deskence/pages.py:267
+#, python-brace-format
+msgid "May also provide {}."
+msgstr "可能也提供{}功能。"
+
+#: src/deskence/pages.py:271
+#, python-brace-format
+msgid "Disable “{}”?"
+msgstr "要禁用“{}”吗？"
+
+#: src/deskence/pages.py:272
+msgid ""
+"The extension stays installed and its settings are kept. You can turn it on "
+"again in the Extensions application."
+msgstr "该扩展仍保持安装，其设置也会保留。您可以在“扩展”应用中重新打开它。"
+
+#: src/deskence/pages.py:274 src/deskence/shortcuts.py:90
+msgid "_Disable"
+msgstr "禁用(_D)"
+
+#: src/deskence/pages.py:275
+msgid "_Disable…"
+msgstr "禁用(_D)…"
+
+#: src/deskence/pages.py:355
+msgid "Subtle"
+msgstr "轻微"
+
+#: src/deskence/pages.py:356
+msgid "Strong"
+msgstr "强烈"
+
+#: src/deskence/pages.py:358
+msgid "Magnification Strength"
+msgstr "放大强度"
+
+#: src/deskence/pages.py:372 src/deskence/pages.py:806
+#: src/deskence/ui/dock-page.ui:117
+msgid "Background Transparency"
+msgstr "背景透明度"
+
+#: src/deskence/pages.py:386
+msgid "Icon Size"
+msgstr "图标大小"
+
+#: src/deskence/pages.py:396
+msgid "The dock is always visible and windows do not cover it"
+msgstr "程序坞始终可见，窗口不会遮挡它"
+
+#: src/deskence/pages.py:397
+msgid "Hides while a window overlaps it"
+msgstr "窗口与其重叠时隐藏"
+
+#: src/deskence/pages.py:398
+msgid "Appears when you move the pointer to the screen edge"
+msgstr "将指针移到屏幕边缘时出现"
+
+#: src/deskence/pages.py:401
+msgid "A second click switches to the next window of the application"
+msgstr "再次点击会切换到该应用的下一个窗口"
+
+#: src/deskence/pages.py:402
+msgid "Clicking an application with one focused window minimizes it"
+msgstr "点击只有一个已聚焦窗口的应用会将其最小化"
+
+#: src/deskence/pages.py:415
+msgid "Restore Default Dock Settings?"
+msgstr "要恢复程序坞的默认设置吗？"
+
+#: src/deskence/pages.py:416
+msgid ""
+"Position, size, colors, hiding, monitor, click behavior and shown items "
+"return to their defaults. Pinned applications, folders in the dock, the "
+"applications view and whether the dock is shown do not change."
+msgstr ""
+"位置、大小、颜色、隐藏方式、显示器、点击行为和显示的项目将恢复为默认值。已固"
+"定的应用、程序坞中的文件夹、应用视图以及是否显示程序坞不会改变。"
+
+#: src/deskence/pages.py:419 src/deskence/pages.py:727
+#: src/deskence/pages.py:838 src/deskence/pages.py:925
+#: src/deskence/pages.py:970 src/deskence/pages.py:1007
+#: src/deskence/pages.py:1048 src/deskence/general.py:100
+msgid "_Restore"
+msgstr "恢复(_R)"
+
+#: src/deskence/pages.py:430
+msgid "Not shown while animations are turned off in Accessibility settings"
+msgstr "在辅助功能设置中关闭动画时不显示"
+
+#: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
+msgid "Add Folder"
+msgstr "添加文件夹"
+
+#: src/deskence/pages.py:464
+msgid "Other Folder…"
+msgstr "其他文件夹…"
+
+#: src/deskence/pages.py:476
+msgid "Not set up on this computer"
+msgstr "未在此计算机上设置"
+
+#: src/deskence/pages.py:480
+#, python-brace-format
+msgid "{} (missing)"
+msgstr "{}（缺失）"
+
+#: src/deskence/pages.py:498
+msgid "Move Up"
+msgstr "上移"
+
+#: src/deskence/pages.py:499
+msgid "Move Down"
+msgstr "下移"
+
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+msgid "Remove From Dock"
+msgstr "从程序坞中移除"
+
+#: src/deskence/pages.py:540
+msgid "Add Folder to the Dock"
+msgstr "将文件夹添加到程序坞"
+
+#: src/deskence/pages.py:549
+msgid "Cannot Add This Folder"
+msgstr "无法添加此文件夹"
+
+#: src/deskence/pages.py:550
+msgid "Only local folders can be added."
+msgstr "只能添加本地文件夹。"
+
+#: src/deskence/pages.py:551 src/deskence/pages.py:630
+#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: src/deskence/general.py:415 src/deskence/shortcuts.py:147
+msgid "_Close"
+msgstr "关闭(_C)"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:299
+msgid "Start of the Dock"
+msgstr "程序坞开头"
+
+#: src/deskence/pages.py:563 src/deskence/ui/dock-page.ui:300
+msgid "End of the Dock"
+msgstr "程序坞末尾"
+
+#: src/deskence/pages.py:565
+msgid "At the Top"
+msgstr "顶部"
+
+#: src/deskence/pages.py:565
+msgid "At the Bottom"
+msgstr "底部"
+
+#: src/deskence/pages.py:567
+msgid "On the Left"
+msgstr "左侧"
+
+#: src/deskence/pages.py:567
+msgid "On the Right"
+msgstr "右侧"
+
+#: src/deskence/pages.py:581
+msgid "No logo is installed; the default icon is used"
+msgstr "未安装徽标；正在使用默认图标"
+
+#: src/deskence/pages.py:593
+msgid "No image chosen; the default icon is used"
+msgstr "未选择图片；正在使用默认图标"
+
+#: src/deskence/pages.py:594
+msgid "The image is missing; the default icon is used"
+msgstr "图片缺失；正在使用默认图标"
+
+#: src/deskence/pages.py:597
+msgid "Images"
+msgstr "图片"
+
+#: src/deskence/pages.py:602
+msgid "Choose an Icon"
+msgstr "选择图标"
+
+#: src/deskence/pages.py:612 src/deskence/general.py:357
+#: src/deskence/general.py:382
+msgid "Only local files can be used."
+msgstr "只能使用本地文件。"
+
+#: src/deskence/pages.py:617
+msgid ""
+"The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
+"at most 4 MB."
+msgstr "该文件不是受支持格式（PNG、SVG、JPEG 或 WebP）且不超过 4 MB 的图片。"
+
+#: src/deskence/pages.py:629
+msgid "Cannot Use This Image"
+msgstr "无法使用此图片"
+
+#: src/deskence/pages.py:651
+#, python-brace-format
+msgid "{} (disconnected)"
+msgstr "{}（已断开）"
+
+#: src/deskence/pages.py:720
+msgid "No desktop folder is set up"
+msgstr "未设置桌面文件夹"
+
+#: src/deskence/pages.py:724
+msgid "Restore Default Desktop Icon Settings?"
+msgstr "要恢复桌面图标的默认设置吗？"
+
+#: src/deskence/pages.py:725
+msgid ""
+"Size, placement, click behavior and shown items return to their defaults. "
+"Your files and the positions of icons do not change."
+msgstr ""
+"大小、放置方式、点击行为和显示的项目将恢复为默认值。您的文件和图标位置不会改"
+"变。"
+
+#: src/deskence/pages.py:740
+msgid "Icons stay exactly where you drop them"
+msgstr "图标停留在您放下的确切位置"
+
+#: src/deskence/pages.py:742
+msgid "Dropped icons snap to the grid"
+msgstr "放下的图标对齐到网格"
+
+#: src/deskence/pages.py:819
+msgid "Folder Transparency"
+msgstr "文件夹透明度"
+
+#: src/deskence/pages.py:832 src/deskence/ui/app-grid-page.ui:190
+msgid "Highlight Transparency"
+msgstr "高亮透明度"
+
+#: src/deskence/pages.py:835
+msgid "Restore Default Applications View Settings?"
+msgstr "要恢复应用视图的默认设置吗？"
+
+#: src/deskence/pages.py:836
+msgid ""
+"The background, application folders and the hover highlight return to the "
+"GNOME look, and the applications return to your own order."
+msgstr ""
+"背景、应用文件夹和悬停高亮将恢复为 GNOME 外观，应用也将恢复为您自己的顺序。"
+
+#: src/deskence/pages.py:848
+msgid "By name, also inside folders. Dragging does not change the order."
+msgstr "按名称排列，文件夹内也是如此。拖动不会改变顺序。"
+
+#: src/deskence/pages.py:850
+msgid ""
+"Arrange applications by dragging them. This arrangement returns when "
+"alphabetical order is turned off."
+msgstr "通过拖动来排列应用。关闭字母顺序后将恢复此排列。"
+
+#: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
+msgid ""
+"The background behind the applications. Icons, names and the search field do "
+"not change."
+msgstr "应用后面的背景。图标、名称和搜索框不会改变。"
+
+#: src/deskence/pages.py:869 src/deskence/pages.py:876
+#: src/deskence/pages.py:882 src/deskence/general.py:130
+msgid "Available while the Deskence dock is turned on."
+msgstr "在 Deskence 程序坞打开时可用。"
+
+#: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
+msgid ""
+"Change the look of application groups, such as “Utilities”, in the "
+"applications view. Only the tile background changes."
+msgstr "更改应用视图中应用分组（如“工具”）的外观。只有磁贴背景会改变。"
+
+#: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
+msgid ""
+"Choose the background that appears under the pointer on an application or an "
+"application folder, also inside an open folder."
+msgstr "选择指针在应用或应用文件夹上时出现的背景，已打开文件夹内也适用。"
+
+#. GNOME's own keybinding; Deskence only offers to set it.
+#: src/deskence/pages.py:909 src/deskence/pages.py:994
+msgid "_Shortcut"
+msgstr "快捷键(_S)"
+
+#: src/deskence/pages.py:910
+msgid "Opens the history"
+msgstr "打开历史"
+
+#: src/deskence/pages.py:922
+msgid "Restore Default Clipboard Settings?"
+msgstr "要恢复剪贴板的默认设置吗？"
+
+#: src/deskence/pages.py:923
+msgid ""
+"The shortcut and pasting return to their defaults. The history, how many "
+"items it keeps and whether it is kept after logging out do not change."
+msgstr ""
+"快捷键和粘贴方式将恢复为默认值。历史、保留的项目数量以及注销后是否保留不会改"
+"变。"
+
+#: src/deskence/pages.py:931
+msgid "Only in memory"
+msgstr "仅保存在内存中"
+
+#: src/deskence/pages.py:932
+#, python-brace-format
+msgid "Pinned items are saved in {}"
+msgstr "已固定的项目保存在 {}"
+
+#: src/deskence/pages.py:933
+#, python-brace-format
+msgid "The history is saved in {}"
+msgstr "历史保存在 {}"
+
+#: src/deskence/pages.py:967
+msgid "Restore Default Top Bar Settings?"
+msgstr "要恢复顶栏的默认设置吗？"
+
+#: src/deskence/pages.py:968
+msgid ""
+"Showing inactive icons and the Keep Awake options return to their defaults. "
+"Which features are shown does not change."
+msgstr "显示非活动图标和“保持唤醒”选项将恢复为默认值。显示哪些功能不会改变。"
+
+#: src/deskence/pages.py:995
+msgid "Switches Always on Top for the focused window"
+msgstr "切换当前聚焦窗口的“置顶”"
+
+#: src/deskence/pages.py:1005
+msgid "Restore Default Title Bar Buttons?"
+msgstr "要恢复默认的标题栏按钮吗？"
+
+#: src/deskence/pages.py:1006
+msgid "The title bar buttons return to the GNOME default of this system."
+msgstr "标题栏按钮将恢复为此系统的 GNOME 默认设置。"
+
+#: src/deskence/pages.py:1045
+msgid "Restore Previous Title Bar Buttons?"
+msgstr "要恢复之前的标题栏按钮吗？"
+
+#: src/deskence/pages.py:1046
+msgid ""
+"The title bar buttons return to how they were before Deskence changed them."
+msgstr "标题栏按钮将恢复到 Deskence 更改之前的状态。"
+
+#: src/deskence/pages.py:1065
+msgid "The buttons were changed elsewhere after Deskence changed them"
+msgstr "Deskence 更改按钮之后，它们又在其他地方被更改过"
+
+#. Translators: these fill the {} of "Preview: dock at the {} of the
+#. screen" (read by screen readers); use the form that fits there.
+#: src/deskence/previews.py:191
+msgid "left"
+msgstr "左侧"
+
+#: src/deskence/previews.py:191
+msgid "bottom"
+msgstr "底部"
+
+#: src/deskence/previews.py:191
+msgid "right"
+msgstr "右侧"
+
+#: src/deskence/previews.py:193
+#, python-brace-format
+msgid "Preview: dock at the {} of the screen"
+msgstr "预览：程序坞位于屏幕{}"
+
+#. Translators: these fill the {} of "Preview: new icons are placed
+#. from the {} corner" (read by screen readers); use the form that
+#. fits there.
+#: src/deskence/previews.py:214
+msgid "top left"
+msgstr "左上"
+
+#: src/deskence/previews.py:214
+msgid "top right"
+msgstr "右上"
+
+#: src/deskence/previews.py:215
+msgid "bottom left"
+msgstr "左下"
+
+#: src/deskence/previews.py:215
+msgid "bottom right"
+msgstr "右下"
+
+#: src/deskence/previews.py:217
+#, python-brace-format
+msgid "Preview: new icons are placed from the {} corner"
+msgstr "预览：新图标从{}角开始放置"
+
+#: src/deskence/window.py:199 src/deskence/window.py:211
+#, python-brace-format
+msgid "Turn on “{}” to change “{}”."
+msgstr "打开“{}”后即可更改“{}”。"
+
+#: src/deskence/window.py:215
+#, python-brace-format
+msgid "“{}” is available after turning on “{}”."
+msgstr "打开“{1}”后，“{0}”即可使用。"
+
+#: src/deskence/window.py:220
+#, python-brace-format
+msgid "“{}” is not available now."
+msgstr "“{}”目前不可用。"
+
+#: src/deskence/window.py:306
+msgid "An update was installed. Log out and log in again to use it."
+msgstr "已安装更新。请注销并重新登录以使用它。"
+
+#: src/deskence/window.py:309
+msgid "Log out and log in again to start the enabled features."
+msgstr "请注销并重新登录以启动已启用的功能。"
+
+#: src/deskence/ui/window.ui:8
+msgid "_About"
+msgstr "关于(_A)"
+
+#: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
+msgid "Search Settings"
+msgstr "搜索设置"
+
+#: src/deskence/ui/window.ui:47
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: src/deskence/ui/window.ui:57
+msgid "Search settings"
+msgstr "搜索设置"
+
+#: src/deskence/ui/window.ui:77
+msgid "Settings Pages"
+msgstr "设置页面"
+
+#: src/deskence/ui/window.ui:97
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: src/deskence/ui/window.ui:111
+msgid "No Results Found"
+msgstr "未找到结果"
+
+#: src/deskence/ui/window.ui:112
+msgid "Try other words, for example the name of a feature."
+msgstr "请尝试其他词语，例如功能名称。"
+
+#: src/deskence/ui/window.ui:137
+msgid "_Log Out…"
+msgstr "注销(_L)…"
+
+#: src/deskence/ui/dock-page.ui:6 extensions/dock/dock.js:509
+#: src/deskence/presets.py:147
+msgid "Dock"
+msgstr "程序坞"
+
+#: src/deskence/ui/dock-page.ui:11
+msgid ""
+"Adjust the position, look and behavior of the application bar at the edge of "
+"the screen. Pinned applications are the same as in the activities overview."
+msgstr "调整屏幕边缘应用栏的位置、外观和行为。已固定的应用与活动概览中的相同。"
+
+#: src/deskence/ui/dock-page.ui:14
+msgid "Show _Dock"
+msgstr "显示程序坞(_D)"
+
+#: src/deskence/ui/dock-page.ui:31
+msgid "Appearance"
+msgstr "外观"
+
+#: src/deskence/ui/dock-page.ui:34
+msgid "_Position"
+msgstr "位置(_P)"
+
+#: src/deskence/ui/dock-page.ui:39 src/deskence/ui/windows-page.ui:33
+msgid "Left"
+msgstr "左侧"
+
+#: src/deskence/ui/dock-page.ui:40
+msgid "Bottom"
+msgstr "底部"
+
+#: src/deskence/ui/dock-page.ui:41 src/deskence/ui/windows-page.ui:32
+msgid "Right"
+msgstr "右侧"
+
+#: src/deskence/ui/dock-page.ui:49
+msgid "_Length"
+msgstr "长度(_L)"
+
+#: src/deskence/ui/dock-page.ui:54
+msgid "Fit to Icons"
+msgstr "适应图标"
+
+#: src/deskence/ui/dock-page.ui:55
+msgid "Whole Edge"
+msgstr "整条边缘"
+
+#: src/deskence/ui/dock-page.ui:63
+msgid "_Icon Size"
+msgstr "图标大小(_I)"
+
+#: src/deskence/ui/dock-page.ui:88 src/deskence/ui/app-grid-page.ui:35
+msgid "Custom Background _Color"
+msgstr "自定义背景颜色(_C)"
+
+#: src/deskence/ui/dock-page.ui:94 src/deskence/ui/app-grid-page.ui:42
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: src/deskence/ui/dock-page.ui:111
+msgid "Custom _Background Transparency"
+msgstr "自定义背景透明度(_B)"
+
+#: src/deskence/ui/dock-page.ui:141
+msgid "_Magnify Icons Under the Pointer"
+msgstr "放大指针下方的图标(_M)"
+
+#: src/deskence/ui/dock-page.ui:147
+msgid "Magnification _Strength"
+msgstr "放大强度(_S)"
+
+#: src/deskence/ui/dock-page.ui:173 src/deskence/ui/clipboard-page.ui:22
+msgid "Behavior"
+msgstr "行为"
+
+#: src/deskence/ui/dock-page.ui:176
+msgid "_Hide"
+msgstr "隐藏(_H)"
+
+#: src/deskence/ui/dock-page.ui:181
+msgid "Never"
+msgstr "从不"
+
+#: src/deskence/ui/dock-page.ui:182
+msgid "When Windows Overlap"
+msgstr "窗口重叠时"
+
+#: src/deskence/ui/dock-page.ui:183
+msgid "When Not in Use"
+msgstr "未使用时"
+
+#: src/deskence/ui/dock-page.ui:191
+msgid "_Monitor"
+msgstr "显示器(_M)"
+
+#: src/deskence/ui/dock-page.ui:196
+msgid "Primary"
+msgstr "主显示器"
+
+#: src/deskence/ui/dock-page.ui:197
+msgid "Selected"
+msgstr "所选显示器"
+
+#: src/deskence/ui/dock-page.ui:198
+msgid "All"
+msgstr "全部"
+
+#: src/deskence/ui/dock-page.ui:206
+msgid "_Selected Monitor"
+msgstr "所选显示器(_S)"
+
+#: src/deskence/ui/dock-page.ui:212
+msgid "_Clicking a Running Application"
+msgstr "点击正在运行的应用(_C)"
+
+#: src/deskence/ui/dock-page.ui:217
+msgid "Focus, Then Switch Windows"
+msgstr "先聚焦，再切换窗口"
+
+#: src/deskence/ui/dock-page.ui:218
+msgid "Minimize or Switch Windows"
+msgstr "最小化或切换窗口"
+
+#: src/deskence/ui/dock-page.ui:226
+msgid "Only Show Applications of the Current _Workspace"
+msgstr "只显示当前工作区的应用(_W)"
+
+#: src/deskence/ui/dock-page.ui:232
+msgid "Show Window _Previews on Hover"
+msgstr "悬停时显示窗口预览(_P)"
+
+#: src/deskence/ui/dock-page.ui:233
+msgid "Pause on a running application to see its windows and choose one"
+msgstr "在正在运行的应用上停留，即可查看其窗口并选择一个"
+
+#: src/deskence/ui/dock-page.ui:239
+msgid "P_eek at Windows"
+msgstr "窥视窗口(_E)"
+
+#: src/deskence/ui/dock-page.ui:240
+msgid ""
+"Rest on a preview to see its window over the others, without switching to it"
+msgstr "在预览上停留，即可在其他窗口之上查看该窗口，而不切换到它"
+
+#: src/deskence/ui/dock-page.ui:248
+msgid "Information From Applications"
+msgstr "来自应用的信息"
+
+#: src/deskence/ui/dock-page.ui:249
+msgid ""
+"Applications can show a counter or the progress of an operation on their "
+"icon, for example unread messages or a download. Only what an application "
+"reports is shown."
+msgstr ""
+"应用可以在其图标上显示计数或操作进度，例如未读消息或下载。只显示应用所报告的"
+"内容。"
+
+#: src/deskence/ui/dock-page.ui:252
+msgid "Show Application Counters"
+msgstr "显示应用计数"
+
+#: src/deskence/ui/dock-page.ui:253
+msgid "A number on the icon, such as unread messages"
+msgstr "图标上的数字，例如未读消息"
+
+#: src/deskence/ui/dock-page.ui:258
+msgid "Show Progress of Operations"
+msgstr "显示操作进度"
+
+#: src/deskence/ui/dock-page.ui:259
+msgid "A bar on the icon while a download or copy runs"
+msgstr "下载或复制进行时图标上的进度条"
+
+#: src/deskence/ui/dock-page.ui:266
+msgid "Items"
+msgstr "项目"
+
+#: src/deskence/ui/dock-page.ui:267
+msgid "What the dock shows besides applications."
+msgstr "程序坞除应用之外显示的内容。"
+
+#: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
+msgid "_Trash"
+msgstr "回收站(_T)"
+
+#: src/deskence/ui/dock-page.ui:276 src/deskence/ui/desktop-icons-page.ui:131
+msgid "Drives and _USB Sticks"
+msgstr "驱动器和 U 盘(_U)"
+
+#: src/deskence/ui/dock-page.ui:282
+msgid "_Network Locations"
+msgstr "网络位置(_N)"
+
+#: src/deskence/ui/dock-page.ui:288
+msgid "_Applications Button"
+msgstr "应用按钮(_A)"
+
+#: src/deskence/ui/dock-page.ui:294
+msgid "Applications Button P_osition"
+msgstr "应用按钮位置(_O)"
+
+#: src/deskence/ui/dock-page.ui:308
+msgid "Applications Button _Icon"
+msgstr "应用按钮图标(_I)"
+
+#: src/deskence/ui/dock-page.ui:313
+msgid "GNOME Default"
+msgstr "GNOME 默认"
+
+#: src/deskence/ui/dock-page.ui:314
+msgid "Distribution Logo"
+msgstr "发行版徽标"
+
+#: src/deskence/ui/dock-page.ui:315 src/deskence/ui/dock-page.ui:323
+msgid "Custom Image"
+msgstr "自定义图片"
+
+#: src/deskence/ui/dock-page.ui:332
+msgid "_Choose…"
+msgstr "选择(_C)…"
+
+#: src/deskence/ui/dock-page.ui:343 src/deskence/general.py:44
+#: src/deskence/presets.py:155
+msgid "Folders in the Dock"
+msgstr "程序坞中的文件夹"
+
+#: src/deskence/ui/dock-page.ui:344
+msgid ""
+"Pin folders to browse their contents straight from the dock. Removing a "
+"folder from the dock does not change the folder or its files."
+msgstr ""
+"固定文件夹即可直接从程序坞浏览其内容。从程序坞中移除文件夹不会改变该文件夹及"
+"其中的文件。"
+
+#: src/deskence/ui/dock-page.ui:357
+msgid "Show _Folders in the Dock"
+msgstr "在程序坞中显示文件夹(_F)"
+
+#: src/deskence/ui/dock-page.ui:367 src/deskence/ui/desktop-icons-page.ui:142
+#: src/deskence/ui/top-bar-page.ui:67 src/deskence/ui/windows-page.ui:57
+#: src/deskence/ui/app-grid-page.ui:218 src/deskence/ui/clipboard-page.ui:92
+msgid "_Restore Default Settings…"
+msgstr "恢复默认设置(_R)…"
+
+#: src/deskence/ui/desktop-icons-page.ui:6 src/deskence/presets.py:148
+msgid "Desktop Icons"
+msgstr "桌面图标"
+
+#: src/deskence/ui/desktop-icons-page.ui:11
+msgid ""
+"Show the files and folders of your desktop folder as icons on the desktop."
+msgstr "在桌面上以图标形式显示桌面文件夹中的文件和文件夹。"
+
+#: src/deskence/ui/desktop-icons-page.ui:14
+msgid "Show _Icons on the Desktop"
+msgstr "在桌面上显示图标(_I)"
+
+#: src/deskence/ui/desktop-icons-page.ui:20
+msgid "Desktop Folder"
+msgstr "桌面文件夹"
+
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
+#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+msgid "Open in Files"
+msgstr "在“文件”中打开"
+
+#: src/deskence/ui/desktop-icons-page.ui:50
+msgid "Icons"
+msgstr "图标"
+
+#: src/deskence/ui/desktop-icons-page.ui:53
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Size"
+msgstr "大小(_S)"
+
+#: src/deskence/ui/desktop-icons-page.ui:58
+msgid "Small"
+msgstr "小"
+
+#: src/deskence/ui/desktop-icons-page.ui:59
+msgid "Medium"
+msgstr "中"
+
+#: src/deskence/ui/desktop-icons-page.ui:60
+msgid "Large"
+msgstr "大"
+
+#: src/deskence/ui/desktop-icons-page.ui:61
+msgid "Extra Large"
+msgstr "特大"
+
+#: src/deskence/ui/desktop-icons-page.ui:69
+msgid "_Place New Icons From"
+msgstr "新图标的放置起点(_P)"
+
+#: src/deskence/ui/desktop-icons-page.ui:70
+msgid "Icons you moved keep their place"
+msgstr "您移动过的图标会保持原位"
+
+#: src/deskence/ui/desktop-icons-page.ui:75
+msgid "Top Left"
+msgstr "左上角"
+
+#: src/deskence/ui/desktop-icons-page.ui:76
+msgid "Top Right"
+msgstr "右上角"
+
+#: src/deskence/ui/desktop-icons-page.ui:77
+msgid "Bottom Left"
+msgstr "左下角"
+
+#: src/deskence/ui/desktop-icons-page.ui:78
+msgid "Bottom Right"
+msgstr "右下角"
+
+#: src/deskence/ui/desktop-icons-page.ui:86
+msgid "Icon _Arrangement"
+msgstr "图标排列(_A)"
+
+#: src/deskence/ui/desktop-icons-page.ui:91
+msgid "Free"
+msgstr "自由"
+
+#: src/deskence/ui/desktop-icons-page.ui:92
+msgid "Snap to Grid"
+msgstr "对齐网格"
+
+#: src/deskence/ui/desktop-icons-page.ui:100
+msgid "_Open Items With"
+msgstr "打开项目的方式(_O)"
+
+#: src/deskence/ui/desktop-icons-page.ui:105
+msgid "Double Click"
+msgstr "双击"
+
+#: src/deskence/ui/desktop-icons-page.ui:106
+msgid "Single Click"
+msgstr "单击"
+
+#: src/deskence/ui/desktop-icons-page.ui:116
+msgid "Also Show"
+msgstr "同时显示"
+
+#: src/deskence/ui/desktop-icons-page.ui:119
+msgid "_Home Folder"
+msgstr "主文件夹(_H)"
+
+#: src/deskence/ui/desktop-icons-page.ui:139
+msgid ""
+"Hidden files are not shown. Disabling desktop icons never moves or deletes "
+"your files."
+msgstr "不显示隐藏文件。关闭桌面图标永远不会移动或删除您的文件。"
+
+#: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
+msgid "Top Bar"
+msgstr "顶栏"
+
+#: src/deskence/ui/top-bar-page.ui:11
+msgid "Application Icons"
+msgstr "应用图标"
+
+#: src/deskence/ui/top-bar-page.ui:12
+msgid ""
+"Icons of applications running in the background, for example messengers and "
+"file synchronization."
+msgstr "在后台运行的应用的图标，例如即时通讯和文件同步应用。"
+
+#: src/deskence/ui/top-bar-page.ui:15
+msgid "Show _Application Icons"
+msgstr "显示应用图标(_A)"
+
+#: src/deskence/ui/top-bar-page.ui:21
+msgid "Show _Inactive Icons"
+msgstr "显示非活动图标(_I)"
+
+#: src/deskence/ui/top-bar-page.ui:22
+msgid "Icons that applications mark as currently unimportant"
+msgstr "应用标记为当前不重要的图标"
+
+#: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
+#: extensions/keep-awake/extension.js:145
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Keep Awake"
+msgstr "保持唤醒"
+
+#: src/deskence/ui/top-bar-page.ui:31
+msgid ""
+"A button in the quick settings that keeps the computer from suspending "
+"automatically, for a chosen time or until turned off. Suspending yourself "
+"still works."
+msgstr ""
+"快速设置中的一个按钮，可在所选时间内或直到关闭前阻止计算机自动挂起。手动挂起"
+"仍然有效。"
+
+#: src/deskence/ui/top-bar-page.ui:34
+msgid "Show _Keep Awake"
+msgstr "显示“保持唤醒”(_K)"
+
+#: src/deskence/ui/top-bar-page.ui:40
+msgid "Also Keep the _Screen On"
+msgstr "同时保持屏幕开启(_S)"
+
+#: src/deskence/ui/top-bar-page.ui:41
+msgid ""
+"While Keep Awake is on, the screen does not turn off or lock automatically"
+msgstr "“保持唤醒”开启时，屏幕不会自动关闭或锁定"
+
+#: src/deskence/ui/top-bar-page.ui:47
+msgid "_Custom Duration"
+msgstr "自定义时长(_C)"
+
+#: src/deskence/ui/top-bar-page.ui:48
+msgid "Minutes"
+msgstr "分钟"
+
+#: src/deskence/ui/top-bar-page.ui:64
+msgid ""
+"Applications using the StatusNotifierItem standard are supported. Old-style "
+"tray icons (XEmbed) are not."
+msgstr "支持使用 StatusNotifierItem 标准的应用。不支持旧式托盘图标（XEmbed）。"
+
+#: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
+msgid "Windows"
+msgstr "窗口"
+
+#: src/deskence/ui/windows-page.ui:11
+msgid "Title Bar Buttons"
+msgstr "标题栏按钮"
+
+#: src/deskence/ui/windows-page.ui:12
+msgid ""
+"These are GNOME settings: they stay in effect when Deskence is removed. "
+"Applications that draw their own title bars, such as some browsers, may "
+"ignore them."
+msgstr ""
+"这些是 GNOME 设置：移除 Deskence 后仍然有效。自行绘制标题栏的应用（例如某些浏"
+"览器）可能会忽略它们。"
+
+#: src/deskence/ui/windows-page.ui:15
+msgid "_Minimize Button"
+msgstr "最小化按钮(_M)"
+
+#: src/deskence/ui/windows-page.ui:21
+msgid "M_aximize Button"
+msgstr "最大化按钮(_A)"
+
+#: src/deskence/ui/windows-page.ui:27
+msgid "_Placement"
+msgstr "位置(_P)"
+
+#: src/deskence/ui/windows-page.ui:43 extensions/dock/windowPreviews.js:382
+#: extensions/dock/windowPreviews.js:463 src/deskence/keybindings.py:55
+msgid "Always on Top"
+msgstr "置顶"
+
+#: src/deskence/ui/windows-page.ui:44
+msgid ""
+"Keeps a window above the others. It is also in the window menu (Alt+Space) "
+"and in the menu of a window preview in the dock, which shows a pin for such "
+"windows. It does not show the window on every workspace; that is a separate "
+"option of the window menu."
+msgstr ""
+"使窗口保持在其他窗口之上。窗口菜单（Alt+空格）和程序坞窗口预览菜单中也有此"
+"项，后者会为这类窗口显示一个图钉。它不会在每个工作区上显示该窗口；那是窗口菜"
+"单中的另一个选项。"
+
+#: src/deskence/ui/windows-page.ui:51
+msgid "Restore Settings From _Before Changes…"
+msgstr "恢复更改之前的设置(_B)…"
+
+#: desktop-icons/deskence_desktop/app.py:72
+msgid "The name cannot be empty."
+msgstr "名称不能为空。"
+
+#: desktop-icons/deskence_desktop/app.py:73
+msgid "The name cannot contain “/”."
+msgstr "名称不能包含“/”。"
+
+#: desktop-icons/deskence_desktop/app.py:74
+msgid "“.” and “..” are not valid names."
+msgstr "“.”和“..”不是有效的名称。"
+
+#: desktop-icons/deskence_desktop/app.py:75
+msgid "An item with this name already exists."
+msgstr "已存在同名项目。"
+
+#: desktop-icons/deskence_desktop/app.py:76
+msgid "The name is too long."
+msgstr "名称过长。"
+
+#: desktop-icons/deskence_desktop/app.py:496
+msgid "Cannot open the location"
+msgstr "无法打开该位置"
+
+#: desktop-icons/deskence_desktop/app.py:504
+#: desktop-icons/deskence_desktop/app.py:520
+#: desktop-icons/deskence_desktop/app.py:526
+#: desktop-icons/deskence_desktop/app.py:671
+#, python-brace-format
+msgid "Cannot open “{}”"
+msgstr "无法打开“{}”"
+
+#: desktop-icons/deskence_desktop/app.py:505
+msgid "The link is broken: the item it points to does not exist."
+msgstr "链接已损坏：它指向的项目不存在。"
+
+#: desktop-icons/deskence_desktop/app.py:527
+msgid "The launcher is not valid."
+msgstr "启动器无效。"
+
+#: desktop-icons/deskence_desktop/app.py:532
+#, python-brace-format
+msgid "Cannot start “{}”"
+msgstr "无法启动“{}”"
+
+#: desktop-icons/deskence_desktop/app.py:536
+msgid "Untrusted Launcher"
+msgstr "不受信任的启动器"
+
+#: desktop-icons/deskence_desktop/app.py:537
+#, python-brace-format
+msgid ""
+"“{}” has not been marked as trusted. Only allow launching if you know where "
+"this file comes from."
+msgstr "“{}”尚未被标记为可信任。只有在您知道此文件来源时才允许启动。"
+
+#: desktop-icons/deskence_desktop/app.py:540
+msgid "_Allow and Launch"
+msgstr "允许并启动(_A)"
+
+#: desktop-icons/deskence_desktop/app.py:559
+#, python-brace-format
+msgid "Cannot allow launching “{}”"
+msgstr "无法允许启动“{}”"
+
+#: desktop-icons/deskence_desktop/app.py:624
+msgid "Cannot open Settings"
+msgstr "无法打开“设置”"
+
+#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+msgid "Cannot open Deskence"
+msgstr "无法打开 Deskence"
+
+#: desktop-icons/deskence_desktop/app.py:688
+#, python-brace-format
+msgid "Cannot unmount “{}”"
+msgstr "无法卸载“{}”"
+
+#: desktop-icons/deskence_desktop/app.py:720
+msgid "Names starting with “.” are hidden."
+msgstr "以“.”开头的名称会被隐藏。"
+
+#: desktop-icons/deskence_desktop/app.py:747
+#: desktop-icons/deskence_desktop/app.py:750
+msgid "New Folder"
+msgstr "新建文件夹"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "Folder Name"
+msgstr "文件夹名称"
+
+#: desktop-icons/deskence_desktop/app.py:757
+msgid "_Create"
+msgstr "创建(_C)"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename Folder"
+msgstr "重命名文件夹"
+
+#: desktop-icons/deskence_desktop/app.py:766
+msgid "Rename File"
+msgstr "重命名文件"
+
+#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+msgid "_Rename"
+msgstr "重命名(_R)"
+
+#: desktop-icons/deskence_desktop/app.py:788
+msgid "New _Folder…"
+msgstr "新建文件夹(_F)…"
+
+#: desktop-icons/deskence_desktop/app.py:789
+msgid "_Paste"
+msgstr "粘贴(_P)"
+
+#: desktop-icons/deskence_desktop/app.py:790
+msgid "Select _All"
+msgstr "全选(_A)"
+
+#: desktop-icons/deskence_desktop/app.py:794
+msgid "A_rrange Icons"
+msgstr "排列图标(_R)"
+
+#: desktop-icons/deskence_desktop/app.py:795
+msgid "Align to _Grid"
+msgstr "对齐到网格(_G)"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Name"
+msgstr "名称(_N)"
+
+#: desktop-icons/deskence_desktop/app.py:797
+msgid "_Modified"
+msgstr "修改时间(_M)"
+
+#: desktop-icons/deskence_desktop/app.py:798
+msgid "_Type"
+msgstr "类型(_T)"
+
+#: desktop-icons/deskence_desktop/app.py:800
+msgid "_Sort By"
+msgstr "排序方式(_S)"
+
+#: desktop-icons/deskence_desktop/app.py:804
+msgid "Change _Background…"
+msgstr "更改背景(_B)…"
+
+#: desktop-icons/deskence_desktop/app.py:805
+msgid "_Desktop Settings"
+msgstr "桌面设置(_D)"
+
+#: desktop-icons/deskence_desktop/app.py:821
+msgid "_Open"
+msgstr "打开(_O)"
+
+#: desktop-icons/deskence_desktop/app.py:823
+msgid "Open _With…"
+msgstr "打开方式(_W)…"
+
+#: desktop-icons/deskence_desktop/app.py:825
+msgid "Allow _Launching"
+msgstr "允许启动(_L)"
+
+#: desktop-icons/deskence_desktop/app.py:830
+msgid "Cu_t"
+msgstr "剪切(_T)"
+
+#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+msgid "_Copy"
+msgstr "复制(_C)"
+
+#: desktop-icons/deskence_desktop/app.py:833
+msgid "Rena_me…"
+msgstr "重命名(_M)…"
+
+#: desktop-icons/deskence_desktop/app.py:837
+msgid "Move to _Trash"
+msgstr "移到回收站(_T)"
+
+#: desktop-icons/deskence_desktop/app.py:841
+msgid "_Empty Trash…"
+msgstr "清空回收站(_E)…"
+
+#: desktop-icons/deskence_desktop/app.py:848
+msgid "_Eject"
+msgstr "弹出(_E)"
+
+#: desktop-icons/deskence_desktop/app.py:850
+msgid "_Unmount"
+msgstr "卸载(_U)"
+
+#: desktop-icons/deskence_desktop/app.py:855
+msgid "_Properties"
+msgstr "属性(_P)"
+
+#: desktop-icons/deskence_desktop/fileops.py:74
+msgid "The operation failed"
+msgstr "操作失败"
+
+#: desktop-icons/deskence_desktop/fileops.py:117
+msgid "Cannot empty the trash"
+msgstr "无法清空回收站"
+
+#: desktop-icons/deskence_desktop/fileops.py:118
+msgid "Emptying the trash needs the Files application."
+msgstr "清空回收站需要“文件”应用。"
+
+#: desktop-icons/deskence_desktop/fileops.py:129
+msgid "Cannot show properties"
+msgstr "无法显示属性"
+
+#: desktop-icons/deskence_desktop/fileops.py:144
+msgid "Cannot move to the trash"
+msgstr "无法移到回收站"
+
+#: desktop-icons/deskence_desktop/fileops.py:156
+msgid "Cannot rename"
+msgstr "无法重命名"
+
+#: desktop-icons/deskence_desktop/fileops.py:167
+msgid "Cannot create the folder"
+msgstr "无法创建文件夹"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot move the files"
+msgstr "无法移动文件"
+
+#: desktop-icons/deskence_desktop/fileops.py:183
+msgid "Cannot copy the files"
+msgstr "无法复制文件"
+
+#: desktop-icons/deskence_desktop/items.py:146
+msgid "Home"
+msgstr "主文件夹"
+
+#: desktop-icons/deskence_desktop/items.py:157 extensions/dock/locations.js:124
+msgid "Trash"
+msgstr "回收站"
+
+#: desktop-icons/deskence_desktop/window.py:193
+#: desktop-icons/deskence_desktop/window.py:198
+#: extensions/dock/stackDrag.js:216
+msgid "Desktop"
+msgstr "桌面"
+
+#. Whatever the image, the icon is a square of the dock icon size, so
+#. the button keeps its size and the dock its alignment. Like the
+#. other icons it is rendered for its magnified size.
+#: extensions/dock/dock.js:254 extensions/dock/dock.js:264
+#: extensions/dock/dock.js:493
+msgid "Show Apps"
+msgstr "显示应用"
+
+#: extensions/dock/dock.js:286
+msgid "Dock Settings"
+msgstr "程序坞设置"
+
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+msgid "Could not open location"
+msgstr "无法打开位置"
+
+#: extensions/dock/locations.js:210
+msgid "Open"
+msgstr "打开"
+
+#: extensions/dock/locations.js:212
+msgid "Empty Trash…"
+msgstr "清空回收站…"
+
+#: extensions/dock/locations.js:217
+msgid "Eject"
+msgstr "弹出"
+
+#: extensions/dock/locations.js:219
+msgid "Unmount"
+msgstr "卸载"
+
+#: extensions/dock/locations.js:245
+msgid "Could not eject the drive"
+msgstr "无法弹出驱动器"
+
+#: extensions/dock/locations.js:245
+msgid "Could not unmount the drive"
+msgstr "无法卸载驱动器"
+
+#: extensions/dock/windowPreviews.js:265
+#, javascript-format
+msgid "Windows of %s"
+msgstr "%s 的窗口"
+
+#: extensions/dock/windowPreviews.js:364 extensions/dock/windowPreviews.js:472
+msgid "Close Window"
+msgstr "关闭窗口"
+
+#: src/deskence/general.py:21
+msgid "Presets (JSON)"
+msgstr "预设（JSON）"
+
+#: src/deskence/general.py:24
+msgid "Presets With Images"
+msgstr "带图片的预设"
+
+#: src/deskence/general.py:27
+msgid "All Presets"
+msgstr "所有预设"
+
+#: src/deskence/general.py:41 src/deskence/general.py:279
+#: extensions/dock/stacks.js:500
+msgid "Name"
+msgstr "名称"
+
+#: src/deskence/general.py:43 src/deskence/presets.py:154
+msgid "Pinned Applications"
+msgstr "已固定的应用"
+
+#: src/deskence/general.py:46
+msgid "Custom Images"
+msgstr "自定义图片"
+
+#: src/deskence/general.py:47
+msgid "Saved in an archive together with the settings"
+msgstr "与设置一起保存在归档文件中"
+
+#: src/deskence/general.py:95
+msgid "Restore Default Deskence Settings?"
+msgstr "要恢复 Deskence 的默认设置吗？"
+
+#: src/deskence/general.py:96
+msgid ""
+"All Deskence settings return to their defaults and the applications view "
+"returns to your own order. Folders in the dock are removed from it; the "
+"folders themselves are not touched. Enabled features, pinned applications, "
+"title bar buttons, saved presets and the clipboard history do not change."
+msgstr ""
+"所有 Deskence 设置将恢复为默认值，应用视图也将恢复为您自己的顺序。文件夹会从"
+"程序坞中移除，但文件夹本身不受影响。已启用的功能、已固定的应用、标题栏按钮、"
+"已保存的预设和剪贴板历史不会改变。"
+
+#: src/deskence/general.py:140
+#, python-brace-format
+msgid "Same as the System ({})"
+msgstr "跟随系统（{}）"
+
+#: src/deskence/general.py:176 src/deskence/general.py:503
+msgid "_Undo"
+msgstr "撤销(_U)"
+
+#: src/deskence/general.py:209
+msgid "_Apply…"
+msgstr "应用(_A)…"
+
+#: src/deskence/general.py:213
+msgid "_Rename…"
+msgstr "重命名(_R)…"
+
+#: src/deskence/general.py:213 src/deskence/general.py:327
+msgid "_Export…"
+msgstr "导出(_E)…"
+
+#: src/deskence/general.py:214
+msgid "_Delete…"
+msgstr "删除(_D)…"
+
+#: src/deskence/general.py:217 extensions/keep-awake/extension.js:128
+msgid "More"
+msgstr "更多"
+
+#. Translators: this, "folders in the dock" and "images" fill the
+#. {} of "Settings with {}", joined by commas; use the form that
+#. fits there.
+#: src/deskence/general.py:238
+msgid "pinned applications"
+msgstr "已固定的应用"
+
+#: src/deskence/general.py:240
+msgid "folders in the dock"
+msgstr "程序坞中的文件夹"
+
+#: src/deskence/general.py:242
+msgid "images"
+msgstr "图片"
+
+#: src/deskence/general.py:244
+msgid "Settings"
+msgstr "设置"
+
+#: src/deskence/general.py:245
+#, python-brace-format
+msgid "Settings with {}"
+msgstr "包含{}的设置"
+
+#: src/deskence/general.py:248 src/deskence/general.py:266
+msgid "My Settings"
+msgstr "我的设置"
+
+#: src/deskence/general.py:251
+msgid "Save Current Settings"
+msgstr "保存当前设置"
+
+#: src/deskence/general.py:253
+msgid "_Save"
+msgstr "保存(_S)"
+
+#: src/deskence/general.py:273
+msgid "Cannot Save the Preset"
+msgstr "无法保存预设"
+
+#: src/deskence/general.py:276
+#, python-brace-format
+msgid "Preset “{}” saved"
+msgstr "已保存预设“{}”"
+
+#: src/deskence/general.py:282
+msgid "Rename Preset"
+msgstr "重命名预设"
+
+#: src/deskence/general.py:296
+msgid "Cannot Rename the Preset"
+msgstr "无法重命名预设"
+
+#: src/deskence/general.py:306
+msgid "Cannot Delete the Preset"
+msgstr "无法删除预设"
+
+#: src/deskence/general.py:308
+#, python-brace-format
+msgid "Delete Preset “{}”?"
+msgstr "要删除预设“{}”吗？"
+
+#: src/deskence/general.py:309
+msgid "The current settings do not change."
+msgstr "当前设置不会改变。"
+
+#: src/deskence/general.py:309
+msgid "_Delete"
+msgstr "删除(_D)"
+
+#: src/deskence/general.py:322 src/deskence/general.py:346
+msgid "Export Settings"
+msgstr "导出设置"
+
+#: src/deskence/general.py:323
+msgid ""
+"Settings are saved as a readable JSON file. With images, the file is an "
+"archive with the settings and the images."
+msgstr ""
+"设置以可读的 JSON 文件保存。包含图片时，该文件是一个包含设置和图片的归档文"
+"件。"
+
+#: src/deskence/general.py:336 src/deskence/general.py:339
+#: src/deskence/cli.py:535
+msgid "Deskence Settings"
+msgstr "Deskence 设置"
+
+#: src/deskence/general.py:357 src/deskence/general.py:364
+msgid "Cannot Export"
+msgstr "无法导出"
+
+#: src/deskence/general.py:366
+msgid "Settings exported"
+msgstr "已导出设置"
+
+#: src/deskence/general.py:372
+msgid "Import Settings"
+msgstr "导入设置"
+
+#: src/deskence/general.py:382 src/deskence/general.py:393
+msgid "Cannot Import"
+msgstr "无法导入"
+
+#: src/deskence/general.py:411
+msgid "Your settings already match this preset."
+msgstr "您的设置已与此预设一致。"
+
+#: src/deskence/general.py:414
+msgid "Nothing to Change"
+msgstr "无需更改"
+
+#: src/deskence/general.py:421
+#, python-brace-format
+msgid "{} setting changes in: {}."
+msgid_plural "{} settings change in: {}."
+msgstr[0] "{} 项设置将在以下方面更改：{}。"
+
+#: src/deskence/general.py:434
+#, python-brace-format
+msgid "Apply “{}”?"
+msgstr "要应用“{}”吗？"
+
+#: src/deskence/general.py:435
+msgid "Apply Preset?"
+msgstr "要应用预设吗？"
+
+#: src/deskence/general.py:437
+msgid "_Apply"
+msgstr "应用(_A)"
+
+#: src/deskence/general.py:459
+#, python-brace-format
+msgid "These changes could not be put back: {}"
+msgstr "无法撤回以下更改：{}"
+
+#: src/deskence/general.py:460
+msgid "Your previous settings were restored."
+msgstr "已恢复您之前的设置。"
+
+#: src/deskence/general.py:461 src/deskence/general.py:465
+msgid "The Preset Was Not Applied"
+msgstr "未应用预设"
+
+#: src/deskence/general.py:466 src/deskence/cli.py:160
+msgid "Nothing was changed."
+msgstr "未做任何更改。"
+
+#: src/deskence/general.py:469
+msgid "Preset applied"
+msgstr "已应用预设"
+
+#: src/deskence/general.py:479 src/deskence/general.py:489
+msgid "Cannot Undo the Preset"
+msgstr "无法撤销预设"
+
+#: src/deskence/general.py:479 src/deskence/cli.py:552
+msgid "There is no applied preset to undo."
+msgstr "没有可撤销的已应用预设。"
+
+#: src/deskence/general.py:496
+msgid "Previous settings restored"
+msgstr "已恢复之前的设置"
+
+#: src/deskence/general.py:501
+msgid "Undo Last Applied Preset?"
+msgstr "要撤销最近应用的预设吗？"
+
+#: src/deskence/general.py:502
+msgid "The settings the preset changed return to their values from before it."
+msgstr "预设所更改的设置将恢复为应用预设之前的值。"
+
+#: src/deskence/general.py:508
+msgid "Some Settings Changed Since"
+msgstr "部分设置在此后已更改"
+
+#: src/deskence/general.py:509
+#, python-brace-format
+msgid ""
+"These settings were changed after the preset was applied: {}. Undo them too, "
+"or keep them as they are now?"
+msgstr ""
+"以下设置在应用预设之后被更改过：{}。要一并撤销，还是保留它们现在的状态？"
+
+#: src/deskence/general.py:512
+msgid "_Keep Them"
+msgstr "保留(_K)"
+
+#: src/deskence/general.py:513
+msgid "Undo _All"
+msgstr "全部撤销(_A)"
+
+#: src/deskence/general.py:536
+msgid "Report"
+msgstr "报告"
+
+#: src/deskence/general.py:539
+msgid "_Save…"
+msgstr "保存(_S)…"
+
+#: src/deskence/general.py:546 src/deskence/ui/general-page.ui:126
+msgid "Information for Bug Reports"
+msgstr "用于错误报告的信息"
+
+#: src/deskence/general.py:552
+msgid "Diagnostics copied"
+msgstr "已复制诊断信息"
+
+#: src/deskence/general.py:556
+msgid "Save Report"
+msgstr "保存报告"
+
+#: src/deskence/general.py:568
+msgid "Cannot Save the Report"
+msgstr "无法保存报告"
+
+#: src/deskence/general.py:570
+msgid "Report saved"
+msgstr "已保存报告"
+
+#: src/deskence/general.py:579
+msgid "Default settings restored"
+msgstr "已恢复默认设置"
+
+#: src/deskence/presets.py:145
+msgid "Features"
+msgstr "功能"
+
+#: src/deskence/presets.py:146 src/deskence/ui/general-page.ui:6
+msgid "General"
+msgstr "常规"
+
+#: src/deskence/presets.py:149 src/deskence/ui/app-grid-page.ui:6
+msgid "Applications View"
+msgstr "应用视图"
+
+#: src/deskence/presets.py:153 src/deskence/ui/clipboard-page.ui:6
+msgid "Clipboard"
+msgstr "剪贴板"
+
+#: src/deskence/presets.py:417
+msgid "The file is too large to be a preset."
+msgstr "该文件过大，不可能是预设。"
+
+#: src/deskence/presets.py:425 src/deskence/presets.py:427
+#: src/deskence/presets.py:453
+msgid "The file is not a Deskence preset."
+msgstr "该文件不是 Deskence 预设。"
+
+#: src/deskence/presets.py:430
+msgid "The preset has no valid format version."
+msgstr "该预设没有有效的格式版本。"
+
+#: src/deskence/presets.py:432
+msgid ""
+"The preset was made by a newer version of Deskence. Update Deskence to use "
+"it."
+msgstr "该预设由较新版本的 Deskence 创建。请更新 Deskence 后再使用。"
+
+#: src/deskence/presets.py:458
+msgid "The archive is too large to be a preset."
+msgstr "该归档文件过大，不可能是预设。"
+
+#: src/deskence/presets.py:462
+msgid "The archive does not contain a Deskence preset."
+msgstr "该归档文件不包含 Deskence 预设。"
+
+#: src/deskence/presets.py:481
+msgid "The archive is damaged."
+msgstr "该归档文件已损坏。"
+
+#: src/deskence/presets.py:540
+msgid "The settings part of the preset is damaged."
+msgstr "预设的设置部分已损坏。"
+
+#: src/deskence/presets.py:543
+#, python-brace-format
+msgid "Unknown part “{}” was ignored."
+msgstr "已忽略未知部分“{}”。"
+
+#: src/deskence/presets.py:548
+#, python-brace-format
+msgid "Unknown setting “{}” in {} was ignored."
+msgstr "已忽略 {1} 中的未知设置“{0}”。"
+
+#: src/deskence/presets.py:565
+#, python-brace-format
+msgid ""
+"Monitor {} is not connected. The dock is shown on the primary monitor until "
+"it is."
+msgstr "显示器 {} 未连接。在其连接之前，程序坞显示在主显示器上。"
+
+#: src/deskence/presets.py:573
+#, python-brace-format
+msgid "{} is not available on this computer."
+msgstr "此计算机上不可用：{}。"
+
+#: src/deskence/presets.py:577
+#, python-brace-format
+msgid "{} has an invalid value and was skipped."
+msgstr "{} 的值无效，已跳过。"
+
+#: src/deskence/presets.py:580
+#, python-brace-format
+msgid "{} is locked by the administrator."
+msgstr "{} 已被管理员锁定。"
+
+#: src/deskence/presets.py:596
+#, python-brace-format
+msgid "The language “{}” is not available on this computer and was skipped."
+msgstr "此计算机上没有语言“{}”，已跳过。"
+
+#: src/deskence/presets.py:623
+#, python-brace-format
+msgid "The shortcut {} for “{}” was not imported: {}"
+msgstr "未导入“{1}”的快捷键 {0}：{2}"
+
+#: src/deskence/presets.py:632
+msgid "The list of features is damaged and was skipped."
+msgstr "功能列表已损坏，已跳过。"
+
+#: src/deskence/presets.py:636
+#, python-brace-format
+msgid "Unknown feature “{}” was ignored."
+msgstr "已忽略未知功能“{}”。"
+
+#: src/deskence/presets.py:645
+msgid "Pinned applications are not available on this computer."
+msgstr "此计算机上没有已固定的应用。"
+
+#: src/deskence/presets.py:649
+msgid "The list of pinned applications is damaged and was skipped."
+msgstr "已固定应用列表已损坏，已跳过。"
+
+#: src/deskence/presets.py:654
+#, python-brace-format
+msgid "Not installed: {}. They appear in the dock once installed."
+msgstr "未安装：{}。安装后会出现在程序坞中。"
+
+#: src/deskence/presets.py:664
+msgid "The list of folders in the dock is damaged and was skipped."
+msgstr "程序坞中的文件夹列表已损坏，已跳过。"
+
+#: src/deskence/presets.py:672
+#, python-brace-format
+msgid "Folder “{}” has an invalid entry and was skipped."
+msgstr "文件夹“{}”有无效条目，已跳过。"
+
+#: src/deskence/presets.py:678
+#, python-brace-format
+msgid ""
+"The standard folder {} is not set up on this computer; it is shown as "
+"unavailable."
+msgstr "此计算机上未设置标准文件夹 {}；显示为不可用。"
+
+#: src/deskence/presets.py:681
+#, python-brace-format
+msgid "Folder {} does not exist; it is shown as unavailable until it does."
+msgstr "文件夹 {} 不存在；在其存在之前显示为不可用。"
+
+#: src/deskence/presets.py:711
+msgid ""
+"The preset uses a custom applications button image that is not included; the "
+"default icon is used."
+msgstr "预设使用的应用按钮自定义图片未包含在内；将使用默认图标。"
+
+#: src/deskence/cli.py:56
+msgid ""
+"deskence: do not run Deskence as root; run it as your own user (without "
+"sudo)."
+msgstr ""
+"deskence：不要以 root 身份运行 Deskence；请以您自己的用户身份运行（不使用 "
+"sudo）。"
+
+#: src/deskence/cli.py:112
+msgid ""
+"The Deskence settings schema is not installed. Reinstall the deskence "
+"package."
+msgstr "未安装 Deskence 设置架构。请重新安装 deskence 软件包。"
+
+#: src/deskence/cli.py:131
+msgid "Nothing was changed: the settings cannot be saved."
+msgstr "未做任何更改：无法保存设置。"
+
+#: src/deskence/cli.py:149
+msgid ""
+"This change needs confirming. Run the command again with --yes to confirm it "
+"without a question."
+msgstr "此更改需要确认。请加上 --yes 重新运行命令，以便不经询问直接确认。"
+
+#. Translators: the answers to a yes/no question, "no" being the default;
+#. use the first letters of the translations of "y" and "yes" below.
+#: src/deskence/cli.py:153
+msgid "y/N"
+msgstr "y/N"
+
+#. Translators: the short and the full answer "yes"; the English ones
+#. are accepted too.
+#: src/deskence/cli.py:158
+msgid "y"
+msgstr "y"
+
+#: src/deskence/cli.py:158
+msgid "yes"
+msgstr "是"
+
+#: src/deskence/cli.py:165
+msgid ""
+"Saved. The change could not be confirmed in the current GNOME session; "
+"logging in again may be needed."
+msgstr "已保存。无法在当前 GNOME 会话中确认此更改；可能需要重新登录。"
+
+#: src/deskence/cli.py:172
+msgid "running"
+msgstr "正在运行"
+
+#: src/deskence/cli.py:173
+msgid "not running"
+msgstr "未运行"
+
+#: src/deskence/cli.py:174
+msgid "error"
+msgstr "错误"
+
+#: src/deskence/cli.py:175
+msgid "GNOME version not supported"
+msgstr "不支持的 GNOME 版本"
+
+#: src/deskence/cli.py:176
+msgid "starts after logging in again"
+msgstr "重新登录后启动"
+
+#: src/deskence/cli.py:177
+msgid "updated; new version after logging in again"
+msgstr "已更新；重新登录后为新版本"
+
+#: src/deskence/cli.py:178 src/deskence/cli.py:293
+msgid "not installed"
+msgstr "未安装"
+
+#: src/deskence/cli.py:180
+msgid "unknown (GNOME Shell not reachable)"
+msgstr "未知（无法连接 GNOME Shell）"
+
+#: src/deskence/cli.py:229
+#, python-brace-format
+msgid "GNOME Shell {}: the state of the running session is shown."
+msgstr "GNOME Shell {}：显示的是正在运行的会话的状态。"
+
+#: src/deskence/cli.py:232
+msgid "GNOME Shell is not reachable: only the saved settings are known."
+msgstr "无法连接 GNOME Shell：只知道已保存的设置。"
+
+#: src/deskence/cli.py:234
+msgid ""
+"GNOME extensions are turned off; no feature runs until they are turned on."
+msgstr "GNOME 扩展已关闭；在打开它们之前，任何功能都不会运行。"
+
+#: src/deskence/cli.py:238 src/deskence/cli.py:711
+msgid "FEATURE"
+msgstr "功能"
+
+#: src/deskence/cli.py:238
+msgid "SAVED"
+msgstr "已保存"
+
+#: src/deskence/cli.py:238
+msgid "IN THIS SESSION"
+msgstr "本次会话"
+
+#: src/deskence/cli.py:241
+msgid "enabled"
+msgstr "已启用"
+
+#: src/deskence/cli.py:241
+msgid "disabled"
+msgstr "已禁用"
+
+#: src/deskence/cli.py:246
+#, python-brace-format
+msgid "{}: a copy in your home folder is used instead of the installed one: {}"
+msgstr "{}：正在使用主文件夹中的副本而不是已安装的副本：{}"
+
+#: src/deskence/cli.py:250
+#, python-brace-format
+msgid ""
+"{}: the saved setting differs from the session; it applies after logging in "
+"again."
+msgstr "{}：已保存的设置与当前会话不同；重新登录后生效。"
+
+#: src/deskence/cli.py:253
+#, python-brace-format
+msgid "{}: “{}” provides the same; using both causes problems."
+msgstr "{}：“{}”提供相同的功能；同时使用两者会导致问题。"
+
+#: src/deskence/cli.py:254
+#, python-brace-format
+msgid "{}: “{}” may provide the same."
+msgstr "{}：“{}”可能提供相同的功能。"
+
+#: src/deskence/cli.py:270
+msgid "Give feature names or --all, not both."
+msgstr "请指定功能名称或 --all，不能同时指定。"
+
+#: src/deskence/cli.py:273
+#, python-brace-format
+msgid "Name at least one feature, or use --all. Features: {}"
+msgstr "请至少指定一项功能，或使用 --all。功能：{}"
+
+#: src/deskence/cli.py:277
+#, python-brace-format
+msgid "Unknown feature: {}. Features: {}"
+msgstr "未知功能：{}。功能：{}"
+
+#: src/deskence/cli.py:306
+msgid "the setting could not be saved"
+msgstr "无法保存该设置"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: enabled"
+msgstr "{}：已启用"
+
+#: src/deskence/cli.py:312
+#, python-brace-format
+msgid "{}: disabled"
+msgstr "{}：已禁用"
+
+#: src/deskence/cli.py:314
+#, python-brace-format
+msgid "{}: already enabled"
+msgstr "{}：已经启用"
+
+#: src/deskence/cli.py:315
+#, python-brace-format
+msgid "{}: already disabled"
+msgstr "{}：已经禁用"
+
+#: src/deskence/cli.py:317
+#, python-brace-format
+msgid "{}: already enabled in the saved settings"
+msgstr "{}：在已保存的设置中已经启用"
+
+#: src/deskence/cli.py:318
+#, python-brace-format
+msgid "{}: already disabled in the saved settings"
+msgstr "{}：在已保存的设置中已经禁用"
+
+#: src/deskence/cli.py:322
+#, python-brace-format
+msgid "{}: failed: {}"
+msgstr "{}：失败：{}"
+
+#: src/deskence/cli.py:324
+msgid ""
+"GNOME extensions are turned off; enabled features start once they are turned "
+"on (gsettings set org.gnome.shell disable-user-extensions false)."
+msgstr ""
+"GNOME 扩展已关闭；打开它们后已启用的功能才会启动（gsettings set "
+"org.gnome.shell disable-user-extensions false）。"
+
+#: src/deskence/cli.py:347
+#, python-brace-format
+msgid "No saved preset is called “{}”. See deskence preset list."
+msgstr "没有名为“{}”的已保存预设。参见 deskence preset list。"
+
+#: src/deskence/cli.py:349
+#, python-brace-format
+msgid "Several saved presets are called “{}”; use one of their IDs: {}"
+msgstr "有多个已保存的预设名为“{}”；请使用其中一个 ID：{}"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: enable"
+msgstr "功能 {}：启用"
+
+#: src/deskence/cli.py:359
+#, python-brace-format
+msgid "Feature {}: disable"
+msgstr "功能 {}：禁用"
+
+#: src/deskence/cli.py:361
+msgid "Dock: the custom applications button image"
+msgstr "程序坞：应用按钮的自定义图片"
+
+#: src/deskence/cli.py:363 src/deskence/cli.py:500
+#, python-brace-format
+msgid "Warning: {}"
+msgstr "警告：{}"
+
+#: src/deskence/cli.py:365 src/deskence/cli.py:502
+#, python-brace-format
+msgid "Skipped: {}"
+msgstr "已跳过：{}"
+
+#: src/deskence/cli.py:391
+#, python-brace-format
+msgid "The preset was not applied: {}."
+msgstr "未应用预设：{}。"
+
+#: src/deskence/cli.py:393
+#, python-brace-format
+msgid "These changes could not be put back: {}."
+msgstr "无法撤回以下更改：{}。"
+
+#: src/deskence/cli.py:396
+msgid "The previous settings were restored."
+msgstr "已恢复之前的设置。"
+
+#: src/deskence/cli.py:399
+#, python-brace-format
+msgid "The preset was not applied; nothing was changed. {}"
+msgstr "未应用预设；未做任何更改。{}"
+
+#: src/deskence/cli.py:404
+#, python-brace-format
+msgid ""
+"The preset was applied only in part; these settings were not saved: {}. Undo "
+"it with: deskence preset undo"
+msgstr ""
+"预设只应用了一部分；以下设置未保存：{}。可用以下命令撤销：deskence preset "
+"undo"
+
+#: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
+#, python-brace-format
+msgid "Features {}: {}"
+msgstr "功能 {}：{}"
+
+#: src/deskence/cli.py:423
+msgid "No saved presets."
+msgstr "没有已保存的预设。"
+
+#: src/deskence/cli.py:425 src/deskence/cli.py:737
+msgid "NAME"
+msgstr "名称"
+
+#: src/deskence/cli.py:425
+msgid "ID"
+msgstr "ID"
+
+#: src/deskence/cli.py:425
+msgid "CREATED"
+msgstr "创建时间"
+
+#: src/deskence/cli.py:435
+#, python-brace-format
+msgid "Your settings already match the preset “{}”."
+msgstr "您的设置已与预设“{}”一致。"
+
+#: src/deskence/cli.py:438
+#, python-brace-format
+msgid "Preset “{}” changes {} setting:"
+msgid_plural "Preset “{}” changes {} settings:"
+msgstr[0] "预设“{}”将更改 {} 项设置："
+
+#: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
+msgid "Nothing was changed (--dry-run)."
+msgstr "未做任何更改（--dry-run）。"
+
+#: src/deskence/cli.py:454
+msgid "Apply the preset?"
+msgstr "要应用预设吗？"
+
+#: src/deskence/cli.py:459
+#, python-brace-format
+msgid "Preset “{}” applied. Undo it with: deskence preset undo"
+msgstr "已应用预设“{}”。可用以下命令撤销：deskence preset undo"
+
+#: src/deskence/cli.py:468
+#, python-brace-format
+msgid "Cannot import {}: {}"
+msgstr "无法导入 {}：{}"
+
+#: src/deskence/cli.py:476
+#, python-brace-format
+msgid ""
+"A saved preset is already called “{}”. Choose another name with --name, or "
+"replace it with --replace."
+msgstr ""
+"已有名为“{}”的已保存预设。请用 --name 选择其他名称，或用 --replace 替换它。"
+
+#: src/deskence/cli.py:506
+#, python-brace-format
+msgid ""
+"The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
+msgstr "预设“{}”有效，可以保存；未做任何更改（--dry-run）。"
+
+#: src/deskence/cli.py:513
+#, python-brace-format
+msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
+msgstr "已将预设“{}”保存为 {}。可用以下命令应用：deskence preset apply {}"
+
+#: src/deskence/cli.py:516
+msgid "Save and apply the preset?"
+msgstr "要保存并应用预设吗？"
+
+#: src/deskence/cli.py:523
+#, python-brace-format
+msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
+msgstr "已将预设“{}”保存为 {} 并应用。可用以下命令撤销：deskence preset undo"
+
+#: src/deskence/cli.py:531
+#, python-brace-format
+msgid "{} is a folder; give a file name."
+msgstr "{} 是文件夹；请指定文件名。"
+
+#: src/deskence/cli.py:533
+#, python-brace-format
+msgid "{} already exists. Use --force to replace it."
+msgstr "{} 已存在。使用 --force 替换它。"
+
+#: src/deskence/cli.py:540
+#, python-brace-format
+msgid "Cannot write {}: {}"
+msgstr "无法写入 {}：{}"
+
+#: src/deskence/cli.py:542
+#, python-brace-format
+msgid "Settings exported to {} (an archive with images)."
+msgstr "已将设置导出到 {}（包含图片的归档文件）。"
+
+#: src/deskence/cli.py:543
+#, python-brace-format
+msgid "Settings exported to {}."
+msgstr "已将设置导出到 {}。"
+
+#: src/deskence/cli.py:545
+msgid "No custom image is in use, so the file is plain JSON."
+msgstr "未使用自定义图片，因此该文件是普通 JSON。"
+
+#: src/deskence/cli.py:558
+msgid "The settings return to how they were right before the last import."
+msgstr "设置将恢复到最近一次导入之前的状态。"
+
+#: src/deskence/cli.py:560
+msgid "The preset changed nothing that could be undone."
+msgstr "该预设没有更改任何可以撤销的内容。"
+
+#: src/deskence/cli.py:562
+#, python-brace-format
+msgid "Undoing “{}” restores:"
+msgstr "撤销“{}”将恢复："
+
+#: src/deskence/cli.py:566
+#, python-brace-format
+msgid ""
+"Changed after the preset was applied, so left as they are (add --include-"
+"changed to undo them too): {}"
+msgstr ""
+"这些设置在应用预设之后被更改过，因此保持不变（添加 --include-changed 可一并撤"
+"销）：{}"
+
+#: src/deskence/cli.py:574
+msgid "Undo the preset?"
+msgstr "要撤销预设吗？"
+
+#: src/deskence/cli.py:583
+#, python-brace-format
+msgid "The preset was undone only in part: {}"
+msgstr "预设只撤销了一部分：{}"
+
+#: src/deskence/cli.py:592
+msgid "Previous settings restored."
+msgstr "已恢复之前的设置。"
+
+#: src/deskence/cli.py:604
+msgid "Give what to restore or --all, not both."
+msgstr "请指定要恢复的内容或 --all，不能同时指定。"
+
+#: src/deskence/cli.py:606
+#, python-brace-format
+msgid "Name what to restore, or use --all. Choices: {}"
+msgstr "请指定要恢复的内容，或使用 --all。可选项：{}"
+
+#: src/deskence/cli.py:610
+#, python-brace-format
+msgid "Unknown choice: {}. Choices: {}"
+msgstr "未知选项：{}。可选项：{}"
+
+#: src/deskence/cli.py:626
+msgid "Everything is at its default already; nothing to restore."
+msgstr "所有内容都已是默认值；无需恢复。"
+
+#: src/deskence/cli.py:631
+#, python-brace-format
+msgid "Restored to the default ({}):"
+msgstr "已恢复为默认值（{}）："
+
+#: src/deskence/cli.py:632
+msgid "all of Deskence"
+msgstr "整个 Deskence"
+
+#: src/deskence/cli.py:636
+msgid "The applications view returns to your own order."
+msgstr "应用视图将恢复为您自己的顺序。"
+
+#: src/deskence/cli.py:638
+msgid "The app-grid feature (alphabetical order) is turned off."
+msgstr "app-grid 功能（字母顺序）将被关闭。"
+
+#: src/deskence/cli.py:639
+msgid ""
+"Not changed: other enabled features, pinned applications, files on the "
+"desktop, custom images, saved presets and the clipboard history."
+msgstr ""
+"不会改变：其他已启用的功能、已固定的应用、桌面上的文件、自定义图片、已保存的"
+"预设和剪贴板历史。"
+
+#: src/deskence/cli.py:645
+msgid "Restore these settings?"
+msgstr "要恢复这些设置吗？"
+
+#: src/deskence/cli.py:656
+#, python-brace-format
+msgid "Some settings could not be restored: {}"
+msgstr "部分设置无法恢复：{}"
+
+#: src/deskence/cli.py:657
+msgid "Default settings restored."
+msgstr "已恢复默认设置。"
+
+#: src/deskence/cli.py:682
+#, python-brace-format
+msgid "{}: error: {}"
+msgstr "{}：错误：{}"
+
+#: src/deskence/cli.py:690
+msgid ""
+"Settings of Deskence from the command line. Without a command, the settings "
+"window opens (deskence [--page PAGE])."
+msgstr ""
+"通过命令行使用的 Deskence 设置。不带命令时会打开设置窗口（deskence [--page 页"
+"面]）。"
+
+#: src/deskence/cli.py:692
+#, python-brace-format
+msgid ""
+"Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
+"confirmed, 4 saved but not confirmed in the running GNOME session. See man "
+"deskence."
+msgstr ""
+"功能：{}。退出状态：0 完成，1 失败，2 命令行无效，3 未确认，4 已保存但未在正"
+"在运行的 GNOME 会话中确认。参见 man deskence。"
+
+#: src/deskence/cli.py:696
+msgid "COMMAND"
+msgstr "命令"
+
+#: src/deskence/cli.py:703 src/deskence/cli.py:726
+msgid "print a JSON document instead of text"
+msgstr "输出 JSON 文档而不是文本"
+
+#: src/deskence/cli.py:706
+msgid "show the saved and the running state of each feature"
+msgstr "显示每项功能的已保存状态和运行状态"
+
+#: src/deskence/cli.py:708
+msgid "turn features on"
+msgstr "打开功能"
+
+#: src/deskence/cli.py:709
+msgid "turn features off; their settings are kept"
+msgstr "关闭功能；其设置会保留"
+
+#: src/deskence/cli.py:712 src/deskence/cli.py:762
+#, python-brace-format
+msgid "one of: {}"
+msgstr "可选值之一：{}"
+
+#: src/deskence/cli.py:714
+msgid "all Deskence features (never other extensions)"
+msgstr "所有 Deskence 功能（从不包括其他扩展）"
+
+#: src/deskence/cli.py:716
+msgid "list, apply, import and export presets"
+msgstr "列出、应用、导入和导出预设"
+
+#: src/deskence/cli.py:717
+#, python-brace-format
+msgid "Presets are saved in {}."
+msgstr "预设保存在 {}。"
+
+#: src/deskence/cli.py:719
+msgid "ACTION"
+msgstr "操作"
+
+#: src/deskence/cli.py:731
+msgid "only show what would change"
+msgstr "只显示将会更改的内容"
+
+#: src/deskence/cli.py:733
+msgid "do not ask for confirmation"
+msgstr "不要求确认"
+
+#: src/deskence/cli.py:735
+msgid "show the saved presets"
+msgstr "显示已保存的预设"
+
+#: src/deskence/cli.py:736
+msgid "apply a saved preset"
+msgstr "应用已保存的预设"
+
+#: src/deskence/cli.py:737
+msgid "name or ID of a saved preset"
+msgstr "已保存预设的名称或 ID"
+
+#: src/deskence/cli.py:739
+msgid "check a preset file and save it among the presets"
+msgstr "检查预设文件并将其保存到预设中"
+
+#: src/deskence/cli.py:741 src/deskence/cli.py:748
+msgid "FILE"
+msgstr "文件"
+
+#: src/deskence/cli.py:741
+msgid "a .json preset or a .deskence archive"
+msgstr ".json 预设或 .deskence 归档文件"
+
+#: src/deskence/cli.py:742
+msgid "save it under this name"
+msgstr "以此名称保存"
+
+#: src/deskence/cli.py:744
+msgid "replace a saved preset of the same name"
+msgstr "替换同名的已保存预设"
+
+#: src/deskence/cli.py:745
+msgid "also apply it"
+msgstr "同时应用它"
+
+#: src/deskence/cli.py:747
+msgid "write the current settings to a file"
+msgstr "将当前设置写入文件"
+
+#: src/deskence/cli.py:749
+msgid "name stored in the preset"
+msgstr "保存在预设中的名称"
+
+#: src/deskence/cli.py:750
+msgid "include pinned applications"
+msgstr "包含已固定的应用"
+
+#: src/deskence/cli.py:751
+msgid "include folders in the dock"
+msgstr "包含程序坞中的文件夹"
+
+#: src/deskence/cli.py:753
+msgid "include custom images (writes an archive)"
+msgstr "包含自定义图片（写入归档文件）"
+
+#: src/deskence/cli.py:754
+msgid "replace an existing file"
+msgstr "替换现有文件"
+
+#: src/deskence/cli.py:755
+msgid "undo the last applied preset"
+msgstr "撤销最近应用的预设"
+
+#: src/deskence/cli.py:757
+msgid "also undo settings changed after the preset was applied"
+msgstr "同时撤销在应用预设之后更改的设置"
+
+#: src/deskence/cli.py:760
+msgid "restore default settings"
+msgstr "恢复默认设置"
+
+#: src/deskence/cli.py:761
+msgid "PART"
+msgstr "部分"
+
+#: src/deskence/cli.py:764
+msgid "all Deskence settings; also turns off the app-grid feature"
+msgstr "所有 Deskence 设置；同时关闭 app-grid 功能"
+
+#: src/deskence/cli.py:767
+msgid "show a report for bug reports (nothing is sent)"
+msgstr "显示用于错误报告的报告（不会发送任何内容）"
+
+#: src/deskence/cli.py:791
+#, python-brace-format
+msgid "deskence: {}"
+msgstr "deskence：{}"
+
+#: src/deskence/control.py:52
+msgid ""
+"The session bus is not available, so dconf cannot save settings. Run the "
+"command in a terminal of your GNOME session or after logging in on a text "
+"console as the same user."
+msgstr ""
+"会话总线不可用，因此 dconf 无法保存设置。请在 GNOME 会话的终端中运行该命令，"
+"或以同一用户登录文本控制台后运行。"
+
+#: src/deskence/control.py:60
+msgid ""
+"Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
+"lost."
+msgstr "设置只保存在内存中（GSETTINGS_BACKEND=memory），将会丢失。"
+
+#: src/deskence/keybindings.py:52
+msgid "Show Clipboard History"
+msgstr "显示剪贴板历史"
+
+#: src/deskence/keybindings.py:53
+msgid "Opens the history of copied texts and images"
+msgstr "打开已复制的文本和图片的历史"
+
+#: src/deskence/keybindings.py:56
+msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
+msgstr "切换当前聚焦窗口的“置顶”（GNOME 快捷键）"
+
+#: src/deskence/keybindings.py:59
+msgid "In the Deskence settings window"
+msgstr "在 Deskence 设置窗口中"
+
+#: src/deskence/keybindings.py:118
+msgid "This is not a valid shortcut."
+msgstr "这不是有效的快捷键。"
+
+#: src/deskence/keybindings.py:121
+msgid "A modifier key alone cannot be a shortcut."
+msgstr "单独的修饰键不能作为快捷键。"
+
+#: src/deskence/keybindings.py:123
+msgid "Use Ctrl, Alt or Super together with the key, or a function key."
+msgstr "请将按键与 Ctrl、Alt 或 Super 组合使用，或使用功能键。"
+
+#: src/deskence/keybindings.py:126
+msgid ""
+"Applications use this kind of shortcut themselves. Add Super, or combine "
+"Ctrl and Alt."
+msgstr "应用自身会使用这类快捷键。请加上 Super，或组合使用 Ctrl 和 Alt。"
+
+#: src/deskence/keybindings.py:191
+msgid "Custom shortcut"
+msgstr "自定义快捷键"
+
+#: src/deskence/keybindings.py:232
+#, python-brace-format
+msgid "Already used for: {}"
+msgstr "已用于：{}"
+
+#. Translators: words to search the settings by, separated by
+#. commas; translate them as people would search, not literally.
+#: src/deskence/search.py:44
+msgid "dock, taskbar, launcher, panel"
+msgstr "程序坞, 任务栏, 启动器, 面板, dock, taskbar, launcher"
+
+#: src/deskence/search.py:45
+msgid "zoom, enlarge, magnification"
+msgstr "缩放, 放大, 放大镜, zoom"
+
+#: src/deskence/search.py:46
+msgid "autohide, auto-hide, intellihide, hiding"
+msgstr "自动隐藏, 隐藏, 智能隐藏, intellihide, autohide"
+
+#: src/deskence/search.py:47
+msgid "stacks, folders, downloads"
+msgstr "堆栈, 文件夹, 下载, stacks"
+
+#: src/deskence/search.py:48
+msgid "thumbnails, windows"
+msgstr "缩略图, 窗口, 预览, thumbnails"
+
+#: src/deskence/search.py:49
+msgid "badges, unread, notifications, messages"
+msgstr "徽章, 未读, 通知, 消息, 计数, badges"
+
+#: src/deskence/search.py:50
+msgid "download, progress bar"
+msgstr "下载, 进度, 进度条, download"
+
+#: src/deskence/search.py:51
+msgid "desktop, files, icons"
+msgstr "桌面, 文件, 图标, desktop"
+
+#: src/deskence/search.py:52
+msgid "app grid, applications, launcher, menu"
+msgstr "应用网格, 应用, 程序, 启动器, 菜单, app grid"
+
+#: src/deskence/search.py:53
+msgid "sorting, alphabetical, order, arrange"
+msgstr "排序, 字母, 顺序, 排列"
+
+#: src/deskence/search.py:54
+msgid "folders, tiles, groups"
+msgstr "文件夹, 磁贴, 分组"
+
+#: src/deskence/search.py:55
+msgid "hover, highlight, pointer"
+msgstr "悬停, 高亮, 指针, hover"
+
+#: src/deskence/search.py:56
+msgid "tray, indicators, status icons, notification area"
+msgstr "托盘, 指示器, 状态图标, 通知区域, tray"
+
+#: src/deskence/search.py:57
+msgid "suspend, sleep, caffeine, inhibit, awake"
+msgstr "挂起, 睡眠, 咖啡因, caffeine, 阻止, 唤醒"
+
+#: src/deskence/search.py:58
+msgid "screen saver, blank screen, lock"
+msgstr "屏幕保护程序, 黑屏, 锁定"
+
+#: src/deskence/search.py:59
+msgid "title bar, buttons, minimize, maximize"
+msgstr "标题栏, 按钮, 最小化, 最大化"
+
+#: src/deskence/search.py:60
+msgid "copy, paste, clipboard, history"
+msgstr "复制, 粘贴, 剪贴板, 历史, clipboard"
+
+#: src/deskence/search.py:61
+msgid "keyboard, hotkeys, keys, shortcuts"
+msgstr "键盘, 键盘快捷键, 按键, 快捷键, shortcuts"
+
+#: src/deskence/search.py:62
+msgid "bug, diagnostics, report, problem"
+msgstr "错误, 故障, 诊断, 报告, 问题, bug"
+
+#: src/deskence/search.py:63
+msgid "backup, presets, transfer"
+msgstr "备份, 预设, 迁移, presets"
+
+#. Also in English, to find the way back from a language one cannot
+#. read.
+#: src/deskence/search.py:66
+msgid "language, translation"
+msgstr "语言, 翻译, language, translation"
+
+#: src/deskence/shortcuts.py:55
+msgid "Disabled"
+msgstr "已禁用"
+
+#: src/deskence/shortcuts.py:65
+msgid "Restore Default Shortcut"
+msgstr "恢复默认快捷键"
+
+#: src/deskence/shortcuts.py:85
+msgid "Set Shortcut"
+msgstr "设置快捷键"
+
+#: src/deskence/shortcuts.py:86
+#, python-brace-format
+msgid "Press the new shortcut for “{}”. Escape cancels."
+msgstr "请按下“{}”的新快捷键。按 Escape 取消。"
+
+#: src/deskence/shortcuts.py:91
+msgid "Restore _Default"
+msgstr "恢复默认(_D)"
+
+#: src/deskence/shortcuts.py:107
+#, python-brace-format
+msgid "The default shortcut is taken: {}"
+msgstr "默认快捷键已被占用：{}"
+
+#: src/deskence/shortcuts.py:146
+msgid "Cannot Use This Shortcut"
+msgstr "无法使用此快捷键"
+
+#: src/deskence/shortcuts.py:160 src/deskence/ui/general-page.ui:107
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#: src/deskence/shortcuts.py:163
+msgid "Everywhere"
+msgstr "全局"
+
+#: src/deskence/shortcuts.py:164
+msgid ""
+"Clashes with other Deskence shortcuts and with GNOME's own are refused. "
+"Shortcuts of other applications and extensions cannot be checked."
+msgstr ""
+"与其他 Deskence 快捷键以及 GNOME 自身快捷键冲突的将被拒绝。无法检查其他应用和"
+"扩展的快捷键。"
+
+#: src/deskence/shortcuts.py:167
+msgid "In the Settings Window"
+msgstr "在设置窗口中"
+
+#: src/deskence/shortcuts.py:171
+#, python-brace-format
+msgid "Works while “{}” is turned on"
+msgstr "在“{}”打开时有效"
+
+#. Translators: the name of your language, in your language (for example
+#. "Polski", "Deutsch"). It is shown in the list of languages of Deskence,
+#. so that it can be found whatever language is shown.
+#: src/deskence/languages.py:59
+msgctxt "Name of this language, in this language"
+msgid "English"
+msgstr "简体中文"
+
+#: src/deskence/ui/general-page.ui:11
+msgid "Session Start"
+msgstr "会话开始"
+
+#: src/deskence/ui/general-page.ui:14
+msgid "Show the _Desktop After Logging In"
+msgstr "登录后显示桌面(_D)"
+
+#: src/deskence/ui/general-page.ui:15
+msgid "Start on the desktop instead of the activities overview"
+msgstr "从桌面而不是活动概览开始"
+
+#: src/deskence/ui/general-page.ui:23
+msgid ""
+"The dock, the desktop and the other features always use the language of the "
+"system."
+msgstr "程序坞、桌面和其他功能始终使用系统语言。"
+
+#: src/deskence/ui/general-page.ui:26
+msgid "Application _Language"
+msgstr "应用语言(_L)"
+
+#: src/deskence/ui/general-page.ui:27
+msgid "Settings and the deskence command"
+msgstr "设置和 deskence 命令"
+
+#: src/deskence/ui/general-page.ui:37
+msgid "The new language is used after a restart"
+msgstr "新语言将在重新启动后使用"
+
+#: src/deskence/ui/general-page.ui:41
+msgid "_Restart"
+msgstr "重新启动(_R)"
+
+#: src/deskence/ui/general-page.ui:55
+msgid "Presets"
+msgstr "预设"
+
+#: src/deskence/ui/general-page.ui:56
+msgid "Save the current settings to return to them later."
+msgstr "保存当前设置，以便以后恢复到这些设置。"
+
+#: src/deskence/ui/general-page.ui:59
+msgid "No saved presets"
+msgstr "没有已保存的预设"
+
+#: src/deskence/ui/general-page.ui:71
+msgid "_Save Current Settings…"
+msgstr "保存当前设置(_S)…"
+
+#: src/deskence/ui/general-page.ui:80
+msgid "Moving Settings"
+msgstr "迁移设置"
+
+#: src/deskence/ui/general-page.ui:81
+msgid ""
+"Move settings to another computer or keep them for a reinstall. Before "
+"importing, you see what changes."
+msgstr ""
+"将设置迁移到另一台计算机，或保留它们以便重新安装。导入之前您会看到将要更改的"
+"内容。"
+
+#: src/deskence/ui/general-page.ui:84
+msgid "_Export to File…"
+msgstr "导出到文件(_E)…"
+
+#: src/deskence/ui/general-page.ui:91
+msgid "_Import From File…"
+msgstr "从文件导入(_I)…"
+
+#: src/deskence/ui/general-page.ui:98
+msgid "_Undo Last Applied Preset…"
+msgstr "撤销最近应用的预设(_U)…"
+
+#: src/deskence/ui/general-page.ui:110
+msgid "_Keyboard Shortcuts"
+msgstr "键盘快捷键(_K)"
+
+#: src/deskence/ui/general-page.ui:111
+msgid "See and change all shortcuts of Deskence in one place"
+msgstr "在一个地方查看和更改 Deskence 的所有快捷键"
+
+#: src/deskence/ui/general-page.ui:127
+msgid ""
+"Versions, the kind of session, monitors and the state of each feature, to "
+"paste into a bug report. Nothing private is included, and nothing is sent "
+"anywhere."
+msgstr ""
+"版本、会话类型、显示器和每项功能的状态，可粘贴到错误报告中。不包含任何隐私信"
+"息，也不会发送到任何地方。"
+
+#: src/deskence/ui/general-page.ui:130
+msgid "S_how Report…"
+msgstr "显示报告(_H)…"
+
+#: src/deskence/ui/general-page.ui:137
+msgid "_Copy Diagnostics"
+msgstr "复制诊断信息(_C)"
+
+#: src/deskence/ui/general-page.ui:144
+msgid "Save Report to _File…"
+msgstr "将报告保存到文件(_F)…"
+
+#: src/deskence/ui/general-page.ui:155
+msgid "_Restore Default Deskence Settings…"
+msgstr "恢复 Deskence 默认设置(_R)…"
+
+#: src/deskence/ui/app-grid-page.ui:11
+msgid "Order"
+msgstr "顺序"
+
+#: src/deskence/ui/app-grid-page.ui:12
+msgid "How applications are arranged in the full-screen applications view."
+msgstr "全屏应用视图中应用的排列方式。"
+
+#: src/deskence/ui/app-grid-page.ui:15
+msgid "_Order of Applications"
+msgstr "应用顺序(_O)"
+
+#: src/deskence/ui/app-grid-page.ui:20
+msgid "Custom Order"
+msgstr "自定义顺序"
+
+#: src/deskence/ui/app-grid-page.ui:21
+msgid "Alphabetical"
+msgstr "字母顺序"
+
+#: src/deskence/ui/app-grid-page.ui:31
+msgid "Background"
+msgstr "背景"
+
+#: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
+#: src/deskence/ui/app-grid-page.ui:160
+msgid "When off, the color of the GNOME style is used"
+msgstr "关闭时使用 GNOME 样式的颜色"
+
+#: src/deskence/ui/app-grid-page.ui:59
+msgid "Custom Background _Transparency"
+msgstr "自定义背景透明度(_T)"
+
+#: src/deskence/ui/app-grid-page.ui:60
+msgid "When off, the background is opaque, as in GNOME"
+msgstr "关闭时背景不透明，与 GNOME 一致"
+
+#: src/deskence/ui/app-grid-page.ui:66
+msgid "_Background Transparency"
+msgstr "背景透明度(_B)"
+
+#: src/deskence/ui/app-grid-page.ui:93
+msgid "Application Folders"
+msgstr "应用文件夹"
+
+#: src/deskence/ui/app-grid-page.ui:97
+msgid "Custom Folder Co_lor"
+msgstr "自定义文件夹颜色(_L)"
+
+#: src/deskence/ui/app-grid-page.ui:104
+msgid "Folder Color"
+msgstr "文件夹颜色"
+
+#: src/deskence/ui/app-grid-page.ui:121
+msgid "Custom Folder Trans_parency"
+msgstr "自定义文件夹透明度(_P)"
+
+#: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
+msgid "When off, the transparency of the GNOME style is used"
+msgstr "关闭时使用 GNOME 样式的透明度"
+
+#: src/deskence/ui/app-grid-page.ui:128
+msgid "Folder Tr_ansparency"
+msgstr "文件夹透明度(_A)"
+
+#: src/deskence/ui/app-grid-page.ui:155
+msgid "Hover Highlight"
+msgstr "悬停高亮"
+
+#: src/deskence/ui/app-grid-page.ui:159
+msgid "Custom _Highlight Color"
+msgstr "自定义高亮颜色(_H)"
+
+#: src/deskence/ui/app-grid-page.ui:166
+msgid "Highlight Color"
+msgstr "高亮颜色"
+
+#: src/deskence/ui/app-grid-page.ui:183
+msgid "Custom Highlight Transparenc_y"
+msgstr "自定义高亮透明度(_Y)"
+
+#: src/deskence/ui/clipboard-page.ui:11
+msgid ""
+"Copy and paste work as before. The history of copied texts and images opens "
+"with its own shortcut."
+msgstr "复制和粘贴照常工作。已复制的文本和图片的历史可用专门的快捷键打开。"
+
+#: src/deskence/ui/clipboard-page.ui:14
+msgid "_Clipboard History"
+msgstr "剪贴板历史(_C)"
+
+#: src/deskence/ui/clipboard-page.ui:25
+msgid "_Paste the Chosen Item"
+msgstr "粘贴所选项目(_P)"
+
+#: src/deskence/ui/clipboard-page.ui:26
+msgid ""
+"Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
+"When off, the item is only put on the clipboard."
+msgstr ""
+"用 Ctrl+V（在终端中为 Ctrl+Shift+V）粘贴到您之前所在的窗口。关闭时，项目只会"
+"放到剪贴板上。"
+
+#: src/deskence/ui/clipboard-page.ui:32
+msgid "Always Paste Text _Without Formatting"
+msgstr "始终粘贴无格式文本(_W)"
+
+#: src/deskence/ui/clipboard-page.ui:33
+msgid ""
+"Older items are always plain text. Shift+Enter pastes plain text any time."
+msgstr "较旧的项目始终是纯文本。按 Shift+Enter 可随时粘贴纯文本。"
+
+#: src/deskence/ui/clipboard-page.ui:39
+msgid "Also Remember Selected _Text"
+msgstr "同时记住选中的文本(_T)"
+
+#: src/deskence/ui/clipboard-page.ui:40
+msgid "Text selected with the mouse, which the middle button pastes"
+msgstr "用鼠标选中、可用鼠标中键粘贴的文本"
+
+#: src/deskence/ui/clipboard-page.ui:48
+msgid "Storage"
+msgstr "存储"
+
+#: src/deskence/ui/clipboard-page.ui:49
+msgid ""
+"The history is kept in memory only and is gone after logging out. Pinned "
+"items stay when the history is cleared and do not count toward the limit. "
+"Content that applications mark as secret, such as from password managers, is "
+"not remembered; not every password can be recognized."
+msgstr ""
+"历史只保存在内存中，注销后消失。已固定的项目在清除历史后仍会保留，且不计入上"
+"限。应用标记为机密的内容（例如来自密码管理器的内容）不会被记住；但并非所有密"
+"码都能被识别。"
+
+#: src/deskence/ui/clipboard-page.ui:52
+msgid "_Items Remembered"
+msgstr "记住的项目数(_I)"
+
+#: src/deskence/ui/clipboard-page.ui:66
+msgid "_Keep After Logging Out"
+msgstr "注销后保留(_K)"
+
+#: src/deskence/ui/clipboard-page.ui:71
+msgid "Nothing"
+msgstr "无"
+
+#: src/deskence/ui/clipboard-page.ui:72
+msgid "Pinned Items"
+msgstr "已固定的项目"
+
+#: src/deskence/ui/clipboard-page.ui:73
+msgid "Whole History"
+msgstr "全部历史"
+
+#: src/deskence/ui/clipboard-page.ui:81
+msgid "P_ause Remembering"
+msgstr "暂停记录(_A)"
+
+#: src/deskence/ui/clipboard-page.ui:82
+msgid "New items are not added until this is turned off"
+msgstr "关闭此项之前不会添加新项目"
+
+#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#, javascript-format
+msgid "Folder %s"
+msgstr "文件夹 %s"
+
+#: extensions/dock/stacks.js:482
+msgid "Back"
+msgstr "返回"
+
+#: extensions/dock/stacks.js:500
+msgid "Date"
+msgstr "日期"
+
+#: extensions/dock/stacks.js:501
+msgid "Type"
+msgstr "类型"
+
+#: extensions/dock/stacks.js:507
+#, javascript-format
+msgid "Sort by %s"
+msgstr "按%s排序"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as Grid"
+msgstr "以网格显示"
+
+#: extensions/dock/stacks.js:729
+msgid "Show as List"
+msgstr "以列表显示"
+
+#: extensions/dock/stacks.js:755
+msgid "This standard folder is not set up."
+msgstr "未设置此标准文件夹。"
+
+#: extensions/dock/stacks.js:759
+msgid "Loading…"
+msgstr "正在加载…"
+
+#: extensions/dock/stacks.js:824
+msgid "This folder does not exist anymore."
+msgstr "此文件夹已不存在。"
+
+#: extensions/dock/stacks.js:826
+msgid "You do not have permission to open this folder."
+msgstr "您没有打开此文件夹的权限。"
+
+#: extensions/dock/stacks.js:828
+#, javascript-format
+msgid "This folder cannot be opened: %s"
+msgstr "无法打开此文件夹：%s"
+
+#: extensions/dock/stacks.js:897
+msgid "This folder is empty."
+msgstr "此文件夹为空。"
+
+#: extensions/dock/stacks.js:899
+#, javascript-format
+msgid ""
+"This folder has more than %d items; only the first ones are shown. Open it "
+"in Files to see all."
+msgstr ""
+"此文件夹包含超过 %d 个项目；只显示前面的项目。在“文件”中打开即可查看全部。"
+
+#: extensions/dock/stacks.js:1101
+msgid "Folder"
+msgstr "文件夹"
+
+#: extensions/dock/stacks.js:1176
+#, javascript-format
+msgid "Could not open “%s”"
+msgstr "无法打开“%s”"
+
+#: extensions/dock/stacks.js:1231
+msgid "Copy"
+msgstr "复制"
+
+#: extensions/dock/stacks.js:1232
+msgid "Cut"
+msgstr "剪切"
+
+#: extensions/dock/fileDrop.js:135
+#, javascript-format
+msgid "%s is not available"
+msgstr "%s 不可用"
+
+#: extensions/dock/fileDrop.js:137
+#, javascript-format
+msgid "%s is read-only"
+msgstr "%s 为只读"
+
+#: extensions/dock/fileDrop.js:139
+msgid "A folder cannot be put into itself"
+msgstr "不能将文件夹放入其自身"
+
+#: extensions/dock/fileDrop.js:141
+#, javascript-format
+msgid "Already in %s"
+msgstr "已在 %s 中"
+
+#: extensions/dock/fileDrop.js:143
+msgid "Only files can be put into a folder"
+msgstr "只能将文件放入文件夹"
+
+#: extensions/dock/fileDrop.js:148
+#, javascript-format
+msgid "Move to %s"
+msgstr "移动到 %s"
+
+#: extensions/dock/fileDrop.js:149
+#, javascript-format
+msgid "Copy to %s"
+msgstr "复制到 %s"
+
+#: extensions/dock/fileDrop.js:150
+#, javascript-format
+msgid "Move or copy to %s"
+msgstr "移动或复制到 %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot move the files to %s"
+msgstr "无法将文件移动到 %s"
+
+#: extensions/dock/fileDrop.js:168
+#, javascript-format
+msgid "Cannot copy the files to %s"
+msgstr "无法将文件复制到 %s"
+
+#: extensions/dock/fileDrop.js:171
+msgid "Copying and moving files from the dock needs the Files application."
+msgstr "从程序坞复制和移动文件需要“文件”应用。"
+
+#: extensions/dock/fileDrop.js:606
+#, javascript-format
+msgid "Cannot open the files in %s"
+msgstr "无法在 %s 中打开这些文件"
+
+#: extensions/dock/appTypes.js:59
+#, javascript-format
+msgid "Open with %s"
+msgstr "用 %s 打开"
+
+#: extensions/dock/appTypes.js:61
+#, javascript-format
+msgid "%s cannot open files"
+msgstr "%s 无法打开文件"
+
+#: extensions/dock/appTypes.js:63
+#, javascript-format
+msgid "Cannot confirm that %s opens these files"
+msgstr "无法确认 %s 能打开这些文件"
+
+#: extensions/dock/appTypes.js:65
+#, javascript-format
+msgid "%d of the files is no longer available"
+msgid_plural "%d of the files are no longer available"
+msgstr[0] "其中 %d 个文件已不可用"
+
+#: extensions/dock/appTypes.js:70
+#, javascript-format
+msgid "%s does not open this type of file"
+msgstr "%s 无法打开此类型的文件"
+
+#: extensions/dock/appTypes.js:71
+#, javascript-format
+msgid "%s does not open %d of these files"
+msgid_plural "%s does not open %d of these files"
+msgstr[0] "%s 无法打开其中 %d 个文件"
+
+#: extensions/dock/appIcon.js:95
+#, javascript-format
+msgid "%s, %d new item"
+msgid_plural "%s, %d new items"
+msgstr[0] "%s，%d 个新项目"
+
+#: extensions/app-grid/sorter.js:225
+msgid "Applications are sorted alphabetically"
+msgstr "应用已按字母顺序排列"
+
+#: extensions/app-grid/sorter.js:226
+msgid "To arrange them yourself, choose “Custom Order” in Deskence."
+msgstr "要自行排列，请在 Deskence 中选择“自定义顺序”。"
+
+#: extensions/clipboard/extension.js:272
+msgid "Ready to Paste"
+msgstr "可以粘贴"
+
+#: extensions/clipboard/panel.js:42
+msgid "Just now"
+msgstr "刚刚"
+
+#: extensions/clipboard/panel.js:44
+#, javascript-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d 分钟前"
+
+#: extensions/clipboard/panel.js:47
+#, javascript-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d 小时前"
+
+#: extensions/clipboard/panel.js:80
+msgid "Clipboard History"
+msgstr "剪贴板历史"
+
+#: extensions/clipboard/panel.js:88
+msgid "Search the history"
+msgstr "搜索历史"
+
+#: extensions/clipboard/panel.js:109 extensions/clipboard/panel.js:163
+msgid "Clear History"
+msgstr "清除历史"
+
+#: extensions/clipboard/panel.js:140
+msgid ""
+"Enter: paste · Shift+Enter: paste as plain text · Delete: remove · Ctrl+P: "
+"pin"
+msgstr "Enter：粘贴 · Shift+Enter：以纯文本粘贴 · Delete：移除 · Ctrl+P：固定"
+
+#: extensions/clipboard/panel.js:159
+msgid "Resume Remembering"
+msgstr "继续记录"
+
+#: extensions/clipboard/panel.js:159
+msgid "Pause Remembering"
+msgstr "暂停记录"
+
+#: extensions/clipboard/panel.js:171
+msgid "Click Again to Clear"
+msgstr "再次点击以清除"
+
+#: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
+msgid "Click again to remove all items except pinned ones."
+msgstr "再次点击以移除除已固定项目外的所有项目。"
+
+#: extensions/clipboard/panel.js:206
+msgid "New items are not remembered until you resume."
+msgstr "在您继续之前不会记住新项目。"
+
+#: extensions/clipboard/panel.js:208
+msgid "Nothing copied yet. Items you copy appear here."
+msgstr "尚未复制任何内容。您复制的项目会显示在这里。"
+
+#: extensions/clipboard/panel.js:210
+msgid "No items match the search."
+msgstr "没有与搜索匹配的项目。"
+
+#: extensions/clipboard/panel.js:229
+#, javascript-format
+msgid "Image, %s"
+msgstr "图片，%s"
+
+#: extensions/clipboard/panel.js:248
+msgid "Unpin"
+msgstr "取消固定"
+
+#: extensions/clipboard/panel.js:248
+msgid "Pin"
+msgstr "固定"
+
+#: extensions/clipboard/panel.js:252
+msgid "Remove"
+msgstr "移除"
+
+#: extensions/keep-awake/extension.js:83
+msgid "Keep Awake is on: the screen stays on"
+msgstr "“保持唤醒”已开启：屏幕保持开启"
+
+#: extensions/keep-awake/extension.js:84
+msgid "Keep Awake is on"
+msgstr "“保持唤醒”已开启"
+
+#: extensions/keep-awake/extension.js:127
+msgid "Less"
+msgstr "收起"
+
+#: extensions/keep-awake/extension.js:147
+#: extensions/keep-awake/extension.js:208
+msgid "Prevents automatic suspend"
+msgstr "阻止自动挂起"
+
+#: extensions/keep-awake/extension.js:155
+msgid "Until Turned Off"
+msgstr "直到关闭"
+
+#: extensions/keep-awake/extension.js:156
+#: extensions/keep-awake/extension.js:157
+#: extensions/keep-awake/extension.js:197
+#, javascript-format
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d 分钟"
+
+#: extensions/keep-awake/extension.js:158
+#: extensions/keep-awake/extension.js:196
+#, javascript-format
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d 小时"
+
+#: extensions/keep-awake/extension.js:169
+msgid "Keep the Screen On"
+msgstr "保持屏幕开启"
+
+#: extensions/keep-awake/extension.js:174
+msgid "The screen then does not turn off or lock automatically"
+msgstr "届时屏幕不会自动关闭或锁定"
+
+#: extensions/keep-awake/extension.js:179
+msgid "End Now"
+msgstr "立即结束"
+
+#: extensions/keep-awake/extension.js:198
+#: extensions/keep-awake/extension.js:322
+#, javascript-format
+msgid "Until %s"
+msgstr "直到 %s"
+
+#: extensions/keep-awake/extension.js:319
+msgid "Until turned off"
+msgstr "直到关闭"
+
+#: extensions/keep-awake/extension.js:325
+#, javascript-format
+msgid "%d minute left"
+msgid_plural "%d minutes left"
+msgstr[0] "剩余 %d 分钟"
