@@ -93,6 +93,7 @@ class DesktopApplication(Adw.Application):
         self._pending_positions = {}
         self._layout_id = 0
         self._primary = None
+        self._unnamed_monitors = set()
 
     # -- Startup ---------------------------------------------------------
 
@@ -144,13 +145,27 @@ class DesktopApplication(Adw.Application):
         self._sync_windows()
 
     def _sync_windows(self):
+        """One window per monitor, named after its connector, by which the
+        shell places it.
+
+        GDK adds a monitor (one plugged in, or back after a suspend) before
+        it knows its connector. A window made then would be named after no
+        monitor, and the shell would put it on the primary one: an empty
+        window above the icons there, taking every click and selection. Such
+        a monitor gets its window once its connector is known. A monitor
+        that came back as a new object gets a new window, sized for it."""
         monitors = Gdk.Display.get_default().get_monitors()
         wanted = {}
         for i in range(monitors.get_n_items()):
             monitor = monitors.get_item(i)
-            wanted[monitor.get_connector() or str(i)] = monitor
+            connector = monitor.get_connector()
+            if connector:
+                wanted[connector] = monitor
+            elif monitor not in self._unnamed_monitors:
+                self._unnamed_monitors.add(monitor)
+                monitor.connect("notify::connector", lambda *a: self._sync_windows())
         for connector in list(self.windows):
-            if connector not in wanted:
+            if wanted.get(connector) is not self.windows[connector].monitor:
                 self.windows.pop(connector).destroy()
         for connector, monitor in wanted.items():
             if connector not in self.windows:
