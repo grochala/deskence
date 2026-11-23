@@ -1,5 +1,5 @@
 Name:           deskence
-Version:        0.15.0
+Version:        0.15.1
 Release:        1%{?dist}
 Summary:        Dock, desktop icons and tray for GNOME
 
@@ -91,6 +91,13 @@ glib-compile-schemas --strict --dry-run %{buildroot}%{_datadir}/glib-2.0/schemas
 %config(noreplace) %{_sysconfdir}/xdg/autostart/deskence-migration.desktop
 
 %changelog
+* Mon Nov 23 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.15.1-1
+- Dock: counters are round; counters, window dots and folder markers
+  stay sharp when icons are magnified; window dots all have one size,
+  white for the focused application
+- Desktop: icons answer clicks and selection again after a monitor is
+  reconnected
+
 * Mon Nov 23 2026 Rafał Grochala <rafal.grochala@pixmedia.pl> - 0.15.0-1
 - Translations into 27 more languages: all official languages of the
   European Union, Korean, Simplified and Traditional Chinese, Serbian

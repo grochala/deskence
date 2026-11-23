@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"POT-Creation-Date: 2026-11-23 17:25+0000\n"
 "PO-Revision-Date: 2026-11-23 12:00+0100\n"
 "Last-Translator: Deskence project\n"
 "Language-Team: Greek\n"
@@ -101,6 +101,14 @@ msgstr ""
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:43
 msgid ""
+"Dock: counters on application icons are round, and they, the window dots and "
+"the folder markers stay sharp when icons are magnified. Window dots all have "
+"the same size; those of the focused application are white. Desktop: icons "
+"respond to clicks and selection again after a monitor is reconnected."
+msgstr "Dock: οι μετρητές στα εικονίδια των εφαρμογών είναι στρογγυλοί και, μαζί με τις τελείες των παραθύρων και τους δείκτες των φακέλων, παραμένουν ευκρινείς όταν τα εικονίδια μεγεθύνονται. Όλες οι τελείες των παραθύρων έχουν το ίδιο μέγεθος· της ενεργής εφαρμογής είναι λευκές. Επιφάνεια εργασίας: τα εικονίδια ανταποκρίνονται ξανά σε κλικ και επιλογή μετά την επανασύνδεση μιας οθόνης."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
 "Deskence is now available in 29 languages: all official languages of the "
 "European Union, Korean, Simplified and Traditional Chinese, Serbian and "
 "Filipino. The language list in the settings names the language the system "
@@ -111,7 +119,7 @@ msgstr ""
 "σερβικά και φιλιππινέζικα. Η λίστα γλωσσών στις ρυθμίσεις αναφέρει τη γλώσσα "
 "που χρησιμοποιεί το σύστημα."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
 msgid ""
 "Settings: choose the language of the settings window and the deskence "
 "command on the General page, independently of the system."
@@ -119,7 +127,7 @@ msgstr ""
 "Ρυθμίσεις: επιλέξτε τη γλώσσα του παραθύρου ρυθμίσεων και της εντολής "
 "deskence στη σελίδα Γενικά, ανεξάρτητα από το σύστημα."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
 msgid ""
 "Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
 "Ctrl+X) and paste them in Files or on the desktop."
@@ -128,7 +136,7 @@ msgstr ""
 "κλικ, Ctrl+C, Ctrl+X) και επικολλήστε τα στα Αρχεία ή στην επιφάνεια "
 "εργασίας."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+#: data/io.github.deskence.Deskence.metainfo.xml.in:63
 msgid ""
 "Dock: drag files and folders from a folder panel onto another folder in the "
 "dock or onto the desktop to move or copy them."
@@ -136,7 +144,7 @@ msgstr ""
 "Dock: σύρετε αρχεία και φακέλους από ένα πλαίσιο φακέλου σε άλλο φάκελο του "
 "dock ή στην επιφάνεια εργασίας για να τα μετακινήσετε ή να τα αντιγράψετε."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+#: data/io.github.deskence.Deskence.metainfo.xml.in:64
 msgid ""
 "Dock: applications only open dropped files of types they declare; otherwise "
 "the dock says why."
@@ -144,13 +152,13 @@ msgstr ""
 "Dock: οι εφαρμογές ανοίγουν αρχεία που αφήνονται πάνω τους μόνο των τύπων "
 "που δηλώνουν· διαφορετικά το dock εξηγεί γιατί."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
 msgid "Dock: the marker under folders matches the dots of applications."
 msgstr ""
 "Dock: η σήμανση κάτω από τους φακέλους ταιριάζει με τις τελείες των "
 "εφαρμογών."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
 msgid ""
 "Start on the desktop: after logging in, the desktop, the top bar and windows "
 "take clicks again when animations are off, for example in virtual machines "
@@ -163,7 +171,7 @@ msgstr ""
 "τρισδιάστατη επιτάχυνση· πριν ανταποκρινόταν μόνο το dock, μέχρι να ανοίξει "
 "μία φορά η επισκόπηση."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
 msgid ""
 "Optional diagnostics for reports of a desktop and windows that stop taking "
 "clicks."
@@ -171,7 +179,7 @@ msgstr ""
 "Προαιρετικά διαγνωστικά για αναφορές όταν η επιφάνεια εργασίας και τα "
 "παράθυρα παύουν να ανταποκρίνονται στα κλικ."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
 msgid ""
 "Dock: dragging files onto the dock always ends cleanly, also when something "
 "fails during the drop."
@@ -179,7 +187,7 @@ msgstr ""
 "Dock: η μεταφορά αρχείων στο dock ολοκληρώνεται πάντα σωστά, ακόμη και όταν "
 "κάτι αποτύχει κατά την απόθεση."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
 msgid ""
 "Dock: drop files on an application to open them in it, or on a folder to "
 "copy or move them there; hold a file over a folder to open it and drop into "
@@ -189,7 +197,7 @@ msgstr ""
 "για να αντιγραφούν ή να μετακινηθούν εκεί· κρατήστε ένα αρχείο πάνω από έναν "
 "φάκελο για να ανοίξει και αφήστε το σε έναν από τους υποφακέλους του."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+#: data/io.github.deskence.Deskence.metainfo.xml.in:90
 msgid ""
 "Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
 "one place with checks for clashes, and copy or save a report for bug reports."
@@ -198,7 +206,7 @@ msgstr ""
 "συντομεύσεων πληκτρολογίου σε ένα σημείο με έλεγχο συγκρούσεων και αντιγραφή "
 "ή αποθήκευση αναφοράς για αναφορές σφαλμάτων."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+#: data/io.github.deskence.Deskence.metainfo.xml.in:91
 msgid ""
 "Presets: undoing an applied preset restores only what it changed and keeps "
 "settings you changed afterwards."
@@ -206,7 +214,7 @@ msgstr ""
 "Προρυθμίσεις: η αναίρεση μιας εφαρμοσμένης προρύθμισης επαναφέρει μόνο ό,τι "
 "άλλαξε και διατηρεί τις ρυθμίσεις που αλλάξατε αργότερα."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
 msgid ""
 "Dock: unread counters and the progress of operations on application icons, "
 "for applications that report them."
@@ -214,7 +222,7 @@ msgstr ""
 "Dock: μετρητές μη αναγνωσμένων και πρόοδος λειτουργιών στα εικονίδια των "
 "εφαρμογών που τα αναφέρουν."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+#: data/io.github.deskence.Deskence.metainfo.xml.in:97
 msgid ""
 "Command line: check the state of each feature, turn features off and on, "
 "apply, import and export presets, restore defaults and collect diagnostics "
@@ -227,7 +235,7 @@ msgstr ""
 "εντολή deskence, ακόμη και από κονσόλα κειμένου όταν η επιφάνεια εργασίας "
 "δεν λειτουργεί. Δείτε man deskence."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
 msgid ""
 "Restoring default settings no longer deletes a clipboard history that is "
 "kept after logging out."
@@ -235,7 +243,7 @@ msgstr ""
 "Η επαναφορά των προεπιλεγμένων ρυθμίσεων δεν διαγράφει πλέον το ιστορικό "
 "προχείρου που διατηρείται μετά την αποσύνδεση."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+#: data/io.github.deskence.Deskence.metainfo.xml.in:103
 msgid ""
 "Applications view: your own color and transparency for the highlight under "
 "the pointer on applications and application folders; hovering a folder no "
@@ -245,7 +253,7 @@ msgstr ""
 "τον δείκτη σε εφαρμογές και φακέλους εφαρμογών· η μετακίνηση πάνω από φάκελο "
 "δεν σχεδιάζει πλέον περίγραμμα."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+#: data/io.github.deskence.Deskence.metainfo.xml.in:104
 msgid ""
 "Folders in the dock: the panel takes at most half of the screen height and "
 "scrolls through the whole folder, also with the keyboard, and returns to the "
@@ -255,7 +263,7 @@ msgstr ""
 "κυλά σε όλο τον φάκελο, και με το πληκτρολόγιο, και επιστρέφει στην "
 "προηγούμενη θέση μετά από υποφάκελο."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
 msgid ""
 "Settings: clearer descriptions, better Polish wording and fewer clashing "
 "keyboard shortcuts."
@@ -263,7 +271,7 @@ msgstr ""
 "Ρυθμίσεις: σαφέστερες περιγραφές, καλύτερες πολωνικές διατυπώσεις και "
 "λιγότερες συγκρουόμενες συντομεύσεις πληκτρολογίου."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+#: data/io.github.deskence.Deskence.metainfo.xml.in:110
 msgid ""
 "Dock: a dock along the whole edge matches the top bar in the activities "
 "overview and the applications view; a short dock keeps its own look."
@@ -272,7 +280,7 @@ msgstr ""
 "δραστηριοτήτων και στην προβολή εφαρμογών· ένα κοντό dock διατηρεί τη δική "
 "του εμφάνιση."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
 msgid ""
 "Applications view: folder tiles with your own color or transparency now "
 "clearly show hover, press, focus and selection."
@@ -281,7 +289,7 @@ msgstr ""
 "δείχνουν πλέον καθαρά το πέρασμα του δείκτη, το πάτημα, την εστίαση και την "
 "επιλογή."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+#: data/io.github.deskence.Deskence.metainfo.xml.in:116
 msgid ""
 "Applications view: your own color and transparency for folder tiles such as "
 "“Utilities”."
@@ -289,7 +297,7 @@ msgstr ""
 "Προβολή εφαρμογών: δικό σας χρώμα και διαφάνεια για πλακίδια φακέλων όπως "
 "«Βοηθήματα»."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+#: data/io.github.deskence.Deskence.metainfo.xml.in:117
 msgid ""
 "General: optionally start on the desktop instead of the activities overview "
 "after logging in."
@@ -297,7 +305,7 @@ msgstr ""
 "Γενικά: προαιρετική έναρξη στην επιφάνεια εργασίας αντί για την επισκόπηση "
 "δραστηριοτήτων μετά τη σύνδεση."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
 msgid ""
 "Dock: it now blends into the activities overview instead of forming a "
 "separate band."
@@ -305,7 +313,7 @@ msgstr ""
 "Dock: πλέον ενσωματώνεται στην επισκόπηση δραστηριοτήτων αντί να σχηματίζει "
 "ξεχωριστή λωρίδα."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
 msgid ""
 "Project homepage and bug tracker links, English documentation. No changes to "
 "the application."
@@ -313,7 +321,7 @@ msgstr ""
 "Σύνδεσμοι προς τη σελίδα του έργου και την παρακολούθηση σφαλμάτων, "
 "τεκμηρίωση στα αγγλικά. Καμία αλλαγή στην εφαρμογή."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+#: data/io.github.deskence.Deskence.metainfo.xml.in:128
 msgid ""
 "Settings: a General page with presets, exporting and importing settings and "
 "restoring defaults; an Applications View page with alphabetical sorting; "
@@ -323,7 +331,7 @@ msgstr ""
 "επαναφορά των προεπιλογών· σελίδα Προβολή εφαρμογών με αλφαβητική "
 "ταξινόμηση· πιο ήρεμες προεπισκοπήσεις."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+#: data/io.github.deskence.Deskence.metainfo.xml.in:129
 msgid ""
 "Dock: folders that show their contents, closing and peeking at windows from "
 "their previews, Always on Top in the preview menu."
@@ -332,7 +340,7 @@ msgstr ""
 "παράθυρα από τις προεπισκοπήσεις τους, «Πάντα στην κορυφή» στο μενού της "
 "προεπισκόπησης."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
 msgid ""
 "New: clipboard history, Keep Awake in the quick settings, an Always on Top "
 "shortcut."
@@ -340,7 +348,7 @@ msgstr ""
 "Νέα: ιστορικό προχείρου, «Σε εγρήγορση» στις γρήγορες ρυθμίσεις, μια "
 "συντόμευση για το «Πάντα στην κορυφή»."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+#: data/io.github.deskence.Deskence.metainfo.xml.in:135
 msgid ""
 "Better GNOME Desktop is now called Deskence. Settings, enabled features, "
 "pinned applications and desktop icon positions are taken over."
@@ -349,7 +357,7 @@ msgstr ""
 "ενεργοποιημένες λειτουργίες, οι καρφιτσωμένες εφαρμογές και οι θέσεις των "
 "εικονιδίων της επιφάνειας εργασίας μεταφέρονται."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+#: data/io.github.deskence.Deskence.metainfo.xml.in:136
 msgid ""
 "Dock: previews of the windows of an application when the pointer rests on "
 "it, no extra space next to the applications button when icons are magnified, "
@@ -360,7 +368,7 @@ msgstr ""
 "μεγεθύνονται, ενδείξεις εκτέλεσης κάτω από τα εικονίδια ενός dock στο κάτω "
 "μέρος."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
 msgid ""
 "Settings: larger, clearer previews of the dock and the desktop icons, page "
 "icons, an “About” menu item."
@@ -368,11 +376,11 @@ msgstr ""
 "Ρυθμίσεις: μεγαλύτερες και σαφέστερες προεπισκοπήσεις του dock και των "
 "εικονιδίων επιφάνειας εργασίας, εικονίδια σελίδων, στοιχείο μενού «Περί»."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
 msgid "Better GNOME Desktop is now called Deskence."
 msgstr "Το Better GNOME Desktop ονομάζεται πλέον Deskence."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+#: data/io.github.deskence.Deskence.metainfo.xml.in:147
 msgid ""
 "Dock: sharp magnified icons, no tiles under icons with a custom background, "
 "monochrome distribution logo, the application list kept at the start of a "
@@ -382,7 +390,7 @@ msgstr ""
 "δικό σας φόντο, μονόχρωμο λογότυπο διανομής, η λίστα εφαρμογών στην αρχή "
 "ενός dock σε όλο το άκρο, ενδείξεις εκτέλεσης στην εσωτερική πλευρά."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+#: data/io.github.deskence.Deskence.metainfo.xml.in:148
 msgid ""
 "Applications view: one continuous closing transition, optional custom "
 "background color."
@@ -390,7 +398,7 @@ msgstr ""
 "Προβολή εφαρμογών: μία συνεχής μετάβαση στο κλείσιμο, προαιρετικό δικό σας "
 "χρώμα φόντου."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
 msgid ""
 "Desktop: menus open at the clicked point, also beside the dock; the icon "
 "grid starts at the chosen corner with small margins."
@@ -399,7 +407,7 @@ msgstr ""
 "dock· το πλέγμα εικονιδίων ξεκινά από την επιλεγμένη γωνία με μικρά "
 "περιθώρια."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+#: data/io.github.deskence.Deskence.metainfo.xml.in:154
 msgid ""
 "Dock: applications button at either end with a choice of icon, magnified "
 "icons, scrolling when the applications do not fit, custom background color "
@@ -411,7 +419,7 @@ msgstr ""
 "φόντου, ρυθμίσεις στο μενού του κουμπιού εφαρμογών, διαφανές φόντο για την "
 "προβολή εφαρμογών."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+#: data/io.github.deskence.Deskence.metainfo.xml.in:155
 msgid ""
 "Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
 "the whole desktop beside the dock usable, icon positions that do not move "
@@ -421,7 +429,7 @@ msgstr ""
 "πλέγμα, «Ευθυγράμμιση στο πλέγμα», ολόκληρη η επιφάνεια εργασίας δίπλα στο "
 "dock διαθέσιμη, θέσεις εικονιδίων που δεν μετακινούνται μαζί με το dock."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
 msgid ""
 "Fixes: smooth closing of the applications view, immediate reordering of dock "
 "icons, no frame while dragging desktop icons, one desktop menu everywhere."
@@ -430,7 +438,7 @@ msgstr ""
 "εικονιδίων του dock, χωρίς πλαίσιο κατά τη μεταφορά εικονιδίων επιφάνειας "
 "εργασίας, ένα ενιαίο μενού επιφάνειας εργασίας παντού."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+#: data/io.github.deskence.Deskence.metainfo.xml.in:161
 msgid "First release."
 msgstr "Πρώτη έκδοση."
 
@@ -1289,7 +1297,7 @@ msgstr "Αδιαφανές"
 msgid "Transparent"
 msgstr "Διαφανές"
 
-#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:554
 #: src/deskence/general.py:252 src/deskence/general.py:283
 #: src/deskence/general.py:326 src/deskence/general.py:436
 #: src/deskence/general.py:511 src/deskence/shortcuts.py:89
@@ -1524,7 +1532,7 @@ msgstr "Μετακίνηση πάνω"
 msgid "Move Down"
 msgstr "Μετακίνηση κάτω"
 
-#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:376
 msgid "Remove From Dock"
 msgstr "Αφαίρεση από το dock"
 
@@ -1541,7 +1549,7 @@ msgid "Only local folders can be added."
 msgstr "Μόνο τοπικοί φάκελοι μπορούν να προστεθούν."
 
 #: src/deskence/pages.py:551 src/deskence/pages.py:630
-#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: desktop-icons/deskence_desktop/app.py:583 src/deskence/general.py:180
 #: src/deskence/general.py:415 src/deskence/shortcuts.py:147
 msgid "_Close"
 msgstr "_Κλείσιμο"
@@ -2156,8 +2164,8 @@ msgstr "Εμφάνιση _εικονιδίων στην επιφάνεια ερ�
 msgid "Desktop Folder"
 msgstr "Φάκελος επιφάνειας εργασίας"
 
-#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
-#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:369
+#: extensions/dock/stacks.js:558 extensions/dock/stacks.js:562
 msgid "Open in Files"
 msgstr "Άνοιγμα στα Αρχεία"
 
@@ -2166,7 +2174,7 @@ msgid "Icons"
 msgstr "Εικονίδια"
 
 #: src/deskence/ui/desktop-icons-page.ui:53
-#: desktop-icons/deskence_desktop/app.py:798
+#: desktop-icons/deskence_desktop/app.py:813
 msgid "_Size"
 msgstr "_Μέγεθος"
 
@@ -2397,37 +2405,37 @@ msgstr "Υπάρχει ήδη στοιχείο με αυτό το όνομα."
 msgid "The name is too long."
 msgstr "Το όνομα είναι πολύ μεγάλο."
 
-#: desktop-icons/deskence_desktop/app.py:496
+#: desktop-icons/deskence_desktop/app.py:511
 msgid "Cannot open the location"
 msgstr "Δεν είναι δυνατό το άνοιγμα της τοποθεσίας"
 
-#: desktop-icons/deskence_desktop/app.py:504
-#: desktop-icons/deskence_desktop/app.py:520
-#: desktop-icons/deskence_desktop/app.py:526
-#: desktop-icons/deskence_desktop/app.py:671
+#: desktop-icons/deskence_desktop/app.py:519
+#: desktop-icons/deskence_desktop/app.py:535
+#: desktop-icons/deskence_desktop/app.py:541
+#: desktop-icons/deskence_desktop/app.py:686
 #, python-brace-format
 msgid "Cannot open “{}”"
 msgstr "Δεν είναι δυνατό το άνοιγμα του «{}»"
 
-#: desktop-icons/deskence_desktop/app.py:505
+#: desktop-icons/deskence_desktop/app.py:520
 msgid "The link is broken: the item it points to does not exist."
 msgstr ""
 "Ο σύνδεσμος είναι κατεστραμμένος: το στοιχείο στο οποίο δείχνει δεν υπάρχει."
 
-#: desktop-icons/deskence_desktop/app.py:527
+#: desktop-icons/deskence_desktop/app.py:542
 msgid "The launcher is not valid."
 msgstr "Ο εκκινητής δεν είναι έγκυρος."
 
-#: desktop-icons/deskence_desktop/app.py:532
+#: desktop-icons/deskence_desktop/app.py:547
 #, python-brace-format
 msgid "Cannot start “{}”"
 msgstr "Δεν είναι δυνατή η εκκίνηση του «{}»"
 
-#: desktop-icons/deskence_desktop/app.py:536
+#: desktop-icons/deskence_desktop/app.py:551
 msgid "Untrusted Launcher"
 msgstr "Μη έμπιστος εκκινητής"
 
-#: desktop-icons/deskence_desktop/app.py:537
+#: desktop-icons/deskence_desktop/app.py:552
 #, python-brace-format
 msgid ""
 "“{}” has not been marked as trusted. Only allow launching if you know where "
@@ -2436,142 +2444,142 @@ msgstr ""
 "Το «{}» δεν έχει σημειωθεί ως έμπιστο. Επιτρέψτε την εκκίνηση μόνο αν "
 "γνωρίζετε από πού προέρχεται αυτό το αρχείο."
 
-#: desktop-icons/deskence_desktop/app.py:540
+#: desktop-icons/deskence_desktop/app.py:555
 msgid "_Allow and Launch"
 msgstr "_Να επιτρέπεται και εκκίνηση"
 
-#: desktop-icons/deskence_desktop/app.py:559
+#: desktop-icons/deskence_desktop/app.py:574
 #, python-brace-format
 msgid "Cannot allow launching “{}”"
 msgstr "Δεν είναι δυνατό να επιτραπεί η εκκίνηση του «{}»"
 
-#: desktop-icons/deskence_desktop/app.py:624
+#: desktop-icons/deskence_desktop/app.py:639
 msgid "Cannot open Settings"
 msgstr "Δεν είναι δυνατό το άνοιγμα των Ρυθμίσεων"
 
-#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+#: desktop-icons/deskence_desktop/app.py:647 extensions/dock/dock.js:78
 msgid "Cannot open Deskence"
 msgstr "Δεν είναι δυνατό το άνοιγμα του Deskence"
 
-#: desktop-icons/deskence_desktop/app.py:688
+#: desktop-icons/deskence_desktop/app.py:703
 #, python-brace-format
 msgid "Cannot unmount “{}”"
 msgstr "Δεν είναι δυνατή η αποπροσάρτηση του «{}»"
 
-#: desktop-icons/deskence_desktop/app.py:720
+#: desktop-icons/deskence_desktop/app.py:735
 msgid "Names starting with “.” are hidden."
 msgstr "Τα ονόματα που ξεκινούν με «.» είναι κρυφά."
 
-#: desktop-icons/deskence_desktop/app.py:747
-#: desktop-icons/deskence_desktop/app.py:750
+#: desktop-icons/deskence_desktop/app.py:762
+#: desktop-icons/deskence_desktop/app.py:765
 msgid "New Folder"
 msgstr "Νέος φάκελος"
 
-#: desktop-icons/deskence_desktop/app.py:757
+#: desktop-icons/deskence_desktop/app.py:772
 msgid "Folder Name"
 msgstr "Όνομα φακέλου"
 
-#: desktop-icons/deskence_desktop/app.py:757
+#: desktop-icons/deskence_desktop/app.py:772
 msgid "_Create"
 msgstr "_Δημιουργία"
 
-#: desktop-icons/deskence_desktop/app.py:766
+#: desktop-icons/deskence_desktop/app.py:781
 msgid "Rename Folder"
 msgstr "Μετονομασία φακέλου"
 
-#: desktop-icons/deskence_desktop/app.py:766
+#: desktop-icons/deskence_desktop/app.py:781
 msgid "Rename File"
 msgstr "Μετονομασία αρχείου"
 
-#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+#: desktop-icons/deskence_desktop/app.py:788 src/deskence/general.py:284
 msgid "_Rename"
 msgstr "_Μετονομασία"
 
-#: desktop-icons/deskence_desktop/app.py:788
+#: desktop-icons/deskence_desktop/app.py:803
 msgid "New _Folder…"
 msgstr "Νέος _φάκελος…"
 
-#: desktop-icons/deskence_desktop/app.py:789
+#: desktop-icons/deskence_desktop/app.py:804
 msgid "_Paste"
 msgstr "Επι_κόλληση"
 
-#: desktop-icons/deskence_desktop/app.py:790
+#: desktop-icons/deskence_desktop/app.py:805
 msgid "Select _All"
 msgstr "Επιλογή _όλων"
 
-#: desktop-icons/deskence_desktop/app.py:794
+#: desktop-icons/deskence_desktop/app.py:809
 msgid "A_rrange Icons"
 msgstr "_Τακτοποίηση εικονιδίων"
 
-#: desktop-icons/deskence_desktop/app.py:795
+#: desktop-icons/deskence_desktop/app.py:810
 msgid "Align to _Grid"
 msgstr "Ευθυγράμμιση στο _πλέγμα"
 
-#: desktop-icons/deskence_desktop/app.py:797
+#: desktop-icons/deskence_desktop/app.py:812
 msgid "_Name"
 msgstr "Ό_νομα"
 
-#: desktop-icons/deskence_desktop/app.py:797
+#: desktop-icons/deskence_desktop/app.py:812
 msgid "_Modified"
 msgstr "_Τροποποίηση"
 
-#: desktop-icons/deskence_desktop/app.py:798
+#: desktop-icons/deskence_desktop/app.py:813
 msgid "_Type"
 msgstr "Τ_ύπος"
 
-#: desktop-icons/deskence_desktop/app.py:800
+#: desktop-icons/deskence_desktop/app.py:815
 msgid "_Sort By"
 msgstr "Τα_ξινόμηση κατά"
 
-#: desktop-icons/deskence_desktop/app.py:804
+#: desktop-icons/deskence_desktop/app.py:819
 msgid "Change _Background…"
 msgstr "Αλλαγή _φόντου…"
 
-#: desktop-icons/deskence_desktop/app.py:805
+#: desktop-icons/deskence_desktop/app.py:820
 msgid "_Desktop Settings"
 msgstr "Ρυθμίσεις _επιφάνειας εργασίας"
 
-#: desktop-icons/deskence_desktop/app.py:821
+#: desktop-icons/deskence_desktop/app.py:836
 msgid "_Open"
 msgstr "Ά_νοιγμα"
 
-#: desktop-icons/deskence_desktop/app.py:823
+#: desktop-icons/deskence_desktop/app.py:838
 msgid "Open _With…"
 msgstr "Άνοιγμα _με…"
 
-#: desktop-icons/deskence_desktop/app.py:825
+#: desktop-icons/deskence_desktop/app.py:840
 msgid "Allow _Launching"
 msgstr "Να επιτρέπεται η _εκκίνηση"
 
-#: desktop-icons/deskence_desktop/app.py:830
+#: desktop-icons/deskence_desktop/app.py:845
 msgid "Cu_t"
 msgstr "Απο_κοπή"
 
-#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+#: desktop-icons/deskence_desktop/app.py:846 src/deskence/general.py:537
 msgid "_Copy"
 msgstr "Α_ντιγραφή"
 
-#: desktop-icons/deskence_desktop/app.py:833
+#: desktop-icons/deskence_desktop/app.py:848
 msgid "Rena_me…"
 msgstr "Μετονο_μασία…"
 
-#: desktop-icons/deskence_desktop/app.py:837
+#: desktop-icons/deskence_desktop/app.py:852
 msgid "Move to _Trash"
 msgstr "Μετακίνηση στα _απορρίμματα"
 
-#: desktop-icons/deskence_desktop/app.py:841
+#: desktop-icons/deskence_desktop/app.py:856
 msgid "_Empty Trash…"
 msgstr "Ά_δειασμα απορριμμάτων…"
 
-#: desktop-icons/deskence_desktop/app.py:848
+#: desktop-icons/deskence_desktop/app.py:863
 msgid "_Eject"
 msgstr "Ε_ξαγωγή"
 
-#: desktop-icons/deskence_desktop/app.py:850
+#: desktop-icons/deskence_desktop/app.py:865
 msgid "_Unmount"
 msgstr "Α_ποπροσάρτηση"
 
-#: desktop-icons/deskence_desktop/app.py:855
+#: desktop-icons/deskence_desktop/app.py:870
 msgid "_Properties"
 msgstr "Ιδιό_τητες"
 
@@ -2637,7 +2645,7 @@ msgstr "Εμφάνιση εφαρμογών"
 msgid "Dock Settings"
 msgstr "Ρυθμίσεις dock"
 
-#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:114
 msgid "Could not open location"
 msgstr "Δεν ήταν δυνατό το άνοιγμα της τοποθεσίας"
 
@@ -2687,7 +2695,7 @@ msgid "All Presets"
 msgstr "Όλες οι προρυθμίσεις"
 
 #: src/deskence/general.py:41 src/deskence/general.py:279
-#: extensions/dock/stacks.js:500
+#: extensions/dock/stacks.js:495
 msgid "Name"
 msgstr "Όνομα"
 
@@ -4282,62 +4290,62 @@ msgstr "_Παύση απομνημόνευσης"
 msgid "New items are not added until this is turned off"
 msgstr "Νέα στοιχεία δεν προστίθενται μέχρι να απενεργοποιηθεί αυτό"
 
-#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#: extensions/dock/stacks.js:289 extensions/dock/stacks.js:467
 #, javascript-format
 msgid "Folder %s"
 msgstr "Φάκελος %s"
 
-#: extensions/dock/stacks.js:482
+#: extensions/dock/stacks.js:477
 msgid "Back"
 msgstr "Πίσω"
 
-#: extensions/dock/stacks.js:500
+#: extensions/dock/stacks.js:495
 msgid "Date"
 msgstr "Ημερομηνία"
 
-#: extensions/dock/stacks.js:501
+#: extensions/dock/stacks.js:496
 msgid "Type"
 msgstr "Τύπος"
 
-#: extensions/dock/stacks.js:507
+#: extensions/dock/stacks.js:502
 #, javascript-format
 msgid "Sort by %s"
 msgstr "Ταξινόμηση κατά %s"
 
-#: extensions/dock/stacks.js:729
+#: extensions/dock/stacks.js:724
 msgid "Show as Grid"
 msgstr "Εμφάνιση ως πλέγμα"
 
-#: extensions/dock/stacks.js:729
+#: extensions/dock/stacks.js:724
 msgid "Show as List"
 msgstr "Εμφάνιση ως λίστα"
 
-#: extensions/dock/stacks.js:755
+#: extensions/dock/stacks.js:750
 msgid "This standard folder is not set up."
 msgstr "Αυτός ο τυπικός φάκελος δεν έχει ρυθμιστεί."
 
-#: extensions/dock/stacks.js:759
+#: extensions/dock/stacks.js:754
 msgid "Loading…"
 msgstr "Φόρτωση…"
 
-#: extensions/dock/stacks.js:824
+#: extensions/dock/stacks.js:819
 msgid "This folder does not exist anymore."
 msgstr "Αυτός ο φάκελος δεν υπάρχει πια."
 
-#: extensions/dock/stacks.js:826
+#: extensions/dock/stacks.js:821
 msgid "You do not have permission to open this folder."
 msgstr "Δεν έχετε δικαίωμα να ανοίξετε αυτόν τον φάκελο."
 
-#: extensions/dock/stacks.js:828
+#: extensions/dock/stacks.js:823
 #, javascript-format
 msgid "This folder cannot be opened: %s"
 msgstr "Αυτός ο φάκελος δεν μπορεί να ανοίξει: %s"
 
-#: extensions/dock/stacks.js:897
+#: extensions/dock/stacks.js:892
 msgid "This folder is empty."
 msgstr "Αυτός ο φάκελος είναι κενός."
 
-#: extensions/dock/stacks.js:899
+#: extensions/dock/stacks.js:894
 #, javascript-format
 msgid ""
 "This folder has more than %d items; only the first ones are shown. Open it "
@@ -4346,20 +4354,20 @@ msgstr ""
 "Αυτός ο φάκελος έχει περισσότερα από %d στοιχεία· εμφανίζονται μόνο τα "
 "πρώτα. Ανοίξτε τον στα Αρχεία για να τα δείτε όλα."
 
-#: extensions/dock/stacks.js:1101
+#: extensions/dock/stacks.js:1096
 msgid "Folder"
 msgstr "Φάκελος"
 
-#: extensions/dock/stacks.js:1176
+#: extensions/dock/stacks.js:1171
 #, javascript-format
 msgid "Could not open “%s”"
 msgstr "Δεν ήταν δυνατό το άνοιγμα του «%s»"
 
-#: extensions/dock/stacks.js:1231
+#: extensions/dock/stacks.js:1226
 msgid "Copy"
 msgstr "Αντιγραφή"
 
-#: extensions/dock/stacks.js:1232
+#: extensions/dock/stacks.js:1227
 msgid "Cut"
 msgstr "Αποκοπή"
 
@@ -4456,7 +4464,7 @@ msgid_plural "%s does not open %d of these files"
 msgstr[0] "Το %s δεν ανοίγει %d από αυτά τα αρχεία"
 msgstr[1] "Το %s δεν ανοίγει %d από αυτά τα αρχεία"
 
-#: extensions/dock/appIcon.js:95
+#: extensions/dock/appIcon.js:161
 #, javascript-format
 msgid "%s, %d new item"
 msgid_plural "%s, %d new items"

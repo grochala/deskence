@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"POT-Creation-Date: 2026-11-23 17:25+0000\n"
 "PO-Revision-Date: 2026-11-23 12:00+0100\n"
 "Last-Translator: Deskence project\n"
 "Language-Team: Chinese (Simplified)\n"
@@ -88,6 +88,14 @@ msgstr "它在您现有的 GNOME 会话中运行，并保持 GNOME 的标准外�
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:43
 msgid ""
+"Dock: counters on application icons are round, and they, the window dots and "
+"the folder markers stay sharp when icons are magnified. Window dots all have "
+"the same size; those of the focused application are white. Desktop: icons "
+"respond to clicks and selection again after a monitor is reconnected."
+msgstr "程序坞：应用图标上的计数器现为圆形，与窗口圆点和文件夹标记一样，在图标放大时依然清晰。所有窗口圆点大小相同，活动应用的圆点为白色。桌面：重新连接显示器后，图标会再次响应点击和选择。"
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
 "Deskence is now available in 29 languages: all official languages of the "
 "European Union, Korean, Simplified and Traditional Chinese, Serbian and "
 "Filipino. The language list in the settings names the language the system "
@@ -96,13 +104,13 @@ msgstr ""
 "Deskence 现已提供 29 种语言：欧盟所有官方语言、韩语、简体中文和繁体中文、塞尔"
 "维亚语和菲律宾语。设置中的语言列表会标明系统使用的语言。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
 msgid ""
 "Settings: choose the language of the settings window and the deskence "
 "command on the General page, independently of the system."
 msgstr "设置：可在“常规”页面中独立于系统选择设置窗口和 deskence 命令的语言。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
 msgid ""
 "Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
 "Ctrl+X) and paste them in Files or on the desktop."
@@ -110,7 +118,7 @@ msgstr ""
 "程序坞：在文件夹面板中复制或剪切文件和文件夹（右键单击、Ctrl+C、Ctrl+X），然"
 "后粘贴到“文件”或桌面上。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+#: data/io.github.deskence.Deskence.metainfo.xml.in:63
 msgid ""
 "Dock: drag files and folders from a folder panel onto another folder in the "
 "dock or onto the desktop to move or copy them."
@@ -118,17 +126,17 @@ msgstr ""
 "程序坞：将文件和文件夹从文件夹面板拖到程序坞中的另一个文件夹或桌面上，以移动"
 "或复制它们。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+#: data/io.github.deskence.Deskence.metainfo.xml.in:64
 msgid ""
 "Dock: applications only open dropped files of types they declare; otherwise "
 "the dock says why."
 msgstr "程序坞：应用只打开其声明的类型的拖放文件；否则程序坞会说明原因。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
 msgid "Dock: the marker under folders matches the dots of applications."
 msgstr "程序坞：文件夹下方的标记与应用的圆点一致。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
 msgid ""
 "Start on the desktop: after logging in, the desktop, the top bar and windows "
 "take clicks again when animations are off, for example in virtual machines "
@@ -138,19 +146,19 @@ msgstr ""
 "从桌面开始：登录后，在关闭动画时（例如在没有 3D 加速的虚拟机中），桌面、顶栏"
 "和窗口重新响应点击；此前在概览打开一次之前只有程序坞会响应。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
 msgid ""
 "Optional diagnostics for reports of a desktop and windows that stop taking "
 "clicks."
 msgstr "可选的诊断信息，用于报告桌面和窗口停止响应点击的问题。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
 msgid ""
 "Dock: dragging files onto the dock always ends cleanly, also when something "
 "fails during the drop."
 msgstr "程序坞：将文件拖到程序坞上总能正常结束，即使放下时出错也是如此。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
 msgid ""
 "Dock: drop files on an application to open them in it, or on a folder to "
 "copy or move them there; hold a file over a folder to open it and drop into "
@@ -159,7 +167,7 @@ msgstr ""
 "程序坞：将文件拖放到应用上即可在其中打开，拖放到文件夹上即可复制或移动到那"
 "里；将文件停留在文件夹上方可打开它，并放入其子文件夹之一。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+#: data/io.github.deskence.Deskence.metainfo.xml.in:90
 msgid ""
 "Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
 "one place with checks for clashes, and copy or save a report for bug reports."
@@ -167,19 +175,19 @@ msgstr ""
 "设置：使用 Ctrl+F 搜索任意设置，在一个地方管理所有键盘快捷键并检查冲突，复制"
 "或保存用于错误报告的报告。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+#: data/io.github.deskence.Deskence.metainfo.xml.in:91
 msgid ""
 "Presets: undoing an applied preset restores only what it changed and keeps "
 "settings you changed afterwards."
 msgstr "预设：撤销已应用的预设只会还原它所做的更改，并保留您之后更改的设置。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
 msgid ""
 "Dock: unread counters and the progress of operations on application icons, "
 "for applications that report them."
 msgstr "程序坞：为报告这些信息的应用在其图标上显示未读计数和操作进度。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+#: data/io.github.deskence.Deskence.metainfo.xml.in:97
 msgid ""
 "Command line: check the state of each feature, turn features off and on, "
 "apply, import and export presets, restore defaults and collect diagnostics "
@@ -190,13 +198,13 @@ msgstr ""
 "出预设、恢复默认设置并收集诊断信息，桌面无法使用时也可在文本控制台中操作。参"
 "见 man deskence。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
 msgid ""
 "Restoring default settings no longer deletes a clipboard history that is "
 "kept after logging out."
 msgstr "恢复默认设置不再删除在注销后保留的剪贴板历史。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+#: data/io.github.deskence.Deskence.metainfo.xml.in:103
 msgid ""
 "Applications view: your own color and transparency for the highlight under "
 "the pointer on applications and application folders; hovering a folder no "
@@ -205,7 +213,7 @@ msgstr ""
 "应用视图：可为应用和应用文件夹上指针下方的高亮设置自定义颜色和透明度；指针悬"
 "停在文件夹上时不再绘制轮廓。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+#: data/io.github.deskence.Deskence.metainfo.xml.in:104
 msgid ""
 "Folders in the dock: the panel takes at most half of the screen height and "
 "scrolls through the whole folder, also with the keyboard, and returns to the "
@@ -214,13 +222,13 @@ msgstr ""
 "程序坞中的文件夹：面板最多占屏幕高度的一半，可滚动浏览整个文件夹（也可用键"
 "盘），并在离开子文件夹后回到之前的位置。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
 msgid ""
 "Settings: clearer descriptions, better Polish wording and fewer clashing "
 "keyboard shortcuts."
 msgstr "设置：更清晰的描述、更好的波兰语措辞，以及更少相互冲突的键盘快捷键。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+#: data/io.github.deskence.Deskence.metainfo.xml.in:110
 msgid ""
 "Dock: a dock along the whole edge matches the top bar in the activities "
 "overview and the applications view; a short dock keeps its own look."
@@ -228,7 +236,7 @@ msgstr ""
 "程序坞：占满整条边缘的程序坞在活动概览和应用视图中与顶栏相协调；较短的程序坞"
 "保持自己的外观。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
 msgid ""
 "Applications view: folder tiles with your own color or transparency now "
 "clearly show hover, press, focus and selection."
@@ -236,31 +244,31 @@ msgstr ""
 "应用视图：使用自定义颜色或透明度的文件夹磁贴现在能清楚地显示悬停、按下、焦点"
 "和选中状态。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+#: data/io.github.deskence.Deskence.metainfo.xml.in:116
 msgid ""
 "Applications view: your own color and transparency for folder tiles such as "
 "“Utilities”."
 msgstr "应用视图：可为“工具”等文件夹磁贴设置自定义颜色和透明度。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+#: data/io.github.deskence.Deskence.metainfo.xml.in:117
 msgid ""
 "General: optionally start on the desktop instead of the activities overview "
 "after logging in."
 msgstr "常规：可选择在登录后从桌面而不是活动概览开始。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
 msgid ""
 "Dock: it now blends into the activities overview instead of forming a "
 "separate band."
 msgstr "程序坞：现在与活动概览融为一体，而不是形成单独的条带。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
 msgid ""
 "Project homepage and bug tracker links, English documentation. No changes to "
 "the application."
 msgstr "项目主页和错误跟踪器链接，英文文档。应用本身没有更改。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+#: data/io.github.deskence.Deskence.metainfo.xml.in:128
 msgid ""
 "Settings: a General page with presets, exporting and importing settings and "
 "restoring defaults; an Applications View page with alphabetical sorting; "
@@ -269,20 +277,20 @@ msgstr ""
 "设置：包含预设、设置导出和导入以及恢复默认值的“常规”页面；带有字母排序的“应用"
 "视图”页面；更平静的预览。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+#: data/io.github.deskence.Deskence.metainfo.xml.in:129
 msgid ""
 "Dock: folders that show their contents, closing and peeking at windows from "
 "their previews, Always on Top in the preview menu."
 msgstr ""
 "程序坞：显示内容的文件夹，从窗口预览中关闭和窥视窗口，预览菜单中的“置顶”。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
 msgid ""
 "New: clipboard history, Keep Awake in the quick settings, an Always on Top "
 "shortcut."
 msgstr "新功能：剪贴板历史、快速设置中的“保持唤醒”、“置顶”的快捷键。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+#: data/io.github.deskence.Deskence.metainfo.xml.in:135
 msgid ""
 "Better GNOME Desktop is now called Deskence. Settings, enabled features, "
 "pinned applications and desktop icon positions are taken over."
@@ -290,7 +298,7 @@ msgstr ""
 "Better GNOME Desktop 现已更名为 Deskence。设置、已启用的功能、已固定的应用和"
 "桌面图标的位置都会保留。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+#: data/io.github.deskence.Deskence.metainfo.xml.in:136
 msgid ""
 "Dock: previews of the windows of an application when the pointer rests on "
 "it, no extra space next to the applications button when icons are magnified, "
@@ -299,17 +307,17 @@ msgstr ""
 "程序坞：指针停留在应用上时显示其窗口预览，图标放大时应用按钮旁不再有多余空"
 "间，底部程序坞图标下方显示运行指示器。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
 msgid ""
 "Settings: larger, clearer previews of the dock and the desktop icons, page "
 "icons, an “About” menu item."
 msgstr "设置：更大更清晰的程序坞和桌面图标预览、页面图标、“关于”菜单项。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
 msgid "Better GNOME Desktop is now called Deskence."
 msgstr "Better GNOME Desktop 现已更名为 Deskence。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+#: data/io.github.deskence.Deskence.metainfo.xml.in:147
 msgid ""
 "Dock: sharp magnified icons, no tiles under icons with a custom background, "
 "monochrome distribution logo, the application list kept at the start of a "
@@ -318,20 +326,20 @@ msgstr ""
 "程序坞：清晰的放大图标，使用自定义背景时图标下方不再有磁贴，单色的发行版徽"
 "标，应用列表位于占满整条边缘的程序坞开头，运行指示器位于内侧。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+#: data/io.github.deskence.Deskence.metainfo.xml.in:148
 msgid ""
 "Applications view: one continuous closing transition, optional custom "
 "background color."
 msgstr "应用视图：关闭时呈现一个连续的过渡，可选自定义背景颜色。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
 msgid ""
 "Desktop: menus open at the clicked point, also beside the dock; the icon "
 "grid starts at the chosen corner with small margins."
 msgstr ""
 "桌面：菜单在点击处打开，程序坞旁也是如此；图标网格从所选角落开始，边距较小。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+#: data/io.github.deskence.Deskence.metainfo.xml.in:154
 msgid ""
 "Dock: applications button at either end with a choice of icon, magnified "
 "icons, scrolling when the applications do not fit, custom background color "
@@ -341,7 +349,7 @@ msgstr ""
 "程序坞：应用按钮可放在任一端并可选择图标，图标放大，应用放不下时可滚动，自定"
 "义背景颜色和透明度，应用按钮菜单中的设置，应用视图的透明背景。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+#: data/io.github.deskence.Deskence.metainfo.xml.in:155
 msgid ""
 "Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
 "the whole desktop beside the dock usable, icon positions that do not move "
@@ -350,7 +358,7 @@ msgstr ""
 "桌面图标：自由放置或对齐网格，“对齐到网格”，程序坞旁的整个桌面都可使用，图标"
 "位置不随程序坞移动。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
 msgid ""
 "Fixes: smooth closing of the applications view, immediate reordering of dock "
 "icons, no frame while dragging desktop icons, one desktop menu everywhere."
@@ -358,7 +366,7 @@ msgstr ""
 "修复：应用视图平滑关闭，程序坞图标立即重新排序，拖动桌面图标时不再显示边框，"
 "各处使用同一个桌面菜单。"
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+#: data/io.github.deskence.Deskence.metainfo.xml.in:161
 msgid "First release."
 msgstr "首个版本。"
 
@@ -1133,7 +1141,7 @@ msgstr "不透明"
 msgid "Transparent"
 msgstr "透明"
 
-#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:554
 #: src/deskence/general.py:252 src/deskence/general.py:283
 #: src/deskence/general.py:326 src/deskence/general.py:436
 #: src/deskence/general.py:511 src/deskence/shortcuts.py:89
@@ -1359,7 +1367,7 @@ msgstr "上移"
 msgid "Move Down"
 msgstr "下移"
 
-#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:376
 msgid "Remove From Dock"
 msgstr "从程序坞中移除"
 
@@ -1376,7 +1384,7 @@ msgid "Only local folders can be added."
 msgstr "只能添加本地文件夹。"
 
 #: src/deskence/pages.py:551 src/deskence/pages.py:630
-#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: desktop-icons/deskence_desktop/app.py:583 src/deskence/general.py:180
 #: src/deskence/general.py:415 src/deskence/shortcuts.py:147
 msgid "_Close"
 msgstr "关闭(_C)"
@@ -1954,8 +1962,8 @@ msgstr "在桌面上显示图标(_I)"
 msgid "Desktop Folder"
 msgstr "桌面文件夹"
 
-#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
-#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:369
+#: extensions/dock/stacks.js:558 extensions/dock/stacks.js:562
 msgid "Open in Files"
 msgstr "在“文件”中打开"
 
@@ -1964,7 +1972,7 @@ msgid "Icons"
 msgstr "图标"
 
 #: src/deskence/ui/desktop-icons-page.ui:53
-#: desktop-icons/deskence_desktop/app.py:798
+#: desktop-icons/deskence_desktop/app.py:813
 msgid "_Size"
 msgstr "大小(_S)"
 
@@ -2184,178 +2192,178 @@ msgstr "已存在同名项目。"
 msgid "The name is too long."
 msgstr "名称过长。"
 
-#: desktop-icons/deskence_desktop/app.py:496
+#: desktop-icons/deskence_desktop/app.py:511
 msgid "Cannot open the location"
 msgstr "无法打开该位置"
 
-#: desktop-icons/deskence_desktop/app.py:504
-#: desktop-icons/deskence_desktop/app.py:520
-#: desktop-icons/deskence_desktop/app.py:526
-#: desktop-icons/deskence_desktop/app.py:671
+#: desktop-icons/deskence_desktop/app.py:519
+#: desktop-icons/deskence_desktop/app.py:535
+#: desktop-icons/deskence_desktop/app.py:541
+#: desktop-icons/deskence_desktop/app.py:686
 #, python-brace-format
 msgid "Cannot open “{}”"
 msgstr "无法打开“{}”"
 
-#: desktop-icons/deskence_desktop/app.py:505
+#: desktop-icons/deskence_desktop/app.py:520
 msgid "The link is broken: the item it points to does not exist."
 msgstr "链接已损坏：它指向的项目不存在。"
 
-#: desktop-icons/deskence_desktop/app.py:527
+#: desktop-icons/deskence_desktop/app.py:542
 msgid "The launcher is not valid."
 msgstr "启动器无效。"
 
-#: desktop-icons/deskence_desktop/app.py:532
+#: desktop-icons/deskence_desktop/app.py:547
 #, python-brace-format
 msgid "Cannot start “{}”"
 msgstr "无法启动“{}”"
 
-#: desktop-icons/deskence_desktop/app.py:536
+#: desktop-icons/deskence_desktop/app.py:551
 msgid "Untrusted Launcher"
 msgstr "不受信任的启动器"
 
-#: desktop-icons/deskence_desktop/app.py:537
+#: desktop-icons/deskence_desktop/app.py:552
 #, python-brace-format
 msgid ""
 "“{}” has not been marked as trusted. Only allow launching if you know where "
 "this file comes from."
 msgstr "“{}”尚未被标记为可信任。只有在您知道此文件来源时才允许启动。"
 
-#: desktop-icons/deskence_desktop/app.py:540
+#: desktop-icons/deskence_desktop/app.py:555
 msgid "_Allow and Launch"
 msgstr "允许并启动(_A)"
 
-#: desktop-icons/deskence_desktop/app.py:559
+#: desktop-icons/deskence_desktop/app.py:574
 #, python-brace-format
 msgid "Cannot allow launching “{}”"
 msgstr "无法允许启动“{}”"
 
-#: desktop-icons/deskence_desktop/app.py:624
+#: desktop-icons/deskence_desktop/app.py:639
 msgid "Cannot open Settings"
 msgstr "无法打开“设置”"
 
-#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+#: desktop-icons/deskence_desktop/app.py:647 extensions/dock/dock.js:78
 msgid "Cannot open Deskence"
 msgstr "无法打开 Deskence"
 
-#: desktop-icons/deskence_desktop/app.py:688
+#: desktop-icons/deskence_desktop/app.py:703
 #, python-brace-format
 msgid "Cannot unmount “{}”"
 msgstr "无法卸载“{}”"
 
-#: desktop-icons/deskence_desktop/app.py:720
+#: desktop-icons/deskence_desktop/app.py:735
 msgid "Names starting with “.” are hidden."
 msgstr "以“.”开头的名称会被隐藏。"
 
-#: desktop-icons/deskence_desktop/app.py:747
-#: desktop-icons/deskence_desktop/app.py:750
+#: desktop-icons/deskence_desktop/app.py:762
+#: desktop-icons/deskence_desktop/app.py:765
 msgid "New Folder"
 msgstr "新建文件夹"
 
-#: desktop-icons/deskence_desktop/app.py:757
+#: desktop-icons/deskence_desktop/app.py:772
 msgid "Folder Name"
 msgstr "文件夹名称"
 
-#: desktop-icons/deskence_desktop/app.py:757
+#: desktop-icons/deskence_desktop/app.py:772
 msgid "_Create"
 msgstr "创建(_C)"
 
-#: desktop-icons/deskence_desktop/app.py:766
+#: desktop-icons/deskence_desktop/app.py:781
 msgid "Rename Folder"
 msgstr "重命名文件夹"
 
-#: desktop-icons/deskence_desktop/app.py:766
+#: desktop-icons/deskence_desktop/app.py:781
 msgid "Rename File"
 msgstr "重命名文件"
 
-#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+#: desktop-icons/deskence_desktop/app.py:788 src/deskence/general.py:284
 msgid "_Rename"
 msgstr "重命名(_R)"
 
-#: desktop-icons/deskence_desktop/app.py:788
+#: desktop-icons/deskence_desktop/app.py:803
 msgid "New _Folder…"
 msgstr "新建文件夹(_F)…"
 
-#: desktop-icons/deskence_desktop/app.py:789
+#: desktop-icons/deskence_desktop/app.py:804
 msgid "_Paste"
 msgstr "粘贴(_P)"
 
-#: desktop-icons/deskence_desktop/app.py:790
+#: desktop-icons/deskence_desktop/app.py:805
 msgid "Select _All"
 msgstr "全选(_A)"
 
-#: desktop-icons/deskence_desktop/app.py:794
+#: desktop-icons/deskence_desktop/app.py:809
 msgid "A_rrange Icons"
 msgstr "排列图标(_R)"
 
-#: desktop-icons/deskence_desktop/app.py:795
+#: desktop-icons/deskence_desktop/app.py:810
 msgid "Align to _Grid"
 msgstr "对齐到网格(_G)"
 
-#: desktop-icons/deskence_desktop/app.py:797
+#: desktop-icons/deskence_desktop/app.py:812
 msgid "_Name"
 msgstr "名称(_N)"
 
-#: desktop-icons/deskence_desktop/app.py:797
+#: desktop-icons/deskence_desktop/app.py:812
 msgid "_Modified"
 msgstr "修改时间(_M)"
 
-#: desktop-icons/deskence_desktop/app.py:798
+#: desktop-icons/deskence_desktop/app.py:813
 msgid "_Type"
 msgstr "类型(_T)"
 
-#: desktop-icons/deskence_desktop/app.py:800
+#: desktop-icons/deskence_desktop/app.py:815
 msgid "_Sort By"
 msgstr "排序方式(_S)"
 
-#: desktop-icons/deskence_desktop/app.py:804
+#: desktop-icons/deskence_desktop/app.py:819
 msgid "Change _Background…"
 msgstr "更改背景(_B)…"
 
-#: desktop-icons/deskence_desktop/app.py:805
+#: desktop-icons/deskence_desktop/app.py:820
 msgid "_Desktop Settings"
 msgstr "桌面设置(_D)"
 
-#: desktop-icons/deskence_desktop/app.py:821
+#: desktop-icons/deskence_desktop/app.py:836
 msgid "_Open"
 msgstr "打开(_O)"
 
-#: desktop-icons/deskence_desktop/app.py:823
+#: desktop-icons/deskence_desktop/app.py:838
 msgid "Open _With…"
 msgstr "打开方式(_W)…"
 
-#: desktop-icons/deskence_desktop/app.py:825
+#: desktop-icons/deskence_desktop/app.py:840
 msgid "Allow _Launching"
 msgstr "允许启动(_L)"
 
-#: desktop-icons/deskence_desktop/app.py:830
+#: desktop-icons/deskence_desktop/app.py:845
 msgid "Cu_t"
 msgstr "剪切(_T)"
 
-#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+#: desktop-icons/deskence_desktop/app.py:846 src/deskence/general.py:537
 msgid "_Copy"
 msgstr "复制(_C)"
 
-#: desktop-icons/deskence_desktop/app.py:833
+#: desktop-icons/deskence_desktop/app.py:848
 msgid "Rena_me…"
 msgstr "重命名(_M)…"
 
-#: desktop-icons/deskence_desktop/app.py:837
+#: desktop-icons/deskence_desktop/app.py:852
 msgid "Move to _Trash"
 msgstr "移到回收站(_T)"
 
-#: desktop-icons/deskence_desktop/app.py:841
+#: desktop-icons/deskence_desktop/app.py:856
 msgid "_Empty Trash…"
 msgstr "清空回收站(_E)…"
 
-#: desktop-icons/deskence_desktop/app.py:848
+#: desktop-icons/deskence_desktop/app.py:863
 msgid "_Eject"
 msgstr "弹出(_E)"
 
-#: desktop-icons/deskence_desktop/app.py:850
+#: desktop-icons/deskence_desktop/app.py:865
 msgid "_Unmount"
 msgstr "卸载(_U)"
 
-#: desktop-icons/deskence_desktop/app.py:855
+#: desktop-icons/deskence_desktop/app.py:870
 msgid "_Properties"
 msgstr "属性(_P)"
 
@@ -2421,7 +2429,7 @@ msgstr "显示应用"
 msgid "Dock Settings"
 msgstr "程序坞设置"
 
-#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:114
 msgid "Could not open location"
 msgstr "无法打开位置"
 
@@ -2471,7 +2479,7 @@ msgid "All Presets"
 msgstr "所有预设"
 
 #: src/deskence/general.py:41 src/deskence/general.py:279
-#: extensions/dock/stacks.js:500
+#: extensions/dock/stacks.js:495
 msgid "Name"
 msgstr "名称"
 
@@ -3992,62 +4000,62 @@ msgstr "暂停记录(_A)"
 msgid "New items are not added until this is turned off"
 msgstr "关闭此项之前不会添加新项目"
 
-#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#: extensions/dock/stacks.js:289 extensions/dock/stacks.js:467
 #, javascript-format
 msgid "Folder %s"
 msgstr "文件夹 %s"
 
-#: extensions/dock/stacks.js:482
+#: extensions/dock/stacks.js:477
 msgid "Back"
 msgstr "返回"
 
-#: extensions/dock/stacks.js:500
+#: extensions/dock/stacks.js:495
 msgid "Date"
 msgstr "日期"
 
-#: extensions/dock/stacks.js:501
+#: extensions/dock/stacks.js:496
 msgid "Type"
 msgstr "类型"
 
-#: extensions/dock/stacks.js:507
+#: extensions/dock/stacks.js:502
 #, javascript-format
 msgid "Sort by %s"
 msgstr "按%s排序"
 
-#: extensions/dock/stacks.js:729
+#: extensions/dock/stacks.js:724
 msgid "Show as Grid"
 msgstr "以网格显示"
 
-#: extensions/dock/stacks.js:729
+#: extensions/dock/stacks.js:724
 msgid "Show as List"
 msgstr "以列表显示"
 
-#: extensions/dock/stacks.js:755
+#: extensions/dock/stacks.js:750
 msgid "This standard folder is not set up."
 msgstr "未设置此标准文件夹。"
 
-#: extensions/dock/stacks.js:759
+#: extensions/dock/stacks.js:754
 msgid "Loading…"
 msgstr "正在加载…"
 
-#: extensions/dock/stacks.js:824
+#: extensions/dock/stacks.js:819
 msgid "This folder does not exist anymore."
 msgstr "此文件夹已不存在。"
 
-#: extensions/dock/stacks.js:826
+#: extensions/dock/stacks.js:821
 msgid "You do not have permission to open this folder."
 msgstr "您没有打开此文件夹的权限。"
 
-#: extensions/dock/stacks.js:828
+#: extensions/dock/stacks.js:823
 #, javascript-format
 msgid "This folder cannot be opened: %s"
 msgstr "无法打开此文件夹：%s"
 
-#: extensions/dock/stacks.js:897
+#: extensions/dock/stacks.js:892
 msgid "This folder is empty."
 msgstr "此文件夹为空。"
 
-#: extensions/dock/stacks.js:899
+#: extensions/dock/stacks.js:894
 #, javascript-format
 msgid ""
 "This folder has more than %d items; only the first ones are shown. Open it "
@@ -4055,20 +4063,20 @@ msgid ""
 msgstr ""
 "此文件夹包含超过 %d 个项目；只显示前面的项目。在“文件”中打开即可查看全部。"
 
-#: extensions/dock/stacks.js:1101
+#: extensions/dock/stacks.js:1096
 msgid "Folder"
 msgstr "文件夹"
 
-#: extensions/dock/stacks.js:1176
+#: extensions/dock/stacks.js:1171
 #, javascript-format
 msgid "Could not open “%s”"
 msgstr "无法打开“%s”"
 
-#: extensions/dock/stacks.js:1231
+#: extensions/dock/stacks.js:1226
 msgid "Copy"
 msgstr "复制"
 
-#: extensions/dock/stacks.js:1232
+#: extensions/dock/stacks.js:1227
 msgid "Cut"
 msgstr "剪切"
 
@@ -4161,7 +4169,7 @@ msgid "%s does not open %d of these files"
 msgid_plural "%s does not open %d of these files"
 msgstr[0] "%s 无法打开其中 %d 个文件"
 
-#: extensions/dock/appIcon.js:95
+#: extensions/dock/appIcon.js:161
 #, javascript-format
 msgid "%s, %d new item"
 msgid_plural "%s, %d new items"

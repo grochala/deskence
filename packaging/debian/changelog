@@ -1,3 +1,13 @@
+deskence (0.15.1) unstable; urgency=medium
+
+  * Dock: counters are round; counters, window dots and folder markers stay
+    sharp when icons are magnified; window dots all have one size, white
+    for the focused application.
+  * Desktop: icons answer clicks and selection again after a monitor is
+    reconnected.
+
+ -- Rafał Grochala <rafal.grochala@pixmedia.pl>  Mon, 23 Nov 2026 18:25:05 +0100
+
 deskence (0.15.0) unstable; urgency=medium
 
   * Translations into 27 more languages: all official languages of the

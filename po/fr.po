@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"POT-Creation-Date: 2026-11-23 17:25+0000\n"
 "PO-Revision-Date: 2026-11-23 12:00+0100\n"
 "Last-Translator: Deskence project\n"
 "Language-Team: French\n"
@@ -103,6 +103,14 @@ msgstr ""
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:43
 msgid ""
+"Dock: counters on application icons are round, and they, the window dots and "
+"the folder markers stay sharp when icons are magnified. Window dots all have "
+"the same size; those of the focused application are white. Desktop: icons "
+"respond to clicks and selection again after a monitor is reconnected."
+msgstr "Dock : les compteurs des icônes d’applications sont ronds et, comme les points des fenêtres et les marqueurs des dossiers, restent nets quand les icônes sont agrandies. Tous les points des fenêtres ont la même taille ; ceux de l’application active sont blancs. Bureau : les icônes réagissent de nouveau aux clics et à la sélection après la reconnexion d’un écran."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
 "Deskence is now available in 29 languages: all official languages of the "
 "European Union, Korean, Simplified and Traditional Chinese, Serbian and "
 "Filipino. The language list in the settings names the language the system "
@@ -113,7 +121,7 @@ msgstr ""
 "traditionnel, le serbe et le filipino. La liste des langues des paramètres "
 "indique la langue utilisée par le système."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
 msgid ""
 "Settings: choose the language of the settings window and the deskence "
 "command on the General page, independently of the system."
@@ -121,7 +129,7 @@ msgstr ""
 "Paramètres : choisissez la langue de la fenêtre des paramètres et de la "
 "commande deskence dans la page Général, indépendamment du système."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
 msgid ""
 "Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
 "Ctrl+X) and paste them in Files or on the desktop."
@@ -130,7 +138,7 @@ msgstr ""
 "dossier (clic droit, Ctrl+C, Ctrl+X) et collez-les dans Fichiers ou sur le "
 "bureau."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+#: data/io.github.deskence.Deskence.metainfo.xml.in:63
 msgid ""
 "Dock: drag files and folders from a folder panel onto another folder in the "
 "dock or onto the desktop to move or copy them."
@@ -139,7 +147,7 @@ msgstr ""
 "dossier vers un autre dossier du dock ou vers le bureau pour les déplacer ou "
 "les copier."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+#: data/io.github.deskence.Deskence.metainfo.xml.in:64
 msgid ""
 "Dock: applications only open dropped files of types they declare; otherwise "
 "the dock says why."
@@ -147,12 +155,12 @@ msgstr ""
 "Dock : les applications n’ouvrent les fichiers déposés que s’ils sont d’un "
 "type qu’elles déclarent ; sinon, le dock explique pourquoi."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
 msgid "Dock: the marker under folders matches the dots of applications."
 msgstr ""
 "Dock : le repère sous les dossiers correspond aux points des applications."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
 msgid ""
 "Start on the desktop: after logging in, the desktop, the top bar and windows "
 "take clicks again when animations are off, for example in virtual machines "
@@ -165,7 +173,7 @@ msgstr ""
 "auparavant, seul le dock réagissait jusqu’à la première ouverture de la vue "
 "d’ensemble."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
 msgid ""
 "Optional diagnostics for reports of a desktop and windows that stop taking "
 "clicks."
@@ -173,7 +181,7 @@ msgstr ""
 "Diagnostics facultatifs pour signaler un bureau et des fenêtres qui ne "
 "réagissent plus aux clics."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
 msgid ""
 "Dock: dragging files onto the dock always ends cleanly, also when something "
 "fails during the drop."
@@ -181,7 +189,7 @@ msgstr ""
 "Dock : faire glisser des fichiers sur le dock se termine toujours "
 "proprement, même si une erreur survient pendant le dépôt."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
 msgid ""
 "Dock: drop files on an application to open them in it, or on a folder to "
 "copy or move them there; hold a file over a folder to open it and drop into "
@@ -191,7 +199,7 @@ msgstr ""
 "dossier pour les y copier ou déplacer ; maintenez un fichier au-dessus d’un "
 "dossier pour l’ouvrir et le déposer dans l’un de ses sous-dossiers."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+#: data/io.github.deskence.Deskence.metainfo.xml.in:90
 msgid ""
 "Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
 "one place with checks for clashes, and copy or save a report for bug reports."
@@ -200,7 +208,7 @@ msgstr ""
 "raccourcis clavier en un seul endroit avec détection des conflits, et copiez "
 "ou enregistrez un rapport pour signaler un bogue."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+#: data/io.github.deskence.Deskence.metainfo.xml.in:91
 msgid ""
 "Presets: undoing an applied preset restores only what it changed and keeps "
 "settings you changed afterwards."
@@ -208,7 +216,7 @@ msgstr ""
 "Préréglages : annuler un préréglage appliqué ne rétablit que ce qu’il a "
 "modifié et conserve les paramètres que vous avez changés depuis."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
 msgid ""
 "Dock: unread counters and the progress of operations on application icons, "
 "for applications that report them."
@@ -216,7 +224,7 @@ msgstr ""
 "Dock : compteurs de non-lus et progression des opérations sur les icônes des "
 "applications qui les signalent."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+#: data/io.github.deskence.Deskence.metainfo.xml.in:97
 msgid ""
 "Command line: check the state of each feature, turn features off and on, "
 "apply, import and export presets, restore defaults and collect diagnostics "
@@ -229,7 +237,7 @@ msgstr ""
 "diagnostics avec la commande deskence, même depuis une console texte quand "
 "le bureau ne fonctionne pas. Voir man deskence."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
 msgid ""
 "Restoring default settings no longer deletes a clipboard history that is "
 "kept after logging out."
@@ -237,7 +245,7 @@ msgstr ""
 "Rétablir les paramètres par défaut ne supprime plus l’historique du presse-"
 "papiers conservé après la déconnexion."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+#: data/io.github.deskence.Deskence.metainfo.xml.in:103
 msgid ""
 "Applications view: your own color and transparency for the highlight under "
 "the pointer on applications and application folders; hovering a folder no "
@@ -247,7 +255,7 @@ msgstr ""
 "surbrillance sous le pointeur sur les applications et les dossiers "
 "d’applications ; le survol d’un dossier ne dessine plus de contour."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+#: data/io.github.deskence.Deskence.metainfo.xml.in:104
 msgid ""
 "Folders in the dock: the panel takes at most half of the screen height and "
 "scrolls through the whole folder, also with the keyboard, and returns to the "
@@ -257,7 +265,7 @@ msgstr ""
 "l’écran, permet de faire défiler tout le dossier, y compris au clavier, et "
 "revient à la position précédente après un sous-dossier."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
 msgid ""
 "Settings: clearer descriptions, better Polish wording and fewer clashing "
 "keyboard shortcuts."
@@ -265,7 +273,7 @@ msgstr ""
 "Paramètres : descriptions plus claires, meilleures formulations en polonais "
 "et moins de raccourcis clavier en conflit."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+#: data/io.github.deskence.Deskence.metainfo.xml.in:110
 msgid ""
 "Dock: a dock along the whole edge matches the top bar in the activities "
 "overview and the applications view; a short dock keeps its own look."
@@ -274,7 +282,7 @@ msgstr ""
 "supérieure dans la vue d’ensemble des activités et la vue des applications ; "
 "un dock court garde son propre aspect."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
 msgid ""
 "Applications view: folder tiles with your own color or transparency now "
 "clearly show hover, press, focus and selection."
@@ -283,7 +291,7 @@ msgstr ""
 "transparence personnalisée indiquent désormais clairement le survol, "
 "l’appui, le focus et la sélection."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+#: data/io.github.deskence.Deskence.metainfo.xml.in:116
 msgid ""
 "Applications view: your own color and transparency for folder tiles such as "
 "“Utilities”."
@@ -291,7 +299,7 @@ msgstr ""
 "Vue des applications : couleur et transparence personnalisées pour les "
 "tuiles de dossiers comme « Utilitaires »."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+#: data/io.github.deskence.Deskence.metainfo.xml.in:117
 msgid ""
 "General: optionally start on the desktop instead of the activities overview "
 "after logging in."
@@ -299,7 +307,7 @@ msgstr ""
 "Général : possibilité de démarrer sur le bureau plutôt que dans la vue "
 "d’ensemble des activités après la connexion."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
 msgid ""
 "Dock: it now blends into the activities overview instead of forming a "
 "separate band."
@@ -307,7 +315,7 @@ msgstr ""
 "Dock : il se fond désormais dans la vue d’ensemble des activités au lieu de "
 "former une bande séparée."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
 msgid ""
 "Project homepage and bug tracker links, English documentation. No changes to "
 "the application."
@@ -315,7 +323,7 @@ msgstr ""
 "Liens vers la page du projet et le suivi des bogues, documentation en "
 "anglais. Aucune modification de l’application."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+#: data/io.github.deskence.Deskence.metainfo.xml.in:128
 msgid ""
 "Settings: a General page with presets, exporting and importing settings and "
 "restoring defaults; an Applications View page with alphabetical sorting; "
@@ -325,7 +333,7 @@ msgstr ""
 "paramètres et le rétablissement des valeurs par défaut ; une page Vue des "
 "applications avec le tri alphabétique ; des aperçus plus calmes."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+#: data/io.github.deskence.Deskence.metainfo.xml.in:129
 msgid ""
 "Dock: folders that show their contents, closing and peeking at windows from "
 "their previews, Always on Top in the preview menu."
@@ -334,7 +342,7 @@ msgstr ""
 "d’œil sur les fenêtres depuis leurs aperçus, « Toujours au premier plan » "
 "dans le menu de l’aperçu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
 msgid ""
 "New: clipboard history, Keep Awake in the quick settings, an Always on Top "
 "shortcut."
@@ -342,7 +350,7 @@ msgstr ""
 "Nouveau : historique du presse-papiers, « Maintenir éveillé » dans les "
 "réglages rapides, un raccourci pour « Toujours au premier plan »."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+#: data/io.github.deskence.Deskence.metainfo.xml.in:135
 msgid ""
 "Better GNOME Desktop is now called Deskence. Settings, enabled features, "
 "pinned applications and desktop icon positions are taken over."
@@ -351,7 +359,7 @@ msgstr ""
 "fonctionnalités activées, les applications épinglées et la position des "
 "icônes du bureau sont repris."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+#: data/io.github.deskence.Deskence.metainfo.xml.in:136
 msgid ""
 "Dock: previews of the windows of an application when the pointer rests on "
 "it, no extra space next to the applications button when icons are magnified, "
@@ -362,7 +370,7 @@ msgstr ""
 "icônes sont agrandies, indicateurs d’exécution sous les icônes d’un dock en "
 "bas."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
 msgid ""
 "Settings: larger, clearer previews of the dock and the desktop icons, page "
 "icons, an “About” menu item."
@@ -370,11 +378,11 @@ msgstr ""
 "Paramètres : aperçus plus grands et plus clairs du dock et des icônes du "
 "bureau, icônes des pages, un élément de menu « À propos »."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
 msgid "Better GNOME Desktop is now called Deskence."
 msgstr "Better GNOME Desktop s’appelle désormais Deskence."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+#: data/io.github.deskence.Deskence.metainfo.xml.in:147
 msgid ""
 "Dock: sharp magnified icons, no tiles under icons with a custom background, "
 "monochrome distribution logo, the application list kept at the start of a "
@@ -385,7 +393,7 @@ msgstr ""
 "applications au début d’un dock sur toute la longueur du bord, indicateurs "
 "d’exécution du côté intérieur."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+#: data/io.github.deskence.Deskence.metainfo.xml.in:148
 msgid ""
 "Applications view: one continuous closing transition, optional custom "
 "background color."
@@ -393,7 +401,7 @@ msgstr ""
 "Vue des applications : une seule transition continue à la fermeture, couleur "
 "d’arrière-plan personnalisée en option."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
 msgid ""
 "Desktop: menus open at the clicked point, also beside the dock; the icon "
 "grid starts at the chosen corner with small margins."
@@ -401,7 +409,7 @@ msgstr ""
 "Bureau : les menus s’ouvrent à l’endroit cliqué, y compris à côté du dock ; "
 "la grille d’icônes commence au coin choisi avec de petites marges."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+#: data/io.github.deskence.Deskence.metainfo.xml.in:154
 msgid ""
 "Dock: applications button at either end with a choice of icon, magnified "
 "icons, scrolling when the applications do not fit, custom background color "
@@ -414,7 +422,7 @@ msgstr ""
 "le menu du bouton des applications, arrière-plan transparent pour la vue des "
 "applications."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+#: data/io.github.deskence.Deskence.metainfo.xml.in:155
 msgid ""
 "Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
 "the whole desktop beside the dock usable, icon positions that do not move "
@@ -424,7 +432,7 @@ msgstr ""
 "grille », tout le bureau à côté du dock utilisable, positions des icônes qui "
 "ne bougent pas avec le dock."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
 msgid ""
 "Fixes: smooth closing of the applications view, immediate reordering of dock "
 "icons, no frame while dragging desktop icons, one desktop menu everywhere."
@@ -433,7 +441,7 @@ msgstr ""
 "immédiate des icônes du dock, pas de cadre pendant le glisser des icônes du "
 "bureau, un seul menu du bureau partout."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+#: data/io.github.deskence.Deskence.metainfo.xml.in:161
 msgid "First release."
 msgstr "Première version."
 
@@ -1285,7 +1293,7 @@ msgstr "Opaque"
 msgid "Transparent"
 msgstr "Transparent"
 
-#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:554
 #: src/deskence/general.py:252 src/deskence/general.py:283
 #: src/deskence/general.py:326 src/deskence/general.py:436
 #: src/deskence/general.py:511 src/deskence/shortcuts.py:89
@@ -1521,7 +1529,7 @@ msgstr "Monter"
 msgid "Move Down"
 msgstr "Descendre"
 
-#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:376
 msgid "Remove From Dock"
 msgstr "Retirer du dock"
 
@@ -1538,7 +1546,7 @@ msgid "Only local folders can be added."
 msgstr "Seuls les dossiers locaux peuvent être ajoutés."
 
 #: src/deskence/pages.py:551 src/deskence/pages.py:630
-#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: desktop-icons/deskence_desktop/app.py:583 src/deskence/general.py:180
 #: src/deskence/general.py:415 src/deskence/shortcuts.py:147
 msgid "_Close"
 msgstr "_Fermer"
@@ -2154,8 +2162,8 @@ msgstr "Afficher les _icônes sur le bureau"
 msgid "Desktop Folder"
 msgstr "Dossier du bureau"
 
-#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
-#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:369
+#: extensions/dock/stacks.js:558 extensions/dock/stacks.js:562
 msgid "Open in Files"
 msgstr "Ouvrir dans Fichiers"
 
@@ -2164,7 +2172,7 @@ msgid "Icons"
 msgstr "Icônes"
 
 #: src/deskence/ui/desktop-icons-page.ui:53
-#: desktop-icons/deskence_desktop/app.py:798
+#: desktop-icons/deskence_desktop/app.py:813
 msgid "_Size"
 msgstr "_Taille"
 
@@ -2397,36 +2405,36 @@ msgstr "Un élément portant ce nom existe déjà."
 msgid "The name is too long."
 msgstr "Le nom est trop long."
 
-#: desktop-icons/deskence_desktop/app.py:496
+#: desktop-icons/deskence_desktop/app.py:511
 msgid "Cannot open the location"
 msgstr "Impossible d’ouvrir l’emplacement"
 
-#: desktop-icons/deskence_desktop/app.py:504
-#: desktop-icons/deskence_desktop/app.py:520
-#: desktop-icons/deskence_desktop/app.py:526
-#: desktop-icons/deskence_desktop/app.py:671
+#: desktop-icons/deskence_desktop/app.py:519
+#: desktop-icons/deskence_desktop/app.py:535
+#: desktop-icons/deskence_desktop/app.py:541
+#: desktop-icons/deskence_desktop/app.py:686
 #, python-brace-format
 msgid "Cannot open “{}”"
 msgstr "Impossible d’ouvrir « {} »"
 
-#: desktop-icons/deskence_desktop/app.py:505
+#: desktop-icons/deskence_desktop/app.py:520
 msgid "The link is broken: the item it points to does not exist."
 msgstr "Le lien est rompu : l’élément vers lequel il pointe n’existe pas."
 
-#: desktop-icons/deskence_desktop/app.py:527
+#: desktop-icons/deskence_desktop/app.py:542
 msgid "The launcher is not valid."
 msgstr "Le lanceur n’est pas valide."
 
-#: desktop-icons/deskence_desktop/app.py:532
+#: desktop-icons/deskence_desktop/app.py:547
 #, python-brace-format
 msgid "Cannot start “{}”"
 msgstr "Impossible de lancer « {} »"
 
-#: desktop-icons/deskence_desktop/app.py:536
+#: desktop-icons/deskence_desktop/app.py:551
 msgid "Untrusted Launcher"
 msgstr "Lanceur non fiable"
 
-#: desktop-icons/deskence_desktop/app.py:537
+#: desktop-icons/deskence_desktop/app.py:552
 #, python-brace-format
 msgid ""
 "“{}” has not been marked as trusted. Only allow launching if you know where "
@@ -2435,142 +2443,142 @@ msgstr ""
 "« {} » n’a pas été marqué comme fiable. N’autorisez son lancement que si "
 "vous savez d’où vient ce fichier."
 
-#: desktop-icons/deskence_desktop/app.py:540
+#: desktop-icons/deskence_desktop/app.py:555
 msgid "_Allow and Launch"
 msgstr "_Autoriser et lancer"
 
-#: desktop-icons/deskence_desktop/app.py:559
+#: desktop-icons/deskence_desktop/app.py:574
 #, python-brace-format
 msgid "Cannot allow launching “{}”"
 msgstr "Impossible d’autoriser le lancement de « {} »"
 
-#: desktop-icons/deskence_desktop/app.py:624
+#: desktop-icons/deskence_desktop/app.py:639
 msgid "Cannot open Settings"
 msgstr "Impossible d’ouvrir Paramètres"
 
-#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+#: desktop-icons/deskence_desktop/app.py:647 extensions/dock/dock.js:78
 msgid "Cannot open Deskence"
 msgstr "Impossible d’ouvrir Deskence"
 
-#: desktop-icons/deskence_desktop/app.py:688
+#: desktop-icons/deskence_desktop/app.py:703
 #, python-brace-format
 msgid "Cannot unmount “{}”"
 msgstr "Impossible de démonter « {} »"
 
-#: desktop-icons/deskence_desktop/app.py:720
+#: desktop-icons/deskence_desktop/app.py:735
 msgid "Names starting with “.” are hidden."
 msgstr "Les noms commençant par « . » sont masqués."
 
-#: desktop-icons/deskence_desktop/app.py:747
-#: desktop-icons/deskence_desktop/app.py:750
+#: desktop-icons/deskence_desktop/app.py:762
+#: desktop-icons/deskence_desktop/app.py:765
 msgid "New Folder"
 msgstr "Nouveau dossier"
 
-#: desktop-icons/deskence_desktop/app.py:757
+#: desktop-icons/deskence_desktop/app.py:772
 msgid "Folder Name"
 msgstr "Nom du dossier"
 
-#: desktop-icons/deskence_desktop/app.py:757
+#: desktop-icons/deskence_desktop/app.py:772
 msgid "_Create"
 msgstr "_Créer"
 
-#: desktop-icons/deskence_desktop/app.py:766
+#: desktop-icons/deskence_desktop/app.py:781
 msgid "Rename Folder"
 msgstr "Renommer le dossier"
 
-#: desktop-icons/deskence_desktop/app.py:766
+#: desktop-icons/deskence_desktop/app.py:781
 msgid "Rename File"
 msgstr "Renommer le fichier"
 
-#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+#: desktop-icons/deskence_desktop/app.py:788 src/deskence/general.py:284
 msgid "_Rename"
 msgstr "_Renommer"
 
-#: desktop-icons/deskence_desktop/app.py:788
+#: desktop-icons/deskence_desktop/app.py:803
 msgid "New _Folder…"
 msgstr "Nouveau _dossier…"
 
-#: desktop-icons/deskence_desktop/app.py:789
+#: desktop-icons/deskence_desktop/app.py:804
 msgid "_Paste"
 msgstr "C_oller"
 
-#: desktop-icons/deskence_desktop/app.py:790
+#: desktop-icons/deskence_desktop/app.py:805
 msgid "Select _All"
 msgstr "_Tout sélectionner"
 
-#: desktop-icons/deskence_desktop/app.py:794
+#: desktop-icons/deskence_desktop/app.py:809
 msgid "A_rrange Icons"
 msgstr "_Ranger les icônes"
 
-#: desktop-icons/deskence_desktop/app.py:795
+#: desktop-icons/deskence_desktop/app.py:810
 msgid "Align to _Grid"
 msgstr "Aligner sur la _grille"
 
-#: desktop-icons/deskence_desktop/app.py:797
+#: desktop-icons/deskence_desktop/app.py:812
 msgid "_Name"
 msgstr "_Nom"
 
-#: desktop-icons/deskence_desktop/app.py:797
+#: desktop-icons/deskence_desktop/app.py:812
 msgid "_Modified"
 msgstr "Date de _modification"
 
-#: desktop-icons/deskence_desktop/app.py:798
+#: desktop-icons/deskence_desktop/app.py:813
 msgid "_Type"
 msgstr "_Type"
 
-#: desktop-icons/deskence_desktop/app.py:800
+#: desktop-icons/deskence_desktop/app.py:815
 msgid "_Sort By"
 msgstr "_Trier par"
 
-#: desktop-icons/deskence_desktop/app.py:804
+#: desktop-icons/deskence_desktop/app.py:819
 msgid "Change _Background…"
 msgstr "Changer l’_arrière-plan…"
 
-#: desktop-icons/deskence_desktop/app.py:805
+#: desktop-icons/deskence_desktop/app.py:820
 msgid "_Desktop Settings"
 msgstr "_Paramètres du bureau"
 
-#: desktop-icons/deskence_desktop/app.py:821
+#: desktop-icons/deskence_desktop/app.py:836
 msgid "_Open"
 msgstr "_Ouvrir"
 
-#: desktop-icons/deskence_desktop/app.py:823
+#: desktop-icons/deskence_desktop/app.py:838
 msgid "Open _With…"
 msgstr "Ouvrir _avec…"
 
-#: desktop-icons/deskence_desktop/app.py:825
+#: desktop-icons/deskence_desktop/app.py:840
 msgid "Allow _Launching"
 msgstr "Autoriser le _lancement"
 
-#: desktop-icons/deskence_desktop/app.py:830
+#: desktop-icons/deskence_desktop/app.py:845
 msgid "Cu_t"
 msgstr "Co_uper"
 
-#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+#: desktop-icons/deskence_desktop/app.py:846 src/deskence/general.py:537
 msgid "_Copy"
 msgstr "_Copier"
 
-#: desktop-icons/deskence_desktop/app.py:833
+#: desktop-icons/deskence_desktop/app.py:848
 msgid "Rena_me…"
 msgstr "Reno_mmer…"
 
-#: desktop-icons/deskence_desktop/app.py:837
+#: desktop-icons/deskence_desktop/app.py:852
 msgid "Move to _Trash"
 msgstr "Mettre à la _corbeille"
 
-#: desktop-icons/deskence_desktop/app.py:841
+#: desktop-icons/deskence_desktop/app.py:856
 msgid "_Empty Trash…"
 msgstr "_Vider la corbeille…"
 
-#: desktop-icons/deskence_desktop/app.py:848
+#: desktop-icons/deskence_desktop/app.py:863
 msgid "_Eject"
 msgstr "É_jecter"
 
-#: desktop-icons/deskence_desktop/app.py:850
+#: desktop-icons/deskence_desktop/app.py:865
 msgid "_Unmount"
 msgstr "_Démonter"
 
-#: desktop-icons/deskence_desktop/app.py:855
+#: desktop-icons/deskence_desktop/app.py:870
 msgid "_Properties"
 msgstr "_Propriétés"
 
@@ -2636,7 +2644,7 @@ msgstr "Afficher les applications"
 msgid "Dock Settings"
 msgstr "Paramètres du dock"
 
-#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:114
 msgid "Could not open location"
 msgstr "Impossible d’ouvrir l’emplacement"
 
@@ -2686,7 +2694,7 @@ msgid "All Presets"
 msgstr "Tous les préréglages"
 
 #: src/deskence/general.py:41 src/deskence/general.py:279
-#: extensions/dock/stacks.js:500
+#: extensions/dock/stacks.js:495
 msgid "Name"
 msgstr "Nom"
 
@@ -4276,62 +4284,62 @@ msgstr "_Suspendre la mémorisation"
 msgid "New items are not added until this is turned off"
 msgstr "Les nouveaux éléments ne sont pas ajoutés tant que ceci est activé"
 
-#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#: extensions/dock/stacks.js:289 extensions/dock/stacks.js:467
 #, javascript-format
 msgid "Folder %s"
 msgstr "Dossier %s"
 
-#: extensions/dock/stacks.js:482
+#: extensions/dock/stacks.js:477
 msgid "Back"
 msgstr "Retour"
 
-#: extensions/dock/stacks.js:500
+#: extensions/dock/stacks.js:495
 msgid "Date"
 msgstr "Date"
 
-#: extensions/dock/stacks.js:501
+#: extensions/dock/stacks.js:496
 msgid "Type"
 msgstr "Type"
 
-#: extensions/dock/stacks.js:507
+#: extensions/dock/stacks.js:502
 #, javascript-format
 msgid "Sort by %s"
 msgstr "Trier par %s"
 
-#: extensions/dock/stacks.js:729
+#: extensions/dock/stacks.js:724
 msgid "Show as Grid"
 msgstr "Afficher en grille"
 
-#: extensions/dock/stacks.js:729
+#: extensions/dock/stacks.js:724
 msgid "Show as List"
 msgstr "Afficher en liste"
 
-#: extensions/dock/stacks.js:755
+#: extensions/dock/stacks.js:750
 msgid "This standard folder is not set up."
 msgstr "Ce dossier standard n’est pas configuré."
 
-#: extensions/dock/stacks.js:759
+#: extensions/dock/stacks.js:754
 msgid "Loading…"
 msgstr "Chargement…"
 
-#: extensions/dock/stacks.js:824
+#: extensions/dock/stacks.js:819
 msgid "This folder does not exist anymore."
 msgstr "Ce dossier n’existe plus."
 
-#: extensions/dock/stacks.js:826
+#: extensions/dock/stacks.js:821
 msgid "You do not have permission to open this folder."
 msgstr "Vous n’avez pas l’autorisation d’ouvrir ce dossier."
 
-#: extensions/dock/stacks.js:828
+#: extensions/dock/stacks.js:823
 #, javascript-format
 msgid "This folder cannot be opened: %s"
 msgstr "Impossible d’ouvrir ce dossier : %s"
 
-#: extensions/dock/stacks.js:897
+#: extensions/dock/stacks.js:892
 msgid "This folder is empty."
 msgstr "Ce dossier est vide."
 
-#: extensions/dock/stacks.js:899
+#: extensions/dock/stacks.js:894
 #, javascript-format
 msgid ""
 "This folder has more than %d items; only the first ones are shown. Open it "
@@ -4340,20 +4348,20 @@ msgstr ""
 "Ce dossier contient plus de %d éléments ; seuls les premiers sont affichés. "
 "Ouvrez-le dans Fichiers pour tout voir."
 
-#: extensions/dock/stacks.js:1101
+#: extensions/dock/stacks.js:1096
 msgid "Folder"
 msgstr "Dossier"
 
-#: extensions/dock/stacks.js:1176
+#: extensions/dock/stacks.js:1171
 #, javascript-format
 msgid "Could not open “%s”"
 msgstr "Impossible d’ouvrir « %s »"
 
-#: extensions/dock/stacks.js:1231
+#: extensions/dock/stacks.js:1226
 msgid "Copy"
 msgstr "Copier"
 
-#: extensions/dock/stacks.js:1232
+#: extensions/dock/stacks.js:1227
 msgid "Cut"
 msgstr "Couper"
 
@@ -4450,7 +4458,7 @@ msgid_plural "%s does not open %d of these files"
 msgstr[0] "%s n’ouvre pas %d de ces fichiers"
 msgstr[1] "%s n’ouvre pas %d de ces fichiers"
 
-#: extensions/dock/appIcon.js:95
+#: extensions/dock/appIcon.js:161
 #, javascript-format
 msgid "%s, %d new item"
 msgid_plural "%s, %d new items"

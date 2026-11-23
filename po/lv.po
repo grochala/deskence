@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"POT-Creation-Date: 2026-11-23 17:25+0000\n"
 "PO-Revision-Date: 2026-11-23 12:00+0100\n"
 "Last-Translator: Deskence project\n"
 "Language-Team: Latvian\n"
@@ -96,6 +96,14 @@ msgstr ""
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:43
 msgid ""
+"Dock: counters on application icons are round, and they, the window dots and "
+"the folder markers stay sharp when icons are magnified. Window dots all have "
+"the same size; those of the focused application are white. Desktop: icons "
+"respond to clicks and selection again after a monitor is reconnected."
+msgstr "Doks: lietotņu ikonu skaitītāji ir apaļi un kopā ar logu punktiem un mapju marķieriem paliek asi, kad ikonas tiek palielinātas. Visi logu punkti ir vienāda izmēra; aktīvās lietotnes punkti ir balti. Darbvirsma: pēc monitora atkārtotas pievienošanas ikonas atkal reaģē uz klikšķiem un atlasi."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
 "Deskence is now available in 29 languages: all official languages of the "
 "European Union, Korean, Simplified and Traditional Chinese, Serbian and "
 "Filipino. The language list in the settings names the language the system "
@@ -106,7 +114,7 @@ msgstr ""
 "filipīniešu valodā. Iestatījumu valodu sarakstā norādīta valoda, ko izmanto "
 "sistēma."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
 msgid ""
 "Settings: choose the language of the settings window and the deskence "
 "command on the General page, independently of the system."
@@ -114,7 +122,7 @@ msgstr ""
 "Iestatījumi: iestatījumu loga un komandas deskence valodu var izvēlēties "
 "lapā „Vispārīgi”, neatkarīgi no sistēmas."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
 msgid ""
 "Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
 "Ctrl+X) and paste them in Files or on the desktop."
@@ -122,7 +130,7 @@ msgstr ""
 "Doks: kopējiet vai izgrieziet datnes un mapes mapes panelī (labais klikšķis, "
 "Ctrl+C, Ctrl+X) un ielīmējiet tās lietotnē „Datnes” vai uz darbvirsmas."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+#: data/io.github.deskence.Deskence.metainfo.xml.in:63
 msgid ""
 "Dock: drag files and folders from a folder panel onto another folder in the "
 "dock or onto the desktop to move or copy them."
@@ -130,7 +138,7 @@ msgstr ""
 "Doks: velciet datnes un mapes no mapes paneļa uz citu doka mapi vai uz "
 "darbvirsmu, lai tās pārvietotu vai kopētu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+#: data/io.github.deskence.Deskence.metainfo.xml.in:64
 msgid ""
 "Dock: applications only open dropped files of types they declare; otherwise "
 "the dock says why."
@@ -138,11 +146,11 @@ msgstr ""
 "Doks: lietotnes atver nomestās datnes tikai to tipu, kurus tās norāda; "
 "citādi doks paskaidro, kāpēc."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
 msgid "Dock: the marker under folders matches the dots of applications."
 msgstr "Doks: atzīme zem mapēm atbilst lietotņu punktiem."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
 msgid ""
 "Start on the desktop: after logging in, the desktop, the top bar and windows "
 "take clicks again when animations are off, for example in virtual machines "
@@ -154,7 +162,7 @@ msgstr ""
 "mašīnās bez 3D paātrinājuma; agrāk reaģēja tikai doks, līdz pārskats tika "
 "atvērts vienreiz."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
 msgid ""
 "Optional diagnostics for reports of a desktop and windows that stop taking "
 "clicks."
@@ -162,7 +170,7 @@ msgstr ""
 "Neobligāta diagnostika ziņojumiem par darbvirsmu un logiem, kas pārstāj "
 "reaģēt uz klikšķiem."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
 msgid ""
 "Dock: dragging files onto the dock always ends cleanly, also when something "
 "fails during the drop."
@@ -170,7 +178,7 @@ msgstr ""
 "Doks: datņu vilkšana uz doku vienmēr beidzas kārtīgi, arī tad, ja nometot "
 "kaut kas neizdodas."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
 msgid ""
 "Dock: drop files on an application to open them in it, or on a folder to "
 "copy or move them there; hold a file over a folder to open it and drop into "
@@ -180,7 +188,7 @@ msgstr ""
 "tās tur kopētu vai pārvietotu; turiet datni virs mapes, lai to atvērtu un "
 "nomestu kādā no tās apakšmapēm."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+#: data/io.github.deskence.Deskence.metainfo.xml.in:90
 msgid ""
 "Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
 "one place with checks for clashes, and copy or save a report for bug reports."
@@ -189,7 +197,7 @@ msgstr ""
 "pārvaldība vienuviet ar konfliktu pārbaudi un atskaites kopēšana vai "
 "saglabāšana kļūdu ziņojumiem."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+#: data/io.github.deskence.Deskence.metainfo.xml.in:91
 msgid ""
 "Presets: undoing an applied preset restores only what it changed and keeps "
 "settings you changed afterwards."
@@ -197,7 +205,7 @@ msgstr ""
 "Priekšiestatījumi: pielietota priekšiestatījuma atsaukšana atjauno tikai to, "
 "ko tas mainīja, un saglabā vēlāk mainītos iestatījumus."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
 msgid ""
 "Dock: unread counters and the progress of operations on application icons, "
 "for applications that report them."
@@ -205,7 +213,7 @@ msgstr ""
 "Doks: nelasīto skaitītāji un darbību progress lietotņu ikonās, ja lietotnes "
 "tos paziņo."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+#: data/io.github.deskence.Deskence.metainfo.xml.in:97
 msgid ""
 "Command line: check the state of each feature, turn features off and on, "
 "apply, import and export presets, restore defaults and collect diagnostics "
@@ -218,7 +226,7 @@ msgstr ""
 "deskence, arī no teksta konsoles, kad darbvirsma nedarbojas. Skatiet man "
 "deskence."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
 msgid ""
 "Restoring default settings no longer deletes a clipboard history that is "
 "kept after logging out."
@@ -226,7 +234,7 @@ msgstr ""
 "Noklusējuma iestatījumu atjaunošana vairs nedzēš starpliktuves vēsturi, kas "
 "tiek saglabāta pēc izrakstīšanās."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+#: data/io.github.deskence.Deskence.metainfo.xml.in:103
 msgid ""
 "Applications view: your own color and transparency for the highlight under "
 "the pointer on applications and application folders; hovering a folder no "
@@ -235,7 +243,7 @@ msgstr ""
 "Lietotņu skats: sava krāsa un caurspīdīgums izcēlumam zem rādītāja uz "
 "lietotnēm un lietotņu mapēm; virzot pāri mapei, kontūra vairs netiek zīmēta."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+#: data/io.github.deskence.Deskence.metainfo.xml.in:104
 msgid ""
 "Folders in the dock: the panel takes at most half of the screen height and "
 "scrolls through the whole folder, also with the keyboard, and returns to the "
@@ -244,7 +252,7 @@ msgstr ""
 "Mapes dokā: panelis aizņem ne vairāk kā pusi ekrāna augstuma, ritina visu "
 "mapi, arī ar tastatūru, un pēc apakšmapes atgriežas iepriekšējā vietā."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
 msgid ""
 "Settings: clearer descriptions, better Polish wording and fewer clashing "
 "keyboard shortcuts."
@@ -252,7 +260,7 @@ msgstr ""
 "Iestatījumi: skaidrāki apraksti, labāki poļu formulējumi un mazāk "
 "konfliktējošu tastatūras saīsņu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+#: data/io.github.deskence.Deskence.metainfo.xml.in:110
 msgid ""
 "Dock: a dock along the whole edge matches the top bar in the activities "
 "overview and the applications view; a short dock keeps its own look."
@@ -260,7 +268,7 @@ msgstr ""
 "Doks: doks visas malas garumā aktivitāšu pārskatā un lietotņu skatā saskan "
 "ar augšējo joslu; īss doks saglabā savu izskatu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
 msgid ""
 "Applications view: folder tiles with your own color or transparency now "
 "clearly show hover, press, focus and selection."
@@ -268,7 +276,7 @@ msgstr ""
 "Lietotņu skats: mapju flīzes ar savu krāsu vai caurspīdīgumu tagad skaidri "
 "parāda virzīšanu, nospiešanu, fokusu un atlasi."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+#: data/io.github.deskence.Deskence.metainfo.xml.in:116
 msgid ""
 "Applications view: your own color and transparency for folder tiles such as "
 "“Utilities”."
@@ -276,7 +284,7 @@ msgstr ""
 "Lietotņu skats: sava krāsa un caurspīdīgums mapju flīzēm, piemēram, "
 "„Utilītas”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+#: data/io.github.deskence.Deskence.metainfo.xml.in:117
 msgid ""
 "General: optionally start on the desktop instead of the activities overview "
 "after logging in."
@@ -284,14 +292,14 @@ msgstr ""
 "Vispārīgi: pēc izvēles pēc ierakstīšanās sākt uz darbvirsmas, nevis "
 "aktivitāšu pārskatā."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
 msgid ""
 "Dock: it now blends into the activities overview instead of forming a "
 "separate band."
 msgstr ""
 "Doks: tagad tas saplūst ar aktivitāšu pārskatu, nevis veido atsevišķu joslu."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
 msgid ""
 "Project homepage and bug tracker links, English documentation. No changes to "
 "the application."
@@ -299,7 +307,7 @@ msgstr ""
 "Saites uz projekta lapu un kļūdu izsekotāju, dokumentācija angļu valodā. "
 "Lietotnē izmaiņu nav."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+#: data/io.github.deskence.Deskence.metainfo.xml.in:128
 msgid ""
 "Settings: a General page with presets, exporting and importing settings and "
 "restoring defaults; an Applications View page with alphabetical sorting; "
@@ -309,7 +317,7 @@ msgstr ""
 "un importu un noklusējuma vērtību atjaunošanu; lapa „Lietotņu skats” ar "
 "alfabētisko kārtošanu; mierīgāki priekšskatījumi."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+#: data/io.github.deskence.Deskence.metainfo.xml.in:129
 msgid ""
 "Dock: folders that show their contents, closing and peeking at windows from "
 "their previews, Always on Top in the preview menu."
@@ -317,7 +325,7 @@ msgstr ""
 "Doks: mapes, kas rāda savu saturu, logu aizvēršana un ieskatīšanās tajos no "
 "to priekšskatījumiem, „Vienmēr virspusē” priekšskatījuma izvēlnē."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
 msgid ""
 "New: clipboard history, Keep Awake in the quick settings, an Always on Top "
 "shortcut."
@@ -325,7 +333,7 @@ msgstr ""
 "Jaunums: starpliktuves vēsture, „Neļaut iemigt” ātrajos iestatījumos, saīsne "
 "funkcijai „Vienmēr virspusē”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+#: data/io.github.deskence.Deskence.metainfo.xml.in:135
 msgid ""
 "Better GNOME Desktop is now called Deskence. Settings, enabled features, "
 "pinned applications and desktop icon positions are taken over."
@@ -334,7 +342,7 @@ msgstr ""
 "funkcijas, piespraustās lietotnes un darbvirsmas ikonu novietojumi tiek "
 "pārņemti."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+#: data/io.github.deskence.Deskence.metainfo.xml.in:136
 msgid ""
 "Dock: previews of the windows of an application when the pointer rests on "
 "it, no extra space next to the applications button when icons are magnified, "
@@ -344,7 +352,7 @@ msgstr ""
 "papildu vietas blakus lietotņu pogai, palielinot ikonas, darbības indikatori "
 "zem apakšējā doka ikonām."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
 msgid ""
 "Settings: larger, clearer previews of the dock and the desktop icons, page "
 "icons, an “About” menu item."
@@ -352,11 +360,11 @@ msgstr ""
 "Iestatījumi: lielāki un skaidrāki doka un darbvirsmas ikonu priekšskatījumi, "
 "lapu ikonas, izvēlnes vienums „Par”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
 msgid "Better GNOME Desktop is now called Deskence."
 msgstr "Better GNOME Desktop tagad saucas Deskence."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+#: data/io.github.deskence.Deskence.metainfo.xml.in:147
 msgid ""
 "Dock: sharp magnified icons, no tiles under icons with a custom background, "
 "monochrome distribution logo, the application list kept at the start of a "
@@ -366,7 +374,7 @@ msgstr ""
 "vienkrāsains distributīva logotips, lietotņu saraksts visas malas garuma "
 "doka sākumā, darbības indikatori iekšpusē."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+#: data/io.github.deskence.Deskence.metainfo.xml.in:148
 msgid ""
 "Applications view: one continuous closing transition, optional custom "
 "background color."
@@ -374,7 +382,7 @@ msgstr ""
 "Lietotņu skats: viena nepārtraukta pāreja aizverot, neobligāta sava fona "
 "krāsa."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
 msgid ""
 "Desktop: menus open at the clicked point, also beside the dock; the icon "
 "grid starts at the chosen corner with small margins."
@@ -382,7 +390,7 @@ msgstr ""
 "Darbvirsma: izvēlnes atveras klikšķa vietā, arī blakus dokam; ikonu režģis "
 "sākas izvēlētajā stūrī ar nelielām malām."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+#: data/io.github.deskence.Deskence.metainfo.xml.in:154
 msgid ""
 "Dock: applications button at either end with a choice of icon, magnified "
 "icons, scrolling when the applications do not fit, custom background color "
@@ -393,7 +401,7 @@ msgstr ""
 "ritināšana, kad lietotnes neietilpst, sava fona krāsa un caurspīdīgums, "
 "iestatījumi lietotņu pogas izvēlnē, caurspīdīgs fons lietotņu skatam."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+#: data/io.github.deskence.Deskence.metainfo.xml.in:155
 msgid ""
 "Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
 "the whole desktop beside the dock usable, icon positions that do not move "
@@ -403,7 +411,7 @@ msgstr ""
 "režģim”, visa darbvirsma blakus dokam izmantojama, ikonu novietojumi, kas "
 "nepārvietojas kopā ar doku."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
 msgid ""
 "Fixes: smooth closing of the applications view, immediate reordering of dock "
 "icons, no frame while dragging desktop icons, one desktop menu everywhere."
@@ -412,7 +420,7 @@ msgstr ""
 "pārkārtošana, nav rāmja, velkot darbvirsmas ikonas, visur viena un tā pati "
 "darbvirsmas izvēlne."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+#: data/io.github.deskence.Deskence.metainfo.xml.in:161
 msgid "First release."
 msgstr "Pirmais laidiens."
 
@@ -1233,7 +1241,7 @@ msgstr "Necaurspīdīgs"
 msgid "Transparent"
 msgstr "Caurspīdīgs"
 
-#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:554
 #: src/deskence/general.py:252 src/deskence/general.py:283
 #: src/deskence/general.py:326 src/deskence/general.py:436
 #: src/deskence/general.py:511 src/deskence/shortcuts.py:89
@@ -1464,7 +1472,7 @@ msgstr "Pārvietot augšup"
 msgid "Move Down"
 msgstr "Pārvietot lejup"
 
-#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:376
 msgid "Remove From Dock"
 msgstr "Izņemt no doka"
 
@@ -1481,7 +1489,7 @@ msgid "Only local folders can be added."
 msgstr "Var pievienot tikai lokālas mapes."
 
 #: src/deskence/pages.py:551 src/deskence/pages.py:630
-#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: desktop-icons/deskence_desktop/app.py:583 src/deskence/general.py:180
 #: src/deskence/general.py:415 src/deskence/shortcuts.py:147
 msgid "_Close"
 msgstr "_Aizvērt"
@@ -2082,8 +2090,8 @@ msgstr "Rādīt _ikonas uz darbvirsmas"
 msgid "Desktop Folder"
 msgstr "Darbvirsmas mape"
 
-#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
-#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:369
+#: extensions/dock/stacks.js:558 extensions/dock/stacks.js:562
 msgid "Open in Files"
 msgstr "Atvērt lietotnē „Datnes”"
 
@@ -2092,7 +2100,7 @@ msgid "Icons"
 msgstr "Ikonas"
 
 #: src/deskence/ui/desktop-icons-page.ui:53
-#: desktop-icons/deskence_desktop/app.py:798
+#: desktop-icons/deskence_desktop/app.py:813
 msgid "_Size"
 msgstr "_Izmērs"
 
@@ -2321,36 +2329,36 @@ msgstr "Vienums ar šo nosaukumu jau eksistē."
 msgid "The name is too long."
 msgstr "Nosaukums ir pārāk garš."
 
-#: desktop-icons/deskence_desktop/app.py:496
+#: desktop-icons/deskence_desktop/app.py:511
 msgid "Cannot open the location"
 msgstr "Neizdodas atvērt vietu"
 
-#: desktop-icons/deskence_desktop/app.py:504
-#: desktop-icons/deskence_desktop/app.py:520
-#: desktop-icons/deskence_desktop/app.py:526
-#: desktop-icons/deskence_desktop/app.py:671
+#: desktop-icons/deskence_desktop/app.py:519
+#: desktop-icons/deskence_desktop/app.py:535
+#: desktop-icons/deskence_desktop/app.py:541
+#: desktop-icons/deskence_desktop/app.py:686
 #, python-brace-format
 msgid "Cannot open “{}”"
 msgstr "Neizdodas atvērt „{}”"
 
-#: desktop-icons/deskence_desktop/app.py:505
+#: desktop-icons/deskence_desktop/app.py:520
 msgid "The link is broken: the item it points to does not exist."
 msgstr "Saite ir bojāta: vienums, uz kuru tā norāda, neeksistē."
 
-#: desktop-icons/deskence_desktop/app.py:527
+#: desktop-icons/deskence_desktop/app.py:542
 msgid "The launcher is not valid."
 msgstr "Palaidējs nav derīgs."
 
-#: desktop-icons/deskence_desktop/app.py:532
+#: desktop-icons/deskence_desktop/app.py:547
 #, python-brace-format
 msgid "Cannot start “{}”"
 msgstr "Neizdodas palaist „{}”"
 
-#: desktop-icons/deskence_desktop/app.py:536
+#: desktop-icons/deskence_desktop/app.py:551
 msgid "Untrusted Launcher"
 msgstr "Neuzticams palaidējs"
 
-#: desktop-icons/deskence_desktop/app.py:537
+#: desktop-icons/deskence_desktop/app.py:552
 #, python-brace-format
 msgid ""
 "“{}” has not been marked as trusted. Only allow launching if you know where "
@@ -2359,142 +2367,142 @@ msgstr ""
 "„{}” nav atzīmēts kā uzticams. Atļaujiet palaišanu tikai tad, ja zināt, no "
 "kurienes šī datne nāk."
 
-#: desktop-icons/deskence_desktop/app.py:540
+#: desktop-icons/deskence_desktop/app.py:555
 msgid "_Allow and Launch"
 msgstr "_Atļaut un palaist"
 
-#: desktop-icons/deskence_desktop/app.py:559
+#: desktop-icons/deskence_desktop/app.py:574
 #, python-brace-format
 msgid "Cannot allow launching “{}”"
 msgstr "Neizdodas atļaut „{}” palaišanu"
 
-#: desktop-icons/deskence_desktop/app.py:624
+#: desktop-icons/deskence_desktop/app.py:639
 msgid "Cannot open Settings"
 msgstr "Neizdodas atvērt iestatījumus"
 
-#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+#: desktop-icons/deskence_desktop/app.py:647 extensions/dock/dock.js:78
 msgid "Cannot open Deskence"
 msgstr "Neizdodas atvērt Deskence"
 
-#: desktop-icons/deskence_desktop/app.py:688
+#: desktop-icons/deskence_desktop/app.py:703
 #, python-brace-format
 msgid "Cannot unmount “{}”"
 msgstr "Neizdodas atmontēt „{}”"
 
-#: desktop-icons/deskence_desktop/app.py:720
+#: desktop-icons/deskence_desktop/app.py:735
 msgid "Names starting with “.” are hidden."
 msgstr "Nosaukumi, kas sākas ar „.”, ir paslēpti."
 
-#: desktop-icons/deskence_desktop/app.py:747
-#: desktop-icons/deskence_desktop/app.py:750
+#: desktop-icons/deskence_desktop/app.py:762
+#: desktop-icons/deskence_desktop/app.py:765
 msgid "New Folder"
 msgstr "Jauna mape"
 
-#: desktop-icons/deskence_desktop/app.py:757
+#: desktop-icons/deskence_desktop/app.py:772
 msgid "Folder Name"
 msgstr "Mapes nosaukums"
 
-#: desktop-icons/deskence_desktop/app.py:757
+#: desktop-icons/deskence_desktop/app.py:772
 msgid "_Create"
 msgstr "_Izveidot"
 
-#: desktop-icons/deskence_desktop/app.py:766
+#: desktop-icons/deskence_desktop/app.py:781
 msgid "Rename Folder"
 msgstr "Pārdēvēt mapi"
 
-#: desktop-icons/deskence_desktop/app.py:766
+#: desktop-icons/deskence_desktop/app.py:781
 msgid "Rename File"
 msgstr "Pārdēvēt datni"
 
-#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+#: desktop-icons/deskence_desktop/app.py:788 src/deskence/general.py:284
 msgid "_Rename"
 msgstr "_Pārdēvēt"
 
-#: desktop-icons/deskence_desktop/app.py:788
+#: desktop-icons/deskence_desktop/app.py:803
 msgid "New _Folder…"
 msgstr "Jauna _mape…"
 
-#: desktop-icons/deskence_desktop/app.py:789
+#: desktop-icons/deskence_desktop/app.py:804
 msgid "_Paste"
 msgstr "_Ielīmēt"
 
-#: desktop-icons/deskence_desktop/app.py:790
+#: desktop-icons/deskence_desktop/app.py:805
 msgid "Select _All"
 msgstr "Atlasīt _visu"
 
-#: desktop-icons/deskence_desktop/app.py:794
+#: desktop-icons/deskence_desktop/app.py:809
 msgid "A_rrange Icons"
 msgstr "_Kārtot ikonas"
 
-#: desktop-icons/deskence_desktop/app.py:795
+#: desktop-icons/deskence_desktop/app.py:810
 msgid "Align to _Grid"
 msgstr "Līdzināt _režģim"
 
-#: desktop-icons/deskence_desktop/app.py:797
+#: desktop-icons/deskence_desktop/app.py:812
 msgid "_Name"
 msgstr "_Nosaukums"
 
-#: desktop-icons/deskence_desktop/app.py:797
+#: desktop-icons/deskence_desktop/app.py:812
 msgid "_Modified"
 msgstr "_Mainīts"
 
-#: desktop-icons/deskence_desktop/app.py:798
+#: desktop-icons/deskence_desktop/app.py:813
 msgid "_Type"
 msgstr "_Tips"
 
-#: desktop-icons/deskence_desktop/app.py:800
+#: desktop-icons/deskence_desktop/app.py:815
 msgid "_Sort By"
 msgstr "Kārtot _pēc"
 
-#: desktop-icons/deskence_desktop/app.py:804
+#: desktop-icons/deskence_desktop/app.py:819
 msgid "Change _Background…"
 msgstr "Mainīt _fonu…"
 
-#: desktop-icons/deskence_desktop/app.py:805
+#: desktop-icons/deskence_desktop/app.py:820
 msgid "_Desktop Settings"
 msgstr "_Darbvirsmas iestatījumi"
 
-#: desktop-icons/deskence_desktop/app.py:821
+#: desktop-icons/deskence_desktop/app.py:836
 msgid "_Open"
 msgstr "_Atvērt"
 
-#: desktop-icons/deskence_desktop/app.py:823
+#: desktop-icons/deskence_desktop/app.py:838
 msgid "Open _With…"
 msgstr "Atvērt _ar…"
 
-#: desktop-icons/deskence_desktop/app.py:825
+#: desktop-icons/deskence_desktop/app.py:840
 msgid "Allow _Launching"
 msgstr "Atļaut _palaišanu"
 
-#: desktop-icons/deskence_desktop/app.py:830
+#: desktop-icons/deskence_desktop/app.py:845
 msgid "Cu_t"
 msgstr "Iz_griezt"
 
-#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+#: desktop-icons/deskence_desktop/app.py:846 src/deskence/general.py:537
 msgid "_Copy"
 msgstr "_Kopēt"
 
-#: desktop-icons/deskence_desktop/app.py:833
+#: desktop-icons/deskence_desktop/app.py:848
 msgid "Rena_me…"
 msgstr "Pār_dēvēt…"
 
-#: desktop-icons/deskence_desktop/app.py:837
+#: desktop-icons/deskence_desktop/app.py:852
 msgid "Move to _Trash"
 msgstr "Pārvietot uz _miskasti"
 
-#: desktop-icons/deskence_desktop/app.py:841
+#: desktop-icons/deskence_desktop/app.py:856
 msgid "_Empty Trash…"
 msgstr "_Iztukšot miskasti…"
 
-#: desktop-icons/deskence_desktop/app.py:848
+#: desktop-icons/deskence_desktop/app.py:863
 msgid "_Eject"
 msgstr "_Izgrūst"
 
-#: desktop-icons/deskence_desktop/app.py:850
+#: desktop-icons/deskence_desktop/app.py:865
 msgid "_Unmount"
 msgstr "_Atmontēt"
 
-#: desktop-icons/deskence_desktop/app.py:855
+#: desktop-icons/deskence_desktop/app.py:870
 msgid "_Properties"
 msgstr "_Īpašības"
 
@@ -2560,7 +2568,7 @@ msgstr "Rādīt lietotnes"
 msgid "Dock Settings"
 msgstr "Doka iestatījumi"
 
-#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:114
 msgid "Could not open location"
 msgstr "Neizdevās atvērt vietu"
 
@@ -2610,7 +2618,7 @@ msgid "All Presets"
 msgstr "Visi priekšiestatījumi"
 
 #: src/deskence/general.py:41 src/deskence/general.py:279
-#: extensions/dock/stacks.js:500
+#: extensions/dock/stacks.js:495
 msgid "Name"
 msgstr "Nosaukums"
 
@@ -4181,62 +4189,62 @@ msgstr "_Pauzēt atcerēšanos"
 msgid "New items are not added until this is turned off"
 msgstr "Jauni vienumi netiek pievienoti, kamēr tas nav izslēgts"
 
-#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#: extensions/dock/stacks.js:289 extensions/dock/stacks.js:467
 #, javascript-format
 msgid "Folder %s"
 msgstr "Mape %s"
 
-#: extensions/dock/stacks.js:482
+#: extensions/dock/stacks.js:477
 msgid "Back"
 msgstr "Atpakaļ"
 
-#: extensions/dock/stacks.js:500
+#: extensions/dock/stacks.js:495
 msgid "Date"
 msgstr "Datums"
 
-#: extensions/dock/stacks.js:501
+#: extensions/dock/stacks.js:496
 msgid "Type"
 msgstr "Tips"
 
-#: extensions/dock/stacks.js:507
+#: extensions/dock/stacks.js:502
 #, javascript-format
 msgid "Sort by %s"
 msgstr "Kārtot pēc: %s"
 
-#: extensions/dock/stacks.js:729
+#: extensions/dock/stacks.js:724
 msgid "Show as Grid"
 msgstr "Rādīt kā režģi"
 
-#: extensions/dock/stacks.js:729
+#: extensions/dock/stacks.js:724
 msgid "Show as List"
 msgstr "Rādīt kā sarakstu"
 
-#: extensions/dock/stacks.js:755
+#: extensions/dock/stacks.js:750
 msgid "This standard folder is not set up."
 msgstr "Šī standarta mape nav iestatīta."
 
-#: extensions/dock/stacks.js:759
+#: extensions/dock/stacks.js:754
 msgid "Loading…"
 msgstr "Ielādē…"
 
-#: extensions/dock/stacks.js:824
+#: extensions/dock/stacks.js:819
 msgid "This folder does not exist anymore."
 msgstr "Šī mape vairs neeksistē."
 
-#: extensions/dock/stacks.js:826
+#: extensions/dock/stacks.js:821
 msgid "You do not have permission to open this folder."
 msgstr "Jums nav atļaujas atvērt šo mapi."
 
-#: extensions/dock/stacks.js:828
+#: extensions/dock/stacks.js:823
 #, javascript-format
 msgid "This folder cannot be opened: %s"
 msgstr "Šo mapi nevar atvērt: %s"
 
-#: extensions/dock/stacks.js:897
+#: extensions/dock/stacks.js:892
 msgid "This folder is empty."
 msgstr "Šī mape ir tukša."
 
-#: extensions/dock/stacks.js:899
+#: extensions/dock/stacks.js:894
 #, javascript-format
 msgid ""
 "This folder has more than %d items; only the first ones are shown. Open it "
@@ -4245,20 +4253,20 @@ msgstr ""
 "Šajā mapē ir vairāk nekā %d vienumu; tiek rādīti tikai pirmie. Lai redzētu "
 "visus, atveriet to lietotnē „Datnes”."
 
-#: extensions/dock/stacks.js:1101
+#: extensions/dock/stacks.js:1096
 msgid "Folder"
 msgstr "Mape"
 
-#: extensions/dock/stacks.js:1176
+#: extensions/dock/stacks.js:1171
 #, javascript-format
 msgid "Could not open “%s”"
 msgstr "Neizdevās atvērt „%s”"
 
-#: extensions/dock/stacks.js:1231
+#: extensions/dock/stacks.js:1226
 msgid "Copy"
 msgstr "Kopēt"
 
-#: extensions/dock/stacks.js:1232
+#: extensions/dock/stacks.js:1227
 msgid "Cut"
 msgstr "Izgriezt"
 
@@ -4355,7 +4363,7 @@ msgstr[0] "%s neatver %d no šīm datnēm"
 msgstr[1] "%s neatver %d no šīm datnēm"
 msgstr[2] "%s neatver %d no šīm datnēm"
 
-#: extensions/dock/appIcon.js:95
+#: extensions/dock/appIcon.js:161
 #, javascript-format
 msgid "%s, %d new item"
 msgid_plural "%s, %d new items"

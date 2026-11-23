@@ -1,5 +1,5 @@
 project('deskence',
-  version: '0.15.0',
+  version: '0.15.1',
   license: 'GPL-3.0-or-later',
   meson_version: '>= 1.0.0',
 )

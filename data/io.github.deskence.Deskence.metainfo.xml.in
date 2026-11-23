@@ -38,6 +38,11 @@
     <id>io.github.bettergnome.Desktop</id>
   </provides>
   <releases>
+    <release version="0.15.1" date="2026-11-23">
+      <description>
+        <p>Dock: counters on application icons are round, and they, the window dots and the folder markers stay sharp when icons are magnified. Window dots all have the same size; those of the focused application are white. Desktop: icons respond to clicks and selection again after a monitor is reconnected.</p>
+      </description>
+    </release>
     <release version="0.15.0" date="2026-11-23">
       <description>
         <p>Deskence is now available in 29 languages: all official languages of the European Union, Korean, Simplified and Traditional Chinese, Serbian and Filipino. The language list in the settings names the language the system uses.</p>

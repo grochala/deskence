@@ -323,7 +323,7 @@ terms for the same things in new texts. Mnemonics (`_`) are left out.
 | lv | Priekšiestatījumi |
 | mt | Presets |
 | nl | Voorinstellingen |
-| pl | Presety |
+| pl | Profile ustawień |
 | pt | Predefinições |
 | ro | Presetări |
 | sk | Predvoľby |
@@ -752,7 +752,7 @@ terms for the same things in new texts. Mnemonics (`_`) are left out.
 | lv | Kā sistēmā ({}) |
 | mt | Bħas-Sistema ({}) |
 | nl | Zoals het systeem ({}) |
-| pl | Zgodny z systemem ({}) |
+| pl | Tak jak w systemie ({}) |
 | pt | Igual ao sistema ({}) |
 | ro | La fel ca sistemul ({}) |
 | sk | Podľa systému ({}) |

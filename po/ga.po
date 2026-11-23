@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-23 11:27+0000\n"
+"POT-Creation-Date: 2026-11-23 17:25+0000\n"
 "PO-Revision-Date: 2026-11-23 12:00+0100\n"
 "Last-Translator: Deskence project\n"
 "Language-Team: Irish\n"
@@ -100,6 +100,14 @@ msgstr ""
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:43
 msgid ""
+"Dock: counters on application icons are round, and they, the window dots and "
+"the folder markers stay sharp when icons are magnified. Window dots all have "
+"the same size; those of the focused application are white. Desktop: icons "
+"respond to clicks and selection again after a monitor is reconnected."
+msgstr "Duga: tá na comhairí ar dheilbhíní feidhmchlár cruinn, agus fanann siad, chomh maith le poncanna na bhfuinneog agus marcóirí na bhfillteán, géar nuair a mhéadaítear na deilbhíní. Tá poncanna uile na bhfuinneog ar an méid céanna; tá poncanna an fheidhmchláir ghníomhaigh bán. Deasc: freagraíonn na deilbhíní do chliceanna agus do roghnú arís tar éis monatóir a athcheangal."
+
+#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+msgid ""
 "Deskence is now available in 29 languages: all official languages of the "
 "European Union, Korean, Simplified and Traditional Chinese, Serbian and "
 "Filipino. The language list in the settings names the language the system "
@@ -110,7 +118,7 @@ msgstr ""
 "Filipínis. Taispeánann liosta na dteangacha sna socruithe an teanga a "
 "úsáideann an córas."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:48
+#: data/io.github.deskence.Deskence.metainfo.xml.in:53
 msgid ""
 "Settings: choose the language of the settings window and the deskence "
 "command on the General page, independently of the system."
@@ -118,7 +126,7 @@ msgstr ""
 "Socruithe: roghnaigh teanga fhuinneog na socruithe agus an ordaithe deskence "
 "ar an leathanach Ginearálta, beag beann ar an gcóras."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:53
+#: data/io.github.deskence.Deskence.metainfo.xml.in:58
 msgid ""
 "Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
 "Ctrl+X) and paste them in Files or on the desktop."
@@ -127,7 +135,7 @@ msgstr ""
 "(cliceáil ar dheis, Ctrl+C, Ctrl+X) agus greamaigh iad in Comhaid nó ar an "
 "deasc."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:58
+#: data/io.github.deskence.Deskence.metainfo.xml.in:63
 msgid ""
 "Dock: drag files and folders from a folder panel onto another folder in the "
 "dock or onto the desktop to move or copy them."
@@ -135,7 +143,7 @@ msgstr ""
 "Duga: tarraing comhaid agus fillteáin ó phainéal fillteáin go fillteán eile "
 "sa duga nó go dtí an deasc chun iad a bhogadh nó a chóipeáil."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:59
+#: data/io.github.deskence.Deskence.metainfo.xml.in:64
 msgid ""
 "Dock: applications only open dropped files of types they declare; otherwise "
 "the dock says why."
@@ -143,12 +151,12 @@ msgstr ""
 "Duga: ní osclaíonn feidhmchláir comhaid a scaoiltear orthu ach de na "
 "cineálacha a fhógraíonn siad; seachas sin, míníonn an duga an chúis."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:60
+#: data/io.github.deskence.Deskence.metainfo.xml.in:65
 msgid "Dock: the marker under folders matches the dots of applications."
 msgstr ""
 "Duga: tá an marc faoi na fillteáin ag teacht le poncanna na bhfeidhmchlár."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:65
+#: data/io.github.deskence.Deskence.metainfo.xml.in:70
 msgid ""
 "Start on the desktop: after logging in, the desktop, the top bar and windows "
 "take clicks again when animations are off, for example in virtual machines "
@@ -160,7 +168,7 @@ msgstr ""
 "meaisíní fíorúla gan luasghéarú 3D; roimhe seo níor fhreagair ach an duga go "
 "dtí gur osclaíodh an forbhreathnú uair amháin."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:70
+#: data/io.github.deskence.Deskence.metainfo.xml.in:75
 msgid ""
 "Optional diagnostics for reports of a desktop and windows that stop taking "
 "clicks."
@@ -168,7 +176,7 @@ msgstr ""
 "Diagnóisic roghnach le haghaidh tuairiscí faoi dheasc agus fuinneoga a "
 "stopann ag freagairt do chlic."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:75
+#: data/io.github.deskence.Deskence.metainfo.xml.in:80
 msgid ""
 "Dock: dragging files onto the dock always ends cleanly, also when something "
 "fails during the drop."
@@ -176,7 +184,7 @@ msgstr ""
 "Duga: críochnaíonn tarraingt comhad ar an duga go glan i gcónaí, fiú má "
 "theipeann ar rud éigin le linn an scaoilte."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:80
+#: data/io.github.deskence.Deskence.metainfo.xml.in:85
 msgid ""
 "Dock: drop files on an application to open them in it, or on a folder to "
 "copy or move them there; hold a file over a folder to open it and drop into "
@@ -186,7 +194,7 @@ msgstr ""
 "chun iad a chóipeáil nó a bhogadh ann; coinnigh comhad os cionn fillteáin "
 "chun é a oscailt agus é a scaoileadh i bhfo-fhillteán."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:85
+#: data/io.github.deskence.Deskence.metainfo.xml.in:90
 msgid ""
 "Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
 "one place with checks for clashes, and copy or save a report for bug reports."
@@ -195,7 +203,7 @@ msgstr ""
 "méarchláir go léir in aon áit amháin le seiceáil ar choimhlintí, agus "
 "cóipeáil nó sábháil tuairisc do thuairiscí fabhtanna."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:86
+#: data/io.github.deskence.Deskence.metainfo.xml.in:91
 msgid ""
 "Presets: undoing an applied preset restores only what it changed and keeps "
 "settings you changed afterwards."
@@ -204,7 +212,7 @@ msgstr ""
 "athchóirítear ach a raibh athraithe aige agus coinnítear socruithe a "
 "d'athraigh tú ina dhiaidh."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:87
+#: data/io.github.deskence.Deskence.metainfo.xml.in:92
 msgid ""
 "Dock: unread counters and the progress of operations on application icons, "
 "for applications that report them."
@@ -212,7 +220,7 @@ msgstr ""
 "Duga: áiritheoirí neamhléite agus dul chun cinn oibríochtaí ar dheilbhíní "
 "feidhmchlár, d'fheidhmchláir a thuairiscíonn iad."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:92
+#: data/io.github.deskence.Deskence.metainfo.xml.in:97
 msgid ""
 "Command line: check the state of each feature, turn features off and on, "
 "apply, import and export presets, restore defaults and collect diagnostics "
@@ -224,7 +232,7 @@ msgstr ""
 "réamhshocruithe agus bailigh diagnóisic leis an ordú deskence, fiú ó chonsól "
 "téacs nuair nach n-oibríonn an deasc. Féach man deskence."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:93
+#: data/io.github.deskence.Deskence.metainfo.xml.in:98
 msgid ""
 "Restoring default settings no longer deletes a clipboard history that is "
 "kept after logging out."
@@ -232,7 +240,7 @@ msgstr ""
 "Ní scriosann athchóiriú na socruithe réamhshocraithe stair na gearrthaisce a "
 "choinnítear tar éis logáil amach a thuilleadh."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:98
+#: data/io.github.deskence.Deskence.metainfo.xml.in:103
 msgid ""
 "Applications view: your own color and transparency for the highlight under "
 "the pointer on applications and application folders; hovering a folder no "
@@ -243,7 +251,7 @@ msgstr ""
 "tharraingítear imlíne a thuilleadh nuair a ghluaiseann an pointeoir thar "
 "fhillteán."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:99
+#: data/io.github.deskence.Deskence.metainfo.xml.in:104
 msgid ""
 "Folders in the dock: the panel takes at most half of the screen height and "
 "scrolls through the whole folder, also with the keyboard, and returns to the "
@@ -253,7 +261,7 @@ msgstr ""
 "scáileáin, scrollaíonn sé tríd an bhfillteán ar fad, leis an méarchlár "
 "freisin, agus filleann sé ar an áit roimhe tar éis fo-fhillteáin."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:100
+#: data/io.github.deskence.Deskence.metainfo.xml.in:105
 msgid ""
 "Settings: clearer descriptions, better Polish wording and fewer clashing "
 "keyboard shortcuts."
@@ -261,7 +269,7 @@ msgstr ""
 "Socruithe: cur síos níos soiléire, foclaíocht Pholainnis níos fearr agus "
 "níos lú aicearraí méarchláir i gcoimhlint."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:105
+#: data/io.github.deskence.Deskence.metainfo.xml.in:110
 msgid ""
 "Dock: a dock along the whole edge matches the top bar in the activities "
 "overview and the applications view; a short dock keeps its own look."
@@ -270,7 +278,7 @@ msgstr ""
 "bhforbhreathnú na ngníomhaíochtaí agus in amharc na bhfeidhmchlár; coinníonn "
 "duga gearr a chuma féin."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:106
+#: data/io.github.deskence.Deskence.metainfo.xml.in:111
 msgid ""
 "Applications view: folder tiles with your own color or transparency now "
 "clearly show hover, press, focus and selection."
@@ -278,7 +286,7 @@ msgstr ""
 "Amharc na bhfeidhmchlár: taispeánann tíleanna fillteán le do dhath nó do "
 "thrédhearcacht féin go soiléir anois ainliú, brú, fócas agus roghnú."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:111
+#: data/io.github.deskence.Deskence.metainfo.xml.in:116
 msgid ""
 "Applications view: your own color and transparency for folder tiles such as "
 "“Utilities”."
@@ -286,7 +294,7 @@ msgstr ""
 "Amharc na bhfeidhmchlár: do dhath agus do thrédhearcacht féin do thíleanna "
 "fillteán ar nós “Fóntais”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:112
+#: data/io.github.deskence.Deskence.metainfo.xml.in:117
 msgid ""
 "General: optionally start on the desktop instead of the activities overview "
 "after logging in."
@@ -294,7 +302,7 @@ msgstr ""
 "Ginearálta: más mian leat, tosaigh ar an deasc in ionad fhorbhreathnú na "
 "ngníomhaíochtaí tar éis logáil isteach."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:113
+#: data/io.github.deskence.Deskence.metainfo.xml.in:118
 msgid ""
 "Dock: it now blends into the activities overview instead of forming a "
 "separate band."
@@ -302,7 +310,7 @@ msgstr ""
 "Duga: cumascann sé anois le forbhreathnú na ngníomhaíochtaí in ionad banda "
 "ar leith a dhéanamh."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:118
+#: data/io.github.deskence.Deskence.metainfo.xml.in:123
 msgid ""
 "Project homepage and bug tracker links, English documentation. No changes to "
 "the application."
@@ -310,7 +318,7 @@ msgstr ""
 "Naisc le leathanach an tionscadail agus leis an rianaire fabhtanna, "
 "doiciméadú i mBéarla. Gan athruithe ar an bhfeidhmchlár."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:123
+#: data/io.github.deskence.Deskence.metainfo.xml.in:128
 msgid ""
 "Settings: a General page with presets, exporting and importing settings and "
 "restoring defaults; an Applications View page with alphabetical sorting; "
@@ -320,7 +328,7 @@ msgstr ""
 "iompórtáil socruithe agus athchóiriú na réamhshocruithe; leathanach Amharc "
 "na bhFeidhmchlár le sórtáil aibítreach; réamhamhairc níos ciúine."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:124
+#: data/io.github.deskence.Deskence.metainfo.xml.in:129
 msgid ""
 "Dock: folders that show their contents, closing and peeking at windows from "
 "their previews, Always on Top in the preview menu."
@@ -329,7 +337,7 @@ msgstr ""
 "spléachadh orthu óna réamhamhairc, “I gCónaí ar Barr” i roghchlár an "
 "réamhamhairc."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:125
+#: data/io.github.deskence.Deskence.metainfo.xml.in:130
 msgid ""
 "New: clipboard history, Keep Awake in the quick settings, an Always on Top "
 "shortcut."
@@ -337,7 +345,7 @@ msgstr ""
 "Nua: stair na gearrthaisce, “Coinnigh Múscailte” sna socruithe tapa, "
 "aicearra do “I gCónaí ar Barr”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:130
+#: data/io.github.deskence.Deskence.metainfo.xml.in:135
 msgid ""
 "Better GNOME Desktop is now called Deskence. Settings, enabled features, "
 "pinned applications and desktop icon positions are taken over."
@@ -346,7 +354,7 @@ msgstr ""
 "gnéithe cumasaithe, feidhmchláir phionnáilte agus suíomhanna na ndeilbhíní "
 "deisce."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:131
+#: data/io.github.deskence.Deskence.metainfo.xml.in:136
 msgid ""
 "Dock: previews of the windows of an application when the pointer rests on "
 "it, no extra space next to the applications button when icons are magnified, "
@@ -356,7 +364,7 @@ msgstr ""
 "air, gan spás breise in aice le cnaipe na bhfeidhmchlár nuair a mhéadaítear "
 "deilbhíní, táscairí reatha faoi dheilbhíní duga ag an mbun."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:132
+#: data/io.github.deskence.Deskence.metainfo.xml.in:137
 msgid ""
 "Settings: larger, clearer previews of the dock and the desktop icons, page "
 "icons, an “About” menu item."
@@ -364,11 +372,11 @@ msgstr ""
 "Socruithe: réamhamhairc níos mó agus níos soiléire den duga agus de na "
 "deilbhíní deisce, deilbhíní leathanach, mír roghchláir “Maidir Leis”."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:137
+#: data/io.github.deskence.Deskence.metainfo.xml.in:142
 msgid "Better GNOME Desktop is now called Deskence."
 msgstr "Deskence is ainm do Better GNOME Desktop anois."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:142
+#: data/io.github.deskence.Deskence.metainfo.xml.in:147
 msgid ""
 "Dock: sharp magnified icons, no tiles under icons with a custom background, "
 "monochrome distribution logo, the application list kept at the start of a "
@@ -378,7 +386,7 @@ msgstr ""
 "saincheaptha, lógó aondaite an dáileacháin, liosta na bhfeidhmchlár ag tús "
 "duga ar fud an imill ar fad, táscairí reatha ar an taobh istigh."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:143
+#: data/io.github.deskence.Deskence.metainfo.xml.in:148
 msgid ""
 "Applications view: one continuous closing transition, optional custom "
 "background color."
@@ -386,7 +394,7 @@ msgstr ""
 "Amharc na bhfeidhmchlár: trasdul leanúnach amháin agus é á dhúnadh, dath "
 "cúlra saincheaptha roghnach."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:144
+#: data/io.github.deskence.Deskence.metainfo.xml.in:149
 msgid ""
 "Desktop: menus open at the clicked point, also beside the dock; the icon "
 "grid starts at the chosen corner with small margins."
@@ -395,7 +403,7 @@ msgstr ""
 "duga freisin; tosaíonn greille na ndeilbhíní sa chúinne roghnaithe le "
 "corrlaigh bheaga."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:149
+#: data/io.github.deskence.Deskence.metainfo.xml.in:154
 msgid ""
 "Dock: applications button at either end with a choice of icon, magnified "
 "icons, scrolling when the applications do not fit, custom background color "
@@ -407,7 +415,7 @@ msgstr ""
 "trédhearcacht chúlra shaincheaptha, socruithe i roghchlár chnaipe na "
 "bhfeidhmchlár, cúlra trédhearcach d'amharc na bhfeidhmchlár."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:150
+#: data/io.github.deskence.Deskence.metainfo.xml.in:155
 msgid ""
 "Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
 "the whole desktop beside the dock usable, icon positions that do not move "
@@ -417,7 +425,7 @@ msgstr ""
 "an nGreille”, an deasc ar fad in aice leis an duga inúsáidte, suíomhanna "
 "deilbhíní nach mbogann leis an duga."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:151
+#: data/io.github.deskence.Deskence.metainfo.xml.in:156
 msgid ""
 "Fixes: smooth closing of the applications view, immediate reordering of dock "
 "icons, no frame while dragging desktop icons, one desktop menu everywhere."
@@ -426,7 +434,7 @@ msgstr ""
 "n-athordú láithreach, gan fráma agus deilbhíní deisce á dtarraingt, an "
 "roghchlár deisce céanna i ngach áit."
 
-#: data/io.github.deskence.Deskence.metainfo.xml.in:156
+#: data/io.github.deskence.Deskence.metainfo.xml.in:161
 msgid "First release."
 msgstr "An chéad eisiúint."
 
@@ -1274,7 +1282,7 @@ msgstr "Teimhneach"
 msgid "Transparent"
 msgstr "Trédhearcach"
 
-#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:539
+#: src/deskence/pages.py:105 desktop-icons/deskence_desktop/app.py:554
 #: src/deskence/general.py:252 src/deskence/general.py:283
 #: src/deskence/general.py:326 src/deskence/general.py:436
 #: src/deskence/general.py:511 src/deskence/shortcuts.py:89
@@ -1513,7 +1521,7 @@ msgstr "Bog Suas"
 msgid "Move Down"
 msgstr "Bog Síos"
 
-#: src/deskence/pages.py:506 extensions/dock/stacks.js:381
+#: src/deskence/pages.py:506 extensions/dock/stacks.js:376
 msgid "Remove From Dock"
 msgstr "Bain den Duga"
 
@@ -1530,7 +1538,7 @@ msgid "Only local folders can be added."
 msgstr "Ní féidir ach fillteáin logánta a chur leis."
 
 #: src/deskence/pages.py:551 src/deskence/pages.py:630
-#: desktop-icons/deskence_desktop/app.py:568 src/deskence/general.py:180
+#: desktop-icons/deskence_desktop/app.py:583 src/deskence/general.py:180
 #: src/deskence/general.py:415 src/deskence/shortcuts.py:147
 msgid "_Close"
 msgstr "_Dún"
@@ -2139,8 +2147,8 @@ msgstr "Taispeáin _Deilbhíní ar an Deasc"
 msgid "Desktop Folder"
 msgstr "Fillteán Deisce"
 
-#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:374
-#: extensions/dock/stacks.js:563 extensions/dock/stacks.js:567
+#: src/deskence/ui/desktop-icons-page.ui:29 extensions/dock/stacks.js:369
+#: extensions/dock/stacks.js:558 extensions/dock/stacks.js:562
 msgid "Open in Files"
 msgstr "Oscail in Comhaid"
 
@@ -2149,7 +2157,7 @@ msgid "Icons"
 msgstr "Deilbhíní"
 
 #: src/deskence/ui/desktop-icons-page.ui:53
-#: desktop-icons/deskence_desktop/app.py:798
+#: desktop-icons/deskence_desktop/app.py:813
 msgid "_Size"
 msgstr "_Méid"
 
@@ -2381,36 +2389,36 @@ msgstr "Tá mír leis an ainm seo ann cheana."
 msgid "The name is too long."
 msgstr "Tá an t-ainm rófhada."
 
-#: desktop-icons/deskence_desktop/app.py:496
+#: desktop-icons/deskence_desktop/app.py:511
 msgid "Cannot open the location"
 msgstr "Ní féidir an suíomh a oscailt"
 
-#: desktop-icons/deskence_desktop/app.py:504
-#: desktop-icons/deskence_desktop/app.py:520
-#: desktop-icons/deskence_desktop/app.py:526
-#: desktop-icons/deskence_desktop/app.py:671
+#: desktop-icons/deskence_desktop/app.py:519
+#: desktop-icons/deskence_desktop/app.py:535
+#: desktop-icons/deskence_desktop/app.py:541
+#: desktop-icons/deskence_desktop/app.py:686
 #, python-brace-format
 msgid "Cannot open “{}”"
 msgstr "Ní féidir “{}” a oscailt"
 
-#: desktop-icons/deskence_desktop/app.py:505
+#: desktop-icons/deskence_desktop/app.py:520
 msgid "The link is broken: the item it points to does not exist."
 msgstr "Tá an nasc briste: níl an mhír a dtagraíonn sé di ann."
 
-#: desktop-icons/deskence_desktop/app.py:527
+#: desktop-icons/deskence_desktop/app.py:542
 msgid "The launcher is not valid."
 msgstr "Níl an tosaitheoir bailí."
 
-#: desktop-icons/deskence_desktop/app.py:532
+#: desktop-icons/deskence_desktop/app.py:547
 #, python-brace-format
 msgid "Cannot start “{}”"
 msgstr "Ní féidir “{}” a thosú"
 
-#: desktop-icons/deskence_desktop/app.py:536
+#: desktop-icons/deskence_desktop/app.py:551
 msgid "Untrusted Launcher"
 msgstr "Tosaitheoir Neamhiontaofa"
 
-#: desktop-icons/deskence_desktop/app.py:537
+#: desktop-icons/deskence_desktop/app.py:552
 #, python-brace-format
 msgid ""
 "“{}” has not been marked as trusted. Only allow launching if you know where "
@@ -2419,142 +2427,142 @@ msgstr ""
 "Níor marcáladh “{}” mar iontaofa. Ná ceadaigh é a thosú ach amháin má tá a "
 "fhios agat cá as a dtagann an comhad seo."
 
-#: desktop-icons/deskence_desktop/app.py:540
+#: desktop-icons/deskence_desktop/app.py:555
 msgid "_Allow and Launch"
 msgstr "_Ceadaigh agus Tosaigh"
 
-#: desktop-icons/deskence_desktop/app.py:559
+#: desktop-icons/deskence_desktop/app.py:574
 #, python-brace-format
 msgid "Cannot allow launching “{}”"
 msgstr "Ní féidir tosú “{}” a cheadú"
 
-#: desktop-icons/deskence_desktop/app.py:624
+#: desktop-icons/deskence_desktop/app.py:639
 msgid "Cannot open Settings"
 msgstr "Ní féidir Socruithe a oscailt"
 
-#: desktop-icons/deskence_desktop/app.py:632 extensions/dock/dock.js:78
+#: desktop-icons/deskence_desktop/app.py:647 extensions/dock/dock.js:78
 msgid "Cannot open Deskence"
 msgstr "Ní féidir Deskence a oscailt"
 
-#: desktop-icons/deskence_desktop/app.py:688
+#: desktop-icons/deskence_desktop/app.py:703
 #, python-brace-format
 msgid "Cannot unmount “{}”"
 msgstr "Ní féidir “{}” a dhífheistiú"
 
-#: desktop-icons/deskence_desktop/app.py:720
+#: desktop-icons/deskence_desktop/app.py:735
 msgid "Names starting with “.” are hidden."
 msgstr "Tá ainmneacha a thosaíonn le “.” i bhfolach."
 
-#: desktop-icons/deskence_desktop/app.py:747
-#: desktop-icons/deskence_desktop/app.py:750
+#: desktop-icons/deskence_desktop/app.py:762
+#: desktop-icons/deskence_desktop/app.py:765
 msgid "New Folder"
 msgstr "Fillteán Nua"
 
-#: desktop-icons/deskence_desktop/app.py:757
+#: desktop-icons/deskence_desktop/app.py:772
 msgid "Folder Name"
 msgstr "Ainm an Fhillteáin"
 
-#: desktop-icons/deskence_desktop/app.py:757
+#: desktop-icons/deskence_desktop/app.py:772
 msgid "_Create"
 msgstr "_Cruthaigh"
 
-#: desktop-icons/deskence_desktop/app.py:766
+#: desktop-icons/deskence_desktop/app.py:781
 msgid "Rename Folder"
 msgstr "Athainmnigh an Fillteán"
 
-#: desktop-icons/deskence_desktop/app.py:766
+#: desktop-icons/deskence_desktop/app.py:781
 msgid "Rename File"
 msgstr "Athainmnigh an Comhad"
 
-#: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
+#: desktop-icons/deskence_desktop/app.py:788 src/deskence/general.py:284
 msgid "_Rename"
 msgstr "_Athainmnigh"
 
-#: desktop-icons/deskence_desktop/app.py:788
+#: desktop-icons/deskence_desktop/app.py:803
 msgid "New _Folder…"
 msgstr "_Fillteán Nua…"
 
-#: desktop-icons/deskence_desktop/app.py:789
+#: desktop-icons/deskence_desktop/app.py:804
 msgid "_Paste"
 msgstr "_Greamaigh"
 
-#: desktop-icons/deskence_desktop/app.py:790
+#: desktop-icons/deskence_desktop/app.py:805
 msgid "Select _All"
 msgstr "Roghnaigh _Uile"
 
-#: desktop-icons/deskence_desktop/app.py:794
+#: desktop-icons/deskence_desktop/app.py:809
 msgid "A_rrange Icons"
 msgstr "_Socraigh Deilbhíní"
 
-#: desktop-icons/deskence_desktop/app.py:795
+#: desktop-icons/deskence_desktop/app.py:810
 msgid "Align to _Grid"
 msgstr "Ailínigh leis an n_Greille"
 
-#: desktop-icons/deskence_desktop/app.py:797
+#: desktop-icons/deskence_desktop/app.py:812
 msgid "_Name"
 msgstr "_Ainm"
 
-#: desktop-icons/deskence_desktop/app.py:797
+#: desktop-icons/deskence_desktop/app.py:812
 msgid "_Modified"
 msgstr "_Athraithe"
 
-#: desktop-icons/deskence_desktop/app.py:798
+#: desktop-icons/deskence_desktop/app.py:813
 msgid "_Type"
 msgstr "_Cineál"
 
-#: desktop-icons/deskence_desktop/app.py:800
+#: desktop-icons/deskence_desktop/app.py:815
 msgid "_Sort By"
 msgstr "_Sórtáil de réir"
 
-#: desktop-icons/deskence_desktop/app.py:804
+#: desktop-icons/deskence_desktop/app.py:819
 msgid "Change _Background…"
 msgstr "Athraigh an _Cúlra…"
 
-#: desktop-icons/deskence_desktop/app.py:805
+#: desktop-icons/deskence_desktop/app.py:820
 msgid "_Desktop Settings"
 msgstr "Socruithe _Deisce"
 
-#: desktop-icons/deskence_desktop/app.py:821
+#: desktop-icons/deskence_desktop/app.py:836
 msgid "_Open"
 msgstr "_Oscail"
 
-#: desktop-icons/deskence_desktop/app.py:823
+#: desktop-icons/deskence_desktop/app.py:838
 msgid "Open _With…"
 msgstr "Oscail _Le…"
 
-#: desktop-icons/deskence_desktop/app.py:825
+#: desktop-icons/deskence_desktop/app.py:840
 msgid "Allow _Launching"
 msgstr "Ceadaigh _Tosú"
 
-#: desktop-icons/deskence_desktop/app.py:830
+#: desktop-icons/deskence_desktop/app.py:845
 msgid "Cu_t"
 msgstr "_Gearr"
 
-#: desktop-icons/deskence_desktop/app.py:831 src/deskence/general.py:537
+#: desktop-icons/deskence_desktop/app.py:846 src/deskence/general.py:537
 msgid "_Copy"
 msgstr "_Cóipeáil"
 
-#: desktop-icons/deskence_desktop/app.py:833
+#: desktop-icons/deskence_desktop/app.py:848
 msgid "Rena_me…"
 msgstr "A_thainmnigh…"
 
-#: desktop-icons/deskence_desktop/app.py:837
+#: desktop-icons/deskence_desktop/app.py:852
 msgid "Move to _Trash"
 msgstr "Bog go dtí an _Bruscar"
 
-#: desktop-icons/deskence_desktop/app.py:841
+#: desktop-icons/deskence_desktop/app.py:856
 msgid "_Empty Trash…"
 msgstr "_Folmhaigh an Bruscar…"
 
-#: desktop-icons/deskence_desktop/app.py:848
+#: desktop-icons/deskence_desktop/app.py:863
 msgid "_Eject"
 msgstr "_Díchuir"
 
-#: desktop-icons/deskence_desktop/app.py:850
+#: desktop-icons/deskence_desktop/app.py:865
 msgid "_Unmount"
 msgstr "_Dífheistigh"
 
-#: desktop-icons/deskence_desktop/app.py:855
+#: desktop-icons/deskence_desktop/app.py:870
 msgid "_Properties"
 msgstr "_Airíonna"
 
@@ -2620,7 +2628,7 @@ msgstr "Taispeáin Feidhmchláir"
 msgid "Dock Settings"
 msgstr "Socruithe an Duga"
 
-#: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
+#: extensions/dock/locations.js:27 extensions/dock/stacks.js:114
 msgid "Could not open location"
 msgstr "Níorbh fhéidir an suíomh a oscailt"
 
@@ -2670,7 +2678,7 @@ msgid "All Presets"
 msgstr "Gach Réamhshocrú"
 
 #: src/deskence/general.py:41 src/deskence/general.py:279
-#: extensions/dock/stacks.js:500
+#: extensions/dock/stacks.js:495
 msgid "Name"
 msgstr "Ainm"
 
@@ -4265,62 +4273,62 @@ msgstr "_Cuir an Cuimhneamh ar Sos"
 msgid "New items are not added until this is turned off"
 msgstr "Ní chuirtear míreanna nua leis go dtí go múchtar é seo"
 
-#: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
+#: extensions/dock/stacks.js:289 extensions/dock/stacks.js:467
 #, javascript-format
 msgid "Folder %s"
 msgstr "Fillteán %s"
 
-#: extensions/dock/stacks.js:482
+#: extensions/dock/stacks.js:477
 msgid "Back"
 msgstr "Siar"
 
-#: extensions/dock/stacks.js:500
+#: extensions/dock/stacks.js:495
 msgid "Date"
 msgstr "Dáta"
 
-#: extensions/dock/stacks.js:501
+#: extensions/dock/stacks.js:496
 msgid "Type"
 msgstr "Cineál"
 
-#: extensions/dock/stacks.js:507
+#: extensions/dock/stacks.js:502
 #, javascript-format
 msgid "Sort by %s"
 msgstr "Sórtáil de réir %s"
 
-#: extensions/dock/stacks.js:729
+#: extensions/dock/stacks.js:724
 msgid "Show as Grid"
 msgstr "Taispeáin mar Ghreille"
 
-#: extensions/dock/stacks.js:729
+#: extensions/dock/stacks.js:724
 msgid "Show as List"
 msgstr "Taispeáin mar Liosta"
 
-#: extensions/dock/stacks.js:755
+#: extensions/dock/stacks.js:750
 msgid "This standard folder is not set up."
 msgstr "Níl an fillteán caighdeánach seo socraithe."
 
-#: extensions/dock/stacks.js:759
+#: extensions/dock/stacks.js:754
 msgid "Loading…"
 msgstr "Á lódáil…"
 
-#: extensions/dock/stacks.js:824
+#: extensions/dock/stacks.js:819
 msgid "This folder does not exist anymore."
 msgstr "Níl an fillteán seo ann a thuilleadh."
 
-#: extensions/dock/stacks.js:826
+#: extensions/dock/stacks.js:821
 msgid "You do not have permission to open this folder."
 msgstr "Níl cead agat an fillteán seo a oscailt."
 
-#: extensions/dock/stacks.js:828
+#: extensions/dock/stacks.js:823
 #, javascript-format
 msgid "This folder cannot be opened: %s"
 msgstr "Ní féidir an fillteán seo a oscailt: %s"
 
-#: extensions/dock/stacks.js:897
+#: extensions/dock/stacks.js:892
 msgid "This folder is empty."
 msgstr "Tá an fillteán seo folamh."
 
-#: extensions/dock/stacks.js:899
+#: extensions/dock/stacks.js:894
 #, javascript-format
 msgid ""
 "This folder has more than %d items; only the first ones are shown. Open it "
@@ -4329,20 +4337,20 @@ msgstr ""
 "Tá níos mó ná %d mír san fhillteán seo; ní thaispeántar ach na chéad cinn. "
 "Oscail in Comhaid é chun iad go léir a fheiceáil."
 
-#: extensions/dock/stacks.js:1101
+#: extensions/dock/stacks.js:1096
 msgid "Folder"
 msgstr "Fillteán"
 
-#: extensions/dock/stacks.js:1176
+#: extensions/dock/stacks.js:1171
 #, javascript-format
 msgid "Could not open “%s”"
 msgstr "Níorbh fhéidir “%s” a oscailt"
 
-#: extensions/dock/stacks.js:1231
+#: extensions/dock/stacks.js:1226
 msgid "Copy"
 msgstr "Cóipeáil"
 
-#: extensions/dock/stacks.js:1232
+#: extensions/dock/stacks.js:1227
 msgid "Cut"
 msgstr "Gearr"
 
@@ -4447,7 +4455,7 @@ msgstr[3] "Ní osclaíonn %s %d de na comhaid seo"
 msgstr[4] "Ní osclaíonn %s %d de na comhaid seo"
 
 # NEEDS-REVIEW: initial mutation after numbers is approximate
-#: extensions/dock/appIcon.js:95
+#: extensions/dock/appIcon.js:161
 #, javascript-format
 msgid "%s, %d new item"
 msgid_plural "%s, %d new items"
