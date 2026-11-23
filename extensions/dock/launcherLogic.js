@@ -59,6 +59,24 @@ export function badgeText(count) {
     return count > MAX_SHOWN_COUNT ? `${MAX_SHOWN_COUNT}+` : `${count}`;
 }
 
+// Size of the counter on an icon of iconSize logical pixels: a circle for
+// one digit, a pill as wide as needed for more. It is laid out at
+// renderScale times its size and shown scaled down by the same factor, so
+// it stays sharp at the largest magnification, as the icons do
+// (markScale in logic.js). Returns logical pixels at the render scale,
+// except the margin from the corner of the icon, which is as shown.
+export function badgeGeometry(iconSize, renderScale) {
+    const scale = Math.max(1, renderScale);
+    const diameter = Math.max(16, Math.round(iconSize * 0.38));
+    return {
+        diameter: Math.round(diameter * scale),
+        fontSize: Math.round(diameter * 0.62 * scale),
+        padding: Math.round(diameter * 0.22 * scale),
+        margin: Math.round(Math.max(1, iconSize * 0.03)),
+        scale,
+    };
+}
+
 const same = (a, b) => a.count === b.count && a.progress === b.progress;
 
 export class LauncherState {

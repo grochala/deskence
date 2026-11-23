@@ -138,6 +138,24 @@ export function iconRenderSize(size, magnifyStrength) {
     return Math.ceil(size * Math.max(1, magnifyStrength));
 }
 
+// How many times larger the marks of dock items (window dots, folder
+// marker, counter) are drawn than they look at rest: the largest
+// magnification, rounded up to a whole number, so their sizes stay whole
+// pixels as shown.
+export function markScale(magnifyStrength) {
+    return Math.ceil(Math.max(1, magnifyStrength));
+}
+
+// Window dots, in logical pixels as shown: all the same round size; the
+// focused application has them in another color.
+export const DOT_SIZE = 4;
+export const DOT_SPACING = 3;
+
+// The folder marker: a triangle the width of two dots, a little taller
+// than one, pointing into the screen (width along the dock edge).
+export const MARKER_WIDTH = 8;
+export const MARKER_HEIGHT = 5;
+
 // How large the applications button may grow when it magnifies on its own
 // (whole-edge dock, scrolled list). It grows from its outer end towards the
 // list, and neither of them moves to make room, so there is no space kept

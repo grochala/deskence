@@ -494,12 +494,18 @@ background.
     the disk until the files are pasted; after a paste of cut files, Files
     clears the clipboard.
 
-32. **Folder marker in the dock.** A solid triangle drawn with Cairo
-    (`stacks.js drawMarker`), as thick as the application dots at its
-    base, as wide as the dot of a focused application, in the color of the
-    dots of an unfocused one and where the dots are; it points where the
-    panel opens. Being drawn in the item, it scales with magnification and
-    the monitor scale without changing the item size.
+32. **Marks of dock items.** Running applications have one round gray dot
+    per window (at most four), all of the same size; the dots of the
+    focused application are white (dark on a light dock), not longer. A
+    folder has a solid gray triangle drawn with Cairo (`stacks.js
+    drawMarker`) where the dots are, pointing where its panel opens. The
+    dots, the triangle and the counter of an application
+    (`launcherEntry.js`) are drawn at the largest magnification rounded up
+    to a whole number (`logic.js markScale`) and scaled down, in a holder
+    that asks for no room (`appIcon.js MarkHolder`): magnifying shows them
+    at their own size, not as a stretched texture, the item keeps its
+    size, and at rest they lie on whole pixels. The counter is a circle
+    for one digit and a pill for more.
 
 33. **Language of the application** (`src/deskence/languages.py`). The
     `language` key holds a translation code, `en` or empty for the

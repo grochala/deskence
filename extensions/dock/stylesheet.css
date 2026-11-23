@@ -128,19 +128,11 @@
 
 /*
  * Window indicators: under the icon in a bottom dock, on the side facing
- * the inside of the screen in a side dock (appIcon.js). Running: small dots; the focused application: the
- * same dots, solid and drawn out along the dock.
+ * the inside of the screen in a side dock (appIcon.js). One gray dot per
+ * window; the dots of the focused application are white (dark on a light
+ * dock), of the same size. Sizes and spacing are set by appIcon.js, which
+ * draws the dots at their magnified size (DOT_SIZE in logic.js).
  */
-#dash.deskence-dock .deskence-dock-dots {
-  spacing: 3px;
-}
-
-#dash.deskence-dock .deskence-dock-dots .app-grid-running-dot {
-  width: 4px;
-  height: 4px;
-  border-radius: 2px;
-}
-
 #dash.deskence-dock-ink-light .deskence-dock-dots .app-grid-running-dot {
   background-color: rgba(255, 255, 255, 0.6);
 }
@@ -159,15 +151,6 @@
 
 #dash.deskence-dock-see-through .deskence-dock-dots .app-grid-running-dot {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
-}
-
-#dash.deskence-dock-bottom .deskence-dock-dots-active .app-grid-running-dot {
-  width: 10px;
-}
-
-#dash.deskence-dock-left .deskence-dock-dots-active .app-grid-running-dot,
-#dash.deskence-dock-right .deskence-dock-dots-active .app-grid-running-dot {
-  height: 10px;
 }
 
 /* Application grid with a see-through background, see overviewBackdrop.js. */
@@ -300,22 +283,11 @@
 /*
  * Folders in the dock. The triangle under a folder (on the inner side in a
  * side dock) tells it opens a panel; applications have window dots there.
- * As wide as the dots of a focused application and, tapering, a little
- * thicker than a dot at its base, in the same place and the same
- * color as dots of an application without focus (drawn in stacks.js from
- * the color here). An unavailable folder is dimmed (stacks.js).
+ * In the same place and the same gray as the dots of an application
+ * without focus (drawn in stacks.js from the color here, sized by
+ * MARKER_WIDTH and MARKER_HEIGHT in logic.js). An unavailable folder is
+ * dimmed (stacks.js).
  */
-#dash.deskence-dock .deskence-dock-stack-marker-bottom {
-  width: 10px;
-  height: 6px;
-}
-
-#dash.deskence-dock .deskence-dock-stack-marker-left,
-#dash.deskence-dock .deskence-dock-stack-marker-right {
-  width: 6px;
-  height: 10px;
-}
-
 #dash.deskence-dock-ink-light .deskence-dock-stack-marker {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -428,15 +400,12 @@
  * progress as a bar along the lower edge of the icon, in the accent color
  * on a dark track. The window dots stay below it, outside the icon.
  */
+/* Size, roundness and margin are set by appIcon.js (badgeGeometry), which
+ * draws the counter at its magnified size. */
 #dash.deskence-dock .deskence-dock-badge {
   background-color: #e01b24;
   color: #ffffff;
-  font-size: 0.75em;
   font-weight: bold;
-  border-radius: 99px;
-  padding: 1px 5px;
-  min-width: 9px;
-  margin: 2px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
 }
 

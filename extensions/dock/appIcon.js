@@ -15,10 +15,76 @@ import * as DND from 'resource:///org/gnome/shell/ui/dnd.js';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import {ngettext} from 'resource:///org/gnome/shell/extensions/extension.js';
 
-import {badgeText} from './launcherLogic.js';
+import {badgeGeometry, badgeText} from './launcherLogic.js';
+import {DOT_SIZE, DOT_SPACING} from './logic.js';
 
 const MAX_INDICATOR_DOTS = 4;
 const ACTIVE_DOTS_CLASS = 'deskence-dock-dots-active';
+
+// Holds a mark of a dock item (window dots, folder marker, counter). The
+// mark is drawn at a whole multiple of its size, as large as it is shown
+// at full magnification (Dock.markScale), and scaled down, so magnifying
+// brings it back to its own size instead of stretching a small texture.
+// The holder asks for no room: the mark is laid out larger than it looks,
+// and the item must not grow with it, or the dock would think its items
+// do not fit. The mark is placed by its size as shown, on whole pixels,
+// so it is sharp at rest too.
+//   place: the edge of the item it lies at: 'bottom', 'left', 'right'
+//     (centered along it) or 'top-right' (the corner)
+//   inset: distance from that edge, in logical pixels as shown
+export const MarkHolder = GObject.registerClass(
+class MarkHolder extends St.Widget {
+    _init(place, mark) {
+        super._init({x_expand: true, y_expand: true});
+        this.place = place;
+        this._inset = 0;
+        this._scale = 1;
+        mark.set_pivot_point(0, 0);
+        this.add_child(mark);
+    }
+
+    setScale(scale, inset = 0) {
+        this._scale = scale;
+        this._inset = inset;
+        this.get_first_child().set_scale(1 / scale, 1 / scale);
+        this.queue_relayout();
+    }
+
+    vfunc_get_preferred_width() {
+        return [0, 0];
+    }
+
+    vfunc_get_preferred_height() {
+        return [0, 0];
+    }
+
+    vfunc_allocate(box) {
+        this.set_allocation(box);
+        const mark = this.get_first_child();
+        const [,, width, height] = mark.get_preferred_size();
+        const shownWidth = width / this._scale;
+        const shownHeight = height / this._scale;
+        const room = [box.get_width(), box.get_height()];
+        const middle = [(room[0] - shownWidth) / 2, (room[1] - shownHeight) / 2];
+        const end = [room[0] - shownWidth - this._inset, room[1] - shownHeight - this._inset];
+        const [x, y] = {
+            'bottom': [middle[0], end[1]],
+            'left': [this._inset, middle[1]],
+            'right': [end[0], middle[1]],
+            'top-right': [end[0], this._inset],
+        }[this.place];
+        const child = new Clutter.ActorBox();
+        child.set_origin(Math.round(x), Math.round(y));
+        child.set_size(width, height);
+        mark.allocate(child);
+    }
+});
+
+// The edge of an item its window dots or folder marker lie at: under it in
+// a bottom dock, on the side facing the inside of the screen in a side dock.
+export function markPlace(dockPosition) {
+    return {bottom: 'bottom', left: 'right', right: 'left'}[dockPosition];
+}
 
 export const DockAppIcon = GObject.registerClass({
     GTypeName: 'DeskenceDockAppIcon',
@@ -36,13 +102,10 @@ export const DockAppIcon = GObject.registerClass({
 
         // Replace the single "running" dot by one dot per window.
         this._dot.hide();
-        this._dots = new St.BoxLayout({
-            style_class: 'deskence-dock-dots',
-            x_expand: true,
-            y_expand: true,
-        });
-        this._iconContainer.add_child(this._dots);
-        this._alignDots();
+        this._dots = new St.BoxLayout({style_class: 'deskence-dock-dots'});
+        this._dotsHolder = new MarkHolder(markPlace(dock.position), this._dots);
+        setVertical(this._dots, dock.position !== 'bottom');
+        this._iconContainer.add_child(this._dotsHolder);
 
         this.app.connectObject('windows-changed', () => this.sync(), this);
         this.sync();
@@ -50,16 +113,19 @@ export const DockAppIcon = GObject.registerClass({
         // What the application reports (launcherEntry.js): a counter at
         // the corner of the icon and progress along its lower edge, above
         // the window dots. Both lie over the icon, so the tile keeps its
-        // size and they scale with a magnified icon.
-        this._badge = new St.Label({
+        // size and they scale with a magnified icon. The counter is a bin,
+        // which centers the digits in the circle.
+        this._badgeLabel = new St.Label({
+            x_align: Clutter.ActorAlign.CENTER,
+            y_align: Clutter.ActorAlign.CENTER,
+        });
+        this._badge = new St.Bin({
             style_class: 'deskence-dock-badge',
-            x_align: Clutter.ActorAlign.END,
-            y_align: Clutter.ActorAlign.START,
-            x_expand: true,
-            y_expand: true,
+            child: this._badgeLabel,
             visible: false,
         });
-        this._badge.clutter_text.x_align = Clutter.ActorAlign.CENTER;
+        this._badgeHolder = new MarkHolder('top-right', this._badge);
+        this.styleMarks();
         // The fill is placed by hand from the start of the track.
         this._progressTrack = new St.Widget({
             style_class: 'deskence-dock-progress',
@@ -74,7 +140,7 @@ export const DockAppIcon = GObject.registerClass({
         this._progressTrack.connect('notify::size', () => this._layoutProgress());
         this._progress = null;
         this._iconContainer.add_child(this._progressTrack);
-        this._iconContainer.add_child(this._badge);
+        this._iconContainer.add_child(this._badgeHolder);
         this.updateLauncher();
     }
 
@@ -88,7 +154,7 @@ export const DockAppIcon = GObject.registerClass({
         const count = manager.showAppCounts ? state.count : null;
         this._badge.visible = count !== null;
         if (count !== null)
-            this._badge.text = badgeText(count);
+            this._badgeLabel.text = badgeText(count);
         // Screen readers hear the counter with the name, not every change
         // of the progress.
         this.accessible_name = count === null ? this.app.get_name()
@@ -107,24 +173,12 @@ export const DockAppIcon = GObject.registerClass({
             this._progressTrack.height);
     }
 
-    // The indicators sit under the icon in a bottom dock and on the side
-    // facing the inside of the screen in a side dock (right of the icon on
-    // the left, left of it on the right). They lie in the padding of the
-    // tile, next to the icon, so they take no room of their own, never
-    // cover the icon and scale together with a magnified icon: the
-    // magnifier grows a tile from its edge at the screen border, so dots
-    // at that edge stay inside the dock.
-    _alignDots() {
-        const side = this._dock.position;
-        setVertical(this._dots, side !== 'bottom');
-        if (side === 'bottom') {
-            this._dots.x_align = Clutter.ActorAlign.CENTER;
-            this._dots.y_align = Clutter.ActorAlign.END;
-        } else {
-            this._dots.x_align = side === 'left' ? Clutter.ActorAlign.END : Clutter.ActorAlign.START;
-            this._dots.y_align = Clutter.ActorAlign.CENTER;
-        }
-    }
+    // The window dots sit under the icon in a bottom dock and on the side
+    // facing the inside of the screen in a side dock (markPlace). They lie
+    // in the padding of the tile, next to the icon, so they never cover the
+    // icon and scale together with a magnified icon: the magnifier grows a
+    // tile from its edge at the screen border, so dots at that edge stay
+    // inside the dock.
 
     // Icons are rendered at the largest size they are shown at (see
     // Dock.iconRenderSize) and drawn into the normal icon size, so the
@@ -161,9 +215,11 @@ export const DockAppIcon = GObject.registerClass({
             this._dots.add_child(new St.Widget({style_class: 'app-grid-running-dot'}));
         for (let i = current - 1; i >= count; i--)
             this._dots.get_child_at_index(i).destroy();
+        if (count > current)
+            this._styleDots();
 
-        // The focused application is told apart by its indicators only;
-        // the tile itself stays transparent.
+        // The focused application is told apart by the color of its dots
+        // only; the tile itself stays transparent.
         const focused = Shell.WindowTracker.get_default().focus_app === this.app;
         if (focused && count > 0)
             this._dots.add_style_class_name(ACTIVE_DOTS_CLASS);
@@ -193,6 +249,33 @@ export const DockAppIcon = GObject.registerClass({
     // A new rendering size (magnification turned on or off).
     updateIconRendering() {
         this.icon.update();
+        this.styleMarks();
+    }
+
+    // The dots and the counter at the scale they are drawn at (MarkHolder),
+    // for the current icon size and magnification.
+    styleMarks() {
+        if (!this._badge)
+            return;
+        this._styleDots();
+        // St's min-width leaves out the padding: one digit gives a circle
+        // of the diameter, more digits a wider pill.
+        const g = badgeGeometry(this._dock.iconSize, this._dock.markScale);
+        this._badge.style = `min-width: ${g.diameter - 2 * g.padding}px; ` +
+            `min-height: ${g.diameter}px; border-radius: ${Math.ceil(g.diameter / 2)}px; ` +
+            `padding: 0 ${g.padding}px; font-size: ${g.fontSize}px;`;
+        this._badgeHolder.setScale(g.scale, g.margin);
+    }
+
+    // Every dot the same round size (DOT_SIZE, DOT_SPACING in
+    // logic.js), whether the application has focus or not.
+    _styleDots() {
+        const scale = this._dock.markScale;
+        const size = DOT_SIZE * scale;
+        this._dots.style = `spacing: ${DOT_SPACING * scale}px;`;
+        for (const dot of this._dots.get_children())
+            dot.style = `width: ${size}px; height: ${size}px; border-radius: ${size / 2}px;`;
+        this._dotsHolder.setScale(scale);
     }
 
     popupMenu() {

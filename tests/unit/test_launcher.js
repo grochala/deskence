@@ -2,7 +2,7 @@
 // Run with: gjs -m tests/unit/test_launcher.js
 import System from 'system';
 
-import {LauncherState, appIdFromUri, badgeText, parseUpdate}
+import {LauncherState, appIdFromUri, badgeGeometry, badgeText, parseUpdate}
     from '../../extensions/dock/launcherLogic.js';
 
 let failures = 0;
@@ -38,6 +38,17 @@ check('not an object', Object.keys(parseUpdate(null)).length === 0);
 // --- Display
 check('small numbers as they are', badgeText(7) === '7' && badgeText(99) === '99');
 check('large numbers shortened', badgeText(100) === '99+' && badgeText(12345) === '99+');
+
+// --- Badge size
+const plain = badgeGeometry(48, 1);
+check('badge grows with the icon', badgeGeometry(64, 1).diameter > plain.diameter);
+check('badge never too small to read', badgeGeometry(16, 1).diameter === 16);
+check('one digit fits the circle', plain.fontSize + 2 <= plain.diameter &&
+    plain.diameter - 2 * plain.padding >= plain.fontSize * 0.6);
+const magnified = badgeGeometry(48, 2);
+check('laid out at the magnified size', magnified.diameter === plain.diameter * 2 &&
+    magnified.scale === 2);
+check('no magnification below 1', badgeGeometry(48, 0.5).scale === 1);
 
 // --- State
 const state = new LauncherState();

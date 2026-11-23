@@ -24,7 +24,7 @@ import {gettext as _} from 'resource:///org/gnome/shell/extensions/extension.js'
 import {DockAppIcon, isNormalWindow, setVertical} from './appIcon.js';
 import {LocationsModel, LocationIcon} from './locations.js';
 import {appsButtonMaxScale, backgroundColor, cssColor, distributionLogoNames, effectiveBackground,
-    iconRenderSize, inkForBackground, insertionIndex, isSeeThrough, mixBackground, overviewProgress,
+    iconRenderSize, inkForBackground, markScale, insertionIndex, isSeeThrough, mixBackground, overviewProgress,
     panelLook, scrollToReveal, symbolicLogoNames, viewportLayout} from './logic.js';
 import {logoSilhouette} from './logo.js';
 import {Magnifier} from './magnifier.js';
@@ -921,6 +921,12 @@ class Dock {
         return iconRenderSize(size, this.magnifier?.maxScale ?? 1);
     }
 
+    // How many times larger the marks of the items are drawn than shown
+    // (appIcon.js MarkHolder).
+    get markScale() {
+        return markScale(this.magnifier?.maxScale ?? 1);
+    }
+
     // Magnification turned on or off, or its strength changed: render the
     // icons again for the new largest size. Done once per change.
     updateIconRendering() {
@@ -1144,8 +1150,10 @@ class Dock {
         this.iconSize = size;
         const vertical = this.position !== 'bottom';
         for (const item of order) {
-            if (item instanceof DockItem)
+            if (item instanceof DockItem) {
                 item.child.icon.setIconSize(size);
+                item.child.styleMarks?.();
+            }
             else if (vertical)
                 item.width = size;
             else

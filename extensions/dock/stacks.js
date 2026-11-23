@@ -63,8 +63,9 @@ import * as PopupMenu from 'resource:///org/gnome/shell/ui/popupMenu.js';
 import {EventEmitter} from 'resource:///org/gnome/shell/misc/signals.js';
 import {gettext as _, ngettext} from 'resource:///org/gnome/shell/extensions/extension.js';
 
-import {setVertical} from './appIcon.js';
+import {MarkHolder, markPlace, setVertical} from './appIcon.js';
 import {edgeScrollStep} from './dropLogic.js';
+import {MARKER_HEIGHT, MARKER_WIDTH} from './logic.js';
 import {BATCH, CHUNK, COPIED_FILES, MAX_SCANNED, canThumbnailDirectly, copiedFiles, gridColumns, gridFit, isLauncher, needsMore, panelHeights, parseEntry, sortItems, sortModeFor, xdgIconName}
     from './stackLogic.js';
 
@@ -189,12 +190,12 @@ export class StacksModel extends EventEmitter {
 }
 
 // A triangle filling the area, its tip towards the inside of the screen,
-// with rounded corners so it matches the round dots.
+// its corners just softened: more rounding blurs so small a shape.
 function drawMarker(area, side) {
     const cr = area.get_context();
     const [width, height] = area.get_surface_size();
     const color = area.get_theme_node().get_foreground_color();
-    const round = Math.min(width, height) / 4;
+    const round = Math.min(width, height) / 10;
     const points = {
         bottom: [[round, height - round], [width / 2, round], [width - round, height - round]],
         left: [[round, round], [width - round, height / 2], [round, height - round]],
@@ -248,16 +249,14 @@ export const StackIcon = GObject.registerClass({
         const layout = new St.Widget({layout_manager: new Clutter.BinLayout()});
         layout.add_child(this.icon);
         // Where running applications have their dots: a small solid
-        // triangle as thick as a dot (stylesheet.css), pointing into the
-        // screen where the panel opens, in the color of the dots.
-        this._marker = new St.DrawingArea({
-            style_class: `deskence-dock-stack-marker deskence-dock-stack-marker-${dock.position}`,
-            x_expand: true,
-            y_expand: true,
-        });
+        // triangle (MARKER_WIDTH, MARKER_HEIGHT), pointing into the screen
+        // where the panel opens, in the gray of the dots. Drawn larger and
+        // scaled down like the dots (MarkHolder).
+        this._marker = new St.DrawingArea({style_class: 'deskence-dock-stack-marker'});
         this._marker.connect('repaint', area => drawMarker(area, dock.position));
-        this._alignMarker();
-        layout.add_child(this._marker);
+        this._markerHolder = new MarkHolder(markPlace(dock.position), this._marker);
+        this._styleMarker();
+        layout.add_child(this._markerHolder);
         this.set_child(layout);
         this._menu = null;
         this._menuManager = new PopupMenu.PopupMenuManager(this);
@@ -269,17 +268,12 @@ export const StackIcon = GObject.registerClass({
         this.update(item);
     }
 
-    // Where window dots are for applications: under the icon in a bottom
-    // dock, on the inner side in a side dock.
-    _alignMarker() {
-        const side = this._dock.position;
-        if (side === 'bottom') {
-            this._marker.x_align = Clutter.ActorAlign.CENTER;
-            this._marker.y_align = Clutter.ActorAlign.END;
-        } else {
-            this._marker.x_align = side === 'left' ? Clutter.ActorAlign.END : Clutter.ActorAlign.START;
-            this._marker.y_align = Clutter.ActorAlign.CENTER;
-        }
+    _styleMarker() {
+        const scale = this._dock.markScale;
+        const [along, across] = [MARKER_WIDTH * scale, MARKER_HEIGHT * scale];
+        const [width, height] = this._dock.position === 'bottom' ? [along, across] : [across, along];
+        this._marker.style = `width: ${width}px; height: ${height}px;`;
+        this._markerHolder.setScale(scale);
     }
 
     get item() {
@@ -344,6 +338,7 @@ export const StackIcon = GObject.registerClass({
 
     updateIconRendering() {
         this.icon.update();
+        this._styleMarker();
     }
 
     // Items dragged out of a folder panel (stackDrag.js); other drags go

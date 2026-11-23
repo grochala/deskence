@@ -5,7 +5,7 @@ import System from 'system';
 import {amountForRoom, appGridLayers, appsButtonMaxScale, backgroundColor, distributionLogoNames,
     appGridStylesheet, composite as compositeColor, cssColor, dockBandExtension, effectiveBackground, fitInView,
     folderTileColors, iconRenderSize, inkForBackground, insertionIndex, isSeeThrough, lighten,
-    limitScale, magnify, magnifyScale, magnifyShift, maxMagnifyShift, mixBackground,
+    limitScale, magnify, markScale, magnifyScale, magnifyShift, maxMagnifyShift, mixBackground,
     overviewProgress, panelLook, scrollToReveal, silhouetteAlpha, silhouetteReadable,
     symbolicLogoNames, viewportLayout}
     from '../../extensions/dock/logic.js';
@@ -147,6 +147,9 @@ check('effective background with transparency', effectiveBackground(
 check('rendered for the magnified size', iconRenderSize(48, 1.5) === 72 &&
     iconRenderSize(48, 2) === 96);
 check('no magnification: normal size', iconRenderSize(48, 1) === 48);
+check('marks drawn at a whole scale', markScale(1.5) === 2 && markScale(2) === 2 &&
+    markScale(2.5) === 3);
+check('marks without magnification at their size', markScale(1) === 1 && markScale(0) === 1);
 // Whole-edge dock whose list nearly fills the edge (18 items of 64 px in
 // a 1204 px view, 52 px to spare): the effect is limited so the magnified
 // list fits, and nothing is cut at either end.
