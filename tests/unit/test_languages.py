@@ -150,7 +150,7 @@ def test_chosen_language_translates(localedir, environment):
     import gettext
     languages.apply(localedir, "pl")
     translation = gettext.translation("deskence", localedir, fallback=True)
-    assert translation.gettext("Search Settings") == "Wyszukaj ustawienia"
+    assert translation.gettext("Search Settings") == "Wyszukaj ustawienie"
     # A text the translation does not have: the English original.
     assert translation.gettext("No such text in any translation") == \
         "No such text in any translation"

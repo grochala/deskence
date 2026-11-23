@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: deskence\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-23 11:27+0000\n"
-"PO-Revision-Date: 2026-11-21 20:00+0100\n"
+"PO-Revision-Date: 2026-11-23 12:42+0100\n"
 "Last-Translator: Rafał Grochala <rafal.grochala@pixmedia.pl>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -28,7 +28,8 @@ msgstr "Ustawienia pulpitu"
 #: data/io.github.deskence.Deskence.desktop.in.in:4
 msgid ""
 "Dock, desktop icons, application icons in the top bar and window buttons"
-msgstr "Dock, ikony pulpitu, ikony aplikacji na górnym pasku i przyciski okien"
+msgstr "Dock, ikony na pulpicie, ikony aplikacji na górnym pasku i przyciski okien"
+
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.deskence.Deskence.desktop.in.in:6
@@ -39,23 +40,22 @@ msgstr ""
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:7
 msgid "Dock, desktop icons and tray for GNOME"
-msgstr "Dock, ikony pulpitu i zasobnik dla GNOME"
+msgstr "Dock, ikony na pulpicie i obszar powiadomień w GNOME"
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:9
 msgid ""
 "Deskence adds a few conveniences to the standard GNOME desktop and lets you "
 "configure them in one place."
-msgstr ""
-"Deskence dodaje do standardowego pulpitu GNOME kilka udogodnień i pozwala "
-"skonfigurować je w jednym miejscu."
+msgstr "Deskence dodaje do pulpitu GNOME przydatne funkcje, które można skonfigurować w jednym miejscu."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:11
 msgid ""
 "A dock with pinned and running applications, folders, drives and the trash, "
 "and previews of windows"
-msgstr ""
-"Dock z przypiętymi i uruchomionymi aplikacjami, folderami, dyskami i koszem "
-"oraz podglądami okien"
+msgstr "Dock z przypiętymi i uruchomionymi aplikacjami, folderami, dyskami, koszem i podglądami okien"
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:12
 msgid "Files and folders on the desktop"
@@ -65,9 +65,8 @@ msgstr "Pliki i foldery na pulpicie"
 msgid ""
 "Application icons in the top bar, for example from messengers and file "
 "synchronization"
-msgstr ""
-"Ikony aplikacji na górnym pasku, na przykład komunikatorów i programów do "
-"synchronizacji plików"
+msgstr "Ikony aplikacji na górnym pasku, np. komunikatorów i programów do synchronizacji plików"
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:14
 msgid "A clipboard history and Keep Awake in the quick settings"
@@ -75,7 +74,8 @@ msgstr "Historia schowka i „Nie usypiaj” w szybkich ustawieniach"
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:15
 msgid "Alphabetical order of the applications view"
-msgstr "Alfabetyczna kolejność widoku aplikacji"
+msgstr "Alfabetyczne sortowanie aplikacji"
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:16
 msgid "Minimize and maximize buttons in window title bars"
@@ -83,7 +83,8 @@ msgstr "Przyciski minimalizacji i maksymalizacji na paskach tytułu okien"
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:17
 msgid "Presets to save settings and move them to another computer"
-msgstr "Presety do zapisywania ustawień i przenoszenia ich na inny komputer"
+msgstr "Profile ustawień, które można zapisać i przenieść na inny komputer"
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:19
 msgid ""
@@ -97,47 +98,41 @@ msgid ""
 "European Union, Korean, Simplified and Traditional Chinese, Serbian and "
 "Filipino. The language list in the settings names the language the system "
 "uses."
-msgstr ""
-"Deskence jest teraz dostępny w 29 językach: we wszystkich językach "
-"urzędowych Unii Europejskiej, koreańskim, chińskim uproszczonym i "
-"tradycyjnym, serbskim i filipińskim. Lista języków w ustawieniach podaje "
-"język używany przez system."
+msgstr "Deskence jest teraz dostępny w 29 wersjach językowych: we wszystkich językach urzędowych Unii Europejskiej, koreańskim, chińskim uproszczonym i tradycyjnym, serbskim oraz filipińskim. Lista języków w ustawieniach pokazuje także język używany przez system."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:48
 msgid ""
 "Settings: choose the language of the settings window and the deskence "
 "command on the General page, independently of the system."
-msgstr ""
-"Ustawienia: język okna ustawień i polecenia deskence można wybrać na stronie "
-"Ogólne, niezależnie od języka systemu."
+msgstr "Ustawienia: na stronie „Ogólne” można wybrać język okna ustawień i polecenia deskence niezależnie od języka systemu."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:53
 msgid ""
 "Dock: copy or cut files and folders in a folder panel (right click, Ctrl+C, "
 "Ctrl+X) and paste them in Files or on the desktop."
-msgstr ""
-"Dock: pliki i foldery w panelu folderu można skopiować lub wyciąć (prawy "
-"przycisk myszy, Ctrl+C, Ctrl+X) i wkleić w Plikach albo na pulpicie."
+msgstr "Dock: w panelu folderu można kopiować i wycinać pliki oraz foldery (prawym przyciskiem myszy lub skrótami Ctrl+C i Ctrl+X), a następnie wklejać je w aplikacji Pliki lub na pulpicie."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:58
 msgid ""
 "Dock: drag files and folders from a folder panel onto another folder in the "
 "dock or onto the desktop to move or copy them."
-msgstr ""
-"Dock: przeciągaj pliki i foldery z panelu folderu na inny folder w docku lub "
-"na pulpit, aby je przenieść lub skopiować."
+msgstr "Dock: pliki i foldery można przeciągać z panelu folderu do innego folderu w docku lub na pulpit, aby je skopiować albo przenieść."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:59
 msgid ""
 "Dock: applications only open dropped files of types they declare; otherwise "
 "the dock says why."
-msgstr ""
-"Dock: aplikacje otwierają upuszczone pliki tylko tych typów, które "
-"deklarują; w przeciwnym razie dock wyjaśnia dlaczego."
+msgstr "Dock: pliki można upuszczać na aplikacje, które obsługują dany typ pliku. Jeśli aplikacja go nie obsługuje, pojawi się wyjaśnienie."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:60
 msgid "Dock: the marker under folders matches the dots of applications."
-msgstr "Dock: znacznik pod folderami pasuje do kropek aplikacji."
+msgstr "Dock: znaczniki pod folderami wyglądają tak samo jak wskaźniki uruchomionych aplikacji."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:65
 msgid ""
@@ -145,62 +140,51 @@ msgid ""
 "take clicks again when animations are off, for example in virtual machines "
 "without 3D acceleration; before, only the dock did until the overview was "
 "opened once."
-msgstr ""
-"Rozpoczynanie pracy na pulpicie: po zalogowaniu pulpit, górny pasek i okna "
-"znów reagują na kliknięcia przy wyłączonych animacjach, na przykład w "
-"maszynach wirtualnych bez akceleracji 3D; wcześniej reagował tylko dock, "
-"dopóki raz nie otwarto podglądu aktywności."
+msgstr "Uruchamianie na pulpicie: po zalogowaniu pulpit, górny pasek i okna reagują na kliknięcia także przy wyłączonych animacjach, np. w maszynach wirtualnych bez akceleracji 3D. Wcześniej działał wtedy tylko dock, dopóki nie otwarto podglądu aktywności."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:70
 msgid ""
 "Optional diagnostics for reports of a desktop and windows that stop taking "
 "clicks."
-msgstr ""
-"Opcjonalna diagnostyka do zgłoszeń, gdy pulpit i okna przestają reagować na "
-"kliknięcia."
+msgstr "Opcjonalne narzędzia diagnostyczne do zgłaszania problemów, gdy pulpit i okna przestają reagować na kliknięcia."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:75
 msgid ""
 "Dock: dragging files onto the dock always ends cleanly, also when something "
 "fails during the drop."
-msgstr ""
-"Dock: przeciąganie plików na dock zawsze kończy się poprawnie, także gdy coś "
-"zawiedzie podczas upuszczania."
+msgstr "Dock: przeciąganie plików kończy się prawidłowo nawet wtedy, gdy podczas upuszczania wystąpi błąd."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:80
 msgid ""
 "Dock: drop files on an application to open them in it, or on a folder to "
 "copy or move them there; hold a file over a folder to open it and drop into "
 "one of its subfolders."
-msgstr ""
-"Dock: upuść pliki na aplikację, aby je w niej otworzyć, albo na folder, aby "
-"je tam skopiować lub przenieść; przytrzymaj plik nad folderem, aby go "
-"otworzyć i upuścić do jednego z jego podfolderów."
+msgstr "Dock: przeciągnij pliki na ikonę aplikacji, aby je otworzyć, lub na folder, aby je skopiować albo przenieść. Przytrzymaj plik nad folderem, aby go otworzyć i wybrać podfolder docelowy."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:85
 msgid ""
 "Settings: search every setting with Ctrl+F, manage all keyboard shortcuts in "
 "one place with checks for clashes, and copy or save a report for bug reports."
-msgstr ""
-"Ustawienia: wyszukiwanie każdego ustawienia skrótem Ctrl+F, wszystkie skróty "
-"klawiszowe w jednym miejscu ze sprawdzaniem konfliktów oraz kopiowanie lub "
-"zapisywanie raportu do zgłoszenia błędu."
+msgstr "Ustawienia: wyszukuj opcje skrótem Ctrl+F, zarządzaj skrótami klawiszowymi w jednym miejscu i sprawdzaj ich konflikty. Raport o błędzie możesz skopiować lub zapisać."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:86
 msgid ""
 "Presets: undoing an applied preset restores only what it changed and keeps "
 "settings you changed afterwards."
-msgstr ""
-"Presety: cofnięcie zastosowanego presetu przywraca tylko to, co zmienił, i "
-"zachowuje ustawienia zmienione później."
+msgstr "Profile ustawień: cofnięcie zastosowanego profilu przywraca tylko ustawienia, które zmienił. Późniejsze zmiany pozostają bez zmian."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:87
 msgid ""
 "Dock: unread counters and the progress of operations on application icons, "
 "for applications that report them."
-msgstr ""
-"Dock: liczniki nieprzeczytanych wiadomości i postęp operacji na ikonach "
-"aplikacji, które je zgłaszają."
+msgstr "Dock: liczba nieprzeczytanych wiadomości i postęp operacji mogą pojawiać się na ikonach aplikacji, które udostępniają te informacje."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:92
 msgid ""
@@ -208,11 +192,8 @@ msgid ""
 "apply, import and export presets, restore defaults and collect diagnostics "
 "with the deskence command, also from a text console when the desktop does "
 "not work. See man deskence."
-msgstr ""
-"Wiersz poleceń: polecenie deskence pozwala sprawdzić stan każdej funkcji, "
-"wyłączać i włączać funkcje, stosować, importować i eksportować presety, "
-"przywracać ustawienia domyślne i zbierać dane diagnostyczne – także z "
-"konsoli tekstowej, gdy pulpit nie działa. Zobacz man deskence."
+msgstr "Wiersz poleceń: za pomocą polecenia deskence można sprawdzać stan funkcji, włączać i wyłączać je, stosować, importować i eksportować profile ustawień, przywracać ustawienia domyślne oraz zbierać dane diagnostyczne. Działa to także z konsoli tekstowej, gdy pulpit jest niedostępny. Więcej informacji: man deskence."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:93
 msgid ""
@@ -227,45 +208,38 @@ msgid ""
 "Applications view: your own color and transparency for the highlight under "
 "the pointer on applications and application folders; hovering a folder no "
 "longer draws an outline."
-msgstr ""
-"Widok aplikacji: własny kolor i przezroczystość podświetlenia po najechaniu "
-"na aplikacje i foldery aplikacji; najechanie na folder nie rysuje już "
-"obwódki."
+msgstr "Widok aplikacji: można zmienić kolor i przezroczystość podświetlenia aplikacji i folderów po najechaniu wskaźnikiem. Foldery nie mają już obwódki przy najechaniu."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:99
 msgid ""
 "Folders in the dock: the panel takes at most half of the screen height and "
 "scrolls through the whole folder, also with the keyboard, and returns to the "
 "earlier position after a subfolder."
-msgstr ""
-"Foldery w docku: panel zajmuje najwyżej połowę wysokości ekranu, pozwala "
-"przewinąć cały folder, także klawiaturą, i po wyjściu z podfolderu wraca do "
-"poprzedniego miejsca."
+msgstr "Foldery w docku: panel zajmuje najwyżej połowę wysokości ekranu. Zawartość można przewijać także klawiaturą, a po powrocie z podfolderu lista zachowuje poprzednią pozycję."
+
 
 # NEEDS-REVIEW: added or reworded during the translation update of 0.15.0
 #: data/io.github.deskence.Deskence.metainfo.xml.in:100
 msgid ""
 "Settings: clearer descriptions, better Polish wording and fewer clashing "
 "keyboard shortcuts."
-msgstr ""
-"Ustawienia: jaśniejsze opisy, poprawione polskie teksty i mniej "
-"powtarzających się skrótów klawiszowych."
+msgstr "Ustawienia: czytelniejsze opisy, poprawione polskie tłumaczenia i mniej konfliktów między skrótami klawiszowymi."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:105
 msgid ""
 "Dock: a dock along the whole edge matches the top bar in the activities "
 "overview and the applications view; a short dock keeps its own look."
-msgstr ""
-"Dock: dock na całą krawędź w podglądzie aktywności i widoku aplikacji ma "
-"wygląd górnego panelu; krótki dock zachowuje swój wygląd."
+msgstr "Dock: gdy zajmuje całą krawędź ekranu, w podglądzie aktywności i widoku aplikacji dopasowuje wygląd do górnego paska. Krótszy dock zachowuje własny wygląd."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:106
 msgid ""
 "Applications view: folder tiles with your own color or transparency now "
 "clearly show hover, press, focus and selection."
-msgstr ""
-"Widok aplikacji: kafelki folderów z własnym kolorem lub przezroczystością "
-"wyraźnie pokazują najechanie, wciśnięcie, fokus i zaznaczenie."
+msgstr "Widok aplikacji: kafelki folderów z własnym kolorem lub przezroczystością wyraźnie reagują na najechanie wskaźnikiem, kliknięcie, zaznaczenie i wybór klawiaturą."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:111
 msgid ""
@@ -279,42 +253,37 @@ msgstr ""
 msgid ""
 "General: optionally start on the desktop instead of the activities overview "
 "after logging in."
-msgstr ""
-"Ogólne: opcjonalnie po zalogowaniu zaczynaj na pulpicie zamiast w podglądzie "
-"aktywności."
+msgstr "Ogólne: po zalogowaniu można od razu wyświetlać pulpit zamiast podglądu aktywności."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:113
 msgid ""
 "Dock: it now blends into the activities overview instead of forming a "
 "separate band."
-msgstr ""
-"Dock: w podglądzie aktywności stapia się z tłem zamiast tworzyć osobny pas."
+msgstr "Dock: w podglądzie aktywności lepiej wtapia się w tło, zamiast tworzyć osobny pas."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:118
 msgid ""
 "Project homepage and bug tracker links, English documentation. No changes to "
 "the application."
-msgstr ""
-"Odnośniki do strony projektu i zgłaszania błędów, dokumentacja po angielsku. "
-"Bez zmian w aplikacji."
+msgstr "Dodano odnośniki do strony projektu i zgłaszania błędów oraz angielską dokumentację. Bez zmian w działaniu aplikacji."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:123
 msgid ""
 "Settings: a General page with presets, exporting and importing settings and "
 "restoring defaults; an Applications View page with alphabetical sorting; "
 "calmer previews."
-msgstr ""
-"Ustawienia: strona „Ogólne” z presetami, eksportem i importem ustawień oraz "
-"przywracaniem domyślnych; strona „Widok aplikacji” z sortowaniem "
-"alfabetycznym; spokojniejsze podglądy."
+msgstr "Ustawienia: nowa strona „Ogólne” z profilami ustawień, importem, eksportem i przywracaniem ustawień domyślnych; strona „Widok aplikacji” z sortowaniem alfabetycznym; mniej rozpraszające podglądy."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:124
 msgid ""
 "Dock: folders that show their contents, closing and peeking at windows from "
 "their previews, Always on Top in the preview menu."
-msgstr ""
-"Dock: foldery pokazujące swoją zawartość, zamykanie i podejrzenie okien z "
-"ich podglądów, „Zawsze na wierzchu” w menu podglądu."
+msgstr "Dock: foldery z podglądem zawartości, zamykanie i tymczasowy podgląd okien oraz opcja „Zawsze na wierzchu” w menu podglądu."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:125
 msgid ""
@@ -328,19 +297,16 @@ msgstr ""
 msgid ""
 "Better GNOME Desktop is now called Deskence. Settings, enabled features, "
 "pinned applications and desktop icon positions are taken over."
-msgstr ""
-"Better GNOME Desktop nazywa się teraz Deskence. Ustawienia, włączone "
-"funkcje, przypięte aplikacje i położenia ikon pulpitu zostają przeniesione."
+msgstr "Better GNOME Desktop zmienił nazwę na Deskence. Dotychczasowe ustawienia, włączone funkcje, przypięte aplikacje i pozycje ikon na pulpicie zostają zachowane."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:131
 msgid ""
 "Dock: previews of the windows of an application when the pointer rests on "
 "it, no extra space next to the applications button when icons are magnified, "
 "running indicators under the icons of a bottom dock."
-msgstr ""
-"Dock: podgląd okien aplikacji po zatrzymaniu na niej wskaźnika, brak "
-"dodatkowego odstępu obok przycisku aplikacji przy powiększaniu ikon, "
-"wskaźniki uruchomienia pod ikonami docka na dole ekranu."
+msgstr "Dock: podgląd okien po zatrzymaniu wskaźnika na ikonie aplikacji, poprawione odstępy przy powiększaniu ikon i wskaźniki uruchomionych aplikacji pod ikonami dolnego docka."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:132
 msgid ""
@@ -359,10 +325,8 @@ msgid ""
 "Dock: sharp magnified icons, no tiles under icons with a custom background, "
 "monochrome distribution logo, the application list kept at the start of a "
 "dock along the whole edge, running indicators on the inner side."
-msgstr ""
-"Dock: ostre powiększone ikony, brak kafelków pod ikonami przy własnym tle, "
-"jednobarwne logo dystrybucji, lista aplikacji na początku docka na całą "
-"krawędź, wskaźniki uruchomienia po wewnętrznej stronie."
+msgstr "Dock: wyraźniejsze ikony podczas powiększania, brak kafelków pod ikonami przy własnym tle, jednobarwne logo dystrybucji, przycisk aplikacji na początku docka zajmującego całą krawędź i wskaźniki uruchomienia po wewnętrznej stronie."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:143
 msgid ""
@@ -376,9 +340,8 @@ msgstr ""
 msgid ""
 "Desktop: menus open at the clicked point, also beside the dock; the icon "
 "grid starts at the chosen corner with small margins."
-msgstr ""
-"Pulpit: menu otwierają się w klikniętym miejscu, także obok docka; siatka "
-"ikon zaczyna się w wybranym rogu z niewielkimi marginesami."
+msgstr "Pulpit: menu otwiera się w miejscu kliknięcia, także obok docka. Siatka ikon zaczyna się w wybranym rogu i ma niewielkie marginesy."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:149
 msgid ""
@@ -386,30 +349,23 @@ msgid ""
 "icons, scrolling when the applications do not fit, custom background color "
 "and transparency, settings in the applications button menu, transparent "
 "background for the applications view."
-msgstr ""
-"Dock: przycisk aplikacji na dowolnym końcu z wyborem ikony, powiększanie "
-"ikon, przewijanie, gdy aplikacje się nie mieszczą, własny kolor i "
-"przezroczystość tła, ustawienia w menu przycisku aplikacji, przezroczyste "
-"tło widoku aplikacji."
+msgstr "Dock: przycisk aplikacji na dowolnym końcu paska, wybór jego ikony, powiększanie ikon, przewijanie przy braku miejsca, własny kolor i przezroczystość tła oraz dostęp do ustawień z menu przycisku aplikacji. Można też ustawić przezroczyste tło widoku aplikacji."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:150
 msgid ""
 "Desktop icons: free placement or snapping to the grid, \"Align to Grid\", "
 "the whole desktop beside the dock usable, icon positions that do not move "
 "with the dock."
-msgstr ""
-"Ikony pulpitu: swobodne rozmieszczanie lub przyciąganie do siatki, "
-"„Uporządkuj do siatki”, cały pulpit obok docka do wykorzystania, położenia "
-"ikon niezależne od docka."
+msgstr "Ikony pulpitu: swobodne rozmieszczanie lub przyciąganie do siatki, polecenie „Wyrównaj do siatki”, możliwość wykorzystania całej przestrzeni obok docka i zachowanie pozycji ikon po zmianie docka."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:151
 msgid ""
 "Fixes: smooth closing of the applications view, immediate reordering of dock "
 "icons, no frame while dragging desktop icons, one desktop menu everywhere."
-msgstr ""
-"Poprawki: płynne zamykanie widoku aplikacji, natychmiastowa zmiana "
-"kolejności ikon docka, brak ramki przy przeciąganiu ikon pulpitu, jedno menu "
-"pulpitu wszędzie."
+msgstr "Poprawki: płynniejsze zamykanie widoku aplikacji, natychmiastowa zmiana kolejności ikon docka, brak ramki podczas przeciągania ikon na pulpicie i spójne menu kontekstowe pulpitu."
+
 
 #: data/io.github.deskence.Deskence.metainfo.xml.in:156
 msgid "First release."
@@ -423,9 +379,8 @@ msgstr "Wersja układu ustawień"
 msgid ""
 "Used by the settings application to migrate stored values between releases. "
 "0 means the settings were never migrated."
-msgstr ""
-"Używana przez aplikację ustawień do migracji zapisanych wartości między "
-"wydaniami. 0 oznacza, że ustawień nigdy nie migrowano."
+msgstr "Pozwala przenosić zapisane ustawienia między wersjami aplikacji. Wartość 0 oznacza, że nie wykonano jeszcze migracji."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:121
 msgid "Settings of Better GNOME Desktop were taken over"
@@ -443,7 +398,8 @@ msgstr ""
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:126
 msgid "Show the desktop after logging in"
-msgstr "Pokazywanie pulpitu po zalogowaniu"
+msgstr "Pokazuj pulpit po zalogowaniu"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:127
 msgid ""
@@ -451,11 +407,8 @@ msgid ""
 "overview. Only the start of the session is affected: opening the overview "
 "later, unlocking the screen or turning features on and off never closes it. "
 "Applied by the dock extension."
-msgstr ""
-"Gdy włączone, nowa sesja zaczyna się na pulpicie zamiast w podglądzie "
-"aktywności. Dotyczy to tylko początku sesji: późniejsze otwarcie podglądu, "
-"odblokowanie ekranu ani włączanie i wyłączanie funkcji nigdy go nie zamyka. "
-"Stosowane przez rozszerzenie docka."
+msgstr "Po włączeniu sesja GNOME rozpoczyna się na pulpicie, a nie w podglądzie aktywności. Dotyczy to tylko logowania: późniejsze otwieranie podglądu, odblokowywanie ekranu i zmiana stanu funkcji nie zamykają go. Obsługiwane przez rozszerzenie docka."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:131
 msgid "Language of the Deskence application"
@@ -469,12 +422,8 @@ msgid ""
 "translation means English. The GNOME Shell extensions and the desktop icons "
 "always follow the language of GNOME Shell. Applied when the application "
 "starts."
-msgstr ""
-"Język okna ustawień i polecenia deskence: kod tłumaczenia zainstalowanego z "
-"Deskence (na przykład „pl”), „en” dla angielskiego albo pusty, aby używać "
-"języka systemu. Kod bez zainstalowanego tłumaczenia oznacza angielski. "
-"Rozszerzenia GNOME Shell i ikony pulpitu zawsze używają języka GNOME Shell. "
-"Stosowany przy uruchomieniu aplikacji."
+msgstr "Język okna ustawień i polecenia deskence. Podaj kod zainstalowanego tłumaczenia (np. „pl”), „en” dla angielskiego albo pozostaw pustą wartość, aby używać języka systemowego. Jeśli brak tłumaczenia dla danego kodu, używany jest angielski. Rozszerzenia GNOME Shell i ikony pulpitu zawsze korzystają z języka GNOME Shell. Zmiana obowiązuje po uruchomieniu aplikacji."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:146
 msgid "Screen edge of the dock"
@@ -503,21 +452,21 @@ msgstr "Rozmiar ikon w pikselach logicznych"
 msgid ""
 "Scaled by the monitor scale and the text scaling factor of the shell theme "
 "like other GNOME Shell icons."
-msgstr "Skalowany zgodnie ze skalą monitora, tak jak inne ikony GNOME Shell."
+msgstr "Rozmiar jest dostosowywany do skali monitora i skalowania tekstu w motywie GNOME Shell, tak jak w przypadku innych ikon GNOME Shell."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:162
 msgid "When the dock hides"
-msgstr "Kiedy dock się ukrywa"
+msgstr "Sposób ukrywania docka"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:163
 msgid ""
 "\"never\": always visible and windows are kept out of its area. "
 "\"intellihide\": hidden while a window on the same monitor overlaps it. "
 "\"autohide\": hidden until the pointer reaches the screen edge."
-msgstr ""
-"\"never\": zawsze widoczny, okna nie zajmują jego obszaru. \"intellihide\": "
-"ukryty, gdy zasłania go okno na tym samym monitorze. \"autohide\": ukryty, "
-"dopóki wskaźnik nie dotknie krawędzi ekranu."
+msgstr "„never”: dock jest zawsze widoczny i okna nie zajmują jego obszaru. „intellihide”: chowa się, gdy nachodzi na niego okno na tym samym monitorze. „autohide”: pozostaje ukryty, dopóki wskaźnik nie dotknie krawędzi ekranu."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:167
 msgid "On which monitors the dock is shown"
@@ -552,15 +501,18 @@ msgstr "Wyświetlanie dysków wymiennych"
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:185
 msgid "Show network locations"
-msgstr "Wyświetlanie położeń sieciowych"
+msgstr "Wyświetlanie lokalizacji sieciowych"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:189
 msgid "Show the applications button"
-msgstr "Wyświetlanie przycisku listy aplikacji"
+msgstr "Wyświetlanie przycisku aplikacji"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:193
 msgid "Where the applications button is"
-msgstr "Położenie przycisku listy aplikacji"
+msgstr "Położenie przycisku aplikacji"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:194
 msgid ""
@@ -600,15 +552,15 @@ msgstr ""
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:208
 msgid "Magnify icons under the pointer"
-msgstr "Powiększanie ikon pod wskaźnikiem"
+msgstr "Powiększanie ikon po najechaniu wskaźnikiem"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:209
 msgid ""
 "Icons near the pointer grow smoothly while it moves over the dock. Not shown "
 "while animations are turned off in GNOME."
-msgstr ""
-"Ikony w pobliżu wskaźnika płynnie się powiększają, gdy przesuwa się on nad "
-"dockiem. Efekt nie działa przy wyłączonych animacjach GNOME."
+msgstr "Ikony w pobliżu wskaźnika płynnie się powiększają. Efekt jest niedostępny, gdy animacje GNOME są wyłączone."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:214
 msgid "Magnification strength"
@@ -625,7 +577,8 @@ msgstr "Własny kolor tła docka"
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:220
 msgid ""
 "When false, the dock background has the color of the current GNOME style."
-msgstr "Gdy wyłączone, tło docka ma kolor bieżącego stylu GNOME."
+msgstr "Po wyłączeniu tej opcji dock używa koloru tła z bieżącego motywu GNOME."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:224
 msgid "Dock background color"
@@ -648,8 +601,8 @@ msgstr "Własna przezroczystość tła docka"
 msgid ""
 "When false, the dock background is as transparent as the current GNOME style "
 "makes it."
-msgstr ""
-"Gdy wyłączone, przezroczystość tła docka wynika z bieżącego stylu GNOME."
+msgstr "Po wyłączeniu tej opcji przezroczystość tła docka zależy od motywu GNOME."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:235
 msgid "Dock background transparency"
@@ -660,10 +613,8 @@ msgid ""
 "0: opaque. 100: fully transparent. Only the background; icons, indicators, "
 "labels and menus keep their own visibility. Used when background-custom-"
 "transparency is true."
-msgstr ""
-"0: nieprzezroczyste. 100: całkowicie przezroczyste. Dotyczy tylko tła; "
-"ikony, wskaźniki, podpisy i menu zachowują własną widoczność. Używane, gdy "
-"background-custom-transparency jest włączone."
+msgstr "0: tło nieprzezroczyste. 100: tło całkowicie przezroczyste. Zmienia się tylko tło — ikony, wskaźniki, podpisy i menu pozostają widoczne. Używane, gdy włączono background-custom-transparency."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:240
 msgid "Custom background transparency of the applications view"
@@ -673,9 +624,8 @@ msgstr "Własna przezroczystość tła widoku aplikacji"
 msgid ""
 "When false, the full-screen applications view opened from the dock has the "
 "standard GNOME background."
-msgstr ""
-"Gdy wyłączone, pełnoekranowy widok aplikacji otwierany z docka ma "
-"standardowe tło GNOME."
+msgstr "Po wyłączeniu tej opcji widok aplikacji otwierany z docka używa standardowego tła GNOME."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:245
 msgid "Custom background color of the applications view"
@@ -685,9 +635,8 @@ msgstr "Własny kolor tła widoku aplikacji"
 msgid ""
 "When false, the full-screen applications view opened from the dock has the "
 "color of the standard GNOME background. Independent of the dock background."
-msgstr ""
-"Gdy wyłączone, pełnoekranowy widok aplikacji otwierany z docka ma kolor "
-"standardowego tła GNOME. Niezależne od tła docka."
+msgstr "Po wyłączeniu tej opcji widok aplikacji otwierany z docka używa koloru tła GNOME. Nie wpływa to na tło docka."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:250
 msgid "Background color of the applications view"
@@ -714,11 +663,8 @@ msgid ""
 "only the wallpaper is visible behind the applications. Only the background "
 "changes; icons, names and the search entry stay fully visible. Used when app-"
 "grid-custom-transparency is true."
-msgstr ""
-"0: nieprzezroczyste tło (standardowe lub w wybranym kolorze). 100: tło "
-"całkowicie przezroczyste, za aplikacjami widać tylko tapetę. Zmienia się "
-"wyłącznie tło; ikony, nazwy i pole wyszukiwania pozostają w pełni widoczne. "
-"Używane, gdy app-grid-custom-transparency jest włączone."
+msgstr "0: tło nieprzezroczyste (domyślne lub w wybranym kolorze). 100: tło całkowicie przezroczyste — za aplikacjami widać tapetę. Ikony, nazwy i pole wyszukiwania pozostają widoczne. Używane, gdy włączono app-grid-custom-transparency."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:261
 msgid "Custom background color of application folders"
@@ -730,11 +676,8 @@ msgid ""
 "\"Utilities\") have the color of the current GNOME style. Only the tile "
 "background changes; the application thumbnails and the folder name stay as "
 "they are, and the panel of an open folder is not affected."
-msgstr ""
-"Gdy wyłączone, kafelki folderów w widoku aplikacji (np. „Narzędzia”) mają "
-"kolor bieżącego stylu GNOME. Zmienia się wyłącznie tło kafelka; miniatury "
-"aplikacji i nazwa folderu pozostają bez zmian, a panel otwartego folderu nie "
-"jest zmieniany."
+msgstr "Po wyłączeniu tej opcji kafelki folderów w widoku aplikacji (np. „Narzędzia”) mają kolor motywu GNOME. Zmienia się wyłącznie tło kafelków, a nie miniatury, nazwy ani wygląd otwartego folderu."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:266
 msgid "Background color of application folders"
@@ -759,9 +702,8 @@ msgstr "Własna przezroczystość tła folderów aplikacji"
 msgid ""
 "When false, the folder tiles in the applications view are as opaque as the "
 "current GNOME style makes them."
-msgstr ""
-"Gdy wyłączone, przezroczystość kafelków folderów w widoku aplikacji wynika z "
-"bieżącego stylu GNOME."
+msgstr "Po wyłączeniu tej opcji przezroczystość kafelków folderów zależy od motywu GNOME."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:277
 msgid "Background transparency of application folders"
@@ -772,15 +714,13 @@ msgid ""
 "0: opaque tile background. 100: fully transparent; the folder is recognized "
 "by its application thumbnails and name. Hover, selection and keyboard focus "
 "stay visible. Used when app-grid-folder-custom-transparency is true."
-msgstr ""
-"0: nieprzezroczyste tło kafelka. 100: tło całkowicie przezroczyste; folder "
-"rozpoznaje się po miniaturach aplikacji i nazwie. Najechanie, zaznaczenie i "
-"fokus klawiatury pozostają widoczne. Używane, gdy app-grid-folder-custom-"
-"transparency jest włączone."
+msgstr "0: tło kafelka nieprzezroczyste. 100: całkowicie przezroczyste — folder można rozpoznać po miniaturach i nazwie. Podświetlenie przy najechaniu, zaznaczenie i oznaczenie elementu wybranego klawiaturą pozostają widoczne. Używane, gdy włączono app-grid-folder-custom-transparency."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:282
 msgid "Custom hover highlight color in the applications view"
-msgstr "Własny kolor podświetlenia po najechaniu w widoku aplikacji"
+msgstr "Własny kolor podświetlenia po najechaniu na aplikację"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:283
 msgid ""
@@ -788,14 +728,13 @@ msgid ""
 "application folders and applications inside an open folder has the color of "
 "the current GNOME style. The dock, the desktop and folder stacks are not "
 "affected."
-msgstr ""
-"Gdy wyłączone, podświetlenie pod wskaźnikiem na aplikacjach, folderach "
-"aplikacji i aplikacjach w otwartym folderze ma kolor bieżącego stylu GNOME. "
-"Nie dotyczy docka, pulpitu ani stosów folderów."
+msgstr "Po wyłączeniu tej opcji podświetlenie aplikacji i folderów pod wskaźnikiem używa koloru motywu GNOME, również wewnątrz otwartych folderów. Nie wpływa to na dock, pulpit ani foldery w docku."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:287
 msgid "Hover highlight color in the applications view"
-msgstr "Kolor podświetlenia po najechaniu w widoku aplikacji"
+msgstr "Kolor podświetlenia aplikacji po najechaniu"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:288
 msgid ""
@@ -810,19 +749,20 @@ msgstr ""
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:292
 msgid "Custom hover highlight transparency in the applications view"
-msgstr "Własna przezroczystość podświetlenia po najechaniu w widoku aplikacji"
+msgstr "Własna przezroczystość podświetlenia po najechaniu na aplikację"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:293
 msgid ""
 "When false, the hover highlight is as opaque as the current GNOME style "
 "makes it."
-msgstr ""
-"Gdy wyłączone, krycie podświetlenia po najechaniu wynika z bieżącego stylu "
-"GNOME."
+msgstr "Po wyłączeniu tej opcji przezroczystość podświetlenia zależy od motywu GNOME."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:298
 msgid "Hover highlight transparency in the applications view"
-msgstr "Przezroczystość podświetlenia po najechaniu w widoku aplikacji"
+msgstr "Przezroczystość podświetlenia aplikacji po najechaniu"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:299
 msgid ""
@@ -830,12 +770,8 @@ msgid ""
 "under the pointer as at rest. Only the highlight changes; icons and names "
 "stay fully visible, and keyboard focus stays marked. Used when app-grid-"
 "hover-custom-transparency is true."
-msgstr ""
-"0: podświetlenie nieprzezroczyste. 100: całkowicie przezroczyste; folder "
-"wygląda wtedy pod wskaźnikiem tak samo jak bez niego. Zmienia się tylko "
-"podświetlenie; ikony i nazwy pozostają w pełni widoczne, a fokus klawiatury "
-"nadal jest oznaczony. Używane, gdy app-grid-hover-custom-transparency jest "
-"włączone."
+msgstr "0: podświetlenie nieprzezroczyste. 100: całkowicie przezroczyste — folder wygląda tak samo po najechaniu i bez niego. Ikony i nazwy pozostają widoczne, a element wybrany klawiaturą jest nadal oznaczony. Używane, gdy włączono app-grid-hover-custom-transparency."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:303
 msgid "Clicking a running application"
@@ -861,10 +797,8 @@ msgid ""
 "When true, running (non-pinned) applications are listed only when they have "
 "a window on the active workspace, and clicking cycles only through those "
 "windows."
-msgstr ""
-"Gdy prawda, uruchomione (nieprzypięte) aplikacje są wyświetlane tylko wtedy, "
-"gdy mają okno na aktywnym obszarze roboczym, a kliknięcie przełącza tylko "
-"między tymi oknami."
+msgstr "Po włączeniu tej opcji na docku pojawiają się tylko uruchomione, nieprzypięte aplikacje z oknami na bieżącym obszarze roboczym. Kliknięcie przełącza wyłącznie między tymi oknami."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:313
 msgid "Show counters of applications"
@@ -875,10 +809,8 @@ msgid ""
 "When true, an application that reports a counter (for example unread "
 "messages, through the LauncherEntry D-Bus API) shows it on its dock icon. "
 "Applications that report nothing show nothing."
-msgstr ""
-"Gdy włączone, aplikacja zgłaszająca licznik (np. nieprzeczytanych "
-"wiadomości, przez interfejs D-Bus LauncherEntry) pokazuje go na swojej "
-"ikonie w docku. Aplikacje, które nic nie zgłaszają, nic nie pokazują."
+msgstr "Po włączeniu tej opcji na ikonie aplikacji pojawia się licznik, jeśli aplikacja go udostępnia (np. liczba nieprzeczytanych wiadomości przez D-Bus LauncherEntry)."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:318
 msgid "Show progress of applications"
@@ -889,10 +821,8 @@ msgid ""
 "When true, an application that reports the progress of an operation (for "
 "example a download, through the LauncherEntry D-Bus API) shows it as a bar "
 "on its dock icon."
-msgstr ""
-"Gdy włączone, aplikacja zgłaszająca postęp operacji (np. pobierania, przez "
-"interfejs D-Bus LauncherEntry) pokazuje go jako pasek na swojej ikonie w "
-"docku."
+msgstr "Po włączeniu tej opcji ikona aplikacji pokazuje pasek postępu, jeśli aplikacja udostępnia informację o trwającej operacji (np. pobieraniu przez D-Bus LauncherEntry)."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:323
 msgid "Show window previews on hover"
@@ -903,25 +833,21 @@ msgid ""
 "When the pointer rests on a running application, show its windows (the ones "
 "the dock counts, see isolate-workspaces) with their titles; clicking one "
 "activates that window."
-msgstr ""
-"Gdy wskaźnik zatrzyma się na uruchomionej aplikacji, pokazywane są jej okna "
-"(te, które liczy dock, zob. isolate-workspaces) z tytułami; kliknięcie okna "
-"je aktywuje."
+msgstr "Po zatrzymaniu wskaźnika na uruchomionej aplikacji dock pokazuje miniatury i tytuły jej okien (zgodnie z ustawieniem isolate-workspaces). Kliknięcie miniatury aktywuje okno."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:328
 msgid "Peek at a window from its preview"
-msgstr "Podejrzenie okna z jego podglądu"
+msgstr "Tymczasowy podgląd okna"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:329
 msgid ""
 "While the pointer rests on a window preview, that window is shown over the "
 "dimmed others for a moment. Nothing is focused, raised, restored or moved; "
 "leaving the preview or pressing Escape ends it."
-msgstr ""
-"Gdy wskaźnik zatrzyma się na podglądzie okna, to okno jest chwilowo "
-"pokazywane nad przygaszonymi pozostałymi. Nic nie jest aktywowane, "
-"podnoszone, przywracane ani przenoszone; opuszczenie podglądu lub Escape "
-"kończy podejrzenie."
+msgstr "Po zatrzymaniu wskaźnika na miniaturze okno jest na chwilę wyświetlane na tle przyciemnionych pozostałych okien. Nie jest przy tym aktywowane, przywracane ani przenoszone. Podgląd znika po odsunięciu wskaźnika lub naciśnięciu Escape."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:333
 msgid "Folders in the dock"
@@ -947,11 +873,13 @@ msgstr "Pokazuj foldery w docku"
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:339
 msgid "When false, the folders in folder-stacks are kept but not shown."
-msgstr "Gdy fałsz, foldery z folder-stacks są zachowane, ale niepokazywane."
+msgstr "Po wyłączeniu tej opcji foldery z listy folder-stacks pozostają zapisane, ale nie są wyświetlane."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:343
 msgid "How folder contents are shown"
-msgstr "Sposób pokazywania zawartości folderów"
+msgstr "Wygląd zawartości folderów"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:344
 msgid ""
@@ -971,11 +899,8 @@ msgid ""
 "\"type\". A folder without an entry is sorted by name, except Downloads "
 "(xdg:DOWNLOAD), which shows the newest files first. Changed from the folder "
 "panel."
-msgstr ""
-"Przypisuje wpisowi folder-stacks „name”, „modified” (najnowsze najpierw) lub "
-"„type”. Folder bez wpisu jest sortowany według nazwy, oprócz Pobranych "
-"(xdg:DOWNLOAD), gdzie najnowsze pliki są pierwsze. Zmieniane w panelu "
-"folderu."
+msgstr "Dla każdego folderu z listy folder-stacks można wybrać „name” (nazwa), „modified” (od najnowszych) albo „type” (typ). Bez ustawienia foldery są sortowane po nazwie, z wyjątkiem Pobranych (xdg:DOWNLOAD), gdzie najnowsze pliki pojawiają się jako pierwsze. Zmiana jest dostępna w panelu folderu."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:356
 msgid "Desktop icon size"
@@ -991,7 +916,8 @@ msgstr ""
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:361
 msgid "Corner where new icons are placed"
-msgstr "Róg, od którego umieszczane są nowe ikony"
+msgstr "Róg, od którego rozmieszczane są nowe ikony"
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:365
 msgid "Show the home folder"
@@ -1010,10 +936,8 @@ msgid ""
 "\"free\": icons stay exactly where they are dropped. \"grid\": dropped icons "
 "snap to the grid. Changing this does not move existing icons; \"Align to "
 "Grid\" in the desktop menu does."
-msgstr ""
-"\"free\": ikony zostają dokładnie tam, gdzie je upuszczono. \"grid\": "
-"upuszczone ikony przyciągają się do siatki. Zmiana nie przestawia "
-"istniejących ikon; robi to „Uporządkuj do siatki” w menu pulpitu."
+msgstr "„free”: ikony zostają tam, gdzie je upuszczono. „grid”: są przyciągane do siatki. Zmiana opcji nie przesuwa istniejących ikon — służy do tego polecenie „Wyrównaj do siatki” w menu pulpitu."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:382
 msgid "Open items with a single or double click"
@@ -1025,7 +949,8 @@ msgstr "Kolejność używana przez „Uporządkuj ikony”"
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:387
 msgid "Changed from the desktop menu \"Sort By\"."
-msgstr "Zmieniana w menu pulpitu „Sortuj według”."
+msgstr "Można zmienić w menu pulpitu „Sortuj według”."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:394
 msgid "Show passive application icons"
@@ -1035,9 +960,8 @@ msgstr "Wyświetlanie nieaktywnych ikon aplikacji"
 msgid ""
 "StatusNotifierItem defines a \"Passive\" status for icons an application "
 "considers unimportant. They are hidden unless this is true."
-msgstr ""
-"StatusNotifierItem definiuje stan \"Passive\" dla ikon, które aplikacja "
-"uznaje za nieistotne. Są ukryte, chyba że ta wartość jest prawdą."
+msgstr "Standard StatusNotifierItem przewiduje stan „Passive” dla ikon uznanych przez aplikację za nieistotne. Takie ikony są ukryte, dopóki nie włączysz tej opcji."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:402
 msgid "Button layout before the first change"
@@ -1076,11 +1000,8 @@ msgid ""
 "name in the user's language, and the applications inside each folder too; "
 "rearranging by dragging is turned off. Kept up to date by the app-grid "
 "extension."
-msgstr ""
-"„custom”: układ ułożony przez użytkownika (app-picker-layout GNOME i listy "
-"folderów). „alphabetical”: aplikacje i foldery według nazw w języku "
-"użytkownika, także aplikacje w folderach; przestawianie przeciąganiem jest "
-"wyłączone. Utrzymywane przez rozszerzenie app-grid."
+msgstr "„custom”: własny układ aplikacji i folderów zapisany przez GNOME. „alphabetical”: aplikacje i foldery (również ich zawartość) są sortowane według nazw w języku użytkownika; przeciąganie nie zmienia kolejności. Układ jest aktualizowany przez rozszerzenie app-grid."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:420
 msgid "Arrangement saved before sorting alphabetically"
@@ -1092,11 +1013,8 @@ msgid ""
 "org.gnome.shell app-picker-layout (GVariant text) and the application list "
 "of each folder. It is restored when sort-mode goes back to \"custom\". "
 "Internal; not part of presets."
-msgstr ""
-"JSON zapisywany, gdy sort-mode zmienia się na „alphabetical”: wcześniejsze "
-"org.gnome.shell app-picker-layout (tekst GVariant) i lista aplikacji każdego "
-"folderu. Przywracany po powrocie sort-mode do „custom”. Wewnętrzny; nie "
-"trafia do presetów."
+msgstr "JSON zapisywany, gdy sort-mode zmienia się na „alphabetical”: wcześniejsze org.gnome.shell app-picker-layout (tekst GVariant) i lista aplikacji każdego folderu. Przywracany po powrocie sort-mode do „custom”. Wewnętrzny; nie trafia do profili ustawień."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:428
 msgid "Shortcut that opens the clipboard history"
@@ -1108,8 +1026,8 @@ msgstr "Największa liczba zapamiętanych pozycji"
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:434
 msgid "Pinned items do not count. The oldest items are forgotten first."
-msgstr ""
-"Przypięte pozycje się nie liczą. Najstarsze pozycje są zapominane najpierw."
+msgstr "Przypięte pozycje nie wliczają się do limitu. Najstarsze nieprzypięte pozycje są usuwane jako pierwsze."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:438
 msgid "What is kept after logging out"
@@ -1120,10 +1038,8 @@ msgid ""
 "\"nothing\": the history is only kept in memory and is gone after logging "
 "out. \"pinned\": pinned items are saved in the user data folder. \"all\": "
 "the whole history is saved there."
-msgstr ""
-"„nothing”: historia jest tylko w pamięci i znika po wylogowaniu. „pinned”: "
-"przypięte pozycje są zapisywane w folderze danych użytkownika. „all”: "
-"zapisywana jest tam cała historia."
+msgstr "„nothing”: historia jest przechowywana tylko w pamięci i znika po wylogowaniu. „pinned”: przypięte pozycje są zapisywane w katalogu danych użytkownika. „all”: zapisywana jest cała historia."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:443
 msgid "Do not remember new items"
@@ -1131,7 +1047,8 @@ msgstr "Nie zapamiętuj nowych pozycji"
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:444
 msgid "Temporary state changed from the history panel; not part of presets."
-msgstr "Stan tymczasowy zmieniany w panelu historii; nie trafia do presetów."
+msgstr "Stan tymczasowy zmieniany w panelu historii; nie trafia do profili ustawień."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:448
 msgid "Also remember selected text"
@@ -1155,11 +1072,8 @@ msgid ""
 "application it was copied from still provides it, can be pasted with its "
 "formatting. When true, that item is pasted as plain text too. Shift+Enter in "
 "the history pastes plain text either way."
-msgstr ""
-"Historia przechowuje tekst bez formatowania; tylko najnowszą pozycję, dopóki "
-"aplikacja, z której ją skopiowano, nadal ją udostępnia, można wkleić z "
-"formatowaniem. Gdy prawda, także ona jest wklejana jako zwykły tekst. "
-"Shift+Enter w historii zawsze wkleja zwykły tekst."
+msgstr "Historia przechowuje tekst bez formatowania. Tylko najnowszą pozycję można wkleić z formatowaniem, dopóki aplikacja źródłowa je udostępnia. Po włączeniu tej opcji także ona jest wklejana bez formatowania. Shift+Enter zawsze wkleja tekst bez formatowania."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:458
 msgid "Paste the chosen item at once"
@@ -1170,9 +1084,8 @@ msgid ""
 "When true, choosing an item closes the panel and pastes it into the window "
 "that was focused, with Ctrl+V. When false, the item is only put on the "
 "clipboard."
-msgstr ""
-"Gdy prawda, wybór pozycji zamyka panel i wkleja ją do okna, które było "
-"aktywne, skrótem Ctrl+V. Gdy fałsz, pozycja trafia tylko do schowka."
+msgstr "Po włączeniu tej opcji wybór pozycji zamyka panel i wkleja ją do ostatnio aktywnego okna skrótem Ctrl+V. Po wyłączeniu pozycja trafia tylko do schowka."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:466
 msgid "Also keep the screen on"
@@ -1183,10 +1096,8 @@ msgid ""
 "When false, keeping the computer awake only prevents automatic suspend: the "
 "screen still turns off and locks as usual. When true, the screen also stays "
 "on and does not lock automatically."
-msgstr ""
-"Gdy fałsz, „Nie usypiaj” zapobiega tylko automatycznemu usypianiu: ekran "
-"gaśnie i blokuje się jak zwykle. Gdy prawda, ekran też pozostaje włączony i "
-"nie blokuje się automatycznie."
+msgstr "Po wyłączeniu tej opcji „Nie usypiaj” blokuje tylko automatyczne uśpienie komputera — ekran może nadal gasnąć i się blokować. Po włączeniu ekran pozostaje włączony i nie blokuje się automatycznie."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:471
 msgid "Duration used by the quick settings button"
@@ -1194,7 +1105,8 @@ msgstr "Czas używany przez przycisk w szybkich ustawieniach"
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:472
 msgid "The duration chosen last; clicking the button uses it again."
-msgstr "Ostatnio wybrany czas; kliknięcie przycisku używa go ponownie."
+msgstr "Ostatnio wybrany czas jest używany ponownie po kliknięciu przycisku."
+
 
 #: data/schemas/io.github.deskence.Deskence.gschema.xml:477
 msgid "Custom duration in minutes"
@@ -1226,9 +1138,8 @@ msgstr "STRONA"
 msgid ""
 "A dock with folders, desktop icons, application icons in the top bar, a "
 "clipboard history and window settings for GNOME."
-msgstr ""
-"Dock z folderami, ikony pulpitu, ikony aplikacji na górnym pasku, historia "
-"schowka i ustawienia okien dla GNOME."
+msgstr "Dock z folderami, ikony na pulpicie, ikony aplikacji na górnym pasku, historia schowka i ustawienia okien w GNOME."
+
 
 #: src/deskence/pages.py:98
 msgid "Opaque"
@@ -1251,16 +1162,18 @@ msgstr "Nie zainstalowano. Zainstaluj ponownie pakiet deskence."
 
 #: src/deskence/pages.py:204
 msgid "Starts after you log out and log in again"
-msgstr "Zacznie działać po wylogowaniu i ponownym zalogowaniu"
+msgstr "Funkcja zacznie działać po ponownym zalogowaniu"
+
 
 #: src/deskence/pages.py:205
 msgid "Updated; the new version starts after you log in again"
-msgstr "Zaktualizowano; nowa wersja zacznie działać po ponownym zalogowaniu"
+msgstr "Zaktualizowano. Nowa wersja zacznie działać po ponownym zalogowaniu"
+
 
 #: src/deskence/pages.py:206
 msgid "GNOME Shell is not running; applies in the next GNOME session"
-msgstr ""
-"GNOME Shell nie działa; zmiana zostanie zastosowana w następnej sesji GNOME"
+msgstr "GNOME Shell nie działa. Zmiana zostanie zastosowana w następnej sesji GNOME"
+
 
 #: src/deskence/pages.py:207
 msgid "Not running"
@@ -1268,7 +1181,8 @@ msgstr "Nie działa"
 
 #: src/deskence/pages.py:230
 msgid "The feature stopped because of an error"
-msgstr "Funkcja została zatrzymana z powodu błędu"
+msgstr "Funkcja przestała działać z powodu błędu"
+
 
 #: src/deskence/pages.py:232
 msgid "This GNOME version is not supported"
@@ -1285,7 +1199,8 @@ msgstr "Rozszerzenia GNOME są wyłączone"
 
 #: src/deskence/pages.py:237
 msgid "Deskence needs them to show its features."
-msgstr "Deskence potrzebuje ich do działania swoich funkcji."
+msgstr "Te funkcje wymagają włączonych rozszerzeń GNOME."
+
 
 #: src/deskence/pages.py:238
 msgid "_Turn On…"
@@ -1298,7 +1213,8 @@ msgstr "Używana jest inna kopia"
 #: src/deskence/pages.py:241
 #, python-brace-format
 msgid "A copy in your home folder replaces the installed one: {}"
-msgstr "Kopia w katalogu domowym zastępuje zainstalowaną: {}"
+msgstr "Kopia w folderze domowym jest używana zamiast wersji zainstalowanej w systemie: {}"
+
 
 #: src/deskence/pages.py:243
 msgid "_Show"
@@ -1350,12 +1266,14 @@ msgstr "zapobieganie usypianiu"
 #: src/deskence/pages.py:265
 #, python-brace-format
 msgid "Also provides {}. Using both at once causes problems."
-msgstr "Również dodaje {}. Używanie obu jednocześnie powoduje problemy."
+msgstr "Ta funkcja jest też dostępna w {}. Jednoczesne używanie obu rozszerzeń może powodować problemy."
+
 
 #: src/deskence/pages.py:267
 #, python-brace-format
 msgid "May also provide {}."
-msgstr "Może również dodawać {}."
+msgstr "Ta funkcja może być też dostępna w {}."
+
 
 #: src/deskence/pages.py:271
 #, python-brace-format
@@ -1380,11 +1298,13 @@ msgstr "_Wyłącz…"
 
 #: src/deskence/pages.py:355
 msgid "Subtle"
-msgstr "Słabe"
+msgstr "Delikatne"
+
 
 #: src/deskence/pages.py:356
 msgid "Strong"
-msgstr "Silne"
+msgstr "Mocne"
+
 
 #: src/deskence/pages.py:358
 msgid "Magnification Strength"
@@ -1401,11 +1321,13 @@ msgstr "Rozmiar ikon"
 
 #: src/deskence/pages.py:396
 msgid "The dock is always visible and windows do not cover it"
-msgstr "Dock jest zawsze widoczny, a okna go nie zasłaniają"
+msgstr "Dock pozostaje widoczny. Okna nie zasłaniają jego obszaru"
+
 
 #: src/deskence/pages.py:397
 msgid "Hides while a window overlaps it"
-msgstr "Chowa się, gdy zasłania go okno"
+msgstr "Ukrywa się, gdy nachodzi na niego okno"
+
 
 #: src/deskence/pages.py:398
 msgid "Appears when you move the pointer to the screen edge"
@@ -1417,7 +1339,8 @@ msgstr "Kolejne kliknięcie przełącza na następne okno aplikacji"
 
 #: src/deskence/pages.py:402
 msgid "Clicking an application with one focused window minimizes it"
-msgstr "Kliknięcie aktywnej aplikacji z jednym oknem minimalizuje je"
+msgstr "Kliknięcie aplikacji, której jedyne okno jest aktywne, minimalizuje to okno"
+
 
 #: src/deskence/pages.py:415
 msgid "Restore Default Dock Settings?"
@@ -1428,11 +1351,8 @@ msgid ""
 "Position, size, colors, hiding, monitor, click behavior and shown items "
 "return to their defaults. Pinned applications, folders in the dock, the "
 "applications view and whether the dock is shown do not change."
-msgstr ""
-"Położenie, rozmiar, kolory, ukrywanie, monitor, działanie kliknięcia i "
-"pokazywane elementy wrócą do ustawień domyślnych. Przypięte aplikacje, "
-"foldery w docku, widok aplikacji oraz to, czy dock jest pokazywany, nie "
-"zmienią się."
+msgstr "Położenie, rozmiar, kolory, sposób ukrywania, monitor, działanie kliknięcia i wyświetlane elementy wrócą do ustawień domyślnych. Przypięte aplikacje, foldery w docku, układ widoku aplikacji i włączenie docka pozostaną bez zmian."
+
 
 #: src/deskence/pages.py:419 src/deskence/pages.py:727
 #: src/deskence/pages.py:838 src/deskence/pages.py:925
@@ -1443,7 +1363,8 @@ msgstr "_Przywróć"
 
 #: src/deskence/pages.py:430
 msgid "Not shown while animations are turned off in Accessibility settings"
-msgstr "Nie działa, gdy animacje są wyłączone w ustawieniach dostępności"
+msgstr "Efekt nie działa, gdy w ustawieniach dostępności wyłączono animacje"
+
 
 #: src/deskence/pages.py:450 src/deskence/ui/dock-page.ui:348
 msgid "Add Folder"
@@ -1455,7 +1376,8 @@ msgstr "Inny folder…"
 
 #: src/deskence/pages.py:476
 msgid "Not set up on this computer"
-msgstr "Nieskonfigurowany na tym komputerze"
+msgstr "Ten folder nie jest skonfigurowany na tym komputerze"
+
 
 #: src/deskence/pages.py:480
 #, python-brace-format
@@ -1534,7 +1456,8 @@ msgstr "Obrazy"
 
 #: src/deskence/pages.py:602
 msgid "Choose an Icon"
-msgstr "Wybór ikony"
+msgstr "Wybierz ikonę"
+
 
 #: src/deskence/pages.py:612 src/deskence/general.py:357
 #: src/deskence/general.py:382
@@ -1545,9 +1468,8 @@ msgstr "Można użyć tylko plików lokalnych."
 msgid ""
 "The file is not an image in a supported format (PNG, SVG, JPEG or WebP) of "
 "at most 4 MB."
-msgstr ""
-"Plik nie jest obrazem w obsługiwanym formacie (PNG, SVG, JPEG lub WebP) o "
-"rozmiarze do 4 MB."
+msgstr "Wybierz plik PNG, SVG, JPEG lub WebP o rozmiarze nie większym niż 4 MB."
+
 
 #: src/deskence/pages.py:629
 msgid "Cannot Use This Image"
@@ -1560,7 +1482,8 @@ msgstr "{} (odłączony)"
 
 #: src/deskence/pages.py:720
 msgid "No desktop folder is set up"
-msgstr "Nie ustawiono folderu pulpitu"
+msgstr "Nie skonfigurowano folderu Pulpit"
+
 
 #: src/deskence/pages.py:724
 msgid "Restore Default Desktop Icon Settings?"
@@ -1570,9 +1493,8 @@ msgstr "Przywrócić domyślne ustawienia ikon pulpitu?"
 msgid ""
 "Size, placement, click behavior and shown items return to their defaults. "
 "Your files and the positions of icons do not change."
-msgstr ""
-"Rozmiar, rozmieszczanie, działanie kliknięcia i wyświetlane elementy wrócą "
-"do wartości domyślnych. Pliki i położenie ikon nie zmienią się."
+msgstr "Rozmiar, rozmieszczenie, sposób otwierania i wyświetlane elementy wrócą do ustawień domyślnych. Twoje pliki i pozycje ikon pozostaną bez zmian."
+
 
 #: src/deskence/pages.py:740
 msgid "Icons stay exactly where you drop them"
@@ -1598,9 +1520,8 @@ msgstr "Przywrócić domyślne ustawienia widoku aplikacji?"
 msgid ""
 "The background, application folders and the hover highlight return to the "
 "GNOME look, and the applications return to your own order."
-msgstr ""
-"Tło, foldery aplikacji i podświetlenie po najechaniu wrócą do wyglądu GNOME, "
-"a aplikacje – do Twojej kolejności."
+msgstr "Tło, foldery i podświetlenie aplikacji odzyskają domyślny wygląd GNOME. Przywrócona zostanie też własna kolejność aplikacji."
+
 
 #: src/deskence/pages.py:848
 msgid "By name, also inside folders. Dragging does not change the order."
@@ -1610,37 +1531,35 @@ msgstr "Według nazw, także w folderach. Przeciąganie nie zmienia kolejności.
 msgid ""
 "Arrange applications by dragging them. This arrangement returns when "
 "alphabetical order is turned off."
-msgstr ""
-"Układasz aplikacje, przeciągając je. Ten układ wraca po wyłączeniu "
-"kolejności alfabetycznej."
+msgstr "Przeciągaj aplikacje, aby zmienić ich kolejność. Ten układ zostanie przywrócony po wyłączeniu sortowania alfabetycznego."
+
 
 #: src/deskence/pages.py:866 src/deskence/ui/app-grid-page.ui:32
 msgid ""
 "The background behind the applications. Icons, names and the search field do "
 "not change."
-msgstr ""
-"Tło za aplikacjami. Ikony, nazwy i pole wyszukiwania się nie zmieniają."
+msgstr "Zmienia się tylko tło za aplikacjami. Ikony, nazwy i pole wyszukiwania pozostają bez zmian."
+
 
 #: src/deskence/pages.py:869 src/deskence/pages.py:876
 #: src/deskence/pages.py:882 src/deskence/general.py:130
 msgid "Available while the Deskence dock is turned on."
-msgstr "Dostępne, gdy dock Deskence jest włączony."
+msgstr "Dostępne po włączeniu docka Deskence."
+
 
 #: src/deskence/pages.py:873 src/deskence/ui/app-grid-page.ui:94
 msgid ""
 "Change the look of application groups, such as “Utilities”, in the "
 "applications view. Only the tile background changes."
-msgstr ""
-"Dostosuj wygląd grup aplikacji, takich jak „Narzędzia”, w widoku wszystkich "
-"aplikacji. Zmienia się tylko tło kafelka."
+msgstr "Zmień tło kafelków folderów aplikacji, np. „Narzędzia”. Ich zawartość pozostanie bez zmian."
+
 
 #: src/deskence/pages.py:879 src/deskence/ui/app-grid-page.ui:156
 msgid ""
 "Choose the background that appears under the pointer on an application or an "
 "application folder, also inside an open folder."
-msgstr ""
-"Wybierz wygląd tła, które pojawia się po najechaniu wskaźnikiem na aplikację "
-"lub folder aplikacji, także w otwartym folderze."
+msgstr "Wybierz kolor podświetlenia widocznego po najechaniu wskaźnikiem na aplikację lub folder, również wewnątrz otwartych folderów."
+
 
 #. GNOME's own keybinding; Deskence only offers to set it.
 #: src/deskence/pages.py:909 src/deskence/pages.py:994
@@ -1659,10 +1578,8 @@ msgstr "Przywrócić domyślne ustawienia schowka?"
 msgid ""
 "The shortcut and pasting return to their defaults. The history, how many "
 "items it keeps and whether it is kept after logging out do not change."
-msgstr ""
-"Skrót i wklejanie wrócą do ustawień domyślnych. Historia, liczba "
-"zapamiętywanych pozycji i to, czy historia jest zachowywana po wylogowaniu, "
-"nie zmienią się."
+msgstr "Skrót i sposób wklejania wrócą do ustawień domyślnych. Historia schowka, limit pozycji i ustawienie zachowywania historii po wylogowaniu pozostaną bez zmian."
+
 
 #: src/deskence/pages.py:931
 msgid "Only in memory"
@@ -1686,9 +1603,8 @@ msgstr "Przywrócić domyślne ustawienia górnego paska?"
 msgid ""
 "Showing inactive icons and the Keep Awake options return to their defaults. "
 "Which features are shown does not change."
-msgstr ""
-"Pokazywanie nieaktywnych ikon i opcje „Nie usypiaj” wracają do domyślnych. "
-"To, które funkcje są pokazywane, się nie zmienia."
+msgstr "Sposób wyświetlania nieaktywnych ikon i opcje „Nie usypiaj” wrócą do ustawień domyślnych. Włączone funkcje pozostaną bez zmian."
+
 
 #: src/deskence/pages.py:995
 msgid "Switches Always on Top for the focused window"
@@ -1716,9 +1632,8 @@ msgstr ""
 
 #: src/deskence/pages.py:1065
 msgid "The buttons were changed elsewhere after Deskence changed them"
-msgstr ""
-"Przyciski zostały zmienione w innym miejscu po zmianie wprowadzonej przez "
-"Deskence"
+msgstr "Po zmianach w Deskence układ przycisków został zmodyfikowany w innym miejscu"
+
 
 #. Translators: these fill the {} of "Preview: dock at the {} of the
 #. screen" (read by screen readers); use the form that fits there.
@@ -1793,7 +1708,8 @@ msgstr "_O programie"
 
 #: src/deskence/ui/window.ui:39 src/deskence/keybindings.py:58
 msgid "Search Settings"
-msgstr "Wyszukaj ustawienia"
+msgstr "Wyszukaj ustawienie"
+
 
 #: src/deskence/ui/window.ui:47
 msgid "Main Menu"
@@ -1817,7 +1733,8 @@ msgstr "Brak wyników"
 
 #: src/deskence/ui/window.ui:112
 msgid "Try other words, for example the name of a feature."
-msgstr "Spróbuj innych słów, na przykład nazwy funkcji."
+msgstr "Spróbuj wpisać inne słowa, np. nazwę funkcji."
+
 
 #: src/deskence/ui/window.ui:137
 msgid "_Log Out…"
@@ -1832,9 +1749,8 @@ msgstr "Dock"
 msgid ""
 "Adjust the position, look and behavior of the application bar at the edge of "
 "the screen. Pinned applications are the same as in the activities overview."
-msgstr ""
-"Dostosuj położenie, wygląd i działanie paska aplikacji przy krawędzi ekranu. "
-"Przypięte aplikacje są te same co w podglądzie aktywności."
+msgstr "Dostosuj położenie, wygląd i działanie docka przy krawędzi ekranu. Korzysta on z tych samych przypiętych aplikacji co podgląd aktywności."
+
 
 #: src/deskence/ui/dock-page.ui:14
 msgid "Show _Dock"
@@ -1866,7 +1782,8 @@ msgstr "D_ługość"
 
 #: src/deskence/ui/dock-page.ui:54
 msgid "Fit to Icons"
-msgstr "Dopasowana do ikon"
+msgstr "Dopasuj do ikon"
+
 
 #: src/deskence/ui/dock-page.ui:55
 msgid "Whole Edge"
@@ -1886,7 +1803,8 @@ msgstr "Kolor tła"
 
 #: src/deskence/ui/dock-page.ui:111
 msgid "Custom _Background Transparency"
-msgstr "Własna przezroczystość _tła"
+msgstr "Własna _przezroczystość tła"
+
 
 #: src/deskence/ui/dock-page.ui:141
 msgid "_Magnify Icons Under the Pointer"
@@ -1910,11 +1828,13 @@ msgstr "Nigdy"
 
 #: src/deskence/ui/dock-page.ui:182
 msgid "When Windows Overlap"
-msgstr "Gdy zasłaniają go okna"
+msgstr "Gdy nachodzi na niego okno"
+
 
 #: src/deskence/ui/dock-page.ui:183
 msgid "When Not in Use"
-msgstr "Gdy nieużywany"
+msgstr "Gdy nie jest używany"
+
 
 #: src/deskence/ui/dock-page.ui:191
 msgid "_Monitor"
@@ -1942,7 +1862,8 @@ msgstr "Kliknięcie uruchomionej _aplikacji"
 
 #: src/deskence/ui/dock-page.ui:217
 msgid "Focus, Then Switch Windows"
-msgstr "Aktywuj, potem przełączaj okna"
+msgstr "Aktywuj i przełączaj okna"
+
 
 #: src/deskence/ui/dock-page.ui:218
 msgid "Minimize or Switch Windows"
@@ -1954,38 +1875,37 @@ msgstr "Pokazuj tylko aplikacje z _bieżącego obszaru roboczego"
 
 #: src/deskence/ui/dock-page.ui:232
 msgid "Show Window _Previews on Hover"
-msgstr "Pokaż _podglądy okien po najechaniu"
+msgstr "Pokaż _podgląd okien po najechaniu"
+
 
 #: src/deskence/ui/dock-page.ui:233
 msgid "Pause on a running application to see its windows and choose one"
-msgstr ""
-"Zatrzymaj wskaźnik na uruchomionej aplikacji, aby zobaczyć jej okna i wybrać "
-"jedno z nich"
+msgstr "Zatrzymaj wskaźnik na ikonie uruchomionej aplikacji, aby zobaczyć jej okna i wybrać jedno z nich"
+
 
 #: src/deskence/ui/dock-page.ui:239
 msgid "P_eek at Windows"
-msgstr "Pokazuj okno _nad innymi"
+msgstr "Podglądaj ok_na bez przełączania"
+
 
 #: src/deskence/ui/dock-page.ui:240
 msgid ""
 "Rest on a preview to see its window over the others, without switching to it"
-msgstr ""
-"Zatrzymaj wskaźnik na podglądzie, aby zobaczyć okno nad innymi, bez "
-"przełączania się do niego"
+msgstr "Zatrzymaj wskaźnik na miniaturze, aby na chwilę zobaczyć wybrane okno bez przełączania się do niego"
+
 
 #: src/deskence/ui/dock-page.ui:248
 msgid "Information From Applications"
-msgstr "Informacje od aplikacji"
+msgstr "Informacje z aplikacji"
+
 
 #: src/deskence/ui/dock-page.ui:249
 msgid ""
 "Applications can show a counter or the progress of an operation on their "
 "icon, for example unread messages or a download. Only what an application "
 "reports is shown."
-msgstr ""
-"Aplikacje mogą pokazywać na swojej ikonie licznik lub postęp operacji, np. "
-"nieprzeczytane wiadomości albo pobieranie. Wyświetlane jest tylko to, co "
-"zgłasza sama aplikacja."
+msgstr "Niektóre aplikacje pokazują na swoich ikonach licznik nieprzeczytanych wiadomości lub postęp operacji, np. pobierania pliku. Widać tylko informacje udostępniane przez daną aplikację."
+
 
 #: src/deskence/ui/dock-page.ui:252
 msgid "Show Application Counters"
@@ -2001,7 +1921,8 @@ msgstr "Pokazuj postęp operacji"
 
 #: src/deskence/ui/dock-page.ui:259
 msgid "A bar on the icon while a download or copy runs"
-msgstr "Pasek na ikonie podczas pobierania lub kopiowania"
+msgstr "Pasek na ikonie podczas pobierania lub kopiowania plików"
+
 
 #: src/deskence/ui/dock-page.ui:266
 msgid "Items"
@@ -2009,7 +1930,8 @@ msgstr "Elementy"
 
 #: src/deskence/ui/dock-page.ui:267
 msgid "What the dock shows besides applications."
-msgstr "Co oprócz aplikacji pokazuje dock."
+msgstr "Dodatkowe elementy wyświetlane na docku."
+
 
 #: src/deskence/ui/dock-page.ui:270 src/deskence/ui/desktop-icons-page.ui:125
 msgid "_Trash"
@@ -2021,7 +1943,8 @@ msgstr "D_yski i pendrive’y"
 
 #: src/deskence/ui/dock-page.ui:282
 msgid "_Network Locations"
-msgstr "Dyski _sieciowe"
+msgstr "Lokalizacje _sieciowe"
+
 
 #: src/deskence/ui/dock-page.ui:288
 msgid "_Applications Button"
@@ -2081,7 +2004,8 @@ msgstr "Ikony pulpitu"
 #: src/deskence/ui/desktop-icons-page.ui:11
 msgid ""
 "Show the files and folders of your desktop folder as icons on the desktop."
-msgstr "Wyświetlaj pliki i foldery z folderu pulpitu jako ikony na pulpicie."
+msgstr "Pokazuj na pulpicie ikony plików i folderów znajdujących się w folderze Pulpit."
+
 
 #: src/deskence/ui/desktop-icons-page.ui:14
 msgid "Show _Icons on the Desktop"
@@ -2123,7 +2047,8 @@ msgstr "Bardzo duże"
 
 #: src/deskence/ui/desktop-icons-page.ui:69
 msgid "_Place New Icons From"
-msgstr "_Umieszczaj nowe ikony od"
+msgstr "_Układaj nowe ikony od"
+
 
 #: src/deskence/ui/desktop-icons-page.ui:70
 msgid "Icons you moved keep their place"
@@ -2181,9 +2106,8 @@ msgstr "_Folder domowy"
 msgid ""
 "Hidden files are not shown. Disabling desktop icons never moves or deletes "
 "your files."
-msgstr ""
-"Pliki ukryte nie są wyświetlane. Wyłączenie ikon pulpitu nigdy nie przenosi "
-"ani nie usuwa plików."
+msgstr "Pliki ukryte nie są wyświetlane. Wyłączenie ikon na pulpicie nie przenosi ani nie usuwa plików."
+
 
 #: src/deskence/ui/top-bar-page.ui:6 src/deskence/presets.py:150
 msgid "Top Bar"
@@ -2197,9 +2121,8 @@ msgstr "Ikony aplikacji"
 msgid ""
 "Icons of applications running in the background, for example messengers and "
 "file synchronization."
-msgstr ""
-"Ikony aplikacji działających w tle, na przykład komunikatorów i programów do "
-"synchronizacji plików."
+msgstr "Ikony aplikacji działających w tle, np. komunikatorów i programów do synchronizacji plików."
+
 
 #: src/deskence/ui/top-bar-page.ui:15
 msgid "Show _Application Icons"
@@ -2211,7 +2134,8 @@ msgstr "Pokaż nieaktywne _ikony"
 
 #: src/deskence/ui/top-bar-page.ui:22
 msgid "Icons that applications mark as currently unimportant"
-msgstr "Ikony, które aplikacje oznaczają jako obecnie nieistotne"
+msgstr "Ikony, które aplikacje oznaczyły jako nieaktywne"
+
 
 #: src/deskence/ui/top-bar-page.ui:30 src/deskence/presets.py:151
 #: extensions/keep-awake/extension.js:145
@@ -2225,9 +2149,8 @@ msgid ""
 "A button in the quick settings that keeps the computer from suspending "
 "automatically, for a chosen time or until turned off. Suspending yourself "
 "still works."
-msgstr ""
-"Przycisk w szybkich ustawieniach, który zapobiega automatycznemu usypianiu "
-"komputera na wybrany czas lub do wyłączenia. Ręczne uśpienie nadal działa."
+msgstr "Dodaje do szybkich ustawień przycisk, który zapobiega automatycznemu usypianiu komputera przez wybrany czas lub do ręcznego wyłączenia. Nadal możesz samodzielnie uśpić komputer."
+
 
 #: src/deskence/ui/top-bar-page.ui:34
 msgid "Show _Keep Awake"
@@ -2240,9 +2163,8 @@ msgstr "Nie wygaszaj też _ekranu"
 #: src/deskence/ui/top-bar-page.ui:41
 msgid ""
 "While Keep Awake is on, the screen does not turn off or lock automatically"
-msgstr ""
-"Gdy „Nie usypiaj” jest włączone, ekran nie gaśnie i nie blokuje się "
-"automatycznie"
+msgstr "Gdy włączono „Nie usypiaj”, ekran nie gaśnie ani nie blokuje się automatycznie"
+
 
 #: src/deskence/ui/top-bar-page.ui:47
 msgid "_Custom Duration"
@@ -2256,9 +2178,8 @@ msgstr "Minuty"
 msgid ""
 "Applications using the StatusNotifierItem standard are supported. Old-style "
 "tray icons (XEmbed) are not."
-msgstr ""
-"Obsługiwane są aplikacje korzystające ze standardu StatusNotifierItem. Ikony "
-"zasobnika w starym stylu (XEmbed) nie są obsługiwane."
+msgstr "Obsługiwane są ikony aplikacji korzystających ze standardu StatusNotifierItem. Starsze ikony zasobnika (XEmbed) nie są obsługiwane."
+
 
 #: src/deskence/ui/windows-page.ui:6 src/deskence/presets.py:152
 msgid "Windows"
@@ -2273,9 +2194,8 @@ msgid ""
 "These are GNOME settings: they stay in effect when Deskence is removed. "
 "Applications that draw their own title bars, such as some browsers, may "
 "ignore them."
-msgstr ""
-"To ustawienia GNOME: pozostają w mocy po usunięciu Deskence. Aplikacje z "
-"własnymi paskami tytułu, np. niektóre przeglądarki, mogą je ignorować."
+msgstr "Są to ustawienia GNOME, które pozostają aktywne także po odinstalowaniu Deskence. Aplikacje używające własnych pasków tytułu, np. niektóre przeglądarki, mogą je ignorować."
+
 
 #: src/deskence/ui/windows-page.ui:15
 msgid "_Minimize Button"
@@ -2300,10 +2220,8 @@ msgid ""
 "and in the menu of a window preview in the dock, which shows a pin for such "
 "windows. It does not show the window on every workspace; that is a separate "
 "option of the window menu."
-msgstr ""
-"Utrzymuje okno nad innymi. Jest też w menu okna (Alt+Spacja) i w menu "
-"podglądu okna w docku, który pokazuje przy takich oknach pinezkę. Nie "
-"pokazuje okna na każdym obszarze roboczym – to osobna opcja menu okna."
+msgstr "Utrzymuje okno nad pozostałymi. Opcja jest dostępna także w menu okna (Alt+Spacja) i menu podglądu okna w docku. Takie okno ma w docku oznaczenie pinezki. Wyświetlanie okna na wszystkich obszarach roboczych to osobna funkcja."
+
 
 #: src/deskence/ui/windows-page.ui:51
 msgid "Restore Settings From _Before Changes…"
@@ -2331,7 +2249,8 @@ msgstr "Nazwa jest za długa."
 
 #: desktop-icons/deskence_desktop/app.py:496
 msgid "Cannot open the location"
-msgstr "Nie można otworzyć położenia"
+msgstr "Nie można otworzyć lokalizacji"
+
 
 #: desktop-icons/deskence_desktop/app.py:504
 #: desktop-icons/deskence_desktop/app.py:520
@@ -2343,11 +2262,13 @@ msgstr "Nie można otworzyć „{}”"
 
 #: desktop-icons/deskence_desktop/app.py:505
 msgid "The link is broken: the item it points to does not exist."
-msgstr "Dowiązanie jest uszkodzone: element, na który wskazuje, nie istnieje."
+msgstr "Dowiązanie prowadzi do elementu, który już nie istnieje."
+
 
 #: desktop-icons/deskence_desktop/app.py:527
 msgid "The launcher is not valid."
-msgstr "Plik uruchamiający jest nieprawidłowy."
+msgstr "Nieprawidłowy plik uruchamiający."
+
 
 #: desktop-icons/deskence_desktop/app.py:532
 #, python-brace-format
@@ -2363,9 +2284,8 @@ msgstr "Niezaufany plik uruchamiający"
 msgid ""
 "“{}” has not been marked as trusted. Only allow launching if you know where "
 "this file comes from."
-msgstr ""
-"Plik „{}” nie został oznaczony jako zaufany. Zezwól na uruchamianie tylko "
-"wtedy, gdy wiesz, skąd pochodzi."
+msgstr "Plik „{}” nie jest oznaczony jako zaufany. Uruchom go tylko wtedy, gdy znasz jego pochodzenie."
+
 
 #: desktop-icons/deskence_desktop/app.py:540
 msgid "_Allow and Launch"
@@ -2408,11 +2328,13 @@ msgstr "_Utwórz"
 
 #: desktop-icons/deskence_desktop/app.py:766
 msgid "Rename Folder"
-msgstr "Zmiana nazwy folderu"
+msgstr "Zmień nazwę folderu"
+
 
 #: desktop-icons/deskence_desktop/app.py:766
 msgid "Rename File"
-msgstr "Zmiana nazwy pliku"
+msgstr "Zmień nazwę pliku"
+
 
 #: desktop-icons/deskence_desktop/app.py:773 src/deskence/general.py:284
 msgid "_Rename"
@@ -2436,7 +2358,8 @@ msgstr "_Uporządkuj ikony"
 
 #: desktop-icons/deskence_desktop/app.py:795
 msgid "Align to _Grid"
-msgstr "Uporządkuj do _siatki"
+msgstr "Wyrównaj do _siatki"
+
 
 #: desktop-icons/deskence_desktop/app.py:797
 msgid "_Name"
@@ -2508,7 +2431,8 @@ msgstr "_Właściwości"
 
 #: desktop-icons/deskence_desktop/fileops.py:74
 msgid "The operation failed"
-msgstr "Działanie się nie powiodło"
+msgstr "Nie udało się wykonać operacji"
+
 
 #: desktop-icons/deskence_desktop/fileops.py:117
 msgid "Cannot empty the trash"
@@ -2536,11 +2460,13 @@ msgstr "Nie można utworzyć folderu"
 
 #: desktop-icons/deskence_desktop/fileops.py:183
 msgid "Cannot move the files"
-msgstr "Nie można przenieść plików"
+msgstr "Nie udało się przenieść plików"
+
 
 #: desktop-icons/deskence_desktop/fileops.py:183
 msgid "Cannot copy the files"
-msgstr "Nie można skopiować plików"
+msgstr "Nie udało się skopiować plików"
+
 
 #: desktop-icons/deskence_desktop/items.py:146
 msgid "Home"
@@ -2570,7 +2496,8 @@ msgstr "Ustawienia docka"
 
 #: extensions/dock/locations.js:27 extensions/dock/stacks.js:113
 msgid "Could not open location"
-msgstr "Nie można otworzyć położenia"
+msgstr "Nie można otworzyć lokalizacji"
+
 
 #: extensions/dock/locations.js:210
 msgid "Open"
@@ -2590,11 +2517,13 @@ msgstr "Odmontuj"
 
 #: extensions/dock/locations.js:245
 msgid "Could not eject the drive"
-msgstr "Nie można wysunąć napędu"
+msgstr "Nie udało się wysunąć dysku"
+
 
 #: extensions/dock/locations.js:245
 msgid "Could not unmount the drive"
-msgstr "Nie można odmontować napędu"
+msgstr "Nie udało się odmontować dysku"
+
 
 #: extensions/dock/windowPreviews.js:265
 #, javascript-format
@@ -2607,15 +2536,18 @@ msgstr "Zamknij okno"
 
 #: src/deskence/general.py:21
 msgid "Presets (JSON)"
-msgstr "Presety (JSON)"
+msgstr "Profile ustawień (JSON)"
+
 
 #: src/deskence/general.py:24
 msgid "Presets With Images"
-msgstr "Presety z obrazami"
+msgstr "Profile ustawień z obrazami"
+
 
 #: src/deskence/general.py:27
 msgid "All Presets"
-msgstr "Wszystkie presety"
+msgstr "Wszystkie profile ustawień"
+
 
 #: src/deskence/general.py:41 src/deskence/general.py:279
 #: extensions/dock/stacks.js:500
@@ -2632,7 +2564,8 @@ msgstr "Własne obrazy"
 
 #: src/deskence/general.py:47
 msgid "Saved in an archive together with the settings"
-msgstr "Zapisywane w archiwum razem z ustawieniami"
+msgstr "Obrazy zostaną zapisane w archiwum razem z ustawieniami"
+
 
 #: src/deskence/general.py:95
 msgid "Restore Default Deskence Settings?"
@@ -2644,17 +2577,15 @@ msgid ""
 "returns to your own order. Folders in the dock are removed from it; the "
 "folders themselves are not touched. Enabled features, pinned applications, "
 "title bar buttons, saved presets and the clipboard history do not change."
-msgstr ""
-"Wszystkie ustawienia Deskence wrócą do domyślnych, a widok aplikacji – do "
-"Twojej kolejności. Foldery zostaną usunięte z docka, ale same katalogi i ich "
-"pliki pozostaną nietknięte. Włączone funkcje, przypięte aplikacje, przyciski "
-"pasków tytułu, zapisane presety i historia schowka się nie zmienią."
+msgstr "Wszystkie ustawienia Deskence wrócą do wartości domyślnych, a aplikacje — do własnej kolejności. Foldery znikną z docka, ale ich zawartość pozostanie bez zmian. Włączone funkcje, przypięte aplikacje, przyciski pasków tytułu, zapisane profile ustawień i historia schowka zostaną zachowane."
+
 
 # NEEDS-REVIEW: added or reworded during the translation update of 0.15.0
 #: src/deskence/general.py:140
 #, python-brace-format
 msgid "Same as the System ({})"
-msgstr "Zgodny z systemem ({})"
+msgstr "Tak jak w systemie ({})"
+
 
 #: src/deskence/general.py:176 src/deskence/general.py:503
 msgid "_Undo"
@@ -2702,7 +2633,8 @@ msgstr "Ustawienia"
 #: src/deskence/general.py:245
 #, python-brace-format
 msgid "Settings with {}"
-msgstr "Ustawienia z {}"
+msgstr "Ustawienia obejmujące {}"
+
 
 #: src/deskence/general.py:248 src/deskence/general.py:266
 msgid "My Settings"
@@ -2718,29 +2650,35 @@ msgstr "_Zapisz"
 
 #: src/deskence/general.py:273
 msgid "Cannot Save the Preset"
-msgstr "Nie można zapisać presetu"
+msgstr "Nie można zapisać profilu"
+
 
 #: src/deskence/general.py:276
 #, python-brace-format
 msgid "Preset “{}” saved"
-msgstr "Zapisano preset „{}”"
+msgstr "Zapisano profil „{}”"
+
 
 #: src/deskence/general.py:282
 msgid "Rename Preset"
-msgstr "Zmień nazwę presetu"
+msgstr "Zmień nazwę profilu"
+
 
 #: src/deskence/general.py:296
 msgid "Cannot Rename the Preset"
-msgstr "Nie można zmienić nazwy presetu"
+msgstr "Nie można zmienić nazwy profilu"
+
 
 #: src/deskence/general.py:306
 msgid "Cannot Delete the Preset"
-msgstr "Nie można usunąć presetu"
+msgstr "Nie można usunąć profilu"
+
 
 #: src/deskence/general.py:308
 #, python-brace-format
 msgid "Delete Preset “{}”?"
-msgstr "Usunąć preset „{}”?"
+msgstr "Usunąć profil „{}”?"
+
 
 #: src/deskence/general.py:309
 msgid "The current settings do not change."
@@ -2758,9 +2696,8 @@ msgstr "Eksportuj ustawienia"
 msgid ""
 "Settings are saved as a readable JSON file. With images, the file is an "
 "archive with the settings and the images."
-msgstr ""
-"Ustawienia są zapisywane jako czytelny plik JSON. Z obrazami plik jest "
-"archiwum z ustawieniami i obrazami."
+msgstr "Ustawienia są zapisywane w pliku JSON, który można odczytać w edytorze tekstu. Jeśli dołączysz obrazy, powstanie archiwum zawierające ustawienia i obrazy."
+
 
 #: src/deskence/general.py:336 src/deskence/general.py:339
 #: src/deskence/cli.py:535
@@ -2785,7 +2722,8 @@ msgstr "Nie można zaimportować"
 
 #: src/deskence/general.py:411
 msgid "Your settings already match this preset."
-msgstr "Twoje ustawienia już odpowiadają temu presetowi."
+msgstr "Bieżące ustawienia są już takie same jak w tym profilu."
+
 
 #: src/deskence/general.py:414
 msgid "Nothing to Change"
@@ -2806,7 +2744,8 @@ msgstr "Zastosować „{}”?"
 
 #: src/deskence/general.py:435
 msgid "Apply Preset?"
-msgstr "Zastosować preset?"
+msgstr "Zastosować profil?"
+
 
 #: src/deskence/general.py:437
 msgid "_Apply"
@@ -2815,7 +2754,8 @@ msgstr "_Zastosuj"
 #: src/deskence/general.py:459
 #, python-brace-format
 msgid "These changes could not be put back: {}"
-msgstr "Nie udało się wycofać tych zmian: {}"
+msgstr "Nie udało się przywrócić tych ustawień: {}"
+
 
 #: src/deskence/general.py:460
 msgid "Your previous settings were restored."
@@ -2823,7 +2763,8 @@ msgstr "Przywrócono poprzednie ustawienia."
 
 #: src/deskence/general.py:461 src/deskence/general.py:465
 msgid "The Preset Was Not Applied"
-msgstr "Nie zastosowano presetu"
+msgstr "Nie udało się zastosować profilu"
+
 
 #: src/deskence/general.py:466 src/deskence/cli.py:160
 msgid "Nothing was changed."
@@ -2831,15 +2772,18 @@ msgstr "Niczego nie zmieniono."
 
 #: src/deskence/general.py:469
 msgid "Preset applied"
-msgstr "Zastosowano preset"
+msgstr "Zastosowano profil"
+
 
 #: src/deskence/general.py:479 src/deskence/general.py:489
 msgid "Cannot Undo the Preset"
-msgstr "Nie można cofnąć presetu"
+msgstr "Nie można cofnąć profilu"
+
 
 #: src/deskence/general.py:479 src/deskence/cli.py:552
 msgid "There is no applied preset to undo."
-msgstr "Nie ma zastosowanego presetu do cofnięcia."
+msgstr "Nie ma zastosowanego profilu, który można cofnąć."
+
 
 #: src/deskence/general.py:496
 msgid "Previous settings restored"
@@ -2847,29 +2791,31 @@ msgstr "Przywrócono poprzednie ustawienia"
 
 #: src/deskence/general.py:501
 msgid "Undo Last Applied Preset?"
-msgstr "Cofnąć ostatnie zastosowanie presetu?"
+msgstr "Cofnąć ostatnio zastosowany profil?"
+
 
 #: src/deskence/general.py:502
 msgid "The settings the preset changed return to their values from before it."
-msgstr ""
-"Ustawienia zmienione przez preset wrócą do wartości sprzed jego zastosowania."
+msgstr "Ustawienia zmienione przez profil wrócą do poprzednich wartości."
+
 
 #: src/deskence/general.py:508
 msgid "Some Settings Changed Since"
-msgstr "Część ustawień zmieniono później"
+msgstr "Niektóre ustawienia zmieniono później"
+
 
 #: src/deskence/general.py:509
 #, python-brace-format
 msgid ""
 "These settings were changed after the preset was applied: {}. Undo them too, "
 "or keep them as they are now?"
-msgstr ""
-"Te ustawienia zmieniono po zastosowaniu presetu: {}. Cofnąć także je czy "
-"zostawić w obecnym stanie?"
+msgstr "Po zastosowaniu profilu zmieniono następujące ustawienia: {}. Cofnąć również te zmiany czy zachować obecne wartości?"
+
 
 #: src/deskence/general.py:512
 msgid "_Keep Them"
-msgstr "_Zostaw je"
+msgstr "_Zachowaj zmiany"
+
 
 #: src/deskence/general.py:513
 msgid "Undo _All"
@@ -2889,7 +2835,8 @@ msgstr "Informacje do zgłoszenia błędu"
 
 #: src/deskence/general.py:552
 msgid "Diagnostics copied"
-msgstr "Skopiowano diagnostykę"
+msgstr "Skopiowano dane diagnostyczne"
+
 
 #: src/deskence/general.py:556
 msgid "Save Report"
@@ -2925,32 +2872,36 @@ msgstr "Schowek"
 
 #: src/deskence/presets.py:417
 msgid "The file is too large to be a preset."
-msgstr "Plik jest za duży, by był presetem."
+msgstr "Plik jest zbyt duży, aby mógł być profilem ustawień."
+
 
 #: src/deskence/presets.py:425 src/deskence/presets.py:427
 #: src/deskence/presets.py:453
 msgid "The file is not a Deskence preset."
-msgstr "Ten plik nie jest presetem Deskence."
+msgstr "To nie jest plik profilu ustawień Deskence."
+
 
 #: src/deskence/presets.py:430
 msgid "The preset has no valid format version."
-msgstr "Preset nie ma prawidłowej wersji formatu."
+msgstr "Profil ustawień ma nieprawidłową wersję formatu."
+
 
 #: src/deskence/presets.py:432
 msgid ""
 "The preset was made by a newer version of Deskence. Update Deskence to use "
 "it."
-msgstr ""
-"Preset utworzono w nowszej wersji Deskence. Zaktualizuj Deskence, aby go "
-"użyć."
+msgstr "Ten profil utworzono w nowszej wersji Deskence. Zaktualizuj aplikację, aby go użyć."
+
 
 #: src/deskence/presets.py:458
 msgid "The archive is too large to be a preset."
-msgstr "Archiwum jest za duże, by było presetem."
+msgstr "Archiwum jest zbyt duże, aby mogło zawierać profil ustawień."
+
 
 #: src/deskence/presets.py:462
 msgid "The archive does not contain a Deskence preset."
-msgstr "Archiwum nie zawiera presetu Deskence."
+msgstr "Archiwum nie zawiera profilu ustawień Deskence."
+
 
 #: src/deskence/presets.py:481
 msgid "The archive is damaged."
@@ -2958,7 +2909,8 @@ msgstr "Archiwum jest uszkodzone."
 
 #: src/deskence/presets.py:540
 msgid "The settings part of the preset is damaged."
-msgstr "Część presetu z ustawieniami jest uszkodzona."
+msgstr "Dane ustawień w profilu są uszkodzone."
+
 
 #: src/deskence/presets.py:543
 #, python-brace-format
@@ -2968,7 +2920,8 @@ msgstr "Pominięto nieznaną część „{}”."
 #: src/deskence/presets.py:548
 #, python-brace-format
 msgid "Unknown setting “{}” in {} was ignored."
-msgstr "Pominięto nieznane ustawienie „{}” w module {}."
+msgstr "Pominięto nieznane ustawienie „{}” w {}."
+
 
 #: src/deskence/presets.py:565
 #, python-brace-format
@@ -2982,22 +2935,26 @@ msgstr ""
 #: src/deskence/presets.py:573
 #, python-brace-format
 msgid "{} is not available on this computer."
-msgstr "{} – niedostępne na tym komputerze."
+msgstr "{} nie jest dostępne na tym komputerze."
+
 
 #: src/deskence/presets.py:577
 #, python-brace-format
 msgid "{} has an invalid value and was skipped."
-msgstr "{} – nieprawidłowa wartość, pominięto."
+msgstr "Pominięto „{}”, ponieważ ma nieprawidłową wartość."
+
 
 #: src/deskence/presets.py:580
 #, python-brace-format
 msgid "{} is locked by the administrator."
-msgstr "{} – zablokowane przez administratora."
+msgstr "„{}” jest zablokowane przez administratora."
+
 
 #: src/deskence/presets.py:596
 #, python-brace-format
 msgid "The language “{}” is not available on this computer and was skipped."
-msgstr "Język „{}” nie jest dostępny na tym komputerze i został pominięty."
+msgstr "Pominięto język „{}”, ponieważ nie jest dostępny na tym komputerze."
+
 
 #: src/deskence/presets.py:623
 #, python-brace-format
@@ -3024,7 +2981,8 @@ msgstr "Lista przypiętych aplikacji jest uszkodzona i została pominięta."
 #: src/deskence/presets.py:654
 #, python-brace-format
 msgid "Not installed: {}. They appear in the dock once installed."
-msgstr "Niezainstalowane: {}. Pojawią się w docku po instalacji."
+msgstr "Nie zainstalowano: {}. Elementy pojawią się w docku po zainstalowaniu."
+
 
 #: src/deskence/presets.py:664
 msgid "The list of folders in the dock is damaged and was skipped."
@@ -3033,47 +2991,43 @@ msgstr "Lista folderów w docku jest uszkodzona i została pominięta."
 #: src/deskence/presets.py:672
 #, python-brace-format
 msgid "Folder “{}” has an invalid entry and was skipped."
-msgstr "Folder „{}” ma nieprawidłowy wpis i został pominięty."
+msgstr "Pominięto folder „{}”, ponieważ jego wpis jest nieprawidłowy."
+
 
 #: src/deskence/presets.py:678
 #, python-brace-format
 msgid ""
 "The standard folder {} is not set up on this computer; it is shown as "
 "unavailable."
-msgstr ""
-"Folder standardowy {} nie jest skonfigurowany na tym komputerze; będzie "
-"pokazany jako niedostępny."
+msgstr "Folder systemowy {} nie jest skonfigurowany na tym komputerze i zostanie oznaczony jako niedostępny."
+
 
 #: src/deskence/presets.py:681
 #, python-brace-format
 msgid "Folder {} does not exist; it is shown as unavailable until it does."
-msgstr ""
-"Folder {} nie istnieje; do czasu jego utworzenia będzie pokazany jako "
-"niedostępny."
+msgstr "Folder {} nie istnieje. Będzie oznaczony jako niedostępny do czasu jego utworzenia."
+
 
 #: src/deskence/presets.py:711
 msgid ""
 "The preset uses a custom applications button image that is not included; the "
 "default icon is used."
-msgstr ""
-"Preset używa własnego obrazu przycisku aplikacji, którego nie dołączono; "
-"użyta zostanie ikona domyślna."
+msgstr "Profil używa własnej ikony przycisku aplikacji, ale nie dołączono jej do pliku. Zostanie użyta ikona domyślna."
+
 
 #: src/deskence/cli.py:56
 msgid ""
 "deskence: do not run Deskence as root; run it as your own user (without "
 "sudo)."
-msgstr ""
-"deskence: nie uruchamiaj Deskence jako root; uruchom je jako własny "
-"użytkownik (bez sudo)."
+msgstr "deskence: nie uruchamiaj Deskence jako root. Użyj zwykłego konta użytkownika (bez sudo)."
+
 
 #: src/deskence/cli.py:112
 msgid ""
 "The Deskence settings schema is not installed. Reinstall the deskence "
 "package."
-msgstr ""
-"Schemat ustawień Deskence nie jest zainstalowany. Zainstaluj ponownie pakiet "
-"deskence."
+msgstr "Nie zainstalowano schematu ustawień Deskence. Zainstaluj ponownie pakiet deskence."
+
 
 #: src/deskence/cli.py:131
 msgid "Nothing was changed: the settings cannot be saved."
@@ -3083,9 +3037,8 @@ msgstr "Niczego nie zmieniono: nie można zapisać ustawień."
 msgid ""
 "This change needs confirming. Run the command again with --yes to confirm it "
 "without a question."
-msgstr ""
-"Ta zmiana wymaga potwierdzenia. Uruchom polecenie ponownie z --yes, aby "
-"potwierdzić ją bez pytania."
+msgstr "Ta zmiana wymaga potwierdzenia. Uruchom polecenie ponownie z opcją --yes, aby potwierdzić bez pytania."
+
 
 #. Translators: the answers to a yes/no question, "no" being the default;
 #. use the first letters of the translations of "y" and "yes" below.
@@ -3107,9 +3060,8 @@ msgstr "tak"
 msgid ""
 "Saved. The change could not be confirmed in the current GNOME session; "
 "logging in again may be needed."
-msgstr ""
-"Zapisano zmianę. Nie można potwierdzić jej zastosowania w bieżącej sesji "
-"GNOME; może być wymagane ponowne logowanie."
+msgstr "Zapisano. Nie udało się potwierdzić zastosowania zmiany w bieżącej sesji GNOME. Może być potrzebne ponowne zalogowanie."
+
 
 #: src/deskence/cli.py:172
 msgid "running"
@@ -3133,7 +3085,8 @@ msgstr "uruchomi się po ponownym zalogowaniu"
 
 #: src/deskence/cli.py:177
 msgid "updated; new version after logging in again"
-msgstr "zaktualizowano; nowa wersja po ponownym zalogowaniu"
+msgstr "zaktualizowano; nowa wersja uruchomi się po ponownym zalogowaniu"
+
 
 #: src/deskence/cli.py:178 src/deskence/cli.py:293
 msgid "not installed"
@@ -3150,7 +3103,8 @@ msgstr "GNOME Shell {}: pokazano stan bieżącej sesji."
 
 #: src/deskence/cli.py:232
 msgid "GNOME Shell is not reachable: only the saved settings are known."
-msgstr "Brak połączenia z GNOME Shell: znane są tylko zapisane ustawienia."
+msgstr "Nie można połączyć się z GNOME Shell. Dostępne są tylko zapisane ustawienia."
+
 
 #: src/deskence/cli.py:234
 msgid ""
@@ -3189,19 +3143,20 @@ msgstr "{}: zamiast zainstalowanej używana jest kopia z katalogu domowego: {}"
 msgid ""
 "{}: the saved setting differs from the session; it applies after logging in "
 "again."
-msgstr ""
-"{}: zapisane ustawienie różni się od sesji; zacznie obowiązywać po ponownym "
-"zalogowaniu."
+msgstr "{}: zapisane ustawienie różni się od bieżącego stanu; zacznie obowiązywać po ponownym zalogowaniu."
+
 
 #: src/deskence/cli.py:253
 #, python-brace-format
 msgid "{}: “{}” provides the same; using both causes problems."
-msgstr "{}: „{}” zapewnia to samo; używanie obu naraz powoduje problemy."
+msgstr "{}: „{}” udostępnia tę samą funkcję; używanie obu rozszerzeń naraz może powodować problemy."
+
 
 #: src/deskence/cli.py:254
 #, python-brace-format
 msgid "{}: “{}” may provide the same."
-msgstr "{}: „{}” może zapewniać to samo."
+msgstr "{}: „{}” może udostępniać tę samą funkcję."
+
 
 #: src/deskence/cli.py:270
 msgid "Give feature names or --all, not both."
@@ -3267,15 +3222,14 @@ msgstr ""
 #: src/deskence/cli.py:347
 #, python-brace-format
 msgid "No saved preset is called “{}”. See deskence preset list."
-msgstr ""
-"Żaden zapisany preset nie nazywa się „{}”. Zobacz deskence preset list."
+msgstr "Nie znaleziono zapisanego profilu „{}”. Sprawdź listę poleceniem deskence preset list."
+
 
 #: src/deskence/cli.py:349
 #, python-brace-format
 msgid "Several saved presets are called “{}”; use one of their IDs: {}"
-msgstr ""
-"Kilka zapisanych presetów nazywa się „{}”; użyj jednego z ich "
-"identyfikatorów: {}"
+msgstr "Kilka profili ma nazwę „{}”. Użyj jednego z ich identyfikatorów: {}"
+
 
 #: src/deskence/cli.py:359
 #, python-brace-format
@@ -3289,7 +3243,8 @@ msgstr "Funkcja {}: wyłączenie"
 
 #: src/deskence/cli.py:361
 msgid "Dock: the custom applications button image"
-msgstr "Dock: własny obraz przycisku aplikacji"
+msgstr "Dock: własna ikona przycisku aplikacji"
+
 
 #: src/deskence/cli.py:363 src/deskence/cli.py:500
 #, python-brace-format
@@ -3304,12 +3259,14 @@ msgstr "Pominięto: {}"
 #: src/deskence/cli.py:391
 #, python-brace-format
 msgid "The preset was not applied: {}."
-msgstr "Nie zastosowano presetu: {}."
+msgstr "Nie zastosowano profilu: {}."
+
 
 #: src/deskence/cli.py:393
 #, python-brace-format
 msgid "These changes could not be put back: {}."
-msgstr "Nie udało się wycofać tych zmian: {}."
+msgstr "Nie udało się przywrócić tych ustawień: {}."
+
 
 #: src/deskence/cli.py:396
 msgid "The previous settings were restored."
@@ -3318,16 +3275,16 @@ msgstr "Przywrócono poprzednie ustawienia."
 #: src/deskence/cli.py:399
 #, python-brace-format
 msgid "The preset was not applied; nothing was changed. {}"
-msgstr "Nie zastosowano presetu; niczego nie zmieniono. {}"
+msgstr "Nie zastosowano profilu; niczego nie zmieniono. {}"
+
 
 #: src/deskence/cli.py:404
 #, python-brace-format
 msgid ""
 "The preset was applied only in part; these settings were not saved: {}. Undo "
 "it with: deskence preset undo"
-msgstr ""
-"Preset zastosowano tylko częściowo; nie zapisano tych ustawień: {}. Cofnij "
-"go poleceniem: deskence preset undo"
+msgstr "Zastosowano tylko część profilu — nie zapisano ustawień: {}. Cofnij zmiany poleceniem: deskence preset undo"
+
 
 #: src/deskence/cli.py:409 src/deskence/cli.py:595 src/deskence/cli.py:660
 #, python-brace-format
@@ -3336,7 +3293,8 @@ msgstr "Funkcje {}: {}"
 
 #: src/deskence/cli.py:423
 msgid "No saved presets."
-msgstr "Brak zapisanych presetów."
+msgstr "Brak zapisanych profili ustawień."
+
 
 #: src/deskence/cli.py:425 src/deskence/cli.py:737
 msgid "NAME"
@@ -3353,29 +3311,33 @@ msgstr "UTWORZONO"
 #: src/deskence/cli.py:435
 #, python-brace-format
 msgid "Your settings already match the preset “{}”."
-msgstr "Twoje ustawienia już odpowiadają presetowi „{}”."
+msgstr "Bieżące ustawienia są już takie same jak w profilu „{}”."
+
 
 #: src/deskence/cli.py:438
 #, python-brace-format
 msgid "Preset “{}” changes {} setting:"
 msgid_plural "Preset “{}” changes {} settings:"
-msgstr[0] "Preset „{}” zmienia {} ustawienie:"
-msgstr[1] "Preset „{}” zmienia {} ustawienia:"
-msgstr[2] "Preset „{}” zmienia {} ustawień:"
+msgstr[0] "Profil „{}” zmienia {} ustawienie:"
+msgstr[1] "Profil „{}” zmienia {} ustawienia:"
+msgstr[2] "Profil „{}” zmienia {} ustawień:"
+
 
 #: src/deskence/cli.py:452 src/deskence/cli.py:571 src/deskence/cli.py:643
 msgid "Nothing was changed (--dry-run)."
-msgstr "Niczego nie zmieniono (--dry-run)."
+msgstr "Nie wprowadzono zmian (--dry-run)."
+
 
 #: src/deskence/cli.py:454
 msgid "Apply the preset?"
-msgstr "Zastosować preset?"
+msgstr "Zastosować profil?"
+
 
 #: src/deskence/cli.py:459
 #, python-brace-format
 msgid "Preset “{}” applied. Undo it with: deskence preset undo"
-msgstr ""
-"Zastosowano preset „{}”. Możesz go cofnąć poleceniem: deskence preset undo"
+msgstr "Zastosowano profil „{}”. Możesz cofnąć zmiany poleceniem: deskence preset undo"
+
 
 #: src/deskence/cli.py:468
 #, python-brace-format
@@ -3387,35 +3349,32 @@ msgstr "Nie można zaimportować {}: {}"
 msgid ""
 "A saved preset is already called “{}”. Choose another name with --name, or "
 "replace it with --replace."
-msgstr ""
-"Zapisany preset o nazwie „{}” już istnieje. Wybierz inną nazwę opcją --name "
-"albo zastąp go opcją --replace."
+msgstr "Zapisany profil o nazwie „{}” już istnieje. Wybierz inną nazwę opcją --name albo zastąp go opcją --replace."
+
 
 #: src/deskence/cli.py:506
 #, python-brace-format
 msgid ""
 "The preset “{}” is valid and would be saved; nothing was changed (--dry-run)."
-msgstr ""
-"Preset „{}” jest poprawny i zostałby zapisany; niczego nie zmieniono (--dry-"
-"run)."
+msgstr "Profil „{}” jest poprawny i mógłby zostać zapisany. Nie wprowadzono zmian (--dry-run)."
+
 
 #: src/deskence/cli.py:513
 #, python-brace-format
 msgid "Preset “{}” saved as {}. Apply it with: deskence preset apply {}"
-msgstr ""
-"Zapisano preset „{}” jako {}. Zastosujesz go poleceniem: deskence preset "
-"apply {}"
+msgstr "Zapisano profil „{}” pod identyfikatorem {}. Zastosuj go poleceniem: deskence preset apply {}"
+
 
 #: src/deskence/cli.py:516
 msgid "Save and apply the preset?"
-msgstr "Zapisać i zastosować preset?"
+msgstr "Zapisać i zastosować profil?"
+
 
 #: src/deskence/cli.py:523
 #, python-brace-format
 msgid "Preset “{}” saved as {} and applied. Undo it with: deskence preset undo"
-msgstr ""
-"Zapisano preset „{}” jako {} i zastosowano go. Możesz go cofnąć poleceniem: "
-"deskence preset undo"
+msgstr "Zapisano i zastosowano profil „{}” (identyfikator: {}). Cofnij zmiany poleceniem: deskence preset undo"
+
 
 #: src/deskence/cli.py:531
 #, python-brace-format
@@ -3430,7 +3389,8 @@ msgstr "{} już istnieje. Użyj --force, aby go zastąpić."
 #: src/deskence/cli.py:540
 #, python-brace-format
 msgid "Cannot write {}: {}"
-msgstr "Nie można zapisać {}: {}"
+msgstr "Nie można zapisać pliku {}: {}"
+
 
 #: src/deskence/cli.py:542
 #, python-brace-format
@@ -3444,7 +3404,8 @@ msgstr "Wyeksportowano ustawienia do {}."
 
 #: src/deskence/cli.py:545
 msgid "No custom image is in use, so the file is plain JSON."
-msgstr "Nie jest używany żaden własny obraz, więc plik jest zwykłym JSON-em."
+msgstr "Nie używasz własnego obrazu, dlatego plik ma format JSON."
+
 
 #: src/deskence/cli.py:558
 msgid "The settings return to how they were right before the last import."
@@ -3452,30 +3413,33 @@ msgstr "Ustawienia wrócą do stanu sprzed ostatniego importu."
 
 #: src/deskence/cli.py:560
 msgid "The preset changed nothing that could be undone."
-msgstr "Preset nie zmienił niczego, co można by cofnąć."
+msgstr "Profil nie wprowadził zmian, które można cofnąć."
+
 
 #: src/deskence/cli.py:562
 #, python-brace-format
 msgid "Undoing “{}” restores:"
-msgstr "Cofnięcie „{}” przywróci:"
+msgstr "Cofnięcie profilu „{}” przywróci:"
+
 
 #: src/deskence/cli.py:566
 #, python-brace-format
 msgid ""
 "Changed after the preset was applied, so left as they are (add --include-"
 "changed to undo them too): {}"
-msgstr ""
-"Zmienione po zastosowaniu presetu, więc zostają bez zmian (dodaj --include-"
-"changed, aby cofnąć także je): {}"
+msgstr "Te ustawienia zmieniono po zastosowaniu profilu, dlatego pozostaną bez zmian: {}. Aby cofnąć je również, dodaj --include-changed."
+
 
 #: src/deskence/cli.py:574
 msgid "Undo the preset?"
-msgstr "Cofnąć preset?"
+msgstr "Cofnąć profil?"
+
 
 #: src/deskence/cli.py:583
 #, python-brace-format
 msgid "The preset was undone only in part: {}"
-msgstr "Preset cofnięto tylko częściowo: {}"
+msgstr "Cofnięto tylko część zmian profilu: {}"
+
 
 #: src/deskence/cli.py:592
 msgid "Previous settings restored."
@@ -3497,12 +3461,14 @@ msgstr "Nieznana wartość: {}. Możliwości: {}"
 
 #: src/deskence/cli.py:626
 msgid "Everything is at its default already; nothing to restore."
-msgstr "Wszystko ma już wartości domyślne; nie ma czego przywracać."
+msgstr "Wszystkie ustawienia mają już wartości domyślne. Nie ma czego przywracać."
+
 
 #: src/deskence/cli.py:631
 #, python-brace-format
 msgid "Restored to the default ({}):"
-msgstr "Zostanie przywrócone do domyślnych ({}):"
+msgstr "Przywrócono ustawienia domyślne ({}):"
+
 
 #: src/deskence/cli.py:632
 msgid "all of Deskence"
@@ -3510,7 +3476,8 @@ msgstr "całe Deskence"
 
 #: src/deskence/cli.py:636
 msgid "The applications view returns to your own order."
-msgstr "Widok aplikacji wróci do Twojej kolejności."
+msgstr "Widok aplikacji wróci do Twojego układu."
+
 
 #: src/deskence/cli.py:638
 msgid "The app-grid feature (alphabetical order) is turned off."
@@ -3520,9 +3487,8 @@ msgstr "Funkcja app-grid (kolejność alfabetyczna) zostanie wyłączona."
 msgid ""
 "Not changed: other enabled features, pinned applications, files on the "
 "desktop, custom images, saved presets and the clipboard history."
-msgstr ""
-"Bez zmian pozostaną: pozostałe włączone funkcje, przypięte aplikacje, pliki "
-"na pulpicie, własne obrazy, zapisane presety i historia schowka."
+msgstr "Bez zmian: inne włączone funkcje, przypięte aplikacje, pliki na pulpicie, własne obrazy, zapisane profile ustawień i historia schowka."
+
 
 #: src/deskence/cli.py:645
 msgid "Restore these settings?"
@@ -3546,9 +3512,8 @@ msgstr "{}: błąd: {}"
 msgid ""
 "Settings of Deskence from the command line. Without a command, the settings "
 "window opens (deskence [--page PAGE])."
-msgstr ""
-"Ustawienia Deskence z wiersza poleceń. Bez polecenia otwiera się okno "
-"ustawień (deskence [--page STRONA])."
+msgstr "Zarządzanie ustawieniami Deskence z wiersza poleceń. Bez argumentów otwiera się okno ustawień (deskence [--page PAGE])."
+
 
 #: src/deskence/cli.py:692
 #, python-brace-format
@@ -3556,10 +3521,8 @@ msgid ""
 "Features: {}. Exit status: 0 done, 1 failed, 2 invalid command line, 3 not "
 "confirmed, 4 saved but not confirmed in the running GNOME session. See man "
 "deskence."
-msgstr ""
-"Funkcje: {}. Kody zakończenia: 0 wykonano, 1 niepowodzenie, 2 błędne "
-"wywołanie, 3 brak potwierdzenia, 4 zapisano, ale bieżąca sesja GNOME tego "
-"nie potwierdziła. Zobacz man deskence."
+msgstr "Funkcje: {}. Kody zakończenia: 0 — sukces, 1 — błąd, 2 — nieprawidłowe argumenty, 3 — brak potwierdzenia, 4 — zapisano zmianę, ale nie potwierdzono jej w bieżącej sesji GNOME. Więcej: man deskence."
+
 
 #: src/deskence/cli.py:696
 msgid "COMMAND"
@@ -3579,7 +3542,8 @@ msgstr "włącz funkcje"
 
 #: src/deskence/cli.py:709
 msgid "turn features off; their settings are kept"
-msgstr "wyłącz funkcje; ich ustawienia zostaną zachowane"
+msgstr "wyłącz funkcje bez usuwania ich ustawień"
+
 
 #: src/deskence/cli.py:712 src/deskence/cli.py:762
 #, python-brace-format
@@ -3592,12 +3556,14 @@ msgstr "wszystkie funkcje Deskence (nigdy inne rozszerzenia)"
 
 #: src/deskence/cli.py:716
 msgid "list, apply, import and export presets"
-msgstr "wyświetlanie, stosowanie, import i eksport presetów"
+msgstr "wyświetlaj, stosuj, importuj i eksportuj profile ustawień"
+
 
 #: src/deskence/cli.py:717
 #, python-brace-format
 msgid "Presets are saved in {}."
-msgstr "Presety są zapisywane w {}."
+msgstr "Profile ustawień są zapisywane w {}."
+
 
 #: src/deskence/cli.py:719
 msgid "ACTION"
@@ -3613,19 +3579,23 @@ msgstr "nie pytaj o potwierdzenie"
 
 #: src/deskence/cli.py:735
 msgid "show the saved presets"
-msgstr "pokaż zapisane presety"
+msgstr "wyświetl zapisane profile ustawień"
+
 
 #: src/deskence/cli.py:736
 msgid "apply a saved preset"
-msgstr "zastosuj zapisany preset"
+msgstr "zastosuj zapisany profil"
+
 
 #: src/deskence/cli.py:737
 msgid "name or ID of a saved preset"
-msgstr "nazwa lub identyfikator zapisanego presetu"
+msgstr "nazwa lub identyfikator zapisanego profilu"
+
 
 #: src/deskence/cli.py:739
 msgid "check a preset file and save it among the presets"
-msgstr "sprawdź plik presetu i zapisz go wśród presetów"
+msgstr "sprawdź plik profilu i zapisz go na liście profili"
+
 
 #: src/deskence/cli.py:741 src/deskence/cli.py:748
 msgid "FILE"
@@ -3633,7 +3603,8 @@ msgstr "PLIK"
 
 #: src/deskence/cli.py:741
 msgid "a .json preset or a .deskence archive"
-msgstr "preset .json lub archiwum .deskence"
+msgstr "plik profilu .json lub archiwum .deskence"
+
 
 #: src/deskence/cli.py:742
 msgid "save it under this name"
@@ -3641,7 +3612,8 @@ msgstr "zapisz pod tą nazwą"
 
 #: src/deskence/cli.py:744
 msgid "replace a saved preset of the same name"
-msgstr "zastąp zapisany preset o tej samej nazwie"
+msgstr "zastąp zapisany profil o tej samej nazwie"
+
 
 #: src/deskence/cli.py:745
 msgid "also apply it"
@@ -3653,7 +3625,8 @@ msgstr "zapisz bieżące ustawienia do pliku"
 
 #: src/deskence/cli.py:749
 msgid "name stored in the preset"
-msgstr "nazwa zapisana w presecie"
+msgstr "nazwa zapisana w profilu"
+
 
 #: src/deskence/cli.py:750
 msgid "include pinned applications"
@@ -3673,11 +3646,13 @@ msgstr "zastąp istniejący plik"
 
 #: src/deskence/cli.py:755
 msgid "undo the last applied preset"
-msgstr "cofnij ostatnio zastosowany preset"
+msgstr "cofnij ostatnio zastosowany profil"
+
 
 #: src/deskence/cli.py:757
 msgid "also undo settings changed after the preset was applied"
-msgstr "cofnij także ustawienia zmienione po zastosowaniu presetu"
+msgstr "cofnij także ustawienia zmienione po zastosowaniu profilu"
+
 
 #: src/deskence/cli.py:760
 msgid "restore default settings"
@@ -3705,18 +3680,15 @@ msgid ""
 "The session bus is not available, so dconf cannot save settings. Run the "
 "command in a terminal of your GNOME session or after logging in on a text "
 "console as the same user."
-msgstr ""
-"Magistrala sesji jest niedostępna, więc dconf nie może zapisać ustawień. "
-"Uruchom polecenie w terminalu sesji GNOME albo po zalogowaniu na konsoli "
-"tekstowej jako ten sam użytkownik."
+msgstr "Magistrala sesji jest niedostępna, dlatego dconf nie może zapisać ustawień. Uruchom polecenie w terminalu sesji GNOME lub po zalogowaniu do konsoli tekstowej na to samo konto użytkownika."
+
 
 #: src/deskence/control.py:60
 msgid ""
 "Settings are only kept in memory (GSETTINGS_BACKEND=memory) and would be "
 "lost."
-msgstr ""
-"Ustawienia są przechowywane tylko w pamięci (GSETTINGS_BACKEND=memory) i "
-"zostałyby utracone."
+msgstr "Ustawienia są przechowywane tylko w pamięci (GSETTINGS_BACKEND=memory), więc zostaną utracone po zakończeniu sesji."
+
 
 #: src/deskence/keybindings.py:52
 msgid "Show Clipboard History"
@@ -3724,7 +3696,8 @@ msgstr "Pokaż historię schowka"
 
 #: src/deskence/keybindings.py:53
 msgid "Opens the history of copied texts and images"
-msgstr "Otwiera historię skopiowanych tekstów i obrazów"
+msgstr "Otwiera historię skopiowanego tekstu i obrazów"
+
 
 #: src/deskence/keybindings.py:56
 msgid "Switches Always on Top for the focused window (a GNOME shortcut)"
@@ -3736,7 +3709,8 @@ msgstr "W oknie ustawień Deskence"
 
 #: src/deskence/keybindings.py:118
 msgid "This is not a valid shortcut."
-msgstr "To nie jest prawidłowy skrót."
+msgstr "Nieprawidłowy skrót klawiszowy."
+
 
 #: src/deskence/keybindings.py:121
 msgid "A modifier key alone cannot be a shortcut."
@@ -3744,14 +3718,15 @@ msgstr "Sam klawisz modyfikujący nie może być skrótem."
 
 #: src/deskence/keybindings.py:123
 msgid "Use Ctrl, Alt or Super together with the key, or a function key."
-msgstr "Użyj klawisza razem z Ctrl, Alt lub Super albo klawisza funkcyjnego."
+msgstr "Użyj Ctrl, Alt lub Super razem z innym klawiszem albo samego klawisza funkcyjnego."
+
 
 #: src/deskence/keybindings.py:126
 msgid ""
 "Applications use this kind of shortcut themselves. Add Super, or combine "
 "Ctrl and Alt."
-msgstr ""
-"Takich skrótów używają same aplikacje. Dodaj Super albo połącz Ctrl i Alt."
+msgstr "Takie skróty są zwykle używane przez aplikacje. Dodaj Super albo użyj kombinacji Ctrl+Alt."
+
 
 #: src/deskence/keybindings.py:191
 msgid "Custom shortcut"
@@ -3766,7 +3741,8 @@ msgstr "Już używany do: {}"
 #. commas; translate them as people would search, not literally.
 #: src/deskence/search.py:44
 msgid "dock, taskbar, launcher, panel"
-msgstr "dock, pasek zadań, pasek aplikacji, panel, dok"
+msgstr "dock, dok, pasek zadań, pasek aplikacji, panel"
+
 
 #: src/deskence/search.py:45
 msgid "zoom, enlarge, magnification"
@@ -3842,7 +3818,8 @@ msgstr "błąd, diagnostyka, raport, problem, zgłoszenie"
 
 #: src/deskence/search.py:63
 msgid "backup, presets, transfer"
-msgstr "kopia zapasowa, presety, przenoszenie"
+msgstr "kopia zapasowa, profile ustawień, przenoszenie"
+
 
 #. Also in English, to find the way back from a language one cannot
 #. read.
@@ -3892,9 +3869,8 @@ msgstr "Wszędzie"
 msgid ""
 "Clashes with other Deskence shortcuts and with GNOME's own are refused. "
 "Shortcuts of other applications and extensions cannot be checked."
-msgstr ""
-"Skróty kolidujące z innymi skrótami Deskence i z własnymi skrótami GNOME są "
-"odrzucane. Skrótów innych aplikacji i rozszerzeń nie da się sprawdzić."
+msgstr "Skróty kolidujące z innymi skrótami Deskence lub GNOME są odrzucane. Nie można sprawdzić skrótów używanych przez inne aplikacje i rozszerzenia."
+
 
 #: src/deskence/shortcuts.py:167
 msgid "In the Settings Window"
@@ -3915,7 +3891,8 @@ msgstr "Polski"
 
 #: src/deskence/ui/general-page.ui:11
 msgid "Session Start"
-msgstr "Rozpoczęcie sesji"
+msgstr "Uruchamianie sesji"
+
 
 #: src/deskence/ui/general-page.ui:14
 msgid "Show the _Desktop After Logging In"
@@ -3923,13 +3900,15 @@ msgstr "Po zalogowaniu pokaż pu_lpit"
 
 #: src/deskence/ui/general-page.ui:15
 msgid "Start on the desktop instead of the activities overview"
-msgstr "Rozpoczynaj pracę na pulpicie zamiast w podglądzie aktywności"
+msgstr "Po zalogowaniu pokaż pulpit zamiast podglądu aktywności"
+
 
 #: src/deskence/ui/general-page.ui:23
 msgid ""
 "The dock, the desktop and the other features always use the language of the "
 "system."
-msgstr "Dock, pulpit i pozostałe funkcje zawsze używają języka systemu."
+msgstr "Dock, ikony pulpitu i pozostałe funkcje zawsze korzystają z języka ustawionego w systemie."
+
 
 #: src/deskence/ui/general-page.ui:26
 msgid "Application _Language"
@@ -3941,7 +3920,8 @@ msgstr "Ustawienia i polecenie deskence"
 
 #: src/deskence/ui/general-page.ui:37
 msgid "The new language is used after a restart"
-msgstr "Nowy język zostanie użyty po ponownym uruchomieniu"
+msgstr "Zmiana języka zostanie zastosowana po ponownym uruchomieniu aplikacji"
+
 
 #: src/deskence/ui/general-page.ui:41
 msgid "_Restart"
@@ -3949,15 +3929,18 @@ msgstr "_Uruchom ponownie"
 
 #: src/deskence/ui/general-page.ui:55
 msgid "Presets"
-msgstr "Presety"
+msgstr "Profile ustawień"
+
 
 #: src/deskence/ui/general-page.ui:56
 msgid "Save the current settings to return to them later."
-msgstr "Zapisz bieżące ustawienia, aby później do nich wrócić."
+msgstr "Zapisz obecne ustawienia, aby móc do nich później wrócić."
+
 
 #: src/deskence/ui/general-page.ui:59
 msgid "No saved presets"
-msgstr "Brak zapisanych presetów"
+msgstr "Brak zapisanych profili ustawień"
+
 
 #: src/deskence/ui/general-page.ui:71
 msgid "_Save Current Settings…"
@@ -3971,9 +3954,8 @@ msgstr "Przenoszenie ustawień"
 msgid ""
 "Move settings to another computer or keep them for a reinstall. Before "
 "importing, you see what changes."
-msgstr ""
-"Przenieś ustawienia na inny komputer lub zachowaj je na wypadek "
-"reinstalacji. Przed importem zobaczysz, co się zmieni."
+msgstr "Przenieś ustawienia na inny komputer lub zachowaj je na wypadek ponownej instalacji. Przed importem sprawdzisz, co się zmieni."
+
 
 #: src/deskence/ui/general-page.ui:84
 msgid "_Export to File…"
@@ -3985,7 +3967,8 @@ msgstr "_Importuj z pliku…"
 
 #: src/deskence/ui/general-page.ui:98
 msgid "_Undo Last Applied Preset…"
-msgstr "_Cofnij ostatnie zastosowanie presetu…"
+msgstr "_Cofnij ostatnio zastosowany profil…"
+
 
 #: src/deskence/ui/general-page.ui:110
 msgid "_Keyboard Shortcuts"
@@ -3993,17 +3976,16 @@ msgstr "_Skróty klawiszowe"
 
 #: src/deskence/ui/general-page.ui:111
 msgid "See and change all shortcuts of Deskence in one place"
-msgstr "Wszystkie skróty Deskence w jednym miejscu"
+msgstr "Wyświetlaj i zmieniaj wszystkie skróty Deskence w jednym miejscu"
+
 
 #: src/deskence/ui/general-page.ui:127
 msgid ""
 "Versions, the kind of session, monitors and the state of each feature, to "
 "paste into a bug report. Nothing private is included, and nothing is sent "
 "anywhere."
-msgstr ""
-"Wersje, rodzaj sesji, monitory i stan każdej funkcji do wklejenia w "
-"zgłoszeniu błędu. Raport nie zawiera prywatnych danych i nigdzie nie jest "
-"wysyłany."
+msgstr "Raport zawiera wersje oprogramowania, typ sesji, monitory i stan funkcji. Możesz dołączyć go do zgłoszenia błędu. Nie zawiera prywatnych danych ani nie jest automatycznie wysyłany."
+
 
 #: src/deskence/ui/general-page.ui:130
 msgid "S_how Report…"
@@ -4027,7 +4009,8 @@ msgstr "Kolejność"
 
 #: src/deskence/ui/app-grid-page.ui:12
 msgid "How applications are arranged in the full-screen applications view."
-msgstr "Sposób ułożenia aplikacji w pełnoekranowym widoku aplikacji."
+msgstr "Ustaw kolejność aplikacji w pełnoekranowym widoku aplikacji."
+
 
 #: src/deskence/ui/app-grid-page.ui:15
 msgid "_Order of Applications"
@@ -4048,7 +4031,8 @@ msgstr "Tło"
 #: src/deskence/ui/app-grid-page.ui:36 src/deskence/ui/app-grid-page.ui:98
 #: src/deskence/ui/app-grid-page.ui:160
 msgid "When off, the color of the GNOME style is used"
-msgstr "Po wyłączeniu używany jest kolor stylu GNOME"
+msgstr "Po wyłączeniu tej opcji używany jest kolor motywu GNOME"
+
 
 #: src/deskence/ui/app-grid-page.ui:59
 msgid "Custom Background _Transparency"
@@ -4056,7 +4040,8 @@ msgstr "Własna przezroczystość _tła"
 
 #: src/deskence/ui/app-grid-page.ui:60
 msgid "When off, the background is opaque, as in GNOME"
-msgstr "Po wyłączeniu tło jest nieprzezroczyste, jak w GNOME"
+msgstr "Po wyłączeniu tej opcji tło jest nieprzezroczyste, tak jak w GNOME"
+
 
 #: src/deskence/ui/app-grid-page.ui:66
 msgid "_Background Transparency"
@@ -4080,7 +4065,8 @@ msgstr "Włas_na przezroczystość folderów"
 
 #: src/deskence/ui/app-grid-page.ui:122 src/deskence/ui/app-grid-page.ui:184
 msgid "When off, the transparency of the GNOME style is used"
-msgstr "Po wyłączeniu używana jest przezroczystość stylu GNOME"
+msgstr "Po wyłączeniu tej opcji przezroczystość zależy od motywu GNOME"
+
 
 #: src/deskence/ui/app-grid-page.ui:128
 msgid "Folder Tr_ansparency"
@@ -4106,9 +4092,8 @@ msgstr "_Własna przezroczystość podświetlenia"
 msgid ""
 "Copy and paste work as before. The history of copied texts and images opens "
 "with its own shortcut."
-msgstr ""
-"Kopiowanie i wklejanie działa jak dotąd. Historia skopiowanych tekstów i "
-"obrazów otwiera się własnym skrótem."
+msgstr "Kopiowanie i wklejanie działa tak jak dotychczas. Historię skopiowanych tekstów i obrazów można otworzyć osobnym skrótem klawiszowym."
+
 
 #: src/deskence/ui/clipboard-page.ui:14
 msgid "_Clipboard History"
@@ -4123,9 +4108,8 @@ msgstr "_Wklejaj wybraną pozycję"
 msgid ""
 "Pastes into the window you were in, with Ctrl+V (Ctrl+Shift+V in terminals). "
 "When off, the item is only put on the clipboard."
-msgstr ""
-"Wkleja do okna, które było aktywne, skrótem Ctrl+V (w terminalach "
-"Ctrl+Shift+V). Po wyłączeniu pozycja trafia tylko do schowka."
+msgstr "Wkleja wybraną pozycję do ostatnio aktywnego okna skrótem Ctrl+V (w terminalach Ctrl+Shift+V). Po wyłączeniu tej opcji pozycja trafia tylko do schowka."
+
 
 #: src/deskence/ui/clipboard-page.ui:32
 msgid "Always Paste Text _Without Formatting"
@@ -4134,9 +4118,8 @@ msgstr "Zawsze wklejaj tekst _bez formatowania"
 #: src/deskence/ui/clipboard-page.ui:33
 msgid ""
 "Older items are always plain text. Shift+Enter pastes plain text any time."
-msgstr ""
-"Starsze pozycje są zawsze zwykłym tekstem. Shift+Enter zawsze wkleja zwykły "
-"tekst."
+msgstr "Starsze pozycje są zawsze wklejane bez formatowania. Skrót Shift+Enter również wkleja tekst bez formatowania."
+
 
 #: src/deskence/ui/clipboard-page.ui:39
 msgid "Also Remember Selected _Text"
@@ -4144,7 +4127,8 @@ msgstr "Zapamiętuj _też zaznaczony tekst"
 
 #: src/deskence/ui/clipboard-page.ui:40
 msgid "Text selected with the mouse, which the middle button pastes"
-msgstr "Tekst zaznaczony myszą, wklejany środkowym przyciskiem"
+msgstr "Zaznaczony myszą tekst, który można wkleić środkowym przyciskiem"
+
 
 #: src/deskence/ui/clipboard-page.ui:48
 msgid "Storage"
@@ -4156,15 +4140,13 @@ msgid ""
 "items stay when the history is cleared and do not count toward the limit. "
 "Content that applications mark as secret, such as from password managers, is "
 "not remembered; not every password can be recognized."
-msgstr ""
-"Historia jest przechowywana tylko w pamięci i znika po wylogowaniu. "
-"Przypięte pozycje zostają po wyczyszczeniu historii i nie liczą się do "
-"limitu. Treści oznaczone przez aplikacje jako poufne, np. z menedżerów "
-"haseł, nie są zapamiętywane; nie każde hasło da się rozpoznać."
+msgstr "Domyślnie historia jest przechowywana tylko w pamięci i znika po wylogowaniu. Przypięte pozycje pozostają po wyczyszczeniu historii i nie wliczają się do limitu. Treści oznaczone przez aplikacje jako poufne (np. z menedżerów haseł) nie są zapamiętywane, ale nie każde hasło da się rozpoznać."
+
 
 #: src/deskence/ui/clipboard-page.ui:52
 msgid "_Items Remembered"
-msgstr "_Liczba pozycji"
+msgstr "_Limit pozycji w historii"
+
 
 #: src/deskence/ui/clipboard-page.ui:66
 msgid "_Keep After Logging Out"
@@ -4184,11 +4166,13 @@ msgstr "Całą historię"
 
 #: src/deskence/ui/clipboard-page.ui:81
 msgid "P_ause Remembering"
-msgstr "_Wstrzymaj zapamiętywanie"
+msgstr "_Wstrzymaj zapisywanie historii"
+
 
 #: src/deskence/ui/clipboard-page.ui:82
 msgid "New items are not added until this is turned off"
-msgstr "Nowe pozycje nie są dodawane, dopóki to jest włączone"
+msgstr "Gdy ta opcja jest włączona, nowe pozycje nie trafiają do historii"
+
 
 #: extensions/dock/stacks.js:295 extensions/dock/stacks.js:472
 #, javascript-format
@@ -4210,19 +4194,23 @@ msgstr "Typ"
 #: extensions/dock/stacks.js:507
 #, javascript-format
 msgid "Sort by %s"
-msgstr "Sortuj: %s"
+msgstr "Sortuj według: %s"
+
 
 #: extensions/dock/stacks.js:729
 msgid "Show as Grid"
-msgstr "Pokaż jako siatkę"
+msgstr "Widok siatki"
+
 
 #: extensions/dock/stacks.js:729
 msgid "Show as List"
-msgstr "Pokaż jako listę"
+msgstr "Widok listy"
+
 
 #: extensions/dock/stacks.js:755
 msgid "This standard folder is not set up."
-msgstr "Ten folder standardowy nie jest skonfigurowany."
+msgstr "Ten folder systemowy nie jest skonfigurowany."
+
 
 #: extensions/dock/stacks.js:759
 msgid "Loading…"
@@ -4250,9 +4238,8 @@ msgstr "Ten folder jest pusty."
 msgid ""
 "This folder has more than %d items; only the first ones are shown. Open it "
 "in Files to see all."
-msgstr ""
-"Ten folder zawiera ponad %d elementów; wyświetlane są tylko pierwsze z nich. "
-"Otwórz go w Plikach, aby zobaczyć wszystkie."
+msgstr "W folderze jest ponad %d elementów. Wyświetlane są tylko pierwsze. Aby zobaczyć wszystkie, otwórz folder w aplikacji Pliki."
+
 
 #: extensions/dock/stacks.js:1101
 msgid "Folder"
@@ -4283,16 +4270,19 @@ msgstr "Folder %s jest tylko do odczytu"
 
 #: extensions/dock/fileDrop.js:139
 msgid "A folder cannot be put into itself"
-msgstr "Nie można umieścić folderu w nim samym"
+msgstr "Nie można przenieść folderu do niego samego"
+
 
 #: extensions/dock/fileDrop.js:141
 #, javascript-format
 msgid "Already in %s"
-msgstr "Pliki są już w folderze %s"
+msgstr "Te pliki znajdują się już w folderze %s"
+
 
 #: extensions/dock/fileDrop.js:143
 msgid "Only files can be put into a folder"
-msgstr "Do folderu można umieścić tylko pliki"
+msgstr "Do folderu można dodawać tylko pliki"
+
 
 #: extensions/dock/fileDrop.js:148
 #, javascript-format
@@ -4321,27 +4311,32 @@ msgstr "Nie można skopiować plików do folderu %s"
 
 #: extensions/dock/fileDrop.js:171
 msgid "Copying and moving files from the dock needs the Files application."
-msgstr "Kopiowanie i przenoszenie plików z docka wymaga aplikacji Pliki."
+msgstr "Aby kopiować i przenosić pliki z docka, potrzebna jest aplikacja Pliki."
+
 
 #: extensions/dock/fileDrop.js:606
 #, javascript-format
 msgid "Cannot open the files in %s"
-msgstr "Nie można otworzyć plików za pomocą: %s"
+msgstr "Nie można otworzyć plików w aplikacji %s"
+
 
 #: extensions/dock/appTypes.js:59
 #, javascript-format
 msgid "Open with %s"
-msgstr "Otwórz za pomocą: %s"
+msgstr "Otwórz za pomocą %s"
+
 
 #: extensions/dock/appTypes.js:61
 #, javascript-format
 msgid "%s cannot open files"
-msgstr "Aplikacja %s nie otwiera plików"
+msgstr "Aplikacja %s nie obsługuje otwierania plików"
+
 
 #: extensions/dock/appTypes.js:63
 #, javascript-format
 msgid "Cannot confirm that %s opens these files"
-msgstr "Nie można potwierdzić, że aplikacja %s obsługuje te pliki"
+msgstr "Nie można sprawdzić, czy aplikacja %s obsługuje te pliki"
+
 
 #: extensions/dock/appTypes.js:65
 #, javascript-format
@@ -4374,11 +4369,13 @@ msgstr[2] "%s, %d nowych pozycji"
 
 #: extensions/app-grid/sorter.js:225
 msgid "Applications are sorted alphabetically"
-msgstr "Aplikacje są ułożone alfabetycznie"
+msgstr "Aplikacje posortowano alfabetycznie"
+
 
 #: extensions/app-grid/sorter.js:226
 msgid "To arrange them yourself, choose “Custom Order” in Deskence."
-msgstr "Aby układać je samodzielnie, wybierz „Własna kolejność” w Deskence."
+msgstr "Aby samodzielnie ustawić kolejność, wybierz „Własna kolejność” w ustawieniach Deskence."
+
 
 #: extensions/clipboard/extension.js:272
 msgid "Ready to Paste"
@@ -4426,11 +4423,13 @@ msgstr ""
 
 #: extensions/clipboard/panel.js:159
 msgid "Resume Remembering"
-msgstr "Wznów zapamiętywanie"
+msgstr "Wznów zapisywanie historii"
+
 
 #: extensions/clipboard/panel.js:159
 msgid "Pause Remembering"
-msgstr "Wstrzymaj zapamiętywanie"
+msgstr "Wstrzymaj zapisywanie historii"
+
 
 #: extensions/clipboard/panel.js:171
 msgid "Click Again to Clear"
@@ -4438,19 +4437,23 @@ msgstr "Kliknij ponownie, aby wyczyścić"
 
 #: extensions/clipboard/panel.js:172 extensions/clipboard/panel.js:204
 msgid "Click again to remove all items except pinned ones."
-msgstr "Kliknij ponownie, aby usunąć wszystkie pozycje oprócz przypiętych."
+msgstr "Kliknij ponownie, aby usunąć wszystkie pozycje poza przypiętymi."
+
 
 #: extensions/clipboard/panel.js:206
 msgid "New items are not remembered until you resume."
-msgstr "Nowe pozycje nie są zapamiętywane do czasu wznowienia."
+msgstr "Nowe pozycje nie będą zapisywane, dopóki nie wznowisz zapisywania historii."
+
 
 #: extensions/clipboard/panel.js:208
 msgid "Nothing copied yet. Items you copy appear here."
-msgstr "Nic jeszcze nie skopiowano. Skopiowane pozycje pojawią się tutaj."
+msgstr "Historia jest pusta. Skopiowany tekst i obrazy pojawią się tutaj."
+
 
 #: extensions/clipboard/panel.js:210
 msgid "No items match the search."
-msgstr "Żadna pozycja nie pasuje do wyszukiwania."
+msgstr "Brak wyników wyszukiwania."
+
 
 #: extensions/clipboard/panel.js:229
 #, javascript-format
@@ -4471,11 +4474,13 @@ msgstr "Usuń"
 
 #: extensions/keep-awake/extension.js:83
 msgid "Keep Awake is on: the screen stays on"
-msgstr "Włączone „Nie usypiaj”: ekran pozostaje włączony"
+msgstr "Włączono „Nie usypiaj” — ekran pozostanie włączony"
+
 
 #: extensions/keep-awake/extension.js:84
 msgid "Keep Awake is on"
-msgstr "Włączone „Nie usypiaj”"
+msgstr "Włączono „Nie usypiaj”"
+
 
 #: extensions/keep-awake/extension.js:127
 msgid "Less"
@@ -4484,7 +4489,8 @@ msgstr "Mniej"
 #: extensions/keep-awake/extension.js:147
 #: extensions/keep-awake/extension.js:208
 msgid "Prevents automatic suspend"
-msgstr "Zapobiega automatycznemu usypianiu"
+msgstr "Zapobiega automatycznemu usypianiu komputera"
+
 
 #: extensions/keep-awake/extension.js:155
 msgid "Until Turned Off"
@@ -4515,7 +4521,8 @@ msgstr "Nie wygaszaj ekranu"
 
 #: extensions/keep-awake/extension.js:174
 msgid "The screen then does not turn off or lock automatically"
-msgstr "Ekran nie zgaśnie i nie zablokuje się wtedy automatycznie"
+msgstr "Ekran nie będzie się automatycznie wygaszać ani blokować"
+
 
 #: extensions/keep-awake/extension.js:179
 msgid "End Now"
